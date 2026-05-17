@@ -1,0 +1,2 @@
+"""Google Flights scraping package."""
+

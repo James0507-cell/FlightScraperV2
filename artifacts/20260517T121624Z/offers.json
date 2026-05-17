@@ -1,0 +1,1174 @@
+{
+  "offers": [
+    {
+      "origin_airport": "CEB",
+      "destination_airport": "MNL",
+      "departure_date": "2026-07-02",
+      "arrival_date": "2026-07-02",
+      "departure_time": "2026-07-02T00:10:00",
+      "arrival_time": "2026-07-02T01:40:00",
+      "duration_minutes": 90,
+      "stops": 0,
+      "price": 5086,
+      "currency": "PHP",
+      "airlines": [
+        "Cebu Pacific"
+      ],
+      "flight_numbers": [
+        "2510"
+      ],
+      "layovers": [],
+      "emissions_kg": 68,
+      "emissions_delta_percent": -4,
+      "booking_token": "CjRIaUZtNlFUY2ptQnNBUEE1TkFCRy0tLS0tLS0tc21id3YxMUFBQUFBR29Kc1pjTFNwc2VBEgY1SjI1MTAaCgjeJxAAGgNQSFA4HHDAQA==",
+      "is_best": true,
+      "segments": [
+        {
+          "airline_code": "5J",
+          "airline_name": "Cebu Pacific",
+          "flight_number": "2510",
+          "operating_airline": null,
+          "origin_airport": "CEB",
+          "origin_name": "Mactan-Cebu International Airport",
+          "destination_airport": "MNL",
+          "destination_name": "Ninoy Aquino International Airport",
+          "departure_time": "2026-07-02T00:10:00",
+          "arrival_time": "2026-07-02T01:40:00",
+          "duration_minutes": 90,
+          "aircraft": "Airbus A320"
+        }
+      ]
+    },
+    {
+      "origin_airport": "CEB",
+      "destination_airport": "MNL",
+      "departure_date": "2026-07-02",
+      "arrival_date": "2026-07-02",
+      "departure_time": "2026-07-02T07:40:00",
+      "arrival_time": "2026-07-02T09:10:00",
+      "duration_minutes": 90,
+      "stops": 0,
+      "price": 5086,
+      "currency": "PHP",
+      "airlines": [
+        "Cebu Pacific"
+      ],
+      "flight_numbers": [
+        "556"
+      ],
+      "layovers": [],
+      "emissions_kg": 67,
+      "emissions_delta_percent": -6,
+      "booking_token": "CjRIaUZtNlFUY2ptQnNBUEE1TkFCRy0tLS0tLS0tc21id3YxMUFBQUFBR29Kc1pjTFNwc2VBEgU1SjU1NhoKCN4nEAAaA1BIUDgccMBA",
+      "is_best": true,
+      "segments": [
+        {
+          "airline_code": "5J",
+          "airline_name": "Cebu Pacific",
+          "flight_number": "556",
+          "operating_airline": null,
+          "origin_airport": "CEB",
+          "origin_name": "Mactan-Cebu International Airport",
+          "destination_airport": "MNL",
+          "destination_name": "Ninoy Aquino International Airport",
+          "departure_time": "2026-07-02T07:40:00",
+          "arrival_time": "2026-07-02T09:10:00",
+          "duration_minutes": 90,
+          "aircraft": "Airbus A321"
+        }
+      ]
+    },
+    {
+      "origin_airport": "CEB",
+      "destination_airport": "MNL",
+      "departure_date": "2026-07-02",
+      "arrival_date": "2026-07-02",
+      "departure_time": "2026-07-02T08:05:00",
+      "arrival_time": "2026-07-02T09:40:00",
+      "duration_minutes": 95,
+      "stops": 0,
+      "price": 5086,
+      "currency": "PHP",
+      "airlines": [
+        "Cebu Pacific"
+      ],
+      "flight_numbers": [
+        "562"
+      ],
+      "layovers": [],
+      "emissions_kg": 51,
+      "emissions_delta_percent": -28,
+      "booking_token": "CjRIaUZtNlFUY2ptQnNBUEE1TkFCRy0tLS0tLS0tc21id3YxMUFBQUFBR29Kc1pjTFNwc2VBEgU1SjU2MhoKCN4nEAAaA1BIUDgccMBA",
+      "is_best": true,
+      "segments": [
+        {
+          "airline_code": "5J",
+          "airline_name": "Cebu Pacific",
+          "flight_number": "562",
+          "operating_airline": null,
+          "origin_airport": "CEB",
+          "origin_name": "Mactan-Cebu International Airport",
+          "destination_airport": "MNL",
+          "destination_name": "Ninoy Aquino International Airport",
+          "departure_time": "2026-07-02T08:05:00",
+          "arrival_time": "2026-07-02T09:40:00",
+          "duration_minutes": 95,
+          "aircraft": "Airbus A321neo"
+        }
+      ]
+    },
+    {
+      "origin_airport": "CEB",
+      "destination_airport": "MNL",
+      "departure_date": "2026-07-02",
+      "arrival_date": "2026-07-02",
+      "departure_time": "2026-07-02T07:55:00",
+      "arrival_time": "2026-07-02T09:15:00",
+      "duration_minutes": 80,
+      "stops": 0,
+      "price": 5121,
+      "currency": "PHP",
+      "airlines": [
+        "Philippines AirAsia"
+      ],
+      "flight_numbers": [
+        "764"
+      ],
+      "layovers": [],
+      "emissions_kg": 68,
+      "emissions_delta_percent": -4,
+      "booking_token": "CjRIaUZtNlFUY2ptQnNBUEE1TkFCRy0tLS0tLS0tc21id3YxMUFBQUFBR29Kc1pjTFNwc2VBEgVaMjc2NBoKCIEoEAAaA1BIUDgccPhA",
+      "is_best": true,
+      "segments": [
+        {
+          "airline_code": "Z2",
+          "airline_name": "Philippines AirAsia",
+          "flight_number": "764",
+          "operating_airline": null,
+          "origin_airport": "CEB",
+          "origin_name": "Mactan-Cebu International Airport",
+          "destination_airport": "MNL",
+          "destination_name": "Ninoy Aquino International Airport",
+          "departure_time": "2026-07-02T07:55:00",
+          "arrival_time": "2026-07-02T09:15:00",
+          "duration_minutes": 80,
+          "aircraft": "Airbus A320"
+        }
+      ]
+    },
+    {
+      "origin_airport": "CEB",
+      "destination_airport": "MNL",
+      "departure_date": "2026-07-02",
+      "arrival_date": "2026-07-02",
+      "departure_time": "2026-07-02T18:05:00",
+      "arrival_time": "2026-07-02T19:25:00",
+      "duration_minutes": 80,
+      "stops": 0,
+      "price": 5121,
+      "currency": "PHP",
+      "airlines": [
+        "Philippines AirAsia"
+      ],
+      "flight_numbers": [
+        "782"
+      ],
+      "layovers": [],
+      "emissions_kg": 68,
+      "emissions_delta_percent": -4,
+      "booking_token": "CjRIaUZtNlFUY2ptQnNBUEE1TkFCRy0tLS0tLS0tc21id3YxMUFBQUFBR29Kc1pjTFNwc2VBEgVaMjc4MhoKCIEoEAAaA1BIUDgccPhA",
+      "is_best": true,
+      "segments": [
+        {
+          "airline_code": "Z2",
+          "airline_name": "Philippines AirAsia",
+          "flight_number": "782",
+          "operating_airline": null,
+          "origin_airport": "CEB",
+          "origin_name": "Mactan-Cebu International Airport",
+          "destination_airport": "MNL",
+          "destination_name": "Ninoy Aquino International Airport",
+          "departure_time": "2026-07-02T18:05:00",
+          "arrival_time": "2026-07-02T19:25:00",
+          "duration_minutes": 80,
+          "aircraft": "Airbus A320"
+        }
+      ]
+    },
+    {
+      "origin_airport": "CEB",
+      "destination_airport": "MNL",
+      "departure_date": "2026-07-02",
+      "arrival_date": "2026-07-02",
+      "departure_time": "2026-07-02T00:45:00",
+      "arrival_time": "2026-07-02T02:20:00",
+      "duration_minutes": 95,
+      "stops": 0,
+      "price": 5086,
+      "currency": "PHP",
+      "airlines": [
+        "Cebu Pacific"
+      ],
+      "flight_numbers": [
+        "2504"
+      ],
+      "layovers": [],
+      "emissions_kg": 67,
+      "emissions_delta_percent": -6,
+      "booking_token": "CjRIaUZtNlFUY2ptQnNBUEE1TkFCRy0tLS0tLS0tc21id3YxMUFBQUFBR29Kc1pjTFNwc2VBEgY1SjI1MDQaCgjeJxAAGgNQSFA4HHDAQA==",
+      "is_best": true,
+      "segments": [
+        {
+          "airline_code": "5J",
+          "airline_name": "Cebu Pacific",
+          "flight_number": "2504",
+          "operating_airline": null,
+          "origin_airport": "CEB",
+          "origin_name": "Mactan-Cebu International Airport",
+          "destination_airport": "MNL",
+          "destination_name": "Ninoy Aquino International Airport",
+          "departure_time": "2026-07-02T00:45:00",
+          "arrival_time": "2026-07-02T02:20:00",
+          "duration_minutes": 95,
+          "aircraft": "Airbus A321"
+        }
+      ]
+    },
+    {
+      "origin_airport": "CEB",
+      "destination_airport": "MNL",
+      "departure_date": "2026-07-02",
+      "arrival_date": "2026-07-02",
+      "departure_time": "2026-07-02T01:00:00",
+      "arrival_time": "2026-07-02T02:35:00",
+      "duration_minutes": 95,
+      "stops": 0,
+      "price": 5086,
+      "currency": "PHP",
+      "airlines": [
+        "Cebu Pacific"
+      ],
+      "flight_numbers": [
+        "2508"
+      ],
+      "layovers": [],
+      "emissions_kg": 51,
+      "emissions_delta_percent": -28,
+      "booking_token": "CjRIaUZtNlFUY2ptQnNBUEE1TkFCRy0tLS0tLS0tc21id3YxMUFBQUFBR29Kc1pjTFNwc2VBEgY1SjI1MDgaCgjeJxAAGgNQSFA4HHDAQA==",
+      "is_best": true,
+      "segments": [
+        {
+          "airline_code": "5J",
+          "airline_name": "Cebu Pacific",
+          "flight_number": "2508",
+          "operating_airline": null,
+          "origin_airport": "CEB",
+          "origin_name": "Mactan-Cebu International Airport",
+          "destination_airport": "MNL",
+          "destination_name": "Ninoy Aquino International Airport",
+          "departure_time": "2026-07-02T01:00:00",
+          "arrival_time": "2026-07-02T02:35:00",
+          "duration_minutes": 95,
+          "aircraft": "Airbus A321neo"
+        }
+      ]
+    },
+    {
+      "origin_airport": "CEB",
+      "destination_airport": "MNL",
+      "departure_date": "2026-07-02",
+      "arrival_date": "2026-07-02",
+      "departure_time": "2026-07-02T06:55:00",
+      "arrival_time": "2026-07-02T08:35:00",
+      "duration_minutes": 100,
+      "stops": 0,
+      "price": 5086,
+      "currency": "PHP",
+      "airlines": [
+        "Cebu Pacific"
+      ],
+      "flight_numbers": [
+        "564"
+      ],
+      "layovers": [],
+      "emissions_kg": 55,
+      "emissions_delta_percent": -23,
+      "booking_token": "CjRIaUZtNlFUY2ptQnNBUEE1TkFCRy0tLS0tLS0tc21id3YxMUFBQUFBR29Kc1pjTFNwc2VBEgU1SjU2NBoKCN4nEAAaA1BIUDgccMBA",
+      "is_best": true,
+      "segments": [
+        {
+          "airline_code": "5J",
+          "airline_name": "Cebu Pacific",
+          "flight_number": "564",
+          "operating_airline": null,
+          "origin_airport": "CEB",
+          "origin_name": "Mactan-Cebu International Airport",
+          "destination_airport": "MNL",
+          "destination_name": "Ninoy Aquino International Airport",
+          "departure_time": "2026-07-02T06:55:00",
+          "arrival_time": "2026-07-02T08:35:00",
+          "duration_minutes": 100,
+          "aircraft": "Airbus A330-900neo"
+        }
+      ]
+    },
+    {
+      "origin_airport": "CEB",
+      "destination_airport": "MNL",
+      "departure_date": "2026-07-02",
+      "arrival_date": "2026-07-02",
+      "departure_time": "2026-07-02T16:05:00",
+      "arrival_time": "2026-07-02T17:40:00",
+      "duration_minutes": 95,
+      "stops": 0,
+      "price": 5086,
+      "currency": "PHP",
+      "airlines": [
+        "Cebu Pacific"
+      ],
+      "flight_numbers": [
+        "558"
+      ],
+      "layovers": [],
+      "emissions_kg": 51,
+      "emissions_delta_percent": -28,
+      "booking_token": "CjRIaUZtNlFUY2ptQnNBUEE1TkFCRy0tLS0tLS0tc21id3YxMUFBQUFBR29Kc1pjTFNwc2VBEgU1SjU1OBoKCN4nEAAaA1BIUDgccMBA",
+      "is_best": true,
+      "segments": [
+        {
+          "airline_code": "5J",
+          "airline_name": "Cebu Pacific",
+          "flight_number": "558",
+          "operating_airline": null,
+          "origin_airport": "CEB",
+          "origin_name": "Mactan-Cebu International Airport",
+          "destination_airport": "MNL",
+          "destination_name": "Ninoy Aquino International Airport",
+          "departure_time": "2026-07-02T16:05:00",
+          "arrival_time": "2026-07-02T17:40:00",
+          "duration_minutes": 95,
+          "aircraft": "Airbus A321neo"
+        }
+      ]
+    },
+    {
+      "origin_airport": "CEB",
+      "destination_airport": "MNL",
+      "departure_date": "2026-07-02",
+      "arrival_date": "2026-07-02",
+      "departure_time": "2026-07-02T17:05:00",
+      "arrival_time": "2026-07-02T18:35:00",
+      "duration_minutes": 90,
+      "stops": 0,
+      "price": 5086,
+      "currency": "PHP",
+      "airlines": [
+        "Cebu Pacific"
+      ],
+      "flight_numbers": [
+        "582"
+      ],
+      "layovers": [],
+      "emissions_kg": 51,
+      "emissions_delta_percent": -28,
+      "booking_token": "CjRIaUZtNlFUY2ptQnNBUEE1TkFCRy0tLS0tLS0tc21id3YxMUFBQUFBR29Kc1pjTFNwc2VBEgU1SjU4MhoKCN4nEAAaA1BIUDgccMBA",
+      "is_best": true,
+      "segments": [
+        {
+          "airline_code": "5J",
+          "airline_name": "Cebu Pacific",
+          "flight_number": "582",
+          "operating_airline": null,
+          "origin_airport": "CEB",
+          "origin_name": "Mactan-Cebu International Airport",
+          "destination_airport": "MNL",
+          "destination_name": "Ninoy Aquino International Airport",
+          "departure_time": "2026-07-02T17:05:00",
+          "arrival_time": "2026-07-02T18:35:00",
+          "duration_minutes": 90,
+          "aircraft": "Airbus A321neo"
+        }
+      ]
+    },
+    {
+      "origin_airport": "CEB",
+      "destination_airport": "MNL",
+      "departure_date": "2026-07-02",
+      "arrival_date": "2026-07-02",
+      "departure_time": "2026-07-02T18:20:00",
+      "arrival_time": "2026-07-02T19:55:00",
+      "duration_minutes": 95,
+      "stops": 0,
+      "price": 5086,
+      "currency": "PHP",
+      "airlines": [
+        "Cebu Pacific"
+      ],
+      "flight_numbers": [
+        "586"
+      ],
+      "layovers": [],
+      "emissions_kg": 57,
+      "emissions_delta_percent": -20,
+      "booking_token": "CjRIaUZtNlFUY2ptQnNBUEE1TkFCRy0tLS0tLS0tc21id3YxMUFBQUFBR29Kc1pjTFNwc2VBEgU1SjU4NhoKCN4nEAAaA1BIUDgccMBA",
+      "is_best": true,
+      "segments": [
+        {
+          "airline_code": "5J",
+          "airline_name": "Cebu Pacific",
+          "flight_number": "586",
+          "operating_airline": null,
+          "origin_airport": "CEB",
+          "origin_name": "Mactan-Cebu International Airport",
+          "destination_airport": "MNL",
+          "destination_name": "Ninoy Aquino International Airport",
+          "departure_time": "2026-07-02T18:20:00",
+          "arrival_time": "2026-07-02T19:55:00",
+          "duration_minutes": 95,
+          "aircraft": "Airbus A320neo"
+        }
+      ]
+    },
+    {
+      "origin_airport": "CEB",
+      "destination_airport": "MNL",
+      "departure_date": "2026-07-02",
+      "arrival_date": "2026-07-02",
+      "departure_time": "2026-07-02T19:10:00",
+      "arrival_time": "2026-07-02T20:45:00",
+      "duration_minutes": 95,
+      "stops": 0,
+      "price": 5086,
+      "currency": "PHP",
+      "airlines": [
+        "Cebu Pacific"
+      ],
+      "flight_numbers": [
+        "572"
+      ],
+      "layovers": [],
+      "emissions_kg": 55,
+      "emissions_delta_percent": -23,
+      "booking_token": "CjRIaUZtNlFUY2ptQnNBUEE1TkFCRy0tLS0tLS0tc21id3YxMUFBQUFBR29Kc1pjTFNwc2VBEgU1SjU3MhoKCN4nEAAaA1BIUDgccMBA",
+      "is_best": true,
+      "segments": [
+        {
+          "airline_code": "5J",
+          "airline_name": "Cebu Pacific",
+          "flight_number": "572",
+          "operating_airline": null,
+          "origin_airport": "CEB",
+          "origin_name": "Mactan-Cebu International Airport",
+          "destination_airport": "MNL",
+          "destination_name": "Ninoy Aquino International Airport",
+          "departure_time": "2026-07-02T19:10:00",
+          "arrival_time": "2026-07-02T20:45:00",
+          "duration_minutes": 95,
+          "aircraft": "Airbus A330-900neo"
+        }
+      ]
+    },
+    {
+      "origin_airport": "CEB",
+      "destination_airport": "MNL",
+      "departure_date": "2026-07-02",
+      "arrival_date": "2026-07-03",
+      "departure_time": "2026-07-02T22:35:00",
+      "arrival_time": "2026-07-03T00:10:00",
+      "duration_minutes": 95,
+      "stops": 0,
+      "price": 5086,
+      "currency": "PHP",
+      "airlines": [
+        "Cebu Pacific"
+      ],
+      "flight_numbers": [
+        "574"
+      ],
+      "layovers": [],
+      "emissions_kg": 55,
+      "emissions_delta_percent": -23,
+      "booking_token": "CjRIaUZtNlFUY2ptQnNBUEE1TkFCRy0tLS0tLS0tc21id3YxMUFBQUFBR29Kc1pjTFNwc2VBEgU1SjU3NBoKCN4nEAAaA1BIUDgccMBA",
+      "is_best": true,
+      "segments": [
+        {
+          "airline_code": "5J",
+          "airline_name": "Cebu Pacific",
+          "flight_number": "574",
+          "operating_airline": null,
+          "origin_airport": "CEB",
+          "origin_name": "Mactan-Cebu International Airport",
+          "destination_airport": "MNL",
+          "destination_name": "Ninoy Aquino International Airport",
+          "departure_time": "2026-07-02T22:35:00",
+          "arrival_time": "2026-07-03T00:10:00",
+          "duration_minutes": 95,
+          "aircraft": "Airbus A330-900neo"
+        }
+      ]
+    },
+    {
+      "origin_airport": "CEB",
+      "destination_airport": "MNL",
+      "departure_date": "2026-07-02",
+      "arrival_date": "2026-07-03",
+      "departure_time": "2026-07-02T23:40:00",
+      "arrival_time": "2026-07-03T01:15:00",
+      "duration_minutes": 95,
+      "stops": 0,
+      "price": 5086,
+      "currency": "PHP",
+      "airlines": [
+        "Cebu Pacific"
+      ],
+      "flight_numbers": [
+        "588"
+      ],
+      "layovers": [],
+      "emissions_kg": 68,
+      "emissions_delta_percent": -4,
+      "booking_token": "CjRIaUZtNlFUY2ptQnNBUEE1TkFCRy0tLS0tLS0tc21id3YxMUFBQUFBR29Kc1pjTFNwc2VBEgU1SjU4OBoKCN4nEAAaA1BIUDgccMBA",
+      "is_best": true,
+      "segments": [
+        {
+          "airline_code": "5J",
+          "airline_name": "Cebu Pacific",
+          "flight_number": "588",
+          "operating_airline": null,
+          "origin_airport": "CEB",
+          "origin_name": "Mactan-Cebu International Airport",
+          "destination_airport": "MNL",
+          "destination_name": "Ninoy Aquino International Airport",
+          "departure_time": "2026-07-02T23:40:00",
+          "arrival_time": "2026-07-03T01:15:00",
+          "duration_minutes": 95,
+          "aircraft": "Airbus A320"
+        }
+      ]
+    },
+    {
+      "origin_airport": "CEB",
+      "destination_airport": "MNL",
+      "departure_date": "2026-07-02",
+      "arrival_date": "2026-07-02",
+      "departure_time": "2026-07-02T20:55:00",
+      "arrival_time": "2026-07-02T22:25:00",
+      "duration_minutes": 90,
+      "stops": 0,
+      "price": 5121,
+      "currency": "PHP",
+      "airlines": [
+        "Philippines AirAsia"
+      ],
+      "flight_numbers": [
+        "778"
+      ],
+      "layovers": [],
+      "emissions_kg": 68,
+      "emissions_delta_percent": -4,
+      "booking_token": "CjRIaUZtNlFUY2ptQnNBUEE1TkFCRy0tLS0tLS0tc21id3YxMUFBQUFBR29Kc1pjTFNwc2VBEgVaMjc3OBoKCIEoEAAaA1BIUDgccPhA",
+      "is_best": true,
+      "segments": [
+        {
+          "airline_code": "Z2",
+          "airline_name": "Philippines AirAsia",
+          "flight_number": "778",
+          "operating_airline": null,
+          "origin_airport": "CEB",
+          "origin_name": "Mactan-Cebu International Airport",
+          "destination_airport": "MNL",
+          "destination_name": "Ninoy Aquino International Airport",
+          "departure_time": "2026-07-02T20:55:00",
+          "arrival_time": "2026-07-02T22:25:00",
+          "duration_minutes": 90,
+          "aircraft": "Airbus A320"
+        }
+      ]
+    },
+    {
+      "origin_airport": "CEB",
+      "destination_airport": "MNL",
+      "departure_date": "2026-07-02",
+      "arrival_date": "2026-07-02",
+      "departure_time": "2026-07-02T20:50:00",
+      "arrival_time": "2026-07-02T22:25:00",
+      "duration_minutes": 95,
+      "stops": 0,
+      "price": 5422,
+      "currency": "PHP",
+      "airlines": [
+        "Cebu Pacific"
+      ],
+      "flight_numbers": [
+        "570"
+      ],
+      "layovers": [],
+      "emissions_kg": 51,
+      "emissions_delta_percent": -28,
+      "booking_token": "CjRIaUZtNlFUY2ptQnNBUEE1TkFCRy0tLS0tLS0tc21id3YxMUFBQUFBR29Kc1pjTFNwc2VBEgU1SjU3MBoKCK4qEAAaA1BIUDgccOFE",
+      "is_best": false,
+      "segments": [
+        {
+          "airline_code": "5J",
+          "airline_name": "Cebu Pacific",
+          "flight_number": "570",
+          "operating_airline": null,
+          "origin_airport": "CEB",
+          "origin_name": "Mactan-Cebu International Airport",
+          "destination_airport": "MNL",
+          "destination_name": "Ninoy Aquino International Airport",
+          "departure_time": "2026-07-02T20:50:00",
+          "arrival_time": "2026-07-02T22:25:00",
+          "duration_minutes": 95,
+          "aircraft": "Airbus A321neo"
+        }
+      ]
+    },
+    {
+      "origin_airport": "CEB",
+      "destination_airport": "MNL",
+      "departure_date": "2026-07-02",
+      "arrival_date": "2026-07-02",
+      "departure_time": "2026-07-02T05:10:00",
+      "arrival_time": "2026-07-02T06:30:00",
+      "duration_minutes": 80,
+      "stops": 0,
+      "price": 5614,
+      "currency": "PHP",
+      "airlines": [
+        "Philippines AirAsia"
+      ],
+      "flight_numbers": [
+        "760"
+      ],
+      "layovers": [],
+      "emissions_kg": 68,
+      "emissions_delta_percent": -4,
+      "booking_token": "CjRIaUZtNlFUY2ptQnNBUEE1TkFCRy0tLS0tLS0tc21id3YxMUFBQUFBR29Kc1pjTFNwc2VBEgVaMjc2MBoKCO4rEAAaA1BIUDgccJlH",
+      "is_best": false,
+      "segments": [
+        {
+          "airline_code": "Z2",
+          "airline_name": "Philippines AirAsia",
+          "flight_number": "760",
+          "operating_airline": null,
+          "origin_airport": "CEB",
+          "origin_name": "Mactan-Cebu International Airport",
+          "destination_airport": "MNL",
+          "destination_name": "Ninoy Aquino International Airport",
+          "departure_time": "2026-07-02T05:10:00",
+          "arrival_time": "2026-07-02T06:30:00",
+          "duration_minutes": 80,
+          "aircraft": "Airbus A320"
+        }
+      ]
+    },
+    {
+      "origin_airport": "CEB",
+      "destination_airport": "MNL",
+      "departure_date": "2026-07-02",
+      "arrival_date": "2026-07-02",
+      "departure_time": "2026-07-02T22:00:00",
+      "arrival_time": "2026-07-02T23:25:00",
+      "duration_minutes": 85,
+      "stops": 0,
+      "price": 5614,
+      "currency": "PHP",
+      "airlines": [
+        "Philippines AirAsia"
+      ],
+      "flight_numbers": [
+        "772"
+      ],
+      "layovers": [],
+      "emissions_kg": 68,
+      "emissions_delta_percent": -4,
+      "booking_token": "CjRIaUZtNlFUY2ptQnNBUEE1TkFCRy0tLS0tLS0tc21id3YxMUFBQUFBR29Kc1pjTFNwc2VBEgVaMjc3MhoKCO4rEAAaA1BIUDgccJlH",
+      "is_best": false,
+      "segments": [
+        {
+          "airline_code": "Z2",
+          "airline_name": "Philippines AirAsia",
+          "flight_number": "772",
+          "operating_airline": null,
+          "origin_airport": "CEB",
+          "origin_name": "Mactan-Cebu International Airport",
+          "destination_airport": "MNL",
+          "destination_name": "Ninoy Aquino International Airport",
+          "departure_time": "2026-07-02T22:00:00",
+          "arrival_time": "2026-07-02T23:25:00",
+          "duration_minutes": 85,
+          "aircraft": "Airbus A320"
+        }
+      ]
+    },
+    {
+      "origin_airport": "CEB",
+      "destination_airport": "MNL",
+      "departure_date": "2026-07-02",
+      "arrival_date": "2026-07-02",
+      "departure_time": "2026-07-02T13:00:00",
+      "arrival_time": "2026-07-02T14:35:00",
+      "duration_minutes": 95,
+      "stops": 0,
+      "price": 5646,
+      "currency": "PHP",
+      "airlines": [
+        "Cebu Pacific"
+      ],
+      "flight_numbers": [
+        "566"
+      ],
+      "layovers": [],
+      "emissions_kg": 56,
+      "emissions_delta_percent": -21,
+      "booking_token": "CjRIaUZtNlFUY2ptQnNBUEE1TkFCRy0tLS0tLS0tc21id3YxMUFBQUFBR29Kc1pjTFNwc2VBEgU1SjU2NhoKCI4sEAAaA1BIUDgccM1H",
+      "is_best": false,
+      "segments": [
+        {
+          "airline_code": "5J",
+          "airline_name": "Cebu Pacific",
+          "flight_number": "566",
+          "operating_airline": null,
+          "origin_airport": "CEB",
+          "origin_name": "Mactan-Cebu International Airport",
+          "destination_airport": "MNL",
+          "destination_name": "Ninoy Aquino International Airport",
+          "departure_time": "2026-07-02T13:00:00",
+          "arrival_time": "2026-07-02T14:35:00",
+          "duration_minutes": 95,
+          "aircraft": "Airbus A320neo"
+        }
+      ]
+    },
+    {
+      "origin_airport": "CEB",
+      "destination_airport": "MNL",
+      "departure_date": "2026-07-02",
+      "arrival_date": "2026-07-02",
+      "departure_time": "2026-07-02T14:30:00",
+      "arrival_time": "2026-07-02T16:05:00",
+      "duration_minutes": 95,
+      "stops": 0,
+      "price": 5982,
+      "currency": "PHP",
+      "airlines": [
+        "Cebu Pacific"
+      ],
+      "flight_numbers": [
+        "552"
+      ],
+      "layovers": [],
+      "emissions_kg": 67,
+      "emissions_delta_percent": -6,
+      "booking_token": "CjRIaUZtNlFUY2ptQnNBUEE1TkFCRy0tLS0tLS0tc21id3YxMUFBQUFBR29Kc1pjTFNwc2VBEgU1SjU1MhoKCN4uEAAaA1BIUDgccO5L",
+      "is_best": false,
+      "segments": [
+        {
+          "airline_code": "5J",
+          "airline_name": "Cebu Pacific",
+          "flight_number": "552",
+          "operating_airline": null,
+          "origin_airport": "CEB",
+          "origin_name": "Mactan-Cebu International Airport",
+          "destination_airport": "MNL",
+          "destination_name": "Ninoy Aquino International Airport",
+          "departure_time": "2026-07-02T14:30:00",
+          "arrival_time": "2026-07-02T16:05:00",
+          "duration_minutes": 95,
+          "aircraft": "Airbus A321"
+        }
+      ]
+    },
+    {
+      "origin_airport": "CEB",
+      "destination_airport": "MNL",
+      "departure_date": "2026-07-02",
+      "arrival_date": "2026-07-02",
+      "departure_time": "2026-07-02T00:05:00",
+      "arrival_time": "2026-07-02T01:25:00",
+      "duration_minutes": 80,
+      "stops": 0,
+      "price": 6538,
+      "currency": "PHP",
+      "airlines": [
+        "Philippine Airlines"
+      ],
+      "flight_numbers": [
+        "2860"
+      ],
+      "layovers": [],
+      "emissions_kg": 68,
+      "emissions_delta_percent": -4,
+      "booking_token": "CjRIaUZtNlFUY2ptQnNBUEE1TkFCRy0tLS0tLS0tc21id3YxMUFBQUFBR29Kc1pjTFNwc2VBEgZQUjI4NjAaCgiKMxAAGgNQSFA4HHD0Ug==",
+      "is_best": false,
+      "segments": [
+        {
+          "airline_code": "PR",
+          "airline_name": "Philippine Airlines",
+          "flight_number": "2860",
+          "operating_airline": "PAL Express",
+          "origin_airport": "CEB",
+          "origin_name": "Mactan-Cebu International Airport",
+          "destination_airport": "MNL",
+          "destination_name": "Ninoy Aquino International Airport",
+          "departure_time": "2026-07-02T00:05:00",
+          "arrival_time": "2026-07-02T01:25:00",
+          "duration_minutes": 80,
+          "aircraft": "Airbus A320"
+        }
+      ]
+    },
+    {
+      "origin_airport": "CEB",
+      "destination_airport": "MNL",
+      "departure_date": "2026-07-02",
+      "arrival_date": "2026-07-02",
+      "departure_time": "2026-07-02T03:10:00",
+      "arrival_time": "2026-07-02T04:30:00",
+      "duration_minutes": 80,
+      "stops": 0,
+      "price": 6538,
+      "currency": "PHP",
+      "airlines": [
+        "Philippine Airlines"
+      ],
+      "flight_numbers": [
+        "2836"
+      ],
+      "layovers": [],
+      "emissions_kg": 68,
+      "emissions_delta_percent": -4,
+      "booking_token": "CjRIaUZtNlFUY2ptQnNBUEE1TkFCRy0tLS0tLS0tc21id3YxMUFBQUFBR29Kc1pjTFNwc2VBEgZQUjI4MzYaCgiKMxAAGgNQSFA4HHD0Ug==",
+      "is_best": false,
+      "segments": [
+        {
+          "airline_code": "PR",
+          "airline_name": "Philippine Airlines",
+          "flight_number": "2836",
+          "operating_airline": "PAL Express",
+          "origin_airport": "CEB",
+          "origin_name": "Mactan-Cebu International Airport",
+          "destination_airport": "MNL",
+          "destination_name": "Ninoy Aquino International Airport",
+          "departure_time": "2026-07-02T03:10:00",
+          "arrival_time": "2026-07-02T04:30:00",
+          "duration_minutes": 80,
+          "aircraft": "Airbus A320"
+        }
+      ]
+    },
+    {
+      "origin_airport": "CEB",
+      "destination_airport": "MNL",
+      "departure_date": "2026-07-02",
+      "arrival_date": "2026-07-02",
+      "departure_time": "2026-07-02T22:25:00",
+      "arrival_time": "2026-07-02T23:50:00",
+      "duration_minutes": 85,
+      "stops": 0,
+      "price": 6874,
+      "currency": "PHP",
+      "airlines": [
+        "Philippine Airlines"
+      ],
+      "flight_numbers": [
+        "1864"
+      ],
+      "layovers": [],
+      "emissions_kg": 63,
+      "emissions_delta_percent": -11,
+      "booking_token": "CjRIaUZtNlFUY2ptQnNBUEE1TkFCRy0tLS0tLS0tc21id3YxMUFBQUFBR29Kc1pjTFNwc2VBEgZQUjE4NjQaCgjaNRAAGgNQSFA4HHCWVw==",
+      "is_best": false,
+      "segments": [
+        {
+          "airline_code": "PR",
+          "airline_name": "Philippine Airlines",
+          "flight_number": "1864",
+          "operating_airline": null,
+          "origin_airport": "CEB",
+          "origin_name": "Mactan-Cebu International Airport",
+          "destination_airport": "MNL",
+          "destination_name": "Ninoy Aquino International Airport",
+          "departure_time": "2026-07-02T22:25:00",
+          "arrival_time": "2026-07-02T23:50:00",
+          "duration_minutes": 85,
+          "aircraft": "Airbus A330"
+        }
+      ]
+    },
+    {
+      "origin_airport": "CEB",
+      "destination_airport": "MNL",
+      "departure_date": "2026-07-02",
+      "arrival_date": "2026-07-03",
+      "departure_time": "2026-07-02T23:35:00",
+      "arrival_time": "2026-07-03T00:55:00",
+      "duration_minutes": 80,
+      "stops": 0,
+      "price": 6874,
+      "currency": "PHP",
+      "airlines": [
+        "Philippine Airlines"
+      ],
+      "flight_numbers": [
+        "2880"
+      ],
+      "layovers": [],
+      "emissions_kg": 68,
+      "emissions_delta_percent": -4,
+      "booking_token": "CjRIaUZtNlFUY2ptQnNBUEE1TkFCRy0tLS0tLS0tc21id3YxMUFBQUFBR29Kc1pjTFNwc2VBEgZQUjI4ODAaCgjaNRAAGgNQSFA4HHCWVw==",
+      "is_best": false,
+      "segments": [
+        {
+          "airline_code": "PR",
+          "airline_name": "Philippine Airlines",
+          "flight_number": "2880",
+          "operating_airline": "PAL Express",
+          "origin_airport": "CEB",
+          "origin_name": "Mactan-Cebu International Airport",
+          "destination_airport": "MNL",
+          "destination_name": "Ninoy Aquino International Airport",
+          "departure_time": "2026-07-02T23:35:00",
+          "arrival_time": "2026-07-03T00:55:00",
+          "duration_minutes": 80,
+          "aircraft": "Airbus A320"
+        }
+      ]
+    },
+    {
+      "origin_airport": "CEB",
+      "destination_airport": "MNL",
+      "departure_date": "2026-07-02",
+      "arrival_date": "2026-07-02",
+      "departure_time": "2026-07-02T05:45:00",
+      "arrival_time": "2026-07-02T07:05:00",
+      "duration_minutes": 80,
+      "stops": 0,
+      "price": 7210,
+      "currency": "PHP",
+      "airlines": [
+        "Philippine Airlines"
+      ],
+      "flight_numbers": [
+        "1842"
+      ],
+      "layovers": [],
+      "emissions_kg": 75,
+      "emissions_delta_percent": 6,
+      "booking_token": "CjRIaUZtNlFUY2ptQnNBUEE1TkFCRy0tLS0tLS0tc21id3YxMUFBQUFBR29Kc1pjTFNwc2VBEgZQUjE4NDIaCgiqOBAAGgNQSFA4HHC3Ww==",
+      "is_best": false,
+      "segments": [
+        {
+          "airline_code": "PR",
+          "airline_name": "Philippine Airlines",
+          "flight_number": "1842",
+          "operating_airline": null,
+          "origin_airport": "CEB",
+          "origin_name": "Mactan-Cebu International Airport",
+          "destination_airport": "MNL",
+          "destination_name": "Ninoy Aquino International Airport",
+          "departure_time": "2026-07-02T05:45:00",
+          "arrival_time": "2026-07-02T07:05:00",
+          "duration_minutes": 80,
+          "aircraft": "Airbus A321"
+        }
+      ]
+    },
+    {
+      "origin_airport": "CEB",
+      "destination_airport": "MNL",
+      "departure_date": "2026-07-02",
+      "arrival_date": "2026-07-02",
+      "departure_time": "2026-07-02T07:05:00",
+      "arrival_time": "2026-07-02T08:30:00",
+      "duration_minutes": 85,
+      "stops": 0,
+      "price": 7322,
+      "currency": "PHP",
+      "airlines": [
+        "Philippine Airlines"
+      ],
+      "flight_numbers": [
+        "2846"
+      ],
+      "layovers": [],
+      "emissions_kg": 75,
+      "emissions_delta_percent": 6,
+      "booking_token": "CjRIaUZtNlFUY2ptQnNBUEE1TkFCRy0tLS0tLS0tc21id3YxMUFBQUFBR29Kc1pjTFNwc2VBEgZQUjI4NDYaCgiaORAAGgNQSFA4HHDtXA==",
+      "is_best": false,
+      "segments": [
+        {
+          "airline_code": "PR",
+          "airline_name": "Philippine Airlines",
+          "flight_number": "2846",
+          "operating_airline": "PAL Express",
+          "origin_airport": "CEB",
+          "origin_name": "Mactan-Cebu International Airport",
+          "destination_airport": "MNL",
+          "destination_name": "Ninoy Aquino International Airport",
+          "departure_time": "2026-07-02T07:05:00",
+          "arrival_time": "2026-07-02T08:30:00",
+          "duration_minutes": 85,
+          "aircraft": "Airbus A321"
+        }
+      ]
+    },
+    {
+      "origin_airport": "CEB",
+      "destination_airport": "MNL",
+      "departure_date": "2026-07-02",
+      "arrival_date": "2026-07-02",
+      "departure_time": "2026-07-02T19:45:00",
+      "arrival_time": "2026-07-02T21:05:00",
+      "duration_minutes": 80,
+      "stops": 0,
+      "price": 10794,
+      "currency": "PHP",
+      "airlines": [
+        "Philippine Airlines"
+      ],
+      "flight_numbers": [
+        "2862"
+      ],
+      "layovers": [],
+      "emissions_kg": 68,
+      "emissions_delta_percent": -4,
+      "booking_token": "CjRIaUZtNlFUY2ptQnNBUEE1TkFCRy0tLS0tLS0tc21id3YxMUFBQUFBR29Kc1pjTFNwc2VBEgZQUjI4NjIaCgiqVBAAGgNQSFA4HHDxiAE=",
+      "is_best": false,
+      "segments": [
+        {
+          "airline_code": "PR",
+          "airline_name": "Philippine Airlines",
+          "flight_number": "2862",
+          "operating_airline": "PAL Express",
+          "origin_airport": "CEB",
+          "origin_name": "Mactan-Cebu International Airport",
+          "destination_airport": "MNL",
+          "destination_name": "Ninoy Aquino International Airport",
+          "departure_time": "2026-07-02T19:45:00",
+          "arrival_time": "2026-07-02T21:05:00",
+          "duration_minutes": 80,
+          "aircraft": "Airbus A320"
+        }
+      ]
+    },
+    {
+      "origin_airport": "CEB",
+      "destination_airport": "MNL",
+      "departure_date": "2026-07-02",
+      "arrival_date": "2026-07-02",
+      "departure_time": "2026-07-02T11:35:00",
+      "arrival_time": "2026-07-02T13:00:00",
+      "duration_minutes": 85,
+      "stops": 0,
+      "price": 11018,
+      "currency": "PHP",
+      "airlines": [
+        "Philippine Airlines"
+      ],
+      "flight_numbers": [
+        "2850"
+      ],
+      "layovers": [],
+      "emissions_kg": 75,
+      "emissions_delta_percent": 6,
+      "booking_token": "CjRIaUZtNlFUY2ptQnNBUEE1TkFCRy0tLS0tLS0tc21id3YxMUFBQUFBR29Kc1pjTFNwc2VBEgZQUjI4NTAaCgiKVhAAGgNQSFA4HHDciwE=",
+      "is_best": false,
+      "segments": [
+        {
+          "airline_code": "PR",
+          "airline_name": "Philippine Airlines",
+          "flight_number": "2850",
+          "operating_airline": "PAL Express",
+          "origin_airport": "CEB",
+          "origin_name": "Mactan-Cebu International Airport",
+          "destination_airport": "MNL",
+          "destination_name": "Ninoy Aquino International Airport",
+          "departure_time": "2026-07-02T11:35:00",
+          "arrival_time": "2026-07-02T13:00:00",
+          "duration_minutes": 85,
+          "aircraft": "Airbus A321"
+        }
+      ]
+    },
+    {
+      "origin_airport": "CEB",
+      "destination_airport": "MNL",
+      "departure_date": "2026-07-02",
+      "arrival_date": "2026-07-02",
+      "departure_time": "2026-07-02T14:35:00",
+      "arrival_time": "2026-07-02T16:00:00",
+      "duration_minutes": 85,
+      "stops": 0,
+      "price": 11018,
+      "currency": "PHP",
+      "airlines": [
+        "Philippine Airlines"
+      ],
+      "flight_numbers": [
+        "2854"
+      ],
+      "layovers": [],
+      "emissions_kg": 75,
+      "emissions_delta_percent": 6,
+      "booking_token": "CjRIaUZtNlFUY2ptQnNBUEE1TkFCRy0tLS0tLS0tc21id3YxMUFBQUFBR29Kc1pjTFNwc2VBEgZQUjI4NTQaCgiKVhAAGgNQSFA4HHDciwE=",
+      "is_best": false,
+      "segments": [
+        {
+          "airline_code": "PR",
+          "airline_name": "Philippine Airlines",
+          "flight_number": "2854",
+          "operating_airline": "PAL Express",
+          "origin_airport": "CEB",
+          "origin_name": "Mactan-Cebu International Airport",
+          "destination_airport": "MNL",
+          "destination_name": "Ninoy Aquino International Airport",
+          "departure_time": "2026-07-02T14:35:00",
+          "arrival_time": "2026-07-02T16:00:00",
+          "duration_minutes": 85,
+          "aircraft": "Airbus A321"
+        }
+      ]
+    },
+    {
+      "origin_airport": "CEB",
+      "destination_airport": "MNL",
+      "departure_date": "2026-07-02",
+      "arrival_date": "2026-07-02",
+      "departure_time": "2026-07-02T15:25:00",
+      "arrival_time": "2026-07-02T16:45:00",
+      "duration_minutes": 80,
+      "stops": 0,
+      "price": 11018,
+      "currency": "PHP",
+      "airlines": [
+        "Philippine Airlines"
+      ],
+      "flight_numbers": [
+        "2868"
+      ],
+      "layovers": [],
+      "emissions_kg": 75,
+      "emissions_delta_percent": 6,
+      "booking_token": "CjRIaUZtNlFUY2ptQnNBUEE1TkFCRy0tLS0tLS0tc21id3YxMUFBQUFBR29Kc1pjTFNwc2VBEgZQUjI4NjgaCgiKVhAAGgNQSFA4HHDciwE=",
+      "is_best": false,
+      "segments": [
+        {
+          "airline_code": "PR",
+          "airline_name": "Philippine Airlines",
+          "flight_number": "2868",
+          "operating_airline": "PAL Express",
+          "origin_airport": "CEB",
+          "origin_name": "Mactan-Cebu International Airport",
+          "destination_airport": "MNL",
+          "destination_name": "Ninoy Aquino International Airport",
+          "departure_time": "2026-07-02T15:25:00",
+          "arrival_time": "2026-07-02T16:45:00",
+          "duration_minutes": 80,
+          "aircraft": "Airbus A321"
+        }
+      ]
+    }
+  ]
+}

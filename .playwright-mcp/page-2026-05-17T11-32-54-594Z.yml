@@ -1,0 +1,1048 @@
+- generic [ref=e1]:
+  - banner [ref=e3]:
+    - generic [ref=e4]:
+      - generic [ref=e5]:
+        - button [ref=e2801] [cursor=pointer]:
+          - img [ref=e7]
+        - link [ref=e2802] [cursor=pointer]:
+          - /url: /
+      - generic [ref=e13]:
+        - generic [ref=e15]:
+          - button [ref=e2803]
+          - button [ref=e2804]
+          - navigation [ref=e23]:
+            - link [ref=e2805]:
+              - img [ref=e29]
+            - link [ref=e2806]:
+              - img [ref=e38]
+            - link [ref=e2807]:
+              - img [ref=e46]
+            - link [ref=e2808]:
+              - img [ref=e54]
+            - link [ref=e2809]:
+              - img [ref=e65]
+        - generic [ref=e79]:
+          - button [ref=e2810]:
+            - img
+          - tooltip [ref=e84]: Change appearance
+      - generic [ref=e86]:
+        - button [ref=e2811] [cursor=pointer]:
+          - img [ref=e91]
+        - link [ref=e2812] [cursor=pointer]:
+          - /url: https://accounts.google.com/ServiceLogin?service=searchandassistant&passive=1209600&continue=https%3A%2F%2Fwww.google.com%2Ftravel%2Fflights%2Fsearch%3Ftfs%3DCBwQAhosEgoyMDI2LTA3LTAyKABqDQgCEgkvbS8wMmduMXhyDQgCEgkvbS8wMTk1cGQaLBIKMjAyNi0wNy0wOCgAag0IAhIJL20vMDE5NXBkcg0IAhIJL20vMDJnbjF4QAFIAXABggELCP___________wGYAQE%26tfu%3DEgYIABAAGAA%26utm_source%3Dsign_in_ogb&followup=https%3A%2F%2Fwww.google.com%2Ftravel%2Fflights%2Fsearch%3Ftfs%3DCBwQAhosEgoyMDI2LTA3LTAyKABqDQgCEgkvbS8wMmduMXhyDQgCEgkvbS8wMTk1cGQaLBIKMjAyNi0wNy0wOCgAag0IAhIJL20vMDE5NXBkcg0IAhIJL20vMDJnbjF4QAFIAXABggELCP___________wGYAQE%26tfu%3DEgYIABAAGAA%26utm_source%3Dsign_in_ogb&ec=GAZAlQM
+          - text: Sign in
+  - generic [ref=e534]:
+    - generic [ref=e536]:
+      - generic [ref=e537]: Loading results
+      - progressbar [ref=e538]
+    - generic [ref=e545]:
+      - search [ref=e546]:
+        - heading [level=1] [ref=e2813]: Flight search
+        - generic [ref=e548]:
+          - generic [ref=e549]:
+            - combobox [ref=e2814] [cursor=pointer]:
+              - generic:
+                - img
+              - generic:
+                - generic: Round trip
+              - generic:
+                - img
+            - button [ref=e2815]:
+              - generic [ref=e563]:
+                - img [ref=e564]
+                - generic [ref=e566]: "1"
+              - img [ref=e567]
+            - combobox [ref=e2816] [cursor=pointer]:
+              - generic:
+                - generic: Economy
+              - generic:
+                - img
+          - generic [ref=e575]:
+            - generic [ref=e576]:
+              - generic [ref=e582]:
+                - combobox [ref=e2817]: Davao City
+                - generic [ref=e585]: Davao City
+                - img [ref=e586]
+              - button [ref=e2818] [cursor=pointer]:
+                - img [ref=e591]
+              - generic [ref=e598]:
+                - combobox [ref=e2819]: Manila
+                - generic [ref=e601]: Manila
+                - img [ref=e602]
+            - generic [ref=e613]:
+              - generic [ref=e615]:
+                - img [ref=e617]
+                - textbox [ref=e2820]:
+                  - /placeholder: Departure
+                  - text: Thu, Jul 2
+                - button [ref=e623]:
+                  - img [ref=e626]
+                - button [ref=e630]:
+                  - img [ref=e633]
+              - generic [ref=e637]:
+                - textbox [ref=e2821]:
+                  - /placeholder: Return
+                  - text: Wed, Jul 8
+                - button [ref=e641]:
+                  - img [ref=e644]
+                - button [ref=e648]:
+                  - img [ref=e651]
+          - heading [level=2] [ref=e2822]: Filters
+          - generic [ref=e656]:
+            - generic [ref=e657]:
+              - button "All filters, 1 filter selected" [ref=e3096]:
+                - img [ref=e663]
+                - generic [ref=e665]: All filters (1)
+              - generic [ref=e668]:
+                - generic [ref=e670]:
+                  - button "Nonstop, Stops, Selected" [ref=e3097]:
+                    - generic [ref=e675]: Nonstop
+                  - button "Clear Stops" [ref=e3098] [cursor=pointer]:
+                    - img [ref=e3099]
+                - button "Airlines, Not selected" [ref=e3102]:
+                  - generic [ref=e685]:
+                    - generic [ref=e686]: Airlines
+                    - img [ref=e687]
+                - button "Bags, Not selected" [ref=e3103]:
+                  - generic [ref=e695]:
+                    - generic [ref=e696]: Bags
+                    - img [ref=e697]
+                - button "Price, Not selected" [ref=e3104]:
+                  - generic [ref=e705]:
+                    - generic [ref=e706]: Price
+                    - img [ref=e707]
+                - button "Times, Not selected" [ref=e3105]:
+                  - generic [ref=e715]:
+                    - generic [ref=e716]: Times
+                    - img [ref=e717]
+                - button "Emissions, Not selected" [ref=e3106]:
+                  - generic [ref=e725]:
+                    - generic [ref=e726]: Emissions
+                    - img [ref=e727]
+                - button "Connecting airports, Not selected" [ref=e3107]:
+                  - generic [ref=e735]:
+                    - generic [ref=e736]: Connecting airports
+                    - img [ref=e737]
+                - button "Duration, Not selected" [ref=e3108]:
+                  - generic [ref=e745]:
+                    - generic [ref=e746]: Duration
+                    - img [ref=e747]
+            - dialog "Stops" [ref=e2832]:
+              - generic [ref=e2834]:
+                - generic [ref=e2836]:
+                  - heading "Stops" [level=2] [ref=e2837]
+                  - generic [ref=e2839]:
+                    - button "Close dialog" [ref=e2840] [cursor=pointer]:
+                      - img [ref=e2841]
+                    - tooltip [ref=e2843]: Close dialog
+                  - radiogroup "Stops" [ref=e2847]:
+                    - generic [ref=e2848]:
+                      - radio "Any number of stops" [ref=e2850] [cursor=pointer]
+                      - generic [ref=e2854]: Any number of stops
+                    - generic [ref=e2855]:
+                      - radio "Nonstop only" [checked] [active] [ref=e2857] [cursor=pointer]
+                      - generic [ref=e2860]: Nonstop only
+                    - generic [ref=e2861]:
+                      - radio "1 stop or fewer" [ref=e2863] [cursor=pointer]
+                      - generic [ref=e2866]: 1 stop or fewer
+                    - generic [ref=e2867]:
+                      - radio "2 stops or fewer" [ref=e2869] [cursor=pointer]
+                      - generic [ref=e2872]: 2 stops or fewer
+                - button "Clear Stops" [ref=e3110]:
+                  - generic [ref=e3113]: Clear
+      - main [ref=e795]:
+        - heading [level=2] [ref=e2877]: Search results
+        - alert [ref=e3114]: 25 results returned.
+        - generic [ref=e798]:
+          - tablist [ref=e799]:
+            - tab [selected] [ref=e2878] [cursor=pointer]:
+              - generic [ref=e801]:
+                - text: Best
+                - button [ref=e2879]:
+                  - img [ref=e809]
+            - tab [ref=e2880] [cursor=pointer]:
+              - generic [ref=e812]:
+                - text: Cheapest
+                - generic [ref=e814]:
+                  - generic [ref=e815]:
+                    - text: from
+                    - generic [ref=e3115]: ₱5,941
+                  - button [ref=e2881]:
+                    - img [ref=e840]
+          - tabpanel [ref=e2882]:
+            - generic [ref=e843]:
+              - heading [level=3] [ref=e2883]: Top departing flights
+              - generic [ref=e845]:
+                - generic [ref=e846]:
+                  - text: Ranked based on price and convenience
+                  - button [ref=e2884] [cursor=pointer]:
+                    - img [ref=e852]
+                  - text: Prices include required taxes + fees for 1 adult.
+                  - generic [ref=e854]:
+                    - text: Optional charges and
+                    - button [ref=e2885] [cursor=pointer]: bag fees
+                    - text: may apply.
+                    - generic [ref=e856]:
+                      - button [ref=e2886] [cursor=pointer]: Passenger assistance
+                      - text: info.
+                - button [ref=e2887]:
+                  - generic [ref=e865]: Sorted by top flights
+                  - img [ref=e866]
+              - list [ref=e868]:
+                - listitem [ref=e869]:
+                  - generic [ref=e870]:
+                    - link
+                    - generic [ref=e872] [cursor=pointer]:
+                      - generic [ref=e874]:
+                        - generic [ref=e876]:
+                          - generic [ref=e2888]:
+                            - generic [ref=e3118]: 12:05 AM
+                            - text: –
+                            - generic [ref=e3121]: 2:05 AM
+                          - generic [ref=e885]: Cebu Pacific
+                        - generic [ref=e886]:
+                          - generic [ref=e2891]: 2 hr
+                          - generic [ref=e888]:
+                            - generic [ref=e3123]: DVO
+                            - text: –
+                            - generic [ref=e3125]: MNL
+                        - generic [ref=e2892]: Nonstop
+                        - generic [ref=e899]:
+                          - generic [ref=e901]: 93 kg CO2e
+                          - generic [ref=e902]:
+                            - generic [ref=e903]: "-8% emissions"
+                            - button [ref=e2893]:
+                              - img [ref=e905]
+                        - generic [ref=e907]:
+                          - generic [ref=e909]: ₱6,177
+                          - generic [ref=e910]: round trip
+                      - text: · ··
+                    - button [ref=e2894]:
+                      - img [ref=e916]
+                - listitem [ref=e918]:
+                  - generic [ref=e919]:
+                    - link
+                    - generic [ref=e921] [cursor=pointer]:
+                      - generic [ref=e923]:
+                        - generic [ref=e925]:
+                          - generic [ref=e2895]:
+                            - generic [ref=e3128]: 1:50 AM
+                            - text: –
+                            - generic [ref=e3131]: 3:50 AM
+                          - generic [ref=e934]: Cebu Pacific
+                        - generic [ref=e935]:
+                          - generic [ref=e2898]: 2 hr
+                          - generic [ref=e937]:
+                            - generic [ref=e3133]: DVO
+                            - text: –
+                            - generic [ref=e3135]: MNL
+                        - generic [ref=e2899]: Nonstop
+                        - generic [ref=e948]:
+                          - generic [ref=e950]: 77 kg CO2e
+                          - generic [ref=e951]:
+                            - generic [ref=e952]: "-24% emissions"
+                            - button [ref=e2900]:
+                              - img [ref=e954]
+                        - generic [ref=e956]:
+                          - generic [ref=e958]: ₱6,177
+                          - generic [ref=e959]: round trip
+                      - text: · ··
+                    - button [ref=e2901]:
+                      - img [ref=e965]
+                - listitem [ref=e967]:
+                  - generic [ref=e968]:
+                    - link
+                    - generic [ref=e970] [cursor=pointer]:
+                      - generic [ref=e972]:
+                        - generic [ref=e974]:
+                          - generic [ref=e2902]:
+                            - generic [ref=e3138]: 4:30 AM
+                            - text: –
+                            - generic [ref=e3141]: 6:30 AM
+                          - generic [ref=e983]: Cebu Pacific
+                        - generic [ref=e984]:
+                          - generic [ref=e2905]: 2 hr
+                          - generic [ref=e986]:
+                            - generic [ref=e3143]: DVO
+                            - text: –
+                            - generic [ref=e3145]: MNL
+                        - generic [ref=e2906]: Nonstop
+                        - generic [ref=e997]:
+                          - generic [ref=e999]: 94 kg CO2e
+                          - generic [ref=e1000]:
+                            - generic [ref=e1001]: "-7% emissions"
+                            - button [ref=e2907]:
+                              - img [ref=e1003]
+                        - generic [ref=e1005]:
+                          - generic [ref=e1007]: ₱6,177
+                          - generic [ref=e1008]: round trip
+                      - text: · ··
+                    - button [ref=e2908]:
+                      - img [ref=e1014]
+                - listitem [ref=e1016]:
+                  - generic [ref=e1017]:
+                    - link
+                    - generic [ref=e1019] [cursor=pointer]:
+                      - generic [ref=e1021]:
+                        - generic [ref=e1023]:
+                          - generic [ref=e2909]:
+                            - generic [ref=e3148]: 7:05 AM
+                            - text: –
+                            - generic [ref=e3151]: 9:05 AM
+                          - generic [ref=e1032]: Cebu Pacific
+                        - generic [ref=e1033]:
+                          - generic [ref=e2912]: 2 hr
+                          - generic [ref=e1035]:
+                            - generic [ref=e3153]: DVO
+                            - text: –
+                            - generic [ref=e3155]: MNL
+                        - generic [ref=e2913]: Nonstop
+                        - generic [ref=e1046]:
+                          - generic [ref=e1048]: 93 kg CO2e
+                          - generic [ref=e1049]:
+                            - generic [ref=e1050]: "-8% emissions"
+                            - button [ref=e2914]:
+                              - img [ref=e1052]
+                        - generic [ref=e1054]:
+                          - generic [ref=e1056]: ₱6,177
+                          - generic [ref=e1057]: round trip
+                      - text: · ··
+                    - button [ref=e2915]:
+                      - img [ref=e1063]
+            - generic [ref=e3160]:
+              - heading [level=3] [ref=e3161]: Price insights
+              - generic [ref=e3162] [cursor=pointer]:
+                - heading [level=4] [ref=e3167]: Prices are currently high
+                - generic [ref=e3169]: View price history
+                - button [ref=e3171]:
+                  - img [ref=e3174]
+            - region [ref=e2919]:
+              - generic [ref=e3177]:
+                - img [ref=e3178]
+                - heading [level=2] [ref=e3180]: Track prices
+                - button [ref=e3184] [cursor=pointer]:
+                  - link [ref=e3185]:
+                    - img [ref=e3186]
+                - generic [ref=e3188]: Track prices from Davao City to Manila departing 2026-07-02 and returning 2026-07-08
+                - generic [ref=e3189]:
+                  - generic [ref=e3191] [cursor=pointer]: Jul 2 – 8
+                  - switch [ref=e3194] [cursor=pointer]:
+                    - generic [ref=e3199]:
+                      - img [ref=e3200]
+                      - img [ref=e3202]
+                - generic [ref=e3205]: Track prices from Davao City to Manila - Any dates
+                - generic [ref=e3207]:
+                  - generic [ref=e3208] [cursor=pointer]: Any dates
+                  - switch [ref=e3211] [cursor=pointer]:
+                    - generic [ref=e3216]:
+                      - img [ref=e3217]
+                      - img [ref=e3219]
+              - generic [ref=e1135]:
+                - button [ref=e2925]:
+                  - img [ref=e1139]
+                  - generic [ref=e1146]: Date grid
+                - button [ref=e2926]:
+                  - img [ref=e1150]
+                  - generic [ref=e1160]: Price graph
+            - generic [ref=e1161]:
+              - heading [level=3] [ref=e2927]: Other departing flights
+              - list [ref=e1163]:
+                - listitem [ref=e1164]:
+                  - generic [ref=e1165]:
+                    - link
+                    - generic [ref=e1167] [cursor=pointer]:
+                      - generic [ref=e1169]:
+                        - generic [ref=e1171]:
+                          - generic [ref=e2928]:
+                            - generic [ref=e3224]: 2:05 AM
+                            - text: –
+                            - generic [ref=e3227]: 4:10 AM
+                          - generic [ref=e1180]: Cebu Pacific
+                        - generic [ref=e1181]:
+                          - generic [ref=e2931]: 2 hr 5 min
+                          - generic [ref=e1183]:
+                            - generic [ref=e3229]: DVO
+                            - text: –
+                            - generic [ref=e3231]: MNL
+                        - generic [ref=e2932]: Nonstop
+                        - generic [ref=e1194]:
+                          - generic [ref=e1196]: 94 kg CO2e
+                          - generic [ref=e1197]:
+                            - generic [ref=e1198]: "-7% emissions"
+                            - button [ref=e2933]:
+                              - img [ref=e1200]
+                        - generic [ref=e1202]:
+                          - generic [ref=e1204]: ₱6,177
+                          - generic [ref=e1205]: round trip
+                      - text: · ··
+                    - button [ref=e2934]:
+                      - img [ref=e1211]
+                - listitem [ref=e1213]:
+                  - generic [ref=e1214]:
+                    - link
+                    - generic [ref=e1216] [cursor=pointer]:
+                      - generic [ref=e1218]:
+                        - generic [ref=e1220]:
+                          - generic [ref=e2935]:
+                            - generic [ref=e3234]: 2:50 AM
+                            - text: –
+                            - generic [ref=e3237]: 4:55 AM
+                          - generic [ref=e1229]: Cebu Pacific
+                        - generic [ref=e1230]:
+                          - generic [ref=e2938]: 2 hr 5 min
+                          - generic [ref=e1232]:
+                            - generic [ref=e3239]: DVO
+                            - text: –
+                            - generic [ref=e3241]: MNL
+                        - generic [ref=e2939]: Nonstop
+                        - generic [ref=e1243]:
+                          - generic [ref=e1245]: 94 kg CO2e
+                          - generic [ref=e1246]:
+                            - generic [ref=e1247]: "-7% emissions"
+                            - button [ref=e2940]:
+                              - img [ref=e1249]
+                        - generic [ref=e1251]:
+                          - generic [ref=e1253]: ₱6,177
+                          - generic [ref=e1254]: round trip
+                      - text: · ··
+                    - button [ref=e2941]:
+                      - img [ref=e1260]
+                - listitem [ref=e1262]:
+                  - generic [ref=e1263]:
+                    - link
+                    - generic [ref=e1265] [cursor=pointer]:
+                      - generic [ref=e1267]:
+                        - generic [ref=e1269]:
+                          - generic [ref=e2942]:
+                            - generic [ref=e3244]: 11:30 AM
+                            - text: –
+                            - generic [ref=e3247]: 1:35 PM
+                          - generic [ref=e1278]: Cebu Pacific
+                        - generic [ref=e1279]:
+                          - generic [ref=e2945]: 2 hr 5 min
+                          - generic [ref=e1281]:
+                            - generic [ref=e3249]: DVO
+                            - text: –
+                            - generic [ref=e3251]: MNL
+                        - generic [ref=e2946]: Nonstop
+                        - generic [ref=e1292]:
+                          - generic [ref=e1294]: 72 kg CO2e
+                          - generic [ref=e1295]:
+                            - generic [ref=e1296]: "-29% emissions"
+                            - button [ref=e2947]:
+                              - img [ref=e1298]
+                        - generic [ref=e1300]:
+                          - generic [ref=e1302]: ₱6,177
+                          - generic [ref=e1303]: round trip
+                      - text: · ··
+                    - button [ref=e2948]:
+                      - img [ref=e1309]
+                - listitem [ref=e1311]:
+                  - generic [ref=e1312]:
+                    - link
+                    - generic [ref=e1314] [cursor=pointer]:
+                      - generic [ref=e1316]:
+                        - generic [ref=e1318]:
+                          - generic [ref=e2949]:
+                            - generic [ref=e3254]: 6:35 PM
+                            - text: –
+                            - generic [ref=e3257]: 8:35 PM
+                          - generic [ref=e1327]: Cebu Pacific
+                        - generic [ref=e1328]:
+                          - generic [ref=e2952]: 2 hr
+                          - generic [ref=e1330]:
+                            - generic [ref=e3259]: DVO
+                            - text: –
+                            - generic [ref=e3261]: MNL
+                        - generic [ref=e2953]: Nonstop
+                        - generic [ref=e1341]:
+                          - generic [ref=e1343]: 93 kg CO2e
+                          - generic [ref=e1344]:
+                            - generic [ref=e1345]: "-8% emissions"
+                            - button [ref=e2954]:
+                              - img [ref=e1347]
+                        - generic [ref=e1349]:
+                          - generic [ref=e1351]: ₱6,177
+                          - generic [ref=e1352]: round trip
+                      - text: · ··
+                    - button [ref=e2955]:
+                      - img [ref=e1358]
+                - listitem [ref=e1360]:
+                  - generic [ref=e1361]:
+                    - link
+                    - generic [ref=e1363] [cursor=pointer]:
+                      - generic [ref=e1365]:
+                        - generic [ref=e1367]:
+                          - generic [ref=e2956]:
+                            - generic [ref=e3264]: 7:00 PM
+                            - text: –
+                            - generic [ref=e3267]: 9:00 PM
+                          - generic [ref=e1376]: Cebu Pacific
+                        - generic [ref=e1377]:
+                          - generic [ref=e2959]: 2 hr
+                          - generic [ref=e1379]:
+                            - generic [ref=e3269]: DVO
+                            - text: –
+                            - generic [ref=e3271]: MNL
+                        - generic [ref=e2960]: Nonstop
+                        - generic [ref=e1390]:
+                          - generic [ref=e1392]: 75 kg CO2e
+                          - generic [ref=e1393]:
+                            - generic [ref=e1394]: "-26% emissions"
+                            - button [ref=e2961]:
+                              - img [ref=e1396]
+                        - generic [ref=e1398]:
+                          - generic [ref=e1400]: ₱6,177
+                          - generic [ref=e1401]: round trip
+                      - text: · ··
+                    - button [ref=e2962]:
+                      - img [ref=e1407]
+                - listitem [ref=e1409]:
+                  - generic [ref=e1410]:
+                    - link
+                    - generic [ref=e1412] [cursor=pointer]:
+                      - generic [ref=e1414]:
+                        - generic [ref=e1416]:
+                          - generic [ref=e2963]:
+                            - generic [ref=e3274]: 7:50 PM
+                            - text: –
+                            - generic [ref=e3277]: 9:55 PM
+                          - generic [ref=e1425]: Cebu Pacific
+                        - generic [ref=e1426]:
+                          - generic [ref=e2966]: 2 hr 5 min
+                          - generic [ref=e1428]:
+                            - generic [ref=e3279]: DVO
+                            - text: –
+                            - generic [ref=e3281]: MNL
+                        - generic [ref=e2967]: Nonstop
+                        - generic [ref=e1439]:
+                          - generic [ref=e1441]: 93 kg CO2e
+                          - generic [ref=e1442]:
+                            - generic [ref=e1443]: "-8% emissions"
+                            - button [ref=e2968]:
+                              - img [ref=e1445]
+                        - generic [ref=e1447]:
+                          - generic [ref=e1449]: ₱6,177
+                          - generic [ref=e1450]: round trip
+                      - text: · ··
+                    - button [ref=e2969]:
+                      - img [ref=e1456]
+                - listitem [ref=e1458]:
+                  - generic [ref=e1459]:
+                    - link
+                    - generic [ref=e1461] [cursor=pointer]:
+                      - generic [ref=e1463]:
+                        - generic [ref=e1465]:
+                          - generic [ref=e2970]:
+                            - generic [ref=e3284]: 8:45 PM
+                            - text: –
+                            - generic [ref=e3287]: 10:50 PM
+                          - generic [ref=e1474]: Cebu Pacific
+                        - generic [ref=e1475]:
+                          - generic [ref=e2973]: 2 hr 5 min
+                          - generic [ref=e1477]:
+                            - generic [ref=e3289]: DVO
+                            - text: –
+                            - generic [ref=e3291]: MNL
+                        - generic [ref=e2974]: Nonstop
+                        - generic [ref=e1488]:
+                          - generic [ref=e1490]: 77 kg CO2e
+                          - generic [ref=e1491]:
+                            - generic [ref=e1492]: "-24% emissions"
+                            - button [ref=e2975]:
+                              - img [ref=e1494]
+                        - generic [ref=e1496]:
+                          - generic [ref=e1498]: ₱6,177
+                          - generic [ref=e1499]: round trip
+                      - text: · ··
+                    - button [ref=e2976]:
+                      - img [ref=e1505]
+                - listitem [ref=e1507]:
+                  - generic [ref=e1508]:
+                    - link
+                    - generic [ref=e1510] [cursor=pointer]:
+                      - generic [ref=e1512]:
+                        - generic [ref=e1514]:
+                          - generic [ref=e2977]:
+                            - generic [ref=e3294]: 10:10 PM
+                            - text: –
+                            - generic [ref=e3298]:
+                              - text: 12:15 AM
+                              - generic [ref=e3299]: "+1"
+                          - generic [ref=e1525]: Cebu Pacific
+                        - generic [ref=e1526]:
+                          - generic [ref=e2981]: 2 hr 5 min
+                          - generic [ref=e1528]:
+                            - generic [ref=e3301]: DVO
+                            - text: –
+                            - generic [ref=e3303]: MNL
+                        - generic [ref=e2982]: Nonstop
+                        - generic [ref=e1539]:
+                          - generic [ref=e1541]: 72 kg CO2e
+                          - generic [ref=e1542]:
+                            - generic [ref=e1543]: "-29% emissions"
+                            - button [ref=e2983]:
+                              - img [ref=e1545]
+                        - generic [ref=e1547]:
+                          - generic [ref=e1549]: ₱6,177
+                          - generic [ref=e1550]: round trip
+                      - text: · ··
+                    - button [ref=e2984]:
+                      - img [ref=e1556]
+                - listitem [ref=e1558]:
+                  - generic [ref=e1559]:
+                    - link
+                    - generic [ref=e1561] [cursor=pointer]:
+                      - generic [ref=e1563]:
+                        - generic [ref=e1565]:
+                          - generic [ref=e2985]:
+                            - generic [ref=e3306]: 8:50 AM
+                            - text: –
+                            - generic [ref=e3309]: 10:50 AM
+                          - generic [ref=e1574]: Cebu Pacific
+                        - generic [ref=e1575]:
+                          - generic [ref=e2988]: 2 hr
+                          - generic [ref=e1577]:
+                            - generic [ref=e3311]: DVO
+                            - text: –
+                            - generic [ref=e3313]: MNL
+                        - generic [ref=e2989]: Nonstop
+                        - generic [ref=e1588]:
+                          - generic [ref=e1590]: 75 kg CO2e
+                          - generic [ref=e1591]:
+                            - generic [ref=e1592]: "-26% emissions"
+                            - button [ref=e2990]:
+                              - img [ref=e1594]
+                        - generic [ref=e1596]:
+                          - generic [ref=e1598]: ₱6,289
+                          - generic [ref=e1599]: round trip
+                      - text: · ··
+                    - button [ref=e2991]:
+                      - img [ref=e1605]
+                - listitem [ref=e1607]:
+                  - generic [ref=e1608]:
+                    - link
+                    - generic [ref=e1610] [cursor=pointer]:
+                      - generic [ref=e1612]:
+                        - generic [ref=e1614]:
+                          - generic [ref=e2992]:
+                            - generic [ref=e3316]: 3:45 PM
+                            - text: –
+                            - generic [ref=e3319]: 5:50 PM
+                          - generic [ref=e1623]: Cebu Pacific
+                        - generic [ref=e1624]:
+                          - generic [ref=e2995]: 2 hr 5 min
+                          - generic [ref=e1626]:
+                            - generic [ref=e3321]: DVO
+                            - text: –
+                            - generic [ref=e3323]: MNL
+                        - generic [ref=e2996]: Nonstop
+                        - generic [ref=e1637]:
+                          - generic [ref=e1639]: 72 kg CO2e
+                          - generic [ref=e1640]:
+                            - generic [ref=e1641]: "-29% emissions"
+                            - button [ref=e2997]:
+                              - img [ref=e1643]
+                        - generic [ref=e1645]:
+                          - generic [ref=e1647]: ₱6,513
+                          - generic [ref=e1648]: round trip
+                      - text: · ··
+                    - button [ref=e2998]:
+                      - img [ref=e1654]
+                - listitem [ref=e1656]:
+                  - generic [ref=e1657]:
+                    - link
+                    - generic [ref=e1659] [cursor=pointer]:
+                      - generic [ref=e1661]:
+                        - generic [ref=e1663]:
+                          - generic [ref=e2999]:
+                            - generic [ref=e3326]: 2:00 AM
+                            - text: –
+                            - generic [ref=e3329]: 3:45 AM
+                          - generic [ref=e1672]:
+                            - text: Philippine Airlines
+                            - generic [ref=e1673]: ·
+                            - text: Operated by PAL Express
+                        - generic [ref=e1674]:
+                          - generic [ref=e3002]: 1 hr 45 min
+                          - generic [ref=e1676]:
+                            - generic [ref=e3331]: DVO
+                            - text: –
+                            - generic [ref=e3333]: MNL
+                        - generic [ref=e3003]: Nonstop
+                        - generic [ref=e1687]:
+                          - generic [ref=e1689]: 94 kg CO2e
+                          - generic [ref=e1690]:
+                            - generic [ref=e1691]: "-7% emissions"
+                            - button [ref=e3004]:
+                              - img [ref=e1693]
+                        - generic [ref=e1695]:
+                          - generic [ref=e1697]: ₱7,496
+                          - generic [ref=e1698]: round trip
+                      - text: · ·· ·
+                    - button [ref=e3005]:
+                      - img [ref=e1704]
+                - listitem [ref=e1706]:
+                  - generic [ref=e1707]:
+                    - link
+                    - generic [ref=e1709] [cursor=pointer]:
+                      - generic [ref=e1711]:
+                        - generic [ref=e1713]:
+                          - generic [ref=e3006]:
+                            - generic [ref=e3336]: 3:05 AM
+                            - text: –
+                            - generic [ref=e3339]: 4:50 AM
+                          - generic [ref=e1722]:
+                            - text: Philippine Airlines
+                            - generic [ref=e1723]: ·
+                            - text: Operated by PAL Express
+                        - generic [ref=e1724]:
+                          - generic [ref=e3009]: 1 hr 45 min
+                          - generic [ref=e1726]:
+                            - generic [ref=e3341]: DVO
+                            - text: –
+                            - generic [ref=e3343]: MNL
+                        - generic [ref=e3010]: Nonstop
+                        - generic [ref=e1737]:
+                          - generic [ref=e1739]: 94 kg CO2e
+                          - generic [ref=e1740]:
+                            - generic [ref=e1741]: "-7% emissions"
+                            - button [ref=e3011]:
+                              - img [ref=e1743]
+                        - generic [ref=e1745]:
+                          - generic [ref=e1747]: ₱7,496
+                          - generic [ref=e1748]: round trip
+                      - text: · ·· ·
+                    - button [ref=e3012]:
+                      - img [ref=e1754]
+                - listitem [ref=e1756]:
+                  - generic [ref=e1757]:
+                    - link
+                    - generic [ref=e1759] [cursor=pointer]:
+                      - generic [ref=e1761]:
+                        - generic [ref=e1763]:
+                          - generic [ref=e3013]:
+                            - generic [ref=e3346]: 5:15 AM
+                            - text: –
+                            - generic [ref=e3349]: 7:00 AM
+                          - generic [ref=e1772]:
+                            - text: Philippine Airlines
+                            - generic [ref=e1773]: ·
+                            - text: Operated by PAL Express
+                        - generic [ref=e1774]:
+                          - generic [ref=e3016]: 1 hr 45 min
+                          - generic [ref=e1776]:
+                            - generic [ref=e3351]: DVO
+                            - text: –
+                            - generic [ref=e3353]: MNL
+                        - generic [ref=e3017]: Nonstop
+                        - generic [ref=e1787]:
+                          - generic [ref=e1789]: 94 kg CO2e
+                          - generic [ref=e1790]:
+                            - generic [ref=e1791]: "-7% emissions"
+                            - button [ref=e3018]:
+                              - img [ref=e1793]
+                        - generic [ref=e1795]:
+                          - generic [ref=e1797]: ₱7,496
+                          - generic [ref=e1798]: round trip
+                      - text: · ·· ·
+                    - button [ref=e3019]:
+                      - img [ref=e1804]
+                - listitem [ref=e1806]:
+                  - generic [ref=e1807]:
+                    - link
+                    - generic [ref=e1809] [cursor=pointer]:
+                      - generic [ref=e1811]:
+                        - generic [ref=e1813]:
+                          - generic [ref=e3020]:
+                            - generic [ref=e3356]: 8:10 PM
+                            - text: –
+                            - generic [ref=e3359]: 9:55 PM
+                          - generic [ref=e1822]:
+                            - text: Philippine Airlines
+                            - generic [ref=e1823]: ·
+                            - text: Operated by PAL Express
+                        - generic [ref=e1824]:
+                          - generic [ref=e3023]: 1 hr 45 min
+                          - generic [ref=e1826]:
+                            - generic [ref=e3361]: DVO
+                            - text: –
+                            - generic [ref=e3363]: MNL
+                        - generic [ref=e3024]: Nonstop
+                        - generic [ref=e1837]:
+                          - generic [ref=e1839]: 104 kg CO2e
+                          - generic [ref=e1840]:
+                            - generic [ref=e1841]: Avg emissions
+                            - button [ref=e3025]:
+                              - img [ref=e1843]
+                        - generic [ref=e1845]:
+                          - generic [ref=e1847]: ₱7,496
+                          - generic [ref=e1848]: round trip
+                      - text: · ·· ·
+                    - button [ref=e3026]:
+                      - img [ref=e1854]
+                - listitem [ref=e1856]:
+                  - generic [ref=e1857]:
+                    - link
+                    - generic [ref=e1859] [cursor=pointer]:
+                      - generic [ref=e1861]:
+                        - generic [ref=e1863]:
+                          - generic [ref=e3027]:
+                            - generic [ref=e3366]: 11:20 PM
+                            - text: –
+                            - generic [ref=e3370]:
+                              - text: 1:10 AM
+                              - generic [ref=e3371]: "+1"
+                          - generic [ref=e1874]:
+                            - text: Philippine Airlines
+                            - generic [ref=e1875]: ·
+                            - text: Operated by PAL Express
+                        - generic [ref=e1876]:
+                          - generic [ref=e3031]: 1 hr 50 min
+                          - generic [ref=e1878]:
+                            - generic [ref=e3373]: DVO
+                            - text: –
+                            - generic [ref=e3375]: MNL
+                        - generic [ref=e3032]: Nonstop
+                        - generic [ref=e1889]:
+                          - generic [ref=e1891]: 104 kg CO2e
+                          - generic [ref=e1892]:
+                            - generic [ref=e1893]: Avg emissions
+                            - button [ref=e3033]:
+                              - img [ref=e1895]
+                        - generic [ref=e1897]:
+                          - generic [ref=e1899]: ₱7,496
+                          - generic [ref=e1900]: round trip
+                      - text: · ·· ·
+                    - button [ref=e3034]:
+                      - img [ref=e1906]
+                - listitem [ref=e1908]:
+                  - generic [ref=e1909]:
+                    - link
+                    - generic [ref=e1911] [cursor=pointer]:
+                      - generic [ref=e1913]:
+                        - generic [ref=e1915]:
+                          - generic [ref=e3035]:
+                            - generic [ref=e3378]: 6:05 AM
+                            - text: –
+                            - generic [ref=e3381]: 7:50 AM
+                          - generic [ref=e1924]: Philippine Airlines
+                        - generic [ref=e1925]:
+                          - generic [ref=e3038]: 1 hr 45 min
+                          - generic [ref=e1927]:
+                            - generic [ref=e3383]: DVO
+                            - text: –
+                            - generic [ref=e3385]: MNL
+                        - generic [ref=e3039]: Nonstop
+                        - generic [ref=e1938]:
+                          - generic [ref=e1940]: 104 kg CO2e
+                          - generic [ref=e1941]:
+                            - generic [ref=e1942]: Avg emissions
+                            - button [ref=e3040]:
+                              - img [ref=e1944]
+                        - generic [ref=e1946]:
+                          - generic [ref=e1948]: ₱7,731
+                          - generic [ref=e1949]: round trip
+                      - text: · ··
+                    - button [ref=e3041]:
+                      - img [ref=e1955]
+                - listitem [ref=e1957]:
+                  - generic [ref=e1958]:
+                    - link
+                    - generic [ref=e1960] [cursor=pointer]:
+                      - generic [ref=e1962]:
+                        - generic [ref=e1964]:
+                          - generic [ref=e3042]:
+                            - generic [ref=e3388]: 7:55 AM
+                            - text: –
+                            - generic [ref=e3391]: 9:40 AM
+                          - generic [ref=e1973]:
+                            - text: Philippine Airlines
+                            - generic [ref=e1974]: ·
+                            - text: Operated by PAL Express
+                        - generic [ref=e1975]:
+                          - generic [ref=e3045]: 1 hr 45 min
+                          - generic [ref=e1977]:
+                            - generic [ref=e3393]: DVO
+                            - text: –
+                            - generic [ref=e3395]: MNL
+                        - generic [ref=e3046]: Nonstop
+                        - generic [ref=e1988]:
+                          - generic [ref=e1990]: 104 kg CO2e
+                          - generic [ref=e1991]:
+                            - generic [ref=e1992]: Avg emissions
+                            - button [ref=e3047]:
+                              - img [ref=e1994]
+                        - generic [ref=e1996]:
+                          - generic [ref=e1998]: ₱7,731
+                          - generic [ref=e1999]: round trip
+                      - text: · ·· ·
+                    - button [ref=e3048]:
+                      - img [ref=e2005]
+                - listitem [ref=e2007]:
+                  - generic [ref=e2008]:
+                    - link
+                    - generic [ref=e2010] [cursor=pointer]:
+                      - generic [ref=e2012]:
+                        - generic [ref=e2014]:
+                          - generic [ref=e3049]:
+                            - generic [ref=e3398]: 10:50 AM
+                            - text: –
+                            - generic [ref=e3401]: 12:40 PM
+                          - generic [ref=e2023]:
+                            - text: Philippine Airlines
+                            - generic [ref=e2024]: ·
+                            - text: Operated by PAL Express
+                        - generic [ref=e2025]:
+                          - generic [ref=e3052]: 1 hr 50 min
+                          - generic [ref=e2027]:
+                            - generic [ref=e3403]: DVO
+                            - text: –
+                            - generic [ref=e3405]: MNL
+                        - generic [ref=e3053]: Nonstop
+                        - generic [ref=e2038]:
+                          - generic [ref=e2040]: 104 kg CO2e
+                          - generic [ref=e2041]:
+                            - generic [ref=e2042]: Avg emissions
+                            - button [ref=e3054]:
+                              - img [ref=e2044]
+                        - generic [ref=e2046]:
+                          - generic [ref=e2048]: ₱7,731
+                          - generic [ref=e2049]: round trip
+                      - text: · ·· ·
+                    - button [ref=e3055]:
+                      - img [ref=e2055]
+                - listitem [ref=e2057]:
+                  - generic [ref=e2058]:
+                    - link
+                    - generic [ref=e2060] [cursor=pointer]:
+                      - generic [ref=e2062]:
+                        - generic [ref=e2064]:
+                          - generic [ref=e3056]:
+                            - generic [ref=e3408]: 1:55 PM
+                            - text: –
+                            - generic [ref=e3411]: 3:40 PM
+                          - generic [ref=e2073]:
+                            - text: Philippine Airlines
+                            - generic [ref=e2074]: ·
+                            - text: Operated by PAL Express
+                        - generic [ref=e2075]:
+                          - generic [ref=e3059]: 1 hr 45 min
+                          - generic [ref=e2077]:
+                            - generic [ref=e3413]: DVO
+                            - text: –
+                            - generic [ref=e3415]: MNL
+                        - generic [ref=e3060]: Nonstop
+                        - generic [ref=e2088]:
+                          - generic [ref=e2090]: 104 kg CO2e
+                          - generic [ref=e2091]:
+                            - generic [ref=e2092]: Avg emissions
+                            - button [ref=e3061]:
+                              - img [ref=e2094]
+                        - generic [ref=e2096]:
+                          - generic [ref=e2098]: ₱7,731
+                          - generic [ref=e2099]: round trip
+                      - text: · ·· ·
+                    - button [ref=e3062]:
+                      - img [ref=e2105]
+                - listitem [ref=e2107]:
+                  - generic [ref=e2108]:
+                    - link
+                    - generic [ref=e2110] [cursor=pointer]:
+                      - generic [ref=e2112]:
+                        - generic [ref=e2114]:
+                          - generic [ref=e3063]:
+                            - generic [ref=e3418]: 3:35 PM
+                            - text: –
+                            - generic [ref=e3421]: 5:40 PM
+                          - generic [ref=e2123]: Philippine Airlines
+                        - generic [ref=e2124]:
+                          - generic [ref=e3066]: 2 hr 5 min
+                          - generic [ref=e2126]:
+                            - generic [ref=e3423]: DVO
+                            - text: –
+                            - generic [ref=e3425]: MNL
+                        - generic [ref=e3067]: Nonstop
+                        - generic [ref=e2137]:
+                          - generic [ref=e2139]: 84 kg CO2e
+                          - generic [ref=e2140]:
+                            - generic [ref=e2141]: "-17% emissions"
+                            - button [ref=e3068]:
+                              - img [ref=e2143]
+                        - generic [ref=e2145]:
+                          - generic [ref=e2147]: ₱7,731
+                          - generic [ref=e2148]: round trip
+                      - text: · ··
+                    - button [ref=e3069]:
+                      - img [ref=e2154]
+                - listitem [ref=e2208]:
+                  - generic [ref=e2209]:
+                    - link
+                    - generic [ref=e2211] [cursor=pointer]:
+                      - generic [ref=e2213]:
+                        - generic [ref=e2215]:
+                          - generic [ref=e3078]:
+                            - generic [ref=e3428]: 5:25 PM
+                            - text: –
+                            - generic [ref=e3431]: 7:15 PM
+                          - generic [ref=e2224]:
+                            - text: Philippine Airlines
+                            - generic [ref=e2225]: ·
+                            - text: Operated by PAL Express
+                        - generic [ref=e2226]:
+                          - generic [ref=e3081]: 1 hr 50 min
+                          - generic [ref=e2228]:
+                            - generic [ref=e3433]: DVO
+                            - text: –
+                            - generic [ref=e3435]: MNL
+                        - generic [ref=e3082]: Nonstop
+                        - generic [ref=e2239]:
+                          - generic [ref=e2241]: 104 kg CO2e
+                          - generic [ref=e2242]:
+                            - generic [ref=e2243]: Avg emissions
+                            - button [ref=e3083]:
+                              - img [ref=e2245]
+                        - generic [ref=e2247]:
+                          - generic [ref=e2249]: ₱9,635
+                          - generic [ref=e2250]: round trip
+                      - text: · ·· ·
+                    - button [ref=e3084]:
+                      - img [ref=e2256]
+          - text: · ·· · ·· · ·· · ·· · ·· · ·· · ·· · ·· · ·· · ·· · ·· · ·· · ·· · ·· · · ·· · · · ·· · · · ·· · · · ·· · · · ·· · · ·· · · ·· · · · ·· · · · ·· · · ·· · · ·· ·
+      - contentinfo [ref=e753]:
+        - generic [ref=e755]:
+          - button [ref=e3086]:
+            - img [ref=e759]
+            - generic [ref=e761]: Language·English (United States)
+          - button [ref=e3087]:
+            - img [ref=e765]
+            - generic [ref=e768]: Location·Philippines
+          - button [ref=e3088]:
+            - img [ref=e772]
+            - generic [ref=e782]: Currency·PHP
+        - generic [ref=e783]:
+          - link [ref=e3089] [cursor=pointer]:
+            - /url: https://about.google/?hl=en-US
+            - text: About
+          - link [ref=e3090] [cursor=pointer]:
+            - /url: https://policies.google.com/privacy?hl=en-US
+            - text: Privacy
+          - link [ref=e3091] [cursor=pointer]:
+            - /url: https://policies.google.com/terms?hl=en-US
+            - text: Terms
+          - link [ref=e3092] [cursor=pointer]:
+            - /url: https://google.qualtrics.com/jfe/form/SV_3NMIMtX0F2zkakR?reserved%3D1%26utm_source%3DFooter%2520link%26utm_medium%3Down_web%26%20utm_campaign%3DQ2%26productTag%3D0%26campaignDate%3DApril2020%26referral_code%3DUXbJ377133&Q_Language=en-US
+            - text: Join user studies
+          - link [ref=e3093] [cursor=pointer]:
+            - /url: ./#0
+            - text: Feedback
+          - link [ref=e3094] [cursor=pointer]:
+            - /url: https://support.google.com/travel/?hl=en-US#topic=2475360
+            - text: Help Center
+        - generic [ref=e790]:
+          - paragraph [ref=e791]:
+            - text: Displayed currencies may differ from the currencies used to purchase flights.
+            - link [ref=e3095] [cursor=pointer]:
+              - /url: https://www.google.com/googlefinance/disclaimer?hl=en-US&gl=PH
+              - text: Learn more
+          - paragraph [ref=e793]: Prices are final prices and include all taxes and fees, including payment fees for the cheapest common payment method (which may differ depending on the provider). Additional charges may apply for other types of payment, luggage, meals, WLAN or other additional services. Prices, availability and travel details are provided based on the latest information received from our partners. This information is reflected in the results within a period of less than 24 hours. Additional conditions may also be applied by our partners. You should then check prices and conditions with the services providers before booking.

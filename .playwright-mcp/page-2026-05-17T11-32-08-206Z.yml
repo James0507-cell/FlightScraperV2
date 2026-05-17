@@ -1,0 +1,165 @@
+- generic [active] [ref=e1]:
+  - banner [ref=e3]:
+    - generic [ref=e4]:
+      - generic [ref=e5]:
+        - button "Main menu" [ref=e6] [cursor=pointer]:
+          - img [ref=e7]
+        - link "Google" [ref=e11] [cursor=pointer]:
+          - /url: /
+      - generic [ref=e13]:
+        - generic [ref=e15]:
+          - generic:
+            - button "Skip to main content" [ref=e16]:
+              - generic: Skip to main content
+            - button "Accessibility feedback" [ref=e19]:
+              - generic: Accessibility feedback
+          - navigation [ref=e23]:
+            - link "Travel" [ref=e26]:
+              - img [ref=e29]
+              - generic: Travel
+            - link "Explore" [ref=e35]:
+              - img [ref=e38]
+              - generic: Explore
+            - link "Flights" [ref=e43]:
+              - img [ref=e46]
+              - generic: Flights
+            - link "Hotels" [ref=e51]:
+              - img [ref=e54]
+              - generic: Hotels
+            - link "Vacation rentals" [ref=e62]:
+              - img [ref=e65]
+              - generic: Vacation rentals
+        - generic [ref=e79]:
+          - button "Change appearance" [ref=e81]:
+            - img
+          - tooltip [ref=e84]: Change appearance
+      - generic [ref=e86]:
+        - button "Google apps" [ref=e90] [cursor=pointer]:
+          - img [ref=e91]
+        - link "Sign in" [ref=e94] [cursor=pointer]:
+          - /url: https://accounts.google.com/ServiceLogin?service=searchandassistant&passive=1209600&continue=https%3A%2F%2Fwww.google.com%2Ftravel%2Fflights%2Fsearch%3Ftfs%3DCBwQAhoqEgoyMDI2LTA3LTAyag0IAhIJL20vMDJnbjF4cg0IAhIJL20vMDE5NXBkGioSCjIwMjYtMDctMDhqDQgCEgkvbS8wMTk1cGRyDQgCEgkvbS8wMmduMXhAAUgBcAGCAQsI____________AZgBAQ%26tfu%3DCsABQ2pSSWNra3paVVpzUlRscmREUkJUemsyYVdkQ1J5MHRMUzB0TFMwdExYTnRZbXBoTWtGQlFVRkJSMjlLY0hsTlQyWnNaVzlCRWtWamFHVmhjR1Z6ZEZKdmRXNWtWSEpwY0MwdmJTOHdNbWR1TVhndEwyMHZNREU1TlhCa0xVUldUeTFOVGt3dE1DMHlNREkyTFRBM0xUQXlMVEl3TWpZdE1EY3RNRGdhQ2dpaE1CQUFHZ05RU0ZBNEwzQ3FUZz09EgYIABAAGAA%26utm_source%3Dsign_in_ogb&followup=https%3A%2F%2Fwww.google.com%2Ftravel%2Fflights%2Fsearch%3Ftfs%3DCBwQAhoqEgoyMDI2LTA3LTAyag0IAhIJL20vMDJnbjF4cg0IAhIJL20vMDE5NXBkGioSCjIwMjYtMDctMDhqDQgCEgkvbS8wMTk1cGRyDQgCEgkvbS8wMmduMXhAAUgBcAGCAQsI____________AZgBAQ%26tfu%3DCsABQ2pSSWNra3paVVpzUlRscmREUkJUemsyYVdkQ1J5MHRMUzB0TFMwdExYTnRZbXBoTWtGQlFVRkJSMjlLY0hsTlQyWnNaVzlCRWtWamFHVmhjR1Z6ZEZKdmRXNWtWSEpwY0MwdmJTOHdNbWR1TVhndEwyMHZNREU1TlhCa0xVUldUeTFOVGt3dE1DMHlNREkyTFRBM0xUQXlMVEl3TWpZdE1EY3RNRGdhQ2dpaE1CQUFHZ05RU0ZBNEwzQ3FUZz09EgYIABAAGAA%26utm_source%3Dsign_in_ogb&ec=GAZAlQM
+  - generic [ref=e534]:
+    - generic [ref=e536]:
+      - generic [ref=e537]: Loading results
+      - progressbar [ref=e538]
+    - generic [ref=e545]:
+      - search [ref=e546]:
+        - heading "Flight search" [level=1] [ref=e547]
+        - generic [ref=e548]:
+          - generic [ref=e549]:
+            - combobox "Change ticket type. Round trip" [ref=e554] [cursor=pointer]:
+              - generic:
+                - img
+              - generic:
+                - generic: Round trip
+              - generic:
+                - img
+            - button "1 passenger, change number of passengers." [ref=e560]:
+              - generic [ref=e563]:
+                - img [ref=e564]
+                - generic [ref=e566]: "1"
+              - img [ref=e567]
+            - combobox "Change seating class. Economy" [ref=e573] [cursor=pointer]:
+              - generic:
+                - generic: Economy
+              - generic:
+                - img
+          - generic [ref=e575]:
+            - generic [ref=e576]:
+              - generic [ref=e582]:
+                - combobox "Where from?" [ref=e583]: Davao City
+                - generic [ref=e585]: Davao City
+                - img [ref=e586]
+              - button "Swap origin and destination." [ref=e590] [cursor=pointer]:
+                - img [ref=e591]
+              - generic [ref=e598]:
+                - combobox "Where to?" [ref=e599]: Manila
+                - generic [ref=e601]: Manila
+                - img [ref=e602]
+            - generic [ref=e613]:
+              - generic [ref=e615]:
+                - img [ref=e617]
+                - textbox "Departure" [ref=e620]: Thu, Jul 2
+                - button [ref=e623]:
+                  - img [ref=e626]
+                - button [ref=e630]:
+                  - img [ref=e633]
+              - generic [ref=e637]:
+                - textbox "Return" [ref=e638]: Wed, Jul 8
+                - button [ref=e641]:
+                  - img [ref=e644]
+                - button [ref=e648]:
+                  - img [ref=e651]
+          - heading "Filters" [level=2] [ref=e654]
+          - generic [ref=e657]:
+            - button "All filters" [ref=e660]:
+              - img [ref=e663]
+              - generic [ref=e665]: All filters
+            - generic [ref=e668]:
+              - button "Stops, Not selected" [ref=e671]:
+                - generic [ref=e675]:
+                  - generic [ref=e676]: Stops
+                  - img [ref=e677]
+              - button "Airlines, Not selected" [ref=e681]:
+                - generic [ref=e685]:
+                  - generic [ref=e686]: Airlines
+                  - img [ref=e687]
+              - button "Bags, Not selected" [ref=e691]:
+                - generic [ref=e695]:
+                  - generic [ref=e696]: Bags
+                  - img [ref=e697]
+              - button "Price, Not selected" [ref=e701]:
+                - generic [ref=e705]:
+                  - generic [ref=e706]: Price
+                  - img [ref=e707]
+              - button "Times, Not selected" [ref=e711]:
+                - generic [ref=e715]:
+                  - generic [ref=e716]: Times
+                  - img [ref=e717]
+              - button "Emissions, Not selected" [ref=e721]:
+                - generic [ref=e725]:
+                  - generic [ref=e726]: Emissions
+                  - img [ref=e727]
+              - button "Connecting airports, Not selected" [ref=e731]:
+                - generic [ref=e735]:
+                  - generic [ref=e736]: Connecting airports
+                  - img [ref=e737]
+              - button "Duration, Not selected" [ref=e741]:
+                - generic [ref=e745]:
+                  - generic [ref=e746]: Duration
+                  - img [ref=e747]
+      - main:
+        - heading "Search results" [level=2] [ref=e749]
+      - contentinfo [ref=e753]:
+        - generic [ref=e755]:
+          - button "Language·English (United States)" [ref=e756]:
+            - img [ref=e759]
+            - generic [ref=e761]: Language·English (United States)
+          - button "Location·Philippines" [ref=e762]:
+            - img [ref=e765]
+            - generic [ref=e768]: Location·Philippines
+          - button "Currency PHP" [ref=e769]:
+            - img [ref=e772]
+            - generic [ref=e782]: Currency·PHP
+        - generic [ref=e783]:
+          - link "About Google Travel" [ref=e784] [cursor=pointer]:
+            - /url: https://about.google/?hl=en-US
+            - text: About
+          - link "Privacy" [ref=e785] [cursor=pointer]:
+            - /url: https://policies.google.com/privacy?hl=en-US
+          - link "Terms" [ref=e786] [cursor=pointer]:
+            - /url: https://policies.google.com/terms?hl=en-US
+          - link "Join user studies" [ref=e787] [cursor=pointer]:
+            - /url: https://google.qualtrics.com/jfe/form/SV_3NMIMtX0F2zkakR?reserved%3D1%26utm_source%3DFooter%2520link%26utm_medium%3Down_web%26%20utm_campaign%3DQ2%26productTag%3D0%26campaignDate%3DApril2020%26referral_code%3DUXbJ377133&Q_Language=en-US
+          - link "Feedback" [ref=e788] [cursor=pointer]:
+            - /url: ./#0
+          - link "Help Center" [ref=e789] [cursor=pointer]:
+            - /url: https://support.google.com/travel/?hl=en-US#topic=2475360
+        - generic [ref=e790]:
+          - paragraph [ref=e791]:
+            - text: Displayed currencies may differ from the currencies used to purchase flights.
+            - link "Learn more about currencies" [ref=e792] [cursor=pointer]:
+              - /url: https://www.google.com/googlefinance/disclaimer?hl=en-US&gl=PH
+              - text: Learn more
+          - paragraph [ref=e793]: Prices are final prices and include all taxes and fees, including payment fees for the cheapest common payment method (which may differ depending on the provider). Additional charges may apply for other types of payment, luggage, meals, WLAN or other additional services. Prices, availability and travel details are provided based on the latest information received from our partners. This information is reflected in the results within a period of less than 24 hours. Additional conditions may also be applied by our partners. You should then check prices and conditions with the services providers before booking.
+  - generic [ref=e794]: Page loaded.

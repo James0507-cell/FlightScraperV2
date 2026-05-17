@@ -1,0 +1,969 @@
+{
+  "query": {
+    "origin": "MNL",
+    "destination": "DVO",
+    "depart_date": "2026-07-02",
+    "return_date": "2026-07-08",
+    "trip_type": "round_trip",
+    "passengers": 1,
+    "cabin": "economy",
+    "max_stops": 0,
+    "timeout_seconds": 45.0,
+    "max_retries": 2
+  },
+  "final_url": "https://www.google.com/travel/flights/search",
+  "capture": {
+    "url": "https://www.google.com/_/FlightsFrontendUi/data/travel.frontend.flights.FlightsFrontendService/GetShoppingResults?f.sid=6110080218721534980&bl=boq_travel-frontend-flights-ui_20260513.03_p0&hl=en-US&soc-app=162&soc-platform=1&soc-device=1&_reqid=1173988&rt=c",
+    "request_body": "f.req=%5Bnull%2C%22%5B%5B%5D%2C%5Bnull%2Cnull%2C1%2C1%2C%5B%5D%2C1%2C%5B1%2C0%2C0%2C0%5D%2Cnull%2Cnull%2Cnull%2Cnull%2Cnull%2Cnull%2C%5B%5B%5B%5B%5B%5C%22MNL%5C%22%2C0%5D%5D%5D%2C%5B%5B%5B%5C%22DVO%5C%22%2C0%5D%5D%5D%2Cnull%2C1%2Cnull%2Cnull%2C%5C%222026-07-02%5C%22%2Cnull%2Cnull%2Cnull%2Cnull%2Cnull%2Cnull%2Cnull%2C3%5D%2C%5B%5B%5B%5B%5C%22DVO%5C%22%2C0%5D%5D%5D%2C%5B%5B%5B%5C%22MNL%5C%22%2C0%5D%5D%5D%2Cnull%2C1%2Cnull%2Cnull%2C%5C%222026-07-08%5C%22%2Cnull%2Cnull%2Cnull%2Cnull%2Cnull%2Cnull%2Cnull%2C3%5D%5D%2Cnull%2Cnull%2C1%2C1%5D%2C0%2C0%2C0%2C1%5D%22%5D&",
+    "response_body": ")]}'\n\n40990\n[[\"wrb.fr\",null,\"[[null,[[1779021191590389,137922322,2905170584],null,null,null,null,[[1]]],0,\\\"h7UJarWEJJKO4vEPmMWl6Qo\\\",\\\"HZu4m4F8var4AM5YhABG--------sebbr29AAAAAGoJtYcI4-AGA\\\"],[[[[[\\\"MNL\\\",0],\\\"Ninoy Aquino International Airport\\\",[\\\"/m/0195pd\\\",\\\"Manila\\\",[[\\\"https://encrypted-tbn3.gstatic.com/images?q\\\\u003dtbn:ANd9GcQC7Bb2H3NrQpJM3YoHJkpvMGwYpCoYblptbYVAZ-2BkTgghoiODXxnA9Q33aylCHHY93N7850izEJuZ11FAI3tv4bcLCgZgkbZD7HpTFs\\\"],[\\\"https://encrypted-tbn3.gstatic.com/images?q\\\\u003dtbn:ANd9GcTJf81418Q0PkWchFc6cPvdjnVcAaZivEOoiVOkLtOXQ7I5YOBUcmLKmsYUi3ZcQqR51fhBYFiS46XRWA\\\"]]],[14.51,121.013889],\\\"PH\\\",false,\\\"Philippines\\\"]],[[[\\\"DVO\\\",0],\\\"Davao International Airport\\\",[\\\"/m/02gn1x\\\",\\\"Davao City\\\",[[\\\"https://encrypted-tbn3.gstatic.com/images?q\\\\u003dtbn:ANd9GcROkGJkTwZQBdB-RVt-EToFNHRFoglZTreul8Z_NdSbwtftX3OPNnmycIc5UDD-ARuX3ikHlAZbHm-vrCmdNjovpHS0lWw4eU-LsISbKtQ\\\"],[\\\"https://encrypted-tbn3.gstatic.com/images?q\\\\u003dtbn:ANd9GcR1Z6VD9qk0vsvmUX7f2kEetwQ9878VrwtFc5fR0E6-wp89u7ReDu0eTQ8g0EU2Q_nkv0iCqxhTZP6Cmw\\\"]]],[7.12527778,125.645556],\\\"PH\\\",false,\\\"Philippines\\\"]]],[[[[\\\"DVO\\\",0],\\\"Davao International Airport\\\",[\\\"/m/02gn1x\\\",\\\"Davao City\\\",[[\\\"https://encrypted-tbn3.gstatic.com/images?q\\\\u003dtbn:ANd9GcROkGJkTwZQBdB-RVt-EToFNHRFoglZTreul8Z_NdSbwtftX3OPNnmycIc5UDD-ARuX3ikHlAZbHm-vrCmdNjovpHS0lWw4eU-LsISbKtQ\\\"],[\\\"https://encrypted-tbn3.gstatic.com/images?q\\\\u003dtbn:ANd9GcR1Z6VD9qk0vsvmUX7f2kEetwQ9878VrwtFc5fR0E6-wp89u7ReDu0eTQ8g0EU2Q_nkv0iCqxhTZP6Cmw\\\"]]],[7.12527778,125.645556],\\\"PH\\\",false,\\\"Philippines\\\"]],[[[\\\"MNL\\\",0],\\\"Ninoy Aquino International Airport\\\",[\\\"/m/0195pd\\\",\\\"Manila\\\",[[\\\"https://encrypted-tbn3.gstatic.com/images?q\\\\u003dtbn:ANd9GcQC7Bb2H3NrQpJM3YoHJkpvMGwYpCoYblptbYVAZ-2BkTgghoiODXxnA9Q33aylCHHY93N7850izEJuZ11FAI3tv4bcLCgZgkbZD7HpTFs\\\"],[\\\"https://encrypted-tbn3.gstatic.com/images?q\\\\u003dtbn:ANd9GcTJf81418Q0PkWchFc6cPvdjnVcAaZivEOoiVOkLtOXQ7I5YOBUcmLKmsYUi3ZcQqR51fhBYFiS46XRWA\\\"]]],[14.51,121.013889],\\\"PH\\\",false,\\\"Philippines\\\"]]]],[[[[\\\"5J\\\",[\\\"Cebu Pacific\\\"],[[null,null,null,\\\"MNL\\\",\\\"Ninoy Aquino International Airport\\\",\\\"Davao International Airport\\\",\\\"DVO\\\",null,[5,30],null,[7,35],125,[null,null,null,null,null,true],1,\\\"30 in\\\",null,1,\\\"Airbus A330-900neo\\\",null,false,[2026,7,2],[2026,7,2],[\\\"5J\\\",\\\"961\\\",null,\\\"Cebu Pacific\\\"],null,null,1,null,null,null,null,\\\"30 inches\\\",75398,1]],\\\"MNL\\\",[2026,7,2],[5,30],\\\"DVO\\\",[2026,7,2],[7,35],125,null,null,false,null,null,null,null,\\\"dsdHO\\\",[[1779021191590389,137922322,2905170584],null,null,null,null,[[2]]],1,null,null,[null,null,1,-26,null,true,true,75000,101000,[true],93000,1,false,null,null,1,null,1],[1],[[\\\"5J\\\",\\\"Cebu Pacific\\\",\\\"https://www.cebupacificair.com/pages/travel-info/special-service-request\\\"]]],[[null,6177],\\\"CjRIWnU0bTRGOHZhcjRBTTVZaEFCRy0tLS0tLS0tc2ViYnIyOUFBQUFBR29KdFljSTQtQUdBEgU1Sjk2MRoKCKEwEAAaA1BIUDgccKpO\\\"],null,true,[null,null,null,null,1,null,[null,1]],[false,false,false],false,[],\\\"[\\\\\\\"CAASA1BIUBoDCKEwIncKWwpZCgNNTkwSGTIwMjYtMDctMDJUMDU6MzA6MDArMDg6MDAaA0RWTyIZMjAyNi0wNy0wMlQwNzozNTowMCswODowMCoCNUoyAzk2MToCNUpCAzk2MUgBUgMzMzkSBAgDEAEYASgAMg4KDENlYnUgUGFjaWZpYw\\\\\\\\u003d\\\\\\\\u003d\\\\\\\"]\\\",[[1]],false],[[\\\"5J\\\",[\\\"Cebu Pacific\\\"],[[null,null,null,\\\"MNL\\\",\\\"Ninoy Aquino International Airport\\\",\\\"Davao International Airport\\\",\\\"DVO\\\",null,[8,25],null,[10,30],125,[null,null,null,null,null,true],2,\\\"28 in\\\",null,1,\\\"Airbus A321neo\\\",null,false,[2026,7,2],[2026,7,2],[\\\"5J\\\",\\\"963\\\",null,\\\"Cebu Pacific\\\"],null,null,1,null,null,null,null,\\\"28 inches\\\",72147,1]],\\\"MNL\\\",[2026,7,2],[8,25],\\\"DVO\\\",[2026,7,2],[10,30],125,null,null,false,null,null,null,null,\\\"xqZGXc\\\",[[1779021191590389,137922322,2905170584],null,null,null,null,[[3]]],1,null,null,[null,null,1,-29,null,true,true,72000,101000,[true],93000,1,false,null,null,1,null,1],[1],[[\\\"5J\\\",\\\"Cebu Pacific\\\",\\\"https://www.cebupacificair.com/pages/travel-info/special-service-request\\\"]]],[[null,6177],\\\"CjRIWnU0bTRGOHZhcjRBTTVZaEFCRy0tLS0tLS0tc2ViYnIyOUFBQUFBR29KdFljSTQtQUdBEgU1Sjk2MxoKCKEwEAAaA1BIUDgccKpO\\\"],null,true,[null,null,null,null,1,null,[null,1]],[false,false,false],false,[],\\\"[\\\\\\\"CAASA1BIUBoDCKEwIncKWwpZCgNNTkwSGTIwMjYtMDctMDJUMDg6MjU6MDArMDg6MDAaA0RWTyIZMjAyNi0wNy0wMlQxMDozMDowMCswODowMCoCNUoyAzk2MzoCNUpCAzk2M0gBUgMzMlESBAgDEAEYASgAMg4KDENlYnUgUGFjaWZpYw\\\\\\\\u003d\\\\\\\\u003d\\\\\\\"]\\\",[[1]],false],[[\\\"5J\\\",[\\\"Cebu Pacific\\\"],[[null,null,null,\\\"MNL\\\",\\\"Ninoy Aquino International Airport\\\",\\\"Davao International Airport\\\",\\\"DVO\\\",null,[22,40],1,[null,40],120,[null,null,null,null,null,true],2,\\\"28 in\\\",null,1,\\\"Airbus A320neo\\\",null,false,[2026,7,2],[2026,7,3],[\\\"5J\\\",\\\"953\\\",null,\\\"Cebu Pacific\\\"],null,null,1,null,null,null,null,\\\"28 inches\\\",78128,2]],\\\"MNL\\\",[2026,7,2],[22,40],\\\"DVO\\\",[2026,7,3],[null,40],120,1,null,false,null,null,null,null,\\\"DdOdxc\\\",[[1779021191590389,137922322,2905170584],null,null,null,null,[[4]]],1,null,null,[null,null,1,-23,null,true,true,78000,101000,null,93000,1,false,null,null,2,null,4],[1],[[\\\"5J\\\",\\\"Cebu Pacific\\\",\\\"https://www.cebupacificair.com/pages/travel-info/special-service-request\\\"]]],[[null,6177],\\\"CjRIWnU0bTRGOHZhcjRBTTVZaEFCRy0tLS0tLS0tc2ViYnIyOUFBQUFBR29KdFljSTQtQUdBEgU1Sjk1MxoKCKEwEAAaA1BIUDgccKpO\\\"],null,true,[null,null,null,null,1,null,[null,1]],[false,false,false],false,[],\\\"[\\\\\\\"CAASA1BIUBoDCKEwIncKWwpZCgNNTkwSGTIwMjYtMDctMDJUMjI6NDA6MDArMDg6MDAaA0RWTyIZMjAyNi0wNy0wM1QwMDo0MDowMCswODowMCoCNUoyAzk1MzoCNUpCAzk1M0gBUgMzMk4SBAgDEAEYASgAMg4KDENlYnUgUGFjaWZpYw\\\\\\\\u003d\\\\\\\\u003d\\\\\\\"]\\\",[[1]],false],[[\\\"5J\\\",[\\\"Cebu Pacific\\\"],[[null,null,null,\\\"MNL\\\",\\\"Ninoy Aquino International Airport\\\",\\\"Davao International Airport\\\",\\\"DVO\\\",null,[23,10],1,[1,10],120,[null,null,null,null,null,true],2,\\\"28 in\\\",null,1,\\\"Airbus A320neo\\\",null,false,[2026,7,2],[2026,7,3],[\\\"5J\\\",\\\"967\\\",null,\\\"Cebu Pacific\\\"],null,null,1,null,null,null,null,\\\"28 inches\\\",78128,2]],\\\"MNL\\\",[2026,7,2],[23,10],\\\"DVO\\\",[2026,7,3],[1,10],120,1,null,false,null,null,null,null,\\\"UbFlAe\\\",[[1779021191590389,137922322,2905170584],null,null,null,null,[[5]]],1,null,null,[null,null,1,-23,null,true,true,78000,101000,null,93000,1,false,null,null,2,null,4],[1],[[\\\"5J\\\",\\\"Cebu Pacific\\\",\\\"https://www.cebupacificair.com/pages/travel-info/special-service-request\\\"]]],[[null,6177],\\\"CjRIWnU0bTRGOHZhcjRBTTVZaEFCRy0tLS0tLS0tc2ViYnIyOUFBQUFBR29KdFljSTQtQUdBEgU1Sjk2NxoKCKEwEAAaA1BIUDgccKpO\\\"],null,true,[null,null,null,null,1,null,[null,1]],[false,false,false],false,[],\\\"[\\\\\\\"CAASA1BIUBoDCKEwIncKWwpZCgNNTkwSGTIwMjYtMDctMDJUMjM6MTA6MDArMDg6MDAaA0RWTyIZMjAyNi0wNy0wM1QwMToxMDowMCswODowMCoCNUoyAzk2NzoCNUpCAzk2N0gBUgMzMk4SBAgDEAEYASgAMg4KDENlYnUgUGFjaWZpYw\\\\\\\\u003d\\\\\\\\u003d\\\\\\\"]\\\",[[1]],false]],null,false,false,[1]],[[[[\\\"5J\\\",[\\\"Cebu Pacific\\\"],[[null,null,null,\\\"MNL\\\",\\\"Ninoy Aquino International Airport\\\",\\\"Davao International Airport\\\",\\\"DVO\\\",null,[10,25],null,[12,25],120,[null,null,null,null,null,true],2,\\\"28 in\\\",null,1,\\\"Airbus A320neo\\\",null,false,[2026,7,2],[2026,7,2],[\\\"5J\\\",\\\"973\\\",null,\\\"Cebu Pacific\\\"],null,null,1,null,null,null,null,\\\"28 inches\\\",77297,1]],\\\"MNL\\\",[2026,7,2],[10,25],\\\"DVO\\\",[2026,7,2],[12,25],120,null,null,false,null,null,null,null,\\\"jqcM8e\\\",[[1779021191590389,137922322,2905170584],null,null,null,null,[[6]]],1,null,null,[null,null,1,-24,null,true,true,77000,101000,null,93000,1,false,null,null,1,null,1],[1],[[\\\"5J\\\",\\\"Cebu Pacific\\\",\\\"https://www.cebupacificair.com/pages/travel-info/special-service-request\\\"]]],[[null,6177],\\\"CjRIWnU0bTRGOHZhcjRBTTVZaEFCRy0tLS0tLS0tc2ViYnIyOUFBQUFBR29KdFljSTQtQUdBEgU1Sjk3MxoKCKEwEAAaA1BIUDgccKpO\\\"],null,true,[null,null,null,null,1,null,[null,1]],[false,false,false],false,[],\\\"[\\\\\\\"CAASA1BIUBoDCKEwIncKWwpZCgNNTkwSGTIwMjYtMDctMDJUMTA6MjU6MDArMDg6MDAaA0RWTyIZMjAyNi0wNy0wMlQxMjoyNTowMCswODowMCoCNUoyAzk3MzoCNUpCAzk3M0gBUgMzMk4SBAgDEAEYASgAMg4KDENlYnUgUGFjaWZpYw\\\\\\\\u003d\\\\\\\\u003d\\\\\\\"]\\\",[[1]],false],[[\\\"5J\\\",[\\\"Cebu Pacific\\\"],[[null,null,null,\\\"MNL\\\",\\\"Ninoy Aquino International Airport\\\",\\\"Davao International Airport\\\",\\\"DVO\\\",null,[12,15],null,[14,25],130,[null,null,null,null,null,true],2,\\\"28 in\\\",null,1,\\\"Airbus A321neo\\\",null,false,[2026,7,2],[2026,7,2],[\\\"5J\\\",\\\"957\\\",null,\\\"Cebu Pacific\\\"],null,null,1,null,null,null,null,\\\"28 inches\\\",72147,1]],\\\"MNL\\\",[2026,7,2],[12,15],\\\"DVO\\\",[2026,7,2],[14,25],130,null,null,false,null,null,null,null,\\\"Yd5pHf\\\",[[1779021191590389,137922322,2905170584],null,null,null,null,[[7]]],1,null,null,[null,null,1,-29,null,true,true,72000,101000,[true],93000,1,false,null,null,1,null,1],[1],[[\\\"5J\\\",\\\"Cebu Pacific\\\",\\\"https://www.cebupacificair.com/pages/travel-info/special-service-request\\\"]]],[[null,6177],\\\"CjRIWnU0bTRGOHZhcjRBTTVZaEFCRy0tLS0tLS0tc2ViYnIyOUFBQUFBR29KdFljSTQtQUdBEgU1Sjk1NxoKCKEwEAAaA1BIUDgccKpO\\\"],null,true,[null,null,null,null,1,null,[null,1]],[false,false,false],false,[],\\\"[\\\\\\\"CAASA1BIUBoDCKEwIncKWwpZCgNNTkwSGTIwMjYtMDctMDJUMTI6MTU6MDArMDg6MDAaA0RWTyIZMjAyNi0wNy0wMlQxNDoyNTowMCswODowMCoCNUoyAzk1NzoCNUpCAzk1N0gBUgMzMlESBAgDEAEYASgAMg4KDENlYnUgUGFjaWZpYw\\\\\\\\u003d\\\\\\\\u003d\\\\\\\"]\\\",[[1]],false],[[\\\"5J\\\",[\\\"Cebu Pacific\\\"],[[null,null,null,\\\"MNL\\\",\\\"Ninoy Aquino International Airport\\\",\\\"Davao International Airport\\\",\\\"DVO\\\",null,[15,35],null,[17,45],130,[null,null,null,null,null,true],1,\\\"30 in\\\",null,1,\\\"Airbus A330-900neo\\\",null,false,[2026,7,2],[2026,7,2],[\\\"5J\\\",\\\"971\\\",null,\\\"Cebu Pacific\\\"],null,null,1,null,null,null,null,\\\"30 inches\\\",75398,1]],\\\"MNL\\\",[2026,7,2],[15,35],\\\"DVO\\\",[2026,7,2],[17,45],130,null,null,false,null,null,null,null,\\\"HBnKsc\\\",[[1779021191590389,137922322,2905170584],null,null,null,null,[[8]]],1,null,null,[null,null,1,-26,null,true,true,75000,101000,[true],93000,1,false,null,null,1,null,1],[1],[[\\\"5J\\\",\\\"Cebu Pacific\\\",\\\"https://www.cebupacificair.com/pages/travel-info/special-service-request\\\"]]],[[null,6177],\\\"CjRIWnU0bTRGOHZhcjRBTTVZaEFCRy0tLS0tLS0tc2ViYnIyOUFBQUFBR29KdFljSTQtQUdBEgU1Sjk3MRoKCKEwEAAaA1BIUDgccKpO\\\"],null,true,[null,null,null,null,1,null,[null,1]],[false,false,false],false,[],\\\"[\\\\\\\"CAASA1BIUBoDCKEwIncKWwpZCgNNTkwSGTIwMjYtMDctMDJUMTU6MzU6MDArMDg6MDAaA0RWTyIZMjAyNi0wNy0wMlQxNzo0NTowMCswODowMCoCNUoyAzk3MToCNUpCAzk3MUgBUgMzMzkSBAgDEAEYASgAMg4KDENlYnUgUGFjaWZpYw\\\\\\\\u003d\\\\\\\\u003d\\\\\\\"]\\\",[[1]],false],[[\\\"5J\\\",[\\\"Cebu Pacific\\\"],[[null,null,null,\\\"MNL\\\",\\\"Ninoy Aquino International Airport\\\",\\\"Davao International Airport\\\",\\\"DVO\\\",null,[15,55],null,[18],125,[null,null,null,null,null,true],2,\\\"28 in\\\",null,1,\\\"Airbus A321\\\",null,false,[2026,7,2],[2026,7,2],[\\\"5J\\\",\\\"977\\\",null,\\\"Cebu Pacific\\\"],null,null,1,null,null,null,null,\\\"28 inches\\\",92685,2]],\\\"MNL\\\",[2026,7,2],[15,55],\\\"DVO\\\",[2026,7,2],[18],125,null,null,false,null,null,null,null,\\\"ODINUb\\\",[[1779021191590389,137922322,2905170584],null,null,null,null,[[9]]],1,null,null,[null,null,1,-8,null,true,true,93000,101000,null,93000,2,false,null,null,2,null,4],[1],[[\\\"5J\\\",\\\"Cebu Pacific\\\",\\\"https://www.cebupacificair.com/pages/travel-info/special-service-request\\\"]]],[[null,6177],\\\"CjRIWnU0bTRGOHZhcjRBTTVZaEFCRy0tLS0tLS0tc2ViYnIyOUFBQUFBR29KdFljSTQtQUdBEgU1Sjk3NxoKCKEwEAAaA1BIUDgccKpO\\\"],null,true,[null,null,null,null,1,null,[null,1]],[false,false,false],false,[],\\\"[\\\\\\\"CAASA1BIUBoDCKEwIncKWwpZCgNNTkwSGTIwMjYtMDctMDJUMTU6NTU6MDArMDg6MDAaA0RWTyIZMjAyNi0wNy0wMlQxODowMDowMCswODowMCoCNUoyAzk3NzoCNUpCAzk3N0gBUgMzMjESBAgDEAEYASgAMg4KDENlYnUgUGFjaWZpYw\\\\\\\\u003d\\\\\\\\u003d\\\\\\\"]\\\",[[1]],false],[[\\\"5J\\\",[\\\"Cebu Pacific\\\"],[[null,null,null,\\\"MNL\\\",\\\"Ninoy Aquino International Airport\\\",\\\"Davao International Airport\\\",\\\"DVO\\\",null,[17],null,[19,10],130,[null,null,null,null,null,true],2,\\\"28 in\\\",null,1,\\\"Airbus A321\\\",null,false,[2026,7,2],[2026,7,2],[\\\"5J\\\",\\\"955\\\",null,\\\"Cebu Pacific\\\"],null,null,1,null,null,null,null,\\\"28 inches\\\",92685,2]],\\\"MNL\\\",[2026,7,2],[17],\\\"DVO\\\",[2026,7,2],[19,10],130,null,null,false,null,null,null,null,\\\"FPZuWc\\\",[[1779021191590389,137922322,2905170584],null,null,null,null,[[10]]],1,null,null,[null,null,1,-8,null,true,true,93000,101000,null,93000,2,false,null,null,2,null,4],[1],[[\\\"5J\\\",\\\"Cebu Pacific\\\",\\\"https://www.cebupacificair.com/pages/travel-info/special-service-request\\\"]]],[[null,6177],\\\"CjRIWnU0bTRGOHZhcjRBTTVZaEFCRy0tLS0tLS0tc2ViYnIyOUFBQUFBR29KdFljSTQtQUdBEgU1Sjk1NRoKCKEwEAAaA1BIUDgccKpO\\\"],null,true,[null,null,null,null,1,null,[null,1]],[false,false,false],false,[],\\\"[\\\\\\\"CAASA1BIUBoDCKEwIncKWwpZCgNNTkwSGTIwMjYtMDctMDJUMTc6MDA6MDArMDg6MDAaA0RWTyIZMjAyNi0wNy0wMlQxOToxMDowMCswODowMCoCNUoyAzk1NToCNUpCAzk1NUgBUgMzMjESBAgDEAEYASgAMg4KDENlYnUgUGFjaWZpYw\\\\\\\\u003d\\\\\\\\u003d\\\\\\\"]\\\",[[1]],false],[[\\\"5J\\\",[\\\"Cebu Pacific\\\"],[[null,null,null,\\\"MNL\\\",\\\"Ninoy Aquino International Airport\\\",\\\"Davao International Airport\\\",\\\"DVO\\\",null,[18,50],null,[20,50],120,[null,null,null,null,null,true],2,\\\"28 in\\\",null,1,\\\"Airbus A321neo\\\",null,false,[2026,7,2],[2026,7,2],[\\\"5J\\\",\\\"959\\\",null,\\\"Cebu Pacific\\\"],null,null,1,null,null,null,null,\\\"28 inches\\\",72147,2]],\\\"MNL\\\",[2026,7,2],[18,50],\\\"DVO\\\",[2026,7,2],[20,50],120,null,null,false,null,null,null,null,\\\"sBOWt\\\",[[1779021191590389,137922322,2905170584],null,null,null,null,[[11]]],1,null,null,[null,null,1,-29,null,true,true,72000,101000,[true],93000,1,false,null,null,2,null,4],[1],[[\\\"5J\\\",\\\"Cebu Pacific\\\",\\\"https://www.cebupacificair.com/pages/travel-info/special-service-request\\\"]]],[[null,6177],\\\"CjRIWnU0bTRGOHZhcjRBTTVZaEFCRy0tLS0tLS0tc2ViYnIyOUFBQUFBR29KdFljSTQtQUdBEgU1Sjk1ORoKCKEwEAAaA1BIUDgccKpO\\\"],null,true,[null,null,null,null,1,null,[null,1]],[false,false,false],false,[],\\\"[\\\\\\\"CAASA1BIUBoDCKEwIncKWwpZCgNNTkwSGTIwMjYtMDctMDJUMTg6NTA6MDArMDg6MDAaA0RWTyIZMjAyNi0wNy0wMlQyMDo1MDowMCswODowMCoCNUoyAzk1OToCNUpCAzk1OUgBUgMzMlESBAgDEAEYASgAMg4KDENlYnUgUGFjaWZpYw\\\\\\\\u003d\\\\\\\\u003d\\\\\\\"]\\\",[[1]],false],[[\\\"5J\\\",[\\\"Cebu Pacific\\\"],[[null,null,null,\\\"MNL\\\",\\\"Ninoy Aquino International Airport\\\",\\\"Davao International Airport\\\",\\\"DVO\\\",null,[21,30],null,[23,30],120,[null,null,null,null,null,true],2,\\\"28 in\\\",null,1,\\\"Airbus A320neo\\\",null,false,[2026,7,2],[2026,7,2],[\\\"5J\\\",\\\"3951\\\",null,\\\"Cebu Pacific\\\"],null,null,1,null,null,null,null,\\\"28 inches\\\",77297,2]],\\\"MNL\\\",[2026,7,2],[21,30],\\\"DVO\\\",[2026,7,2],[23,30],120,null,null,false,null,null,null,null,\\\"hxUAHb\\\",[[1779021191590389,137922322,2905170584],null,null,null,null,[[12]]],1,null,null,[null,null,1,-24,null,true,true,77000,101000,null,93000,1,false,null,null,2,null,4],[1],[[\\\"5J\\\",\\\"Cebu Pacific\\\",\\\"https://www.cebupacificair.com/pages/travel-info/special-service-request\\\"]]],[[null,6177],\\\"CjRIWnU0bTRGOHZhcjRBTTVZaEFCRy0tLS0tLS0tc2ViYnIyOUFBQUFBR29KdFljSTQtQUdBEgY1SjM5NTEaCgihMBAAGgNQSFA4HHCqTg\\\\u003d\\\\u003d\\\"],null,true,[null,null,null,null,1,null,[null,1]],[false,false,false],false,[],\\\"[\\\\\\\"CAASA1BIUBoDCKEwInkKXQpbCgNNTkwSGTIwMjYtMDctMDJUMjE6MzA6MDArMDg6MDAaA0RWTyIZMjAyNi0wNy0wMlQyMzozMDowMCswODowMCoCNUoyBDM5NTE6AjVKQgQzOTUxSAFSAzMyThIECAMQARgBKAAyDgoMQ2VidSBQYWNpZmlj\\\\\\\"]\\\",[[1]],false],[[\\\"5J\\\",[\\\"Cebu Pacific\\\"],[[null,null,null,\\\"MNL\\\",\\\"Ninoy Aquino International Airport\\\",\\\"Davao International Airport\\\",\\\"DVO\\\",null,[7],null,[9,5],125,[],2,\\\"28 in\\\",null,1,\\\"Airbus A320\\\",null,false,[2026,7,2],[2026,7,2],[\\\"5J\\\",\\\"3961\\\",null,\\\"Cebu Pacific\\\"],null,null,1,null,null,null,null,\\\"28 inches\\\",94249,1]],\\\"MNL\\\",[2026,7,2],[7],\\\"DVO\\\",[2026,7,2],[9,5],125,null,null,false,null,null,null,null,\\\"i2dUhf\\\",[[1779021191590389,137922322,2905170584],null,null,null,null,[[13]]],1,null,null,[null,null,1,-7,null,true,true,94000,101000,null,93000,2,false,null,null,1,null,1],[1],[[\\\"5J\\\",\\\"Cebu Pacific\\\",\\\"https://www.cebupacificair.com/pages/travel-info/special-service-request\\\"]]],[[null,6289],\\\"CjRIWnU0bTRGOHZhcjRBTTVZaEFCRy0tLS0tLS0tc2ViYnIyOUFBQUFBR29KdFljSTQtQUdBEgY1SjM5NjEaCgiRMRAAGgNQSFA4HHDgTw\\\\u003d\\\\u003d\\\"],null,true,[null,null,null,null,1,null,[null,1]],[false,false,false],false,[],\\\"[\\\\\\\"CAASA1BIUBoDCJExInkKXQpbCgNNTkwSGTIwMjYtMDctMDJUMDc6MDA6MDArMDg6MDAaA0RWTyIZMjAyNi0wNy0wMlQwOTowNTowMCswODowMCoCNUoyBDM5NjE6AjVKQgQzOTYxSAFSAzMyMBIECAMQARgBKAAyDgoMQ2VidSBQYWNpZmlj\\\\\\\"]\\\",[[1]],false],[[\\\"5J\\\",[\\\"Cebu Pacific\\\"],[[null,null,null,\\\"MNL\\\",\\\"Ninoy Aquino International Airport\\\",\\\"Davao International Airport\\\",\\\"DVO\\\",null,[4,20],null,[6,20],120,[null,null,null,null,null,true],2,\\\"28 in\\\",null,1,\\\"Airbus A321\\\",[true],false,[2026,7,2],[2026,7,2],[\\\"5J\\\",\\\"965\\\",null,\\\"Cebu Pacific\\\"],null,null,1,null,null,null,null,\\\"28 inches\\\",92685,1]],\\\"MNL\\\",[2026,7,2],[4,20],\\\"DVO\\\",[2026,7,2],[6,20],120,null,null,false,null,null,null,null,\\\"NbwKxc\\\",[[1779021191590389,137922322,2905170584],null,null,null,null,[[14]]],1,null,null,[null,null,1,-8,null,true,true,93000,101000,null,93000,2,false,null,null,1,null,1],[1],[[\\\"5J\\\",\\\"Cebu Pacific\\\",\\\"https://www.cebupacificair.com/pages/travel-info/special-service-request\\\"]]],[[null,6513],\\\"CjRIWnU0bTRGOHZhcjRBTTVZaEFCRy0tLS0tLS0tc2ViYnIyOUFBQUFBR29KdFljSTQtQUdBEgU1Sjk2NRoKCPEyEAAaA1BIUDgccMxS\\\"],null,false,[null,null,null,null,1,null,[null,1]],[false,false,false],false,[],\\\"[\\\\\\\"CAASA1BIUBoDCPEyIncKWwpZCgNNTkwSGTIwMjYtMDctMDJUMDQ6MjA6MDArMDg6MDAaA0RWTyIZMjAyNi0wNy0wMlQwNjoyMDowMCswODowMCoCNUoyAzk2NToCNUpCAzk2NUgBUgMzMjESBAgDEAEYASgAMg4KDENlYnUgUGFjaWZpYw\\\\\\\\u003d\\\\\\\\u003d\\\\\\\"]\\\",[[1]],false],[[\\\"PR\\\",[\\\"Philippine Airlines\\\"],[[null,null,\\\"PAL Express\\\",\\\"MNL\\\",\\\"Ninoy Aquino International Airport\\\",\\\"Davao International Airport\\\",\\\"DVO\\\",null,[2,30],null,[4,15],105,[],2,\\\"28 in\\\",null,1,\\\"Airbus A320\\\",[true],false,[2026,7,2],[2026,7,2],[\\\"PR\\\",\\\"2803\\\",null,\\\"Philippine Airlines\\\"],null,null,1,null,null,null,null,\\\"28 inches\\\",94249,2]],\\\"MNL\\\",[2026,7,2],[2,30],\\\"DVO\\\",[2026,7,2],[4,15],105,null,null,false,null,null,null,null,\\\"DBt8o\\\",[[1779021191590389,137922322,2905170584],null,null,null,null,[[15]]],1,null,null,[null,null,1,-7,null,true,true,94000,101000,null,93000,2,false,null,null,2,null,4],[1],[[\\\"PR\\\",\\\"Philippine Airlines\\\",\\\"https://www.philippineairlines.com/en/before-you-fly/special-needs-and-request\\\"]]],[[null,7496],\\\"CjRIWnU0bTRGOHZhcjRBTTVZaEFCRy0tLS0tLS0tc2ViYnIyOUFBQUFBR29KdFljSTQtQUdBEgZQUjI4MDMaCgjIOhAAGgNQSFA4HHCHXw\\\\u003d\\\\u003d\\\"],null,false,[null,null,null,null,1,null,[null,1]],[false,false,false],false,[],\\\"[\\\\\\\"CAASA1BIUBoDCMg6IoABCl0KWwoDTU5MEhkyMDI2LTA3LTAyVDAyOjMwOjAwKzA4OjAwGgNEVk8iGTIwMjYtMDctMDJUMDQ6MTU6MDArMDg6MDAqAlBSMgQyODAzOgJQUkIEMjgwM0gBUgMzMjASBAgDEAEYASgAMhUKE1BoaWxpcHBpbmUgQWlybGluZXM\\\\\\\\u003d\\\\\\\"]\\\",[[1]],false],[[\\\"PR\\\",[\\\"Philippine Airlines\\\"],[[null,null,null,\\\"MNL\\\",\\\"Ninoy Aquino International Airport\\\",\\\"Davao International Airport\\\",\\\"DVO\\\",null,[3,20],null,[5,10],110,[null,null,null,null,null,null,null,null,null,null,true],1,\\\"30 in\\\",null,1,\\\"Airbus A321\\\",[true],false,[2026,7,2],[2026,7,2],[\\\"PR\\\",\\\"1809\\\",null,\\\"Philippine Airlines\\\"],null,null,1,null,null,null,null,\\\"30 inches\\\",103988,1]],\\\"MNL\\\",[2026,7,2],[3,20],\\\"DVO\\\",[2026,7,2],[5,10],110,null,null,false,null,null,null,null,\\\"rFp5Df\\\",[[1779021191590389,137922322,2905170584],null,null,null,null,[[16]]],1,null,null,[null,null,2,3,null,true,true,104000,101000,null,93000,3,false,null,null,1,null,2],[1],[[\\\"PR\\\",\\\"Philippine Airlines\\\",\\\"https://www.philippineairlines.com/en/before-you-fly/special-needs-and-request\\\"]]],[[null,7496],\\\"CjRIWnU0bTRGOHZhcjRBTTVZaEFCRy0tLS0tLS0tc2ViYnIyOUFBQUFBR29KdFljSTQtQUdBEgZQUjE4MDkaCgjIOhAAGgNQSFA4HHCHXw\\\\u003d\\\\u003d\\\"],null,false,[null,null,null,null,1,null,[null,1]],[false,false,false],false,[],\\\"[\\\\\\\"CAASA1BIUBoDCMg6IoABCl0KWwoDTU5MEhkyMDI2LTA3LTAyVDAzOjIwOjAwKzA4OjAwGgNEVk8iGTIwMjYtMDctMDJUMDU6MTA6MDArMDg6MDAqAlBSMgQxODA5OgJQUkIEMTgwOUgBUgMzMjESBAgDEAEYASgAMhUKE1BoaWxpcHBpbmUgQWlybGluZXM\\\\\\\\u003d\\\\\\\"]\\\",null,false],[[\\\"PR\\\",[\\\"Philippine Airlines\\\"],[[null,null,\\\"PAL Express\\\",\\\"MNL\\\",\\\"Ninoy Aquino International Airport\\\",\\\"Davao International Airport\\\",\\\"DVO\\\",null,[5,20],null,[7,15],115,[null,null,null,null,null,null,null,null,null,null,true],1,\\\"30 in\\\",null,1,\\\"Airbus A321\\\",null,false,[2026,7,2],[2026,7,2],[\\\"PR\\\",\\\"2811\\\",null,\\\"Philippine Airlines\\\"],null,null,1,null,null,null,null,\\\"30 inches\\\",103988,1]],\\\"MNL\\\",[2026,7,2],[5,20],\\\"DVO\\\",[2026,7,2],[7,15],115,null,null,false,null,null,null,null,\\\"C3eI3\\\",[[1779021191590389,137922322,2905170584],null,null,null,null,[[17]]],1,null,null,[null,null,2,3,null,true,true,104000,101000,null,93000,3,false,null,null,1,null,2],[1],[[\\\"PR\\\",\\\"Philippine Airlines\\\",\\\"https://www.philippineairlines.com/en/before-you-fly/special-needs-and-request\\\"]]],[[null,7496],\\\"CjRIWnU0bTRGOHZhcjRBTTVZaEFCRy0tLS0tLS0tc2ViYnIyOUFBQUFBR29KdFljSTQtQUdBEgZQUjI4MTEaCgjIOhAAGgNQSFA4HHCHXw\\\\u003d\\\\u003d\\\"],null,false,[null,null,null,null,1,null,[null,1]],[false,false,false],false,[],\\\"[\\\\\\\"CAASA1BIUBoDCMg6IoABCl0KWwoDTU5MEhkyMDI2LTA3LTAyVDA1OjIwOjAwKzA4OjAwGgNEVk8iGTIwMjYtMDctMDJUMDc6MTU6MDArMDg6MDAqAlBSMgQyODExOgJQUkIEMjgxMUgBUgMzMjESBAgDEAEYASgAMhUKE1BoaWxpcHBpbmUgQWlybGluZXM\\\\\\\\u003d\\\\\\\"]\\\",null,false],[[\\\"PR\\\",[\\\"Philippine Airlines\\\"],[[null,null,\\\"PAL Express\\\",\\\"MNL\\\",\\\"Ninoy Aquino International Airport\\\",\\\"Davao International Airport\\\",\\\"DVO\\\",null,[22,15],1,[null,5],110,[],2,\\\"28 in\\\",null,1,\\\"Airbus A320\\\",null,false,[2026,7,2],[2026,7,3],[\\\"PR\\\",\\\"2821\\\",null,\\\"Philippine Airlines\\\"],null,null,1,null,null,null,null,\\\"28 inches\\\",94249,2]],\\\"MNL\\\",[2026,7,2],[22,15],\\\"DVO\\\",[2026,7,3],[null,5],110,1,null,false,null,null,null,null,\\\"Bt7kWe\\\",[[1779021191590389,137922322,2905170584],null,null,null,null,[[18]]],1,null,null,[null,null,1,-7,null,true,true,94000,101000,null,93000,2,false,null,null,2,null,4],[1],[[\\\"PR\\\",\\\"Philippine Airlines\\\",\\\"https://www.philippineairlines.com/en/before-you-fly/special-needs-and-request\\\"]]],[[null,7496],\\\"CjRIWnU0bTRGOHZhcjRBTTVZaEFCRy0tLS0tLS0tc2ViYnIyOUFBQUFBR29KdFljSTQtQUdBEgZQUjI4MjEaCgjIOhAAGgNQSFA4HHCHXw\\\\u003d\\\\u003d\\\"],null,false,[null,null,null,null,1,null,[null,1]],[false,false,false],false,[],\\\"[\\\\\\\"CAASA1BIUBoDCMg6IoABCl0KWwoDTU5MEhkyMDI2LTA3LTAyVDIyOjE1OjAwKzA4OjAwGgNEVk8iGTIwMjYtMDctMDNUMDA6MDU6MDArMDg6MDAqAlBSMgQyODIxOgJQUkIEMjgyMUgBUgMzMjASBAgDEAEYASgAMhUKE1BoaWxpcHBpbmUgQWlybGluZXM\\\\\\\\u003d\\\\\\\"]\\\",[[1]],false],[[\\\"PR\\\",[\\\"Philippine Airlines\\\"],[[null,null,\\\"PAL Express\\\",\\\"MNL\\\",\\\"Ninoy Aquino International Airport\\\",\\\"Davao International Airport\\\",\\\"DVO\\\",null,[23],1,[null,50],110,[],2,\\\"28 in\\\",null,1,\\\"Airbus A320\\\",null,false,[2026,7,2],[2026,7,3],[\\\"PR\\\",\\\"2825\\\",null,\\\"Philippine Airlines\\\"],null,null,1,null,null,null,null,\\\"28 inches\\\",94249,2]],\\\"MNL\\\",[2026,7,2],[23],\\\"DVO\\\",[2026,7,3],[null,50],110,1,null,false,null,null,null,null,\\\"qnkfad\\\",[[1779021191590389,137922322,2905170584],null,null,null,null,[[19]]],1,null,null,[null,null,1,-7,null,true,true,94000,101000,null,93000,2,false,null,null,2,null,4],[1],[[\\\"PR\\\",\\\"Philippine Airlines\\\",\\\"https://www.philippineairlines.com/en/before-you-fly/special-needs-and-request\\\"]]],[[null,7496],\\\"CjRIWnU0bTRGOHZhcjRBTTVZaEFCRy0tLS0tLS0tc2ViYnIyOUFBQUFBR29KdFljSTQtQUdBEgZQUjI4MjUaCgjIOhAAGgNQSFA4HHCHXw\\\\u003d\\\\u003d\\\"],null,false,[null,null,null,null,1,null,[null,1]],[false,false,false],false,[],\\\"[\\\\\\\"CAASA1BIUBoDCMg6IoABCl0KWwoDTU5MEhkyMDI2LTA3LTAyVDIzOjAwOjAwKzA4OjAwGgNEVk8iGTIwMjYtMDctMDNUMDA6NTA6MDArMDg6MDAqAlBSMgQyODI1OgJQUkIEMjgyNUgBUgMzMjASBAgDEAEYASgAMhUKE1BoaWxpcHBpbmUgQWlybGluZXM\\\\\\\\u003d\\\\\\\"]\\\",[[1]],false],[[\\\"PR\\\",[\\\"Philippine Airlines\\\"],[[null,null,\\\"PAL Express\\\",\\\"MNL\\\",\\\"Ninoy Aquino International Airport\\\",\\\"Davao International Airport\\\",\\\"DVO\\\",null,[17,10],null,[19],110,[null,null,null,null,null,null,null,null,null,null,true],1,\\\"30 in\\\",null,1,\\\"Airbus A321\\\",null,false,[2026,7,2],[2026,7,2],[\\\"PR\\\",\\\"2819\\\",null,\\\"Philippine Airlines\\\"],null,null,1,null,null,null,null,\\\"30 inches\\\",103988,2]],\\\"MNL\\\",[2026,7,2],[17,10],\\\"DVO\\\",[2026,7,2],[19],110,null,null,false,null,null,null,null,\\\"CRU1Wd\\\",[[1779021191590389,137922322,2905170584],null,null,null,null,[[20]]],1,null,null,[null,null,2,3,null,true,true,104000,101000,null,93000,3,false,null,null,2,null,5],[1],[[\\\"PR\\\",\\\"Philippine Airlines\\\",\\\"https://www.philippineairlines.com/en/before-you-fly/special-needs-and-request\\\"]]],[[null,7619],\\\"CjRIWnU0bTRGOHZhcjRBTTVZaEFCRy0tLS0tLS0tc2ViYnIyOUFBQUFBR29KdFljSTQtQUdBEgZQUjI4MTkaCgjDOxAAGgNQSFA4HHDPYA\\\\u003d\\\\u003d\\\"],null,false,[null,null,null,null,1,null,[null,1]],[false,false,false],false,[],\\\"[\\\\\\\"CAASA1BIUBoDCMM7IoABCl0KWwoDTU5MEhkyMDI2LTA3LTAyVDE3OjEwOjAwKzA4OjAwGgNEVk8iGTIwMjYtMDctMDJUMTk6MDA6MDArMDg6MDAqAlBSMgQyODE5OgJQUkIEMjgxOUgBUgMzMjESBAgDEAEYASgAMhUKE1BoaWxpcHBpbmUgQWlybGluZXM\\\\\\\\u003d\\\\\\\"]\\\",null,false],[[\\\"PR\\\",[\\\"Philippine Airlines\\\"],[[null,null,\\\"PAL Express\\\",\\\"MNL\\\",\\\"Ninoy Aquino International Airport\\\",\\\"Davao International Airport\\\",\\\"DVO\\\",null,[8,20],null,[10,10],110,[null,null,null,null,null,null,null,null,null,null,true],1,\\\"30 in\\\",null,1,\\\"Airbus A321\\\",null,false,[2026,7,2],[2026,7,2],[\\\"PR\\\",\\\"2813\\\",null,\\\"Philippine Airlines\\\"],null,null,1,null,null,null,null,\\\"30 inches\\\",103988,1]],\\\"MNL\\\",[2026,7,2],[8,20],\\\"DVO\\\",[2026,7,2],[10,10],110,null,null,false,null,null,null,null,\\\"MP24xc\\\",[[1779021191590389,137922322,2905170584],null,null,null,null,[[21]]],1,null,null,[null,null,2,3,null,true,true,104000,101000,null,93000,3,false,null,null,1,null,2],[1],[[\\\"PR\\\",\\\"Philippine Airlines\\\",\\\"https://www.philippineairlines.com/en/before-you-fly/special-needs-and-request\\\"]]],[[null,7731],\\\"CjRIWnU0bTRGOHZhcjRBTTVZaEFCRy0tLS0tLS0tc2ViYnIyOUFBQUFBR29KdFljSTQtQUdBEgZQUjI4MTMaCgizPBAAGgNQSFA4HHCFYg\\\\u003d\\\\u003d\\\"],null,false,[null,null,null,null,1,null,[null,1]],[false,false,false],false,[],\\\"[\\\\\\\"CAASA1BIUBoDCLM8IoABCl0KWwoDTU5MEhkyMDI2LTA3LTAyVDA4OjIwOjAwKzA4OjAwGgNEVk8iGTIwMjYtMDctMDJUMTA6MTA6MDArMDg6MDAqAlBSMgQyODEzOgJQUkIEMjgxM0gBUgMzMjESBAgDEAEYASgAMhUKE1BoaWxpcHBpbmUgQWlybGluZXM\\\\\\\\u003d\\\\\\\"]\\\",null,false],[[\\\"PR\\\",[\\\"Philippine Airlines\\\"],[[null,null,\\\"PAL Express\\\",\\\"MNL\\\",\\\"Ninoy Aquino International Airport\\\",\\\"Davao International Airport\\\",\\\"DVO\\\",null,[11,10],null,[13],110,[null,null,null,null,null,null,null,null,null,null,true],1,\\\"30 in\\\",null,1,\\\"Airbus A321\\\",null,false,[2026,7,2],[2026,7,2],[\\\"PR\\\",\\\"2815\\\",null,\\\"Philippine Airlines\\\"],null,null,1,null,null,null,null,\\\"30 inches\\\",103988,1]],\\\"MNL\\\",[2026,7,2],[11,10],\\\"DVO\\\",[2026,7,2],[13],110,null,null,false,null,null,null,null,\\\"oZnGOb\\\",[[1779021191590389,137922322,2905170584],null,null,null,null,[[22]]],1,null,null,[null,null,2,3,null,true,true,104000,101000,null,93000,3,false,null,null,1,null,2],[1],[[\\\"PR\\\",\\\"Philippine Airlines\\\",\\\"https://www.philippineairlines.com/en/before-you-fly/special-needs-and-request\\\"]]],[[null,7731],\\\"CjRIWnU0bTRGOHZhcjRBTTVZaEFCRy0tLS0tLS0tc2ViYnIyOUFBQUFBR29KdFljSTQtQUdBEgZQUjI4MTUaCgizPBAAGgNQSFA4HHCFYg\\\\u003d\\\\u003d\\\"],null,false,[null,null,null,null,1,null,[null,1]],[false,false,false],false,[],\\\"[\\\\\\\"CAASA1BIUBoDCLM8IoABCl0KWwoDTU5MEhkyMDI2LTA3LTAyVDExOjEwOjAwKzA4OjAwGgNEVk8iGTIwMjYtMDctMDJUMTM6MDA6MDArMDg6MDAqAlBSMgQyODE1OgJQUkIEMjgxNUgBUgMzMjESBAgDEAEYASgAMhUKE1BoaWxpcHBpbmUgQWlybGluZXM\\\\\\\\u003d\\\\\\\"]\\\",null,false],[[\\\"PR\\\",[\\\"Philippine Airlines\\\"],[[null,null,null,\\\"MNL\\\",\\\"Ninoy Aquino International Airport\\\",\\\"Davao International Airport\\\",\\\"DVO\\\",null,[12,30],null,[14,20],110,[null,null,null,true,null,null,null,null,null,null,true],1,\\\"30 in\\\",null,1,\\\"Airbus A330\\\",null,false,[2026,7,2],[2026,7,2],[\\\"PR\\\",\\\"1805\\\",null,\\\"Philippine Airlines\\\"],null,null,1,null,null,null,null,\\\"30 inches\\\",83952,1]],\\\"MNL\\\",[2026,7,2],[12,30],\\\"DVO\\\",[2026,7,2],[14,20],110,null,null,false,null,null,null,null,\\\"DJIfy\\\",[[1779021191590389,137922322,2905170584],null,null,null,null,[[23]]],1,null,null,[null,null,1,-17,null,true,true,84000,101000,null,93000,1,false,null,null,1,null,1],[1],[[\\\"PR\\\",\\\"Philippine Airlines\\\",\\\"https://www.philippineairlines.com/en/before-you-fly/special-needs-and-request\\\"]]],[[null,7731],\\\"CjRIWnU0bTRGOHZhcjRBTTVZaEFCRy0tLS0tLS0tc2ViYnIyOUFBQUFBR29KdFljSTQtQUdBEgZQUjE4MDUaCgizPBAAGgNQSFA4HHCFYg\\\\u003d\\\\u003d\\\"],null,false,[null,null,null,null,1,null,[null,1]],[false,false,false],false,[],\\\"[\\\\\\\"CAASA1BIUBoDCLM8IoABCl0KWwoDTU5MEhkyMDI2LTA3LTAyVDEyOjMwOjAwKzA4OjAwGgNEVk8iGTIwMjYtMDctMDJUMTQ6MjA6MDArMDg6MDAqAlBSMgQxODA1OgJQUkIEMTgwNUgBUgMzMzMSBAgDEAEYASgAMhUKE1BoaWxpcHBpbmUgQWlybGluZXM\\\\\\\\u003d\\\\\\\"]\\\",[[1]],false],[[\\\"PR\\\",[\\\"Philippine Airlines\\\"],[[null,null,\\\"PAL Express\\\",\\\"MNL\\\",\\\"Ninoy Aquino International Airport\\\",\\\"Davao International Airport\\\",\\\"DVO\\\",null,[14,30],null,[16,25],115,[null,null,null,null,null,null,null,null,null,null,true],1,\\\"30 in\\\",null,1,\\\"Airbus A321\\\",null,false,[2026,7,2],[2026,7,2],[\\\"PR\\\",\\\"2817\\\",null,\\\"Philippine Airlines\\\"],null,null,1,null,null,null,null,\\\"30 inches\\\",103988,1]],\\\"MNL\\\",[2026,7,2],[14,30],\\\"DVO\\\",[2026,7,2],[16,25],115,null,null,false,null,null,null,null,\\\"AsJgTb\\\",[[1779021191590389,137922322,2905170584],null,null,null,null,[[24]]],1,null,null,[null,null,2,3,null,true,true,104000,101000,null,93000,3,false,null,null,1,null,2],[1],[[\\\"PR\\\",\\\"Philippine Airlines\\\",\\\"https://www.philippineairlines.com/en/before-you-fly/special-needs-and-request\\\"]]],[[null,7731],\\\"CjRIWnU0bTRGOHZhcjRBTTVZaEFCRy0tLS0tLS0tc2ViYnIyOUFBQUFBR29KdFljSTQtQUdBEgZQUjI4MTcaCgizPBAAGgNQSFA4HHCFYg\\\\u003d\\\\u003d\\\"],null,false,[null,null,null,null,1,null,[null,1]],[false,false,false],false,[],\\\"[\\\\\\\"CAASA1BIUBoDCLM8IoABCl0KWwoDTU5MEhkyMDI2LTA3LTAyVDE0OjMwOjAwKzA4OjAwGgNEVk8iGTIwMjYtMDctMDJUMTY6MjU6MDArMDg6MDAqAlBSMgQyODE3OgJQUkIEMjgxN0gBUgMzMjESBAgDEAEYASgAMhUKE1BoaWxpcHBpbmUgQWlybGluZXM\\\\\\\\u003d\\\\\\\"]\\\",null,false],[[\\\"PR\\\",[\\\"Philippine Airlines\\\"],[[null,null,\\\"PAL Express\\\",\\\"MNL\\\",\\\"Ninoy Aquino International Airport\\\",\\\"Davao International Airport\\\",\\\"DVO\\\",null,[20,10],null,[22,5],115,[null,null,null,null,null,null,null,null,null,null,true],1,\\\"30 in\\\",null,1,\\\"Airbus A321\\\",null,false,[2026,7,2],[2026,7,2],[\\\"PR\\\",\\\"2823\\\",null,\\\"Philippine Airlines\\\"],null,null,1,null,null,null,null,\\\"30 inches\\\",103988,2]],\\\"MNL\\\",[2026,7,2],[20,10],\\\"DVO\\\",[2026,7,2],[22,5],115,null,null,false,null,null,null,null,\\\"YskTAe\\\",[[1779021191590389,137922322,2905170584],null,null,null,null,[[25]]],1,null,null,[null,null,2,3,null,true,true,104000,101000,null,93000,3,false,null,null,2,null,5],[1],[[\\\"PR\\\",\\\"Philippine Airlines\\\",\\\"https://www.philippineairlines.com/en/before-you-fly/special-needs-and-request\\\"]]],[[null,8616],\\\"CjRIWnU0bTRGOHZhcjRBTTVZaEFCRy0tLS0tLS0tc2ViYnIyOUFBQUFBR29KdFljSTQtQUdBEgZQUjI4MjMaCgioQxAAGgNQSFA4HHChbQ\\\\u003d\\\\u003d\\\"],null,false,[null,null,null,null,1,null,[null,1]],[false,false,false],false,[],\\\"[\\\\\\\"CAASA1BIUBoDCKhDIoABCl0KWwoDTU5MEhkyMDI2LTA3LTAyVDIwOjEwOjAwKzA4OjAwGgNEVk8iGTIwMjYtMDctMDJUMjI6MDU6MDArMDg6MDAqAlBSMgQyODIzOgJQUkIEMjgyM0gBUgMzMjESBAgDEAEYASgAMhUKE1BoaWxpcHBpbmUgQWlybGluZXM\\\\\\\\u003d\\\\\\\"]\\\",null,false]],0,false,false,[1]],null,[5,[null,6177],[null,4183],[null,-1994],[null,3750],[null,5600],1,null,null,null,[[[1773763200000,2543],[1773849600000,4043],[1773936000000,4043],[1774022400000,4043],[1774108800000,4043],[1774195200000,4043],[1774281600000,4043],[1774368000000,4043],[1774454400000,3595],[1774540800000,3345],[1774627200000,3345],[1774713600000,3345],[1774800000000,3345],[1774886400000,3345],[1774972800000,3345],[1775059200000,4541],[1775145600000,4541],[1775232000000,4541],[1775318400000,4541],[1775404800000,4541],[1775491200000,4541],[1775577600000,4541],[1775664000000,4541],[1775750400000,4541],[1775836800000,4541],[1775923200000,4541],[1776009600000,4541],[1776096000000,4541],[1776182400000,4541],[1776268800000,4541],[1776355200000,7007],[1776441600000,7007],[1776528000000,7007],[1776614400000,7007],[1776700800000,7007],[1776787200000,7007],[1776873600000,7007],[1776960000000,7007],[1777046400000,7007],[1777132800000,7007],[1777219200000,7007],[1777305600000,7007],[1777392000000,6783],[1777478400000,6783],[1777564800000,6575],[1777651200000,6575],[1777737600000,6575],[1777824000000,6551],[1777910400000,6799],[1777996800000,6799],[1778083200000,6799],[1778169600000,6551],[1778256000000,6551],[1778342400000,6551],[1778428800000,6551],[1778515200000,6551],[1778601600000,6551],[1778688000000,6551],[1778774400000,6551],[1778860800000,6177],[1778947200000,6177]]],[[1779021191590389,137922322,2905170584],null,null,null,null,[[26]]],\\\"Davao City\\\"],null,[[[null,6177],[null,14338]],[[[\\\"ONEWORLD\\\",\\\"Oneworld\\\"],[\\\"SKYTEAM\\\",\\\"SkyTeam\\\"],[\\\"STAR_ALLIANCE\\\",\\\"Star Alliance\\\"]],[[\\\"DG\\\",\\\"Cebgo\\\"],[\\\"5J\\\",\\\"Cebu Pacific\\\"],[\\\"CI\\\",\\\"China Airlines\\\"],[\\\"GA\\\",\\\"Garuda Indonesia\\\"],[\\\"PR\\\",\\\"Philippine Airlines\\\"],[\\\"Z2\\\",\\\"Philippines AirAsia\\\"],[\\\"TR\\\",\\\"Scoot\\\"],[\\\"SQ\\\",\\\"Singapore Airlines\\\"]]],[[[\\\"CEB\\\",\\\"Cebu City\\\"],[\\\"ILO\\\",\\\"Iloilo City\\\"],[\\\"TAG\\\",\\\"Panglao\\\"],[\\\"PPS\\\",\\\"Puerto Princesa City\\\"],[\\\"TAC\\\",\\\"Tacloban City\\\"]],35,990],[100,1140],[[1,2,3]],[true,false,false,false],null,[false]],null,null,null,[[\\\"5J\\\",\\\"Cebu Pacific\\\",\\\"https://www.cebupacificair.com/pages/travel-info/baggage-information/carry-on-baggage\\\"],[\\\"PR\\\",\\\"Philippine Airlines\\\",\\\"https://www.philippineairlines.com/en/before-you-fly/baggage-information\\\"]],[\\\"EAEaBAgDEAEhAAAAAAAhuEAqA1BIUDI0ChgKA01OTBIDRFZPGgoyMDI2LTA3LTAyIAAKGAoDRFZPEgNNTkwaCjIwMjYtMDctMDggAFABYjsKKgoHCgNNTkwQARIHCgNEVk8QARoKMjAyNi0wNy0wMiIKMjAyNi0wNy0wOBoNCgQIAxABEAEYAIgBAWgAcLmvwTI\\\\u003d\\\",0],null,[[1779021191590389,137922322,2905170584],null,null,null,null,[[0]]],null,null,[[[\\\"CEB\\\",0],\\\"Mactan-Cebu International Airport\\\",[\\\"/m/01p_ly\\\",\\\"Cebu City\\\",[[\\\"https://encrypted-tbn0.gstatic.com/images?q\\\\u003dtbn:ANd9GcSeusmYuePIQYVYjSN-Xeh8ytCEAKpNyFyQLK11x-O1Ql2sLUVjsoVhVTNmoxmlAC_FyGM6nwKKZLDasP-2WXq1cBLovF-8MRf5PgSthlo\\\"],[\\\"https://encrypted-tbn0.gstatic.com/images?q\\\\u003dtbn:ANd9GcS8c136c84RJtzmgkpLMeRR2X_FACDOzTX_yPwBvypRWYhJcVJcxO0xkbXY74vUa8NoSSioWPDQRZtjLA\\\"]]],[10.3075,123.979444],\\\"PH\\\",false,\\\"Philippines\\\"],[[\\\"/m/01p_ly\\\",4],\\\"Cebu City\\\",[\\\"/m/01p_ly\\\",\\\"Cebu City\\\",[[\\\"https://encrypted-tbn0.gstatic.com/images?q\\\\u003dtbn:ANd9GcSeusmYuePIQYVYjSN-Xeh8ytCEAKpNyFyQLK11x-O1Ql2sLUVjsoVhVTNmoxmlAC_FyGM6nwKKZLDasP-2WXq1cBLovF-8MRf5PgSthlo\\\"],[\\\"https://encrypted-tbn0.gstatic.com/images?q\\\\u003dtbn:ANd9GcS8c136c84RJtzmgkpLMeRR2X_FACDOzTX_yPwBvypRWYhJcVJcxO0xkbXY74vUa8NoSSioWPDQRZtjLA\\\"]],\\\"Cebu City, dive sites \\\\u0026 beach resorts\\\",\\\"Philippine island province with dive sites, beach resorts \\\\u0026 Cebu City's Spanish colonial heritage.\\\",\\\"CEB\\\"],[10.2926115,123.9021934],\\\"PH\\\",null,\\\"Philippines\\\"],[[\\\"DVO\\\",0],\\\"Davao International Airport\\\",[\\\"/m/02gn1x\\\",\\\"Davao City\\\",[[\\\"https://encrypted-tbn3.gstatic.com/images?q\\\\u003dtbn:ANd9GcROkGJkTwZQBdB-RVt-EToFNHRFoglZTreul8Z_NdSbwtftX3OPNnmycIc5UDD-ARuX3ikHlAZbHm-vrCmdNjovpHS0lWw4eU-LsISbKtQ\\\"],[\\\"https://encrypted-tbn3.gstatic.com/images?q\\\\u003dtbn:ANd9GcR1Z6VD9qk0vsvmUX7f2kEetwQ9878VrwtFc5fR0E6-wp89u7ReDu0eTQ8g0EU2Q_nkv0iCqxhTZP6Cmw\\\"]]],[7.12527778,125.645556],\\\"PH\\\",false,\\\"Philippines\\\"],[[\\\"/m/02gn1x\\\",4],\\\"Davao City\\\",[\\\"/m/02gn1x\\\",\\\"Davao City\\\",[[\\\"https://encrypted-tbn3.gstatic.com/images?q\\\\u003dtbn:ANd9GcROkGJkTwZQBdB-RVt-EToFNHRFoglZTreul8Z_NdSbwtftX3OPNnmycIc5UDD-ARuX3ikHlAZbHm-vrCmdNjovpHS0lWw4eU-LsISbKtQ\\\"],[\\\"https://encrypted-tbn3.gstatic.com/images?q\\\\u003dtbn:ANd9GcR1Z6VD9qk0vsvmUX7f2kEetwQ9878VrwtFc5fR0E6-wp89u7ReDu0eTQ8g0EU2Q_nkv0iCqxhTZP6Cmw\\\"]],\\\"Mount Apo, People\u2019s Park \\\\u0026 durian fruit\\\",\\\"Coastal southern Philippines city near Mount Apo, home of People\u2019s Park \\\\u0026 major producer of durians.\\\",\\\"DVO\\\"],[7.0647456,125.6088427],\\\"PH\\\",null,\\\"Philippines\\\"],[[\\\"ILO\\\",0],\\\"Iloilo International Airport\\\",[\\\"/m/04wdb1\\\",\\\"Iloilo City\\\",[[\\\"https://encrypted-tbn1.gstatic.com/images?q\\\\u003dtbn:ANd9GcR7M9v1HwLbgxNy3lG_fldw60PTQJydxA-DfStUsia87QhbhyidLwX6MEly_t7E-lLsJGhX8ZIbZx8M23P6fafKsApBlTcMrOMFR3QHVwc\\\"],[\\\"https://encrypted-tbn1.gstatic.com/images?q\\\\u003dtbn:ANd9GcRHMIYtb2cooKrcE9fzZLf4T_eIRVzovl9DJ0bLXx8EjMTiEKbqYNKbt3fopw4hs55GSGxXu3AXYK00PQ\\\"]]],[10.8330556,122.493333],\\\"PH\\\",false,\\\"Philippines\\\"],[[\\\"/m/04wdb1\\\",4],\\\"Iloilo City\\\",[\\\"/m/04wdb1\\\",\\\"Iloilo City\\\",[[\\\"https://encrypted-tbn1.gstatic.com/images?q\\\\u003dtbn:ANd9GcR7M9v1HwLbgxNy3lG_fldw60PTQJydxA-DfStUsia87QhbhyidLwX6MEly_t7E-lLsJGhX8ZIbZx8M23P6fafKsApBlTcMrOMFR3QHVwc\\\"],[\\\"https://encrypted-tbn1.gstatic.com/images?q\\\\u003dtbn:ANd9GcRHMIYtb2cooKrcE9fzZLf4T_eIRVzovl9DJ0bLXx8EjMTiEKbqYNKbt3fopw4hs55GSGxXu3AXYK00PQ\\\"]],\\\"Jaro Cathedral \\\\u0026 Iloilo River Esplanade\\\",\\\"Philippines city on Panay Island, with Jaro Cathedral, Iloilo River Esplanade \\\\u0026 Museo Iloilo.\\\",\\\"ILO\\\"],[10.7301854,122.5591148],\\\"PH\\\",null,\\\"Philippines\\\"],[[\\\"MNL\\\",0],\\\"Ninoy Aquino International Airport\\\",[\\\"/m/0195pd\\\",\\\"Manila\\\",[[\\\"https://encrypted-tbn3.gstatic.com/images?q\\\\u003dtbn:ANd9GcQC7Bb2H3NrQpJM3YoHJkpvMGwYpCoYblptbYVAZ-2BkTgghoiODXxnA9Q33aylCHHY93N7850izEJuZ11FAI3tv4bcLCgZgkbZD7HpTFs\\\"],[\\\"https://encrypted-tbn3.gstatic.com/images?q\\\\u003dtbn:ANd9GcTJf81418Q0PkWchFc6cPvdjnVcAaZivEOoiVOkLtOXQ7I5YOBUcmLKmsYUi3ZcQqR51fhBYFiS46XRWA\\\"]]],[14.51,121.013889],\\\"PH\\\",false,\\\"Philippines\\\"],[[\\\"/m/0195pd\\\",4],\\\"Manila\\\",[\\\"/m/0195pd\\\",\\\"Manila\\\",[[\\\"https://encrypted-tbn3.gstatic.com/images?q\\\\u003dtbn:ANd9GcQC7Bb2H3NrQpJM3YoHJkpvMGwYpCoYblptbYVAZ-2BkTgghoiODXxnA9Q33aylCHHY93N7850izEJuZ11FAI3tv4bcLCgZgkbZD7HpTFs\\\"],[\\\"https://encrypted-tbn3.gstatic.com/images?q\\\\u003dtbn:ANd9GcTJf81418Q0PkWchFc6cPvdjnVcAaZivEOoiVOkLtOXQ7I5YOBUcmLKmsYUi3ZcQqR51fhBYFiS46XRWA\\\"]],\\\"Philippine capital with colonial core\\\",\\\"The Philippines\u2019 bustling, bayside capital, with Spanish colonial landmarks \\\\u0026 museums.\\\",\\\"MNL\\\"],[14.5995133,120.984234],\\\"PH\\\",null,\\\"Philippines\\\"],[[\\\"PPS\\\",0],\\\"Puerto Princesa International Airport\\\",[\\\"/m/06s5d4\\\",\\\"Puerto Princesa City\\\",[[\\\"https://encrypted-tbn3.gstatic.com/images?q\\\\u003dtbn:ANd9GcRQkRiTUvtQXK5BFAbZUZFtMxvLnd8kOxPGmQ6sgV64_sjpktg-3Ra0l6tupxWzAlUBHc12ppSQG5tQ6lbcXQo9-j-VZNFg9V6TvYQgnjk\\\"],[\\\"https://encrypted-tbn3.gstatic.com/images?q\\\\u003dtbn:ANd9GcR4qqrroQeCWxwuczd9QMz2S8qgQjsCBxp0849LBLZ8WxyuSXG01Stk9EC1sVTikYkL-4OScnHzdOPgxg\\\"]]],[9.74222222,118.758611],\\\"PH\\\",false,\\\"Philippines\\\"],[[\\\"/m/06s5d4\\\",4],\\\"Puerto Princesa City\\\",[\\\"/m/06s5d4\\\",\\\"Puerto Princesa City\\\",[[\\\"https://encrypted-tbn3.gstatic.com/images?q\\\\u003dtbn:ANd9GcRQkRiTUvtQXK5BFAbZUZFtMxvLnd8kOxPGmQ6sgV64_sjpktg-3Ra0l6tupxWzAlUBHc12ppSQG5tQ6lbcXQo9-j-VZNFg9V6TvYQgnjk\\\"],[\\\"https://encrypted-tbn3.gstatic.com/images?q\\\\u003dtbn:ANd9GcR4qqrroQeCWxwuczd9QMz2S8qgQjsCBxp0849LBLZ8WxyuSXG01Stk9EC1sVTikYkL-4OScnHzdOPgxg\\\"]],\\\"Subterranean River \\\\u0026 scuba diving\\\",\\\"Filipino city on Palawan Island known for Puerto Princesa Subterranean River \\\\u0026 scuba diving.\\\",\\\"PPS\\\"],[9.7856257,118.626479],\\\"PH\\\",null,\\\"Philippines\\\"],[[\\\"TAC\\\",0],\\\"Daniel Z. Romualdez Airport\\\",[\\\"/m/037wbd\\\",\\\"Tacloban City\\\",[[\\\"https://encrypted-tbn0.gstatic.com/licensed-image?q\\\\u003dtbn:ANd9GcTKjA3nUe5NF59WVgkToSUZ2GFNLKnWQ2FjM_jsOA1Pjdlbslz9iKxRKj-TxbS05P0UipNyezYzWNvEY4Re0obikGYFX8-U1X_ayi4LjRw\\\"],[\\\"https://encrypted-tbn0.gstatic.com/licensed-image?q\\\\u003dtbn:ANd9GcQydClY2sAzz98aLczkVEIgasmhoJugvk7Pk_pWdPN0JfGarXwiiQWnFw_yhVki_0oxXWAqPNHEMjS36VKmKIaW25CVDljeSx_TJ1XKAiw\\\"]]],[11.2275,125.027778],\\\"PH\\\",false,\\\"Philippines\\\"],[[\\\"/m/037wbd\\\",4],\\\"Tacloban City\\\",[\\\"/m/037wbd\\\",\\\"Tacloban City\\\",[[\\\"https://encrypted-tbn0.gstatic.com/licensed-image?q\\\\u003dtbn:ANd9GcTKjA3nUe5NF59WVgkToSUZ2GFNLKnWQ2FjM_jsOA1Pjdlbslz9iKxRKj-TxbS05P0UipNyezYzWNvEY4Re0obikGYFX8-U1X_ayi4LjRw\\\"],[\\\"https://encrypted-tbn0.gstatic.com/licensed-image?q\\\\u003dtbn:ANd9GcQydClY2sAzz98aLczkVEIgasmhoJugvk7Pk_pWdPN0JfGarXwiiQWnFw_yhVki_0oxXWAqPNHEMjS36VKmKIaW25CVDljeSx_TJ1XKAiw\\\"]],\\\"Locality\\\",null,\\\"TAC\\\"],[11.2223789,124.9922133],\\\"PH\\\",null,\\\"Philippines\\\"],[[\\\"TAG\\\",0],\\\"Panglao International Airport\\\",[\\\"/m/06lgxt\\\",\\\"Panglao\\\",[[\\\"https://encrypted-tbn3.gstatic.com/licensed-image?q\\\\u003dtbn:ANd9GcRTHBIL1naL-moU0eXTsE3eJeSj6teY8xuQS-aeSRIDm3BPnx5kt3wJJzm1J14TwzzZonGeoMw5KSeuIrv8GGgy7wFebEXmHjuduuweNKM\\\"],[\\\"https://encrypted-tbn3.gstatic.com/licensed-image?q\\\\u003dtbn:ANd9GcThIa0X6cGvPmB1O_v-Rk9estlqhzBEE3WVzblDzIJXqYiFrlXhKGyN5cfIYGPm0sK1TVKJCVnDPSqGBaTJ37vX7fv4Ctv2GTBR0eN9A7Y\\\"]]],[9.57111111,123.77],\\\"PH\\\",false,\\\"Philippines\\\"],[[\\\"/m/06lgxt\\\",4],\\\"Panglao\\\",[\\\"/m/06lgxt\\\",\\\"Panglao\\\",[[\\\"https://encrypted-tbn3.gstatic.com/licensed-image?q\\\\u003dtbn:ANd9GcRTHBIL1naL-moU0eXTsE3eJeSj6teY8xuQS-aeSRIDm3BPnx5kt3wJJzm1J14TwzzZonGeoMw5KSeuIrv8GGgy7wFebEXmHjuduuweNKM\\\"],[\\\"https://encrypted-tbn3.gstatic.com/licensed-image?q\\\\u003dtbn:ANd9GcThIa0X6cGvPmB1O_v-Rk9estlqhzBEE3WVzblDzIJXqYiFrlXhKGyN5cfIYGPm0sK1TVKJCVnDPSqGBaTJ37vX7fv4Ctv2GTBR0eN9A7Y\\\"]],\\\"Beach, whale shark, snorkeling, scuba diving, and dolphin\\\",null,\\\"TAG\\\"],[9.5694655,123.787211],\\\"PH\\\",null,\\\"Philippines\\\"]],[\\\"EAEaBAgDEAEhAAAAAAAhuEAqA1BIUDIAUAFiGxoLCgQIAxABEAGIAQEqDBgCIgNNTkwqA0RWT2gAcLmvwTI\\\\u003d\\\",0],null,false,null,null,null,null,[[null,6177]],[[\\\"5J\\\",\\\"Cebu Pacific\\\",\\\"https://www.cebupacificair.com/pages/travel-info/special-service-request\\\"],[\\\"PR\\\",\\\"Philippine Airlines\\\",\\\"https://www.philippineairlines.com/en/before-you-fly/special-needs-and-request\\\"]],null,null,1,[[null,6177],\\\"CjRIWnU0bTRGOHZhcjRBTTVZaEFCRy0tLS0tLS0tc2ViYnIyOUFBQUFBR29KdFljSTQtQUdBEhZjb21wcmVoZW5zaXZlbmVzc19sdXJlGgoIoTAQABoDUEhQOBxwqk4\\\\u003d\\\"],true,true]\"]]\n57\n[[\"di\",138],[\"af.httprm\",137,\"7015875891405667600\",22]]\n27\n[[\"e\",4,null,null,41095]]\n",
+    "captured_at": "2026-05-17T12:33:11+00:00"
+  },
+  "offers": [
+    {
+      "origin_airport": "MNL",
+      "destination_airport": "DVO",
+      "departure_date": "2026-07-02",
+      "arrival_date": "2026-07-02",
+      "departure_time": "2026-07-02T05:30:00",
+      "arrival_time": "2026-07-02T07:35:00",
+      "duration_minutes": 125,
+      "stops": 0,
+      "price": 6177,
+      "currency": "PHP",
+      "airlines": [
+        "Cebu Pacific"
+      ],
+      "flight_numbers": [
+        "961"
+      ],
+      "layovers": [],
+      "emissions_kg": 75,
+      "emissions_delta_percent": -26,
+      "booking_token": "CjRIWnU0bTRGOHZhcjRBTTVZaEFCRy0tLS0tLS0tc2ViYnIyOUFBQUFBR29KdFljSTQtQUdBEgU1Sjk2MRoKCKEwEAAaA1BIUDgccKpO",
+      "is_best": true,
+      "segments": [
+        {
+          "airline_code": "5J",
+          "airline_name": "Cebu Pacific",
+          "flight_number": "961",
+          "operating_airline": null,
+          "origin_airport": "MNL",
+          "origin_name": "Ninoy Aquino International Airport",
+          "destination_airport": "DVO",
+          "destination_name": "Davao International Airport",
+          "departure_time": "2026-07-02T05:30:00",
+          "arrival_time": "2026-07-02T07:35:00",
+          "duration_minutes": 125,
+          "aircraft": "Airbus A330-900neo"
+        }
+      ]
+    },
+    {
+      "origin_airport": "MNL",
+      "destination_airport": "DVO",
+      "departure_date": "2026-07-02",
+      "arrival_date": "2026-07-02",
+      "departure_time": "2026-07-02T08:25:00",
+      "arrival_time": "2026-07-02T10:30:00",
+      "duration_minutes": 125,
+      "stops": 0,
+      "price": 6177,
+      "currency": "PHP",
+      "airlines": [
+        "Cebu Pacific"
+      ],
+      "flight_numbers": [
+        "963"
+      ],
+      "layovers": [],
+      "emissions_kg": 72,
+      "emissions_delta_percent": -29,
+      "booking_token": "CjRIWnU0bTRGOHZhcjRBTTVZaEFCRy0tLS0tLS0tc2ViYnIyOUFBQUFBR29KdFljSTQtQUdBEgU1Sjk2MxoKCKEwEAAaA1BIUDgccKpO",
+      "is_best": true,
+      "segments": [
+        {
+          "airline_code": "5J",
+          "airline_name": "Cebu Pacific",
+          "flight_number": "963",
+          "operating_airline": null,
+          "origin_airport": "MNL",
+          "origin_name": "Ninoy Aquino International Airport",
+          "destination_airport": "DVO",
+          "destination_name": "Davao International Airport",
+          "departure_time": "2026-07-02T08:25:00",
+          "arrival_time": "2026-07-02T10:30:00",
+          "duration_minutes": 125,
+          "aircraft": "Airbus A321neo"
+        }
+      ]
+    },
+    {
+      "origin_airport": "MNL",
+      "destination_airport": "DVO",
+      "departure_date": "2026-07-02",
+      "arrival_date": "2026-07-03",
+      "departure_time": "2026-07-02T22:40:00",
+      "arrival_time": "2026-07-03T00:40:00",
+      "duration_minutes": 120,
+      "stops": 0,
+      "price": 6177,
+      "currency": "PHP",
+      "airlines": [
+        "Cebu Pacific"
+      ],
+      "flight_numbers": [
+        "953"
+      ],
+      "layovers": [],
+      "emissions_kg": 78,
+      "emissions_delta_percent": -23,
+      "booking_token": "CjRIWnU0bTRGOHZhcjRBTTVZaEFCRy0tLS0tLS0tc2ViYnIyOUFBQUFBR29KdFljSTQtQUdBEgU1Sjk1MxoKCKEwEAAaA1BIUDgccKpO",
+      "is_best": true,
+      "segments": [
+        {
+          "airline_code": "5J",
+          "airline_name": "Cebu Pacific",
+          "flight_number": "953",
+          "operating_airline": null,
+          "origin_airport": "MNL",
+          "origin_name": "Ninoy Aquino International Airport",
+          "destination_airport": "DVO",
+          "destination_name": "Davao International Airport",
+          "departure_time": "2026-07-02T22:40:00",
+          "arrival_time": "2026-07-03T00:40:00",
+          "duration_minutes": 120,
+          "aircraft": "Airbus A320neo"
+        }
+      ]
+    },
+    {
+      "origin_airport": "MNL",
+      "destination_airport": "DVO",
+      "departure_date": "2026-07-02",
+      "arrival_date": "2026-07-03",
+      "departure_time": "2026-07-02T23:10:00",
+      "arrival_time": "2026-07-03T01:10:00",
+      "duration_minutes": 120,
+      "stops": 0,
+      "price": 6177,
+      "currency": "PHP",
+      "airlines": [
+        "Cebu Pacific"
+      ],
+      "flight_numbers": [
+        "967"
+      ],
+      "layovers": [],
+      "emissions_kg": 78,
+      "emissions_delta_percent": -23,
+      "booking_token": "CjRIWnU0bTRGOHZhcjRBTTVZaEFCRy0tLS0tLS0tc2ViYnIyOUFBQUFBR29KdFljSTQtQUdBEgU1Sjk2NxoKCKEwEAAaA1BIUDgccKpO",
+      "is_best": true,
+      "segments": [
+        {
+          "airline_code": "5J",
+          "airline_name": "Cebu Pacific",
+          "flight_number": "967",
+          "operating_airline": null,
+          "origin_airport": "MNL",
+          "origin_name": "Ninoy Aquino International Airport",
+          "destination_airport": "DVO",
+          "destination_name": "Davao International Airport",
+          "departure_time": "2026-07-02T23:10:00",
+          "arrival_time": "2026-07-03T01:10:00",
+          "duration_minutes": 120,
+          "aircraft": "Airbus A320neo"
+        }
+      ]
+    },
+    {
+      "origin_airport": "MNL",
+      "destination_airport": "DVO",
+      "departure_date": "2026-07-02",
+      "arrival_date": "2026-07-02",
+      "departure_time": "2026-07-02T10:25:00",
+      "arrival_time": "2026-07-02T12:25:00",
+      "duration_minutes": 120,
+      "stops": 0,
+      "price": 6177,
+      "currency": "PHP",
+      "airlines": [
+        "Cebu Pacific"
+      ],
+      "flight_numbers": [
+        "973"
+      ],
+      "layovers": [],
+      "emissions_kg": 77,
+      "emissions_delta_percent": -24,
+      "booking_token": "CjRIWnU0bTRGOHZhcjRBTTVZaEFCRy0tLS0tLS0tc2ViYnIyOUFBQUFBR29KdFljSTQtQUdBEgU1Sjk3MxoKCKEwEAAaA1BIUDgccKpO",
+      "is_best": true,
+      "segments": [
+        {
+          "airline_code": "5J",
+          "airline_name": "Cebu Pacific",
+          "flight_number": "973",
+          "operating_airline": null,
+          "origin_airport": "MNL",
+          "origin_name": "Ninoy Aquino International Airport",
+          "destination_airport": "DVO",
+          "destination_name": "Davao International Airport",
+          "departure_time": "2026-07-02T10:25:00",
+          "arrival_time": "2026-07-02T12:25:00",
+          "duration_minutes": 120,
+          "aircraft": "Airbus A320neo"
+        }
+      ]
+    },
+    {
+      "origin_airport": "MNL",
+      "destination_airport": "DVO",
+      "departure_date": "2026-07-02",
+      "arrival_date": "2026-07-02",
+      "departure_time": "2026-07-02T12:15:00",
+      "arrival_time": "2026-07-02T14:25:00",
+      "duration_minutes": 130,
+      "stops": 0,
+      "price": 6177,
+      "currency": "PHP",
+      "airlines": [
+        "Cebu Pacific"
+      ],
+      "flight_numbers": [
+        "957"
+      ],
+      "layovers": [],
+      "emissions_kg": 72,
+      "emissions_delta_percent": -29,
+      "booking_token": "CjRIWnU0bTRGOHZhcjRBTTVZaEFCRy0tLS0tLS0tc2ViYnIyOUFBQUFBR29KdFljSTQtQUdBEgU1Sjk1NxoKCKEwEAAaA1BIUDgccKpO",
+      "is_best": true,
+      "segments": [
+        {
+          "airline_code": "5J",
+          "airline_name": "Cebu Pacific",
+          "flight_number": "957",
+          "operating_airline": null,
+          "origin_airport": "MNL",
+          "origin_name": "Ninoy Aquino International Airport",
+          "destination_airport": "DVO",
+          "destination_name": "Davao International Airport",
+          "departure_time": "2026-07-02T12:15:00",
+          "arrival_time": "2026-07-02T14:25:00",
+          "duration_minutes": 130,
+          "aircraft": "Airbus A321neo"
+        }
+      ]
+    },
+    {
+      "origin_airport": "MNL",
+      "destination_airport": "DVO",
+      "departure_date": "2026-07-02",
+      "arrival_date": "2026-07-02",
+      "departure_time": "2026-07-02T15:35:00",
+      "arrival_time": "2026-07-02T17:45:00",
+      "duration_minutes": 130,
+      "stops": 0,
+      "price": 6177,
+      "currency": "PHP",
+      "airlines": [
+        "Cebu Pacific"
+      ],
+      "flight_numbers": [
+        "971"
+      ],
+      "layovers": [],
+      "emissions_kg": 75,
+      "emissions_delta_percent": -26,
+      "booking_token": "CjRIWnU0bTRGOHZhcjRBTTVZaEFCRy0tLS0tLS0tc2ViYnIyOUFBQUFBR29KdFljSTQtQUdBEgU1Sjk3MRoKCKEwEAAaA1BIUDgccKpO",
+      "is_best": true,
+      "segments": [
+        {
+          "airline_code": "5J",
+          "airline_name": "Cebu Pacific",
+          "flight_number": "971",
+          "operating_airline": null,
+          "origin_airport": "MNL",
+          "origin_name": "Ninoy Aquino International Airport",
+          "destination_airport": "DVO",
+          "destination_name": "Davao International Airport",
+          "departure_time": "2026-07-02T15:35:00",
+          "arrival_time": "2026-07-02T17:45:00",
+          "duration_minutes": 130,
+          "aircraft": "Airbus A330-900neo"
+        }
+      ]
+    },
+    {
+      "origin_airport": "MNL",
+      "destination_airport": "DVO",
+      "departure_date": "2026-07-02",
+      "arrival_date": "2026-07-02",
+      "departure_time": "2026-07-02T15:55:00",
+      "arrival_time": "2026-07-02T18:00:00",
+      "duration_minutes": 125,
+      "stops": 0,
+      "price": 6177,
+      "currency": "PHP",
+      "airlines": [
+        "Cebu Pacific"
+      ],
+      "flight_numbers": [
+        "977"
+      ],
+      "layovers": [],
+      "emissions_kg": 93,
+      "emissions_delta_percent": -8,
+      "booking_token": "CjRIWnU0bTRGOHZhcjRBTTVZaEFCRy0tLS0tLS0tc2ViYnIyOUFBQUFBR29KdFljSTQtQUdBEgU1Sjk3NxoKCKEwEAAaA1BIUDgccKpO",
+      "is_best": true,
+      "segments": [
+        {
+          "airline_code": "5J",
+          "airline_name": "Cebu Pacific",
+          "flight_number": "977",
+          "operating_airline": null,
+          "origin_airport": "MNL",
+          "origin_name": "Ninoy Aquino International Airport",
+          "destination_airport": "DVO",
+          "destination_name": "Davao International Airport",
+          "departure_time": "2026-07-02T15:55:00",
+          "arrival_time": "2026-07-02T18:00:00",
+          "duration_minutes": 125,
+          "aircraft": "Airbus A321"
+        }
+      ]
+    },
+    {
+      "origin_airport": "MNL",
+      "destination_airport": "DVO",
+      "departure_date": "2026-07-02",
+      "arrival_date": "2026-07-02",
+      "departure_time": "2026-07-02T17:00:00",
+      "arrival_time": "2026-07-02T19:10:00",
+      "duration_minutes": 130,
+      "stops": 0,
+      "price": 6177,
+      "currency": "PHP",
+      "airlines": [
+        "Cebu Pacific"
+      ],
+      "flight_numbers": [
+        "955"
+      ],
+      "layovers": [],
+      "emissions_kg": 93,
+      "emissions_delta_percent": -8,
+      "booking_token": "CjRIWnU0bTRGOHZhcjRBTTVZaEFCRy0tLS0tLS0tc2ViYnIyOUFBQUFBR29KdFljSTQtQUdBEgU1Sjk1NRoKCKEwEAAaA1BIUDgccKpO",
+      "is_best": true,
+      "segments": [
+        {
+          "airline_code": "5J",
+          "airline_name": "Cebu Pacific",
+          "flight_number": "955",
+          "operating_airline": null,
+          "origin_airport": "MNL",
+          "origin_name": "Ninoy Aquino International Airport",
+          "destination_airport": "DVO",
+          "destination_name": "Davao International Airport",
+          "departure_time": "2026-07-02T17:00:00",
+          "arrival_time": "2026-07-02T19:10:00",
+          "duration_minutes": 130,
+          "aircraft": "Airbus A321"
+        }
+      ]
+    },
+    {
+      "origin_airport": "MNL",
+      "destination_airport": "DVO",
+      "departure_date": "2026-07-02",
+      "arrival_date": "2026-07-02",
+      "departure_time": "2026-07-02T18:50:00",
+      "arrival_time": "2026-07-02T20:50:00",
+      "duration_minutes": 120,
+      "stops": 0,
+      "price": 6177,
+      "currency": "PHP",
+      "airlines": [
+        "Cebu Pacific"
+      ],
+      "flight_numbers": [
+        "959"
+      ],
+      "layovers": [],
+      "emissions_kg": 72,
+      "emissions_delta_percent": -29,
+      "booking_token": "CjRIWnU0bTRGOHZhcjRBTTVZaEFCRy0tLS0tLS0tc2ViYnIyOUFBQUFBR29KdFljSTQtQUdBEgU1Sjk1ORoKCKEwEAAaA1BIUDgccKpO",
+      "is_best": true,
+      "segments": [
+        {
+          "airline_code": "5J",
+          "airline_name": "Cebu Pacific",
+          "flight_number": "959",
+          "operating_airline": null,
+          "origin_airport": "MNL",
+          "origin_name": "Ninoy Aquino International Airport",
+          "destination_airport": "DVO",
+          "destination_name": "Davao International Airport",
+          "departure_time": "2026-07-02T18:50:00",
+          "arrival_time": "2026-07-02T20:50:00",
+          "duration_minutes": 120,
+          "aircraft": "Airbus A321neo"
+        }
+      ]
+    },
+    {
+      "origin_airport": "MNL",
+      "destination_airport": "DVO",
+      "departure_date": "2026-07-02",
+      "arrival_date": "2026-07-02",
+      "departure_time": "2026-07-02T21:30:00",
+      "arrival_time": "2026-07-02T23:30:00",
+      "duration_minutes": 120,
+      "stops": 0,
+      "price": 6177,
+      "currency": "PHP",
+      "airlines": [
+        "Cebu Pacific"
+      ],
+      "flight_numbers": [
+        "3951"
+      ],
+      "layovers": [],
+      "emissions_kg": 77,
+      "emissions_delta_percent": -24,
+      "booking_token": "CjRIWnU0bTRGOHZhcjRBTTVZaEFCRy0tLS0tLS0tc2ViYnIyOUFBQUFBR29KdFljSTQtQUdBEgY1SjM5NTEaCgihMBAAGgNQSFA4HHCqTg==",
+      "is_best": true,
+      "segments": [
+        {
+          "airline_code": "5J",
+          "airline_name": "Cebu Pacific",
+          "flight_number": "3951",
+          "operating_airline": null,
+          "origin_airport": "MNL",
+          "origin_name": "Ninoy Aquino International Airport",
+          "destination_airport": "DVO",
+          "destination_name": "Davao International Airport",
+          "departure_time": "2026-07-02T21:30:00",
+          "arrival_time": "2026-07-02T23:30:00",
+          "duration_minutes": 120,
+          "aircraft": "Airbus A320neo"
+        }
+      ]
+    },
+    {
+      "origin_airport": "MNL",
+      "destination_airport": "DVO",
+      "departure_date": "2026-07-02",
+      "arrival_date": "2026-07-02",
+      "departure_time": "2026-07-02T07:00:00",
+      "arrival_time": "2026-07-02T09:05:00",
+      "duration_minutes": 125,
+      "stops": 0,
+      "price": 6289,
+      "currency": "PHP",
+      "airlines": [
+        "Cebu Pacific"
+      ],
+      "flight_numbers": [
+        "3961"
+      ],
+      "layovers": [],
+      "emissions_kg": 94,
+      "emissions_delta_percent": -7,
+      "booking_token": "CjRIWnU0bTRGOHZhcjRBTTVZaEFCRy0tLS0tLS0tc2ViYnIyOUFBQUFBR29KdFljSTQtQUdBEgY1SjM5NjEaCgiRMRAAGgNQSFA4HHDgTw==",
+      "is_best": true,
+      "segments": [
+        {
+          "airline_code": "5J",
+          "airline_name": "Cebu Pacific",
+          "flight_number": "3961",
+          "operating_airline": null,
+          "origin_airport": "MNL",
+          "origin_name": "Ninoy Aquino International Airport",
+          "destination_airport": "DVO",
+          "destination_name": "Davao International Airport",
+          "departure_time": "2026-07-02T07:00:00",
+          "arrival_time": "2026-07-02T09:05:00",
+          "duration_minutes": 125,
+          "aircraft": "Airbus A320"
+        }
+      ]
+    },
+    {
+      "origin_airport": "MNL",
+      "destination_airport": "DVO",
+      "departure_date": "2026-07-02",
+      "arrival_date": "2026-07-02",
+      "departure_time": "2026-07-02T04:20:00",
+      "arrival_time": "2026-07-02T06:20:00",
+      "duration_minutes": 120,
+      "stops": 0,
+      "price": 6513,
+      "currency": "PHP",
+      "airlines": [
+        "Cebu Pacific"
+      ],
+      "flight_numbers": [
+        "965"
+      ],
+      "layovers": [],
+      "emissions_kg": 93,
+      "emissions_delta_percent": -8,
+      "booking_token": "CjRIWnU0bTRGOHZhcjRBTTVZaEFCRy0tLS0tLS0tc2ViYnIyOUFBQUFBR29KdFljSTQtQUdBEgU1Sjk2NRoKCPEyEAAaA1BIUDgccMxS",
+      "is_best": false,
+      "segments": [
+        {
+          "airline_code": "5J",
+          "airline_name": "Cebu Pacific",
+          "flight_number": "965",
+          "operating_airline": null,
+          "origin_airport": "MNL",
+          "origin_name": "Ninoy Aquino International Airport",
+          "destination_airport": "DVO",
+          "destination_name": "Davao International Airport",
+          "departure_time": "2026-07-02T04:20:00",
+          "arrival_time": "2026-07-02T06:20:00",
+          "duration_minutes": 120,
+          "aircraft": "Airbus A321"
+        }
+      ]
+    },
+    {
+      "origin_airport": "MNL",
+      "destination_airport": "DVO",
+      "departure_date": "2026-07-02",
+      "arrival_date": "2026-07-02",
+      "departure_time": "2026-07-02T02:30:00",
+      "arrival_time": "2026-07-02T04:15:00",
+      "duration_minutes": 105,
+      "stops": 0,
+      "price": 7496,
+      "currency": "PHP",
+      "airlines": [
+        "Philippine Airlines"
+      ],
+      "flight_numbers": [
+        "2803"
+      ],
+      "layovers": [],
+      "emissions_kg": 94,
+      "emissions_delta_percent": -7,
+      "booking_token": "CjRIWnU0bTRGOHZhcjRBTTVZaEFCRy0tLS0tLS0tc2ViYnIyOUFBQUFBR29KdFljSTQtQUdBEgZQUjI4MDMaCgjIOhAAGgNQSFA4HHCHXw==",
+      "is_best": false,
+      "segments": [
+        {
+          "airline_code": "PR",
+          "airline_name": "Philippine Airlines",
+          "flight_number": "2803",
+          "operating_airline": "PAL Express",
+          "origin_airport": "MNL",
+          "origin_name": "Ninoy Aquino International Airport",
+          "destination_airport": "DVO",
+          "destination_name": "Davao International Airport",
+          "departure_time": "2026-07-02T02:30:00",
+          "arrival_time": "2026-07-02T04:15:00",
+          "duration_minutes": 105,
+          "aircraft": "Airbus A320"
+        }
+      ]
+    },
+    {
+      "origin_airport": "MNL",
+      "destination_airport": "DVO",
+      "departure_date": "2026-07-02",
+      "arrival_date": "2026-07-02",
+      "departure_time": "2026-07-02T03:20:00",
+      "arrival_time": "2026-07-02T05:10:00",
+      "duration_minutes": 110,
+      "stops": 0,
+      "price": 7496,
+      "currency": "PHP",
+      "airlines": [
+        "Philippine Airlines"
+      ],
+      "flight_numbers": [
+        "1809"
+      ],
+      "layovers": [],
+      "emissions_kg": 104,
+      "emissions_delta_percent": 3,
+      "booking_token": "CjRIWnU0bTRGOHZhcjRBTTVZaEFCRy0tLS0tLS0tc2ViYnIyOUFBQUFBR29KdFljSTQtQUdBEgZQUjE4MDkaCgjIOhAAGgNQSFA4HHCHXw==",
+      "is_best": false,
+      "segments": [
+        {
+          "airline_code": "PR",
+          "airline_name": "Philippine Airlines",
+          "flight_number": "1809",
+          "operating_airline": null,
+          "origin_airport": "MNL",
+          "origin_name": "Ninoy Aquino International Airport",
+          "destination_airport": "DVO",
+          "destination_name": "Davao International Airport",
+          "departure_time": "2026-07-02T03:20:00",
+          "arrival_time": "2026-07-02T05:10:00",
+          "duration_minutes": 110,
+          "aircraft": "Airbus A321"
+        }
+      ]
+    },
+    {
+      "origin_airport": "MNL",
+      "destination_airport": "DVO",
+      "departure_date": "2026-07-02",
+      "arrival_date": "2026-07-02",
+      "departure_time": "2026-07-02T05:20:00",
+      "arrival_time": "2026-07-02T07:15:00",
+      "duration_minutes": 115,
+      "stops": 0,
+      "price": 7496,
+      "currency": "PHP",
+      "airlines": [
+        "Philippine Airlines"
+      ],
+      "flight_numbers": [
+        "2811"
+      ],
+      "layovers": [],
+      "emissions_kg": 104,
+      "emissions_delta_percent": 3,
+      "booking_token": "CjRIWnU0bTRGOHZhcjRBTTVZaEFCRy0tLS0tLS0tc2ViYnIyOUFBQUFBR29KdFljSTQtQUdBEgZQUjI4MTEaCgjIOhAAGgNQSFA4HHCHXw==",
+      "is_best": false,
+      "segments": [
+        {
+          "airline_code": "PR",
+          "airline_name": "Philippine Airlines",
+          "flight_number": "2811",
+          "operating_airline": "PAL Express",
+          "origin_airport": "MNL",
+          "origin_name": "Ninoy Aquino International Airport",
+          "destination_airport": "DVO",
+          "destination_name": "Davao International Airport",
+          "departure_time": "2026-07-02T05:20:00",
+          "arrival_time": "2026-07-02T07:15:00",
+          "duration_minutes": 115,
+          "aircraft": "Airbus A321"
+        }
+      ]
+    },
+    {
+      "origin_airport": "MNL",
+      "destination_airport": "DVO",
+      "departure_date": "2026-07-02",
+      "arrival_date": "2026-07-03",
+      "departure_time": "2026-07-02T22:15:00",
+      "arrival_time": "2026-07-03T00:05:00",
+      "duration_minutes": 110,
+      "stops": 0,
+      "price": 7496,
+      "currency": "PHP",
+      "airlines": [
+        "Philippine Airlines"
+      ],
+      "flight_numbers": [
+        "2821"
+      ],
+      "layovers": [],
+      "emissions_kg": 94,
+      "emissions_delta_percent": -7,
+      "booking_token": "CjRIWnU0bTRGOHZhcjRBTTVZaEFCRy0tLS0tLS0tc2ViYnIyOUFBQUFBR29KdFljSTQtQUdBEgZQUjI4MjEaCgjIOhAAGgNQSFA4HHCHXw==",
+      "is_best": false,
+      "segments": [
+        {
+          "airline_code": "PR",
+          "airline_name": "Philippine Airlines",
+          "flight_number": "2821",
+          "operating_airline": "PAL Express",
+          "origin_airport": "MNL",
+          "origin_name": "Ninoy Aquino International Airport",
+          "destination_airport": "DVO",
+          "destination_name": "Davao International Airport",
+          "departure_time": "2026-07-02T22:15:00",
+          "arrival_time": "2026-07-03T00:05:00",
+          "duration_minutes": 110,
+          "aircraft": "Airbus A320"
+        }
+      ]
+    },
+    {
+      "origin_airport": "MNL",
+      "destination_airport": "DVO",
+      "departure_date": "2026-07-02",
+      "arrival_date": "2026-07-03",
+      "departure_time": "2026-07-02T23:00:00",
+      "arrival_time": "2026-07-03T00:50:00",
+      "duration_minutes": 110,
+      "stops": 0,
+      "price": 7496,
+      "currency": "PHP",
+      "airlines": [
+        "Philippine Airlines"
+      ],
+      "flight_numbers": [
+        "2825"
+      ],
+      "layovers": [],
+      "emissions_kg": 94,
+      "emissions_delta_percent": -7,
+      "booking_token": "CjRIWnU0bTRGOHZhcjRBTTVZaEFCRy0tLS0tLS0tc2ViYnIyOUFBQUFBR29KdFljSTQtQUdBEgZQUjI4MjUaCgjIOhAAGgNQSFA4HHCHXw==",
+      "is_best": false,
+      "segments": [
+        {
+          "airline_code": "PR",
+          "airline_name": "Philippine Airlines",
+          "flight_number": "2825",
+          "operating_airline": "PAL Express",
+          "origin_airport": "MNL",
+          "origin_name": "Ninoy Aquino International Airport",
+          "destination_airport": "DVO",
+          "destination_name": "Davao International Airport",
+          "departure_time": "2026-07-02T23:00:00",
+          "arrival_time": "2026-07-03T00:50:00",
+          "duration_minutes": 110,
+          "aircraft": "Airbus A320"
+        }
+      ]
+    },
+    {
+      "origin_airport": "MNL",
+      "destination_airport": "DVO",
+      "departure_date": "2026-07-02",
+      "arrival_date": "2026-07-02",
+      "departure_time": "2026-07-02T17:10:00",
+      "arrival_time": "2026-07-02T19:00:00",
+      "duration_minutes": 110,
+      "stops": 0,
+      "price": 7619,
+      "currency": "PHP",
+      "airlines": [
+        "Philippine Airlines"
+      ],
+      "flight_numbers": [
+        "2819"
+      ],
+      "layovers": [],
+      "emissions_kg": 104,
+      "emissions_delta_percent": 3,
+      "booking_token": "CjRIWnU0bTRGOHZhcjRBTTVZaEFCRy0tLS0tLS0tc2ViYnIyOUFBQUFBR29KdFljSTQtQUdBEgZQUjI4MTkaCgjDOxAAGgNQSFA4HHDPYA==",
+      "is_best": false,
+      "segments": [
+        {
+          "airline_code": "PR",
+          "airline_name": "Philippine Airlines",
+          "flight_number": "2819",
+          "operating_airline": "PAL Express",
+          "origin_airport": "MNL",
+          "origin_name": "Ninoy Aquino International Airport",
+          "destination_airport": "DVO",
+          "destination_name": "Davao International Airport",
+          "departure_time": "2026-07-02T17:10:00",
+          "arrival_time": "2026-07-02T19:00:00",
+          "duration_minutes": 110,
+          "aircraft": "Airbus A321"
+        }
+      ]
+    },
+    {
+      "origin_airport": "MNL",
+      "destination_airport": "DVO",
+      "departure_date": "2026-07-02",
+      "arrival_date": "2026-07-02",
+      "departure_time": "2026-07-02T08:20:00",
+      "arrival_time": "2026-07-02T10:10:00",
+      "duration_minutes": 110,
+      "stops": 0,
+      "price": 7731,
+      "currency": "PHP",
+      "airlines": [
+        "Philippine Airlines"
+      ],
+      "flight_numbers": [
+        "2813"
+      ],
+      "layovers": [],
+      "emissions_kg": 104,
+      "emissions_delta_percent": 3,
+      "booking_token": "CjRIWnU0bTRGOHZhcjRBTTVZaEFCRy0tLS0tLS0tc2ViYnIyOUFBQUFBR29KdFljSTQtQUdBEgZQUjI4MTMaCgizPBAAGgNQSFA4HHCFYg==",
+      "is_best": false,
+      "segments": [
+        {
+          "airline_code": "PR",
+          "airline_name": "Philippine Airlines",
+          "flight_number": "2813",
+          "operating_airline": "PAL Express",
+          "origin_airport": "MNL",
+          "origin_name": "Ninoy Aquino International Airport",
+          "destination_airport": "DVO",
+          "destination_name": "Davao International Airport",
+          "departure_time": "2026-07-02T08:20:00",
+          "arrival_time": "2026-07-02T10:10:00",
+          "duration_minutes": 110,
+          "aircraft": "Airbus A321"
+        }
+      ]
+    },
+    {
+      "origin_airport": "MNL",
+      "destination_airport": "DVO",
+      "departure_date": "2026-07-02",
+      "arrival_date": "2026-07-02",
+      "departure_time": "2026-07-02T11:10:00",
+      "arrival_time": "2026-07-02T13:00:00",
+      "duration_minutes": 110,
+      "stops": 0,
+      "price": 7731,
+      "currency": "PHP",
+      "airlines": [
+        "Philippine Airlines"
+      ],
+      "flight_numbers": [
+        "2815"
+      ],
+      "layovers": [],
+      "emissions_kg": 104,
+      "emissions_delta_percent": 3,
+      "booking_token": "CjRIWnU0bTRGOHZhcjRBTTVZaEFCRy0tLS0tLS0tc2ViYnIyOUFBQUFBR29KdFljSTQtQUdBEgZQUjI4MTUaCgizPBAAGgNQSFA4HHCFYg==",
+      "is_best": false,
+      "segments": [
+        {
+          "airline_code": "PR",
+          "airline_name": "Philippine Airlines",
+          "flight_number": "2815",
+          "operating_airline": "PAL Express",
+          "origin_airport": "MNL",
+          "origin_name": "Ninoy Aquino International Airport",
+          "destination_airport": "DVO",
+          "destination_name": "Davao International Airport",
+          "departure_time": "2026-07-02T11:10:00",
+          "arrival_time": "2026-07-02T13:00:00",
+          "duration_minutes": 110,
+          "aircraft": "Airbus A321"
+        }
+      ]
+    },
+    {
+      "origin_airport": "MNL",
+      "destination_airport": "DVO",
+      "departure_date": "2026-07-02",
+      "arrival_date": "2026-07-02",
+      "departure_time": "2026-07-02T12:30:00",
+      "arrival_time": "2026-07-02T14:20:00",
+      "duration_minutes": 110,
+      "stops": 0,
+      "price": 7731,
+      "currency": "PHP",
+      "airlines": [
+        "Philippine Airlines"
+      ],
+      "flight_numbers": [
+        "1805"
+      ],
+      "layovers": [],
+      "emissions_kg": 84,
+      "emissions_delta_percent": -17,
+      "booking_token": "CjRIWnU0bTRGOHZhcjRBTTVZaEFCRy0tLS0tLS0tc2ViYnIyOUFBQUFBR29KdFljSTQtQUdBEgZQUjE4MDUaCgizPBAAGgNQSFA4HHCFYg==",
+      "is_best": false,
+      "segments": [
+        {
+          "airline_code": "PR",
+          "airline_name": "Philippine Airlines",
+          "flight_number": "1805",
+          "operating_airline": null,
+          "origin_airport": "MNL",
+          "origin_name": "Ninoy Aquino International Airport",
+          "destination_airport": "DVO",
+          "destination_name": "Davao International Airport",
+          "departure_time": "2026-07-02T12:30:00",
+          "arrival_time": "2026-07-02T14:20:00",
+          "duration_minutes": 110,
+          "aircraft": "Airbus A330"
+        }
+      ]
+    },
+    {
+      "origin_airport": "MNL",
+      "destination_airport": "DVO",
+      "departure_date": "2026-07-02",
+      "arrival_date": "2026-07-02",
+      "departure_time": "2026-07-02T14:30:00",
+      "arrival_time": "2026-07-02T16:25:00",
+      "duration_minutes": 115,
+      "stops": 0,
+      "price": 7731,
+      "currency": "PHP",
+      "airlines": [
+        "Philippine Airlines"
+      ],
+      "flight_numbers": [
+        "2817"
+      ],
+      "layovers": [],
+      "emissions_kg": 104,
+      "emissions_delta_percent": 3,
+      "booking_token": "CjRIWnU0bTRGOHZhcjRBTTVZaEFCRy0tLS0tLS0tc2ViYnIyOUFBQUFBR29KdFljSTQtQUdBEgZQUjI4MTcaCgizPBAAGgNQSFA4HHCFYg==",
+      "is_best": false,
+      "segments": [
+        {
+          "airline_code": "PR",
+          "airline_name": "Philippine Airlines",
+          "flight_number": "2817",
+          "operating_airline": "PAL Express",
+          "origin_airport": "MNL",
+          "origin_name": "Ninoy Aquino International Airport",
+          "destination_airport": "DVO",
+          "destination_name": "Davao International Airport",
+          "departure_time": "2026-07-02T14:30:00",
+          "arrival_time": "2026-07-02T16:25:00",
+          "duration_minutes": 115,
+          "aircraft": "Airbus A321"
+        }
+      ]
+    },
+    {
+      "origin_airport": "MNL",
+      "destination_airport": "DVO",
+      "departure_date": "2026-07-02",
+      "arrival_date": "2026-07-02",
+      "departure_time": "2026-07-02T20:10:00",
+      "arrival_time": "2026-07-02T22:05:00",
+      "duration_minutes": 115,
+      "stops": 0,
+      "price": 8616,
+      "currency": "PHP",
+      "airlines": [
+        "Philippine Airlines"
+      ],
+      "flight_numbers": [
+        "2823"
+      ],
+      "layovers": [],
+      "emissions_kg": 104,
+      "emissions_delta_percent": 3,
+      "booking_token": "CjRIWnU0bTRGOHZhcjRBTTVZaEFCRy0tLS0tLS0tc2ViYnIyOUFBQUFBR29KdFljSTQtQUdBEgZQUjI4MjMaCgioQxAAGgNQSFA4HHChbQ==",
+      "is_best": false,
+      "segments": [
+        {
+          "airline_code": "PR",
+          "airline_name": "Philippine Airlines",
+          "flight_number": "2823",
+          "operating_airline": "PAL Express",
+          "origin_airport": "MNL",
+          "origin_name": "Ninoy Aquino International Airport",
+          "destination_airport": "DVO",
+          "destination_name": "Davao International Airport",
+          "departure_time": "2026-07-02T20:10:00",
+          "arrival_time": "2026-07-02T22:05:00",
+          "duration_minutes": 115,
+          "aircraft": "Airbus A321"
+        }
+      ]
+    }
+  ],
+  "archive_dir": "artifacts\\20260517T123311Z",
+  "requested_mode": "replay",
+  "executed_mode": "replay",
+  "timings": {
+    "total_seconds": 0.2192,
+    "request_seconds": 0.2111,
+    "parse_seconds": 0.0034,
+    "archive_seconds": 0.0045
+  },
+  "notes": []
+}
