@@ -1,0 +1,1283 @@
+{
+  "query": {
+    "origin": "MNL",
+    "destination": "CEB",
+    "depart_date": "2026-06-01",
+    "return_date": "2026-06-05",
+    "trip_type": "round_trip",
+    "passengers": 1,
+    "cabin": "economy",
+    "max_stops": 0,
+    "timeout_seconds": 45.0,
+    "max_retries": 3
+  },
+  "final_url": "https://www.google.com/travel/flights/search?tfs=CBwQAhogEgoyMDI2LTA2LTAxKABqBwgBEgNNTkxyBwgBEgNDRUIaIBIKMjAyNi0wNi0wNSgAagcIARIDQ0VCcgcIARIDTU5MQAFIAXABggELCP___________wGYAQE&tfu=EgYIABAAGAA",
+  "capture": {
+    "url": "https://www.google.com/_/FlightsFrontendUi/data/travel.frontend.flights.FlightsFrontendService/GetShoppingResults?f.sid=5226758351298379008&bl=boq_travel-frontend-flights-ui_20260515.02_p0&hl=en-US&soc-app=162&soc-platform=1&soc-device=1&_reqid=1166025&rt=c",
+    "request_body": "f.req=%5Bnull%2C%22%5B%5B%5D%2C%5Bnull%2Cnull%2C1%2Cnull%2C%5B%5D%2C1%2C%5B1%2C0%2C0%2C0%5D%2Cnull%2Cnull%2Cnull%2Cnull%2Cnull%2Cnull%2C%5B%5B%5B%5B%5B%5C%22MNL%5C%22%2C0%5D%5D%5D%2C%5B%5B%5B%5C%22CEB%5C%22%2C0%5D%5D%5D%2Cnull%2C1%2Cnull%2Cnull%2C%5C%222026-06-01%5C%22%2Cnull%2Cnull%2Cnull%2Cnull%2Cnull%2Cnull%2Cnull%2C3%5D%2C%5B%5B%5B%5B%5C%22CEB%5C%22%2C0%5D%5D%5D%2C%5B%5B%5B%5C%22MNL%5C%22%2C0%5D%5D%5D%2Cnull%2C1%2Cnull%2Cnull%2C%5C%222026-06-05%5C%22%2Cnull%2Cnull%2Cnull%2Cnull%2Cnull%2Cnull%2Cnull%2C3%5D%5D%2Cnull%2Cnull%2Cnull%2C1%5D%2C0%2C0%2C0%2C1%5D%22%5D&",
+    "response_body": ")]}'\n\n59646\n[[\"wrb.fr\",null,\"[[null,[[1779186027455419,8709961,285302338],null,null,null,null,[[1]]],0,\\\"azkMavvlG8nOk7QPwryFiAE\\\",\\\"Hqys-sFyn-hgADr0LgBG---------seox25AAAAAGoMOWsG6f0wA\\\"],[[[[[\\\"MNL\\\",0],\\\"Ninoy Aquino International Airport\\\",[\\\"/m/0195pd\\\",\\\"Manila\\\",[[\\\"https://encrypted-tbn3.gstatic.com/images?q\\\\u003dtbn:ANd9GcQC7Bb2H3NrQpJM3YoHJkpvMGwYpCoYblptbYVAZ-2BkTgghoiODXxnA9Q33aylCHHY93N7850izEJuZ11FAI3tv4bcLCgZgkbZD7HpTFs\\\"],[\\\"https://encrypted-tbn3.gstatic.com/images?q\\\\u003dtbn:ANd9GcTJf81418Q0PkWchFc6cPvdjnVcAaZivEOoiVOkLtOXQ7I5YOBUcmLKmsYUi3ZcQqR51fhBYFiS46XRWA\\\"]]],[14.51,121.013889],\\\"PH\\\",false,\\\"Philippines\\\"]],[[[\\\"CEB\\\",0],\\\"Mactan-Cebu International Airport\\\",[\\\"/m/01p_ly\\\",\\\"Cebu City\\\",[[\\\"https://encrypted-tbn0.gstatic.com/images?q\\\\u003dtbn:ANd9GcSeusmYuePIQYVYjSN-Xeh8ytCEAKpNyFyQLK11x-O1Ql2sLUVjsoVhVTNmoxmlAC_FyGM6nwKKZLDasP-2WXq1cBLovF-8MRf5PgSthlo\\\"],[\\\"https://encrypted-tbn0.gstatic.com/images?q\\\\u003dtbn:ANd9GcS8c136c84RJtzmgkpLMeRR2X_FACDOzTX_yPwBvypRWYhJcVJcxO0xkbXY74vUa8NoSSioWPDQRZtjLA\\\"]]],[10.3075,123.979444],\\\"PH\\\",false,\\\"Philippines\\\"]]],[[[[\\\"CEB\\\",0],\\\"Mactan-Cebu International Airport\\\",[\\\"/m/01p_ly\\\",\\\"Cebu City\\\",[[\\\"https://encrypted-tbn0.gstatic.com/images?q\\\\u003dtbn:ANd9GcSeusmYuePIQYVYjSN-Xeh8ytCEAKpNyFyQLK11x-O1Ql2sLUVjsoVhVTNmoxmlAC_FyGM6nwKKZLDasP-2WXq1cBLovF-8MRf5PgSthlo\\\"],[\\\"https://encrypted-tbn0.gstatic.com/images?q\\\\u003dtbn:ANd9GcS8c136c84RJtzmgkpLMeRR2X_FACDOzTX_yPwBvypRWYhJcVJcxO0xkbXY74vUa8NoSSioWPDQRZtjLA\\\"]]],[10.3075,123.979444],\\\"PH\\\",false,\\\"Philippines\\\"]],[[[\\\"MNL\\\",0],\\\"Ninoy Aquino International Airport\\\",[\\\"/m/0195pd\\\",\\\"Manila\\\",[[\\\"https://encrypted-tbn3.gstatic.com/images?q\\\\u003dtbn:ANd9GcQC7Bb2H3NrQpJM3YoHJkpvMGwYpCoYblptbYVAZ-2BkTgghoiODXxnA9Q33aylCHHY93N7850izEJuZ11FAI3tv4bcLCgZgkbZD7HpTFs\\\"],[\\\"https://encrypted-tbn3.gstatic.com/images?q\\\\u003dtbn:ANd9GcTJf81418Q0PkWchFc6cPvdjnVcAaZivEOoiVOkLtOXQ7I5YOBUcmLKmsYUi3ZcQqR51fhBYFiS46XRWA\\\"]]],[14.51,121.013889],\\\"PH\\\",false,\\\"Philippines\\\"]]]],[[[[\\\"5J\\\",[\\\"Cebu Pacific\\\"],[[null,null,null,\\\"MNL\\\",\\\"Ninoy Aquino International Airport\\\",\\\"Mactan-Cebu International Airport\\\",\\\"CEB\\\",null,[19,25],null,[21,5],100,[null,null,null,null,null,true],1,\\\"30 in\\\",null,1,\\\"Airbus A330-900neo\\\",null,false,[2026,6,1],[2026,6,1],[\\\"5J\\\",\\\"573\\\",null,\\\"Cebu Pacific\\\"],null,null,1,null,null,null,null,\\\"30 inches\\\",53991,1]],\\\"MNL\\\",[2026,6,1],[19,25],\\\"CEB\\\",[2026,6,1],[21,5],100,null,null,false,null,null,null,null,\\\"uAoPpe\\\",[[1779186027455419,8709961,285302338],null,null,null,null,[[2]]],1,null,null,[null,null,1,-19,null,true,true,54000,67000,[null,true],67000,1,false,null,null,1,null,1],[1],[[\\\"5J\\\",\\\"Cebu Pacific\\\",\\\"https://www.cebupacificair.com/pages/travel-info/special-service-request\\\"]]],[[null,6878],\\\"CjRIcXlzLXNGeW4taGdBRHIwTGdCRy0tLS0tLS0tLXNlb3gyNUFBQUFBR29NT1dzRzZmMHdBEgU1SjU3MxoKCN41EAAaA1BIUDgccIVX\\\"],null,true,[null,null,null,null,1,null,[null,1]],[false,false,false],false,[],\\\"[\\\\\\\"CAASA1BIUBoDCN41IncKWwpZCgNNTkwSGTIwMjYtMDYtMDFUMTk6MjU6MDArMDg6MDAaA0NFQiIZMjAyNi0wNi0wMVQyMTowNTowMCswODowMCoCNUoyAzU3MzoCNUpCAzU3M0gBUgMzMzkSBAgDEAEYASgAMg4KDENlYnUgUGFjaWZpYw\\\\\\\\u003d\\\\\\\\u003d\\\\\\\"]\\\",[[1]],false],[[\\\"Z2\\\",[\\\"Philippines AirAsia\\\"],[[null,null,null,\\\"MNL\\\",\\\"Ninoy Aquino International Airport\\\",\\\"Mactan-Cebu International Airport\\\",\\\"CEB\\\",null,[20],null,[21,30],90,[],2,\\\"28 in\\\",null,1,\\\"Airbus A320\\\",[null,true],false,[2026,6,1],[2026,6,1],[\\\"Z2\\\",\\\"771\\\",null,\\\"Philippines AirAsia\\\"],null,null,1,null,null,null,null,\\\"28 inches\\\",66883,2]],\\\"MNL\\\",[2026,6,1],[20],\\\"CEB\\\",[2026,6,1],[21,30],90,null,null,false,null,null,null,null,\\\"IcBnhb\\\",[[1779186027455419,8709961,285302338],null,null,null,null,[[3]]],1,null,null,[null,null,2,0,null,true,true,67000,67000,null,67000,2,false,null,null,2,null,5],[1]],[[null,6972],\\\"CjRIcXlzLXNGeW4taGdBRHIwTGdCRy0tLS0tLS0tLXNlb3gyNUFBQUFBR29NT1dzRzZmMHdBEgVaMjc3MRoKCLw2EAAaA1BIUDgccJ5Y\\\"],null,true,[null,null,null,null,1,null,[null,1]],[false,false,false],false,[],\\\"[\\\\\\\"CAASA1BIUBoDCLw2In4KWwpZCgNNTkwSGTIwMjYtMDYtMDFUMjA6MDA6MDArMDg6MDAaA0NFQiIZMjAyNi0wNi0wMVQyMTozMDowMCswODowMCoCWjIyAzc3MToCWjJCAzc3MUgBUgMzMjASBAgDEAEYASgAMhUKE1BoaWxpcHBpbmVzIEFpckFzaWE\\\\\\\\u003d\\\\\\\"]\\\",null,false],[[\\\"Z2\\\",[\\\"Philippines AirAsia\\\"],[[null,null,null,\\\"MNL\\\",\\\"Ninoy Aquino International Airport\\\",\\\"Mactan-Cebu International Airport\\\",\\\"CEB\\\",null,[7,55],null,[9,25],90,[],2,\\\"28 in\\\",null,1,\\\"Airbus A320\\\",[null,true],false,[2026,6,1],[2026,6,1],[\\\"Z2\\\",\\\"9792\\\",null,\\\"Philippines AirAsia\\\"],null,null,1,null,null,null,null,\\\"28 inches\\\",66883,1]],\\\"MNL\\\",[2026,6,1],[7,55],\\\"CEB\\\",[2026,6,1],[9,25],90,null,null,false,null,null,null,null,\\\"GFsQGb\\\",[[1779186027455419,8709961,285302338],null,null,null,null,[[4]]],1,null,null,[null,null,2,0,null,true,true,67000,67000,null,67000,2,false,null,null,1,null,2],[1]],[[null,7260],\\\"CjRIcXlzLXNGeW4taGdBRHIwTGdCRy0tLS0tLS0tLXNlb3gyNUFBQUFBR29NT1dzRzZmMHdBEgZaMjk3OTIaCgjcOBAAGgNQSFA4HHDwWw\\\\u003d\\\\u003d\\\"],null,false,[null,null,null,null,1,null,[null,1]],[false,false,false],false,[],\\\"[\\\\\\\"CAASA1BIUBoDCNw4IoABCl0KWwoDTU5MEhkyMDI2LTA2LTAxVDA3OjU1OjAwKzA4OjAwGgNDRUIiGTIwMjYtMDYtMDFUMDk6MjU6MDArMDg6MDAqAloyMgQ5NzkyOgJaMkIEOTc5MkgBUgMzMjASBAgDEAEYASgAMhUKE1BoaWxpcHBpbmVzIEFpckFzaWE\\\\\\\\u003d\\\\\\\"]\\\",null,false]],null,false,false,[1]],[[[[\\\"5J\\\",[\\\"Cebu Pacific\\\"],[[null,null,null,\\\"MNL\\\",\\\"Ninoy Aquino International Airport\\\",\\\"Mactan-Cebu International Airport\\\",\\\"CEB\\\",null,[20,30],null,[22,5],95,[null,null,null,null,null,true],2,\\\"28 in\\\",null,1,\\\"Airbus A320neo\\\",null,false,[2026,6,1],[2026,6,1],[\\\"5J\\\",\\\"2509\\\",null,\\\"Cebu Pacific\\\"],null,null,1,null,null,null,null,\\\"28 inches\\\",55214,2]],\\\"MNL\\\",[2026,6,1],[20,30],\\\"CEB\\\",[2026,6,1],[22,5],95,null,null,false,null,null,null,null,\\\"Qc1lTe\\\",[[1779186027455419,8709961,285302338],null,null,null,null,[[5]]],1,null,null,[null,null,1,-18,null,true,true,55000,67000,[null,true],67000,1,false,null,null,2,null,4],[1],[[\\\"5J\\\",\\\"Cebu Pacific\\\",\\\"https://www.cebupacificair.com/pages/travel-info/special-service-request\\\"]]],[[null,6878],\\\"CjRIcXlzLXNGeW4taGdBRHIwTGdCRy0tLS0tLS0tLXNlb3gyNUFBQUFBR29NT1dzRzZmMHdBEgY1SjI1MDkaCgjeNRAAGgNQSFA4HHCFVw\\\\u003d\\\\u003d\\\"],null,true,[null,null,null,null,1,null,[null,1]],[false,false,false],false,[],\\\"[\\\\\\\"CAASA1BIUBoDCN41InkKXQpbCgNNTkwSGTIwMjYtMDYtMDFUMjA6MzA6MDArMDg6MDAaA0NFQiIZMjAyNi0wNi0wMVQyMjowNTowMCswODowMCoCNUoyBDI1MDk6AjVKQgQyNTA5SAFSAzMyThIECAMQARgBKAAyDgoMQ2VidSBQYWNpZmlj\\\\\\\"]\\\",[[1]],false],[[\\\"5J\\\",[\\\"Cebu Pacific\\\"],[[null,null,null,\\\"MNL\\\",\\\"Ninoy Aquino International Airport\\\",\\\"Mactan-Cebu International Airport\\\",\\\"CEB\\\",null,[22,20],null,[23,55],95,[null,null,null,null,null,true],2,\\\"28 in\\\",null,1,\\\"Airbus A321\\\",null,false,[2026,6,1],[2026,6,1],[\\\"5J\\\",\\\"2503\\\",null,\\\"Cebu Pacific\\\"],null,null,1,null,null,null,null,\\\"28 inches\\\",66249,2]],\\\"MNL\\\",[2026,6,1],[22,20],\\\"CEB\\\",[2026,6,1],[23,55],95,null,null,false,null,null,null,null,\\\"CoKamc\\\",[[1779186027455419,8709961,285302338],null,null,null,null,[[6]]],1,null,null,[null,null,2,-1,null,true,true,66000,67000,null,67000,2,false,null,null,2,null,5],[1],[[\\\"5J\\\",\\\"Cebu Pacific\\\",\\\"https://www.cebupacificair.com/pages/travel-info/special-service-request\\\"]]],[[null,6878],\\\"CjRIcXlzLXNGeW4taGdBRHIwTGdCRy0tLS0tLS0tLXNlb3gyNUFBQUFBR29NT1dzRzZmMHdBEgY1SjI1MDMaCgjeNRAAGgNQSFA4HHCFVw\\\\u003d\\\\u003d\\\"],null,true,[null,null,null,null,1,null,[null,1]],[false,false,false],false,[],\\\"[\\\\\\\"CAASA1BIUBoDCN41InkKXQpbCgNNTkwSGTIwMjYtMDYtMDFUMjI6MjA6MDArMDg6MDAaA0NFQiIZMjAyNi0wNi0wMVQyMzo1NTowMCswODowMCoCNUoyBDI1MDM6AjVKQgQyNTAzSAFSAzMyMRIECAMQARgBKAAyDgoMQ2VidSBQYWNpZmlj\\\\\\\"]\\\",null,false],[[\\\"Z2\\\",[\\\"Philippines AirAsia\\\"],[[null,null,null,\\\"MNL\\\",\\\"Ninoy Aquino International Airport\\\",\\\"Mactan-Cebu International Airport\\\",\\\"CEB\\\",null,[17,45],null,[19,10],85,[],2,\\\"28 in\\\",null,1,\\\"Airbus A320\\\",[null,true],false,[2026,6,1],[2026,6,1],[\\\"Z2\\\",\\\"777\\\",null,\\\"Philippines AirAsia\\\"],null,null,1,null,null,null,null,\\\"28 inches\\\",66883,2]],\\\"MNL\\\",[2026,6,1],[17,45],\\\"CEB\\\",[2026,6,1],[19,10],85,null,null,false,null,null,null,null,\\\"tg0wzd\\\",[[1779186027455419,8709961,285302338],null,null,null,null,[[7]]],1,null,null,[null,null,2,0,null,true,true,67000,67000,null,67000,2,false,null,null,2,null,5],[1]],[[null,7260],\\\"CjRIcXlzLXNGeW4taGdBRHIwTGdCRy0tLS0tLS0tLXNlb3gyNUFBQUFBR29NT1dzRzZmMHdBEgVaMjc3NxoKCNw4EAAaA1BIUDgccPBb\\\"],null,false,[null,null,null,null,1,null,[null,1]],[false,false,false],false,[],\\\"[\\\\\\\"CAASA1BIUBoDCNw4In4KWwpZCgNNTkwSGTIwMjYtMDYtMDFUMTc6NDU6MDArMDg6MDAaA0NFQiIZMjAyNi0wNi0wMVQxOToxMDowMCswODowMCoCWjIyAzc3NzoCWjJCAzc3N0gBUgMzMjASBAgDEAEYASgAMhUKE1BoaWxpcHBpbmVzIEFpckFzaWE\\\\\\\\u003d\\\\\\\"]\\\",null,false],[[\\\"5J\\\",[\\\"Cebu Pacific\\\"],[[null,null,null,\\\"MNL\\\",\\\"Ninoy Aquino International Airport\\\",\\\"Mactan-Cebu International Airport\\\",\\\"CEB\\\",null,[],null,[1,30],90,[null,null,null,null,null,true],2,\\\"28 in\\\",null,1,\\\"Airbus A321neo\\\",null,false,[2026,6,1],[2026,6,1],[\\\"5J\\\",\\\"553\\\",null,\\\"Cebu Pacific\\\"],null,null,1,null,null,null,null,\\\"28 inches\\\",50597,2]],\\\"MNL\\\",[2026,6,1],[],\\\"CEB\\\",[2026,6,1],[1,30],90,null,null,false,null,null,null,null,\\\"Fv9lvf\\\",[[1779186027455419,8709961,285302338],null,null,null,null,[[8]]],1,null,null,[null,null,1,-24,null,true,true,51000,67000,[true],67000,1,false,null,null,2,null,4],[1],[[\\\"5J\\\",\\\"Cebu Pacific\\\",\\\"https://www.cebupacificair.com/pages/travel-info/special-service-request\\\"]]],[[null,7326],\\\"CjRIcXlzLXNGeW4taGdBRHIwTGdCRy0tLS0tLS0tLXNlb3gyNUFBQUFBR29NT1dzRzZmMHdBEgU1SjU1MxoKCJ45EAAaA1BIUDgccNtc\\\"],null,false,[null,null,null,null,1,null,[null,1]],[false,false,false],false,[],\\\"[\\\\\\\"CAASA1BIUBoDCJ45IncKWwpZCgNNTkwSGTIwMjYtMDYtMDFUMDA6MDA6MDArMDg6MDAaA0NFQiIZMjAyNi0wNi0wMVQwMTozMDowMCswODowMCoCNUoyAzU1MzoCNUpCAzU1M0gBUgMzMlESBAgDEAEYASgAMg4KDENlYnUgUGFjaWZpYw\\\\\\\\u003d\\\\\\\\u003d\\\\\\\"]\\\",[[1]],false],[[\\\"5J\\\",[\\\"Cebu Pacific\\\"],[[null,null,null,\\\"MNL\\\",\\\"Ninoy Aquino International Airport\\\",\\\"Mactan-Cebu International Airport\\\",\\\"CEB\\\",null,[null,15],null,[1,50],95,[],2,\\\"28 in\\\",null,1,\\\"Airbus A320\\\",null,false,[2026,6,1],[2026,6,1],[\\\"5J\\\",\\\"2513\\\",null,\\\"Cebu Pacific\\\"],null,null,1,null,null,null,null,\\\"28 inches\\\",66883,2]],\\\"MNL\\\",[2026,6,1],[null,15],\\\"CEB\\\",[2026,6,1],[1,50],95,null,null,false,null,null,null,null,\\\"pXOexe\\\",[[1779186027455419,8709961,285302338],null,null,null,null,[[9]]],1,null,null,[null,null,2,0,null,true,true,67000,67000,null,67000,2,false,null,null,2,null,5],[1],[[\\\"5J\\\",\\\"Cebu Pacific\\\",\\\"https://www.cebupacificair.com/pages/travel-info/special-service-request\\\"]]],[[null,7326],\\\"CjRIcXlzLXNGeW4taGdBRHIwTGdCRy0tLS0tLS0tLXNlb3gyNUFBQUFBR29NT1dzRzZmMHdBEgY1SjI1MTMaCgieORAAGgNQSFA4HHDbXA\\\\u003d\\\\u003d\\\"],null,false,[null,null,null,null,1,null,[null,1]],[false,false,false],false,[],\\\"[\\\\\\\"CAASA1BIUBoDCJ45InkKXQpbCgNNTkwSGTIwMjYtMDYtMDFUMDA6MTU6MDArMDg6MDAaA0NFQiIZMjAyNi0wNi0wMVQwMTo1MDowMCswODowMCoCNUoyBDI1MTM6AjVKQgQyNTEzSAFSAzMyMBIECAMQARgBKAAyDgoMQ2VidSBQYWNpZmlj\\\\\\\"]\\\",null,false],[[\\\"5J\\\",[\\\"Cebu Pacific\\\"],[[null,null,null,\\\"MNL\\\",\\\"Ninoy Aquino International Airport\\\",\\\"Mactan-Cebu International Airport\\\",\\\"CEB\\\",null,[3,50],null,[5,30],100,[null,null,null,null,null,true],2,\\\"28 in\\\",null,1,\\\"Airbus A321\\\",[true],false,[2026,6,1],[2026,6,1],[\\\"5J\\\",\\\"563\\\",null,\\\"Cebu Pacific\\\"],null,null,1,null,null,null,null,\\\"28 inches\\\",66249,1]],\\\"MNL\\\",[2026,6,1],[3,50],\\\"CEB\\\",[2026,6,1],[5,30],100,null,null,false,null,null,null,null,\\\"VAfC8b\\\",[[1779186027455419,8709961,285302338],null,null,null,null,[[10]]],1,null,null,[null,null,2,-1,null,true,true,66000,67000,null,67000,2,false,null,null,1,null,2],[1],[[\\\"5J\\\",\\\"Cebu Pacific\\\",\\\"https://www.cebupacificair.com/pages/travel-info/special-service-request\\\"]]],[[null,7550],\\\"CjRIcXlzLXNGeW4taGdBRHIwTGdCRy0tLS0tLS0tLXNlb3gyNUFBQUFBR29NT1dzRzZmMHdBEgU1SjU2MxoKCP46EAAaA1BIUDgccMZf\\\"],null,false,[null,null,null,null,1,null,[null,1]],[false,false,false],false,[],\\\"[\\\\\\\"CAASA1BIUBoDCP46IncKWwpZCgNNTkwSGTIwMjYtMDYtMDFUMDM6NTA6MDArMDg6MDAaA0NFQiIZMjAyNi0wNi0wMVQwNTozMDowMCswODowMCoCNUoyAzU2MzoCNUpCAzU2M0gBUgMzMjESBAgDEAEYASgAMg4KDENlYnUgUGFjaWZpYw\\\\\\\\u003d\\\\\\\\u003d\\\\\\\"]\\\",null,false],[[\\\"5J\\\",[\\\"Cebu Pacific\\\"],[[null,null,null,\\\"MNL\\\",\\\"Ninoy Aquino International Airport\\\",\\\"Mactan-Cebu International Airport\\\",\\\"CEB\\\",null,[4,50],null,[6,25],95,[null,null,null,null,null,true],2,\\\"28 in\\\",null,1,\\\"Airbus A321neo\\\",[true],false,[2026,6,1],[2026,6,1],[\\\"5J\\\",\\\"561\\\",null,\\\"Cebu Pacific\\\"],null,null,1,null,null,null,null,\\\"28 inches\\\",50597,1]],\\\"MNL\\\",[2026,6,1],[4,50],\\\"CEB\\\",[2026,6,1],[6,25],95,null,null,false,null,null,null,null,\\\"Q3AK8b\\\",[[1779186027455419,8709961,285302338],null,null,null,null,[[11]]],1,null,null,[null,null,1,-24,null,true,true,51000,67000,[true],67000,1,false,null,null,1,null,1],[1],[[\\\"5J\\\",\\\"Cebu Pacific\\\",\\\"https://www.cebupacificair.com/pages/travel-info/special-service-request\\\"]]],[[null,7550],\\\"CjRIcXlzLXNGeW4taGdBRHIwTGdCRy0tLS0tLS0tLXNlb3gyNUFBQUFBR29NT1dzRzZmMHdBEgU1SjU2MRoKCP46EAAaA1BIUDgccMZf\\\"],null,false,[null,null,null,null,1,null,[null,1]],[false,false,false],false,[],\\\"[\\\\\\\"CAASA1BIUBoDCP46IncKWwpZCgNNTkwSGTIwMjYtMDYtMDFUMDQ6NTA6MDArMDg6MDAaA0NFQiIZMjAyNi0wNi0wMVQwNjoyNTowMCswODowMCoCNUoyAzU2MToCNUpCAzU2MUgBUgMzMlESBAgDEAEYASgAMg4KDENlYnUgUGFjaWZpYw\\\\\\\\u003d\\\\\\\\u003d\\\\\\\"]\\\",[[1]],false],[[\\\"5J\\\",[\\\"Cebu Pacific\\\"],[[null,null,null,\\\"MNL\\\",\\\"Ninoy Aquino International Airport\\\",\\\"Mactan-Cebu International Airport\\\",\\\"CEB\\\",null,[18,50],null,[20,25],95,[null,null,null,null,null,true],2,\\\"28 in\\\",null,1,\\\"Airbus A320neo\\\",null,false,[2026,6,1],[2026,6,1],[\\\"5J\\\",\\\"2515\\\",null,\\\"Cebu Pacific\\\"],null,null,1,null,null,null,null,\\\"28 inches\\\",53507,2]],\\\"MNL\\\",[2026,6,1],[18,50],\\\"CEB\\\",[2026,6,1],[20,25],95,null,null,false,null,null,null,null,\\\"G09tJ\\\",[[1779186027455419,8709961,285302338],null,null,null,null,[[12]]],1,null,null,[null,null,1,-19,null,true,true,54000,67000,[null,true],67000,1,false,null,null,2,null,4],[1],[[\\\"5J\\\",\\\"Cebu Pacific\\\",\\\"https://www.cebupacificair.com/pages/travel-info/special-service-request\\\"]]],[[null,7550],\\\"CjRIcXlzLXNGeW4taGdBRHIwTGdCRy0tLS0tLS0tLXNlb3gyNUFBQUFBR29NT1dzRzZmMHdBEgY1SjI1MTUaCgj+OhAAGgNQSFA4HHDGXw\\\\u003d\\\\u003d\\\"],null,false,[null,null,null,null,1,null,[null,1]],[false,false,false],false,[],\\\"[\\\\\\\"CAASA1BIUBoDCP46InkKXQpbCgNNTkwSGTIwMjYtMDYtMDFUMTg6NTA6MDArMDg6MDAaA0NFQiIZMjAyNi0wNi0wMVQyMDoyNTowMCswODowMCoCNUoyBDI1MTU6AjVKQgQyNTE1SAFSAzMyThIECAMQARgBKAAyDgoMQ2VidSBQYWNpZmlj\\\\\\\"]\\\",[[1]],false],[[\\\"5J\\\",[\\\"Cebu Pacific\\\"],[[null,null,null,\\\"MNL\\\",\\\"Ninoy Aquino International Airport\\\",\\\"Mactan-Cebu International Airport\\\",\\\"CEB\\\",null,[16,15],null,[17,55],100,[null,null,null,null,null,true],2,\\\"28 in\\\",null,1,\\\"Airbus A320neo\\\",null,false,[2026,6,1],[2026,6,1],[\\\"5J\\\",\\\"571\\\",null,\\\"Cebu Pacific\\\"],null,null,1,null,null,null,null,\\\"28 inches\\\",55214,1]],\\\"MNL\\\",[2026,6,1],[16,15],\\\"CEB\\\",[2026,6,1],[17,55],100,null,null,false,null,null,null,null,\\\"dEDXac\\\",[[1779186027455419,8709961,285302338],null,null,null,null,[[13]]],1,null,null,[null,null,1,-18,null,true,true,55000,67000,[null,true],67000,1,false,null,null,1,null,1],[1],[[\\\"5J\\\",\\\"Cebu Pacific\\\",\\\"https://www.cebupacificair.com/pages/travel-info/special-service-request\\\"]]],[[null,7774],\\\"CjRIcXlzLXNGeW4taGdBRHIwTGdCRy0tLS0tLS0tLXNlb3gyNUFBQUFBR29NT1dzRzZmMHdBEgU1SjU3MRoKCN48EAAaA1BIUDgccLFi\\\"],null,false,[null,null,null,null,1,null,[null,1]],[false,false,false],false,[],\\\"[\\\\\\\"CAASA1BIUBoDCN48IncKWwpZCgNNTkwSGTIwMjYtMDYtMDFUMTY6MTU6MDArMDg6MDAaA0NFQiIZMjAyNi0wNi0wMVQxNzo1NTowMCswODowMCoCNUoyAzU3MToCNUpCAzU3MUgBUgMzMk4SBAgDEAEYASgAMg4KDENlYnUgUGFjaWZpYw\\\\\\\\u003d\\\\\\\\u003d\\\\\\\"]\\\",[[1]],false],[[\\\"5J\\\",[\\\"Cebu Pacific\\\"],[[null,null,null,\\\"MNL\\\",\\\"Ninoy Aquino International Airport\\\",\\\"Mactan-Cebu International Airport\\\",\\\"CEB\\\",null,[15],null,[16,30],90,[null,null,null,null,null,true],2,\\\"28 in\\\",null,1,\\\"Airbus A321neo\\\",null,false,[2026,6,1],[2026,6,1],[\\\"5J\\\",\\\"581\\\",null,\\\"Cebu Pacific\\\"],null,null,1,null,null,null,null,\\\"28 inches\\\",50597,1]],\\\"MNL\\\",[2026,6,1],[15],\\\"CEB\\\",[2026,6,1],[16,30],90,null,null,false,null,null,null,null,\\\"lCG35d\\\",[[1779186027455419,8709961,285302338],null,null,null,null,[[14]]],1,null,null,[null,null,1,-24,null,true,true,51000,67000,[true],67000,1,false,null,null,1,null,1],[1],[[\\\"5J\\\",\\\"Cebu Pacific\\\",\\\"https://www.cebupacificair.com/pages/travel-info/special-service-request\\\"]]],[[null,8110],\\\"CjRIcXlzLXNGeW4taGdBRHIwTGdCRy0tLS0tLS0tLXNlb3gyNUFBQUFBR29NT1dzRzZmMHdBEgU1SjU4MRoKCK4/EAAaA1BIUDgccNFm\\\"],null,false,[null,null,null,null,1,null,[null,1]],[false,false,false],false,[],\\\"[\\\\\\\"CAASA1BIUBoDCK4/IncKWwpZCgNNTkwSGTIwMjYtMDYtMDFUMTU6MDA6MDArMDg6MDAaA0NFQiIZMjAyNi0wNi0wMVQxNjozMDowMCswODowMCoCNUoyAzU4MToCNUpCAzU4MUgBUgMzMlESBAgDEAEYASgAMg4KDENlYnUgUGFjaWZpYw\\\\\\\\u003d\\\\\\\\u003d\\\\\\\"]\\\",[[1]],false],[[\\\"5J\\\",[\\\"Cebu Pacific\\\"],[[null,null,null,\\\"MNL\\\",\\\"Ninoy Aquino International Airport\\\",\\\"Mactan-Cebu International Airport\\\",\\\"CEB\\\",null,[6,5],null,[7,40],95,[],2,\\\"28 in\\\",null,1,\\\"Airbus A320\\\",null,false,[2026,6,1],[2026,6,1],[\\\"5J\\\",\\\"587\\\",null,\\\"Cebu Pacific\\\"],null,null,1,null,null,null,null,\\\"28 inches\\\",66883,1]],\\\"MNL\\\",[2026,6,1],[6,5],\\\"CEB\\\",[2026,6,1],[7,40],95,null,null,false,null,null,null,null,\\\"eoYtkf\\\",[[1779186027455419,8709961,285302338],null,null,null,null,[[15]]],1,null,null,[null,null,2,0,null,true,true,67000,67000,null,67000,2,false,null,null,1,null,2],[1],[[\\\"5J\\\",\\\"Cebu Pacific\\\",\\\"https://www.cebupacificair.com/pages/travel-info/special-service-request\\\"]]],[[null,8670],\\\"CjRIcXlzLXNGeW4taGdBRHIwTGdCRy0tLS0tLS0tLXNlb3gyNUFBQUFBR29NT1dzRzZmMHdBEgU1SjU4NxoKCN5DEAAaA1BIUDgccNxt\\\"],null,false,[null,null,null,null,1,null,[null,1]],[false,false,false],false,[],\\\"[\\\\\\\"CAASA1BIUBoDCN5DIncKWwpZCgNNTkwSGTIwMjYtMDYtMDFUMDY6MDU6MDArMDg6MDAaA0NFQiIZMjAyNi0wNi0wMVQwNzo0MDowMCswODowMCoCNUoyAzU4NzoCNUpCAzU4N0gBUgMzMjASBAgDEAEYASgAMg4KDENlYnUgUGFjaWZpYw\\\\\\\\u003d\\\\\\\\u003d\\\\\\\"]\\\",null,false],[[\\\"5J\\\",[\\\"Cebu Pacific\\\"],[[null,null,null,\\\"MNL\\\",\\\"Ninoy Aquino International Airport\\\",\\\"Mactan-Cebu International Airport\\\",\\\"CEB\\\",null,[23,20],1,[null,55],95,[null,null,null,null,null,true],2,\\\"28 in\\\",null,1,\\\"Airbus A320neo\\\",null,false,[2026,6,1],[2026,6,2],[\\\"5J\\\",\\\"583\\\",null,\\\"Cebu Pacific\\\"],null,null,1,null,null,null,null,\\\"28 inches\\\",53507,2]],\\\"MNL\\\",[2026,6,1],[23,20],\\\"CEB\\\",[2026,6,2],[null,55],95,1,null,false,null,null,null,null,\\\"aHExfe\\\",[[1779186027455419,8709961,285302338],null,null,null,null,[[16]]],1,null,null,[null,null,1,-19,null,true,true,54000,67000,[null,true],67000,1,false,null,null,2,null,4],[1],[[\\\"5J\\\",\\\"Cebu Pacific\\\",\\\"https://www.cebupacificair.com/pages/travel-info/special-service-request\\\"]]],[[null,8670],\\\"CjRIcXlzLXNGeW4taGdBRHIwTGdCRy0tLS0tLS0tLXNlb3gyNUFBQUFBR29NT1dzRzZmMHdBEgU1SjU4MxoKCN5DEAAaA1BIUDgccNxt\\\"],null,false,[null,null,null,null,1,null,[null,1]],[false,false,false],false,[],\\\"[\\\\\\\"CAASA1BIUBoDCN5DIncKWwpZCgNNTkwSGTIwMjYtMDYtMDFUMjM6MjA6MDArMDg6MDAaA0NFQiIZMjAyNi0wNi0wMlQwMDo1NTowMCswODowMCoCNUoyAzU4MzoCNUpCAzU4M0gBUgMzMk4SBAgDEAEYASgAMg4KDENlYnUgUGFjaWZpYw\\\\\\\\u003d\\\\\\\\u003d\\\\\\\"]\\\",[[1]],false],[[\\\"PR\\\",[\\\"Philippine Airlines\\\"],[[null,null,null,\\\"MNL\\\",\\\"Ninoy Aquino International Airport\\\",\\\"Mactan-Cebu International Airport\\\",\\\"CEB\\\",null,[19,40],null,[21,10],90,[null,null,null,true,null,null,null,null,null,null,true],1,\\\"30 in\\\",null,1,\\\"Airbus A330\\\",null,false,[2026,6,1],[2026,6,1],[\\\"PR\\\",\\\"1863\\\",null,\\\"Philippine Airlines\\\"],null,null,1,null,null,null,null,\\\"30 inches\\\",62295,1]],\\\"MNL\\\",[2026,6,1],[19,40],\\\"CEB\\\",[2026,6,1],[21,10],90,null,null,false,null,null,null,null,\\\"unZIF\\\",[[1779186027455419,8709961,285302338],null,null,null,null,[[17]]],1,null,null,[null,null,1,-7,null,true,true,62000,67000,null,67000,1,false,null,null,1,null,1],[1],[[\\\"PR\\\",\\\"Philippine Airlines\\\",\\\"https://www.philippineairlines.com/en/before-you-fly/special-needs-and-request\\\"]]],[[null,8890],\\\"CjRIcXlzLXNGeW4taGdBRHIwTGdCRy0tLS0tLS0tLXNlb3gyNUFBQUFBR29NT1dzRzZmMHdBEgZQUjE4NjMaCgi6RRAAGgNQSFA4HHDAcA\\\\u003d\\\\u003d\\\"],null,false,[null,null,null,null,1,null,[null,1]],[false,false,false],false,[],\\\"[\\\\\\\"CAASA1BIUBoDCLpFIoABCl0KWwoDTU5MEhkyMDI2LTA2LTAxVDE5OjQwOjAwKzA4OjAwGgNDRUIiGTIwMjYtMDYtMDFUMjE6MTA6MDArMDg6MDAqAlBSMgQxODYzOgJQUkIEMTg2M0gBUgMzMzMSBAgDEAEYASgAMhUKE1BoaWxpcHBpbmUgQWlybGluZXM\\\\\\\\u003d\\\\\\\"]\\\",[[1]],false],[[\\\"5J\\\",[\\\"Cebu Pacific\\\"],[[null,null,null,\\\"MNL\\\",\\\"Ninoy Aquino International Airport\\\",\\\"Mactan-Cebu International Airport\\\",\\\"CEB\\\",null,[8,30],null,[10,5],95,[null,null,null,null,null,true],2,\\\"28 in\\\",null,1,\\\"Airbus A321\\\",null,false,[2026,6,1],[2026,6,1],[\\\"5J\\\",\\\"551\\\",null,\\\"Cebu Pacific\\\"],null,null,1,null,null,null,null,\\\"28 inches\\\",72559,1]],\\\"MNL\\\",[2026,6,1],[8,30],\\\"CEB\\\",[2026,6,1],[10,5],95,null,null,false,null,null,null,null,\\\"UOepkf\\\",[[1779186027455419,8709961,285302338],null,null,null,null,[[18]]],1,null,null,[null,null,3,9,null,true,true,73000,67000,null,67000,3,false,null,null,1,null,3],[1],[[\\\"5J\\\",\\\"Cebu Pacific\\\",\\\"https://www.cebupacificair.com/pages/travel-info/special-service-request\\\"]]],[[null,9230],\\\"CjRIcXlzLXNGeW4taGdBRHIwTGdCRy0tLS0tLS0tLXNlb3gyNUFBQUFBR29NT1dzRzZmMHdBEgU1SjU1MRoKCI5IEAAaA1BIUDgccOd0\\\"],null,false,[null,null,null,null,1,null,[null,1]],[false,false,false],false,[],\\\"[\\\\\\\"CAASA1BIUBoDCI5IIncKWwpZCgNNTkwSGTIwMjYtMDYtMDFUMDg6MzA6MDArMDg6MDAaA0NFQiIZMjAyNi0wNi0wMVQxMDowNTowMCswODowMCoCNUoyAzU1MToCNUpCAzU1MUgBUgMzMjESBAgDEAEYASgAMg4KDENlYnUgUGFjaWZpYw\\\\\\\\u003d\\\\\\\\u003d\\\\\\\"]\\\",[[2]],false],[[\\\"PR\\\",[\\\"Philippine Airlines\\\"],[[null,null,null,\\\"MNL\\\",\\\"Ninoy Aquino International Airport\\\",\\\"Mactan-Cebu International Airport\\\",\\\"CEB\\\",null,[3,30],null,[4,55],85,[null,null,null,null,null,null,null,null,null,null,true],1,\\\"30 in\\\",null,1,\\\"Airbus A321\\\",[true],false,[2026,6,1],[2026,6,1],[\\\"PR\\\",\\\"1841\\\",null,\\\"Philippine Airlines\\\"],null,null,1,null,null,null,null,\\\"30 inches\\\",74329,1]],\\\"MNL\\\",[2026,6,1],[3,30],\\\"CEB\\\",[2026,6,1],[4,55],85,null,null,false,null,null,null,null,\\\"tlwcuf\\\",[[1779186027455419,8709961,285302338],null,null,null,null,[[19]]],1,null,null,[null,null,3,10,null,true,true,74000,67000,null,67000,3,false,null,null,1,null,3],[1],[[\\\"PR\\\",\\\"Philippine Airlines\\\",\\\"https://www.philippineairlines.com/en/before-you-fly/special-needs-and-request\\\"]]],[[null,9338],\\\"CjRIcXlzLXNGeW4taGdBRHIwTGdCRy0tLS0tLS0tLXNlb3gyNUFBQUFBR29NT1dzRzZmMHdBEgZQUjE4NDEaCgj6SBAAGgNQSFA4HHCWdg\\\\u003d\\\\u003d\\\"],null,false,[null,null,null,null,1,null,[null,1]],[false,false,false],false,[],\\\"[\\\\\\\"CAASA1BIUBoDCPpIIoABCl0KWwoDTU5MEhkyMDI2LTA2LTAxVDAzOjMwOjAwKzA4OjAwGgNDRUIiGTIwMjYtMDYtMDFUMDQ6NTU6MDArMDg6MDAqAlBSMgQxODQxOgJQUkIEMTg0MUgBUgMzMjESBAgDEAEYASgAMhUKE1BoaWxpcHBpbmUgQWlybGluZXM\\\\\\\\u003d\\\\\\\"]\\\",[[2]],false],[[\\\"PR\\\",[\\\"Philippine Airlines\\\"],[[null,null,\\\"PAL Express\\\",\\\"MNL\\\",\\\"Ninoy Aquino International Airport\\\",\\\"Mactan-Cebu International Airport\\\",\\\"CEB\\\",null,[4,15],null,[5,40],85,[],2,\\\"28 in\\\",null,1,\\\"Airbus A320\\\",[true],false,[2026,6,1],[2026,6,1],[\\\"PR\\\",\\\"2835\\\",null,\\\"Philippine Airlines\\\"],null,null,1,null,null,null,null,\\\"28 inches\\\",66883,1]],\\\"MNL\\\",[2026,6,1],[4,15],\\\"CEB\\\",[2026,6,1],[5,40],85,null,null,false,null,null,null,null,\\\"mFyTqb\\\",[[1779186027455419,8709961,285302338],null,null,null,null,[[20]]],1,null,null,[null,null,2,0,null,true,true,67000,67000,null,67000,2,false,null,null,1,null,2],[1],[[\\\"PR\\\",\\\"Philippine Airlines\\\",\\\"https://www.philippineairlines.com/en/before-you-fly/special-needs-and-request\\\"]]],[[null,9338],\\\"CjRIcXlzLXNGeW4taGdBRHIwTGdCRy0tLS0tLS0tLXNlb3gyNUFBQUFBR29NT1dzRzZmMHdBEgZQUjI4MzUaCgj6SBAAGgNQSFA4HHCWdg\\\\u003d\\\\u003d\\\"],null,false,[null,null,null,null,1,null,[null,1]],[false,false,false],false,[],\\\"[\\\\\\\"CAASA1BIUBoDCPpIIoABCl0KWwoDTU5MEhkyMDI2LTA2LTAxVDA0OjE1OjAwKzA4OjAwGgNDRUIiGTIwMjYtMDYtMDFUMDU6NDA6MDArMDg6MDAqAlBSMgQyODM1OgJQUkIEMjgzNUgBUgMzMjASBAgDEAEYASgAMhUKE1BoaWxpcHBpbmUgQWlybGluZXM\\\\\\\\u003d\\\\\\\"]\\\",null,false],[[\\\"Z2\\\",[\\\"Philippines AirAsia\\\"],[[null,null,null,\\\"MNL\\\",\\\"Ninoy Aquino International Airport\\\",\\\"Mactan-Cebu International Airport\\\",\\\"CEB\\\",null,[3,55],null,[5,20],85,[],2,\\\"28 in\\\",null,1,\\\"Airbus A320\\\",[true],false,[2026,6,1],[2026,6,1],[\\\"Z2\\\",\\\"779\\\",null,\\\"Philippines AirAsia\\\"],null,null,1,null,null,null,null,\\\"28 inches\\\",66883,1]],\\\"MNL\\\",[2026,6,1],[3,55],\\\"CEB\\\",[2026,6,1],[5,20],85,null,null,false,null,null,null,null,\\\"xIkLYb\\\",[[1779186027455419,8709961,285302338],null,null,null,null,[[21]]],1,null,null,[null,null,2,0,null,true,true,67000,67000,null,67000,2,false,null,null,1,null,2],[1]],[[null,9453],\\\"CjRIcXlzLXNGeW4taGdBRHIwTGdCRy0tLS0tLS0tLXNlb3gyNUFBQUFBR29NT1dzRzZmMHdBEgVaMjc3ORoKCO1JEAAaA1BIUDgccNB3\\\"],null,false,[null,null,null,null,1,null,[null,1]],[false,false,false],false,[],\\\"[\\\\\\\"CAASA1BIUBoDCO1JIn4KWwpZCgNNTkwSGTIwMjYtMDYtMDFUMDM6NTU6MDArMDg6MDAaA0NFQiIZMjAyNi0wNi0wMVQwNToyMDowMCswODowMCoCWjIyAzc3OToCWjJCAzc3OUgBUgMzMjASBAgDEAEYASgAMhUKE1BoaWxpcHBpbmVzIEFpckFzaWE\\\\\\\\u003d\\\\\\\"]\\\",null,false],[[\\\"Z2\\\",[\\\"Philippines AirAsia\\\"],[[null,null,null,\\\"MNL\\\",\\\"Ninoy Aquino International Airport\\\",\\\"Mactan-Cebu International Airport\\\",\\\"CEB\\\",null,[5,55],null,[7,20],85,[],2,\\\"28 in\\\",null,1,\\\"Airbus A320\\\",null,false,[2026,6,1],[2026,6,1],[\\\"Z2\\\",\\\"763\\\",null,\\\"Philippines AirAsia\\\"],null,null,1,null,null,null,null,\\\"28 inches\\\",66883,1]],\\\"MNL\\\",[2026,6,1],[5,55],\\\"CEB\\\",[2026,6,1],[7,20],85,null,null,false,null,null,null,null,\\\"Y46MR\\\",[[1779186027455419,8709961,285302338],null,null,null,null,[[22]]],1,null,null,[null,null,2,0,null,true,true,67000,67000,null,67000,2,false,null,null,1,null,2],[1]],[[null,9453],\\\"CjRIcXlzLXNGeW4taGdBRHIwTGdCRy0tLS0tLS0tLXNlb3gyNUFBQUFBR29NT1dzRzZmMHdBEgVaMjc2MxoKCO1JEAAaA1BIUDgccNB3\\\"],null,false,[null,null,null,null,1,null,[null,1]],[false,false,false],false,[],\\\"[\\\\\\\"CAASA1BIUBoDCO1JIn4KWwpZCgNNTkwSGTIwMjYtMDYtMDFUMDU6NTU6MDArMDg6MDAaA0NFQiIZMjAyNi0wNi0wMVQwNzoyMDowMCswODowMCoCWjIyAzc2MzoCWjJCAzc2M0gBUgMzMjASBAgDEAEYASgAMhUKE1BoaWxpcHBpbmVzIEFpckFzaWE\\\\\\\\u003d\\\\\\\"]\\\",null,false],[[\\\"Z2\\\",[\\\"Philippines AirAsia\\\"],[[null,null,null,\\\"MNL\\\",\\\"Ninoy Aquino International Airport\\\",\\\"Mactan-Cebu International Airport\\\",\\\"CEB\\\",null,[16],null,[17,25],85,[],2,\\\"28 in\\\",null,1,\\\"Airbus A320\\\",[null,true],false,[2026,6,1],[2026,6,1],[\\\"Z2\\\",\\\"781\\\",null,\\\"Philippines AirAsia\\\"],null,null,1,null,null,null,null,\\\"28 inches\\\",66883,1]],\\\"MNL\\\",[2026,6,1],[16],\\\"CEB\\\",[2026,6,1],[17,25],85,null,null,false,null,null,null,null,\\\"lUcOgd\\\",[[1779186027455419,8709961,285302338],null,null,null,null,[[23]]],1,null,null,[null,null,2,0,null,true,true,67000,67000,null,67000,2,false,null,null,1,null,2],[1]],[[null,9453],\\\"CjRIcXlzLXNGeW4taGdBRHIwTGdCRy0tLS0tLS0tLXNlb3gyNUFBQUFBR29NT1dzRzZmMHdBEgVaMjc4MRoKCO1JEAAaA1BIUDgccNB3\\\"],null,false,[null,null,null,null,1,null,[null,1]],[false,false,false],false,[],\\\"[\\\\\\\"CAASA1BIUBoDCO1JIn4KWwpZCgNNTkwSGTIwMjYtMDYtMDFUMTY6MDA6MDArMDg6MDAaA0NFQiIZMjAyNi0wNi0wMVQxNzoyNTowMCswODowMCoCWjIyAzc4MToCWjJCAzc4MUgBUgMzMjASBAgDEAEYASgAMhUKE1BoaWxpcHBpbmVzIEFpckFzaWE\\\\\\\\u003d\\\\\\\"]\\\",null,false],[[\\\"5J\\\",[\\\"Cebu Pacific\\\"],[[null,null,null,\\\"MNL\\\",\\\"Ninoy Aquino International Airport\\\",\\\"Mactan-Cebu International Airport\\\",\\\"CEB\\\",null,[7],null,[8,35],95,[],2,\\\"28 in\\\",null,1,\\\"Airbus A320\\\",null,false,[2026,6,1],[2026,6,1],[\\\"5J\\\",\\\"2501\\\",null,\\\"Cebu Pacific\\\"],null,null,1,null,null,null,null,\\\"28 inches\\\",66883,1]],\\\"MNL\\\",[2026,6,1],[7],\\\"CEB\\\",[2026,6,1],[8,35],95,null,null,false,null,null,null,null,\\\"wJGQyf\\\",[[1779186027455419,8709961,285302338],null,null,null,null,[[24]]],1,null,null,[null,null,2,0,null,true,true,67000,67000,null,67000,2,false,null,null,1,null,2],[1],[[\\\"5J\\\",\\\"Cebu Pacific\\\",\\\"https://www.cebupacificair.com/pages/travel-info/special-service-request\\\"]]],[[null,9790],\\\"CjRIcXlzLXNGeW4taGdBRHIwTGdCRy0tLS0tLS0tLXNlb3gyNUFBQUFBR29NT1dzRzZmMHdBEgY1SjI1MDEaCgi+TBAAGgNQSFA4HHDyew\\\\u003d\\\\u003d\\\"],null,false,[null,null,null,null,1,null,[null,1]],[false,false,false],false,[],\\\"[\\\\\\\"CAASA1BIUBoDCL5MInkKXQpbCgNNTkwSGTIwMjYtMDYtMDFUMDc6MDA6MDArMDg6MDAaA0NFQiIZMjAyNi0wNi0wMVQwODozNTowMCswODowMCoCNUoyBDI1MDE6AjVKQgQyNTAxSAFSAzMyMBIECAMQARgBKAAyDgoMQ2VidSBQYWNpZmlj\\\\\\\"]\\\",null,false],[[\\\"5J\\\",[\\\"Cebu Pacific\\\"],[[null,null,null,\\\"MNL\\\",\\\"Ninoy Aquino International Airport\\\",\\\"Mactan-Cebu International Airport\\\",\\\"CEB\\\",null,[10,10],null,[11,40],90,[null,null,null,null,null,true],2,\\\"28 in\\\",null,1,\\\"Airbus A320neo\\\",null,false,[2026,6,1],[2026,6,1],[\\\"5J\\\",\\\"585\\\",null,\\\"Cebu Pacific\\\"],null,null,1,null,null,null,null,\\\"28 inches\\\",55807,1]],\\\"MNL\\\",[2026,6,1],[10,10],\\\"CEB\\\",[2026,6,1],[11,40],90,null,null,false,null,null,null,null,\\\"pLYiX\\\",[[1779186027455419,8709961,285302338],null,null,null,null,[[25]]],1,null,null,[null,null,1,-16,null,true,true,56000,67000,[null,true],67000,1,false,null,null,1,null,1],[1],[[\\\"5J\\\",\\\"Cebu Pacific\\\",\\\"https://www.cebupacificair.com/pages/travel-info/special-service-request\\\"]]],[[null,10910],\\\"CjRIcXlzLXNGeW4taGdBRHIwTGdCRy0tLS0tLS0tLXNlb3gyNUFBQUFBR29NT1dzRzZmMHdBEgU1SjU4NRoKCJ5VEAAaA1BIUDgccImKAQ\\\\u003d\\\\u003d\\\"],null,false,[null,null,null,null,1,null,[null,1]],[false,false,false],false,[],\\\"[\\\\\\\"CAASA1BIUBoDCJ5VIncKWwpZCgNNTkwSGTIwMjYtMDYtMDFUMTA6MTA6MDArMDg6MDAaA0NFQiIZMjAyNi0wNi0wMVQxMTo0MDowMCswODowMCoCNUoyAzU4NToCNUpCAzU4NUgBUgMzMk4SBAgDEAEYASgAMg4KDENlYnUgUGFjaWZpYw\\\\\\\\u003d\\\\\\\\u003d\\\\\\\"]\\\",[[1]],false],[[\\\"5J\\\",[\\\"Cebu Pacific\\\"],[[null,null,null,\\\"MNL\\\",\\\"Ninoy Aquino International Airport\\\",\\\"Mactan-Cebu International Airport\\\",\\\"CEB\\\",null,[10,40],null,[12,15],95,[null,null,null,null,null,true],2,\\\"28 in\\\",null,1,\\\"Airbus A320neo\\\",null,false,[2026,6,1],[2026,6,1],[\\\"5J\\\",\\\"565\\\",null,\\\"Cebu Pacific\\\"],null,null,1,null,null,null,null,\\\"28 inches\\\",55214,1]],\\\"MNL\\\",[2026,6,1],[10,40],\\\"CEB\\\",[2026,6,1],[12,15],95,null,null,false,null,null,null,null,\\\"vI1fDc\\\",[[1779186027455419,8709961,285302338],null,null,null,null,[[26]]],1,null,null,[null,null,1,-18,null,true,true,55000,67000,[null,true],67000,1,false,null,null,1,null,1],[1],[[\\\"5J\\\",\\\"Cebu Pacific\\\",\\\"https://www.cebupacificair.com/pages/travel-info/special-service-request\\\"]]],[[null,10910],\\\"CjRIcXlzLXNGeW4taGdBRHIwTGdCRy0tLS0tLS0tLXNlb3gyNUFBQUFBR29NT1dzRzZmMHdBEgU1SjU2NRoKCJ5VEAAaA1BIUDgccImKAQ\\\\u003d\\\\u003d\\\"],null,false,[null,null,null,null,1,null,[null,1]],[false,false,false],false,[],\\\"[\\\\\\\"CAASA1BIUBoDCJ5VIncKWwpZCgNNTkwSGTIwMjYtMDYtMDFUMTA6NDA6MDArMDg6MDAaA0NFQiIZMjAyNi0wNi0wMVQxMjoxNTowMCswODowMCoCNUoyAzU2NToCNUpCAzU2NUgBUgMzMk4SBAgDEAEYASgAMg4KDENlYnUgUGFjaWZpYw\\\\\\\\u003d\\\\\\\\u003d\\\\\\\"]\\\",[[1]],false],[[\\\"PR\\\",[\\\"Philippine Airlines\\\"],[[null,null,\\\"PAL Express\\\",\\\"MNL\\\",\\\"Ninoy Aquino International Airport\\\",\\\"Mactan-Cebu International Airport\\\",\\\"CEB\\\",null,[16,45],null,[18,10],85,[],2,\\\"28 in\\\",null,1,\\\"Airbus A320\\\",null,false,[2026,6,1],[2026,6,1],[\\\"PR\\\",\\\"2861\\\",null,\\\"Philippine Airlines\\\"],null,null,1,null,null,null,null,\\\"28 inches\\\",66883,1]],\\\"MNL\\\",[2026,6,1],[16,45],\\\"CEB\\\",[2026,6,1],[18,10],85,null,null,false,null,null,null,null,\\\"kZXNYc\\\",[[1779186027455419,8709961,285302338],null,null,null,null,[[27]]],1,null,null,[null,null,2,0,null,true,true,67000,67000,null,67000,2,false,null,null,1,null,2],[1],[[\\\"PR\\\",\\\"Philippine Airlines\\\",\\\"https://www.philippineairlines.com/en/before-you-fly/special-needs-and-request\\\"]]],[[null,11578],\\\"CjRIcXlzLXNGeW4taGdBRHIwTGdCRy0tLS0tLS0tLXNlb3gyNUFBQUFBR29NT1dzRzZmMHdBEgZQUjI4NjEaCgi6WhAAGgNQSFA4HHDDkgE\\\\u003d\\\"],null,false,[null,null,null,null,1,null,[null,1]],[false,false,false],false,[],\\\"[\\\\\\\"CAASA1BIUBoDCLpaIoABCl0KWwoDTU5MEhkyMDI2LTA2LTAxVDE2OjQ1OjAwKzA4OjAwGgNDRUIiGTIwMjYtMDYtMDFUMTg6MTA6MDArMDg6MDAqAlBSMgQyODYxOgJQUkIEMjg2MUgBUgMzMjASBAgDEAEYASgAMhUKE1BoaWxpcHBpbmUgQWlybGluZXM\\\\\\\\u003d\\\\\\\"]\\\",null,false],[[\\\"PR\\\",[\\\"Philippine Airlines\\\"],[[null,null,\\\"PAL Express\\\",\\\"MNL\\\",\\\"Ninoy Aquino International Airport\\\",\\\"Mactan-Cebu International Airport\\\",\\\"CEB\\\",null,[22,5],null,[23,25],80,[],2,\\\"28 in\\\",null,1,\\\"Airbus A320\\\",null,false,[2026,6,1],[2026,6,1],[\\\"PR\\\",\\\"2859\\\",null,\\\"Philippine Airlines\\\"],null,null,1,null,null,null,null,\\\"28 inches\\\",66883,2]],\\\"MNL\\\",[2026,6,1],[22,5],\\\"CEB\\\",[2026,6,1],[23,25],80,null,null,false,null,null,null,null,\\\"PVNyA\\\",[[1779186027455419,8709961,285302338],null,null,null,null,[[28]]],1,null,null,[null,null,2,0,null,true,true,67000,67000,null,67000,2,false,null,null,2,null,5],[1],[[\\\"PR\\\",\\\"Philippine Airlines\\\",\\\"https://www.philippineairlines.com/en/before-you-fly/special-needs-and-request\\\"]]],[[null,11578],\\\"CjRIcXlzLXNGeW4taGdBRHIwTGdCRy0tLS0tLS0tLXNlb3gyNUFBQUFBR29NT1dzRzZmMHdBEgZQUjI4NTkaCgi6WhAAGgNQSFA4HHDDkgE\\\\u003d\\\"],null,false,[null,null,null,null,1,null,[null,1]],[false,false,false],false,[],\\\"[\\\\\\\"CAASA1BIUBoDCLpaIoABCl0KWwoDTU5MEhkyMDI2LTA2LTAxVDIyOjA1OjAwKzA4OjAwGgNDRUIiGTIwMjYtMDYtMDFUMjM6MjU6MDArMDg6MDAqAlBSMgQyODU5OgJQUkIEMjg1OUgBUgMzMjASBAgDEAEYASgAMhUKE1BoaWxpcHBpbmUgQWlybGluZXM\\\\\\\\u003d\\\\\\\"]\\\",null,false],[[\\\"PR\\\",[\\\"Philippine Airlines\\\"],[[null,null,null,\\\"MNL\\\",\\\"Ninoy Aquino International Airport\\\",\\\"Mactan-Cebu International Airport\\\",\\\"CEB\\\",null,[11,50],null,[13,10],80,[null,null,null,null,null,null,null,null,null,null,true],1,\\\"30 in\\\",null,1,\\\"Airbus A321\\\",null,false,[2026,6,1],[2026,6,1],[\\\"PR\\\",\\\"1853\\\",null,\\\"Philippine Airlines\\\"],null,null,1,null,null,null,null,\\\"30 inches\\\",74329,1]],\\\"MNL\\\",[2026,6,1],[11,50],\\\"CEB\\\",[2026,6,1],[13,10],80,null,null,false,null,null,null,null,\\\"WYzdWd\\\",[[1779186027455419,8709961,285302338],null,null,null,null,[[29]]],1,null,null,[null,null,3,10,null,true,true,74000,67000,null,67000,3,false,null,null,1,null,3],[1],[[\\\"PR\\\",\\\"Philippine Airlines\\\",\\\"https://www.philippineairlines.com/en/before-you-fly/special-needs-and-request\\\"]]],[[null,12474],\\\"CjRIcXlzLXNGeW4taGdBRHIwTGdCRy0tLS0tLS0tLXNlb3gyNUFBQUFBR29NT1dzRzZmMHdBEgZQUjE4NTMaCgi6YRAAGgNQSFA4HHDunQE\\\\u003d\\\"],null,false,[null,null,null,null,1,null,[null,1]],[false,false,false],false,[],\\\"[\\\\\\\"CAASA1BIUBoDCLphIoABCl0KWwoDTU5MEhkyMDI2LTA2LTAxVDExOjUwOjAwKzA4OjAwGgNDRUIiGTIwMjYtMDYtMDFUMTM6MTA6MDArMDg6MDAqAlBSMgQxODUzOgJQUkIEMTg1M0gBUgMzMjESBAgDEAEYASgAMhUKE1BoaWxpcHBpbmUgQWlybGluZXM\\\\\\\\u003d\\\\\\\"]\\\",[[2]],false],[[\\\"PR\\\",[\\\"Philippine Airlines\\\"],[[null,null,\\\"PAL Express\\\",\\\"MNL\\\",\\\"Ninoy Aquino International Airport\\\",\\\"Mactan-Cebu International Airport\\\",\\\"CEB\\\",null,[13,25],null,[14,45],80,[],2,\\\"28 in\\\",null,1,\\\"Airbus A320\\\",null,false,[2026,6,1],[2026,6,1],[\\\"PR\\\",\\\"2867\\\",null,\\\"Philippine Airlines\\\"],null,null,1,null,null,null,null,\\\"28 inches\\\",66883,1]],\\\"MNL\\\",[2026,6,1],[13,25],\\\"CEB\\\",[2026,6,1],[14,45],80,null,null,false,null,null,null,null,\\\"JUTlod\\\",[[1779186027455419,8709961,285302338],null,null,null,null,[[30]]],1,null,null,[null,null,2,0,null,true,true,67000,67000,null,67000,2,false,null,null,1,null,2],[1],[[\\\"PR\\\",\\\"Philippine Airlines\\\",\\\"https://www.philippineairlines.com/en/before-you-fly/special-needs-and-request\\\"]]],[[null,12474],\\\"CjRIcXlzLXNGeW4taGdBRHIwTGdCRy0tLS0tLS0tLXNlb3gyNUFBQUFBR29NT1dzRzZmMHdBEgZQUjI4NjcaCgi6YRAAGgNQSFA4HHDunQE\\\\u003d\\\"],null,false,[null,null,null,null,1,null,[null,1]],[false,false,false],false,[],\\\"[\\\\\\\"CAASA1BIUBoDCLphIoABCl0KWwoDTU5MEhkyMDI2LTA2LTAxVDEzOjI1OjAwKzA4OjAwGgNDRUIiGTIwMjYtMDYtMDFUMTQ6NDU6MDArMDg6MDAqAlBSMgQyODY3OgJQUkIEMjg2N0gBUgMzMjASBAgDEAEYASgAMhUKE1BoaWxpcHBpbmUgQWlybGluZXM\\\\\\\\u003d\\\\\\\"]\\\",null,false],[[\\\"PR\\\",[\\\"Philippine Airlines\\\"],[[null,null,\\\"PAL Express\\\",\\\"MNL\\\",\\\"Ninoy Aquino International Airport\\\",\\\"Mactan-Cebu International Airport\\\",\\\"CEB\\\",null,[5],null,[6,25],85,[null,null,null,null,null,null,null,null,null,null,true],1,\\\"30 in\\\",null,1,\\\"Airbus A321\\\",null,false,[2026,6,1],[2026,6,1],[\\\"PR\\\",\\\"2845\\\",null,\\\"Philippine Airlines\\\"],null,null,1,null,null,null,null,\\\"30 inches\\\",74329,1]],\\\"MNL\\\",[2026,6,1],[5],\\\"CEB\\\",[2026,6,1],[6,25],85,null,null,false,null,null,null,null,\\\"oJwor\\\",[[1779186027455419,8709961,285302338],null,null,null,null,[[31]]],1,null,null,[null,null,3,10,null,true,true,74000,67000,null,67000,3,false,null,null,1,null,3],[1],[[\\\"PR\\\",\\\"Philippine Airlines\\\",\\\"https://www.philippineairlines.com/en/before-you-fly/special-needs-and-request\\\"]]],[[null,13594],\\\"CjRIcXlzLXNGeW4taGdBRHIwTGdCRy0tLS0tLS0tLXNlb3gyNUFBQUFBR29NT1dzRzZmMHdBEgZQUjI4NDUaCgiaahAAGgNQSFA4HHCErAE\\\\u003d\\\"],null,false,[null,null,null,null,1,null,[null,1]],[false,false,false],false,[],\\\"[\\\\\\\"CAASA1BIUBoDCJpqIoABCl0KWwoDTU5MEhkyMDI2LTA2LTAxVDA1OjAwOjAwKzA4OjAwGgNDRUIiGTIwMjYtMDYtMDFUMDY6MjU6MDArMDg6MDAqAlBSMgQyODQ1OgJQUkIEMjg0NUgBUgMzMjESBAgDEAEYASgAMhUKE1BoaWxpcHBpbmUgQWlybGluZXM\\\\\\\\u003d\\\\\\\"]\\\",[[2]],false],[[\\\"Z2\\\",[\\\"Philippines AirAsia\\\"],[[null,null,null,\\\"MNL\\\",\\\"Ninoy Aquino International Airport\\\",\\\"Mactan-Cebu International Airport\\\",\\\"CEB\\\",null,[3,20],null,[4,45],85,[],2,\\\"28 in\\\",null,1,\\\"Airbus A320\\\",[true],false,[2026,6,1],[2026,6,1],[\\\"Z2\\\",\\\"759\\\",null,\\\"Philippines AirAsia\\\"],null,null,1,null,null,null,null,\\\"28 inches\\\",66883,1]],\\\"MNL\\\",[2026,6,1],[3,20],\\\"CEB\\\",[2026,6,1],[4,45],85,null,null,false,null,null,null,null,\\\"tmSdP\\\",[[1779186027455419,8709961,285302338],null,null,null,null,[[32]]],1,null,null,[null,null,2,0,null,true,true,67000,67000,null,67000,2,false,null,null,1,null,2],[1]],[[null,15065],\\\"CjRIcXlzLXNGeW4taGdBRHIwTGdCRy0tLS0tLS0tLXNlb3gyNUFBQUFBR29NT1dzRzZmMHdBEgVaMjc1ORoKCNl1EAAaA1BIUDgccNO+AQ\\\\u003d\\\\u003d\\\"],null,false,[null,null,null,null,1,null,[null,1]],[false,false,false],false,[],\\\"[\\\\\\\"CAASA1BIUBoDCNl1In4KWwpZCgNNTkwSGTIwMjYtMDYtMDFUMDM6MjA6MDArMDg6MDAaA0NFQiIZMjAyNi0wNi0wMVQwNDo0NTowMCswODowMCoCWjIyAzc1OToCWjJCAzc1OUgBUgMzMjASBAgDEAEYASgAMhUKE1BoaWxpcHBpbmVzIEFpckFzaWE\\\\\\\\u003d\\\\\\\"]\\\",null,false],[[\\\"PR\\\",[\\\"Philippine Airlines\\\"],[[null,null,\\\"PAL Express\\\",\\\"MNL\\\",\\\"Ninoy Aquino International Airport\\\",\\\"Mactan-Cebu International Airport\\\",\\\"CEB\\\",null,[9,15],null,[10,35],80,[null,null,null,null,null,null,null,null,null,null,true],1,\\\"30 in\\\",null,1,\\\"Airbus A321\\\",null,false,[2026,6,1],[2026,6,1],[\\\"PR\\\",\\\"2849\\\",null,\\\"Philippine Airlines\\\"],null,null,1,null,null,null,null,\\\"30 inches\\\",74329,1]],\\\"MNL\\\",[2026,6,1],[9,15],\\\"CEB\\\",[2026,6,1],[10,35],80,null,null,false,null,null,null,null,\\\"bWJbTc\\\",[[1779186027455419,8709961,285302338],null,null,null,null,[[33]]],1,null,null,[null,null,3,10,null,true,true,74000,67000,null,67000,3,false,null,null,1,null,3],[1],[[\\\"PR\\\",\\\"Philippine Airlines\\\",\\\"https://www.philippineairlines.com/en/before-you-fly/special-needs-and-request\\\"]]],[[null,15386],\\\"CjRIcXlzLXNGeW4taGdBRHIwTGdCRy0tLS0tLS0tLXNlb3gyNUFBQUFBR29NT1dzRzZmMHdBEgZQUjI4NDkaCgiaeBAAGgNQSFA4HHDbwgE\\\\u003d\\\"],null,false,[null,null,null,null,1,null,[null,1]],[false,false,false],false,[],\\\"[\\\\\\\"CAASA1BIUBoDCJp4IoABCl0KWwoDTU5MEhkyMDI2LTA2LTAxVDA5OjE1OjAwKzA4OjAwGgNDRUIiGTIwMjYtMDYtMDFUMTA6MzU6MDArMDg6MDAqAlBSMgQyODQ5OgJQUkIEMjg0OUgBUgMzMjESBAgDEAEYASgAMhUKE1BoaWxpcHBpbmUgQWlybGluZXM\\\\\\\\u003d\\\\\\\"]\\\",[[2]],false]],0,false,false,[1]],null,[5,[null,6878],[null,5398],[null,-1480],[null,3700],[null,6600],1,null,null,null,[[[1773936000000,3154],[1774022400000,3154],[1774108800000,3154],[1774195200000,2667],[1774281600000,3102],[1774368000000,3316],[1774454400000,3550],[1774540800000,3550],[1774627200000,3336],[1774713600000,3336],[1774800000000,3550],[1774886400000,5547],[1774972800000,5547],[1775059200000,6154],[1775145600000,6480],[1775232000000,6480],[1775318400000,6480],[1775404800000,5918],[1775491200000,5614],[1775577600000,6480],[1775664000000,5790],[1775750400000,5790],[1775836800000,5790],[1775923200000,5790],[1776009600000,5365],[1776096000000,5566],[1776182400000,5566],[1776268800000,5566],[1776355200000,6501],[1776441600000,6812],[1776528000000,6812],[1776614400000,6812],[1776700800000,6812],[1776787200000,6700],[1776873600000,6700],[1776960000000,6364],[1777046400000,6700],[1777132800000,6700],[1777219200000,6700],[1777305600000,6726],[1777392000000,6726],[1777478400000,6588],[1777564800000,6212],[1777651200000,6212],[1777737600000,6212],[1777824000000,5764],[1777910400000,6660],[1777996800000,6660],[1778083200000,6660],[1778169600000,5764],[1778256000000,5764],[1778342400000,5764],[1778428800000,5764],[1778515200000,6225],[1778601600000,6225],[1778688000000,6996],[1778774400000,5764],[1778860800000,5086],[1778947200000,5086],[1779033600000,5982],[1779120000000,6878]]],[[1779186027455419,8709961,285302338],null,null,null,null,[[34]]],\\\"Cebu City\\\"],null,[[[null,6878],[null,141041]],[[[\\\"ONEWORLD\\\",\\\"Oneworld\\\"],[\\\"SKYTEAM\\\",\\\"SkyTeam\\\"],[\\\"STAR_ALLIANCE\\\",\\\"Star Alliance\\\"]],[[\\\"NZ\\\",\\\"Air New Zealand\\\"],[\\\"NH\\\",\\\"ANA\\\"],[\\\"OZ\\\",\\\"Asiana Airlines\\\"],[\\\"CX\\\",\\\"Cathay Pacific\\\"],[\\\"5J\\\",\\\"Cebu Pacific\\\"],[\\\"CI\\\",\\\"China Airlines\\\"],[\\\"MU\\\",\\\"China Eastern\\\"],[\\\"BR\\\",\\\"EVA Air\\\"],[\\\"AY\\\",\\\"Finnair\\\"],[\\\"FY\\\",\\\"Firefly\\\"],[\\\"GA\\\",\\\"Garuda Indonesia\\\"],[\\\"7C\\\",\\\"Jeju Air\\\"],[\\\"KE\\\",\\\"Korean Air\\\"],[\\\"LH\\\",\\\"Lufthansa\\\"],[\\\"MH\\\",\\\"Malaysia Airlines\\\"],[\\\"PR\\\",\\\"Philippine Airlines\\\"],[\\\"Z2\\\",\\\"Philippines AirAsia\\\"],[\\\"BI\\\",\\\"Royal Brunei\\\"],[\\\"TR\\\",\\\"Scoot\\\"],[\\\"SQ\\\",\\\"Singapore Airlines\\\"],[\\\"JX\\\",\\\"STARLUX Airlines\\\"],[\\\"LX\\\",\\\"SWISS\\\"],[\\\"VN\\\",\\\"Vietnam Airlines\\\"],[\\\"MF\\\",\\\"XiamenAir\\\"]]],[[[\\\"BCD\\\",\\\"Bacolod\\\"],[\\\"CGY\\\",\\\"Cagayan De Oro City\\\"],[\\\"MPH\\\",\\\"Caticlan\\\"],[\\\"CBO\\\",\\\"Cotabato City\\\"],[\\\"DVO\\\",\\\"Davao City\\\"],[\\\"GES\\\",\\\"General Santos City (Dadiangas)\\\"],[\\\"HKG\\\",\\\"Hong Kong\\\"],[\\\"ILO\\\",\\\"Iloilo City\\\"],[\\\"PPS\\\",\\\"Puerto Princesa City\\\"],[\\\"JJN\\\",\\\"Quanzhou\\\"],[\\\"ICN\\\",\\\"Seoul\\\"],[\\\"TAC\\\",\\\"Tacloban City\\\"],[\\\"TPE\\\",\\\"Taipei City\\\"],[\\\"ZAM\\\",\\\"Zamboanga City\\\"]],50,1410],[80,1750],[[1,2,3]],[true,false,false,false],null,[false]],null,null,null,[[\\\"5J\\\",\\\"Cebu Pacific\\\",\\\"https://www.cebupacificair.com/pages/travel-info/baggage-information/carry-on-baggage\\\"],[\\\"PR\\\",\\\"Philippine Airlines\\\",\\\"https://www.philippineairlines.com/en/before-you-fly/baggage-information\\\"]],[\\\"EAEaBAgDEAEhAAAAAADeukAqA1BIUDI0ChgKA01OTBIDQ0VCGgoyMDI2LTA2LTAxIAAKGAoDQ0VCEgNNTkwaCjIwMjYtMDYtMDUgAFABYjsKKgoHCgNNTkwQARIHCgNDRUIQARoKMjAyNi0wNi0wMSIKMjAyNi0wNi0wNRoNCgQIAxABEAEYAIgBAWgAcLmvwTI\\\\u003d\\\",0],null,[[1779186027455419,8709961,285302338],null,null,null,null,[[0]]],null,null,[[[\\\"BCD\\\",0],\\\"Bacolod\u2013Silay International Airport\\\",[\\\"/m/01rmws\\\",\\\"Bacolod\\\",[[\\\"https://encrypted-tbn1.gstatic.com/images?q\\\\u003dtbn:ANd9GcTo0CFoMCreGRz6W1BlDZzRF0Xv0hxfIJoZd5d0wCgZGQCG3h7x8t7ZHkfqHjVHpD8X6iOfXzFRxox1AVDdgFRU_CKhNBNYTDLWODhNKwY\\\"],[\\\"https://encrypted-tbn1.gstatic.com/images?q\\\\u003dtbn:ANd9GcS0_jFJ3evvYPmiT0QbXN6Mq53xy73GOGOSXHOGLr5l9sFTQRnmATtqc0_HxcfdTYZ2hYsfH_7jUhbwBA\\\"]]],[10.7766667,123.019167],\\\"PH\\\",false,\\\"Philippines\\\"],[[\\\"/m/01rmws\\\",4],\\\"Bacolod\\\",[\\\"/m/01rmws\\\",\\\"Bacolod\\\",[[\\\"https://encrypted-tbn1.gstatic.com/images?q\\\\u003dtbn:ANd9GcTo0CFoMCreGRz6W1BlDZzRF0Xv0hxfIJoZd5d0wCgZGQCG3h7x8t7ZHkfqHjVHpD8X6iOfXzFRxox1AVDdgFRU_CKhNBNYTDLWODhNKwY\\\"],[\\\"https://encrypted-tbn1.gstatic.com/images?q\\\\u003dtbn:ANd9GcS0_jFJ3evvYPmiT0QbXN6Mq53xy73GOGOSXHOGLr5l9sFTQRnmATtqc0_HxcfdTYZ2hYsfH_7jUhbwBA\\\"]],\\\"San Sebastian Cathedral \\\\u0026 Capitol Park\\\",\\\"Philippine city with San Sebastian Cathedral \\\\u0026 the Dizon-Ramos Museum, plus Capitol Park \\\\u0026 Lagoon.\\\",\\\"BCD\\\"],[10.6676405,122.9455627],\\\"PH\\\",null,\\\"Philippines\\\"],[[\\\"CBO\\\",0],\\\"Cotabato Airport\\\",[\\\"/m/01rnc8\\\",\\\"Cotabato City\\\",[[\\\"https://encrypted-tbn1.gstatic.com/licensed-image?q\\\\u003dtbn:ANd9GcS52Jls3XzN7gtnqdAafbFbyBI4nTuLJKWGo4BwyYUSWHoMQ7TfiyEv_51MlZZKwZB0mfqFdXBwJw-Ck_volZiuEd75EdTgFqP5jS507ug\\\"],[\\\"https://encrypted-tbn1.gstatic.com/licensed-image?q\\\\u003dtbn:ANd9GcQFNZvvgtAarrWW9EnUcFdP5HDfI7a_uD1Alx45yQxkTxZyqUMuReChqH-kVtZNWCTNOZgMkfemETdex7IT-ABRbViifv50mM7QEPgF6D0\\\"]]],[7.16472222,124.210278],\\\"PH\\\",false,\\\"Philippines\\\"],[[\\\"/m/01rnc8\\\",4],\\\"Cotabato City\\\",[\\\"/m/01rnc8\\\",\\\"Cotabato City\\\",[[\\\"https://encrypted-tbn1.gstatic.com/licensed-image?q\\\\u003dtbn:ANd9GcS52Jls3XzN7gtnqdAafbFbyBI4nTuLJKWGo4BwyYUSWHoMQ7TfiyEv_51MlZZKwZB0mfqFdXBwJw-Ck_volZiuEd75EdTgFqP5jS507ug\\\"],[\\\"https://encrypted-tbn1.gstatic.com/licensed-image?q\\\\u003dtbn:ANd9GcQFNZvvgtAarrWW9EnUcFdP5HDfI7a_uD1Alx45yQxkTxZyqUMuReChqH-kVtZNWCTNOZgMkfemETdex7IT-ABRbViifv50mM7QEPgF6D0\\\"]],\\\"Locality\\\",null,\\\"CBO\\\"],[7.2046668,124.2310439],\\\"PH\\\",null,\\\"Philippines\\\"],[[\\\"CEB\\\",0],\\\"Mactan-Cebu International Airport\\\",[\\\"/m/01p_ly\\\",\\\"Cebu City\\\",[[\\\"https://encrypted-tbn0.gstatic.com/images?q\\\\u003dtbn:ANd9GcSeusmYuePIQYVYjSN-Xeh8ytCEAKpNyFyQLK11x-O1Ql2sLUVjsoVhVTNmoxmlAC_FyGM6nwKKZLDasP-2WXq1cBLovF-8MRf5PgSthlo\\\"],[\\\"https://encrypted-tbn0.gstatic.com/images?q\\\\u003dtbn:ANd9GcS8c136c84RJtzmgkpLMeRR2X_FACDOzTX_yPwBvypRWYhJcVJcxO0xkbXY74vUa8NoSSioWPDQRZtjLA\\\"]]],[10.3075,123.979444],\\\"PH\\\",false,\\\"Philippines\\\"],[[\\\"/m/01p_ly\\\",4],\\\"Cebu City\\\",[\\\"/m/01p_ly\\\",\\\"Cebu City\\\",[[\\\"https://encrypted-tbn0.gstatic.com/images?q\\\\u003dtbn:ANd9GcSeusmYuePIQYVYjSN-Xeh8ytCEAKpNyFyQLK11x-O1Ql2sLUVjsoVhVTNmoxmlAC_FyGM6nwKKZLDasP-2WXq1cBLovF-8MRf5PgSthlo\\\"],[\\\"https://encrypted-tbn0.gstatic.com/images?q\\\\u003dtbn:ANd9GcS8c136c84RJtzmgkpLMeRR2X_FACDOzTX_yPwBvypRWYhJcVJcxO0xkbXY74vUa8NoSSioWPDQRZtjLA\\\"]],\\\"Cebu City, dive sites \\\\u0026 beach resorts\\\",\\\"Philippine island province with dive sites, beach resorts \\\\u0026 Cebu City's Spanish colonial heritage.\\\",\\\"CEB\\\"],[10.2926115,123.9021934],\\\"PH\\\",null,\\\"Philippines\\\"],[[\\\"CGY\\\",0],\\\"Laguindingan Airport\\\",[\\\"/m/01sntm\\\",\\\"Cagayan De Oro City\\\",[[\\\"https://encrypted-tbn3.gstatic.com/images?q\\\\u003dtbn:ANd9GcS30fFFdi1x0nj8q4phTPPN05i00TDwoCX5rtX992-SlL2wcNjmMcm7KpOo_KTl6SSPlTthWi-go2dWfJyLGQGj7KJtLg3339XouA488_g\\\"],[\\\"https://encrypted-tbn3.gstatic.com/images?q\\\\u003dtbn:ANd9GcQRL40Vbo_YaaAca3dTu8iSg_1buChdr_DS-_w5edNK59-YWjznSYLbESNHgObD-tl15CKUtN7l5FLVYA\\\"]]],[8.6125,124.457222],\\\"PH\\\",false,\\\"Philippines\\\"],[[\\\"/m/01sntm\\\",4],\\\"Cagayan De Oro City\\\",[\\\"/m/01sntm\\\",\\\"Cagayan De Oro City\\\",[[\\\"https://encrypted-tbn3.gstatic.com/images?q\\\\u003dtbn:ANd9GcS30fFFdi1x0nj8q4phTPPN05i00TDwoCX5rtX992-SlL2wcNjmMcm7KpOo_KTl6SSPlTthWi-go2dWfJyLGQGj7KJtLg3339XouA488_g\\\"],[\\\"https://encrypted-tbn3.gstatic.com/images?q\\\\u003dtbn:ANd9GcQRL40Vbo_YaaAca3dTu8iSg_1buChdr_DS-_w5edNK59-YWjznSYLbESNHgObD-tl15CKUtN7l5FLVYA\\\"]],\\\"Rafting, adventure, and river\\\",null,\\\"CGY\\\"],[8.4802854,124.6497534],\\\"PH\\\",null,\\\"Philippines\\\"],[[\\\"DVO\\\",0],\\\"Davao International Airport\\\",[\\\"/m/02gn1x\\\",\\\"Davao City\\\",[[\\\"https://encrypted-tbn3.gstatic.com/images?q\\\\u003dtbn:ANd9GcROkGJkTwZQBdB-RVt-EToFNHRFoglZTreul8Z_NdSbwtftX3OPNnmycIc5UDD-ARuX3ikHlAZbHm-vrCmdNjovpHS0lWw4eU-LsISbKtQ\\\"],[\\\"https://encrypted-tbn3.gstatic.com/images?q\\\\u003dtbn:ANd9GcR1Z6VD9qk0vsvmUX7f2kEetwQ9878VrwtFc5fR0E6-wp89u7ReDu0eTQ8g0EU2Q_nkv0iCqxhTZP6Cmw\\\"]]],[7.12527778,125.645556],\\\"PH\\\",false,\\\"Philippines\\\"],[[\\\"/m/02gn1x\\\",4],\\\"Davao City\\\",[\\\"/m/02gn1x\\\",\\\"Davao City\\\",[[\\\"https://encrypted-tbn3.gstatic.com/images?q\\\\u003dtbn:ANd9GcROkGJkTwZQBdB-RVt-EToFNHRFoglZTreul8Z_NdSbwtftX3OPNnmycIc5UDD-ARuX3ikHlAZbHm-vrCmdNjovpHS0lWw4eU-LsISbKtQ\\\"],[\\\"https://encrypted-tbn3.gstatic.com/images?q\\\\u003dtbn:ANd9GcR1Z6VD9qk0vsvmUX7f2kEetwQ9878VrwtFc5fR0E6-wp89u7ReDu0eTQ8g0EU2Q_nkv0iCqxhTZP6Cmw\\\"]],\\\"Mount Apo, People\u2019s Park \\\\u0026 durian fruit\\\",\\\"Coastal southern Philippines city near Mount Apo, home of People\u2019s Park \\\\u0026 major producer of durians.\\\",\\\"DVO\\\"],[7.0647456,125.6088427],\\\"PH\\\",null,\\\"Philippines\\\"],[[\\\"GES\\\",0],\\\"General Santos International Airport\\\",[\\\"/m/01stll\\\",\\\"General Santos City (Dadiangas)\\\",[[\\\"https://encrypted-tbn3.gstatic.com/licensed-image?q\\\\u003dtbn:ANd9GcR7CAAO3KYm1v83vWOGs8ikAUtK-NwKcbOJxSYwzkr0q26MSgGchiOqjhrZqSbIMjkJC6mKQkzA55LL9kEldALLFffNG1CRMUbGE1MZ7as\\\"],[\\\"https://encrypted-tbn3.gstatic.com/licensed-image?q\\\\u003dtbn:ANd9GcSO08bq9HT499RPelMsXfIXAPWrH_QCfDX-WOmo6LaBPvv-064f5sSPW4xn-5tYUZ4ohI7xYWHl5L6OawwBCLUHtLq8YABop2BmA_HubSM\\\"]]],[6.05805556,125.096111],\\\"PH\\\",false,\\\"Philippines\\\"],[[\\\"/m/01stll\\\",4],\\\"General Santos City (Dadiangas)\\\",[\\\"/m/01stll\\\",\\\"General Santos City (Dadiangas)\\\",[[\\\"https://encrypted-tbn3.gstatic.com/licensed-image?q\\\\u003dtbn:ANd9GcR7CAAO3KYm1v83vWOGs8ikAUtK-NwKcbOJxSYwzkr0q26MSgGchiOqjhrZqSbIMjkJC6mKQkzA55LL9kEldALLFffNG1CRMUbGE1MZ7as\\\"],[\\\"https://encrypted-tbn3.gstatic.com/licensed-image?q\\\\u003dtbn:ANd9GcSO08bq9HT499RPelMsXfIXAPWrH_QCfDX-WOmo6LaBPvv-064f5sSPW4xn-5tYUZ4ohI7xYWHl5L6OawwBCLUHtLq8YABop2BmA_HubSM\\\"]],\\\"Beach\\\",null,\\\"GES\\\"],[6.1432733,125.1928634],\\\"PH\\\",null,\\\"Philippines\\\"],[[\\\"HKG\\\",0],\\\"Hong Kong International Airport\\\",[\\\"/m/03h64\\\",\\\"Hong Kong\\\",[[\\\"https://encrypted-tbn1.gstatic.com/images?q\\\\u003dtbn:ANd9GcRMxMT46WfJjHYcOn3hqaJwQlDG9VSOAYYXPljq4w715PQkzgI3hblNxB_Ti-7Fbd5PlijETzi2xeiOC0Sno3Ya2EjCFZy6rGgWLo1Y1Y4\\\"],[\\\"https://encrypted-tbn1.gstatic.com/images?q\\\\u003dtbn:ANd9GcTw4hL1mr5guduTOGdOZwJz3LPKCJ8gVMJLLysC52ardcvQF9spfxCgjmth1tgFQt9LV8udbc5Sx0Gl0w\\\"]]],[22.3088889,113.914722],\\\"HK\\\",false,\\\"Hong Kong\\\"],[[\\\"/m/03h64\\\",4],\\\"Hong Kong\\\",[\\\"/m/03h64\\\",\\\"Hong Kong\\\",[[\\\"https://encrypted-tbn1.gstatic.com/images?q\\\\u003dtbn:ANd9GcRMxMT46WfJjHYcOn3hqaJwQlDG9VSOAYYXPljq4w715PQkzgI3hblNxB_Ti-7Fbd5PlijETzi2xeiOC0Sno3Ya2EjCFZy6rGgWLo1Y1Y4\\\"],[\\\"https://encrypted-tbn1.gstatic.com/images?q\\\\u003dtbn:ANd9GcTw4hL1mr5guduTOGdOZwJz3LPKCJ8gVMJLLysC52ardcvQF9spfxCgjmth1tgFQt9LV8udbc5Sx0Gl0w\\\"]],\\\"Shopping, Victoria Peak \\\\u0026 Kowloon\\\",\\\"Autonomous Chinese territory known for skyscrapers, shopping, Victoria Peak \\\\u0026 Kowloon.\\\",\\\"HKG\\\"],[22.3193039,114.1693611],\\\"HK\\\",null,\\\"Hong Kong\\\"],[[\\\"ICN\\\",0],\\\"Incheon International Airport\\\",[\\\"/m/0hsqf\\\",\\\"Seoul\\\",[[\\\"https://encrypted-tbn0.gstatic.com/images?q\\\\u003dtbn:ANd9GcQxR7y_Va8i68eRlNWn4Omq2FHwgniQAe29Wb-NPNbNQCBFLvSQpBXOtZw5ZcbOagsrS83GufEhdkmk7mppoRZWU9enYxup7h1WZdBl7v4\\\"],[\\\"https://encrypted-tbn0.gstatic.com/images?q\\\\u003dtbn:ANd9GcSaeVwigGtqKE3WHRHlXdsogk_5ZpMVDw4LeWvbjUbezo_88sViW8V2x7FhQlWlIeoYrrNajK9btPW_8w\\\"]]],[37.4625,126.439167],\\\"KR\\\",false,\\\"South Korea\\\"],[[\\\"/m/0hsqf\\\",4],\\\"Seoul\\\",[\\\"/m/0hsqf\\\",\\\"Seoul\\\",[[\\\"https://encrypted-tbn0.gstatic.com/images?q\\\\u003dtbn:ANd9GcQxR7y_Va8i68eRlNWn4Omq2FHwgniQAe29Wb-NPNbNQCBFLvSQpBXOtZw5ZcbOagsrS83GufEhdkmk7mppoRZWU9enYxup7h1WZdBl7v4\\\"],[\\\"https://encrypted-tbn0.gstatic.com/images?q\\\\u003dtbn:ANd9GcSaeVwigGtqKE3WHRHlXdsogk_5ZpMVDw4LeWvbjUbezo_88sViW8V2x7FhQlWlIeoYrrNajK9btPW_8w\\\"]],\\\"Gyeongbokgung Palace \\\\u0026 N Seoul Tower\\\",\\\"South Korean capital with modern skyscrapers, ancient temples, Gyeongbokgung Palace \\\\u0026 N Seoul Tower.\\\",\\\"SEL\\\"],[37.550263,126.9970831],\\\"KR\\\",null,\\\"South Korea\\\"],[[\\\"ILO\\\",0],\\\"Iloilo International Airport\\\",[\\\"/m/04wdb1\\\",\\\"Iloilo City\\\",[[\\\"https://encrypted-tbn1.gstatic.com/images?q\\\\u003dtbn:ANd9GcR7M9v1HwLbgxNy3lG_fldw60PTQJydxA-DfStUsia87QhbhyidLwX6MEly_t7E-lLsJGhX8ZIbZx8M23P6fafKsApBlTcMrOMFR3QHVwc\\\"],[\\\"https://encrypted-tbn1.gstatic.com/images?q\\\\u003dtbn:ANd9GcRHMIYtb2cooKrcE9fzZLf4T_eIRVzovl9DJ0bLXx8EjMTiEKbqYNKbt3fopw4hs55GSGxXu3AXYK00PQ\\\"]]],[10.8330556,122.493333],\\\"PH\\\",false,\\\"Philippines\\\"],[[\\\"/m/04wdb1\\\",4],\\\"Iloilo City\\\",[\\\"/m/04wdb1\\\",\\\"Iloilo City\\\",[[\\\"https://encrypted-tbn1.gstatic.com/images?q\\\\u003dtbn:ANd9GcR7M9v1HwLbgxNy3lG_fldw60PTQJydxA-DfStUsia87QhbhyidLwX6MEly_t7E-lLsJGhX8ZIbZx8M23P6fafKsApBlTcMrOMFR3QHVwc\\\"],[\\\"https://encrypted-tbn1.gstatic.com/images?q\\\\u003dtbn:ANd9GcRHMIYtb2cooKrcE9fzZLf4T_eIRVzovl9DJ0bLXx8EjMTiEKbqYNKbt3fopw4hs55GSGxXu3AXYK00PQ\\\"]],\\\"Jaro Cathedral \\\\u0026 Iloilo River Esplanade\\\",\\\"Philippines city on Panay Island, with Jaro Cathedral, Iloilo River Esplanade \\\\u0026 Museo Iloilo.\\\",\\\"ILO\\\"],[10.7301854,122.5591148],\\\"PH\\\",null,\\\"Philippines\\\"],[[\\\"JJN\\\",0],\\\"Jinjiang Airport\\\",[\\\"/m/02j7gt\\\",\\\"Quanzhou\\\",[[\\\"https://encrypted-tbn1.gstatic.com/licensed-image?q\\\\u003dtbn:ANd9GcShHmdKQ8xox9VbKUN1IQoXGOcE6iFDC63BtEElwjxchLuAZTaBVf4k5Y7sS38KI7oNrdQG31Lqy7EwI0_xX0m3npcqrRtJsJg7waPrnA\\\"],[\\\"https://encrypted-tbn1.gstatic.com/licensed-image?q\\\\u003dtbn:ANd9GcRQu_CDx4HWKkamWOwjfzp1W5Oy9vtfdAZuV1Yrddx8kRQjoHqFDv_sGnPrjIsotXO-QNveb4EFNxvY09mLBUiUeuRnJJ47cFvr-UZWfA\\\"]]],[24.7963889,118.589722],\\\"CN\\\",false,\\\"China\\\"],[[\\\"/m/02j7gt\\\",4],\\\"Quanzhou\\\",[\\\"/m/02j7gt\\\",\\\"Quanzhou\\\",[[\\\"https://encrypted-tbn1.gstatic.com/licensed-image?q\\\\u003dtbn:ANd9GcShHmdKQ8xox9VbKUN1IQoXGOcE6iFDC63BtEElwjxchLuAZTaBVf4k5Y7sS38KI7oNrdQG31Lqy7EwI0_xX0m3npcqrRtJsJg7waPrnA\\\"],[\\\"https://encrypted-tbn1.gstatic.com/licensed-image?q\\\\u003dtbn:ANd9GcRQu_CDx4HWKkamWOwjfzp1W5Oy9vtfdAZuV1Yrddx8kRQjoHqFDv_sGnPrjIsotXO-QNveb4EFNxvY09mLBUiUeuRnJJ47cFvr-UZWfA\\\"]],\\\"Temple, historic site, buddhism, architecture, and history\\\",null,\\\"JJN\\\"],[24.8740499,118.67583],\\\"CN\\\",null,\\\"China\\\"],[[\\\"MNL\\\",0],\\\"Ninoy Aquino International Airport\\\",[\\\"/m/0195pd\\\",\\\"Manila\\\",[[\\\"https://encrypted-tbn3.gstatic.com/images?q\\\\u003dtbn:ANd9GcQC7Bb2H3NrQpJM3YoHJkpvMGwYpCoYblptbYVAZ-2BkTgghoiODXxnA9Q33aylCHHY93N7850izEJuZ11FAI3tv4bcLCgZgkbZD7HpTFs\\\"],[\\\"https://encrypted-tbn3.gstatic.com/images?q\\\\u003dtbn:ANd9GcTJf81418Q0PkWchFc6cPvdjnVcAaZivEOoiVOkLtOXQ7I5YOBUcmLKmsYUi3ZcQqR51fhBYFiS46XRWA\\\"]]],[14.51,121.013889],\\\"PH\\\",false,\\\"Philippines\\\"],[[\\\"/m/0195pd\\\",4],\\\"Manila\\\",[\\\"/m/0195pd\\\",\\\"Manila\\\",[[\\\"https://encrypted-tbn3.gstatic.com/images?q\\\\u003dtbn:ANd9GcQC7Bb2H3NrQpJM3YoHJkpvMGwYpCoYblptbYVAZ-2BkTgghoiODXxnA9Q33aylCHHY93N7850izEJuZ11FAI3tv4bcLCgZgkbZD7HpTFs\\\"],[\\\"https://encrypted-tbn3.gstatic.com/images?q\\\\u003dtbn:ANd9GcTJf81418Q0PkWchFc6cPvdjnVcAaZivEOoiVOkLtOXQ7I5YOBUcmLKmsYUi3ZcQqR51fhBYFiS46XRWA\\\"]],\\\"Philippine capital with colonial core\\\",\\\"The Philippines\u2019 bustling, bayside capital, with Spanish colonial landmarks \\\\u0026 museums.\\\",\\\"MNL\\\"],[14.5995133,120.984234],\\\"PH\\\",null,\\\"Philippines\\\"],[[\\\"MPH\\\",0],\\\"Godofredo P. Ramos Airport\\\",[\\\"/g/1v2ktzw6\\\",\\\"Caticlan\\\",[[\\\"https://encrypted-tbn2.gstatic.com/licensed-image?q\\\\u003dtbn:ANd9GcQbqwX-Slb3O40gPcq5WCR11ELCGMO5hBWYr6EvBE21gVq-uCXgjdUKeySexSKcvQW8UrNeYcAmT6YInZkn2DI2QAnAD2tJAOY2R5bkV9E\\\"],[\\\"https://encrypted-tbn2.gstatic.com/licensed-image?q\\\\u003dtbn:ANd9GcShh-TA-1CPcKpkhhi736VEvtLwGq_-DLq3nDUG5I-uZ2eeKbEz4IK7iwHtlKpFK8d_G2ofDr9bGCuf4NgHWPdQjN-TnRhcoHziHjkQzDw\\\"]]],[11.925,121.952778],\\\"PH\\\",false,\\\"Philippines\\\"],[[\\\"/g/1v2ktzw6\\\",4],\\\"Caticlan\\\",[\\\"/g/1v2ktzw6\\\",\\\"Caticlan\\\",[[\\\"https://encrypted-tbn2.gstatic.com/licensed-image?q\\\\u003dtbn:ANd9GcQbqwX-Slb3O40gPcq5WCR11ELCGMO5hBWYr6EvBE21gVq-uCXgjdUKeySexSKcvQW8UrNeYcAmT6YInZkn2DI2QAnAD2tJAOY2R5bkV9E\\\"],[\\\"https://encrypted-tbn2.gstatic.com/licensed-image?q\\\\u003dtbn:ANd9GcShh-TA-1CPcKpkhhi736VEvtLwGq_-DLq3nDUG5I-uZ2eeKbEz4IK7iwHtlKpFK8d_G2ofDr9bGCuf4NgHWPdQjN-TnRhcoHziHjkQzDw\\\"]],\\\"The Caticlan airport \\\\u0026 natural wonders\\\",\\\"As the gateway to Boracay, easygoing Caticlan includes an airport \\\\u0026 scenic natural attractions.\\\",\\\"MPH\\\"],[11.9174612,121.9615308],\\\"PH\\\",null,\\\"Philippines\\\"],[[\\\"PPS\\\",0],\\\"Puerto Princesa International Airport\\\",[\\\"/m/06s5d4\\\",\\\"Puerto Princesa City\\\",[[\\\"https://encrypted-tbn3.gstatic.com/images?q\\\\u003dtbn:ANd9GcRQkRiTUvtQXK5BFAbZUZFtMxvLnd8kOxPGmQ6sgV64_sjpktg-3Ra0l6tupxWzAlUBHc12ppSQG5tQ6lbcXQo9-j-VZNFg9V6TvYQgnjk\\\"],[\\\"https://encrypted-tbn3.gstatic.com/images?q\\\\u003dtbn:ANd9GcR4qqrroQeCWxwuczd9QMz2S8qgQjsCBxp0849LBLZ8WxyuSXG01Stk9EC1sVTikYkL-4OScnHzdOPgxg\\\"]]],[9.74222222,118.758611],\\\"PH\\\",false,\\\"Philippines\\\"],[[\\\"/m/06s5d4\\\",4],\\\"Puerto Princesa City\\\",[\\\"/m/06s5d4\\\",\\\"Puerto Princesa City\\\",[[\\\"https://encrypted-tbn3.gstatic.com/images?q\\\\u003dtbn:ANd9GcRQkRiTUvtQXK5BFAbZUZFtMxvLnd8kOxPGmQ6sgV64_sjpktg-3Ra0l6tupxWzAlUBHc12ppSQG5tQ6lbcXQo9-j-VZNFg9V6TvYQgnjk\\\"],[\\\"https://encrypted-tbn3.gstatic.com/images?q\\\\u003dtbn:ANd9GcR4qqrroQeCWxwuczd9QMz2S8qgQjsCBxp0849LBLZ8WxyuSXG01Stk9EC1sVTikYkL-4OScnHzdOPgxg\\\"]],\\\"Subterranean River \\\\u0026 scuba diving\\\",\\\"Filipino city on Palawan Island known for Puerto Princesa Subterranean River \\\\u0026 scuba diving.\\\",\\\"PPS\\\"],[9.7856257,118.626479],\\\"PH\\\",null,\\\"Philippines\\\"],[[\\\"SEL\\\",0],\\\"Metropolitan Area\\\",[\\\"/m/0hsqf\\\",\\\"Seoul\\\",[[\\\"https://encrypted-tbn0.gstatic.com/images?q\\\\u003dtbn:ANd9GcQxR7y_Va8i68eRlNWn4Omq2FHwgniQAe29Wb-NPNbNQCBFLvSQpBXOtZw5ZcbOagsrS83GufEhdkmk7mppoRZWU9enYxup7h1WZdBl7v4\\\"],[\\\"https://encrypted-tbn0.gstatic.com/images?q\\\\u003dtbn:ANd9GcSaeVwigGtqKE3WHRHlXdsogk_5ZpMVDw4LeWvbjUbezo_88sViW8V2x7FhQlWlIeoYrrNajK9btPW_8w\\\"]]],[37.566535,126.97796919999999],\\\"KR\\\",false,\\\"South Korea\\\"],[[\\\"TAC\\\",0],\\\"Daniel Z. Romualdez Airport\\\",[\\\"/m/037wbd\\\",\\\"Tacloban City\\\",[[\\\"https://encrypted-tbn0.gstatic.com/licensed-image?q\\\\u003dtbn:ANd9GcTKjA3nUe5NF59WVgkToSUZ2GFNLKnWQ2FjM_jsOA1Pjdlbslz9iKxRKj-TxbS05P0UipNyezYzWNvEY4Re0obikGYFX8-U1X_ayi4LjRw\\\"],[\\\"https://encrypted-tbn0.gstatic.com/licensed-image?q\\\\u003dtbn:ANd9GcQydClY2sAzz98aLczkVEIgasmhoJugvk7Pk_pWdPN0JfGarXwiiQWnFw_yhVki_0oxXWAqPNHEMjS36VKmKIaW25CVDljeSx_TJ1XKAiw\\\"]]],[11.2275,125.027778],\\\"PH\\\",false,\\\"Philippines\\\"],[[\\\"/m/037wbd\\\",4],\\\"Tacloban City\\\",[\\\"/m/037wbd\\\",\\\"Tacloban City\\\",[[\\\"https://encrypted-tbn0.gstatic.com/licensed-image?q\\\\u003dtbn:ANd9GcTKjA3nUe5NF59WVgkToSUZ2GFNLKnWQ2FjM_jsOA1Pjdlbslz9iKxRKj-TxbS05P0UipNyezYzWNvEY4Re0obikGYFX8-U1X_ayi4LjRw\\\"],[\\\"https://encrypted-tbn0.gstatic.com/licensed-image?q\\\\u003dtbn:ANd9GcQydClY2sAzz98aLczkVEIgasmhoJugvk7Pk_pWdPN0JfGarXwiiQWnFw_yhVki_0oxXWAqPNHEMjS36VKmKIaW25CVDljeSx_TJ1XKAiw\\\"]],\\\"Locality\\\",null,\\\"TAC\\\"],[11.2223789,124.9922133],\\\"PH\\\",null,\\\"Philippines\\\"],[[\\\"TPE\\\",0],\\\"Taiwan Taoyuan International Airport\\\",[\\\"/m/0ftkx\\\",\\\"Taipei City\\\",[[\\\"https://encrypted-tbn3.gstatic.com/images?q\\\\u003dtbn:ANd9GcQMST5lzBTm3sd5w5tOO4YZFWdFgSntIVWqaCH97zNh9_Lx42rE-SexpiflhCSwJtBjNpUWo4f_uIhEu4ul5r4B5UgJCxOuDlKIRPgULbo\\\"],[\\\"https://encrypted-tbn3.gstatic.com/images?q\\\\u003dtbn:ANd9GcS2MmLbW-HcXlTwmod5sPj7skSX-bye9dnRXjaDxShX4zk8o66Ef213qGriwZt3zahLCL9v7wFHklhKEg\\\"]]],[25.0802778,121.232222],\\\"TW\\\",false,\\\"Taiwan\\\"],[[\\\"/m/0ftkx\\\",4],\\\"Taipei City\\\",[\\\"/m/0ftkx\\\",\\\"Taipei City\\\",[[\\\"https://encrypted-tbn3.gstatic.com/images?q\\\\u003dtbn:ANd9GcQMST5lzBTm3sd5w5tOO4YZFWdFgSntIVWqaCH97zNh9_Lx42rE-SexpiflhCSwJtBjNpUWo4f_uIhEu4ul5r4B5UgJCxOuDlKIRPgULbo\\\"],[\\\"https://encrypted-tbn3.gstatic.com/images?q\\\\u003dtbn:ANd9GcS2MmLbW-HcXlTwmod5sPj7skSX-bye9dnRXjaDxShX4zk8o66Ef213qGriwZt3zahLCL9v7wFHklhKEg\\\"]],\\\"Taiwan's vibrant \\\\u0026 modern capital\\\",\\\"Taiwan's modern capital city, with famed night markets \\\\u0026 the National Palace Museum.\\\",\\\"TPE\\\"],[25.0329636,121.5654268],\\\"TW\\\",null,\\\"Taiwan\\\"],[[\\\"ZAM\\\",0],\\\"Zamboanga International Airport\\\",[\\\"/m/09gcb3s\\\",\\\"Zamboanga City\\\",[[\\\"https://encrypted-tbn2.gstatic.com/licensed-image?q\\\\u003dtbn:ANd9GcTAc2iUQHnqEiPhh1MkJ4YQNDJ_jMPHig0DW81Gz-ERpPDL9UgmoErb0aRtia5cExPyD1Hv8ONgCk_583_gj9wSMiCdThkniNxY1zmYL7U\\\"],[\\\"https://encrypted-tbn2.gstatic.com/licensed-image?q\\\\u003dtbn:ANd9GcSiPa3eumQ-O1GQwDZETCdAloWPru-EeVhcwYNXXvSTND4m8ABuWuB2aSJJqi6oHIMgsV7wASCjdZSYxrJr5oNN2h5qMBXUvFiRraUn0Pk\\\"]]],[6.9225,122.059722],\\\"PH\\\",false,\\\"Philippines\\\"],[[\\\"/m/09gcb3s\\\",4],\\\"Zamboanga City\\\",[\\\"/m/09gcb3s\\\",\\\"Zamboanga City\\\",[[\\\"https://encrypted-tbn2.gstatic.com/licensed-image?q\\\\u003dtbn:ANd9GcTAc2iUQHnqEiPhh1MkJ4YQNDJ_jMPHig0DW81Gz-ERpPDL9UgmoErb0aRtia5cExPyD1Hv8ONgCk_583_gj9wSMiCdThkniNxY1zmYL7U\\\"],[\\\"https://encrypted-tbn2.gstatic.com/licensed-image?q\\\\u003dtbn:ANd9GcSiPa3eumQ-O1GQwDZETCdAloWPru-EeVhcwYNXXvSTND4m8ABuWuB2aSJJqi6oHIMgsV7wASCjdZSYxrJr5oNN2h5qMBXUvFiRraUn0Pk\\\"]],\\\"Beach and seafood\\\",null,\\\"ZAM\\\"],[6.9043673,122.0761226],\\\"PH\\\",null,\\\"Philippines\\\"]],[\\\"EAEaBAgDEAEhAAAAAADeukAqA1BIUDIAUAFiGxoLCgQIAxABEAGIAQEqDBgCIgNNTkwqA0NFQmgAcLmvwTI\\\\u003d\\\",0],null,false,null,null,null,null,[[null,6878]],[[\\\"5J\\\",\\\"Cebu Pacific\\\",\\\"https://www.cebupacificair.com/pages/travel-info/special-service-request\\\"],[\\\"PR\\\",\\\"Philippine Airlines\\\",\\\"https://www.philippineairlines.com/en/before-you-fly/special-needs-and-request\\\"]],null,null,1,[[null,6878],\\\"CjRIcXlzLXNGeW4taGdBRHIwTGdCRy0tLS0tLS0tLXNlb3gyNUFBQUFBR29NT1dzRzZmMHdBEhZjb21wcmVoZW5zaXZlbmVzc19sdXJlGgoI3jUQABoDUEhQOBxwhVc\\\\u003d\\\"],true,true]\"]]\n42576\n[[\"wrb.fr\",null,\"[[null,[[1779186027455419,8709961,285302338],null,null,null,null,[[36]]],1,\\\"azkMavvlG8nOk7QPwryFiAE\\\",\\\"Hqys-sFyn-hgADr0LgBG---------seox25AAAAAGoMOWsG6f0wA\\\"],[[[[[\\\"MNL\\\",0],\\\"Ninoy Aquino International Airport\\\",[\\\"/m/0195pd\\\",\\\"Manila\\\",[[\\\"https://encrypted-tbn3.gstatic.com/images?q\\\\u003dtbn:ANd9GcQC7Bb2H3NrQpJM3YoHJkpvMGwYpCoYblptbYVAZ-2BkTgghoiODXxnA9Q33aylCHHY93N7850izEJuZ11FAI3tv4bcLCgZgkbZD7HpTFs\\\"],[\\\"https://encrypted-tbn3.gstatic.com/images?q\\\\u003dtbn:ANd9GcTJf81418Q0PkWchFc6cPvdjnVcAaZivEOoiVOkLtOXQ7I5YOBUcmLKmsYUi3ZcQqR51fhBYFiS46XRWA\\\"]]],[14.51,121.013889],\\\"PH\\\",false,\\\"Philippines\\\"]],[[[\\\"CEB\\\",0],\\\"Mactan-Cebu International Airport\\\",[\\\"/m/01p_ly\\\",\\\"Cebu City\\\",[[\\\"https://encrypted-tbn0.gstatic.com/images?q\\\\u003dtbn:ANd9GcSeusmYuePIQYVYjSN-Xeh8ytCEAKpNyFyQLK11x-O1Ql2sLUVjsoVhVTNmoxmlAC_FyGM6nwKKZLDasP-2WXq1cBLovF-8MRf5PgSthlo\\\"],[\\\"https://encrypted-tbn0.gstatic.com/images?q\\\\u003dtbn:ANd9GcS8c136c84RJtzmgkpLMeRR2X_FACDOzTX_yPwBvypRWYhJcVJcxO0xkbXY74vUa8NoSSioWPDQRZtjLA\\\"]]],[10.3075,123.979444],\\\"PH\\\",false,\\\"Philippines\\\"]]],[[[[\\\"CEB\\\",0],\\\"Mactan-Cebu International Airport\\\",[\\\"/m/01p_ly\\\",\\\"Cebu City\\\",[[\\\"https://encrypted-tbn0.gstatic.com/images?q\\\\u003dtbn:ANd9GcSeusmYuePIQYVYjSN-Xeh8ytCEAKpNyFyQLK11x-O1Ql2sLUVjsoVhVTNmoxmlAC_FyGM6nwKKZLDasP-2WXq1cBLovF-8MRf5PgSthlo\\\"],[\\\"https://encrypted-tbn0.gstatic.com/images?q\\\\u003dtbn:ANd9GcS8c136c84RJtzmgkpLMeRR2X_FACDOzTX_yPwBvypRWYhJcVJcxO0xkbXY74vUa8NoSSioWPDQRZtjLA\\\"]]],[10.3075,123.979444],\\\"PH\\\",false,\\\"Philippines\\\"]],[[[\\\"MNL\\\",0],\\\"Ninoy Aquino International Airport\\\",[\\\"/m/0195pd\\\",\\\"Manila\\\",[[\\\"https://encrypted-tbn3.gstatic.com/images?q\\\\u003dtbn:ANd9GcQC7Bb2H3NrQpJM3YoHJkpvMGwYpCoYblptbYVAZ-2BkTgghoiODXxnA9Q33aylCHHY93N7850izEJuZ11FAI3tv4bcLCgZgkbZD7HpTFs\\\"],[\\\"https://encrypted-tbn3.gstatic.com/images?q\\\\u003dtbn:ANd9GcTJf81418Q0PkWchFc6cPvdjnVcAaZivEOoiVOkLtOXQ7I5YOBUcmLKmsYUi3ZcQqR51fhBYFiS46XRWA\\\"]]],[14.51,121.013889],\\\"PH\\\",false,\\\"Philippines\\\"]]]],[[[[\\\"5J\\\",[\\\"Cebu Pacific\\\"],[[null,null,null,\\\"MNL\\\",\\\"Ninoy Aquino International Airport\\\",\\\"Mactan-Cebu International Airport\\\",\\\"CEB\\\",null,[19,25],null,[21,5],100,[null,null,null,null,null,true],1,\\\"30 in\\\",null,1,\\\"Airbus A330-900neo\\\",null,false,[2026,6,1],[2026,6,1],[\\\"5J\\\",\\\"573\\\",null,\\\"Cebu Pacific\\\"],null,null,1,null,null,null,null,\\\"30 inches\\\",53991,1]],\\\"MNL\\\",[2026,6,1],[19,25],\\\"CEB\\\",[2026,6,1],[21,5],100,null,null,false,null,null,null,null,\\\"uAoPpe\\\",[[1779186027455419,8709961,285302338],null,null,null,null,[[37]]],1,null,null,[null,null,1,-19,null,true,true,54000,67000,[null,true],67000,1,false,null,null,1,null,1],[1],[[\\\"5J\\\",\\\"Cebu Pacific\\\",\\\"https://www.cebupacificair.com/pages/travel-info/special-service-request\\\"]]],[[null,6878],\\\"CjRIcXlzLXNGeW4taGdBRHIwTGdCRy0tLS0tLS0tLXNlb3gyNUFBQUFBR29NT1dzRzZmMHdBEgU1SjU3MxoKCN41EAAaA1BIUDgccIVX\\\"],null,true,[null,null,null,null,1,null,[null,1]],[false,false,false],false,[],\\\"[\\\\\\\"CAASA1BIUBoDCN41IncKWwpZCgNNTkwSGTIwMjYtMDYtMDFUMTk6MjU6MDArMDg6MDAaA0NFQiIZMjAyNi0wNi0wMVQyMTowNTowMCswODowMCoCNUoyAzU3MzoCNUpCAzU3M0gBUgMzMzkSBAgDEAEYASgAMg4KDENlYnUgUGFjaWZpYw\\\\\\\\u003d\\\\\\\\u003d\\\\\\\"]\\\",[[1]],false],[[\\\"Z2\\\",[\\\"Philippines AirAsia\\\"],[[null,null,null,\\\"MNL\\\",\\\"Ninoy Aquino International Airport\\\",\\\"Mactan-Cebu International Airport\\\",\\\"CEB\\\",null,[20],null,[21,30],90,[],2,\\\"28 in\\\",null,1,\\\"Airbus A320\\\",[null,true],false,[2026,6,1],[2026,6,1],[\\\"Z2\\\",\\\"771\\\",null,\\\"Philippines AirAsia\\\"],null,null,1,null,null,null,null,\\\"28 inches\\\",66883,2]],\\\"MNL\\\",[2026,6,1],[20],\\\"CEB\\\",[2026,6,1],[21,30],90,null,null,false,null,null,null,null,\\\"IcBnhb\\\",[[1779186027455419,8709961,285302338],null,null,null,null,[[38]]],1,null,null,[null,null,2,0,null,true,true,67000,67000,null,67000,2,false,null,null,2,null,5],[1]],[[null,6972],\\\"CjRIcXlzLXNGeW4taGdBRHIwTGdCRy0tLS0tLS0tLXNlb3gyNUFBQUFBR29NT1dzRzZmMHdBEgVaMjc3MRoKCLw2EAAaA1BIUDgccJ5Y\\\"],null,true,[null,null,null,null,1,null,[null,1]],[false,false,false],false,[],\\\"[\\\\\\\"CAASA1BIUBoDCLw2In4KWwpZCgNNTkwSGTIwMjYtMDYtMDFUMjA6MDA6MDArMDg6MDAaA0NFQiIZMjAyNi0wNi0wMVQyMTozMDowMCswODowMCoCWjIyAzc3MToCWjJCAzc3MUgBUgMzMjASBAgDEAEYASgAMhUKE1BoaWxpcHBpbmVzIEFpckFzaWE\\\\\\\\u003d\\\\\\\"]\\\",null,false],[[\\\"Z2\\\",[\\\"Philippines AirAsia\\\"],[[null,null,null,\\\"MNL\\\",\\\"Ninoy Aquino International Airport\\\",\\\"Mactan-Cebu International Airport\\\",\\\"CEB\\\",null,[7,55],null,[9,25],90,[],2,\\\"28 in\\\",null,1,\\\"Airbus A320\\\",[null,true],false,[2026,6,1],[2026,6,1],[\\\"Z2\\\",\\\"9792\\\",null,\\\"Philippines AirAsia\\\"],null,null,1,null,null,null,null,\\\"28 inches\\\",66883,1]],\\\"MNL\\\",[2026,6,1],[7,55],\\\"CEB\\\",[2026,6,1],[9,25],90,null,null,false,null,null,null,null,\\\"GFsQGb\\\",[[1779186027455419,8709961,285302338],null,null,null,null,[[39]]],1,null,null,[null,null,2,0,null,true,true,67000,67000,null,67000,2,false,null,null,1,null,2],[1]],[[null,7260],\\\"CjRIcXlzLXNGeW4taGdBRHIwTGdCRy0tLS0tLS0tLXNlb3gyNUFBQUFBR29NT1dzRzZmMHdBEgZaMjk3OTIaCgjcOBAAGgNQSFA4HHDwWw\\\\u003d\\\\u003d\\\"],null,false,[null,null,null,null,1,null,[null,1]],[false,false,false],false,[],\\\"[\\\\\\\"CAASA1BIUBoDCNw4IoABCl0KWwoDTU5MEhkyMDI2LTA2LTAxVDA3OjU1OjAwKzA4OjAwGgNDRUIiGTIwMjYtMDYtMDFUMDk6MjU6MDArMDg6MDAqAloyMgQ5NzkyOgJaMkIEOTc5MkgBUgMzMjASBAgDEAEYASgAMhUKE1BoaWxpcHBpbmVzIEFpckFzaWE\\\\\\\\u003d\\\\\\\"]\\\",null,false]],null,false,false,[1]],[[[[\\\"5J\\\",[\\\"Cebu Pacific\\\"],[[null,null,null,\\\"MNL\\\",\\\"Ninoy Aquino International Airport\\\",\\\"Mactan-Cebu International Airport\\\",\\\"CEB\\\",null,[20,30],null,[22,5],95,[null,null,null,null,null,true],2,\\\"28 in\\\",null,1,\\\"Airbus A320neo\\\",null,false,[2026,6,1],[2026,6,1],[\\\"5J\\\",\\\"2509\\\",null,\\\"Cebu Pacific\\\"],null,null,1,null,null,null,null,\\\"28 inches\\\",55214,2]],\\\"MNL\\\",[2026,6,1],[20,30],\\\"CEB\\\",[2026,6,1],[22,5],95,null,null,false,null,null,null,null,\\\"Qc1lTe\\\",[[1779186027455419,8709961,285302338],null,null,null,null,[[40]]],1,null,null,[null,null,1,-18,null,true,true,55000,67000,[null,true],67000,1,false,null,null,2,null,4],[1],[[\\\"5J\\\",\\\"Cebu Pacific\\\",\\\"https://www.cebupacificair.com/pages/travel-info/special-service-request\\\"]]],[[null,6878],\\\"CjRIcXlzLXNGeW4taGdBRHIwTGdCRy0tLS0tLS0tLXNlb3gyNUFBQUFBR29NT1dzRzZmMHdBEgY1SjI1MDkaCgjeNRAAGgNQSFA4HHCFVw\\\\u003d\\\\u003d\\\"],null,true,[null,null,null,null,1,null,[null,1]],[false,false,false],false,[],\\\"[\\\\\\\"CAASA1BIUBoDCN41InkKXQpbCgNNTkwSGTIwMjYtMDYtMDFUMjA6MzA6MDArMDg6MDAaA0NFQiIZMjAyNi0wNi0wMVQyMjowNTowMCswODowMCoCNUoyBDI1MDk6AjVKQgQyNTA5SAFSAzMyThIECAMQARgBKAAyDgoMQ2VidSBQYWNpZmlj\\\\\\\"]\\\",[[1]],false],[[\\\"5J\\\",[\\\"Cebu Pacific\\\"],[[null,null,null,\\\"MNL\\\",\\\"Ninoy Aquino International Airport\\\",\\\"Mactan-Cebu International Airport\\\",\\\"CEB\\\",null,[22,20],null,[23,55],95,[null,null,null,null,null,true],2,\\\"28 in\\\",null,1,\\\"Airbus A321\\\",null,false,[2026,6,1],[2026,6,1],[\\\"5J\\\",\\\"2503\\\",null,\\\"Cebu Pacific\\\"],null,null,1,null,null,null,null,\\\"28 inches\\\",66249,2]],\\\"MNL\\\",[2026,6,1],[22,20],\\\"CEB\\\",[2026,6,1],[23,55],95,null,null,false,null,null,null,null,\\\"CoKamc\\\",[[1779186027455419,8709961,285302338],null,null,null,null,[[41]]],1,null,null,[null,null,2,-1,null,true,true,66000,67000,null,67000,2,false,null,null,2,null,5],[1],[[\\\"5J\\\",\\\"Cebu Pacific\\\",\\\"https://www.cebupacificair.com/pages/travel-info/special-service-request\\\"]]],[[null,6878],\\\"CjRIcXlzLXNGeW4taGdBRHIwTGdCRy0tLS0tLS0tLXNlb3gyNUFBQUFBR29NT1dzRzZmMHdBEgY1SjI1MDMaCgjeNRAAGgNQSFA4HHCFVw\\\\u003d\\\\u003d\\\"],null,true,[null,null,null,null,1,null,[null,1]],[false,false,false],false,[],\\\"[\\\\\\\"CAASA1BIUBoDCN41InkKXQpbCgNNTkwSGTIwMjYtMDYtMDFUMjI6MjA6MDArMDg6MDAaA0NFQiIZMjAyNi0wNi0wMVQyMzo1NTowMCswODowMCoCNUoyBDI1MDM6AjVKQgQyNTAzSAFSAzMyMRIECAMQARgBKAAyDgoMQ2VidSBQYWNpZmlj\\\\\\\"]\\\",null,false],[[\\\"Z2\\\",[\\\"Philippines AirAsia\\\"],[[null,null,null,\\\"MNL\\\",\\\"Ninoy Aquino International Airport\\\",\\\"Mactan-Cebu International Airport\\\",\\\"CEB\\\",null,[17,45],null,[19,10],85,[],2,\\\"28 in\\\",null,1,\\\"Airbus A320\\\",[null,true],false,[2026,6,1],[2026,6,1],[\\\"Z2\\\",\\\"777\\\",null,\\\"Philippines AirAsia\\\"],null,null,1,null,null,null,null,\\\"28 inches\\\",66883,2]],\\\"MNL\\\",[2026,6,1],[17,45],\\\"CEB\\\",[2026,6,1],[19,10],85,null,null,false,null,null,null,null,\\\"tg0wzd\\\",[[1779186027455419,8709961,285302338],null,null,null,null,[[42]]],1,null,null,[null,null,2,0,null,true,true,67000,67000,null,67000,2,false,null,null,2,null,5],[1]],[[null,7260],\\\"CjRIcXlzLXNGeW4taGdBRHIwTGdCRy0tLS0tLS0tLXNlb3gyNUFBQUFBR29NT1dzRzZmMHdBEgVaMjc3NxoKCNw4EAAaA1BIUDgccPBb\\\"],null,false,[null,null,null,null,1,null,[null,1]],[false,false,false],false,[],\\\"[\\\\\\\"CAASA1BIUBoDCNw4In4KWwpZCgNNTkwSGTIwMjYtMDYtMDFUMTc6NDU6MDArMDg6MDAaA0NFQiIZMjAyNi0wNi0wMVQxOToxMDowMCswODowMCoCWjIyAzc3NzoCWjJCAzc3N0gBUgMzMjASBAgDEAEYASgAMhUKE1BoaWxpcHBpbmVzIEFpckFzaWE\\\\\\\\u003d\\\\\\\"]\\\",null,false],[[\\\"5J\\\",[\\\"Cebu Pacific\\\"],[[null,null,null,\\\"MNL\\\",\\\"Ninoy Aquino International Airport\\\",\\\"Mactan-Cebu International Airport\\\",\\\"CEB\\\",null,[],null,[1,30],90,[null,null,null,null,null,true],2,\\\"28 in\\\",null,1,\\\"Airbus A321neo\\\",null,false,[2026,6,1],[2026,6,1],[\\\"5J\\\",\\\"553\\\",null,\\\"Cebu Pacific\\\"],null,null,1,null,null,null,null,\\\"28 inches\\\",50597,2]],\\\"MNL\\\",[2026,6,1],[],\\\"CEB\\\",[2026,6,1],[1,30],90,null,null,false,null,null,null,null,\\\"Fv9lvf\\\",[[1779186027455419,8709961,285302338],null,null,null,null,[[43]]],1,null,null,[null,null,1,-24,null,true,true,51000,67000,[true],67000,1,false,null,null,2,null,4],[1],[[\\\"5J\\\",\\\"Cebu Pacific\\\",\\\"https://www.cebupacificair.com/pages/travel-info/special-service-request\\\"]]],[[null,7326],\\\"CjRIcXlzLXNGeW4taGdBRHIwTGdCRy0tLS0tLS0tLXNlb3gyNUFBQUFBR29NT1dzRzZmMHdBEgU1SjU1MxoKCJ45EAAaA1BIUDgccNtc\\\"],null,false,[null,null,null,null,1,null,[null,1]],[false,false,false],false,[],\\\"[\\\\\\\"CAASA1BIUBoDCJ45IncKWwpZCgNNTkwSGTIwMjYtMDYtMDFUMDA6MDA6MDArMDg6MDAaA0NFQiIZMjAyNi0wNi0wMVQwMTozMDowMCswODowMCoCNUoyAzU1MzoCNUpCAzU1M0gBUgMzMlESBAgDEAEYASgAMg4KDENlYnUgUGFjaWZpYw\\\\\\\\u003d\\\\\\\\u003d\\\\\\\"]\\\",[[1]],false],[[\\\"5J\\\",[\\\"Cebu Pacific\\\"],[[null,null,null,\\\"MNL\\\",\\\"Ninoy Aquino International Airport\\\",\\\"Mactan-Cebu International Airport\\\",\\\"CEB\\\",null,[null,15],null,[1,50],95,[],2,\\\"28 in\\\",null,1,\\\"Airbus A320\\\",null,false,[2026,6,1],[2026,6,1],[\\\"5J\\\",\\\"2513\\\",null,\\\"Cebu Pacific\\\"],null,null,1,null,null,null,null,\\\"28 inches\\\",66883,2]],\\\"MNL\\\",[2026,6,1],[null,15],\\\"CEB\\\",[2026,6,1],[1,50],95,null,null,false,null,null,null,null,\\\"pXOexe\\\",[[1779186027455419,8709961,285302338],null,null,null,null,[[44]]],1,null,null,[null,null,2,0,null,true,true,67000,67000,null,67000,2,false,null,null,2,null,5],[1],[[\\\"5J\\\",\\\"Cebu Pacific\\\",\\\"https://www.cebupacificair.com/pages/travel-info/special-service-request\\\"]]],[[null,7326],\\\"CjRIcXlzLXNGeW4taGdBRHIwTGdCRy0tLS0tLS0tLXNlb3gyNUFBQUFBR29NT1dzRzZmMHdBEgY1SjI1MTMaCgieORAAGgNQSFA4HHDbXA\\\\u003d\\\\u003d\\\"],null,false,[null,null,null,null,1,null,[null,1]],[false,false,false],false,[],\\\"[\\\\\\\"CAASA1BIUBoDCJ45InkKXQpbCgNNTkwSGTIwMjYtMDYtMDFUMDA6MTU6MDArMDg6MDAaA0NFQiIZMjAyNi0wNi0wMVQwMTo1MDowMCswODowMCoCNUoyBDI1MTM6AjVKQgQyNTEzSAFSAzMyMBIECAMQARgBKAAyDgoMQ2VidSBQYWNpZmlj\\\\\\\"]\\\",null,false],[[\\\"5J\\\",[\\\"Cebu Pacific\\\"],[[null,null,null,\\\"MNL\\\",\\\"Ninoy Aquino International Airport\\\",\\\"Mactan-Cebu International Airport\\\",\\\"CEB\\\",null,[3,50],null,[5,30],100,[null,null,null,null,null,true],2,\\\"28 in\\\",null,1,\\\"Airbus A321\\\",[true],false,[2026,6,1],[2026,6,1],[\\\"5J\\\",\\\"563\\\",null,\\\"Cebu Pacific\\\"],null,null,1,null,null,null,null,\\\"28 inches\\\",66249,1]],\\\"MNL\\\",[2026,6,1],[3,50],\\\"CEB\\\",[2026,6,1],[5,30],100,null,null,false,null,null,null,null,\\\"VAfC8b\\\",[[1779186027455419,8709961,285302338],null,null,null,null,[[45]]],1,null,null,[null,null,2,-1,null,true,true,66000,67000,null,67000,2,false,null,null,1,null,2],[1],[[\\\"5J\\\",\\\"Cebu Pacific\\\",\\\"https://www.cebupacificair.com/pages/travel-info/special-service-request\\\"]]],[[null,7550],\\\"CjRIcXlzLXNGeW4taGdBRHIwTGdCRy0tLS0tLS0tLXNlb3gyNUFBQUFBR29NT1dzRzZmMHdBEgU1SjU2MxoKCP46EAAaA1BIUDgccMZf\\\"],null,false,[null,null,null,null,1,null,[null,1]],[false,false,false],false,[],\\\"[\\\\\\\"CAASA1BIUBoDCP46IncKWwpZCgNNTkwSGTIwMjYtMDYtMDFUMDM6NTA6MDArMDg6MDAaA0NFQiIZMjAyNi0wNi0wMVQwNTozMDowMCswODowMCoCNUoyAzU2MzoCNUpCAzU2M0gBUgMzMjESBAgDEAEYASgAMg4KDENlYnUgUGFjaWZpYw\\\\\\\\u003d\\\\\\\\u003d\\\\\\\"]\\\",null,false],[[\\\"5J\\\",[\\\"Cebu Pacific\\\"],[[null,null,null,\\\"MNL\\\",\\\"Ninoy Aquino International Airport\\\",\\\"Mactan-Cebu International Airport\\\",\\\"CEB\\\",null,[4,50],null,[6,25],95,[null,null,null,null,null,true],2,\\\"28 in\\\",null,1,\\\"Airbus A321neo\\\",[true],false,[2026,6,1],[2026,6,1],[\\\"5J\\\",\\\"561\\\",null,\\\"Cebu Pacific\\\"],null,null,1,null,null,null,null,\\\"28 inches\\\",50597,1]],\\\"MNL\\\",[2026,6,1],[4,50],\\\"CEB\\\",[2026,6,1],[6,25],95,null,null,false,null,null,null,null,\\\"Q3AK8b\\\",[[1779186027455419,8709961,285302338],null,null,null,null,[[46]]],1,null,null,[null,null,1,-24,null,true,true,51000,67000,[true],67000,1,false,null,null,1,null,1],[1],[[\\\"5J\\\",\\\"Cebu Pacific\\\",\\\"https://www.cebupacificair.com/pages/travel-info/special-service-request\\\"]]],[[null,7550],\\\"CjRIcXlzLXNGeW4taGdBRHIwTGdCRy0tLS0tLS0tLXNlb3gyNUFBQUFBR29NT1dzRzZmMHdBEgU1SjU2MRoKCP46EAAaA1BIUDgccMZf\\\"],null,false,[null,null,null,null,1,null,[null,1]],[false,false,false],false,[],\\\"[\\\\\\\"CAASA1BIUBoDCP46IncKWwpZCgNNTkwSGTIwMjYtMDYtMDFUMDQ6NTA6MDArMDg6MDAaA0NFQiIZMjAyNi0wNi0wMVQwNjoyNTowMCswODowMCoCNUoyAzU2MToCNUpCAzU2MUgBUgMzMlESBAgDEAEYASgAMg4KDENlYnUgUGFjaWZpYw\\\\\\\\u003d\\\\\\\\u003d\\\\\\\"]\\\",[[1]],false],[[\\\"5J\\\",[\\\"Cebu Pacific\\\"],[[null,null,null,\\\"MNL\\\",\\\"Ninoy Aquino International Airport\\\",\\\"Mactan-Cebu International Airport\\\",\\\"CEB\\\",null,[18,50],null,[20,25],95,[null,null,null,null,null,true],2,\\\"28 in\\\",null,1,\\\"Airbus A320neo\\\",null,false,[2026,6,1],[2026,6,1],[\\\"5J\\\",\\\"2515\\\",null,\\\"Cebu Pacific\\\"],null,null,1,null,null,null,null,\\\"28 inches\\\",53507,2]],\\\"MNL\\\",[2026,6,1],[18,50],\\\"CEB\\\",[2026,6,1],[20,25],95,null,null,false,null,null,null,null,\\\"G09tJ\\\",[[1779186027455419,8709961,285302338],null,null,null,null,[[47]]],1,null,null,[null,null,1,-19,null,true,true,54000,67000,[null,true],67000,1,false,null,null,2,null,4],[1],[[\\\"5J\\\",\\\"Cebu Pacific\\\",\\\"https://www.cebupacificair.com/pages/travel-info/special-service-request\\\"]]],[[null,7550],\\\"CjRIcXlzLXNGeW4taGdBRHIwTGdCRy0tLS0tLS0tLXNlb3gyNUFBQUFBR29NT1dzRzZmMHdBEgY1SjI1MTUaCgj+OhAAGgNQSFA4HHDGXw\\\\u003d\\\\u003d\\\"],null,false,[null,null,null,null,1,null,[null,1]],[false,false,false],false,[],\\\"[\\\\\\\"CAASA1BIUBoDCP46InkKXQpbCgNNTkwSGTIwMjYtMDYtMDFUMTg6NTA6MDArMDg6MDAaA0NFQiIZMjAyNi0wNi0wMVQyMDoyNTowMCswODowMCoCNUoyBDI1MTU6AjVKQgQyNTE1SAFSAzMyThIECAMQARgBKAAyDgoMQ2VidSBQYWNpZmlj\\\\\\\"]\\\",[[1]],false],[[\\\"5J\\\",[\\\"Cebu Pacific\\\"],[[null,null,null,\\\"MNL\\\",\\\"Ninoy Aquino International Airport\\\",\\\"Mactan-Cebu International Airport\\\",\\\"CEB\\\",null,[16,15],null,[17,55],100,[null,null,null,null,null,true],2,\\\"28 in\\\",null,1,\\\"Airbus A320neo\\\",null,false,[2026,6,1],[2026,6,1],[\\\"5J\\\",\\\"571\\\",null,\\\"Cebu Pacific\\\"],null,null,1,null,null,null,null,\\\"28 inches\\\",55214,1]],\\\"MNL\\\",[2026,6,1],[16,15],\\\"CEB\\\",[2026,6,1],[17,55],100,null,null,false,null,null,null,null,\\\"dEDXac\\\",[[1779186027455419,8709961,285302338],null,null,null,null,[[48]]],1,null,null,[null,null,1,-18,null,true,true,55000,67000,[null,true],67000,1,false,null,null,1,null,1],[1],[[\\\"5J\\\",\\\"Cebu Pacific\\\",\\\"https://www.cebupacificair.com/pages/travel-info/special-service-request\\\"]]],[[null,7774],\\\"CjRIcXlzLXNGeW4taGdBRHIwTGdCRy0tLS0tLS0tLXNlb3gyNUFBQUFBR29NT1dzRzZmMHdBEgU1SjU3MRoKCN48EAAaA1BIUDgccLFi\\\"],null,false,[null,null,null,null,1,null,[null,1]],[false,false,false],false,[],\\\"[\\\\\\\"CAASA1BIUBoDCN48IncKWwpZCgNNTkwSGTIwMjYtMDYtMDFUMTY6MTU6MDArMDg6MDAaA0NFQiIZMjAyNi0wNi0wMVQxNzo1NTowMCswODowMCoCNUoyAzU3MToCNUpCAzU3MUgBUgMzMk4SBAgDEAEYASgAMg4KDENlYnUgUGFjaWZpYw\\\\\\\\u003d\\\\\\\\u003d\\\\\\\"]\\\",[[1]],false],[[\\\"5J\\\",[\\\"Cebu Pacific\\\"],[[null,null,null,\\\"MNL\\\",\\\"Ninoy Aquino International Airport\\\",\\\"Mactan-Cebu International Airport\\\",\\\"CEB\\\",null,[15],null,[16,30],90,[null,null,null,null,null,true],2,\\\"28 in\\\",null,1,\\\"Airbus A321neo\\\",null,false,[2026,6,1],[2026,6,1],[\\\"5J\\\",\\\"581\\\",null,\\\"Cebu Pacific\\\"],null,null,1,null,null,null,null,\\\"28 inches\\\",50597,1]],\\\"MNL\\\",[2026,6,1],[15],\\\"CEB\\\",[2026,6,1],[16,30],90,null,null,false,null,null,null,null,\\\"lCG35d\\\",[[1779186027455419,8709961,285302338],null,null,null,null,[[49]]],1,null,null,[null,null,1,-24,null,true,true,51000,67000,[true],67000,1,false,null,null,1,null,1],[1],[[\\\"5J\\\",\\\"Cebu Pacific\\\",\\\"https://www.cebupacificair.com/pages/travel-info/special-service-request\\\"]]],[[null,8110],\\\"CjRIcXlzLXNGeW4taGdBRHIwTGdCRy0tLS0tLS0tLXNlb3gyNUFBQUFBR29NT1dzRzZmMHdBEgU1SjU4MRoKCK4/EAAaA1BIUDgccNFm\\\"],null,false,[null,null,null,null,1,null,[null,1]],[false,false,false],false,[],\\\"[\\\\\\\"CAASA1BIUBoDCK4/IncKWwpZCgNNTkwSGTIwMjYtMDYtMDFUMTU6MDA6MDArMDg6MDAaA0NFQiIZMjAyNi0wNi0wMVQxNjozMDowMCswODowMCoCNUoyAzU4MToCNUpCAzU4MUgBUgMzMlESBAgDEAEYASgAMg4KDENlYnUgUGFjaWZpYw\\\\\\\\u003d\\\\\\\\u003d\\\\\\\"]\\\",[[1]],false],[[\\\"5J\\\",[\\\"Cebu Pacific\\\"],[[null,null,null,\\\"MNL\\\",\\\"Ninoy Aquino International Airport\\\",\\\"Mactan-Cebu International Airport\\\",\\\"CEB\\\",null,[6,5],null,[7,40],95,[],2,\\\"28 in\\\",null,1,\\\"Airbus A320\\\",null,false,[2026,6,1],[2026,6,1],[\\\"5J\\\",\\\"587\\\",null,\\\"Cebu Pacific\\\"],null,null,1,null,null,null,null,\\\"28 inches\\\",66883,1]],\\\"MNL\\\",[2026,6,1],[6,5],\\\"CEB\\\",[2026,6,1],[7,40],95,null,null,false,null,null,null,null,\\\"eoYtkf\\\",[[1779186027455419,8709961,285302338],null,null,null,null,[[50]]],1,null,null,[null,null,2,0,null,true,true,67000,67000,null,67000,2,false,null,null,1,null,2],[1],[[\\\"5J\\\",\\\"Cebu Pacific\\\",\\\"https://www.cebupacificair.com/pages/travel-info/special-service-request\\\"]]],[[null,8670],\\\"CjRIcXlzLXNGeW4taGdBRHIwTGdCRy0tLS0tLS0tLXNlb3gyNUFBQUFBR29NT1dzRzZmMHdBEgU1SjU4NxoKCN5DEAAaA1BIUDgccNxt\\\"],null,false,[null,null,null,null,1,null,[null,1]],[false,false,false],false,[],\\\"[\\\\\\\"CAASA1BIUBoDCN5DIncKWwpZCgNNTkwSGTIwMjYtMDYtMDFUMDY6MDU6MDArMDg6MDAaA0NFQiIZMjAyNi0wNi0wMVQwNzo0MDowMCswODowMCoCNUoyAzU4NzoCNUpCAzU4N0gBUgMzMjASBAgDEAEYASgAMg4KDENlYnUgUGFjaWZpYw\\\\\\\\u003d\\\\\\\\u003d\\\\\\\"]\\\",null,false],[[\\\"5J\\\",[\\\"Cebu Pacific\\\"],[[null,null,null,\\\"MNL\\\",\\\"Ninoy Aquino International Airport\\\",\\\"Mactan-Cebu International Airport\\\",\\\"CEB\\\",null,[23,20],1,[null,55],95,[null,null,null,null,null,true],2,\\\"28 in\\\",null,1,\\\"Airbus A320neo\\\",null,false,[2026,6,1],[2026,6,2],[\\\"5J\\\",\\\"583\\\",null,\\\"Cebu Pacific\\\"],null,null,1,null,null,null,null,\\\"28 inches\\\",53507,2]],\\\"MNL\\\",[2026,6,1],[23,20],\\\"CEB\\\",[2026,6,2],[null,55],95,1,null,false,null,null,null,null,\\\"aHExfe\\\",[[1779186027455419,8709961,285302338],null,null,null,null,[[51]]],1,null,null,[null,null,1,-19,null,true,true,54000,67000,[null,true],67000,1,false,null,null,2,null,4],[1],[[\\\"5J\\\",\\\"Cebu Pacific\\\",\\\"https://www.cebupacificair.com/pages/travel-info/special-service-request\\\"]]],[[null,8670],\\\"CjRIcXlzLXNGeW4taGdBRHIwTGdCRy0tLS0tLS0tLXNlb3gyNUFBQUFBR29NT1dzRzZmMHdBEgU1SjU4MxoKCN5DEAAaA1BIUDgccNxt\\\"],null,false,[null,null,null,null,1,null,[null,1]],[false,false,false],false,[],\\\"[\\\\\\\"CAASA1BIUBoDCN5DIncKWwpZCgNNTkwSGTIwMjYtMDYtMDFUMjM6MjA6MDArMDg6MDAaA0NFQiIZMjAyNi0wNi0wMlQwMDo1NTowMCswODowMCoCNUoyAzU4MzoCNUpCAzU4M0gBUgMzMk4SBAgDEAEYASgAMg4KDENlYnUgUGFjaWZpYw\\\\\\\\u003d\\\\\\\\u003d\\\\\\\"]\\\",[[1]],false],[[\\\"PR\\\",[\\\"Philippine Airlines\\\"],[[null,null,null,\\\"MNL\\\",\\\"Ninoy Aquino International Airport\\\",\\\"Mactan-Cebu International Airport\\\",\\\"CEB\\\",null,[19,40],null,[21,10],90,[null,null,null,true,null,null,null,null,null,null,true],1,\\\"30 in\\\",null,1,\\\"Airbus A330\\\",null,false,[2026,6,1],[2026,6,1],[\\\"PR\\\",\\\"1863\\\",null,\\\"Philippine Airlines\\\"],null,null,1,null,null,null,null,\\\"30 inches\\\",62295,1]],\\\"MNL\\\",[2026,6,1],[19,40],\\\"CEB\\\",[2026,6,1],[21,10],90,null,null,false,null,null,null,null,\\\"unZIF\\\",[[1779186027455419,8709961,285302338],null,null,null,null,[[52]]],1,null,null,[null,null,1,-7,null,true,true,62000,67000,null,67000,1,false,null,null,1,null,1],[1],[[\\\"PR\\\",\\\"Philippine Airlines\\\",\\\"https://www.philippineairlines.com/en/before-you-fly/special-needs-and-request\\\"]]],[[null,8890],\\\"CjRIcXlzLXNGeW4taGdBRHIwTGdCRy0tLS0tLS0tLXNlb3gyNUFBQUFBR29NT1dzRzZmMHdBEgZQUjE4NjMaCgi6RRAAGgNQSFA4HHDAcA\\\\u003d\\\\u003d\\\"],null,false,[null,null,null,null,1,null,[null,1]],[false,false,false],false,[],\\\"[\\\\\\\"CAASA1BIUBoDCLpFIoABCl0KWwoDTU5MEhkyMDI2LTA2LTAxVDE5OjQwOjAwKzA4OjAwGgNDRUIiGTIwMjYtMDYtMDFUMjE6MTA6MDArMDg6MDAqAlBSMgQxODYzOgJQUkIEMTg2M0gBUgMzMzMSBAgDEAEYASgAMhUKE1BoaWxpcHBpbmUgQWlybGluZXM\\\\\\\\u003d\\\\\\\"]\\\",[[1]],false],[[\\\"5J\\\",[\\\"Cebu Pacific\\\"],[[null,null,null,\\\"MNL\\\",\\\"Ninoy Aquino International Airport\\\",\\\"Mactan-Cebu International Airport\\\",\\\"CEB\\\",null,[8,30],null,[10,5],95,[null,null,null,null,null,true],2,\\\"28 in\\\",null,1,\\\"Airbus A321\\\",null,false,[2026,6,1],[2026,6,1],[\\\"5J\\\",\\\"551\\\",null,\\\"Cebu Pacific\\\"],null,null,1,null,null,null,null,\\\"28 inches\\\",72559,1]],\\\"MNL\\\",[2026,6,1],[8,30],\\\"CEB\\\",[2026,6,1],[10,5],95,null,null,false,null,null,null,null,\\\"UOepkf\\\",[[1779186027455419,8709961,285302338],null,null,null,null,[[53]]],1,null,null,[null,null,3,9,null,true,true,73000,67000,null,67000,3,false,null,null,1,null,3],[1],[[\\\"5J\\\",\\\"Cebu Pacific\\\",\\\"https://www.cebupacificair.com/pages/travel-info/special-service-request\\\"]]],[[null,9230],\\\"CjRIcXlzLXNGeW4taGdBRHIwTGdCRy0tLS0tLS0tLXNlb3gyNUFBQUFBR29NT1dzRzZmMHdBEgU1SjU1MRoKCI5IEAAaA1BIUDgccOd0\\\"],null,false,[null,null,null,null,1,null,[null,1]],[false,false,false],false,[],\\\"[\\\\\\\"CAASA1BIUBoDCI5IIncKWwpZCgNNTkwSGTIwMjYtMDYtMDFUMDg6MzA6MDArMDg6MDAaA0NFQiIZMjAyNi0wNi0wMVQxMDowNTowMCswODowMCoCNUoyAzU1MToCNUpCAzU1MUgBUgMzMjESBAgDEAEYASgAMg4KDENlYnUgUGFjaWZpYw\\\\\\\\u003d\\\\\\\\u003d\\\\\\\"]\\\",[[2]],false],[[\\\"PR\\\",[\\\"Philippine Airlines\\\"],[[null,null,null,\\\"MNL\\\",\\\"Ninoy Aquino International Airport\\\",\\\"Mactan-Cebu International Airport\\\",\\\"CEB\\\",null,[3,30],null,[4,55],85,[null,null,null,null,null,null,null,null,null,null,true],1,\\\"30 in\\\",null,1,\\\"Airbus A321\\\",[true],false,[2026,6,1],[2026,6,1],[\\\"PR\\\",\\\"1841\\\",null,\\\"Philippine Airlines\\\"],null,null,1,null,null,null,null,\\\"30 inches\\\",74329,1]],\\\"MNL\\\",[2026,6,1],[3,30],\\\"CEB\\\",[2026,6,1],[4,55],85,null,null,false,null,null,null,null,\\\"tlwcuf\\\",[[1779186027455419,8709961,285302338],null,null,null,null,[[54]]],1,null,null,[null,null,3,10,null,true,true,74000,67000,null,67000,3,false,null,null,1,null,3],[1],[[\\\"PR\\\",\\\"Philippine Airlines\\\",\\\"https://www.philippineairlines.com/en/before-you-fly/special-needs-and-request\\\"]]],[[null,9338],\\\"CjRIcXlzLXNGeW4taGdBRHIwTGdCRy0tLS0tLS0tLXNlb3gyNUFBQUFBR29NT1dzRzZmMHdBEgZQUjE4NDEaCgj6SBAAGgNQSFA4HHCWdg\\\\u003d\\\\u003d\\\"],null,false,[null,null,null,null,1,null,[null,1]],[false,false,false],false,[],\\\"[\\\\\\\"CAASA1BIUBoDCPpIIoABCl0KWwoDTU5MEhkyMDI2LTA2LTAxVDAzOjMwOjAwKzA4OjAwGgNDRUIiGTIwMjYtMDYtMDFUMDQ6NTU6MDArMDg6MDAqAlBSMgQxODQxOgJQUkIEMTg0MUgBUgMzMjESBAgDEAEYASgAMhUKE1BoaWxpcHBpbmUgQWlybGluZXM\\\\\\\\u003d\\\\\\\"]\\\",[[2]],false],[[\\\"PR\\\",[\\\"Philippine Airlines\\\"],[[null,null,\\\"PAL Express\\\",\\\"MNL\\\",\\\"Ninoy Aquino International Airport\\\",\\\"Mactan-Cebu International Airport\\\",\\\"CEB\\\",null,[4,15],null,[5,40],85,[],2,\\\"28 in\\\",null,1,\\\"Airbus A320\\\",[true],false,[2026,6,1],[2026,6,1],[\\\"PR\\\",\\\"2835\\\",null,\\\"Philippine Airlines\\\"],null,null,1,null,null,null,null,\\\"28 inches\\\",66883,1]],\\\"MNL\\\",[2026,6,1],[4,15],\\\"CEB\\\",[2026,6,1],[5,40],85,null,null,false,null,null,null,null,\\\"mFyTqb\\\",[[1779186027455419,8709961,285302338],null,null,null,null,[[55]]],1,null,null,[null,null,2,0,null,true,true,67000,67000,null,67000,2,false,null,null,1,null,2],[1],[[\\\"PR\\\",\\\"Philippine Airlines\\\",\\\"https://www.philippineairlines.com/en/before-you-fly/special-needs-and-request\\\"]]],[[null,9338],\\\"CjRIcXlzLXNGeW4taGdBRHIwTGdCRy0tLS0tLS0tLXNlb3gyNUFBQUFBR29NT1dzRzZmMHdBEgZQUjI4MzUaCgj6SBAAGgNQSFA4HHCWdg\\\\u003d\\\\u003d\\\"],null,false,[null,null,null,null,1,null,[null,1]],[false,false,false],false,[],\\\"[\\\\\\\"CAASA1BIUBoDCPpIIoABCl0KWwoDTU5MEhkyMDI2LTA2LTAxVDA0OjE1OjAwKzA4OjAwGgNDRUIiGTIwMjYtMDYtMDFUMDU6NDA6MDArMDg6MDAqAlBSMgQyODM1OgJQUkIEMjgzNUgBUgMzMjASBAgDEAEYASgAMhUKE1BoaWxpcHBpbmUgQWlybGluZXM\\\\\\\\u003d\\\\\\\"]\\\",null,false],[[\\\"Z2\\\",[\\\"Philippines AirAsia\\\"],[[null,null,null,\\\"MNL\\\",\\\"Ninoy Aquino International Airport\\\",\\\"Mactan-Cebu International Airport\\\",\\\"CEB\\\",null,[3,55],null,[5,20],85,[],2,\\\"28 in\\\",null,1,\\\"Airbus A320\\\",[true],false,[2026,6,1],[2026,6,1],[\\\"Z2\\\",\\\"779\\\",null,\\\"Philippines AirAsia\\\"],null,null,1,null,null,null,null,\\\"28 inches\\\",66883,1]],\\\"MNL\\\",[2026,6,1],[3,55],\\\"CEB\\\",[2026,6,1],[5,20],85,null,null,false,null,null,null,null,\\\"xIkLYb\\\",[[1779186027455419,8709961,285302338],null,null,null,null,[[56]]],1,null,null,[null,null,2,0,null,true,true,67000,67000,null,67000,2,false,null,null,1,null,2],[1]],[[null,9453],\\\"CjRIcXlzLXNGeW4taGdBRHIwTGdCRy0tLS0tLS0tLXNlb3gyNUFBQUFBR29NT1dzRzZmMHdBEgVaMjc3ORoKCO1JEAAaA1BIUDgccNB3\\\"],null,false,[null,null,null,null,1,null,[null,1]],[false,false,false],false,[],\\\"[\\\\\\\"CAASA1BIUBoDCO1JIn4KWwpZCgNNTkwSGTIwMjYtMDYtMDFUMDM6NTU6MDArMDg6MDAaA0NFQiIZMjAyNi0wNi0wMVQwNToyMDowMCswODowMCoCWjIyAzc3OToCWjJCAzc3OUgBUgMzMjASBAgDEAEYASgAMhUKE1BoaWxpcHBpbmVzIEFpckFzaWE\\\\\\\\u003d\\\\\\\"]\\\",null,false],[[\\\"Z2\\\",[\\\"Philippines AirAsia\\\"],[[null,null,null,\\\"MNL\\\",\\\"Ninoy Aquino International Airport\\\",\\\"Mactan-Cebu International Airport\\\",\\\"CEB\\\",null,[5,55],null,[7,20],85,[],2,\\\"28 in\\\",null,1,\\\"Airbus A320\\\",null,false,[2026,6,1],[2026,6,1],[\\\"Z2\\\",\\\"763\\\",null,\\\"Philippines AirAsia\\\"],null,null,1,null,null,null,null,\\\"28 inches\\\",66883,1]],\\\"MNL\\\",[2026,6,1],[5,55],\\\"CEB\\\",[2026,6,1],[7,20],85,null,null,false,null,null,null,null,\\\"Y46MR\\\",[[1779186027455419,8709961,285302338],null,null,null,null,[[57]]],1,null,null,[null,null,2,0,null,true,true,67000,67000,null,67000,2,false,null,null,1,null,2],[1]],[[null,9453],\\\"CjRIcXlzLXNGeW4taGdBRHIwTGdCRy0tLS0tLS0tLXNlb3gyNUFBQUFBR29NT1dzRzZmMHdBEgVaMjc2MxoKCO1JEAAaA1BIUDgccNB3\\\"],null,false,[null,null,null,null,1,null,[null,1]],[false,false,false],false,[],\\\"[\\\\\\\"CAASA1BIUBoDCO1JIn4KWwpZCgNNTkwSGTIwMjYtMDYtMDFUMDU6NTU6MDArMDg6MDAaA0NFQiIZMjAyNi0wNi0wMVQwNzoyMDowMCswODowMCoCWjIyAzc2MzoCWjJCAzc2M0gBUgMzMjASBAgDEAEYASgAMhUKE1BoaWxpcHBpbmVzIEFpckFzaWE\\\\\\\\u003d\\\\\\\"]\\\",null,false],[[\\\"Z2\\\",[\\\"Philippines AirAsia\\\"],[[null,null,null,\\\"MNL\\\",\\\"Ninoy Aquino International Airport\\\",\\\"Mactan-Cebu International Airport\\\",\\\"CEB\\\",null,[16],null,[17,25],85,[],2,\\\"28 in\\\",null,1,\\\"Airbus A320\\\",[null,true],false,[2026,6,1],[2026,6,1],[\\\"Z2\\\",\\\"781\\\",null,\\\"Philippines AirAsia\\\"],null,null,1,null,null,null,null,\\\"28 inches\\\",66883,1]],\\\"MNL\\\",[2026,6,1],[16],\\\"CEB\\\",[2026,6,1],[17,25],85,null,null,false,null,null,null,null,\\\"lUcOgd\\\",[[1779186027455419,8709961,285302338],null,null,null,null,[[58]]],1,null,null,[null,null,2,0,null,true,true,67000,67000,null,67000,2,false,null,null,1,null,2],[1]],[[null,9453],\\\"CjRIcXlzLXNGeW4taGdBRHIwTGdCRy0tLS0tLS0tLXNlb3gyNUFBQUFBR29NT1dzRzZmMHdBEgVaMjc4MRoKCO1JEAAaA1BIUDgccNB3\\\"],null,false,[null,null,null,null,1,null,[null,1]],[false,false,false],false,[],\\\"[\\\\\\\"CAASA1BIUBoDCO1JIn4KWwpZCgNNTkwSGTIwMjYtMDYtMDFUMTY6MDA6MDArMDg6MDAaA0NFQiIZMjAyNi0wNi0wMVQxNzoyNTowMCswODowMCoCWjIyAzc4MToCWjJCAzc4MUgBUgMzMjASBAgDEAEYASgAMhUKE1BoaWxpcHBpbmVzIEFpckFzaWE\\\\\\\\u003d\\\\\\\"]\\\",null,false],[[\\\"5J\\\",[\\\"Cebu Pacific\\\"],[[null,null,null,\\\"MNL\\\",\\\"Ninoy Aquino International Airport\\\",\\\"Mactan-Cebu International Airport\\\",\\\"CEB\\\",null,[7],null,[8,35],95,[],2,\\\"28 in\\\",null,1,\\\"Airbus A320\\\",null,false,[2026,6,1],[2026,6,1],[\\\"5J\\\",\\\"2501\\\",null,\\\"Cebu Pacific\\\"],null,null,1,null,null,null,null,\\\"28 inches\\\",66883,1]],\\\"MNL\\\",[2026,6,1],[7],\\\"CEB\\\",[2026,6,1],[8,35],95,null,null,false,null,null,null,null,\\\"wJGQyf\\\",[[1779186027455419,8709961,285302338],null,null,null,null,[[59]]],1,null,null,[null,null,2,0,null,true,true,67000,67000,null,67000,2,false,null,null,1,null,2],[1],[[\\\"5J\\\",\\\"Cebu Pacific\\\",\\\"https://www.cebupacificair.com/pages/travel-info/special-service-request\\\"]]],[[null,9790],\\\"CjRIcXlzLXNGeW4taGdBRHIwTGdCRy0tLS0tLS0tLXNlb3gyNUFBQUFBR29NT1dzRzZmMHdBEgY1SjI1MDEaCgi+TBAAGgNQSFA4HHDyew\\\\u003d\\\\u003d\\\"],null,false,[null,null,null,null,1,null,[null,1]],[false,false,false],false,[],\\\"[\\\\\\\"CAASA1BIUBoDCL5MInkKXQpbCgNNTkwSGTIwMjYtMDYtMDFUMDc6MDA6MDArMDg6MDAaA0NFQiIZMjAyNi0wNi0wMVQwODozNTowMCswODowMCoCNUoyBDI1MDE6AjVKQgQyNTAxSAFSAzMyMBIECAMQARgBKAAyDgoMQ2VidSBQYWNpZmlj\\\\\\\"]\\\",null,false],[[\\\"5J\\\",[\\\"Cebu Pacific\\\"],[[null,null,null,\\\"MNL\\\",\\\"Ninoy Aquino International Airport\\\",\\\"Mactan-Cebu International Airport\\\",\\\"CEB\\\",null,[10,10],null,[11,40],90,[null,null,null,null,null,true],2,\\\"28 in\\\",null,1,\\\"Airbus A320neo\\\",null,false,[2026,6,1],[2026,6,1],[\\\"5J\\\",\\\"585\\\",null,\\\"Cebu Pacific\\\"],null,null,1,null,null,null,null,\\\"28 inches\\\",55807,1]],\\\"MNL\\\",[2026,6,1],[10,10],\\\"CEB\\\",[2026,6,1],[11,40],90,null,null,false,null,null,null,null,\\\"pLYiX\\\",[[1779186027455419,8709961,285302338],null,null,null,null,[[60]]],1,null,null,[null,null,1,-16,null,true,true,56000,67000,[null,true],67000,1,false,null,null,1,null,1],[1],[[\\\"5J\\\",\\\"Cebu Pacific\\\",\\\"https://www.cebupacificair.com/pages/travel-info/special-service-request\\\"]]],[[null,10910],\\\"CjRIcXlzLXNGeW4taGdBRHIwTGdCRy0tLS0tLS0tLXNlb3gyNUFBQUFBR29NT1dzRzZmMHdBEgU1SjU4NRoKCJ5VEAAaA1BIUDgccImKAQ\\\\u003d\\\\u003d\\\"],null,false,[null,null,null,null,1,null,[null,1]],[false,false,false],false,[],\\\"[\\\\\\\"CAASA1BIUBoDCJ5VIncKWwpZCgNNTkwSGTIwMjYtMDYtMDFUMTA6MTA6MDArMDg6MDAaA0NFQiIZMjAyNi0wNi0wMVQxMTo0MDowMCswODowMCoCNUoyAzU4NToCNUpCAzU4NUgBUgMzMk4SBAgDEAEYASgAMg4KDENlYnUgUGFjaWZpYw\\\\\\\\u003d\\\\\\\\u003d\\\\\\\"]\\\",[[1]],false],[[\\\"5J\\\",[\\\"Cebu Pacific\\\"],[[null,null,null,\\\"MNL\\\",\\\"Ninoy Aquino International Airport\\\",\\\"Mactan-Cebu International Airport\\\",\\\"CEB\\\",null,[10,40],null,[12,15],95,[null,null,null,null,null,true],2,\\\"28 in\\\",null,1,\\\"Airbus A320neo\\\",null,false,[2026,6,1],[2026,6,1],[\\\"5J\\\",\\\"565\\\",null,\\\"Cebu Pacific\\\"],null,null,1,null,null,null,null,\\\"28 inches\\\",55214,1]],\\\"MNL\\\",[2026,6,1],[10,40],\\\"CEB\\\",[2026,6,1],[12,15],95,null,null,false,null,null,null,null,\\\"vI1fDc\\\",[[1779186027455419,8709961,285302338],null,null,null,null,[[61]]],1,null,null,[null,null,1,-18,null,true,true,55000,67000,[null,true],67000,1,false,null,null,1,null,1],[1],[[\\\"5J\\\",\\\"Cebu Pacific\\\",\\\"https://www.cebupacificair.com/pages/travel-info/special-service-request\\\"]]],[[null,10910],\\\"CjRIcXlzLXNGeW4taGdBRHIwTGdCRy0tLS0tLS0tLXNlb3gyNUFBQUFBR29NT1dzRzZmMHdBEgU1SjU2NRoKCJ5VEAAaA1BIUDgccImKAQ\\\\u003d\\\\u003d\\\"],null,false,[null,null,null,null,1,null,[null,1]],[false,false,false],false,[],\\\"[\\\\\\\"CAASA1BIUBoDCJ5VIncKWwpZCgNNTkwSGTIwMjYtMDYtMDFUMTA6NDA6MDArMDg6MDAaA0NFQiIZMjAyNi0wNi0wMVQxMjoxNTowMCswODowMCoCNUoyAzU2NToCNUpCAzU2NUgBUgMzMk4SBAgDEAEYASgAMg4KDENlYnUgUGFjaWZpYw\\\\\\\\u003d\\\\\\\\u003d\\\\\\\"]\\\",[[1]],false],[[\\\"PR\\\",[\\\"Philippine Airlines\\\"],[[null,null,\\\"PAL Express\\\",\\\"MNL\\\",\\\"Ninoy Aquino International Airport\\\",\\\"Mactan-Cebu International Airport\\\",\\\"CEB\\\",null,[16,45],null,[18,10],85,[],2,\\\"28 in\\\",null,1,\\\"Airbus A320\\\",null,false,[2026,6,1],[2026,6,1],[\\\"PR\\\",\\\"2861\\\",null,\\\"Philippine Airlines\\\"],null,null,1,null,null,null,null,\\\"28 inches\\\",66883,1]],\\\"MNL\\\",[2026,6,1],[16,45],\\\"CEB\\\",[2026,6,1],[18,10],85,null,null,false,null,null,null,null,\\\"kZXNYc\\\",[[1779186027455419,8709961,285302338],null,null,null,null,[[62]]],1,null,null,[null,null,2,0,null,true,true,67000,67000,null,67000,2,false,null,null,1,null,2],[1],[[\\\"PR\\\",\\\"Philippine Airlines\\\",\\\"https://www.philippineairlines.com/en/before-you-fly/special-needs-and-request\\\"]]],[[null,11578],\\\"CjRIcXlzLXNGeW4taGdBRHIwTGdCRy0tLS0tLS0tLXNlb3gyNUFBQUFBR29NT1dzRzZmMHdBEgZQUjI4NjEaCgi6WhAAGgNQSFA4HHDDkgE\\\\u003d\\\"],null,false,[null,null,null,null,1,null,[null,1]],[false,false,false],false,[],\\\"[\\\\\\\"CAASA1BIUBoDCLpaIoABCl0KWwoDTU5MEhkyMDI2LTA2LTAxVDE2OjQ1OjAwKzA4OjAwGgNDRUIiGTIwMjYtMDYtMDFUMTg6MTA6MDArMDg6MDAqAlBSMgQyODYxOgJQUkIEMjg2MUgBUgMzMjASBAgDEAEYASgAMhUKE1BoaWxpcHBpbmUgQWlybGluZXM\\\\\\\\u003d\\\\\\\"]\\\",null,false],[[\\\"PR\\\",[\\\"Philippine Airlines\\\"],[[null,null,\\\"PAL Express\\\",\\\"MNL\\\",\\\"Ninoy Aquino International Airport\\\",\\\"Mactan-Cebu International Airport\\\",\\\"CEB\\\",null,[22,5],null,[23,25],80,[],2,\\\"28 in\\\",null,1,\\\"Airbus A320\\\",null,false,[2026,6,1],[2026,6,1],[\\\"PR\\\",\\\"2859\\\",null,\\\"Philippine Airlines\\\"],null,null,1,null,null,null,null,\\\"28 inches\\\",66883,2]],\\\"MNL\\\",[2026,6,1],[22,5],\\\"CEB\\\",[2026,6,1],[23,25],80,null,null,false,null,null,null,null,\\\"PVNyA\\\",[[1779186027455419,8709961,285302338],null,null,null,null,[[63]]],1,null,null,[null,null,2,0,null,true,true,67000,67000,null,67000,2,false,null,null,2,null,5],[1],[[\\\"PR\\\",\\\"Philippine Airlines\\\",\\\"https://www.philippineairlines.com/en/before-you-fly/special-needs-and-request\\\"]]],[[null,11578],\\\"CjRIcXlzLXNGeW4taGdBRHIwTGdCRy0tLS0tLS0tLXNlb3gyNUFBQUFBR29NT1dzRzZmMHdBEgZQUjI4NTkaCgi6WhAAGgNQSFA4HHDDkgE\\\\u003d\\\"],null,false,[null,null,null,null,1,null,[null,1]],[false,false,false],false,[],\\\"[\\\\\\\"CAASA1BIUBoDCLpaIoABCl0KWwoDTU5MEhkyMDI2LTA2LTAxVDIyOjA1OjAwKzA4OjAwGgNDRUIiGTIwMjYtMDYtMDFUMjM6MjU6MDArMDg6MDAqAlBSMgQyODU5OgJQUkIEMjg1OUgBUgMzMjASBAgDEAEYASgAMhUKE1BoaWxpcHBpbmUgQWlybGluZXM\\\\\\\\u003d\\\\\\\"]\\\",null,false],[[\\\"PR\\\",[\\\"Philippine Airlines\\\"],[[null,null,null,\\\"MNL\\\",\\\"Ninoy Aquino International Airport\\\",\\\"Mactan-Cebu International Airport\\\",\\\"CEB\\\",null,[11,50],null,[13,10],80,[null,null,null,null,null,null,null,null,null,null,true],1,\\\"30 in\\\",null,1,\\\"Airbus A321\\\",null,false,[2026,6,1],[2026,6,1],[\\\"PR\\\",\\\"1853\\\",null,\\\"Philippine Airlines\\\"],null,null,1,null,null,null,null,\\\"30 inches\\\",74329,1]],\\\"MNL\\\",[2026,6,1],[11,50],\\\"CEB\\\",[2026,6,1],[13,10],80,null,null,false,null,null,null,null,\\\"WYzdWd\\\",[[1779186027455419,8709961,285302338],null,null,null,null,[[64]]],1,null,null,[null,null,3,10,null,true,true,74000,67000,null,67000,3,false,null,null,1,null,3],[1],[[\\\"PR\\\",\\\"Philippine Airlines\\\",\\\"https://www.philippineairlines.com/en/before-you-fly/special-needs-and-request\\\"]]],[[null,12474],\\\"CjRIcXlzLXNGeW4taGdBRHIwTGdCRy0tLS0tLS0tLXNlb3gyNUFBQUFBR29NT1dzRzZmMHdBEgZQUjE4NTMaCgi6YRAAGgNQSFA4HHDunQE\\\\u003d\\\"],null,false,[null,null,null,null,1,null,[null,1]],[false,false,false],false,[],\\\"[\\\\\\\"CAASA1BIUBoDCLphIoABCl0KWwoDTU5MEhkyMDI2LTA2LTAxVDExOjUwOjAwKzA4OjAwGgNDRUIiGTIwMjYtMDYtMDFUMTM6MTA6MDArMDg6MDAqAlBSMgQxODUzOgJQUkIEMTg1M0gBUgMzMjESBAgDEAEYASgAMhUKE1BoaWxpcHBpbmUgQWlybGluZXM\\\\\\\\u003d\\\\\\\"]\\\",[[2]],false],[[\\\"PR\\\",[\\\"Philippine Airlines\\\"],[[null,null,\\\"PAL Express\\\",\\\"MNL\\\",\\\"Ninoy Aquino International Airport\\\",\\\"Mactan-Cebu International Airport\\\",\\\"CEB\\\",null,[13,25],null,[14,45],80,[],2,\\\"28 in\\\",null,1,\\\"Airbus A320\\\",null,false,[2026,6,1],[2026,6,1],[\\\"PR\\\",\\\"2867\\\",null,\\\"Philippine Airlines\\\"],null,null,1,null,null,null,null,\\\"28 inches\\\",66883,1]],\\\"MNL\\\",[2026,6,1],[13,25],\\\"CEB\\\",[2026,6,1],[14,45],80,null,null,false,null,null,null,null,\\\"JUTlod\\\",[[1779186027455419,8709961,285302338],null,null,null,null,[[65]]],1,null,null,[null,null,2,0,null,true,true,67000,67000,null,67000,2,false,null,null,1,null,2],[1],[[\\\"PR\\\",\\\"Philippine Airlines\\\",\\\"https://www.philippineairlines.com/en/before-you-fly/special-needs-and-request\\\"]]],[[null,12474],\\\"CjRIcXlzLXNGeW4taGdBRHIwTGdCRy0tLS0tLS0tLXNlb3gyNUFBQUFBR29NT1dzRzZmMHdBEgZQUjI4NjcaCgi6YRAAGgNQSFA4HHDunQE\\\\u003d\\\"],null,false,[null,null,null,null,1,null,[null,1]],[false,false,false],false,[],\\\"[\\\\\\\"CAASA1BIUBoDCLphIoABCl0KWwoDTU5MEhkyMDI2LTA2LTAxVDEzOjI1OjAwKzA4OjAwGgNDRUIiGTIwMjYtMDYtMDFUMTQ6NDU6MDArMDg6MDAqAlBSMgQyODY3OgJQUkIEMjg2N0gBUgMzMjASBAgDEAEYASgAMhUKE1BoaWxpcHBpbmUgQWlybGluZXM\\\\\\\\u003d\\\\\\\"]\\\",null,false],[[\\\"PR\\\",[\\\"Philippine Airlines\\\"],[[null,null,\\\"PAL Express\\\",\\\"MNL\\\",\\\"Ninoy Aquino International Airport\\\",\\\"Mactan-Cebu International Airport\\\",\\\"CEB\\\",null,[5],null,[6,25],85,[null,null,null,null,null,null,null,null,null,null,true],1,\\\"30 in\\\",null,1,\\\"Airbus A321\\\",null,false,[2026,6,1],[2026,6,1],[\\\"PR\\\",\\\"2845\\\",null,\\\"Philippine Airlines\\\"],null,null,1,null,null,null,null,\\\"30 inches\\\",74329,1]],\\\"MNL\\\",[2026,6,1],[5],\\\"CEB\\\",[2026,6,1],[6,25],85,null,null,false,null,null,null,null,\\\"oJwor\\\",[[1779186027455419,8709961,285302338],null,null,null,null,[[66]]],1,null,null,[null,null,3,10,null,true,true,74000,67000,null,67000,3,false,null,null,1,null,3],[1],[[\\\"PR\\\",\\\"Philippine Airlines\\\",\\\"https://www.philippineairlines.com/en/before-you-fly/special-needs-and-request\\\"]]],[[null,13594],\\\"CjRIcXlzLXNGeW4taGdBRHIwTGdCRy0tLS0tLS0tLXNlb3gyNUFBQUFBR29NT1dzRzZmMHdBEgZQUjI4NDUaCgiaahAAGgNQSFA4HHCErAE\\\\u003d\\\"],null,false,[null,null,null,null,1,null,[null,1]],[false,false,false],false,[],\\\"[\\\\\\\"CAASA1BIUBoDCJpqIoABCl0KWwoDTU5MEhkyMDI2LTA2LTAxVDA1OjAwOjAwKzA4OjAwGgNDRUIiGTIwMjYtMDYtMDFUMDY6MjU6MDArMDg6MDAqAlBSMgQyODQ1OgJQUkIEMjg0NUgBUgMzMjESBAgDEAEYASgAMhUKE1BoaWxpcHBpbmUgQWlybGluZXM\\\\\\\\u003d\\\\\\\"]\\\",[[2]],false],[[\\\"Z2\\\",[\\\"Philippines AirAsia\\\"],[[null,null,null,\\\"MNL\\\",\\\"Ninoy Aquino International Airport\\\",\\\"Mactan-Cebu International Airport\\\",\\\"CEB\\\",null,[3,20],null,[4,45],85,[],2,\\\"28 in\\\",null,1,\\\"Airbus A320\\\",[true],false,[2026,6,1],[2026,6,1],[\\\"Z2\\\",\\\"759\\\",null,\\\"Philippines AirAsia\\\"],null,null,1,null,null,null,null,\\\"28 inches\\\",66883,1]],\\\"MNL\\\",[2026,6,1],[3,20],\\\"CEB\\\",[2026,6,1],[4,45],85,null,null,false,null,null,null,null,\\\"tmSdP\\\",[[1779186027455419,8709961,285302338],null,null,null,null,[[67]]],1,null,null,[null,null,2,0,null,true,true,67000,67000,null,67000,2,false,null,null,1,null,2],[1]],[[null,15065],\\\"CjRIcXlzLXNGeW4taGdBRHIwTGdCRy0tLS0tLS0tLXNlb3gyNUFBQUFBR29NT1dzRzZmMHdBEgVaMjc1ORoKCNl1EAAaA1BIUDgccNO+AQ\\\\u003d\\\\u003d\\\"],null,false,[null,null,null,null,1,null,[null,1]],[false,false,false],false,[],\\\"[\\\\\\\"CAASA1BIUBoDCNl1In4KWwpZCgNNTkwSGTIwMjYtMDYtMDFUMDM6MjA6MDArMDg6MDAaA0NFQiIZMjAyNi0wNi0wMVQwNDo0NTowMCswODowMCoCWjIyAzc1OToCWjJCAzc1OUgBUgMzMjASBAgDEAEYASgAMhUKE1BoaWxpcHBpbmVzIEFpckFzaWE\\\\\\\\u003d\\\\\\\"]\\\",null,false],[[\\\"PR\\\",[\\\"Philippine Airlines\\\"],[[null,null,\\\"PAL Express\\\",\\\"MNL\\\",\\\"Ninoy Aquino International Airport\\\",\\\"Mactan-Cebu International Airport\\\",\\\"CEB\\\",null,[9,15],null,[10,35],80,[null,null,null,null,null,null,null,null,null,null,true],1,\\\"30 in\\\",null,1,\\\"Airbus A321\\\",null,false,[2026,6,1],[2026,6,1],[\\\"PR\\\",\\\"2849\\\",null,\\\"Philippine Airlines\\\"],null,null,1,null,null,null,null,\\\"30 inches\\\",74329,1]],\\\"MNL\\\",[2026,6,1],[9,15],\\\"CEB\\\",[2026,6,1],[10,35],80,null,null,false,null,null,null,null,\\\"bWJbTc\\\",[[1779186027455419,8709961,285302338],null,null,null,null,[[68]]],1,null,null,[null,null,3,10,null,true,true,74000,67000,null,67000,3,false,null,null,1,null,3],[1],[[\\\"PR\\\",\\\"Philippine Airlines\\\",\\\"https://www.philippineairlines.com/en/before-you-fly/special-needs-and-request\\\"]]],[[null,15386],\\\"CjRIcXlzLXNGeW4taGdBRHIwTGdCRy0tLS0tLS0tLXNlb3gyNUFBQUFBR29NT1dzRzZmMHdBEgZQUjI4NDkaCgiaeBAAGgNQSFA4HHDbwgE\\\\u003d\\\"],null,false,[null,null,null,null,1,null,[null,1]],[false,false,false],false,[],\\\"[\\\\\\\"CAASA1BIUBoDCJp4IoABCl0KWwoDTU5MEhkyMDI2LTA2LTAxVDA5OjE1OjAwKzA4OjAwGgNDRUIiGTIwMjYtMDYtMDFUMTA6MzU6MDArMDg6MDAqAlBSMgQyODQ5OgJQUkIEMjg0OUgBUgMzMjESBAgDEAEYASgAMhUKE1BoaWxpcHBpbmUgQWlybGluZXM\\\\\\\\u003d\\\\\\\"]\\\",[[2]],false]],0,false,false,[1]],null,[5,[null,6878],[null,5398],[null,-1480],[null,3700],[null,6600],1,null,null,null,[[[1773936000000,3154],[1774022400000,3154],[1774108800000,3154],[1774195200000,2667],[1774281600000,3102],[1774368000000,3316],[1774454400000,3550],[1774540800000,3550],[1774627200000,3336],[1774713600000,3336],[1774800000000,3550],[1774886400000,5547],[1774972800000,5547],[1775059200000,6154],[1775145600000,6480],[1775232000000,6480],[1775318400000,6480],[1775404800000,5918],[1775491200000,5614],[1775577600000,6480],[1775664000000,5790],[1775750400000,5790],[1775836800000,5790],[1775923200000,5790],[1776009600000,5365],[1776096000000,5566],[1776182400000,5566],[1776268800000,5566],[1776355200000,6501],[1776441600000,6812],[1776528000000,6812],[1776614400000,6812],[1776700800000,6812],[1776787200000,6700],[1776873600000,6700],[1776960000000,6364],[1777046400000,6700],[1777132800000,6700],[1777219200000,6700],[1777305600000,6726],[1777392000000,6726],[1777478400000,6588],[1777564800000,6212],[1777651200000,6212],[1777737600000,6212],[1777824000000,5764],[1777910400000,6660],[1777996800000,6660],[1778083200000,6660],[1778169600000,5764],[1778256000000,5764],[1778342400000,5764],[1778428800000,5764],[1778515200000,6225],[1778601600000,6225],[1778688000000,6996],[1778774400000,5764],[1778860800000,5086],[1778947200000,5086],[1779033600000,5982],[1779120000000,6878]]],[[1779186027455419,8709961,285302338],null,null,null,null,[[69]]],\\\"Cebu City\\\"],null,[[[null,6878],[null,141041]],[[[\\\"ONEWORLD\\\",\\\"Oneworld\\\"],[\\\"SKYTEAM\\\",\\\"SkyTeam\\\"],[\\\"STAR_ALLIANCE\\\",\\\"Star Alliance\\\"]],[[\\\"NZ\\\",\\\"Air New Zealand\\\"],[\\\"NH\\\",\\\"ANA\\\"],[\\\"OZ\\\",\\\"Asiana Airlines\\\"],[\\\"CX\\\",\\\"Cathay Pacific\\\"],[\\\"5J\\\",\\\"Cebu Pacific\\\"],[\\\"CI\\\",\\\"China Airlines\\\"],[\\\"MU\\\",\\\"China Eastern\\\"],[\\\"BR\\\",\\\"EVA Air\\\"],[\\\"AY\\\",\\\"Finnair\\\"],[\\\"FY\\\",\\\"Firefly\\\"],[\\\"GA\\\",\\\"Garuda Indonesia\\\"],[\\\"7C\\\",\\\"Jeju Air\\\"],[\\\"KE\\\",\\\"Korean Air\\\"],[\\\"LH\\\",\\\"Lufthansa\\\"],[\\\"MH\\\",\\\"Malaysia Airlines\\\"],[\\\"PR\\\",\\\"Philippine Airlines\\\"],[\\\"Z2\\\",\\\"Philippines AirAsia\\\"],[\\\"BI\\\",\\\"Royal Brunei\\\"],[\\\"TR\\\",\\\"Scoot\\\"],[\\\"SQ\\\",\\\"Singapore Airlines\\\"],[\\\"JX\\\",\\\"STARLUX Airlines\\\"],[\\\"LX\\\",\\\"SWISS\\\"],[\\\"VN\\\",\\\"Vietnam Airlines\\\"],[\\\"MF\\\",\\\"XiamenAir\\\"]]],[[[\\\"BCD\\\",\\\"Bacolod\\\"],[\\\"CGY\\\",\\\"Cagayan De Oro City\\\"],[\\\"MPH\\\",\\\"Caticlan\\\"],[\\\"CBO\\\",\\\"Cotabato City\\\"],[\\\"DVO\\\",\\\"Davao City\\\"],[\\\"GES\\\",\\\"General Santos City (Dadiangas)\\\"],[\\\"HKG\\\",\\\"Hong Kong\\\"],[\\\"ILO\\\",\\\"Iloilo City\\\"],[\\\"PPS\\\",\\\"Puerto Princesa City\\\"],[\\\"JJN\\\",\\\"Quanzhou\\\"],[\\\"ICN\\\",\\\"Seoul\\\"],[\\\"TAC\\\",\\\"Tacloban City\\\"],[\\\"TPE\\\",\\\"Taipei City\\\"],[\\\"ZAM\\\",\\\"Zamboanga City\\\"]],50,1410],[80,1750],[[1,2,3]],[true,false,false,false],null,[false]],null,null,null,[[\\\"5J\\\",\\\"Cebu Pacific\\\",\\\"https://www.cebupacificair.com/pages/travel-info/baggage-information/carry-on-baggage\\\"],[\\\"PR\\\",\\\"Philippine Airlines\\\",\\\"https://www.philippineairlines.com/en/before-you-fly/baggage-information\\\"]],[\\\"EAEaBAgDEAEhAAAAAADeukAqA1BIUDI0ChgKA01OTBIDQ0VCGgoyMDI2LTA2LTAxIAAKGAoDQ0VCEgNNTkwaCjIwMjYtMDYtMDUgAFABYjsKKgoHCgNNTkwQARIHCgNDRUIQARoKMjAyNi0wNi0wMSIKMjAyNi0wNi0wNRoNCgQIAxABEAEYAIgBAWgAcLmvwTI\\\\u003d\\\",0],null,[[1779186027455419,8709961,285302338],null,null,null,null,[[35]]],null,null,null,[\\\"EAEaBAgDEAEhAAAAAADeukAqA1BIUDIAUAFiGxoLCgQIAxABEAGIAQEqDBgCIgNNTkwqA0NFQmgAcLmvwTI\\\\u003d\\\",0],null,false,null,null,null,null,[[null,6878]],[[\\\"5J\\\",\\\"Cebu Pacific\\\",\\\"https://www.cebupacificair.com/pages/travel-info/special-service-request\\\"],[\\\"PR\\\",\\\"Philippine Airlines\\\",\\\"https://www.philippineairlines.com/en/before-you-fly/special-needs-and-request\\\"]],null,null,1,[[null,6878],\\\"CjRIcXlzLXNGeW4taGdBRHIwTGdCRy0tLS0tLS0tLXNlb3gyNUFBQUFBR29NT1dzRzZmMHdBEhZjb21wcmVoZW5zaXZlbmVzc19sdXJlGgoI3jUQABoDUEhQOBxwhVc\\\\u003d\\\"],true,true]\"]]\n57\n[[\"di\",231],[\"af.httprm\",230,\"9039491640805649212\",23]]\n28\n[[\"e\",5,null,null,102335]]\n",
+    "captured_at": "2026-05-19T10:20:27+00:00"
+  },
+  "offers": [
+    {
+      "origin_airport": "MNL",
+      "destination_airport": "CEB",
+      "departure_date": "2026-06-01",
+      "arrival_date": "2026-06-01",
+      "departure_time": "2026-06-01T19:25:00",
+      "arrival_time": "2026-06-01T21:05:00",
+      "duration_minutes": 100,
+      "stops": 0,
+      "price": 6878,
+      "currency": "PHP",
+      "airlines": [
+        "Cebu Pacific"
+      ],
+      "flight_numbers": [
+        "573"
+      ],
+      "layovers": [],
+      "emissions_kg": 54,
+      "emissions_delta_percent": -19,
+      "booking_token": "CjRIcXlzLXNGeW4taGdBRHIwTGdCRy0tLS0tLS0tLXNlb3gyNUFBQUFBR29NT1dzRzZmMHdBEgU1SjU3MxoKCN41EAAaA1BIUDgccIVX",
+      "is_best": true,
+      "segments": [
+        {
+          "airline_code": "5J",
+          "airline_name": "Cebu Pacific",
+          "flight_number": "573",
+          "operating_airline": null,
+          "origin_airport": "MNL",
+          "origin_name": "Ninoy Aquino International Airport",
+          "destination_airport": "CEB",
+          "destination_name": "Mactan-Cebu International Airport",
+          "departure_time": "2026-06-01T19:25:00",
+          "arrival_time": "2026-06-01T21:05:00",
+          "duration_minutes": 100,
+          "aircraft": "Airbus A330-900neo"
+        }
+      ]
+    },
+    {
+      "origin_airport": "MNL",
+      "destination_airport": "CEB",
+      "departure_date": "2026-06-01",
+      "arrival_date": "2026-06-01",
+      "departure_time": "2026-06-01T20:00:00",
+      "arrival_time": "2026-06-01T21:30:00",
+      "duration_minutes": 90,
+      "stops": 0,
+      "price": 6972,
+      "currency": "PHP",
+      "airlines": [
+        "Philippines AirAsia"
+      ],
+      "flight_numbers": [
+        "771"
+      ],
+      "layovers": [],
+      "emissions_kg": 67,
+      "emissions_delta_percent": 0,
+      "booking_token": "CjRIcXlzLXNGeW4taGdBRHIwTGdCRy0tLS0tLS0tLXNlb3gyNUFBQUFBR29NT1dzRzZmMHdBEgVaMjc3MRoKCLw2EAAaA1BIUDgccJ5Y",
+      "is_best": true,
+      "segments": [
+        {
+          "airline_code": "Z2",
+          "airline_name": "Philippines AirAsia",
+          "flight_number": "771",
+          "operating_airline": null,
+          "origin_airport": "MNL",
+          "origin_name": "Ninoy Aquino International Airport",
+          "destination_airport": "CEB",
+          "destination_name": "Mactan-Cebu International Airport",
+          "departure_time": "2026-06-01T20:00:00",
+          "arrival_time": "2026-06-01T21:30:00",
+          "duration_minutes": 90,
+          "aircraft": "Airbus A320"
+        }
+      ]
+    },
+    {
+      "origin_airport": "MNL",
+      "destination_airport": "CEB",
+      "departure_date": "2026-06-01",
+      "arrival_date": "2026-06-01",
+      "departure_time": "2026-06-01T07:55:00",
+      "arrival_time": "2026-06-01T09:25:00",
+      "duration_minutes": 90,
+      "stops": 0,
+      "price": 7260,
+      "currency": "PHP",
+      "airlines": [
+        "Philippines AirAsia"
+      ],
+      "flight_numbers": [
+        "9792"
+      ],
+      "layovers": [],
+      "emissions_kg": 67,
+      "emissions_delta_percent": 0,
+      "booking_token": "CjRIcXlzLXNGeW4taGdBRHIwTGdCRy0tLS0tLS0tLXNlb3gyNUFBQUFBR29NT1dzRzZmMHdBEgZaMjk3OTIaCgjcOBAAGgNQSFA4HHDwWw==",
+      "is_best": false,
+      "segments": [
+        {
+          "airline_code": "Z2",
+          "airline_name": "Philippines AirAsia",
+          "flight_number": "9792",
+          "operating_airline": null,
+          "origin_airport": "MNL",
+          "origin_name": "Ninoy Aquino International Airport",
+          "destination_airport": "CEB",
+          "destination_name": "Mactan-Cebu International Airport",
+          "departure_time": "2026-06-01T07:55:00",
+          "arrival_time": "2026-06-01T09:25:00",
+          "duration_minutes": 90,
+          "aircraft": "Airbus A320"
+        }
+      ]
+    },
+    {
+      "origin_airport": "MNL",
+      "destination_airport": "CEB",
+      "departure_date": "2026-06-01",
+      "arrival_date": "2026-06-01",
+      "departure_time": "2026-06-01T20:30:00",
+      "arrival_time": "2026-06-01T22:05:00",
+      "duration_minutes": 95,
+      "stops": 0,
+      "price": 6878,
+      "currency": "PHP",
+      "airlines": [
+        "Cebu Pacific"
+      ],
+      "flight_numbers": [
+        "2509"
+      ],
+      "layovers": [],
+      "emissions_kg": 55,
+      "emissions_delta_percent": -18,
+      "booking_token": "CjRIcXlzLXNGeW4taGdBRHIwTGdCRy0tLS0tLS0tLXNlb3gyNUFBQUFBR29NT1dzRzZmMHdBEgY1SjI1MDkaCgjeNRAAGgNQSFA4HHCFVw==",
+      "is_best": true,
+      "segments": [
+        {
+          "airline_code": "5J",
+          "airline_name": "Cebu Pacific",
+          "flight_number": "2509",
+          "operating_airline": null,
+          "origin_airport": "MNL",
+          "origin_name": "Ninoy Aquino International Airport",
+          "destination_airport": "CEB",
+          "destination_name": "Mactan-Cebu International Airport",
+          "departure_time": "2026-06-01T20:30:00",
+          "arrival_time": "2026-06-01T22:05:00",
+          "duration_minutes": 95,
+          "aircraft": "Airbus A320neo"
+        }
+      ]
+    },
+    {
+      "origin_airport": "MNL",
+      "destination_airport": "CEB",
+      "departure_date": "2026-06-01",
+      "arrival_date": "2026-06-01",
+      "departure_time": "2026-06-01T22:20:00",
+      "arrival_time": "2026-06-01T23:55:00",
+      "duration_minutes": 95,
+      "stops": 0,
+      "price": 6878,
+      "currency": "PHP",
+      "airlines": [
+        "Cebu Pacific"
+      ],
+      "flight_numbers": [
+        "2503"
+      ],
+      "layovers": [],
+      "emissions_kg": 66,
+      "emissions_delta_percent": -1,
+      "booking_token": "CjRIcXlzLXNGeW4taGdBRHIwTGdCRy0tLS0tLS0tLXNlb3gyNUFBQUFBR29NT1dzRzZmMHdBEgY1SjI1MDMaCgjeNRAAGgNQSFA4HHCFVw==",
+      "is_best": true,
+      "segments": [
+        {
+          "airline_code": "5J",
+          "airline_name": "Cebu Pacific",
+          "flight_number": "2503",
+          "operating_airline": null,
+          "origin_airport": "MNL",
+          "origin_name": "Ninoy Aquino International Airport",
+          "destination_airport": "CEB",
+          "destination_name": "Mactan-Cebu International Airport",
+          "departure_time": "2026-06-01T22:20:00",
+          "arrival_time": "2026-06-01T23:55:00",
+          "duration_minutes": 95,
+          "aircraft": "Airbus A321"
+        }
+      ]
+    },
+    {
+      "origin_airport": "MNL",
+      "destination_airport": "CEB",
+      "departure_date": "2026-06-01",
+      "arrival_date": "2026-06-01",
+      "departure_time": "2026-06-01T17:45:00",
+      "arrival_time": "2026-06-01T19:10:00",
+      "duration_minutes": 85,
+      "stops": 0,
+      "price": 7260,
+      "currency": "PHP",
+      "airlines": [
+        "Philippines AirAsia"
+      ],
+      "flight_numbers": [
+        "777"
+      ],
+      "layovers": [],
+      "emissions_kg": 67,
+      "emissions_delta_percent": 0,
+      "booking_token": "CjRIcXlzLXNGeW4taGdBRHIwTGdCRy0tLS0tLS0tLXNlb3gyNUFBQUFBR29NT1dzRzZmMHdBEgVaMjc3NxoKCNw4EAAaA1BIUDgccPBb",
+      "is_best": false,
+      "segments": [
+        {
+          "airline_code": "Z2",
+          "airline_name": "Philippines AirAsia",
+          "flight_number": "777",
+          "operating_airline": null,
+          "origin_airport": "MNL",
+          "origin_name": "Ninoy Aquino International Airport",
+          "destination_airport": "CEB",
+          "destination_name": "Mactan-Cebu International Airport",
+          "departure_time": "2026-06-01T17:45:00",
+          "arrival_time": "2026-06-01T19:10:00",
+          "duration_minutes": 85,
+          "aircraft": "Airbus A320"
+        }
+      ]
+    },
+    {
+      "origin_airport": "MNL",
+      "destination_airport": "CEB",
+      "departure_date": null,
+      "arrival_date": "2026-06-01",
+      "departure_time": null,
+      "arrival_time": "2026-06-01T01:30:00",
+      "duration_minutes": 90,
+      "stops": 0,
+      "price": 7326,
+      "currency": "PHP",
+      "airlines": [
+        "Cebu Pacific"
+      ],
+      "flight_numbers": [
+        "553"
+      ],
+      "layovers": [],
+      "emissions_kg": 51,
+      "emissions_delta_percent": -24,
+      "booking_token": "CjRIcXlzLXNGeW4taGdBRHIwTGdCRy0tLS0tLS0tLXNlb3gyNUFBQUFBR29NT1dzRzZmMHdBEgU1SjU1MxoKCJ45EAAaA1BIUDgccNtc",
+      "is_best": false,
+      "segments": [
+        {
+          "airline_code": "5J",
+          "airline_name": "Cebu Pacific",
+          "flight_number": "553",
+          "operating_airline": null,
+          "origin_airport": "MNL",
+          "origin_name": "Ninoy Aquino International Airport",
+          "destination_airport": "CEB",
+          "destination_name": "Mactan-Cebu International Airport",
+          "departure_time": null,
+          "arrival_time": "2026-06-01T01:30:00",
+          "duration_minutes": 90,
+          "aircraft": "Airbus A321neo"
+        }
+      ]
+    },
+    {
+      "origin_airport": "MNL",
+      "destination_airport": "CEB",
+      "departure_date": "2026-06-01",
+      "arrival_date": "2026-06-01",
+      "departure_time": "2026-06-01T00:15:00",
+      "arrival_time": "2026-06-01T01:50:00",
+      "duration_minutes": 95,
+      "stops": 0,
+      "price": 7326,
+      "currency": "PHP",
+      "airlines": [
+        "Cebu Pacific"
+      ],
+      "flight_numbers": [
+        "2513"
+      ],
+      "layovers": [],
+      "emissions_kg": 67,
+      "emissions_delta_percent": 0,
+      "booking_token": "CjRIcXlzLXNGeW4taGdBRHIwTGdCRy0tLS0tLS0tLXNlb3gyNUFBQUFBR29NT1dzRzZmMHdBEgY1SjI1MTMaCgieORAAGgNQSFA4HHDbXA==",
+      "is_best": false,
+      "segments": [
+        {
+          "airline_code": "5J",
+          "airline_name": "Cebu Pacific",
+          "flight_number": "2513",
+          "operating_airline": null,
+          "origin_airport": "MNL",
+          "origin_name": "Ninoy Aquino International Airport",
+          "destination_airport": "CEB",
+          "destination_name": "Mactan-Cebu International Airport",
+          "departure_time": "2026-06-01T00:15:00",
+          "arrival_time": "2026-06-01T01:50:00",
+          "duration_minutes": 95,
+          "aircraft": "Airbus A320"
+        }
+      ]
+    },
+    {
+      "origin_airport": "MNL",
+      "destination_airport": "CEB",
+      "departure_date": "2026-06-01",
+      "arrival_date": "2026-06-01",
+      "departure_time": "2026-06-01T03:50:00",
+      "arrival_time": "2026-06-01T05:30:00",
+      "duration_minutes": 100,
+      "stops": 0,
+      "price": 7550,
+      "currency": "PHP",
+      "airlines": [
+        "Cebu Pacific"
+      ],
+      "flight_numbers": [
+        "563"
+      ],
+      "layovers": [],
+      "emissions_kg": 66,
+      "emissions_delta_percent": -1,
+      "booking_token": "CjRIcXlzLXNGeW4taGdBRHIwTGdCRy0tLS0tLS0tLXNlb3gyNUFBQUFBR29NT1dzRzZmMHdBEgU1SjU2MxoKCP46EAAaA1BIUDgccMZf",
+      "is_best": false,
+      "segments": [
+        {
+          "airline_code": "5J",
+          "airline_name": "Cebu Pacific",
+          "flight_number": "563",
+          "operating_airline": null,
+          "origin_airport": "MNL",
+          "origin_name": "Ninoy Aquino International Airport",
+          "destination_airport": "CEB",
+          "destination_name": "Mactan-Cebu International Airport",
+          "departure_time": "2026-06-01T03:50:00",
+          "arrival_time": "2026-06-01T05:30:00",
+          "duration_minutes": 100,
+          "aircraft": "Airbus A321"
+        }
+      ]
+    },
+    {
+      "origin_airport": "MNL",
+      "destination_airport": "CEB",
+      "departure_date": "2026-06-01",
+      "arrival_date": "2026-06-01",
+      "departure_time": "2026-06-01T04:50:00",
+      "arrival_time": "2026-06-01T06:25:00",
+      "duration_minutes": 95,
+      "stops": 0,
+      "price": 7550,
+      "currency": "PHP",
+      "airlines": [
+        "Cebu Pacific"
+      ],
+      "flight_numbers": [
+        "561"
+      ],
+      "layovers": [],
+      "emissions_kg": 51,
+      "emissions_delta_percent": -24,
+      "booking_token": "CjRIcXlzLXNGeW4taGdBRHIwTGdCRy0tLS0tLS0tLXNlb3gyNUFBQUFBR29NT1dzRzZmMHdBEgU1SjU2MRoKCP46EAAaA1BIUDgccMZf",
+      "is_best": false,
+      "segments": [
+        {
+          "airline_code": "5J",
+          "airline_name": "Cebu Pacific",
+          "flight_number": "561",
+          "operating_airline": null,
+          "origin_airport": "MNL",
+          "origin_name": "Ninoy Aquino International Airport",
+          "destination_airport": "CEB",
+          "destination_name": "Mactan-Cebu International Airport",
+          "departure_time": "2026-06-01T04:50:00",
+          "arrival_time": "2026-06-01T06:25:00",
+          "duration_minutes": 95,
+          "aircraft": "Airbus A321neo"
+        }
+      ]
+    },
+    {
+      "origin_airport": "MNL",
+      "destination_airport": "CEB",
+      "departure_date": "2026-06-01",
+      "arrival_date": "2026-06-01",
+      "departure_time": "2026-06-01T18:50:00",
+      "arrival_time": "2026-06-01T20:25:00",
+      "duration_minutes": 95,
+      "stops": 0,
+      "price": 7550,
+      "currency": "PHP",
+      "airlines": [
+        "Cebu Pacific"
+      ],
+      "flight_numbers": [
+        "2515"
+      ],
+      "layovers": [],
+      "emissions_kg": 54,
+      "emissions_delta_percent": -19,
+      "booking_token": "CjRIcXlzLXNGeW4taGdBRHIwTGdCRy0tLS0tLS0tLXNlb3gyNUFBQUFBR29NT1dzRzZmMHdBEgY1SjI1MTUaCgj+OhAAGgNQSFA4HHDGXw==",
+      "is_best": false,
+      "segments": [
+        {
+          "airline_code": "5J",
+          "airline_name": "Cebu Pacific",
+          "flight_number": "2515",
+          "operating_airline": null,
+          "origin_airport": "MNL",
+          "origin_name": "Ninoy Aquino International Airport",
+          "destination_airport": "CEB",
+          "destination_name": "Mactan-Cebu International Airport",
+          "departure_time": "2026-06-01T18:50:00",
+          "arrival_time": "2026-06-01T20:25:00",
+          "duration_minutes": 95,
+          "aircraft": "Airbus A320neo"
+        }
+      ]
+    },
+    {
+      "origin_airport": "MNL",
+      "destination_airport": "CEB",
+      "departure_date": "2026-06-01",
+      "arrival_date": "2026-06-01",
+      "departure_time": "2026-06-01T16:15:00",
+      "arrival_time": "2026-06-01T17:55:00",
+      "duration_minutes": 100,
+      "stops": 0,
+      "price": 7774,
+      "currency": "PHP",
+      "airlines": [
+        "Cebu Pacific"
+      ],
+      "flight_numbers": [
+        "571"
+      ],
+      "layovers": [],
+      "emissions_kg": 55,
+      "emissions_delta_percent": -18,
+      "booking_token": "CjRIcXlzLXNGeW4taGdBRHIwTGdCRy0tLS0tLS0tLXNlb3gyNUFBQUFBR29NT1dzRzZmMHdBEgU1SjU3MRoKCN48EAAaA1BIUDgccLFi",
+      "is_best": false,
+      "segments": [
+        {
+          "airline_code": "5J",
+          "airline_name": "Cebu Pacific",
+          "flight_number": "571",
+          "operating_airline": null,
+          "origin_airport": "MNL",
+          "origin_name": "Ninoy Aquino International Airport",
+          "destination_airport": "CEB",
+          "destination_name": "Mactan-Cebu International Airport",
+          "departure_time": "2026-06-01T16:15:00",
+          "arrival_time": "2026-06-01T17:55:00",
+          "duration_minutes": 100,
+          "aircraft": "Airbus A320neo"
+        }
+      ]
+    },
+    {
+      "origin_airport": "MNL",
+      "destination_airport": "CEB",
+      "departure_date": "2026-06-01",
+      "arrival_date": "2026-06-01",
+      "departure_time": "2026-06-01T15:00:00",
+      "arrival_time": "2026-06-01T16:30:00",
+      "duration_minutes": 90,
+      "stops": 0,
+      "price": 8110,
+      "currency": "PHP",
+      "airlines": [
+        "Cebu Pacific"
+      ],
+      "flight_numbers": [
+        "581"
+      ],
+      "layovers": [],
+      "emissions_kg": 51,
+      "emissions_delta_percent": -24,
+      "booking_token": "CjRIcXlzLXNGeW4taGdBRHIwTGdCRy0tLS0tLS0tLXNlb3gyNUFBQUFBR29NT1dzRzZmMHdBEgU1SjU4MRoKCK4/EAAaA1BIUDgccNFm",
+      "is_best": false,
+      "segments": [
+        {
+          "airline_code": "5J",
+          "airline_name": "Cebu Pacific",
+          "flight_number": "581",
+          "operating_airline": null,
+          "origin_airport": "MNL",
+          "origin_name": "Ninoy Aquino International Airport",
+          "destination_airport": "CEB",
+          "destination_name": "Mactan-Cebu International Airport",
+          "departure_time": "2026-06-01T15:00:00",
+          "arrival_time": "2026-06-01T16:30:00",
+          "duration_minutes": 90,
+          "aircraft": "Airbus A321neo"
+        }
+      ]
+    },
+    {
+      "origin_airport": "MNL",
+      "destination_airport": "CEB",
+      "departure_date": "2026-06-01",
+      "arrival_date": "2026-06-01",
+      "departure_time": "2026-06-01T06:05:00",
+      "arrival_time": "2026-06-01T07:40:00",
+      "duration_minutes": 95,
+      "stops": 0,
+      "price": 8670,
+      "currency": "PHP",
+      "airlines": [
+        "Cebu Pacific"
+      ],
+      "flight_numbers": [
+        "587"
+      ],
+      "layovers": [],
+      "emissions_kg": 67,
+      "emissions_delta_percent": 0,
+      "booking_token": "CjRIcXlzLXNGeW4taGdBRHIwTGdCRy0tLS0tLS0tLXNlb3gyNUFBQUFBR29NT1dzRzZmMHdBEgU1SjU4NxoKCN5DEAAaA1BIUDgccNxt",
+      "is_best": false,
+      "segments": [
+        {
+          "airline_code": "5J",
+          "airline_name": "Cebu Pacific",
+          "flight_number": "587",
+          "operating_airline": null,
+          "origin_airport": "MNL",
+          "origin_name": "Ninoy Aquino International Airport",
+          "destination_airport": "CEB",
+          "destination_name": "Mactan-Cebu International Airport",
+          "departure_time": "2026-06-01T06:05:00",
+          "arrival_time": "2026-06-01T07:40:00",
+          "duration_minutes": 95,
+          "aircraft": "Airbus A320"
+        }
+      ]
+    },
+    {
+      "origin_airport": "MNL",
+      "destination_airport": "CEB",
+      "departure_date": "2026-06-01",
+      "arrival_date": "2026-06-02",
+      "departure_time": "2026-06-01T23:20:00",
+      "arrival_time": "2026-06-02T00:55:00",
+      "duration_minutes": 95,
+      "stops": 0,
+      "price": 8670,
+      "currency": "PHP",
+      "airlines": [
+        "Cebu Pacific"
+      ],
+      "flight_numbers": [
+        "583"
+      ],
+      "layovers": [],
+      "emissions_kg": 54,
+      "emissions_delta_percent": -19,
+      "booking_token": "CjRIcXlzLXNGeW4taGdBRHIwTGdCRy0tLS0tLS0tLXNlb3gyNUFBQUFBR29NT1dzRzZmMHdBEgU1SjU4MxoKCN5DEAAaA1BIUDgccNxt",
+      "is_best": false,
+      "segments": [
+        {
+          "airline_code": "5J",
+          "airline_name": "Cebu Pacific",
+          "flight_number": "583",
+          "operating_airline": null,
+          "origin_airport": "MNL",
+          "origin_name": "Ninoy Aquino International Airport",
+          "destination_airport": "CEB",
+          "destination_name": "Mactan-Cebu International Airport",
+          "departure_time": "2026-06-01T23:20:00",
+          "arrival_time": "2026-06-02T00:55:00",
+          "duration_minutes": 95,
+          "aircraft": "Airbus A320neo"
+        }
+      ]
+    },
+    {
+      "origin_airport": "MNL",
+      "destination_airport": "CEB",
+      "departure_date": "2026-06-01",
+      "arrival_date": "2026-06-01",
+      "departure_time": "2026-06-01T19:40:00",
+      "arrival_time": "2026-06-01T21:10:00",
+      "duration_minutes": 90,
+      "stops": 0,
+      "price": 8890,
+      "currency": "PHP",
+      "airlines": [
+        "Philippine Airlines"
+      ],
+      "flight_numbers": [
+        "1863"
+      ],
+      "layovers": [],
+      "emissions_kg": 62,
+      "emissions_delta_percent": -7,
+      "booking_token": "CjRIcXlzLXNGeW4taGdBRHIwTGdCRy0tLS0tLS0tLXNlb3gyNUFBQUFBR29NT1dzRzZmMHdBEgZQUjE4NjMaCgi6RRAAGgNQSFA4HHDAcA==",
+      "is_best": false,
+      "segments": [
+        {
+          "airline_code": "PR",
+          "airline_name": "Philippine Airlines",
+          "flight_number": "1863",
+          "operating_airline": null,
+          "origin_airport": "MNL",
+          "origin_name": "Ninoy Aquino International Airport",
+          "destination_airport": "CEB",
+          "destination_name": "Mactan-Cebu International Airport",
+          "departure_time": "2026-06-01T19:40:00",
+          "arrival_time": "2026-06-01T21:10:00",
+          "duration_minutes": 90,
+          "aircraft": "Airbus A330"
+        }
+      ]
+    },
+    {
+      "origin_airport": "MNL",
+      "destination_airport": "CEB",
+      "departure_date": "2026-06-01",
+      "arrival_date": "2026-06-01",
+      "departure_time": "2026-06-01T08:30:00",
+      "arrival_time": "2026-06-01T10:05:00",
+      "duration_minutes": 95,
+      "stops": 0,
+      "price": 9230,
+      "currency": "PHP",
+      "airlines": [
+        "Cebu Pacific"
+      ],
+      "flight_numbers": [
+        "551"
+      ],
+      "layovers": [],
+      "emissions_kg": 73,
+      "emissions_delta_percent": 9,
+      "booking_token": "CjRIcXlzLXNGeW4taGdBRHIwTGdCRy0tLS0tLS0tLXNlb3gyNUFBQUFBR29NT1dzRzZmMHdBEgU1SjU1MRoKCI5IEAAaA1BIUDgccOd0",
+      "is_best": false,
+      "segments": [
+        {
+          "airline_code": "5J",
+          "airline_name": "Cebu Pacific",
+          "flight_number": "551",
+          "operating_airline": null,
+          "origin_airport": "MNL",
+          "origin_name": "Ninoy Aquino International Airport",
+          "destination_airport": "CEB",
+          "destination_name": "Mactan-Cebu International Airport",
+          "departure_time": "2026-06-01T08:30:00",
+          "arrival_time": "2026-06-01T10:05:00",
+          "duration_minutes": 95,
+          "aircraft": "Airbus A321"
+        }
+      ]
+    },
+    {
+      "origin_airport": "MNL",
+      "destination_airport": "CEB",
+      "departure_date": "2026-06-01",
+      "arrival_date": "2026-06-01",
+      "departure_time": "2026-06-01T03:30:00",
+      "arrival_time": "2026-06-01T04:55:00",
+      "duration_minutes": 85,
+      "stops": 0,
+      "price": 9338,
+      "currency": "PHP",
+      "airlines": [
+        "Philippine Airlines"
+      ],
+      "flight_numbers": [
+        "1841"
+      ],
+      "layovers": [],
+      "emissions_kg": 74,
+      "emissions_delta_percent": 10,
+      "booking_token": "CjRIcXlzLXNGeW4taGdBRHIwTGdCRy0tLS0tLS0tLXNlb3gyNUFBQUFBR29NT1dzRzZmMHdBEgZQUjE4NDEaCgj6SBAAGgNQSFA4HHCWdg==",
+      "is_best": false,
+      "segments": [
+        {
+          "airline_code": "PR",
+          "airline_name": "Philippine Airlines",
+          "flight_number": "1841",
+          "operating_airline": null,
+          "origin_airport": "MNL",
+          "origin_name": "Ninoy Aquino International Airport",
+          "destination_airport": "CEB",
+          "destination_name": "Mactan-Cebu International Airport",
+          "departure_time": "2026-06-01T03:30:00",
+          "arrival_time": "2026-06-01T04:55:00",
+          "duration_minutes": 85,
+          "aircraft": "Airbus A321"
+        }
+      ]
+    },
+    {
+      "origin_airport": "MNL",
+      "destination_airport": "CEB",
+      "departure_date": "2026-06-01",
+      "arrival_date": "2026-06-01",
+      "departure_time": "2026-06-01T04:15:00",
+      "arrival_time": "2026-06-01T05:40:00",
+      "duration_minutes": 85,
+      "stops": 0,
+      "price": 9338,
+      "currency": "PHP",
+      "airlines": [
+        "Philippine Airlines"
+      ],
+      "flight_numbers": [
+        "2835"
+      ],
+      "layovers": [],
+      "emissions_kg": 67,
+      "emissions_delta_percent": 0,
+      "booking_token": "CjRIcXlzLXNGeW4taGdBRHIwTGdCRy0tLS0tLS0tLXNlb3gyNUFBQUFBR29NT1dzRzZmMHdBEgZQUjI4MzUaCgj6SBAAGgNQSFA4HHCWdg==",
+      "is_best": false,
+      "segments": [
+        {
+          "airline_code": "PR",
+          "airline_name": "Philippine Airlines",
+          "flight_number": "2835",
+          "operating_airline": "PAL Express",
+          "origin_airport": "MNL",
+          "origin_name": "Ninoy Aquino International Airport",
+          "destination_airport": "CEB",
+          "destination_name": "Mactan-Cebu International Airport",
+          "departure_time": "2026-06-01T04:15:00",
+          "arrival_time": "2026-06-01T05:40:00",
+          "duration_minutes": 85,
+          "aircraft": "Airbus A320"
+        }
+      ]
+    },
+    {
+      "origin_airport": "MNL",
+      "destination_airport": "CEB",
+      "departure_date": "2026-06-01",
+      "arrival_date": "2026-06-01",
+      "departure_time": "2026-06-01T03:55:00",
+      "arrival_time": "2026-06-01T05:20:00",
+      "duration_minutes": 85,
+      "stops": 0,
+      "price": 9453,
+      "currency": "PHP",
+      "airlines": [
+        "Philippines AirAsia"
+      ],
+      "flight_numbers": [
+        "779"
+      ],
+      "layovers": [],
+      "emissions_kg": 67,
+      "emissions_delta_percent": 0,
+      "booking_token": "CjRIcXlzLXNGeW4taGdBRHIwTGdCRy0tLS0tLS0tLXNlb3gyNUFBQUFBR29NT1dzRzZmMHdBEgVaMjc3ORoKCO1JEAAaA1BIUDgccNB3",
+      "is_best": false,
+      "segments": [
+        {
+          "airline_code": "Z2",
+          "airline_name": "Philippines AirAsia",
+          "flight_number": "779",
+          "operating_airline": null,
+          "origin_airport": "MNL",
+          "origin_name": "Ninoy Aquino International Airport",
+          "destination_airport": "CEB",
+          "destination_name": "Mactan-Cebu International Airport",
+          "departure_time": "2026-06-01T03:55:00",
+          "arrival_time": "2026-06-01T05:20:00",
+          "duration_minutes": 85,
+          "aircraft": "Airbus A320"
+        }
+      ]
+    },
+    {
+      "origin_airport": "MNL",
+      "destination_airport": "CEB",
+      "departure_date": "2026-06-01",
+      "arrival_date": "2026-06-01",
+      "departure_time": "2026-06-01T05:55:00",
+      "arrival_time": "2026-06-01T07:20:00",
+      "duration_minutes": 85,
+      "stops": 0,
+      "price": 9453,
+      "currency": "PHP",
+      "airlines": [
+        "Philippines AirAsia"
+      ],
+      "flight_numbers": [
+        "763"
+      ],
+      "layovers": [],
+      "emissions_kg": 67,
+      "emissions_delta_percent": 0,
+      "booking_token": "CjRIcXlzLXNGeW4taGdBRHIwTGdCRy0tLS0tLS0tLXNlb3gyNUFBQUFBR29NT1dzRzZmMHdBEgVaMjc2MxoKCO1JEAAaA1BIUDgccNB3",
+      "is_best": false,
+      "segments": [
+        {
+          "airline_code": "Z2",
+          "airline_name": "Philippines AirAsia",
+          "flight_number": "763",
+          "operating_airline": null,
+          "origin_airport": "MNL",
+          "origin_name": "Ninoy Aquino International Airport",
+          "destination_airport": "CEB",
+          "destination_name": "Mactan-Cebu International Airport",
+          "departure_time": "2026-06-01T05:55:00",
+          "arrival_time": "2026-06-01T07:20:00",
+          "duration_minutes": 85,
+          "aircraft": "Airbus A320"
+        }
+      ]
+    },
+    {
+      "origin_airport": "MNL",
+      "destination_airport": "CEB",
+      "departure_date": "2026-06-01",
+      "arrival_date": "2026-06-01",
+      "departure_time": "2026-06-01T16:00:00",
+      "arrival_time": "2026-06-01T17:25:00",
+      "duration_minutes": 85,
+      "stops": 0,
+      "price": 9453,
+      "currency": "PHP",
+      "airlines": [
+        "Philippines AirAsia"
+      ],
+      "flight_numbers": [
+        "781"
+      ],
+      "layovers": [],
+      "emissions_kg": 67,
+      "emissions_delta_percent": 0,
+      "booking_token": "CjRIcXlzLXNGeW4taGdBRHIwTGdCRy0tLS0tLS0tLXNlb3gyNUFBQUFBR29NT1dzRzZmMHdBEgVaMjc4MRoKCO1JEAAaA1BIUDgccNB3",
+      "is_best": false,
+      "segments": [
+        {
+          "airline_code": "Z2",
+          "airline_name": "Philippines AirAsia",
+          "flight_number": "781",
+          "operating_airline": null,
+          "origin_airport": "MNL",
+          "origin_name": "Ninoy Aquino International Airport",
+          "destination_airport": "CEB",
+          "destination_name": "Mactan-Cebu International Airport",
+          "departure_time": "2026-06-01T16:00:00",
+          "arrival_time": "2026-06-01T17:25:00",
+          "duration_minutes": 85,
+          "aircraft": "Airbus A320"
+        }
+      ]
+    },
+    {
+      "origin_airport": "MNL",
+      "destination_airport": "CEB",
+      "departure_date": "2026-06-01",
+      "arrival_date": "2026-06-01",
+      "departure_time": "2026-06-01T07:00:00",
+      "arrival_time": "2026-06-01T08:35:00",
+      "duration_minutes": 95,
+      "stops": 0,
+      "price": 9790,
+      "currency": "PHP",
+      "airlines": [
+        "Cebu Pacific"
+      ],
+      "flight_numbers": [
+        "2501"
+      ],
+      "layovers": [],
+      "emissions_kg": 67,
+      "emissions_delta_percent": 0,
+      "booking_token": "CjRIcXlzLXNGeW4taGdBRHIwTGdCRy0tLS0tLS0tLXNlb3gyNUFBQUFBR29NT1dzRzZmMHdBEgY1SjI1MDEaCgi+TBAAGgNQSFA4HHDyew==",
+      "is_best": false,
+      "segments": [
+        {
+          "airline_code": "5J",
+          "airline_name": "Cebu Pacific",
+          "flight_number": "2501",
+          "operating_airline": null,
+          "origin_airport": "MNL",
+          "origin_name": "Ninoy Aquino International Airport",
+          "destination_airport": "CEB",
+          "destination_name": "Mactan-Cebu International Airport",
+          "departure_time": "2026-06-01T07:00:00",
+          "arrival_time": "2026-06-01T08:35:00",
+          "duration_minutes": 95,
+          "aircraft": "Airbus A320"
+        }
+      ]
+    },
+    {
+      "origin_airport": "MNL",
+      "destination_airport": "CEB",
+      "departure_date": "2026-06-01",
+      "arrival_date": "2026-06-01",
+      "departure_time": "2026-06-01T10:10:00",
+      "arrival_time": "2026-06-01T11:40:00",
+      "duration_minutes": 90,
+      "stops": 0,
+      "price": 10910,
+      "currency": "PHP",
+      "airlines": [
+        "Cebu Pacific"
+      ],
+      "flight_numbers": [
+        "585"
+      ],
+      "layovers": [],
+      "emissions_kg": 56,
+      "emissions_delta_percent": -16,
+      "booking_token": "CjRIcXlzLXNGeW4taGdBRHIwTGdCRy0tLS0tLS0tLXNlb3gyNUFBQUFBR29NT1dzRzZmMHdBEgU1SjU4NRoKCJ5VEAAaA1BIUDgccImKAQ==",
+      "is_best": false,
+      "segments": [
+        {
+          "airline_code": "5J",
+          "airline_name": "Cebu Pacific",
+          "flight_number": "585",
+          "operating_airline": null,
+          "origin_airport": "MNL",
+          "origin_name": "Ninoy Aquino International Airport",
+          "destination_airport": "CEB",
+          "destination_name": "Mactan-Cebu International Airport",
+          "departure_time": "2026-06-01T10:10:00",
+          "arrival_time": "2026-06-01T11:40:00",
+          "duration_minutes": 90,
+          "aircraft": "Airbus A320neo"
+        }
+      ]
+    },
+    {
+      "origin_airport": "MNL",
+      "destination_airport": "CEB",
+      "departure_date": "2026-06-01",
+      "arrival_date": "2026-06-01",
+      "departure_time": "2026-06-01T10:40:00",
+      "arrival_time": "2026-06-01T12:15:00",
+      "duration_minutes": 95,
+      "stops": 0,
+      "price": 10910,
+      "currency": "PHP",
+      "airlines": [
+        "Cebu Pacific"
+      ],
+      "flight_numbers": [
+        "565"
+      ],
+      "layovers": [],
+      "emissions_kg": 55,
+      "emissions_delta_percent": -18,
+      "booking_token": "CjRIcXlzLXNGeW4taGdBRHIwTGdCRy0tLS0tLS0tLXNlb3gyNUFBQUFBR29NT1dzRzZmMHdBEgU1SjU2NRoKCJ5VEAAaA1BIUDgccImKAQ==",
+      "is_best": false,
+      "segments": [
+        {
+          "airline_code": "5J",
+          "airline_name": "Cebu Pacific",
+          "flight_number": "565",
+          "operating_airline": null,
+          "origin_airport": "MNL",
+          "origin_name": "Ninoy Aquino International Airport",
+          "destination_airport": "CEB",
+          "destination_name": "Mactan-Cebu International Airport",
+          "departure_time": "2026-06-01T10:40:00",
+          "arrival_time": "2026-06-01T12:15:00",
+          "duration_minutes": 95,
+          "aircraft": "Airbus A320neo"
+        }
+      ]
+    },
+    {
+      "origin_airport": "MNL",
+      "destination_airport": "CEB",
+      "departure_date": "2026-06-01",
+      "arrival_date": "2026-06-01",
+      "departure_time": "2026-06-01T16:45:00",
+      "arrival_time": "2026-06-01T18:10:00",
+      "duration_minutes": 85,
+      "stops": 0,
+      "price": 11578,
+      "currency": "PHP",
+      "airlines": [
+        "Philippine Airlines"
+      ],
+      "flight_numbers": [
+        "2861"
+      ],
+      "layovers": [],
+      "emissions_kg": 67,
+      "emissions_delta_percent": 0,
+      "booking_token": "CjRIcXlzLXNGeW4taGdBRHIwTGdCRy0tLS0tLS0tLXNlb3gyNUFBQUFBR29NT1dzRzZmMHdBEgZQUjI4NjEaCgi6WhAAGgNQSFA4HHDDkgE=",
+      "is_best": false,
+      "segments": [
+        {
+          "airline_code": "PR",
+          "airline_name": "Philippine Airlines",
+          "flight_number": "2861",
+          "operating_airline": "PAL Express",
+          "origin_airport": "MNL",
+          "origin_name": "Ninoy Aquino International Airport",
+          "destination_airport": "CEB",
+          "destination_name": "Mactan-Cebu International Airport",
+          "departure_time": "2026-06-01T16:45:00",
+          "arrival_time": "2026-06-01T18:10:00",
+          "duration_minutes": 85,
+          "aircraft": "Airbus A320"
+        }
+      ]
+    },
+    {
+      "origin_airport": "MNL",
+      "destination_airport": "CEB",
+      "departure_date": "2026-06-01",
+      "arrival_date": "2026-06-01",
+      "departure_time": "2026-06-01T22:05:00",
+      "arrival_time": "2026-06-01T23:25:00",
+      "duration_minutes": 80,
+      "stops": 0,
+      "price": 11578,
+      "currency": "PHP",
+      "airlines": [
+        "Philippine Airlines"
+      ],
+      "flight_numbers": [
+        "2859"
+      ],
+      "layovers": [],
+      "emissions_kg": 67,
+      "emissions_delta_percent": 0,
+      "booking_token": "CjRIcXlzLXNGeW4taGdBRHIwTGdCRy0tLS0tLS0tLXNlb3gyNUFBQUFBR29NT1dzRzZmMHdBEgZQUjI4NTkaCgi6WhAAGgNQSFA4HHDDkgE=",
+      "is_best": false,
+      "segments": [
+        {
+          "airline_code": "PR",
+          "airline_name": "Philippine Airlines",
+          "flight_number": "2859",
+          "operating_airline": "PAL Express",
+          "origin_airport": "MNL",
+          "origin_name": "Ninoy Aquino International Airport",
+          "destination_airport": "CEB",
+          "destination_name": "Mactan-Cebu International Airport",
+          "departure_time": "2026-06-01T22:05:00",
+          "arrival_time": "2026-06-01T23:25:00",
+          "duration_minutes": 80,
+          "aircraft": "Airbus A320"
+        }
+      ]
+    },
+    {
+      "origin_airport": "MNL",
+      "destination_airport": "CEB",
+      "departure_date": "2026-06-01",
+      "arrival_date": "2026-06-01",
+      "departure_time": "2026-06-01T11:50:00",
+      "arrival_time": "2026-06-01T13:10:00",
+      "duration_minutes": 80,
+      "stops": 0,
+      "price": 12474,
+      "currency": "PHP",
+      "airlines": [
+        "Philippine Airlines"
+      ],
+      "flight_numbers": [
+        "1853"
+      ],
+      "layovers": [],
+      "emissions_kg": 74,
+      "emissions_delta_percent": 10,
+      "booking_token": "CjRIcXlzLXNGeW4taGdBRHIwTGdCRy0tLS0tLS0tLXNlb3gyNUFBQUFBR29NT1dzRzZmMHdBEgZQUjE4NTMaCgi6YRAAGgNQSFA4HHDunQE=",
+      "is_best": false,
+      "segments": [
+        {
+          "airline_code": "PR",
+          "airline_name": "Philippine Airlines",
+          "flight_number": "1853",
+          "operating_airline": null,
+          "origin_airport": "MNL",
+          "origin_name": "Ninoy Aquino International Airport",
+          "destination_airport": "CEB",
+          "destination_name": "Mactan-Cebu International Airport",
+          "departure_time": "2026-06-01T11:50:00",
+          "arrival_time": "2026-06-01T13:10:00",
+          "duration_minutes": 80,
+          "aircraft": "Airbus A321"
+        }
+      ]
+    },
+    {
+      "origin_airport": "MNL",
+      "destination_airport": "CEB",
+      "departure_date": "2026-06-01",
+      "arrival_date": "2026-06-01",
+      "departure_time": "2026-06-01T13:25:00",
+      "arrival_time": "2026-06-01T14:45:00",
+      "duration_minutes": 80,
+      "stops": 0,
+      "price": 12474,
+      "currency": "PHP",
+      "airlines": [
+        "Philippine Airlines"
+      ],
+      "flight_numbers": [
+        "2867"
+      ],
+      "layovers": [],
+      "emissions_kg": 67,
+      "emissions_delta_percent": 0,
+      "booking_token": "CjRIcXlzLXNGeW4taGdBRHIwTGdCRy0tLS0tLS0tLXNlb3gyNUFBQUFBR29NT1dzRzZmMHdBEgZQUjI4NjcaCgi6YRAAGgNQSFA4HHDunQE=",
+      "is_best": false,
+      "segments": [
+        {
+          "airline_code": "PR",
+          "airline_name": "Philippine Airlines",
+          "flight_number": "2867",
+          "operating_airline": "PAL Express",
+          "origin_airport": "MNL",
+          "origin_name": "Ninoy Aquino International Airport",
+          "destination_airport": "CEB",
+          "destination_name": "Mactan-Cebu International Airport",
+          "departure_time": "2026-06-01T13:25:00",
+          "arrival_time": "2026-06-01T14:45:00",
+          "duration_minutes": 80,
+          "aircraft": "Airbus A320"
+        }
+      ]
+    },
+    {
+      "origin_airport": "MNL",
+      "destination_airport": "CEB",
+      "departure_date": "2026-06-01",
+      "arrival_date": "2026-06-01",
+      "departure_time": "2026-06-01T05:00:00",
+      "arrival_time": "2026-06-01T06:25:00",
+      "duration_minutes": 85,
+      "stops": 0,
+      "price": 13594,
+      "currency": "PHP",
+      "airlines": [
+        "Philippine Airlines"
+      ],
+      "flight_numbers": [
+        "2845"
+      ],
+      "layovers": [],
+      "emissions_kg": 74,
+      "emissions_delta_percent": 10,
+      "booking_token": "CjRIcXlzLXNGeW4taGdBRHIwTGdCRy0tLS0tLS0tLXNlb3gyNUFBQUFBR29NT1dzRzZmMHdBEgZQUjI4NDUaCgiaahAAGgNQSFA4HHCErAE=",
+      "is_best": false,
+      "segments": [
+        {
+          "airline_code": "PR",
+          "airline_name": "Philippine Airlines",
+          "flight_number": "2845",
+          "operating_airline": "PAL Express",
+          "origin_airport": "MNL",
+          "origin_name": "Ninoy Aquino International Airport",
+          "destination_airport": "CEB",
+          "destination_name": "Mactan-Cebu International Airport",
+          "departure_time": "2026-06-01T05:00:00",
+          "arrival_time": "2026-06-01T06:25:00",
+          "duration_minutes": 85,
+          "aircraft": "Airbus A321"
+        }
+      ]
+    },
+    {
+      "origin_airport": "MNL",
+      "destination_airport": "CEB",
+      "departure_date": "2026-06-01",
+      "arrival_date": "2026-06-01",
+      "departure_time": "2026-06-01T03:20:00",
+      "arrival_time": "2026-06-01T04:45:00",
+      "duration_minutes": 85,
+      "stops": 0,
+      "price": 15065,
+      "currency": "PHP",
+      "airlines": [
+        "Philippines AirAsia"
+      ],
+      "flight_numbers": [
+        "759"
+      ],
+      "layovers": [],
+      "emissions_kg": 67,
+      "emissions_delta_percent": 0,
+      "booking_token": "CjRIcXlzLXNGeW4taGdBRHIwTGdCRy0tLS0tLS0tLXNlb3gyNUFBQUFBR29NT1dzRzZmMHdBEgVaMjc1ORoKCNl1EAAaA1BIUDgccNO+AQ==",
+      "is_best": false,
+      "segments": [
+        {
+          "airline_code": "Z2",
+          "airline_name": "Philippines AirAsia",
+          "flight_number": "759",
+          "operating_airline": null,
+          "origin_airport": "MNL",
+          "origin_name": "Ninoy Aquino International Airport",
+          "destination_airport": "CEB",
+          "destination_name": "Mactan-Cebu International Airport",
+          "departure_time": "2026-06-01T03:20:00",
+          "arrival_time": "2026-06-01T04:45:00",
+          "duration_minutes": 85,
+          "aircraft": "Airbus A320"
+        }
+      ]
+    },
+    {
+      "origin_airport": "MNL",
+      "destination_airport": "CEB",
+      "departure_date": "2026-06-01",
+      "arrival_date": "2026-06-01",
+      "departure_time": "2026-06-01T09:15:00",
+      "arrival_time": "2026-06-01T10:35:00",
+      "duration_minutes": 80,
+      "stops": 0,
+      "price": 15386,
+      "currency": "PHP",
+      "airlines": [
+        "Philippine Airlines"
+      ],
+      "flight_numbers": [
+        "2849"
+      ],
+      "layovers": [],
+      "emissions_kg": 74,
+      "emissions_delta_percent": 10,
+      "booking_token": "CjRIcXlzLXNGeW4taGdBRHIwTGdCRy0tLS0tLS0tLXNlb3gyNUFBQUFBR29NT1dzRzZmMHdBEgZQUjI4NDkaCgiaeBAAGgNQSFA4HHDbwgE=",
+      "is_best": false,
+      "segments": [
+        {
+          "airline_code": "PR",
+          "airline_name": "Philippine Airlines",
+          "flight_number": "2849",
+          "operating_airline": "PAL Express",
+          "origin_airport": "MNL",
+          "origin_name": "Ninoy Aquino International Airport",
+          "destination_airport": "CEB",
+          "destination_name": "Mactan-Cebu International Airport",
+          "departure_time": "2026-06-01T09:15:00",
+          "arrival_time": "2026-06-01T10:35:00",
+          "duration_minutes": 80,
+          "aircraft": "Airbus A321"
+        }
+      ]
+    }
+  ],
+  "archive_dir": "artifacts\\20260519T102027834865Z",
+  "requested_mode": "replay",
+  "executed_mode": "browser_bootstrap",
+  "timings": {
+    "total_seconds": 5.6861,
+    "submission_seconds": 4.7969,
+    "parse_seconds": 0.0039,
+    "archive_seconds": 0.0171
+  },
+  "notes": [
+    "browser bootstrap captured replay template"
+  ]
+}

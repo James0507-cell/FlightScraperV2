@@ -1,0 +1,1236 @@
+- generic [active] [ref=e1]:
+  - banner [ref=e3]:
+    - generic [ref=e4]:
+      - generic [ref=e5]:
+        - button "Main menu" [ref=e6] [cursor=pointer]:
+          - img [ref=e7]
+        - link "Google" [ref=e11] [cursor=pointer]:
+          - /url: /
+      - generic [ref=e13]:
+        - generic [ref=e15]:
+          - generic:
+            - button "Skip to main content" [ref=e16]:
+              - generic: Skip to main content
+            - button "Accessibility feedback" [ref=e19]:
+              - generic: Accessibility feedback
+          - navigation [ref=e23]:
+            - link "Travel" [ref=e26]:
+              - img [ref=e29]
+              - generic: Travel
+            - link "Explore" [ref=e35]:
+              - img [ref=e38]
+              - generic: Explore
+            - link "Flights" [ref=e43]:
+              - img [ref=e46]
+              - generic: Flights
+            - link "Hotels" [ref=e51]:
+              - img [ref=e54]
+              - generic: Hotels
+            - link "Vacation rentals" [ref=e62]:
+              - img [ref=e65]
+              - generic: Vacation rentals
+        - generic [ref=e79]:
+          - button "Change appearance" [ref=e81]:
+            - img
+          - tooltip [ref=e84]: Change appearance
+      - generic [ref=e86]:
+        - button "Google apps" [ref=e90] [cursor=pointer]:
+          - img [ref=e91]
+        - link "Sign in" [ref=e94] [cursor=pointer]:
+          - /url: https://accounts.google.com/ServiceLogin?service=searchandassistant&passive=1209600&continue=https://www.google.com/travel/flights/search?tfs%3DCBwQAhogEgoyMDI2LTA2LTAxKABqBwgBEgNNTkxyBwgBEgNDRUIaIBIKMjAyNi0wNi0wNSgAagcIARIDQ0VCcgcIARIDTU5MQAFIAXABggELCP___________wGYAQE&followup=https://www.google.com/travel/flights/search?tfs%3DCBwQAhogEgoyMDI2LTA2LTAxKABqBwgBEgNNTkxyBwgBEgNDRUIaIBIKMjAyNi0wNi0wNSgAagcIARIDQ0VCcgcIARIDTU5MQAFIAXABggELCP___________wGYAQE&ec=GAZAlQM
+  - generic [ref=e102]:
+    - generic [ref=e104]:
+      - generic [ref=e105]: Loading results
+      - progressbar [ref=e106]
+    - generic [ref=e113]:
+      - search [ref=e114]:
+        - heading "Flight search" [level=1] [ref=e115]
+        - generic [ref=e116]:
+          - generic [ref=e117]:
+            - combobox "Change ticket type. Round trip" [ref=e122] [cursor=pointer]:
+              - generic:
+                - img
+              - generic:
+                - generic: Round trip
+              - generic:
+                - img
+            - button "1 passenger, change number of passengers." [ref=e128]:
+              - generic [ref=e131]:
+                - img [ref=e132]
+                - generic [ref=e134]: "1"
+              - img [ref=e135]
+            - combobox "Change seating class. Economy" [ref=e141] [cursor=pointer]:
+              - generic:
+                - generic: Economy
+              - generic:
+                - img
+          - generic [ref=e143]:
+            - generic [ref=e144]:
+              - generic [ref=e150]:
+                - combobox "Where from? Manila MNL" [ref=e151]: Manila
+                - generic [ref=e153]: Manila MNL
+                - img [ref=e154]
+              - button "Swap origin and destination." [ref=e158] [cursor=pointer]:
+                - img [ref=e159]
+              - generic [ref=e166]:
+                - combobox "Where to? Cebu City CEB" [ref=e167]: Cebu City
+                - generic [ref=e169]: Cebu City CEB
+                - img [ref=e170]
+            - generic [ref=e181]:
+              - generic [ref=e183]:
+                - img [ref=e185]
+                - textbox "Departure" [ref=e188]: Mon, Jun 1
+                - button [ref=e191]:
+                  - img [ref=e194]
+                - button [ref=e198]:
+                  - img [ref=e201]
+              - generic [ref=e205]:
+                - textbox "Return" [ref=e206]: Fri, Jun 5
+                - button [ref=e209]:
+                  - img [ref=e212]
+                - button [ref=e216]:
+                  - img [ref=e219]
+          - heading "Filters" [level=2] [ref=e222]
+          - generic [ref=e225]:
+            - button "All filters, 1 filter selected" [ref=e228]:
+              - img [ref=e231]
+              - generic [ref=e233]: All filters (1)
+            - generic [ref=e236]:
+              - generic [ref=e238]:
+                - button "Nonstop, Stops, Selected" [ref=e239]:
+                  - generic [ref=e243]: Nonstop
+                - button "Clear Stops" [ref=e244] [cursor=pointer]:
+                  - img [ref=e245]
+              - button "Airlines, Not selected" [ref=e250]:
+                - generic [ref=e254]:
+                  - generic [ref=e255]: Airlines
+                  - img [ref=e256]
+              - button "Bags, Not selected" [ref=e260]:
+                - generic [ref=e264]:
+                  - generic [ref=e265]: Bags
+                  - img [ref=e266]
+              - button "Price, Not selected" [ref=e270]:
+                - generic [ref=e274]:
+                  - generic [ref=e275]: Price
+                  - img [ref=e276]
+              - button "Times, Not selected" [ref=e280]:
+                - generic [ref=e284]:
+                  - generic [ref=e285]: Times
+                  - img [ref=e286]
+              - button "Emissions, Not selected" [ref=e290]:
+                - generic [ref=e294]:
+                  - generic [ref=e295]: Emissions
+                  - img [ref=e296]
+              - button "Connecting airports, Not selected" [ref=e300]:
+                - generic [ref=e304]:
+                  - generic [ref=e305]: Connecting airports
+                  - img [ref=e306]
+              - button "Duration, Not selected" [ref=e310]:
+                - generic [ref=e314]:
+                  - generic [ref=e315]: Duration
+                  - img [ref=e316]
+      - main [ref=e318]:
+        - heading "Search results" [level=2] [ref=e319]
+        - generic [ref=e321]:
+          - tablist [ref=e322]:
+            - tab "BestLearn more about ranking" [selected] [ref=e323] [cursor=pointer]:
+              - generic [ref=e324]:
+                - text: Best
+                - button "Learn more about ranking" [ref=e330]:
+                  - img [ref=e332]
+            - tab "Cheapest from Fetching results 6878 Philippine pesos Learn more about ranking" [ref=e334] [cursor=pointer]:
+              - generic [ref=e335]:
+                - text: Cheapest
+                - generic [ref=e337]:
+                  - generic [ref=e338]:
+                    - text: from
+                    - generic [ref=e339]:
+                      - generic [ref=e340]:
+                        - generic [ref=e341]: Fetching results
+                        - progressbar [ref=e342]:
+                          - img [ref=e344]
+                          - generic [ref=e348]:
+                            - img [ref=e350]
+                            - img [ref=e353]
+                            - img [ref=e356]
+                      - text: ₱6,878
+                  - button "Learn more about ranking" [ref=e361]:
+                    - img [ref=e363]
+          - tabpanel "BestLearn more about ranking" [ref=e365]:
+            - generic [ref=e366]:
+              - heading "Top departing flights" [level=3] [ref=e367]
+              - generic [ref=e368]:
+                - generic [ref=e369]:
+                  - text: Ranked based on price and convenience
+                  - button "Learn more about ranking" [ref=e373] [cursor=pointer]:
+                    - img [ref=e375]
+                  - text: Prices include required taxes + fees for 1 adult.
+                  - generic [ref=e377]:
+                    - text: Optional charges and
+                    - button "bag fees" [ref=e378] [cursor=pointer]
+                    - text: may apply.
+                    - generic [ref=e379]:
+                      - button "Passenger assistance" [ref=e380] [cursor=pointer]
+                      - text: info.
+                - button "Sorted by top flights, Change sort order." [ref=e385]:
+                  - generic [ref=e388]: Sorted by top flights
+                  - img [ref=e389]
+              - list [ref=e391]:
+                - listitem [ref=e392]:
+                  - generic [ref=e393]:
+                    - link "From 6878 Philippine pesos round trip total. Nonstop flight with Cebu Pacific. Leaves Ninoy Aquino International Airport at 7:25 PM on Monday, June 1 and arrives at Mactan-Cebu International Airport at 9:05 PM on Monday, June 1. Total duration 1 hr 40 min. Select flight"
+                    - generic [ref=e395] [cursor=pointer]:
+                      - generic [ref=e397]:
+                        - generic [ref=e399]:
+                          - generic "Leaves Ninoy Aquino International Airport at 7:25 PM on Monday, June 1 and arrives at Mactan-Cebu International Airport at 9:05 PM on Monday, June 1." [ref=e401]:
+                            - 'generic "Departure time: 7:25 PM." [ref=e404]': 7:25 PM
+                            - text: –
+                            - 'generic "Arrival time: 9:05 PM." [ref=e407]': 9:05 PM
+                          - generic [ref=e408]: Cebu Pacific
+                        - generic [ref=e409]:
+                          - generic "Total duration 1 hr 40 min." [ref=e410]: 1 hr 40 min
+                          - generic [ref=e411]:
+                            - generic [ref=e414]: MNL
+                            - text: –
+                            - generic [ref=e417]: CEB
+                        - generic "Nonstop flight." [ref=e420]: Nonstop
+                        - generic [ref=e422]:
+                          - generic [ref=e424]: 54 kg CO2e
+                          - generic [ref=e425]:
+                            - generic [ref=e426]: "-19% emissions"
+                            - 'button "Carbon emissions estimate: 54 kilograms. -19% emissions. Learn more about this emissions estimate" [ref=e427]':
+                              - img [ref=e428]
+                        - generic [ref=e430]:
+                          - generic [ref=e432]: ₱6,878
+                          - generic [ref=e433]: round trip
+                      - text: · ··
+                    - button "Flight details. Leaves Ninoy Aquino International Airport at 7:25 PM on Monday, June 1 and arrives at Mactan-Cebu International Airport at 9:05 PM on Monday, June 1." [ref=e436]:
+                      - img [ref=e439]
+                - listitem [ref=e441]:
+                  - generic [ref=e442]:
+                    - link "From 6972 Philippine pesos round trip total. Nonstop flight with Philippines AirAsia. Leaves Ninoy Aquino International Airport at 8:00 PM on Monday, June 1 and arrives at Mactan-Cebu International Airport at 9:30 PM on Monday, June 1. Total duration 1 hr 30 min. Select flight"
+                    - generic [ref=e444] [cursor=pointer]:
+                      - generic [ref=e446]:
+                        - generic [ref=e448]:
+                          - generic "Leaves Ninoy Aquino International Airport at 8:00 PM on Monday, June 1 and arrives at Mactan-Cebu International Airport at 9:30 PM on Monday, June 1." [ref=e450]:
+                            - 'generic "Departure time: 8:00 PM." [ref=e453]': 8:00 PM
+                            - text: –
+                            - 'generic "Arrival time: 9:30 PM." [ref=e456]': 9:30 PM
+                          - generic [ref=e457]: Philippines AirAsia
+                        - generic [ref=e458]:
+                          - generic "Total duration 1 hr 30 min." [ref=e459]: 1 hr 30 min
+                          - generic [ref=e460]:
+                            - generic [ref=e463]: MNL
+                            - text: –
+                            - generic [ref=e466]: CEB
+                        - generic "Nonstop flight." [ref=e469]: Nonstop
+                        - generic [ref=e471]:
+                          - generic [ref=e473]: 67 kg CO2e
+                          - generic [ref=e474]:
+                            - generic [ref=e475]: Avg emissions
+                            - 'button "Carbon emissions estimate: 67 kilograms. Average emissions. Learn more about this emissions estimate" [ref=e476]':
+                              - img [ref=e477]
+                        - generic [ref=e479]:
+                          - generic [ref=e481]: ₱6,972
+                          - generic [ref=e482]: round trip
+                      - text: · ··
+                    - button "Flight details. Leaves Ninoy Aquino International Airport at 8:00 PM on Monday, June 1 and arrives at Mactan-Cebu International Airport at 9:30 PM on Monday, June 1." [ref=e485]:
+                      - img [ref=e488]
+                - listitem [ref=e490]:
+                  - generic [ref=e491]:
+                    - link "From 7260 Philippine pesos round trip total. Nonstop flight with Philippines AirAsia. Leaves Ninoy Aquino International Airport at 7:55 AM on Monday, June 1 and arrives at Mactan-Cebu International Airport at 9:25 AM on Monday, June 1. Total duration 1 hr 30 min. Select flight"
+                    - generic [ref=e493] [cursor=pointer]:
+                      - generic [ref=e495]:
+                        - generic [ref=e497]:
+                          - generic "Leaves Ninoy Aquino International Airport at 7:55 AM on Monday, June 1 and arrives at Mactan-Cebu International Airport at 9:25 AM on Monday, June 1." [ref=e499]:
+                            - 'generic "Departure time: 7:55 AM." [ref=e502]': 7:55 AM
+                            - text: –
+                            - 'generic "Arrival time: 9:25 AM." [ref=e505]': 9:25 AM
+                          - generic [ref=e506]: Philippines AirAsia
+                        - generic [ref=e507]:
+                          - generic "Total duration 1 hr 30 min." [ref=e508]: 1 hr 30 min
+                          - generic [ref=e509]:
+                            - generic [ref=e512]: MNL
+                            - text: –
+                            - generic [ref=e515]: CEB
+                        - generic "Nonstop flight." [ref=e518]: Nonstop
+                        - generic [ref=e520]:
+                          - generic [ref=e522]: 67 kg CO2e
+                          - generic [ref=e523]:
+                            - generic [ref=e524]: Avg emissions
+                            - 'button "Carbon emissions estimate: 67 kilograms. Average emissions. Learn more about this emissions estimate" [ref=e525]':
+                              - img [ref=e526]
+                        - generic [ref=e528]:
+                          - generic [ref=e530]: ₱7,260
+                          - generic [ref=e531]: round trip
+                      - text: · ··
+                    - button "Flight details. Leaves Ninoy Aquino International Airport at 7:55 AM on Monday, June 1 and arrives at Mactan-Cebu International Airport at 9:25 AM on Monday, June 1." [ref=e534]:
+                      - img [ref=e537]
+            - generic [ref=e543]:
+              - heading "Price insights" [level=3] [ref=e544]
+              - generic [ref=e545] [cursor=pointer]:
+                - heading "Prices are currently high" [level=4] [ref=e550]
+                - generic [ref=e552]: View price history
+                - button "View price history" [ref=e554]:
+                  - img [ref=e557]
+            - region "Find the best price" [ref=e559]:
+              - generic [ref=e562]:
+                - img [ref=e563]
+                - heading "Track prices" [level=2] [ref=e565]
+                - button "Learn more about tracked prices" [ref=e569] [cursor=pointer]:
+                  - link "Learn more about tracked prices" [ref=e570]:
+                    - img [ref=e571]
+                - generic [ref=e573]: Track prices from Manila to Cebu City departing 2026-06-01 and returning 2026-06-05
+                - generic [ref=e574]:
+                  - generic [ref=e576] [cursor=pointer]: Jun 1 – 5
+                  - switch "Track prices from Manila to Cebu City departing 2026-06-01 and returning 2026-06-05" [ref=e579] [cursor=pointer]:
+                    - generic [ref=e584]:
+                      - img [ref=e585]
+                      - img [ref=e587]
+                - generic [ref=e590]: Track prices from Manila to Cebu City - Any dates
+                - generic [ref=e592]:
+                  - generic [ref=e593] [cursor=pointer]: Any dates
+                  - switch "Track prices from Manila to Cebu City - Any dates" [ref=e596] [cursor=pointer]:
+                    - generic [ref=e601]:
+                      - img [ref=e602]
+                      - img [ref=e604]
+              - generic [ref=e609]:
+                - generic [ref=e614]:
+                  - generic [ref=e615]:
+                    - text: Travel Jun 4 – 8 for ₱5,086
+                    - button "Change dates" [ref=e617] [cursor=pointer]
+                  - button "Close" [ref=e618] [cursor=pointer]:
+                    - img [ref=e619]
+                - button "Date grid" [ref=e622]:
+                  - img [ref=e624]
+                  - generic [ref=e631]: Date grid
+                - button "Price graph" [ref=e633]:
+                  - img [ref=e635]
+                  - generic [ref=e645]: Price graph
+            - generic [ref=e646]:
+              - heading "Other departing flights" [level=3] [ref=e647]
+              - list [ref=e648]:
+                - listitem [ref=e649]:
+                  - generic [ref=e650]:
+                    - link "From 6878 Philippine pesos round trip total. Nonstop flight with Cebu Pacific. Leaves Ninoy Aquino International Airport at 8:30 PM on Monday, June 1 and arrives at Mactan-Cebu International Airport at 10:05 PM on Monday, June 1. Total duration 1 hr 35 min. Select flight"
+                    - generic [ref=e652] [cursor=pointer]:
+                      - generic [ref=e654]:
+                        - generic [ref=e656]:
+                          - generic "Leaves Ninoy Aquino International Airport at 8:30 PM on Monday, June 1 and arrives at Mactan-Cebu International Airport at 10:05 PM on Monday, June 1." [ref=e658]:
+                            - 'generic "Departure time: 8:30 PM." [ref=e661]': 8:30 PM
+                            - text: –
+                            - 'generic "Arrival time: 10:05 PM." [ref=e664]': 10:05 PM
+                          - generic [ref=e665]: Cebu Pacific
+                        - generic [ref=e666]:
+                          - generic "Total duration 1 hr 35 min." [ref=e667]: 1 hr 35 min
+                          - generic [ref=e668]:
+                            - generic [ref=e671]: MNL
+                            - text: –
+                            - generic [ref=e674]: CEB
+                        - generic "Nonstop flight." [ref=e677]: Nonstop
+                        - generic [ref=e679]:
+                          - generic [ref=e681]: 55 kg CO2e
+                          - generic [ref=e682]:
+                            - generic [ref=e683]: "-18% emissions"
+                            - 'button "Carbon emissions estimate: 55 kilograms. -18% emissions. Learn more about this emissions estimate" [ref=e684]':
+                              - img [ref=e685]
+                        - generic [ref=e687]:
+                          - generic [ref=e689]: ₱6,878
+                          - generic [ref=e690]: round trip
+                      - text: · ··
+                    - button "Flight details. Leaves Ninoy Aquino International Airport at 8:30 PM on Monday, June 1 and arrives at Mactan-Cebu International Airport at 10:05 PM on Monday, June 1." [ref=e693]:
+                      - img [ref=e696]
+                - listitem [ref=e698]:
+                  - generic [ref=e699]:
+                    - link "From 6878 Philippine pesos round trip total. Nonstop flight with Cebu Pacific. Leaves Ninoy Aquino International Airport at 10:20 PM on Monday, June 1 and arrives at Mactan-Cebu International Airport at 11:55 PM on Monday, June 1. Total duration 1 hr 35 min. Select flight"
+                    - generic [ref=e701] [cursor=pointer]:
+                      - generic [ref=e703]:
+                        - generic [ref=e705]:
+                          - generic "Leaves Ninoy Aquino International Airport at 10:20 PM on Monday, June 1 and arrives at Mactan-Cebu International Airport at 11:55 PM on Monday, June 1." [ref=e707]:
+                            - 'generic "Departure time: 10:20 PM." [ref=e710]': 10:20 PM
+                            - text: –
+                            - 'generic "Arrival time: 11:55 PM." [ref=e713]': 11:55 PM
+                          - generic [ref=e714]: Cebu Pacific
+                        - generic [ref=e715]:
+                          - generic "Total duration 1 hr 35 min." [ref=e716]: 1 hr 35 min
+                          - generic [ref=e717]:
+                            - generic [ref=e720]: MNL
+                            - text: –
+                            - generic [ref=e723]: CEB
+                        - generic "Nonstop flight." [ref=e726]: Nonstop
+                        - generic [ref=e728]:
+                          - generic [ref=e730]: 66 kg CO2e
+                          - generic [ref=e731]:
+                            - generic [ref=e732]: Avg emissions
+                            - 'button "Carbon emissions estimate: 66 kilograms. Average emissions. Learn more about this emissions estimate" [ref=e733]':
+                              - img [ref=e734]
+                        - generic [ref=e736]:
+                          - generic [ref=e738]: ₱6,878
+                          - generic [ref=e739]: round trip
+                      - text: · ··
+                    - button "Flight details. Leaves Ninoy Aquino International Airport at 10:20 PM on Monday, June 1 and arrives at Mactan-Cebu International Airport at 11:55 PM on Monday, June 1." [ref=e742]:
+                      - img [ref=e745]
+                - listitem [ref=e747]:
+                  - generic [ref=e748]:
+                    - link "From 7260 Philippine pesos round trip total. Nonstop flight with Philippines AirAsia. Leaves Ninoy Aquino International Airport at 5:45 PM on Monday, June 1 and arrives at Mactan-Cebu International Airport at 7:10 PM on Monday, June 1. Total duration 1 hr 25 min. Select flight"
+                    - generic [ref=e750] [cursor=pointer]:
+                      - generic [ref=e752]:
+                        - generic [ref=e754]:
+                          - generic "Leaves Ninoy Aquino International Airport at 5:45 PM on Monday, June 1 and arrives at Mactan-Cebu International Airport at 7:10 PM on Monday, June 1." [ref=e756]:
+                            - 'generic "Departure time: 5:45 PM." [ref=e759]': 5:45 PM
+                            - text: –
+                            - 'generic "Arrival time: 7:10 PM." [ref=e762]': 7:10 PM
+                          - generic [ref=e763]: Philippines AirAsia
+                        - generic [ref=e764]:
+                          - generic "Total duration 1 hr 25 min." [ref=e765]: 1 hr 25 min
+                          - generic [ref=e766]:
+                            - generic [ref=e769]: MNL
+                            - text: –
+                            - generic [ref=e772]: CEB
+                        - generic "Nonstop flight." [ref=e775]: Nonstop
+                        - generic [ref=e777]:
+                          - generic [ref=e779]: 67 kg CO2e
+                          - generic [ref=e780]:
+                            - generic [ref=e781]: Avg emissions
+                            - 'button "Carbon emissions estimate: 67 kilograms. Average emissions. Learn more about this emissions estimate" [ref=e782]':
+                              - img [ref=e783]
+                        - generic [ref=e785]:
+                          - generic [ref=e787]: ₱7,260
+                          - generic [ref=e788]: round trip
+                      - text: · ··
+                    - button "Flight details. Leaves Ninoy Aquino International Airport at 5:45 PM on Monday, June 1 and arrives at Mactan-Cebu International Airport at 7:10 PM on Monday, June 1." [ref=e791]:
+                      - img [ref=e794]
+                - listitem [ref=e796]:
+                  - generic [ref=e797]:
+                    - link "From 7326 Philippine pesos round trip total. Nonstop flight with Cebu Pacific. Leaves Ninoy Aquino International Airport at 12:00 AM on Monday, June 1 and arrives at Mactan-Cebu International Airport at 1:30 AM on Monday, June 1. Total duration 1 hr 30 min. Select flight"
+                    - generic [ref=e799] [cursor=pointer]:
+                      - generic [ref=e801]:
+                        - generic [ref=e803]:
+                          - generic "Leaves Ninoy Aquino International Airport at 12:00 AM on Monday, June 1 and arrives at Mactan-Cebu International Airport at 1:30 AM on Monday, June 1." [ref=e805]:
+                            - 'generic "Departure time: 12:00 AM." [ref=e808]': 12:00 AM
+                            - text: –
+                            - 'generic "Arrival time: 1:30 AM." [ref=e811]': 1:30 AM
+                          - generic [ref=e812]: Cebu Pacific
+                        - generic [ref=e813]:
+                          - generic "Total duration 1 hr 30 min." [ref=e814]: 1 hr 30 min
+                          - generic [ref=e815]:
+                            - generic [ref=e818]: MNL
+                            - text: –
+                            - generic [ref=e821]: CEB
+                        - generic "Nonstop flight." [ref=e824]: Nonstop
+                        - generic [ref=e826]:
+                          - generic [ref=e828]: 51 kg CO2e
+                          - generic [ref=e829]:
+                            - generic [ref=e830]: "-24% emissions"
+                            - 'button "Carbon emissions estimate: 51 kilograms. -24% emissions. Learn more about this emissions estimate" [ref=e831]':
+                              - img [ref=e832]
+                        - generic [ref=e834]:
+                          - generic [ref=e836]: ₱7,326
+                          - generic [ref=e837]: round trip
+                      - text: · ··
+                    - button "Flight details. Leaves Ninoy Aquino International Airport at 12:00 AM on Monday, June 1 and arrives at Mactan-Cebu International Airport at 1:30 AM on Monday, June 1." [ref=e840]:
+                      - img [ref=e843]
+                - listitem [ref=e845]:
+                  - generic [ref=e846]:
+                    - link "From 7326 Philippine pesos round trip total. Nonstop flight with Cebu Pacific. Leaves Ninoy Aquino International Airport at 12:15 AM on Monday, June 1 and arrives at Mactan-Cebu International Airport at 1:50 AM on Monday, June 1. Total duration 1 hr 35 min. Select flight"
+                    - generic [ref=e848] [cursor=pointer]:
+                      - generic [ref=e850]:
+                        - generic [ref=e852]:
+                          - generic "Leaves Ninoy Aquino International Airport at 12:15 AM on Monday, June 1 and arrives at Mactan-Cebu International Airport at 1:50 AM on Monday, June 1." [ref=e854]:
+                            - 'generic "Departure time: 12:15 AM." [ref=e857]': 12:15 AM
+                            - text: –
+                            - 'generic "Arrival time: 1:50 AM." [ref=e860]': 1:50 AM
+                          - generic [ref=e861]: Cebu Pacific
+                        - generic [ref=e862]:
+                          - generic "Total duration 1 hr 35 min." [ref=e863]: 1 hr 35 min
+                          - generic [ref=e864]:
+                            - generic [ref=e867]: MNL
+                            - text: –
+                            - generic [ref=e870]: CEB
+                        - generic "Nonstop flight." [ref=e873]: Nonstop
+                        - generic [ref=e875]:
+                          - generic [ref=e877]: 67 kg CO2e
+                          - generic [ref=e878]:
+                            - generic [ref=e879]: Avg emissions
+                            - 'button "Carbon emissions estimate: 67 kilograms. Average emissions. Learn more about this emissions estimate" [ref=e880]':
+                              - img [ref=e881]
+                        - generic [ref=e883]:
+                          - generic [ref=e885]: ₱7,326
+                          - generic [ref=e886]: round trip
+                      - text: · ··
+                    - button "Flight details. Leaves Ninoy Aquino International Airport at 12:15 AM on Monday, June 1 and arrives at Mactan-Cebu International Airport at 1:50 AM on Monday, June 1." [ref=e889]:
+                      - img [ref=e892]
+                - listitem [ref=e894]:
+                  - generic [ref=e895]:
+                    - link "From 7550 Philippine pesos round trip total. Nonstop flight with Cebu Pacific. Leaves Ninoy Aquino International Airport at 3:50 AM on Monday, June 1 and arrives at Mactan-Cebu International Airport at 5:30 AM on Monday, June 1. Total duration 1 hr 40 min. Select flight"
+                    - generic [ref=e897] [cursor=pointer]:
+                      - generic [ref=e899]:
+                        - generic [ref=e901]:
+                          - generic "Leaves Ninoy Aquino International Airport at 3:50 AM on Monday, June 1 and arrives at Mactan-Cebu International Airport at 5:30 AM on Monday, June 1." [ref=e903]:
+                            - 'generic "Departure time: 3:50 AM." [ref=e906]': 3:50 AM
+                            - text: –
+                            - 'generic "Arrival time: 5:30 AM." [ref=e909]': 5:30 AM
+                          - generic [ref=e910]: Cebu Pacific
+                        - generic [ref=e911]:
+                          - generic "Total duration 1 hr 40 min." [ref=e912]: 1 hr 40 min
+                          - generic [ref=e913]:
+                            - generic [ref=e916]: MNL
+                            - text: –
+                            - generic [ref=e919]: CEB
+                        - generic "Nonstop flight." [ref=e922]: Nonstop
+                        - generic [ref=e924]:
+                          - generic [ref=e926]: 66 kg CO2e
+                          - generic [ref=e927]:
+                            - generic [ref=e928]: Avg emissions
+                            - 'button "Carbon emissions estimate: 66 kilograms. Average emissions. Learn more about this emissions estimate" [ref=e929]':
+                              - img [ref=e930]
+                        - generic [ref=e932]:
+                          - generic [ref=e934]: ₱7,550
+                          - generic [ref=e935]: round trip
+                      - text: · ··
+                    - button "Flight details. Leaves Ninoy Aquino International Airport at 3:50 AM on Monday, June 1 and arrives at Mactan-Cebu International Airport at 5:30 AM on Monday, June 1." [ref=e938]:
+                      - img [ref=e941]
+                - listitem [ref=e943]:
+                  - generic [ref=e944]:
+                    - link "From 7550 Philippine pesos round trip total. Nonstop flight with Cebu Pacific. Leaves Ninoy Aquino International Airport at 4:50 AM on Monday, June 1 and arrives at Mactan-Cebu International Airport at 6:25 AM on Monday, June 1. Total duration 1 hr 35 min. Select flight"
+                    - generic [ref=e946] [cursor=pointer]:
+                      - generic [ref=e948]:
+                        - generic [ref=e950]:
+                          - generic "Leaves Ninoy Aquino International Airport at 4:50 AM on Monday, June 1 and arrives at Mactan-Cebu International Airport at 6:25 AM on Monday, June 1." [ref=e952]:
+                            - 'generic "Departure time: 4:50 AM." [ref=e955]': 4:50 AM
+                            - text: –
+                            - 'generic "Arrival time: 6:25 AM." [ref=e958]': 6:25 AM
+                          - generic [ref=e959]: Cebu Pacific
+                        - generic [ref=e960]:
+                          - generic "Total duration 1 hr 35 min." [ref=e961]: 1 hr 35 min
+                          - generic [ref=e962]:
+                            - generic [ref=e965]: MNL
+                            - text: –
+                            - generic [ref=e968]: CEB
+                        - generic "Nonstop flight." [ref=e971]: Nonstop
+                        - generic [ref=e973]:
+                          - generic [ref=e975]: 51 kg CO2e
+                          - generic [ref=e976]:
+                            - generic [ref=e977]: "-24% emissions"
+                            - 'button "Carbon emissions estimate: 51 kilograms. -24% emissions. Learn more about this emissions estimate" [ref=e978]':
+                              - img [ref=e979]
+                        - generic [ref=e981]:
+                          - generic [ref=e983]: ₱7,550
+                          - generic [ref=e984]: round trip
+                      - text: · ··
+                    - button "Flight details. Leaves Ninoy Aquino International Airport at 4:50 AM on Monday, June 1 and arrives at Mactan-Cebu International Airport at 6:25 AM on Monday, June 1." [ref=e987]:
+                      - img [ref=e990]
+                - listitem [ref=e992]:
+                  - generic [ref=e993]:
+                    - link "From 7550 Philippine pesos round trip total. Nonstop flight with Cebu Pacific. Leaves Ninoy Aquino International Airport at 6:50 PM on Monday, June 1 and arrives at Mactan-Cebu International Airport at 8:25 PM on Monday, June 1. Total duration 1 hr 35 min. Select flight"
+                    - generic [ref=e995] [cursor=pointer]:
+                      - generic [ref=e997]:
+                        - generic [ref=e999]:
+                          - generic "Leaves Ninoy Aquino International Airport at 6:50 PM on Monday, June 1 and arrives at Mactan-Cebu International Airport at 8:25 PM on Monday, June 1." [ref=e1001]:
+                            - 'generic "Departure time: 6:50 PM." [ref=e1004]': 6:50 PM
+                            - text: –
+                            - 'generic "Arrival time: 8:25 PM." [ref=e1007]': 8:25 PM
+                          - generic [ref=e1008]: Cebu Pacific
+                        - generic [ref=e1009]:
+                          - generic "Total duration 1 hr 35 min." [ref=e1010]: 1 hr 35 min
+                          - generic [ref=e1011]:
+                            - generic [ref=e1014]: MNL
+                            - text: –
+                            - generic [ref=e1017]: CEB
+                        - generic "Nonstop flight." [ref=e1020]: Nonstop
+                        - generic [ref=e1022]:
+                          - generic [ref=e1024]: 54 kg CO2e
+                          - generic [ref=e1025]:
+                            - generic [ref=e1026]: "-19% emissions"
+                            - 'button "Carbon emissions estimate: 54 kilograms. -19% emissions. Learn more about this emissions estimate" [ref=e1027]':
+                              - img [ref=e1028]
+                        - generic [ref=e1030]:
+                          - generic [ref=e1032]: ₱7,550
+                          - generic [ref=e1033]: round trip
+                      - text: · ··
+                    - button "Flight details. Leaves Ninoy Aquino International Airport at 6:50 PM on Monday, June 1 and arrives at Mactan-Cebu International Airport at 8:25 PM on Monday, June 1." [ref=e1036]:
+                      - img [ref=e1039]
+                - listitem [ref=e1041]:
+                  - generic [ref=e1042]:
+                    - link "From 7774 Philippine pesos round trip total. Nonstop flight with Cebu Pacific. Leaves Ninoy Aquino International Airport at 4:15 PM on Monday, June 1 and arrives at Mactan-Cebu International Airport at 5:55 PM on Monday, June 1. Total duration 1 hr 40 min. Select flight"
+                    - generic [ref=e1044] [cursor=pointer]:
+                      - generic [ref=e1046]:
+                        - generic [ref=e1048]:
+                          - generic "Leaves Ninoy Aquino International Airport at 4:15 PM on Monday, June 1 and arrives at Mactan-Cebu International Airport at 5:55 PM on Monday, June 1." [ref=e1050]:
+                            - 'generic "Departure time: 4:15 PM." [ref=e1053]': 4:15 PM
+                            - text: –
+                            - 'generic "Arrival time: 5:55 PM." [ref=e1056]': 5:55 PM
+                          - generic [ref=e1057]: Cebu Pacific
+                        - generic [ref=e1058]:
+                          - generic "Total duration 1 hr 40 min." [ref=e1059]: 1 hr 40 min
+                          - generic [ref=e1060]:
+                            - generic [ref=e1063]: MNL
+                            - text: –
+                            - generic [ref=e1066]: CEB
+                        - generic "Nonstop flight." [ref=e1069]: Nonstop
+                        - generic [ref=e1071]:
+                          - generic [ref=e1073]: 55 kg CO2e
+                          - generic [ref=e1074]:
+                            - generic [ref=e1075]: "-18% emissions"
+                            - 'button "Carbon emissions estimate: 55 kilograms. -18% emissions. Learn more about this emissions estimate" [ref=e1076]':
+                              - img [ref=e1077]
+                        - generic [ref=e1079]:
+                          - generic [ref=e1081]: ₱7,774
+                          - generic [ref=e1082]: round trip
+                      - text: · ··
+                    - button "Flight details. Leaves Ninoy Aquino International Airport at 4:15 PM on Monday, June 1 and arrives at Mactan-Cebu International Airport at 5:55 PM on Monday, June 1." [ref=e1085]:
+                      - img [ref=e1088]
+                - listitem [ref=e1090]:
+                  - generic [ref=e1091]:
+                    - link "From 8110 Philippine pesos round trip total. Nonstop flight with Cebu Pacific. Leaves Ninoy Aquino International Airport at 3:00 PM on Monday, June 1 and arrives at Mactan-Cebu International Airport at 4:30 PM on Monday, June 1. Total duration 1 hr 30 min. Select flight"
+                    - generic [ref=e1093] [cursor=pointer]:
+                      - generic [ref=e1095]:
+                        - generic [ref=e1097]:
+                          - generic "Leaves Ninoy Aquino International Airport at 3:00 PM on Monday, June 1 and arrives at Mactan-Cebu International Airport at 4:30 PM on Monday, June 1." [ref=e1099]:
+                            - 'generic "Departure time: 3:00 PM." [ref=e1102]': 3:00 PM
+                            - text: –
+                            - 'generic "Arrival time: 4:30 PM." [ref=e1105]': 4:30 PM
+                          - generic [ref=e1106]: Cebu Pacific
+                        - generic [ref=e1107]:
+                          - generic "Total duration 1 hr 30 min." [ref=e1108]: 1 hr 30 min
+                          - generic [ref=e1109]:
+                            - generic [ref=e1112]: MNL
+                            - text: –
+                            - generic [ref=e1115]: CEB
+                        - generic "Nonstop flight." [ref=e1118]: Nonstop
+                        - generic [ref=e1120]:
+                          - generic [ref=e1122]: 51 kg CO2e
+                          - generic [ref=e1123]:
+                            - generic [ref=e1124]: "-24% emissions"
+                            - 'button "Carbon emissions estimate: 51 kilograms. -24% emissions. Learn more about this emissions estimate" [ref=e1125]':
+                              - img [ref=e1126]
+                        - generic [ref=e1128]:
+                          - generic [ref=e1130]: ₱8,110
+                          - generic [ref=e1131]: round trip
+                      - text: · ··
+                    - button "Flight details. Leaves Ninoy Aquino International Airport at 3:00 PM on Monday, June 1 and arrives at Mactan-Cebu International Airport at 4:30 PM on Monday, June 1." [ref=e1134]:
+                      - img [ref=e1137]
+                - listitem [ref=e1139]:
+                  - generic [ref=e1140]:
+                    - link "From 8670 Philippine pesos round trip total. Nonstop flight with Cebu Pacific. Leaves Ninoy Aquino International Airport at 6:05 AM on Monday, June 1 and arrives at Mactan-Cebu International Airport at 7:40 AM on Monday, June 1. Total duration 1 hr 35 min. Select flight"
+                    - generic [ref=e1142] [cursor=pointer]:
+                      - generic [ref=e1144]:
+                        - generic [ref=e1146]:
+                          - generic "Leaves Ninoy Aquino International Airport at 6:05 AM on Monday, June 1 and arrives at Mactan-Cebu International Airport at 7:40 AM on Monday, June 1." [ref=e1148]:
+                            - 'generic "Departure time: 6:05 AM." [ref=e1151]': 6:05 AM
+                            - text: –
+                            - 'generic "Arrival time: 7:40 AM." [ref=e1154]': 7:40 AM
+                          - generic [ref=e1155]: Cebu Pacific
+                        - generic [ref=e1156]:
+                          - generic "Total duration 1 hr 35 min." [ref=e1157]: 1 hr 35 min
+                          - generic [ref=e1158]:
+                            - generic [ref=e1161]: MNL
+                            - text: –
+                            - generic [ref=e1164]: CEB
+                        - generic "Nonstop flight." [ref=e1167]: Nonstop
+                        - generic [ref=e1169]:
+                          - generic [ref=e1171]: 67 kg CO2e
+                          - generic [ref=e1172]:
+                            - generic [ref=e1173]: Avg emissions
+                            - 'button "Carbon emissions estimate: 67 kilograms. Average emissions. Learn more about this emissions estimate" [ref=e1174]':
+                              - img [ref=e1175]
+                        - generic [ref=e1177]:
+                          - generic [ref=e1179]: ₱8,670
+                          - generic [ref=e1180]: round trip
+                      - text: · ··
+                    - button "Flight details. Leaves Ninoy Aquino International Airport at 6:05 AM on Monday, June 1 and arrives at Mactan-Cebu International Airport at 7:40 AM on Monday, June 1." [ref=e1183]:
+                      - img [ref=e1186]
+                - listitem [ref=e1188]:
+                  - generic [ref=e1189]:
+                    - link "From 8670 Philippine pesos round trip total. Nonstop flight with Cebu Pacific. Leaves Ninoy Aquino International Airport at 11:20 PM on Monday, June 1 and arrives at Mactan-Cebu International Airport at 12:55 AM on Tuesday, June 2. Total duration 1 hr 35 min. Select flight"
+                    - generic [ref=e1191] [cursor=pointer]:
+                      - generic [ref=e1193]:
+                        - generic [ref=e1195]:
+                          - generic "Leaves Ninoy Aquino International Airport at 11:20 PM on Monday, June 1 and arrives at Mactan-Cebu International Airport at 12:55 AM on Tuesday, June 2." [ref=e1197]:
+                            - 'generic "Departure time: 11:20 PM." [ref=e1200]': 11:20 PM
+                            - text: –
+                            - 'generic "Arrival time: 12:55 AM on Tuesday, June 2." [ref=e1203]':
+                              - 'generic "Arrival time: 12:55 AM on Tuesday, June 2." [ref=e1204]':
+                                - text: 12:55 AM
+                                - generic [ref=e1205]: "+1"
+                          - generic [ref=e1206]: Cebu Pacific
+                        - generic [ref=e1207]:
+                          - generic "Total duration 1 hr 35 min." [ref=e1208]: 1 hr 35 min
+                          - generic [ref=e1209]:
+                            - generic [ref=e1212]: MNL
+                            - text: –
+                            - generic [ref=e1215]: CEB
+                        - generic "Nonstop flight." [ref=e1218]: Nonstop
+                        - generic [ref=e1220]:
+                          - generic [ref=e1222]: 54 kg CO2e
+                          - generic [ref=e1223]:
+                            - generic [ref=e1224]: "-19% emissions"
+                            - 'button "Carbon emissions estimate: 54 kilograms. -19% emissions. Learn more about this emissions estimate" [ref=e1225]':
+                              - img [ref=e1226]
+                        - generic [ref=e1228]:
+                          - generic [ref=e1230]: ₱8,670
+                          - generic [ref=e1231]: round trip
+                      - text: · ··
+                    - button "Flight details. Leaves Ninoy Aquino International Airport at 11:20 PM on Monday, June 1 and arrives at Mactan-Cebu International Airport at 12:55 AM on Tuesday, June 2." [ref=e1234]:
+                      - img [ref=e1237]
+                - listitem [ref=e1239]:
+                  - generic [ref=e1240]:
+                    - link "From 8890 Philippine pesos round trip total. Nonstop flight with Philippine Airlines. Leaves Ninoy Aquino International Airport at 7:40 PM on Monday, June 1 and arrives at Mactan-Cebu International Airport at 9:10 PM on Monday, June 1. Total duration 1 hr 30 min. Select flight"
+                    - generic [ref=e1242] [cursor=pointer]:
+                      - generic [ref=e1244]:
+                        - generic [ref=e1246]:
+                          - generic "Leaves Ninoy Aquino International Airport at 7:40 PM on Monday, June 1 and arrives at Mactan-Cebu International Airport at 9:10 PM on Monday, June 1." [ref=e1248]:
+                            - 'generic "Departure time: 7:40 PM." [ref=e1251]': 7:40 PM
+                            - text: –
+                            - 'generic "Arrival time: 9:10 PM." [ref=e1254]': 9:10 PM
+                          - generic [ref=e1255]: Philippine Airlines
+                        - generic [ref=e1256]:
+                          - generic "Total duration 1 hr 30 min." [ref=e1257]: 1 hr 30 min
+                          - generic [ref=e1258]:
+                            - generic [ref=e1261]: MNL
+                            - text: –
+                            - generic [ref=e1264]: CEB
+                        - generic "Nonstop flight." [ref=e1267]: Nonstop
+                        - generic [ref=e1269]:
+                          - generic [ref=e1271]: 62 kg CO2e
+                          - generic [ref=e1272]:
+                            - generic [ref=e1273]: "-7% emissions"
+                            - 'button "Carbon emissions estimate: 62 kilograms. -7% emissions. Learn more about this emissions estimate" [ref=e1274]':
+                              - img [ref=e1275]
+                        - generic [ref=e1277]:
+                          - generic [ref=e1279]: ₱8,890
+                          - generic [ref=e1280]: round trip
+                      - text: · ··
+                    - button "Flight details. Leaves Ninoy Aquino International Airport at 7:40 PM on Monday, June 1 and arrives at Mactan-Cebu International Airport at 9:10 PM on Monday, June 1." [ref=e1283]:
+                      - img [ref=e1286]
+                - listitem [ref=e1288]:
+                  - generic [ref=e1289]:
+                    - link "From 9230 Philippine pesos round trip total. Nonstop flight with Cebu Pacific. Leaves Ninoy Aquino International Airport at 8:30 AM on Monday, June 1 and arrives at Mactan-Cebu International Airport at 10:05 AM on Monday, June 1. Total duration 1 hr 35 min. Select flight"
+                    - generic [ref=e1291] [cursor=pointer]:
+                      - generic [ref=e1293]:
+                        - generic [ref=e1295]:
+                          - generic "Leaves Ninoy Aquino International Airport at 8:30 AM on Monday, June 1 and arrives at Mactan-Cebu International Airport at 10:05 AM on Monday, June 1." [ref=e1297]:
+                            - 'generic "Departure time: 8:30 AM." [ref=e1300]': 8:30 AM
+                            - text: –
+                            - 'generic "Arrival time: 10:05 AM." [ref=e1303]': 10:05 AM
+                          - generic [ref=e1304]: Cebu Pacific
+                        - generic [ref=e1305]:
+                          - generic "Total duration 1 hr 35 min." [ref=e1306]: 1 hr 35 min
+                          - generic [ref=e1307]:
+                            - generic [ref=e1310]: MNL
+                            - text: –
+                            - generic [ref=e1313]: CEB
+                        - generic "Nonstop flight." [ref=e1316]: Nonstop
+                        - generic [ref=e1318]:
+                          - generic [ref=e1320]: 73 kg CO2e
+                          - generic [ref=e1321]:
+                            - generic [ref=e1322]: +9% emissions
+                            - 'button "Carbon emissions estimate: 73 kilograms. +9% emissions. Learn more about this emissions estimate" [ref=e1323]':
+                              - img [ref=e1324]
+                        - generic [ref=e1326]:
+                          - generic [ref=e1328]: ₱9,230
+                          - generic [ref=e1329]: round trip
+                      - text: · ··
+                    - button "Flight details. Leaves Ninoy Aquino International Airport at 8:30 AM on Monday, June 1 and arrives at Mactan-Cebu International Airport at 10:05 AM on Monday, June 1." [ref=e1332]:
+                      - img [ref=e1335]
+                - listitem [ref=e1337]:
+                  - generic [ref=e1338]:
+                    - link "From 9338 Philippine pesos round trip total. Nonstop flight with Philippine Airlines. Leaves Ninoy Aquino International Airport at 3:30 AM on Monday, June 1 and arrives at Mactan-Cebu International Airport at 4:55 AM on Monday, June 1. Total duration 1 hr 25 min. Select flight"
+                    - generic [ref=e1340] [cursor=pointer]:
+                      - generic [ref=e1342]:
+                        - generic [ref=e1344]:
+                          - generic "Leaves Ninoy Aquino International Airport at 3:30 AM on Monday, June 1 and arrives at Mactan-Cebu International Airport at 4:55 AM on Monday, June 1." [ref=e1346]:
+                            - 'generic "Departure time: 3:30 AM." [ref=e1349]': 3:30 AM
+                            - text: –
+                            - 'generic "Arrival time: 4:55 AM." [ref=e1352]': 4:55 AM
+                          - generic [ref=e1353]: Philippine Airlines
+                        - generic [ref=e1354]:
+                          - generic "Total duration 1 hr 25 min." [ref=e1355]: 1 hr 25 min
+                          - generic [ref=e1356]:
+                            - generic [ref=e1359]: MNL
+                            - text: –
+                            - generic [ref=e1362]: CEB
+                        - generic "Nonstop flight." [ref=e1365]: Nonstop
+                        - generic [ref=e1367]:
+                          - generic [ref=e1369]: 74 kg CO2e
+                          - generic [ref=e1370]:
+                            - generic [ref=e1371]: +10% emissions
+                            - 'button "Carbon emissions estimate: 74 kilograms. +10% emissions. Learn more about this emissions estimate" [ref=e1372]':
+                              - img [ref=e1373]
+                        - generic [ref=e1375]:
+                          - generic [ref=e1377]: ₱9,338
+                          - generic [ref=e1378]: round trip
+                      - text: · ··
+                    - button "Flight details. Leaves Ninoy Aquino International Airport at 3:30 AM on Monday, June 1 and arrives at Mactan-Cebu International Airport at 4:55 AM on Monday, June 1." [ref=e1381]:
+                      - img [ref=e1384]
+                - listitem [ref=e1386]:
+                  - generic [ref=e1387]:
+                    - link "From 9338 Philippine pesos round trip total. Nonstop flight with Philippine Airlines. Operated by PAL Express. Leaves Ninoy Aquino International Airport at 4:15 AM on Monday, June 1 and arrives at Mactan-Cebu International Airport at 5:40 AM on Monday, June 1. Total duration 1 hr 25 min. Select flight"
+                    - generic [ref=e1389] [cursor=pointer]:
+                      - generic [ref=e1391]:
+                        - generic [ref=e1393]:
+                          - generic "Leaves Ninoy Aquino International Airport at 4:15 AM on Monday, June 1 and arrives at Mactan-Cebu International Airport at 5:40 AM on Monday, June 1." [ref=e1395]:
+                            - 'generic "Departure time: 4:15 AM." [ref=e1398]': 4:15 AM
+                            - text: –
+                            - 'generic "Arrival time: 5:40 AM." [ref=e1401]': 5:40 AM
+                          - generic [ref=e1402]:
+                            - text: Philippine Airlines
+                            - generic [ref=e1403]: ·
+                            - text: Operated by PAL Express
+                        - generic [ref=e1404]:
+                          - generic "Total duration 1 hr 25 min." [ref=e1405]: 1 hr 25 min
+                          - generic [ref=e1406]:
+                            - generic [ref=e1409]: MNL
+                            - text: –
+                            - generic [ref=e1412]: CEB
+                        - generic "Nonstop flight." [ref=e1415]: Nonstop
+                        - generic [ref=e1417]:
+                          - generic [ref=e1419]: 67 kg CO2e
+                          - generic [ref=e1420]:
+                            - generic [ref=e1421]: Avg emissions
+                            - 'button "Carbon emissions estimate: 67 kilograms. Average emissions. Learn more about this emissions estimate" [ref=e1422]':
+                              - img [ref=e1423]
+                        - generic [ref=e1425]:
+                          - generic [ref=e1427]: ₱9,338
+                          - generic [ref=e1428]: round trip
+                      - text: · ·· ·
+                    - button "Flight details. Leaves Ninoy Aquino International Airport at 4:15 AM on Monday, June 1 and arrives at Mactan-Cebu International Airport at 5:40 AM on Monday, June 1." [ref=e1431]:
+                      - img [ref=e1434]
+                - listitem [ref=e1436]:
+                  - generic [ref=e1437]:
+                    - link "From 9453 Philippine pesos round trip total. Nonstop flight with Philippines AirAsia. Leaves Ninoy Aquino International Airport at 3:55 AM on Monday, June 1 and arrives at Mactan-Cebu International Airport at 5:20 AM on Monday, June 1. Total duration 1 hr 25 min. Select flight"
+                    - generic [ref=e1439] [cursor=pointer]:
+                      - generic [ref=e1441]:
+                        - generic [ref=e1443]:
+                          - generic "Leaves Ninoy Aquino International Airport at 3:55 AM on Monday, June 1 and arrives at Mactan-Cebu International Airport at 5:20 AM on Monday, June 1." [ref=e1445]:
+                            - 'generic "Departure time: 3:55 AM." [ref=e1448]': 3:55 AM
+                            - text: –
+                            - 'generic "Arrival time: 5:20 AM." [ref=e1451]': 5:20 AM
+                          - generic [ref=e1452]: Philippines AirAsia
+                        - generic [ref=e1453]:
+                          - generic "Total duration 1 hr 25 min." [ref=e1454]: 1 hr 25 min
+                          - generic [ref=e1455]:
+                            - generic [ref=e1458]: MNL
+                            - text: –
+                            - generic [ref=e1461]: CEB
+                        - generic "Nonstop flight." [ref=e1464]: Nonstop
+                        - generic [ref=e1466]:
+                          - generic [ref=e1468]: 67 kg CO2e
+                          - generic [ref=e1469]:
+                            - generic [ref=e1470]: Avg emissions
+                            - 'button "Carbon emissions estimate: 67 kilograms. Average emissions. Learn more about this emissions estimate" [ref=e1471]':
+                              - img [ref=e1472]
+                        - generic [ref=e1474]:
+                          - generic [ref=e1476]: ₱9,453
+                          - generic [ref=e1477]: round trip
+                      - text: · ··
+                    - button "Flight details. Leaves Ninoy Aquino International Airport at 3:55 AM on Monday, June 1 and arrives at Mactan-Cebu International Airport at 5:20 AM on Monday, June 1." [ref=e1480]:
+                      - img [ref=e1483]
+                - listitem [ref=e1485]:
+                  - generic [ref=e1486]:
+                    - link "From 9453 Philippine pesos round trip total. Nonstop flight with Philippines AirAsia. Leaves Ninoy Aquino International Airport at 5:55 AM on Monday, June 1 and arrives at Mactan-Cebu International Airport at 7:20 AM on Monday, June 1. Total duration 1 hr 25 min. Select flight"
+                    - generic [ref=e1488] [cursor=pointer]:
+                      - generic [ref=e1490]:
+                        - generic [ref=e1492]:
+                          - generic "Leaves Ninoy Aquino International Airport at 5:55 AM on Monday, June 1 and arrives at Mactan-Cebu International Airport at 7:20 AM on Monday, June 1." [ref=e1494]:
+                            - 'generic "Departure time: 5:55 AM." [ref=e1497]': 5:55 AM
+                            - text: –
+                            - 'generic "Arrival time: 7:20 AM." [ref=e1500]': 7:20 AM
+                          - generic [ref=e1501]: Philippines AirAsia
+                        - generic [ref=e1502]:
+                          - generic "Total duration 1 hr 25 min." [ref=e1503]: 1 hr 25 min
+                          - generic [ref=e1504]:
+                            - generic [ref=e1507]: MNL
+                            - text: –
+                            - generic [ref=e1510]: CEB
+                        - generic "Nonstop flight." [ref=e1513]: Nonstop
+                        - generic [ref=e1515]:
+                          - generic [ref=e1517]: 67 kg CO2e
+                          - generic [ref=e1518]:
+                            - generic [ref=e1519]: Avg emissions
+                            - 'button "Carbon emissions estimate: 67 kilograms. Average emissions. Learn more about this emissions estimate" [ref=e1520]':
+                              - img [ref=e1521]
+                        - generic [ref=e1523]:
+                          - generic [ref=e1525]: ₱9,453
+                          - generic [ref=e1526]: round trip
+                      - text: · ··
+                    - button "Flight details. Leaves Ninoy Aquino International Airport at 5:55 AM on Monday, June 1 and arrives at Mactan-Cebu International Airport at 7:20 AM on Monday, June 1." [ref=e1529]:
+                      - img [ref=e1532]
+                - listitem [ref=e1534]:
+                  - generic [ref=e1535]:
+                    - link "From 9453 Philippine pesos round trip total. Nonstop flight with Philippines AirAsia. Leaves Ninoy Aquino International Airport at 4:00 PM on Monday, June 1 and arrives at Mactan-Cebu International Airport at 5:25 PM on Monday, June 1. Total duration 1 hr 25 min. Select flight"
+                    - generic [ref=e1537] [cursor=pointer]:
+                      - generic [ref=e1539]:
+                        - generic [ref=e1541]:
+                          - generic "Leaves Ninoy Aquino International Airport at 4:00 PM on Monday, June 1 and arrives at Mactan-Cebu International Airport at 5:25 PM on Monday, June 1." [ref=e1543]:
+                            - 'generic "Departure time: 4:00 PM." [ref=e1546]': 4:00 PM
+                            - text: –
+                            - 'generic "Arrival time: 5:25 PM." [ref=e1549]': 5:25 PM
+                          - generic [ref=e1550]: Philippines AirAsia
+                        - generic [ref=e1551]:
+                          - generic "Total duration 1 hr 25 min." [ref=e1552]: 1 hr 25 min
+                          - generic [ref=e1553]:
+                            - generic [ref=e1556]: MNL
+                            - text: –
+                            - generic [ref=e1559]: CEB
+                        - generic "Nonstop flight." [ref=e1562]: Nonstop
+                        - generic [ref=e1564]:
+                          - generic [ref=e1566]: 67 kg CO2e
+                          - generic [ref=e1567]:
+                            - generic [ref=e1568]: Avg emissions
+                            - 'button "Carbon emissions estimate: 67 kilograms. Average emissions. Learn more about this emissions estimate" [ref=e1569]':
+                              - img [ref=e1570]
+                        - generic [ref=e1572]:
+                          - generic [ref=e1574]: ₱9,453
+                          - generic [ref=e1575]: round trip
+                      - text: · ··
+                    - button "Flight details. Leaves Ninoy Aquino International Airport at 4:00 PM on Monday, June 1 and arrives at Mactan-Cebu International Airport at 5:25 PM on Monday, June 1." [ref=e1578]:
+                      - img [ref=e1581]
+                - listitem [ref=e1583]:
+                  - generic [ref=e1584]:
+                    - link "From 9790 Philippine pesos round trip total. Nonstop flight with Cebu Pacific. Leaves Ninoy Aquino International Airport at 7:00 AM on Monday, June 1 and arrives at Mactan-Cebu International Airport at 8:35 AM on Monday, June 1. Total duration 1 hr 35 min. Select flight"
+                    - generic [ref=e1586] [cursor=pointer]:
+                      - generic [ref=e1588]:
+                        - generic [ref=e1590]:
+                          - generic "Leaves Ninoy Aquino International Airport at 7:00 AM on Monday, June 1 and arrives at Mactan-Cebu International Airport at 8:35 AM on Monday, June 1." [ref=e1592]:
+                            - 'generic "Departure time: 7:00 AM." [ref=e1595]': 7:00 AM
+                            - text: –
+                            - 'generic "Arrival time: 8:35 AM." [ref=e1598]': 8:35 AM
+                          - generic [ref=e1599]: Cebu Pacific
+                        - generic [ref=e1600]:
+                          - generic "Total duration 1 hr 35 min." [ref=e1601]: 1 hr 35 min
+                          - generic [ref=e1602]:
+                            - generic [ref=e1605]: MNL
+                            - text: –
+                            - generic [ref=e1608]: CEB
+                        - generic "Nonstop flight." [ref=e1611]: Nonstop
+                        - generic [ref=e1613]:
+                          - generic [ref=e1615]: 67 kg CO2e
+                          - generic [ref=e1616]:
+                            - generic [ref=e1617]: Avg emissions
+                            - 'button "Carbon emissions estimate: 67 kilograms. Average emissions. Learn more about this emissions estimate" [ref=e1618]':
+                              - img [ref=e1619]
+                        - generic [ref=e1621]:
+                          - generic [ref=e1623]: ₱9,790
+                          - generic [ref=e1624]: round trip
+                      - text: · ··
+                    - button "Flight details. Leaves Ninoy Aquino International Airport at 7:00 AM on Monday, June 1 and arrives at Mactan-Cebu International Airport at 8:35 AM on Monday, June 1." [ref=e1627]:
+                      - img [ref=e1630]
+                - listitem [ref=e1632]:
+                  - generic [ref=e1633]:
+                    - link "From 10910 Philippine pesos round trip total. Nonstop flight with Cebu Pacific. Leaves Ninoy Aquino International Airport at 10:10 AM on Monday, June 1 and arrives at Mactan-Cebu International Airport at 11:40 AM on Monday, June 1. Total duration 1 hr 30 min. Select flight"
+                    - generic [ref=e1635] [cursor=pointer]:
+                      - generic [ref=e1637]:
+                        - generic [ref=e1639]:
+                          - generic "Leaves Ninoy Aquino International Airport at 10:10 AM on Monday, June 1 and arrives at Mactan-Cebu International Airport at 11:40 AM on Monday, June 1." [ref=e1641]:
+                            - 'generic "Departure time: 10:10 AM." [ref=e1644]': 10:10 AM
+                            - text: –
+                            - 'generic "Arrival time: 11:40 AM." [ref=e1647]': 11:40 AM
+                          - generic [ref=e1648]: Cebu Pacific
+                        - generic [ref=e1649]:
+                          - generic "Total duration 1 hr 30 min." [ref=e1650]: 1 hr 30 min
+                          - generic [ref=e1651]:
+                            - generic [ref=e1654]: MNL
+                            - text: –
+                            - generic [ref=e1657]: CEB
+                        - generic "Nonstop flight." [ref=e1660]: Nonstop
+                        - generic [ref=e1662]:
+                          - generic [ref=e1664]: 56 kg CO2e
+                          - generic [ref=e1665]:
+                            - generic [ref=e1666]: "-16% emissions"
+                            - 'button "Carbon emissions estimate: 56 kilograms. -16% emissions. Learn more about this emissions estimate" [ref=e1667]':
+                              - img [ref=e1668]
+                        - generic [ref=e1670]:
+                          - generic [ref=e1672]: ₱10,910
+                          - generic [ref=e1673]: round trip
+                      - text: · ··
+                    - button "Flight details. Leaves Ninoy Aquino International Airport at 10:10 AM on Monday, June 1 and arrives at Mactan-Cebu International Airport at 11:40 AM on Monday, June 1." [ref=e1676]:
+                      - img [ref=e1679]
+                - listitem [ref=e1681]:
+                  - generic [ref=e1682]:
+                    - link "From 10910 Philippine pesos round trip total. Nonstop flight with Cebu Pacific. Leaves Ninoy Aquino International Airport at 10:40 AM on Monday, June 1 and arrives at Mactan-Cebu International Airport at 12:15 PM on Monday, June 1. Total duration 1 hr 35 min. Select flight"
+                    - generic [ref=e1684] [cursor=pointer]:
+                      - generic [ref=e1686]:
+                        - generic [ref=e1688]:
+                          - generic "Leaves Ninoy Aquino International Airport at 10:40 AM on Monday, June 1 and arrives at Mactan-Cebu International Airport at 12:15 PM on Monday, June 1." [ref=e1690]:
+                            - 'generic "Departure time: 10:40 AM." [ref=e1693]': 10:40 AM
+                            - text: –
+                            - 'generic "Arrival time: 12:15 PM." [ref=e1696]': 12:15 PM
+                          - generic [ref=e1697]: Cebu Pacific
+                        - generic [ref=e1698]:
+                          - generic "Total duration 1 hr 35 min." [ref=e1699]: 1 hr 35 min
+                          - generic [ref=e1700]:
+                            - generic [ref=e1703]: MNL
+                            - text: –
+                            - generic [ref=e1706]: CEB
+                        - generic "Nonstop flight." [ref=e1709]: Nonstop
+                        - generic [ref=e1711]:
+                          - generic [ref=e1713]: 55 kg CO2e
+                          - generic [ref=e1714]:
+                            - generic [ref=e1715]: "-18% emissions"
+                            - 'button "Carbon emissions estimate: 55 kilograms. -18% emissions. Learn more about this emissions estimate" [ref=e1716]':
+                              - img [ref=e1717]
+                        - generic [ref=e1719]:
+                          - generic [ref=e1721]: ₱10,910
+                          - generic [ref=e1722]: round trip
+                      - text: · ··
+                    - button "Flight details. Leaves Ninoy Aquino International Airport at 10:40 AM on Monday, June 1 and arrives at Mactan-Cebu International Airport at 12:15 PM on Monday, June 1." [ref=e1725]:
+                      - img [ref=e1728]
+                - listitem [ref=e1730]:
+                  - generic [ref=e1731]:
+                    - link "From 11578 Philippine pesos round trip total. Nonstop flight with Philippine Airlines. Operated by PAL Express. Leaves Ninoy Aquino International Airport at 4:45 PM on Monday, June 1 and arrives at Mactan-Cebu International Airport at 6:10 PM on Monday, June 1. Total duration 1 hr 25 min. Select flight"
+                    - generic [ref=e1733] [cursor=pointer]:
+                      - generic [ref=e1735]:
+                        - generic [ref=e1737]:
+                          - generic "Leaves Ninoy Aquino International Airport at 4:45 PM on Monday, June 1 and arrives at Mactan-Cebu International Airport at 6:10 PM on Monday, June 1." [ref=e1739]:
+                            - 'generic "Departure time: 4:45 PM." [ref=e1742]': 4:45 PM
+                            - text: –
+                            - 'generic "Arrival time: 6:10 PM." [ref=e1745]': 6:10 PM
+                          - generic [ref=e1746]:
+                            - text: Philippine Airlines
+                            - generic [ref=e1747]: ·
+                            - text: Operated by PAL Express
+                        - generic [ref=e1748]:
+                          - generic "Total duration 1 hr 25 min." [ref=e1749]: 1 hr 25 min
+                          - generic [ref=e1750]:
+                            - generic [ref=e1753]: MNL
+                            - text: –
+                            - generic [ref=e1756]: CEB
+                        - generic "Nonstop flight." [ref=e1759]: Nonstop
+                        - generic [ref=e1761]:
+                          - generic [ref=e1763]: 67 kg CO2e
+                          - generic [ref=e1764]:
+                            - generic [ref=e1765]: Avg emissions
+                            - 'button "Carbon emissions estimate: 67 kilograms. Average emissions. Learn more about this emissions estimate" [ref=e1766]':
+                              - img [ref=e1767]
+                        - generic [ref=e1769]:
+                          - generic [ref=e1771]: ₱11,578
+                          - generic [ref=e1772]: round trip
+                      - text: · ·· ·
+                    - button "Flight details. Leaves Ninoy Aquino International Airport at 4:45 PM on Monday, June 1 and arrives at Mactan-Cebu International Airport at 6:10 PM on Monday, June 1." [ref=e1775]:
+                      - img [ref=e1778]
+                - listitem [ref=e1780]:
+                  - generic [ref=e1781]:
+                    - link "From 11578 Philippine pesos round trip total. Nonstop flight with Philippine Airlines. Operated by PAL Express. Leaves Ninoy Aquino International Airport at 10:05 PM on Monday, June 1 and arrives at Mactan-Cebu International Airport at 11:25 PM on Monday, June 1. Total duration 1 hr 20 min. Select flight"
+                    - generic [ref=e1783] [cursor=pointer]:
+                      - generic [ref=e1785]:
+                        - generic [ref=e1787]:
+                          - generic "Leaves Ninoy Aquino International Airport at 10:05 PM on Monday, June 1 and arrives at Mactan-Cebu International Airport at 11:25 PM on Monday, June 1." [ref=e1789]:
+                            - 'generic "Departure time: 10:05 PM." [ref=e1792]': 10:05 PM
+                            - text: –
+                            - 'generic "Arrival time: 11:25 PM." [ref=e1795]': 11:25 PM
+                          - generic [ref=e1796]:
+                            - text: Philippine Airlines
+                            - generic [ref=e1797]: ·
+                            - text: Operated by PAL Express
+                        - generic [ref=e1798]:
+                          - generic "Total duration 1 hr 20 min." [ref=e1799]: 1 hr 20 min
+                          - generic [ref=e1800]:
+                            - generic [ref=e1803]: MNL
+                            - text: –
+                            - generic [ref=e1806]: CEB
+                        - generic "Nonstop flight." [ref=e1809]: Nonstop
+                        - generic [ref=e1811]:
+                          - generic [ref=e1813]: 67 kg CO2e
+                          - generic [ref=e1814]:
+                            - generic [ref=e1815]: Avg emissions
+                            - 'button "Carbon emissions estimate: 67 kilograms. Average emissions. Learn more about this emissions estimate" [ref=e1816]':
+                              - img [ref=e1817]
+                        - generic [ref=e1819]:
+                          - generic [ref=e1821]: ₱11,578
+                          - generic [ref=e1822]: round trip
+                      - text: · ·· ·
+                    - button "Flight details. Leaves Ninoy Aquino International Airport at 10:05 PM on Monday, June 1 and arrives at Mactan-Cebu International Airport at 11:25 PM on Monday, June 1." [ref=e1825]:
+                      - img [ref=e1828]
+                - listitem [ref=e1830]:
+                  - generic [ref=e1831]:
+                    - link "From 12474 Philippine pesos round trip total. Nonstop flight with Philippine Airlines. Leaves Ninoy Aquino International Airport at 11:50 AM on Monday, June 1 and arrives at Mactan-Cebu International Airport at 1:10 PM on Monday, June 1. Total duration 1 hr 20 min. Select flight"
+                    - generic [ref=e1833] [cursor=pointer]:
+                      - generic [ref=e1835]:
+                        - generic [ref=e1837]:
+                          - generic "Leaves Ninoy Aquino International Airport at 11:50 AM on Monday, June 1 and arrives at Mactan-Cebu International Airport at 1:10 PM on Monday, June 1." [ref=e1839]:
+                            - 'generic "Departure time: 11:50 AM." [ref=e1842]': 11:50 AM
+                            - text: –
+                            - 'generic "Arrival time: 1:10 PM." [ref=e1845]': 1:10 PM
+                          - generic [ref=e1846]: Philippine Airlines
+                        - generic [ref=e1847]:
+                          - generic "Total duration 1 hr 20 min." [ref=e1848]: 1 hr 20 min
+                          - generic [ref=e1849]:
+                            - generic [ref=e1852]: MNL
+                            - text: –
+                            - generic [ref=e1855]: CEB
+                        - generic "Nonstop flight." [ref=e1858]: Nonstop
+                        - generic [ref=e1860]:
+                          - generic [ref=e1862]: 74 kg CO2e
+                          - generic [ref=e1863]:
+                            - generic [ref=e1864]: +10% emissions
+                            - 'button "Carbon emissions estimate: 74 kilograms. +10% emissions. Learn more about this emissions estimate" [ref=e1865]':
+                              - img [ref=e1866]
+                        - generic [ref=e1868]:
+                          - generic [ref=e1870]: ₱12,474
+                          - generic [ref=e1871]: round trip
+                      - text: · ··
+                    - button "Flight details. Leaves Ninoy Aquino International Airport at 11:50 AM on Monday, June 1 and arrives at Mactan-Cebu International Airport at 1:10 PM on Monday, June 1." [ref=e1874]:
+                      - img [ref=e1877]
+                - listitem [ref=e1879]:
+                  - generic [ref=e1880]:
+                    - link "From 12474 Philippine pesos round trip total. Nonstop flight with Philippine Airlines. Operated by PAL Express. Leaves Ninoy Aquino International Airport at 1:25 PM on Monday, June 1 and arrives at Mactan-Cebu International Airport at 2:45 PM on Monday, June 1. Total duration 1 hr 20 min. Select flight"
+                    - generic [ref=e1882] [cursor=pointer]:
+                      - generic [ref=e1884]:
+                        - generic [ref=e1886]:
+                          - generic "Leaves Ninoy Aquino International Airport at 1:25 PM on Monday, June 1 and arrives at Mactan-Cebu International Airport at 2:45 PM on Monday, June 1." [ref=e1888]:
+                            - 'generic "Departure time: 1:25 PM." [ref=e1891]': 1:25 PM
+                            - text: –
+                            - 'generic "Arrival time: 2:45 PM." [ref=e1894]': 2:45 PM
+                          - generic [ref=e1895]:
+                            - text: Philippine Airlines
+                            - generic [ref=e1896]: ·
+                            - text: Operated by PAL Express
+                        - generic [ref=e1897]:
+                          - generic "Total duration 1 hr 20 min." [ref=e1898]: 1 hr 20 min
+                          - generic [ref=e1899]:
+                            - generic [ref=e1902]: MNL
+                            - text: –
+                            - generic [ref=e1905]: CEB
+                        - generic "Nonstop flight." [ref=e1908]: Nonstop
+                        - generic [ref=e1910]:
+                          - generic [ref=e1912]: 67 kg CO2e
+                          - generic [ref=e1913]:
+                            - generic [ref=e1914]: Avg emissions
+                            - 'button "Carbon emissions estimate: 67 kilograms. Average emissions. Learn more about this emissions estimate" [ref=e1915]':
+                              - img [ref=e1916]
+                        - generic [ref=e1918]:
+                          - generic [ref=e1920]: ₱12,474
+                          - generic [ref=e1921]: round trip
+                      - text: · ·· ·
+                    - button "Flight details. Leaves Ninoy Aquino International Airport at 1:25 PM on Monday, June 1 and arrives at Mactan-Cebu International Airport at 2:45 PM on Monday, June 1." [ref=e1924]:
+                      - img [ref=e1927]
+                - listitem [ref=e1929]:
+                  - generic [ref=e1930]:
+                    - link "From 13594 Philippine pesos round trip total. Nonstop flight with Philippine Airlines. Operated by PAL Express. Leaves Ninoy Aquino International Airport at 5:00 AM on Monday, June 1 and arrives at Mactan-Cebu International Airport at 6:25 AM on Monday, June 1. Total duration 1 hr 25 min. Select flight"
+                    - generic [ref=e1932] [cursor=pointer]:
+                      - generic [ref=e1934]:
+                        - generic [ref=e1936]:
+                          - generic "Leaves Ninoy Aquino International Airport at 5:00 AM on Monday, June 1 and arrives at Mactan-Cebu International Airport at 6:25 AM on Monday, June 1." [ref=e1938]:
+                            - 'generic "Departure time: 5:00 AM." [ref=e1941]': 5:00 AM
+                            - text: –
+                            - 'generic "Arrival time: 6:25 AM." [ref=e1944]': 6:25 AM
+                          - generic [ref=e1945]:
+                            - text: Philippine Airlines
+                            - generic [ref=e1946]: ·
+                            - text: Operated by PAL Express
+                        - generic [ref=e1947]:
+                          - generic "Total duration 1 hr 25 min." [ref=e1948]: 1 hr 25 min
+                          - generic [ref=e1949]:
+                            - generic [ref=e1952]: MNL
+                            - text: –
+                            - generic [ref=e1955]: CEB
+                        - generic "Nonstop flight." [ref=e1958]: Nonstop
+                        - generic [ref=e1960]:
+                          - generic [ref=e1962]: 74 kg CO2e
+                          - generic [ref=e1963]:
+                            - generic [ref=e1964]: +10% emissions
+                            - 'button "Carbon emissions estimate: 74 kilograms. +10% emissions. Learn more about this emissions estimate" [ref=e1965]':
+                              - img [ref=e1966]
+                        - generic [ref=e1968]:
+                          - generic [ref=e1970]: ₱13,594
+                          - generic [ref=e1971]: round trip
+                      - text: · ·· ·
+                    - button "Flight details. Leaves Ninoy Aquino International Airport at 5:00 AM on Monday, June 1 and arrives at Mactan-Cebu International Airport at 6:25 AM on Monday, June 1." [ref=e1974]:
+                      - img [ref=e1977]
+                - listitem [ref=e1979]:
+                  - generic [ref=e1980]:
+                    - link "From 15065 Philippine pesos round trip total. Nonstop flight with Philippines AirAsia. Leaves Ninoy Aquino International Airport at 3:20 AM on Monday, June 1 and arrives at Mactan-Cebu International Airport at 4:45 AM on Monday, June 1. Total duration 1 hr 25 min. Select flight"
+                    - generic [ref=e1982] [cursor=pointer]:
+                      - generic [ref=e1984]:
+                        - generic [ref=e1986]:
+                          - generic "Leaves Ninoy Aquino International Airport at 3:20 AM on Monday, June 1 and arrives at Mactan-Cebu International Airport at 4:45 AM on Monday, June 1." [ref=e1988]:
+                            - 'generic "Departure time: 3:20 AM." [ref=e1991]': 3:20 AM
+                            - text: –
+                            - 'generic "Arrival time: 4:45 AM." [ref=e1994]': 4:45 AM
+                          - generic [ref=e1995]: Philippines AirAsia
+                        - generic [ref=e1996]:
+                          - generic "Total duration 1 hr 25 min." [ref=e1997]: 1 hr 25 min
+                          - generic [ref=e1998]:
+                            - generic [ref=e2001]: MNL
+                            - text: –
+                            - generic [ref=e2004]: CEB
+                        - generic "Nonstop flight." [ref=e2007]: Nonstop
+                        - generic [ref=e2009]:
+                          - generic [ref=e2011]: 67 kg CO2e
+                          - generic [ref=e2012]:
+                            - generic [ref=e2013]: Avg emissions
+                            - 'button "Carbon emissions estimate: 67 kilograms. Average emissions. Learn more about this emissions estimate" [ref=e2014]':
+                              - img [ref=e2015]
+                        - generic [ref=e2017]:
+                          - generic [ref=e2019]: ₱15,065
+                          - generic [ref=e2020]: round trip
+                      - text: · ··
+                    - button "Flight details. Leaves Ninoy Aquino International Airport at 3:20 AM on Monday, June 1 and arrives at Mactan-Cebu International Airport at 4:45 AM on Monday, June 1." [ref=e2023]:
+                      - img [ref=e2026]
+                - listitem [ref=e2028]:
+                  - generic [ref=e2029]:
+                    - link "From 15386 Philippine pesos round trip total. Nonstop flight with Philippine Airlines. Operated by PAL Express. Leaves Ninoy Aquino International Airport at 9:15 AM on Monday, June 1 and arrives at Mactan-Cebu International Airport at 10:35 AM on Monday, June 1. Total duration 1 hr 20 min. Select flight"
+                    - generic [ref=e2031] [cursor=pointer]:
+                      - generic [ref=e2033]:
+                        - generic [ref=e2035]:
+                          - generic "Leaves Ninoy Aquino International Airport at 9:15 AM on Monday, June 1 and arrives at Mactan-Cebu International Airport at 10:35 AM on Monday, June 1." [ref=e2037]:
+                            - 'generic "Departure time: 9:15 AM." [ref=e2040]': 9:15 AM
+                            - text: –
+                            - 'generic "Arrival time: 10:35 AM." [ref=e2043]': 10:35 AM
+                          - generic [ref=e2044]:
+                            - text: Philippine Airlines
+                            - generic [ref=e2045]: ·
+                            - text: Operated by PAL Express
+                        - generic [ref=e2046]:
+                          - generic "Total duration 1 hr 20 min." [ref=e2047]: 1 hr 20 min
+                          - generic [ref=e2048]:
+                            - generic [ref=e2051]: MNL
+                            - text: –
+                            - generic [ref=e2054]: CEB
+                        - generic "Nonstop flight." [ref=e2057]: Nonstop
+                        - generic [ref=e2059]:
+                          - generic [ref=e2061]: 74 kg CO2e
+                          - generic [ref=e2062]:
+                            - generic [ref=e2063]: +10% emissions
+                            - 'button "Carbon emissions estimate: 74 kilograms. +10% emissions. Learn more about this emissions estimate" [ref=e2064]':
+                              - img [ref=e2065]
+                        - generic [ref=e2067]:
+                          - generic [ref=e2069]: ₱15,386
+                          - generic [ref=e2070]: round trip
+                      - text: · ·· ·
+                    - button "Flight details. Leaves Ninoy Aquino International Airport at 9:15 AM on Monday, June 1 and arrives at Mactan-Cebu International Airport at 10:35 AM on Monday, June 1." [ref=e2073]:
+                      - img [ref=e2076]
+          - text: · ·· · ·· · ·· · ·· · ·· · ·· · ·· · ·· · ·· · ·· · ·· · ·· · ·· · ·· · ·· · ·· · ·· · ·· · · ·· · · ·· · ·· · ·· · ·· · ·· · ·· · · ·· · · · ·· · · ·· · · ·· · · · ·· · · ·· · · ·· ·
+      - contentinfo [ref=e2080]:
+        - generic [ref=e2082]:
+          - button "Language·English (United States)" [ref=e2083]:
+            - img [ref=e2086]
+            - generic [ref=e2088]: Language·English (United States)
+          - button "Location·Philippines" [ref=e2089]:
+            - img [ref=e2092]
+            - generic [ref=e2095]: Location·Philippines
+          - button "Currency PHP" [ref=e2096]:
+            - img [ref=e2099]
+            - generic [ref=e2109]: Currency·PHP
+        - generic [ref=e2110]:
+          - link "About Google Travel" [ref=e2111] [cursor=pointer]:
+            - /url: https://about.google/?hl=en-US
+            - text: About
+          - link "Privacy" [ref=e2112] [cursor=pointer]:
+            - /url: https://policies.google.com/privacy?hl=en-US
+          - link "Terms" [ref=e2113] [cursor=pointer]:
+            - /url: https://policies.google.com/terms?hl=en-US
+          - link "Join user studies" [ref=e2114] [cursor=pointer]:
+            - /url: https://google.qualtrics.com/jfe/form/SV_3NMIMtX0F2zkakR?reserved%3D1%26utm_source%3DFooter%2520link%26utm_medium%3Down_web%26%20utm_campaign%3DQ2%26productTag%3D0%26campaignDate%3DApril2020%26referral_code%3DUXbJ377133&Q_Language=en-US
+          - link "Feedback" [ref=e2115] [cursor=pointer]:
+            - /url: ./#0
+          - link "Help Center" [ref=e2116] [cursor=pointer]:
+            - /url: https://support.google.com/travel/?hl=en-US#topic=2475360
+        - generic [ref=e2117]:
+          - paragraph [ref=e2118]:
+            - text: Displayed currencies may differ from the currencies used to purchase flights.
+            - link "Learn more about currencies" [ref=e2119] [cursor=pointer]:
+              - /url: https://www.google.com/googlefinance/disclaimer?hl=en-US&gl=PH
+              - text: Learn more
+          - paragraph [ref=e2120]: Prices are final prices and include all taxes and fees, including payment fees for the cheapest common payment method (which may differ depending on the provider). Additional charges may apply for other types of payment, luggage, meals, WLAN or other additional services. Prices, availability and travel details are provided based on the latest information received from our partners. This information is reflected in the results within a period of less than 24 hours. Additional conditions may also be applied by our partners. You should then check prices and conditions with the services providers before booking.

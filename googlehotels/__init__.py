@@ -1,1 +1,0 @@
-"""Google Hotels scraper scaffold."""
