@@ -1,0 +1,38 @@
+{
+  "query": {
+    "origin": "DVO",
+    "destination": "MNL",
+    "depart_date": "2026-07-02",
+    "return_date": null,
+    "trip_type": "one_way",
+    "passengers": 1,
+    "cabin": "economy",
+    "max_stops": null,
+    "timeout_seconds": 45.0,
+    "max_retries": 1,
+    "detail_level": "summary",
+    "selected_offer_index": null,
+    "selected_return_offer_index": null
+  },
+  "final_url": "https://www.google.com/travel/flights/search?q=flights+from+DVO+to+MNL+on+2026-07-02",
+  "capture": {
+    "url": "https://www.google.com/_/FlightsFrontendUi/data/travel.frontend.flights.FlightsFrontendService/GetShoppingResults?f.sid=-8981368540889350159&bl=boq_travel-frontend-flights-ui_20260515.02_p0&hl=en-US&soc-app=162&soc-platform=1&soc-device=1&_reqid=2928&rt=c",
+    "request_body": "f.req=%5Bnull%2C%22%5B%5Bnull%2Cnull%2Cnull%2C%5C%22Ho9-yyV1BhgIABPYHwBG--------smbcp15AAAAAGoMlG4CKRu0A%5C%22%5D%2C%5Bnull%2Cnull%2C1%2Cnull%2C%5B%5D%2C1%2C%5B1%2C0%2C0%2C0%5D%2Cnull%2Cnull%2Cnull%2Cnull%2Cnull%2Cnull%2C%5B%5B%5B%5B%5B%5C%22DVO%5C%22%2C0%5D%5D%5D%2C%5B%5B%5B%5C%22MNL%5C%22%2C0%5D%5D%5D%2Cnull%2C0%2Cnull%2Cnull%2C%5C%222026-07-02%5C%22%2Cnull%2Cnull%2Cnull%2Cnull%2Cnull%2Cnull%2Cnull%2C3%5D%2C%5B%5B%5B%5B%5C%22MNL%5C%22%2C0%5D%5D%5D%2C%5B%5B%5B%5C%22DVO%5C%22%2C0%5D%5D%5D%2Cnull%2C0%2Cnull%2Cnull%2C%5C%222026-07-06%5C%22%2Cnull%2Cnull%2Cnull%2Cnull%2Cnull%2Cnull%2Cnull%2C1%5D%5D%2Cnull%2Cnull%2Cnull%2C1%5D%2C0%2C0%2C0%2C1%5D%22%5D&",
+    "response_body": ")]}'\n\n269\n[[\"wrb.fr\",null,null,null,null,[13,null,[[\"type.googleapis.com/travel.frontend.flights.ErrorResponse\",[[null,[[1779209328056396,137922322,841486969],null,null,null,null,[[0]]],0,\"cJQMasy4A5KO4vEP-aSgkQM\",\"HmtzCumlp5b8AFNwnwBG---------secpl9AAAAAGoMlHAA7qHYA\"],0]]]]]]\n55\n[[\"di\",54],[\"af.httprm\",54,\"2787892355829564059\",26]]\n25\n[[\"e\",4,null,null,362]]\n",
+    "captured_at": "2026-05-19T16:48:48+00:00"
+  },
+  "supplemental_captures": [],
+  "offers": [],
+  "archive_dir": "artifacts\\20260519T164848172871Z",
+  "requested_mode": "browser",
+  "executed_mode": "browser",
+  "timings": {
+    "total_seconds": 35.8856,
+    "submission_seconds": 35.1023,
+    "parse_seconds": 0.0,
+    "archive_seconds": 0.0248
+  },
+  "notes": [
+    "summary mode skips booking-option expansion; fetch offer details for provider options"
+  ]
+}

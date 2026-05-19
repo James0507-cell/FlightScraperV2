@@ -11,9 +11,9 @@ from playwright.async_api import Browser, BrowserContext, Page, Playwright, Requ
 
 from .booking_links import resolve_google_deeplink
 from .booking_replay import build_booking_request_body
-from .models import FlightQuery, NetworkCapture, ScrapeRun
+from .models import FlightQuery, NetworkCapture, OfferDetails, ScrapeRun
 from .parser import extract_booking_options, extract_offers, extract_round_trip_offers
-from .storage import archive_run, make_run_dir
+from .storage import archive_offer_details, archive_run, make_run_dir
 
 SEARCH_URL = "https://www.google.com/travel/flights/search"
 
@@ -51,18 +51,34 @@ class GoogleFlightsScraper:
                 started_at = perf_counter()
                 await page.goto(SEARCH_URL, wait_until="domcontentloaded")
                 submission_started_at = perf_counter()
-                if query.trip_type == "round_trip" and query.return_date:
-                    capture, supplemental_captures, offers = await self._submit_round_trip_query(page, query)
+                if query.detail_level == "complete":
+                    if query.trip_type == "round_trip" and query.return_date:
+                        capture, supplemental_captures, offers = await self._submit_round_trip_query(page, query)
+                    else:
+                        capture = await self._submit_query(page, query)
+                        offers = extract_offers(capture.response_body)
+                        supplemental_captures = await self._submit_one_way_booking_query(
+                            page,
+                            query,
+                            offers,
+                        )
                 else:
                     capture = await self._submit_query(page, query)
                     offers = extract_offers(capture.response_body)
-                    supplemental_captures = await self._submit_one_way_booking_query(
-                        page,
-                        query,
-                        offers,
-                    )
+                    supplemental_captures = []
                 capture_finished_at = perf_counter()
                 parse_finished_at = perf_counter()
+                notes: list[str] = []
+                if query.detail_level != "complete":
+                    if query.trip_type == "round_trip" and query.return_date:
+                        notes.append(
+                            "summary mode returns outbound options only for round-trip searches; "
+                            "fetch offer details to load return choices and booking options"
+                        )
+                    else:
+                        notes.append(
+                            "summary mode skips booking-option expansion; fetch offer details for provider options"
+                        )
                 run_dir = make_run_dir(self._archive_root)
                 run = ScrapeRun(
                     query=query,
@@ -73,6 +89,7 @@ class GoogleFlightsScraper:
                     supplemental_captures=supplemental_captures,
                     requested_mode="browser",
                     executed_mode="browser",
+                    notes=notes,
                     timings={
                         "total_seconds": round(parse_finished_at - started_at, 4),
                         "submission_seconds": round(capture_finished_at - submission_started_at, 4),
@@ -113,9 +130,111 @@ class GoogleFlightsScraper:
 
         return await asyncio.gather(*(runner(query) for query in queries))
 
+    async def run_offer_details(self, query: FlightQuery) -> OfferDetails:
+        if self._context is None:
+            raise RuntimeError("Scraper must be used as an async context manager.")
+        if query.selected_offer_index is None or query.selected_offer_index < 0:
+            raise ValueError("selected_offer_index must be provided for offer detail scraping.")
+
+        page = await self._context.new_page()
+        try:
+            started_at = perf_counter()
+            await page.goto(SEARCH_URL, wait_until="domcontentloaded")
+            capture = await self._submit_query(page, query)
+            offers = extract_offers(capture.response_body)
+            selected_offer = self._select_offer_from_list(offers, query.selected_offer_index)
+            supplemental_captures: list[NetworkCapture] = []
+            notes: list[str] = []
+            return_offers: list = []
+            selected_itinerary = None
+            booking_options = []
+
+            if query.trip_type == "round_trip" and query.return_date:
+                try:
+                    async with page.expect_response(_is_results_response, timeout=query.timeout_seconds * 1000) as return_response_info:
+                        await self._select_flight(page, query.selected_offer_index)
+                    return_response = await return_response_info.value
+                    return_capture = await _capture_from_response(return_response)
+                    supplemental_captures.append(return_capture)
+                    return_offers = extract_offers(return_capture.response_body)
+                    notes.append("selected outbound offer expanded into return-flight choices")
+
+                    if query.selected_return_offer_index is not None:
+                        selected_return_offer = self._select_offer_from_list(return_offers, query.selected_return_offer_index)
+                        try:
+                            async with page.expect_response(
+                                _is_booking_results_response,
+                                timeout=query.timeout_seconds * 1000,
+                            ) as booking_response_info:
+                                await self._select_flight(page, query.selected_return_offer_index)
+                            booking_response = await booking_response_info.value
+                            booking_capture = await _capture_from_response(booking_response)
+                            supplemental_captures.append(booking_capture)
+                            selected_itinerary = extract_round_trip_offers(
+                                capture.response_body,
+                                return_capture.response_body,
+                            )[query.selected_return_offer_index]
+                            booking_options = extract_booking_options(booking_capture.response_body)
+                            self._resolve_booking_urls(booking_options)
+                            selected_itinerary.booking_options = booking_options
+                            notes.append(
+                                f"selected return offer {query.selected_return_offer_index} expanded into booking options"
+                            )
+                            if selected_return_offer.booking_token and not selected_itinerary.booking_token:
+                                selected_itinerary.booking_token = selected_return_offer.booking_token
+                        except TimeoutError:
+                            notes.append("selected return offer did not emit GetBookingResults before timeout")
+                except TimeoutError:
+                    notes.append("selected outbound offer did not emit return-flight results before timeout")
+            else:
+                selected_itinerary = selected_offer
+                try:
+                    async with page.expect_response(
+                        _is_booking_results_response,
+                        timeout=query.timeout_seconds * 1000,
+                    ) as booking_response_info:
+                        await self._select_flight(page, query.selected_offer_index)
+                    booking_response = await booking_response_info.value
+                    booking_capture = await _capture_from_response(booking_response)
+                    supplemental_captures.append(booking_capture)
+                    booking_options = extract_booking_options(booking_capture.response_body)
+                    self._resolve_booking_urls(booking_options)
+                    selected_offer.booking_options = booking_options
+                    notes.append("selected offer expanded into booking options")
+                except TimeoutError:
+                    notes.append("selected offer did not emit GetBookingResults before timeout")
+
+            finished_at = perf_counter()
+            run_dir = make_run_dir(self._archive_root)
+            details = OfferDetails(
+                query=query,
+                final_url=page.url,
+                capture=capture,
+                archive_dir=run_dir,
+                selected_offer_index=query.selected_offer_index,
+                selected_return_offer_index=query.selected_return_offer_index,
+                selected_outbound_offer=selected_offer,
+                return_offers=return_offers,
+                selected_itinerary=selected_itinerary,
+                booking_options=booking_options,
+                supplemental_captures=supplemental_captures,
+                timings={
+                    "total_seconds": round(finished_at - started_at, 4),
+                },
+                notes=notes,
+            )
+            archive_offer_details(run_dir, details)
+            return details
+        finally:
+            await page.close()
+
     async def _submit_query(self, page: Page, query: FlightQuery) -> NetworkCapture:
         try:
             await self._prepare_query(page, query)
+        except TimeoutError:
+            await page.goto(SEARCH_URL, wait_until="domcontentloaded")
+            await self._prepare_query(page, query)
+        try:
             async with page.expect_response(_is_results_response, timeout=query.timeout_seconds * 1000) as first_response_info:
                 await page.get_by_label("Explore destinations").click()
             response = await first_response_info.value
@@ -304,14 +423,14 @@ class GoogleFlightsScraper:
         await page.wait_for_load_state("domcontentloaded")
         origin_field = page.get_by_label("Where from?", exact=False).first
         try:
-            await origin_field.wait_for(timeout=5000)
+            await origin_field.wait_for(timeout=15000)
             return
         except TimeoutError:
             pass
         explore_button = page.get_by_role("button", name="Explore destinations")
-        await explore_button.wait_for(timeout=10000)
+        await explore_button.wait_for(timeout=30000)
         await explore_button.click()
-        await origin_field.wait_for(timeout=30000)
+        await origin_field.wait_for(timeout=45000)
 
     async def _prepare_query(self, page: Page, query: FlightQuery) -> None:
         await self._stabilize_shell(page)
@@ -324,8 +443,13 @@ class GoogleFlightsScraper:
         if query.trip_type == "round_trip" and query.return_date:
             await self._fill_date(page, label="Return", value=query.return_date)
 
-    async def _select_first_flight(self, page: Page) -> None:
-        result_link = page.get_by_role("link", name=re.compile(r"Select flight$")).first
+    def _select_offer_from_list(self, offers: list, index: int):
+        if index < 0 or index >= len(offers):
+            raise ValueError(f"Offer index {index} is out of range for {len(offers)} offers.")
+        return offers[index]
+
+    async def _select_flight(self, page: Page, index: int) -> None:
+        result_link = page.get_by_role("link", name=re.compile(r"Select flight$")).nth(index)
         try:
             await result_link.wait_for(timeout=15000)
             try:
@@ -334,7 +458,10 @@ class GoogleFlightsScraper:
                 await result_link.evaluate("(element) => element.click()")
             return
         except TimeoutError:
-            raise TimeoutError("Failed to locate a selectable outbound flight result.")
+            raise TimeoutError(f"Failed to locate selectable flight result at index {index}.")
+
+    async def _select_first_flight(self, page: Page) -> None:
+        await self._select_flight(page, 0)
 
 
 async def _request_body(request: Request) -> str | None:
@@ -386,6 +513,7 @@ async def run_single_query(
     headless: bool,
     archive_root: str,
     max_retries: int,
+    detail_level: str = "summary",
 ) -> ScrapeRun:
     trip_type = "round_trip" if return_date else "one_way"
     query = FlightQuery(
@@ -398,6 +526,7 @@ async def run_single_query(
         cabin=cabin,
         max_stops=max_stops,
         max_retries=max_retries,
+        detail_level=detail_level,
     )
     async with GoogleFlightsScraper(headless=headless, archive_root=archive_root) as scraper:
         return await scraper.run_query(query)

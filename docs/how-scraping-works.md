@@ -63,8 +63,9 @@ The runtime flow is:
 3. A live Google Flights request is executed.
 4. The `GetShoppingResults` response is captured.
 5. The raw response is parsed into normalized offers.
-6. The run is archived under `artifacts/`.
-7. The run is persisted into SQLite.
+6. Optional detail expansion can fetch one offer's return choices or booking options.
+7. The run is archived under `artifacts/`.
+8. Summary runs are persisted into SQLite.
 
 ## 1. Entry Point
 
@@ -107,6 +108,23 @@ This mode uses Playwright to behave like a user:
 6. Capture the returned payload.
 
 This path is slower but safer because it follows the UI directly.
+
+### Summary Vs Detail Expansion
+
+Browser mode now has two layers:
+
+- `summary`
+  - default
+  - stops after the initial `GetShoppingResults`
+  - returns outbound offers only
+- offer-details flow
+  - reruns the query for one selected offer
+  - can fetch:
+    - booking options for one-way offers
+    - return-flight choices for one selected round-trip outbound offer
+    - booking options for one selected round-trip combination
+
+This split exists because the old all-in-one browser flow replayed booking lookups for every parsed offer, which made one scrape behave like many follow-up scrapes.
 
 ### Why Browser Mode Exists
 
@@ -218,6 +236,12 @@ Parsed offers include fields like:
 - `flight_numbers`
 - `booking_token`
 
+The same parser is also reused for detail expansion:
+
+- the initial round-trip summary returns outbound offers
+- selecting one outbound offer yields a second `GetShoppingResults` payload containing return offers
+- selecting a final itinerary yields `GetBookingResults`
+
 ## 6. Data Models
 
 The normalized structures are defined in [models.py](C:/Users/Admin/PycharmProjects/FlightScraperV2/flightscraperv2/models.py).
@@ -229,6 +253,7 @@ Important models include:
 - `FlightOffer`
 - `NetworkCapture`
 - `ScrapeRun`
+- `OfferDetails`
 
 These models keep the rest of the system independent from Google’s raw internal payload shape.
 
@@ -245,6 +270,10 @@ Typical files include:
 - `response.txt`
 - `offers.json`
 - `run.json`
+
+Offer-detail runs additionally write:
+
+- `details.json`
 
 These are useful for:
 
@@ -367,6 +396,7 @@ The current implementation still has important limits:
 
 - replay depends on internal Google request formats
 - browser automation can still be flaky across live runs
+- Google does not always emit detail responses (`GetBookingResults`) consistently for every session
 - parsing is tied to the currently observed payload structure
 - anti-blocking behavior is still basic
 - broader route coverage still needs validation
@@ -377,7 +407,8 @@ The scraper is a Playwright-based, network-first Google Flights scraper with a r
 
 In practice:
 
-- browser mode discovers and captures live results safely
+- browser mode summary discovers and captures the initial live results
+- detail expansion is a second scrape for one selected itinerary
 - replay mode reuses the discovered request format for speed
 - parser logic converts Google’s internal payload into stable offer data
 - storage and SQLite keep both raw evidence and normalized results available for analysis

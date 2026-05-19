@@ -18,6 +18,9 @@ class FlightQuery:
     max_stops: int | None = None
     timeout_seconds: float = 45.0
     max_retries: int = 3
+    detail_level: str = "summary"
+    selected_offer_index: int | None = None
+    selected_return_offer_index: int | None = None
 
 
 @dataclass(slots=True)
@@ -137,6 +140,40 @@ class ScrapeRun:
             "archive_dir": str(self.archive_dir),
             "requested_mode": self.requested_mode,
             "executed_mode": self.executed_mode,
+            "timings": self.timings,
+            "notes": self.notes,
+        }
+
+
+@dataclass(slots=True)
+class OfferDetails:
+    query: FlightQuery
+    final_url: str
+    capture: NetworkCapture
+    archive_dir: Path
+    selected_offer_index: int
+    selected_return_offer_index: int | None = None
+    selected_outbound_offer: FlightOffer | None = None
+    return_offers: list[FlightOffer] = field(default_factory=list)
+    selected_itinerary: FlightOffer | None = None
+    booking_options: list[BookingOption] = field(default_factory=list)
+    supplemental_captures: list[NetworkCapture] = field(default_factory=list)
+    timings: dict[str, float] = field(default_factory=dict)
+    notes: list[str] = field(default_factory=list)
+
+    def to_dict(self) -> dict[str, Any]:
+        return {
+            "query": asdict(self.query),
+            "final_url": self.final_url,
+            "capture": self.capture.to_dict(),
+            "supplemental_captures": [capture.to_dict() for capture in self.supplemental_captures],
+            "archive_dir": str(self.archive_dir),
+            "selected_offer_index": self.selected_offer_index,
+            "selected_return_offer_index": self.selected_return_offer_index,
+            "selected_outbound_offer": self.selected_outbound_offer.to_dict() if self.selected_outbound_offer else None,
+            "return_offers": [offer.to_dict() for offer in self.return_offers],
+            "selected_itinerary": self.selected_itinerary.to_dict() if self.selected_itinerary else None,
+            "booking_options": [option.to_dict() for option in self.booking_options],
             "timings": self.timings,
             "notes": self.notes,
         }

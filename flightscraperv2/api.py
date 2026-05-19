@@ -22,6 +22,12 @@ class ScrapeRequest(BaseModel):
     retries: int = Field(default=3, ge=1, le=5)
     archive_root: str = "artifacts"
     headless: bool = True
+    detail_level: Literal["summary", "complete"] = "summary"
+
+
+class OfferDetailsRequest(ScrapeRequest):
+    offer_index: int = Field(..., ge=0)
+    return_offer_index: int | None = Field(default=None, ge=0)
 
 
 class HealthResponse(BaseModel):
@@ -70,9 +76,33 @@ def create_app() -> FastAPI:
             headless=request.headless,
             archive_root=request.archive_root,
             max_retries=request.retries,
+            detail_level=request.detail_level,
         )
         payload = run.to_dict()
         payload["offer_count"] = len(run.offers)
+        return payload
+
+    @app.post("/api/v1/scrape/details", tags=["scrape"])
+    async def scrape_details(request: OfferDetailsRequest) -> dict:
+        result = await run_single(
+            mode="browser",
+            origin=request.origin,
+            destination=request.destination,
+            depart_date=request.depart_date,
+            return_date=request.return_date,
+            passengers=request.passengers,
+            cabin=request.cabin,
+            max_stops=request.max_stops,
+            headless=request.headless,
+            archive_root=request.archive_root,
+            max_retries=request.retries,
+            detail_level=request.detail_level,
+            selected_offer_index=request.offer_index,
+            selected_return_offer_index=request.return_offer_index,
+        )
+        payload = result.to_dict()
+        payload["return_offer_count"] = len(result.return_offers)
+        payload["booking_option_count"] = len(result.booking_options)
         return payload
 
     @app.get("/api/v1/reports/recent-runs", tags=["reports"])

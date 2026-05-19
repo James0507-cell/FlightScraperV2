@@ -1,0 +1,143 @@
+- generic [active] [ref=e1]:
+  - banner [ref=e3]:
+    - generic [ref=e4]:
+      - generic [ref=e5]:
+        - button "Main menu" [ref=e6] [cursor=pointer]:
+          - img [ref=e7]
+        - link "Google" [ref=e11] [cursor=pointer]:
+          - /url: /
+      - generic [ref=e13]:
+        - generic [ref=e15]:
+          - generic:
+            - button "Skip to main content" [ref=e16]:
+              - generic: Skip to main content
+            - button "Accessibility feedback" [ref=e19]:
+              - generic: Accessibility feedback
+          - navigation [ref=e23]:
+            - link "Travel" [ref=e26]:
+              - img [ref=e29]
+              - generic: Travel
+            - link "Explore" [ref=e35]:
+              - img [ref=e38]
+              - generic: Explore
+            - link "Flights" [ref=e43]:
+              - img [ref=e46]
+              - generic: Flights
+            - link "Hotels" [ref=e51]:
+              - img [ref=e54]
+              - generic: Hotels
+            - link "Vacation rentals" [ref=e62]:
+              - img [ref=e65]
+              - generic: Vacation rentals
+        - generic [ref=e79]:
+          - button "Change appearance" [ref=e81]:
+            - img
+          - tooltip [ref=e84]: Change appearance
+      - generic [ref=e86]:
+        - button "Google apps" [ref=e90] [cursor=pointer]:
+          - img [ref=e91]
+        - link "Sign in" [ref=e94] [cursor=pointer]:
+          - /url: https://accounts.google.com/ServiceLogin?service=searchandassistant&passive=1209600&continue=https%3A%2F%2Fwww.google.com%2Ftravel%2Fexplore%3Ftfs%3DCBwQAxoPag0IAhIJL20vMDJnbjF4Gg9yDQgCEgkvbS8wMmduMXhAAUgBcAKCAQsI____________AZgBAbIBBBgBIAE%26tfu%3DGgA%26utm_source%3Dsign_in_ogb&followup=https%3A%2F%2Fwww.google.com%2Ftravel%2Fexplore%3Ftfs%3DCBwQAxoPag0IAhIJL20vMDJnbjF4Gg9yDQgCEgkvbS8wMmduMXhAAUgBcAKCAQsI____________AZgBAbIBBBgBIAE%26tfu%3DGgA%26utm_source%3Dsign_in_ogb&ec=GAZAlQM
+  - generic [ref=e534]: Explore
+  - generic [ref=e539]:
+    - generic [ref=e541]:
+      - generic [ref=e542]: Loading results
+      - progressbar [ref=e543]
+    - generic [ref=e553]:
+      - generic [ref=e554]:
+        - form "Filters" [ref=e558]:
+          - generic [ref=e559]:
+            - generic [ref=e560]:
+              - combobox "Change ticket type. Round trip" [ref=e565] [cursor=pointer]:
+                - generic:
+                  - img
+                - generic:
+                  - generic: Round trip
+                - generic:
+                  - img
+              - button "1 passenger" [ref=e571]:
+                - generic [ref=e574]:
+                  - img [ref=e575]
+                  - generic [ref=e577]: "1"
+                - img [ref=e578]
+              - combobox "Change seating class. Economy" [ref=e584] [cursor=pointer]:
+                - generic:
+                  - generic: Economy
+                - generic:
+                  - img
+            - generic [ref=e586]:
+              - generic [ref=e588]:
+                - generic [ref=e593]:
+                  - combobox "Where from?" [ref=e594]: Davao City
+                  - generic [ref=e596]: Davao City
+                  - img [ref=e597]
+                - generic [ref=e603]:
+                  - combobox "Where to?" [ref=e604]
+                  - generic [ref=e606]: Where to?
+                  - img [ref=e607]
+              - button "1-week trip in the next 6 months" [ref=e618]:
+                - img [ref=e619]
+                - generic "1-week trip in the next 6 months" [ref=e622]
+        - generic [ref=e627]:
+          - button "All filters, 1 filter selected" [ref=e630]:
+            - img [ref=e633]
+            - generic [ref=e635]: All filters (1)
+          - generic [ref=e638]:
+            - generic [ref=e640]:
+              - button "Flights only, Travel mode, Selected" [ref=e641]:
+                - generic [ref=e645]: Flights only
+              - button "Clear Travel mode" [ref=e646] [cursor=pointer]:
+                - img [ref=e647]
+            - button "Stops, Not selected" [ref=e652]:
+              - generic [ref=e656]:
+                - generic [ref=e657]: Stops
+                - img [ref=e658]
+            - button "Price, Not selected" [ref=e662]:
+              - generic [ref=e666]:
+                - generic [ref=e667]: Price
+                - img [ref=e668]
+            - button "Airlines, Not selected" [ref=e672]:
+              - generic [ref=e676]:
+                - generic [ref=e677]: Airlines
+                - img [ref=e678]
+            - button "Duration, Not selected" [ref=e682]:
+              - generic [ref=e686]:
+                - generic [ref=e687]: Duration
+                - img [ref=e688]
+            - button "Bags, Not selected" [ref=e692]:
+              - generic [ref=e696]:
+                - generic [ref=e697]: Bags
+                - img [ref=e698]
+      - main [ref=e700]:
+        - generic [ref=e703]:
+          - generic [ref=e704]: Loading results
+          - progressbar [ref=e705]:
+            - img [ref=e707]
+            - generic [ref=e710]:
+              - generic [ref=e711]:
+                - img [ref=e713]
+                - img [ref=e716]
+                - img [ref=e719]
+              - generic [ref=e721]:
+                - img [ref=e723]
+                - img [ref=e726]
+                - img [ref=e729]
+              - generic [ref=e731]:
+                - img [ref=e733]
+                - img [ref=e736]
+                - img [ref=e739]
+              - generic [ref=e741]:
+                - img [ref=e743]
+                - img [ref=e746]
+                - img [ref=e749]
+      - generic [ref=e753]:
+        - button "English (United States)" [ref=e754]:
+          - img [ref=e757]
+          - generic [ref=e759]: English (United States)
+        - button "PHP" [ref=e760]:
+          - img [ref=e763]
+          - generic [ref=e773]: PHP
+    - generic [ref=e779]:
+      - region "Map" [ref=e780]
+      - iframe [ref=e785]:
+        

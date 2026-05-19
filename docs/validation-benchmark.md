@@ -2,15 +2,109 @@
 
 ## Scope
 
-This document records the live validation and benchmark results collected on `2026-05-17` for the current Google Flights scraper implementation.
+This document records the live validation and benchmark results collected on `2026-05-17` and `2026-05-20` for the current Google Flights scraper implementation.
 
 The comparison covered:
 
 - `browser` mode
   - Full Playwright UI submission.
+  - As of `2026-05-20`, this now has two browser behaviors:
+    - default `summary` search
+    - explicit `complete` expansion
 - `replay` mode
   - One browser bootstrap query to capture session state and request template.
   - Follow-up request replay through the same Playwright browser context.
+
+## Split-Flow Validation (`2026-05-20`)
+
+Route used:
+
+- `DVO -> MNL`, one way, `2026-07-02`
+- `DVO -> MNL -> DVO`, round trip, `2026-07-02` to `2026-07-08`
+
+Live runs were more reliable in headed mode than headless mode on this machine.
+
+### One-way summary search
+
+- Command:
+  - `python main.py --mode browser --headed --origin DVO --destination MNL --depart-date 2026-07-02 --retries 1`
+- Result:
+  - Success
+  - `offer_count = 27`
+  - `booking_option_count = 0`
+  - Artifact: `artifacts/20260519T165012309450Z`
+- Measured wall time:
+  - `36.41s`
+- Captures written:
+  - `1` request
+  - `1` response
+
+### One-way selected-offer details
+
+- Command:
+  - `python main.py --mode browser --headed --origin DVO --destination MNL --depart-date 2026-07-02 --offer-index 0 --retries 1`
+- Result:
+  - Success
+  - `booking_option_count = 1`
+  - Artifact: `artifacts/20260519T165325244784Z`
+- Measured wall time:
+  - `37.62s`
+- Captures written:
+  - `2` requests
+  - `2` responses
+
+### Round-trip summary search
+
+- Command:
+  - `python main.py --mode browser --headed --origin DVO --destination MNL --depart-date 2026-07-02 --return-date 2026-07-08 --retries 1`
+- Result:
+  - Success
+  - `offer_count = 27`
+  - Notes indicate the payload contains outbound choices only.
+  - Artifact: `artifacts/20260519T165410473210Z`
+- Measured wall time:
+  - `37.29s`
+- Captures written:
+  - `1` request
+  - `1` response
+
+### Round-trip selected-outbound details
+
+- Command:
+  - `python main.py --mode browser --headed --origin DVO --destination MNL --depart-date 2026-07-02 --return-date 2026-07-08 --offer-index 0 --retries 1`
+- Result:
+  - Success
+  - `return_offer_count = 16`
+  - Artifact: `artifacts/20260519T165526005697Z`
+- Measured wall time:
+  - `68.13s`
+- Captures written:
+  - `2` requests
+  - `2` responses
+
+### Old full-expansion browser path
+
+- Command:
+  - `python main.py --mode browser --headed --origin DVO --destination MNL --depart-date 2026-07-02 --detail-level complete --retries 1`
+- Result:
+  - Success
+  - `offer_count = 27`
+  - Booking options were populated across offers.
+  - Artifact: `artifacts/20260519T165732398875Z`
+- Measured wall time:
+  - `120.22s`
+
+### Interpretation
+
+- The new summary path reduced one-way browser time from the historical `103s` to `149s` range down to about `36s` on the validated route.
+- The main reason is work reduction:
+  - summary search wrote `1` capture
+  - one-way detail wrote `2` captures
+  - old complete expansion wrote dozens of follow-up captures because it replayed booking lookups for every parsed offer
+- The round-trip split now behaves as intended:
+  - first scrape returns outbound choices
+  - second scrape returns return-flight choices for one selected outbound offer
+- This materially improves UX because the expensive deep scrape is now opt-in instead of being attached to every search.
 
 ## Validated Runs
 

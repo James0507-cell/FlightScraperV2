@@ -7,7 +7,7 @@ from pathlib import Path
 from typing import Any
 
 from .database import persist_run
-from .models import NetworkCapture, ScrapeRun
+from .models import NetworkCapture, OfferDetails, ScrapeRun
 
 
 def make_run_dir(base_dir: Path) -> Path:
@@ -43,6 +43,17 @@ def archive_run(run_dir: Path, run: ScrapeRun) -> None:
     write_json(run_dir / "offers.json", {"offers": [offer.to_dict() for offer in run.offers]})
     write_json(run_dir / "run.json", run.to_dict())
     persist_run(run_dir.parent / "scraper.sqlite", run)
+
+
+def archive_offer_details(run_dir: Path, details: OfferDetails) -> None:
+    archive_capture(run_dir, details.capture)
+    for index, capture in enumerate(details.supplemental_captures, start=1):
+        suffix = f"_{index:02d}"
+        write_json(run_dir / f"capture{suffix}.json", capture.to_dict())
+        if capture.request_body is not None:
+            write_text(run_dir / f"request{suffix}.txt", capture.request_body)
+        write_text(run_dir / f"response{suffix}.txt", capture.response_body)
+    write_json(run_dir / "details.json", details.to_dict())
 
 
 def slugify(value: str) -> str:

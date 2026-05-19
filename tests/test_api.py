@@ -54,6 +54,37 @@ class ApiTests(unittest.TestCase):
         self.assertEqual(payload["offer_count"], 1)
         self.assertEqual(payload["offers"][0]["price"], 3001)
 
+    @patch("flightscraperv2.api.run_single", new_callable=AsyncMock)
+    def test_scrape_details_endpoint(self, mock_run_single: AsyncMock) -> None:
+        mock_run_single.return_value = type(
+            "MockOfferDetails",
+            (),
+            {
+                "return_offers": [],
+                "booking_options": [],
+                "to_dict": lambda self: {
+                    "archive_dir": "artifacts/test-details",
+                    "selected_offer_index": 2,
+                    "return_offers": [],
+                    "booking_options": [],
+                },
+            },
+        )()
+        response = self.client.post(
+            "/api/v1/scrape/details",
+            json={
+                "origin": "DVO",
+                "destination": "MNL",
+                "depart_date": "2026-07-02",
+                "offer_index": 2,
+            },
+        )
+        self.assertEqual(response.status_code, 200)
+        payload = response.json()
+        self.assertEqual(payload["selected_offer_index"], 2)
+        self.assertEqual(payload["return_offer_count"], 0)
+        self.assertEqual(payload["booking_option_count"], 0)
+
     def test_recent_runs_missing_db_returns_404(self) -> None:
         response = self.client.get("/api/v1/reports/recent-runs?archive_root=missing-artifacts")
         self.assertEqual(response.status_code, 404)

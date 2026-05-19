@@ -38,10 +38,40 @@ Run a one-way scrape in browser mode:
 .\.venv\Scripts\python main.py --mode browser --origin DVO --destination MNL --depart-date 2026-07-02
 ```
 
+Default behavior:
+
+- This now runs a fast `summary` scrape.
+- It captures the initial `GetShoppingResults` payload only.
+- It does not expand booking options for every offer.
+
 Run a round-trip scrape in browser mode:
 
 ```powershell
 .\.venv\Scripts\python main.py --mode browser --origin DVO --destination MNL --depart-date 2026-07-02 --return-date 2026-07-08
+```
+
+Run the old full expansion path explicitly:
+
+```powershell
+.\.venv\Scripts\python main.py --mode browser --origin DVO --destination MNL --depart-date 2026-07-02 --detail-level complete
+```
+
+Fetch booking options for one selected one-way offer:
+
+```powershell
+.\.venv\Scripts\python main.py --mode browser --origin DVO --destination MNL --depart-date 2026-07-02 --offer-index 0
+```
+
+Fetch return-flight choices for one selected round-trip outbound offer:
+
+```powershell
+.\.venv\Scripts\python main.py --mode browser --origin DVO --destination MNL --depart-date 2026-07-02 --return-date 2026-07-08 --offer-index 0
+```
+
+Fetch booking options for one specific round-trip combination:
+
+```powershell
+.\.venv\Scripts\python main.py --mode browser --origin DVO --destination MNL --depart-date 2026-07-02 --return-date 2026-07-08 --offer-index 0 --return-offer-index 0
 ```
 
 Run replay mode:
@@ -125,13 +155,19 @@ Invoke-RestMethod http://127.0.0.1:8000/health
 One-way scrape request:
 
 ```powershell
-Invoke-RestMethod -Method Post http://127.0.0.1:8000/api/v1/scrape -ContentType 'application/json' -Body '{"mode":"browser","origin":"DVO","destination":"MNL","depart_date":"2026-07-02","headless":true}'
+Invoke-RestMethod -Method Post http://127.0.0.1:8000/api/v1/scrape -ContentType 'application/json' -Body '{"mode":"browser","origin":"DVO","destination":"MNL","depart_date":"2026-07-02","detail_level":"summary","headless":true}'
 ```
 
 Round-trip scrape request:
 
 ```powershell
-Invoke-RestMethod -Method Post http://127.0.0.1:8000/api/v1/scrape -ContentType 'application/json' -Body '{"mode":"browser","origin":"DVO","destination":"MNL","depart_date":"2026-07-02","return_date":"2026-07-08","headless":true}'
+Invoke-RestMethod -Method Post http://127.0.0.1:8000/api/v1/scrape -ContentType 'application/json' -Body '{"mode":"browser","origin":"DVO","destination":"MNL","depart_date":"2026-07-02","return_date":"2026-07-08","detail_level":"summary","headless":true}'
+```
+
+Offer-details request:
+
+```powershell
+Invoke-RestMethod -Method Post http://127.0.0.1:8000/api/v1/scrape/details -ContentType 'application/json' -Body '{"origin":"DVO","destination":"MNL","depart_date":"2026-07-02","offer_index":0,"headless":true}'
 ```
 
 Recent runs:

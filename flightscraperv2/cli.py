@@ -29,6 +29,9 @@ def build_parser() -> argparse.ArgumentParser:
     )
     parser.add_argument("--max-stops", type=int, choices=[0, 1, 2])
     parser.add_argument("--retries", type=int, default=3)
+    parser.add_argument("--detail-level", choices=["summary", "complete"], default="summary")
+    parser.add_argument("--offer-index", type=int, help="Selected offer index for detail scraping")
+    parser.add_argument("--return-offer-index", type=int, help="Selected return-offer index for round-trip detail scraping")
     parser.add_argument("--query-file", help="Path to a JSON file containing a list of queries")
     parser.add_argument("--concurrency", type=int, default=3)
     parser.add_argument("--benchmark", action="store_true", help="Run browser and replay benchmarks for the given query file")
@@ -121,23 +124,32 @@ def main() -> int:
             headless=not args.headed,
             archive_root=args.archive_root,
             max_retries=args.retries,
+            detail_level=args.detail_level,
+            selected_offer_index=args.offer_index,
+            selected_return_offer_index=args.return_offer_index,
         )
     )
-    print(
-        json.dumps(
-            {
-                "final_url": run.final_url,
-                "offer_count": len(run.offers),
-                "archive_dir": str(run.archive_dir),
-                "requested_mode": run.requested_mode,
-                "executed_mode": run.executed_mode,
-                "timings": run.timings,
-                "notes": run.notes,
-                "offers": [offer.to_dict() for offer in run.offers[:10]],
-            },
-            indent=2,
+    if hasattr(run, "offers"):
+        print(
+            json.dumps(
+                {
+                    "final_url": run.final_url,
+                    "offer_count": len(run.offers),
+                    "archive_dir": str(run.archive_dir),
+                    "requested_mode": run.requested_mode,
+                    "executed_mode": run.executed_mode,
+                    "timings": run.timings,
+                    "notes": run.notes,
+                    "offers": [offer.to_dict() for offer in run.offers[:10]],
+                },
+                indent=2,
+            )
         )
-    )
+    else:
+        payload = run.to_dict()
+        payload["return_offer_count"] = len(payload["return_offers"])
+        payload["booking_option_count"] = len(payload["booking_options"])
+        print(json.dumps(payload, indent=2))
     return 0
 
 
@@ -236,8 +248,32 @@ async def run_single(
     headless: bool,
     archive_root: str,
     max_retries: int,
+    detail_level: str = "summary",
+    selected_offer_index: int | None = None,
+    selected_return_offer_index: int | None = None,
 ):
+    if selected_offer_index is not None:
+        async with GoogleFlightsScraper(headless=headless, archive_root=archive_root) as scraper:
+            return await scraper.run_offer_details(
+                FlightQuery(
+                    origin=origin,
+                    destination=destination,
+                    depart_date=depart_date,
+                    return_date=return_date,
+                    trip_type="round_trip" if return_date else "one_way",
+                    passengers=passengers,
+                    cabin=cabin,
+                    max_stops=max_stops,
+                    max_retries=max_retries,
+                    detail_level=detail_level,
+                    selected_offer_index=selected_offer_index,
+                    selected_return_offer_index=selected_return_offer_index,
+                )
+            )
+
     effective_mode = "replay" if mode == "auto" else mode
+    if detail_level != "summary":
+        effective_mode = "browser"
     if effective_mode == "browser":
         return await run_single_query(
             origin=origin,
@@ -250,6 +286,7 @@ async def run_single(
             headless=headless,
             archive_root=archive_root,
             max_retries=max_retries,
+            detail_level=detail_level,
         )
 
     query = FlightQuery(
@@ -262,6 +299,7 @@ async def run_single(
         cabin=cabin,
         max_stops=max_stops,
         max_retries=max_retries,
+        detail_level=detail_level,
     )
     async with GoogleFlightsReplayClient(headless=headless, archive_root=archive_root) as client:
         return await client.run_query_with_fallback(query)

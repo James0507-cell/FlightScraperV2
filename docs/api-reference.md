@@ -15,7 +15,9 @@ Interactive docs are available at:
 
 - All responses are JSON.
 - CORS is enabled for all origins so a mobile client can call the API directly.
-- The scrape endpoint runs a live Google Flights scrape and can take from a few seconds to a few minutes depending on Google response time and booking-option replay volume.
+- `POST /api/v1/scrape` now defaults to a fast `summary` scrape.
+- Summary mode captures the initial `GetShoppingResults` payload only.
+- Offer-detail expansion is handled separately by `POST /api/v1/scrape/details`.
 - `return_date` is optional. If it is present, the API treats the query as round-trip. If it is omitted, the API treats the query as one-way.
 
 ## `GET /`
@@ -80,7 +82,7 @@ Explanation:
 
 ## `POST /api/v1/scrape`
 
-Runs a live scrape and returns the full persisted run payload, including raw capture metadata, parsed offers, booking options, provider image URLs, and resolved merchant booking URLs when available.
+Runs a live scrape and returns the persisted summary run payload.
 
 Request body arguments:
 
@@ -102,6 +104,8 @@ Request body arguments:
   Explanation: optional stop filter.
 - `retries`: integer from `1` to `5`
   Explanation: retry count for scraper attempts.
+- `detail_level`: `summary` or `complete`
+  Explanation: `summary` is the fast default and stops after the initial search payload. `complete` re-enables the old full expansion path that drills into booking options for every parsed offer.
 - `archive_root`: path string
   Explanation: output root for artifacts and SQLite persistence. Default is `artifacts`.
 - `headless`: boolean
@@ -115,6 +119,7 @@ Example one-way request:
   "origin": "DVO",
   "destination": "MNL",
   "depart_date": "2026-07-02",
+  "detail_level": "summary",
   "headless": true
 }
 ```
@@ -128,11 +133,12 @@ Example round-trip request:
   "destination": "MNL",
   "depart_date": "2026-07-02",
   "return_date": "2026-07-08",
+  "detail_level": "summary",
   "headless": true
 }
 ```
 
-Sample output from a verified one-way run on `2026-05-19`:
+Sample output from a verified one-way summary run on `2026-05-20`:
 
 ```json
 {
@@ -146,18 +152,24 @@ Sample output from a verified one-way run on `2026-05-19`:
     "cabin": "economy",
     "max_stops": null,
     "timeout_seconds": 45.0,
-    "max_retries": 2
+    "max_retries": 1,
+    "detail_level": "summary",
+    "selected_offer_index": null,
+    "selected_return_offer_index": null
   },
   "final_url": "https://www.google.com/travel/flights/search?...",
   "offer_count": 27,
-  "archive_dir": "artifacts\\20260519T155118521373Z",
+  "archive_dir": "artifacts\\20260519T165012309450Z",
   "requested_mode": "browser",
   "executed_mode": "browser",
   "timings": {
-    "submission_seconds": 99.3883,
-    "archive_seconds": 0.0536,
-    "total_seconds": 103.0438
+    "submission_seconds": 34.9958,
+    "archive_seconds": 0.0378,
+    "total_seconds": 36.4099
   },
+  "notes": [
+    "summary mode skips booking-option expansion; fetch offer details for provider options"
+  ],
   "offers": [
     {
       "origin_airport": "DVO",
@@ -176,23 +188,7 @@ Sample output from a verified one-way run on `2026-05-19`:
       "flight_numbers": [
         "964"
       ],
-      "booking_options": [
-        {
-          "provider_code": "5J",
-          "provider_name": "Cebu Pacific",
-          "provider_display_domain": "www.cebupacificair.com",
-          "provider_image_url": "https://www.google.com/s2/favicons?sz=64&domain_url=https://www.cebupacificair.com/",
-          "price": 3001,
-          "currency": "PHP",
-          "deeplink_url": "https://www.google.com/travel/clk/f?u=ADowPOKsDyJVu27RhH6gP3gjK1HMQocP...",
-          "resolved_booking_url": "https://www.cebupacificair.com/en-PH/flight/select?dd1=2026-07-02&o1=DVO&d1=MNL&adt=1&chd=0&inf=0&inl=0&gclid=ADowPOLFUmYfcKLJUa3vci-ssllLEH6g2WHHshr7DduVQ1tUGAtrWbU1kd6W0vhFO-Svp6TX5UENxrtA3kvrwuNrBd-yDH1xf9i8wCgMb_WfN478Nc6w&gclsrc=gf",
-          "flight_codes": [
-            "5J 964"
-          ],
-          "is_primary": true,
-          "raw_rank": 0
-        }
-      ]
+      "booking_options": []
     }
   ]
 }
@@ -208,9 +204,59 @@ Explanation:
 - `executed_mode`: actual mode used after fallback logic
 - `timings`: measured scraper timings in seconds
 - `offers`: parsed itineraries
-- `booking_options`: provider-level booking choices for that offer
-- `provider_image_url`: favicon-based image URL for the provider
-- `resolved_booking_url`: resolved merchant page URL extracted from Google’s booking redirect
+- `notes`: explains whether summary mode intentionally skipped return choices or booking options
+- `booking_options`: empty in summary mode unless `detail_level=complete` is used
+
+## `POST /api/v1/scrape/details`
+
+Runs a second-stage scrape for one selected offer.
+
+Use this endpoint after `POST /api/v1/scrape` when you need one of these:
+
+- booking options for one selected one-way offer
+- return-flight choices for one selected round-trip outbound offer
+- booking options for one selected round-trip combination
+
+Additional request body arguments:
+
+- `offer_index`: zero-based offer index from the summary response
+  Explanation: selects the outbound offer to expand.
+- `return_offer_index`: optional zero-based return-offer index
+  Explanation: when present on round-trip queries, selects one return option and fetches booking options for that combined itinerary.
+
+Example one-way details request:
+
+```json
+{
+  "origin": "DVO",
+  "destination": "MNL",
+  "depart_date": "2026-07-02",
+  "offer_index": 0,
+  "headless": true
+}
+```
+
+Example round-trip return-choice request:
+
+```json
+{
+  "origin": "DVO",
+  "destination": "MNL",
+  "depart_date": "2026-07-02",
+  "return_date": "2026-07-08",
+  "offer_index": 0,
+  "headless": true
+}
+```
+
+Key response fields:
+
+- `selected_outbound_offer`: the chosen outbound offer
+- `return_offers`: populated when a round-trip outbound offer is expanded
+- `selected_itinerary`: populated when a final itinerary is known
+- `booking_options`: populated when Google emitted `GetBookingResults`
+- `return_offer_count`: convenience count for `return_offers`
+- `booking_option_count`: convenience count for `booking_options`
 
 ## `GET /api/v1/reports/recent-runs`
 
@@ -418,6 +464,7 @@ These endpoints were tested live on `2026-05-19`:
 - `GET /`
 - `GET /health`
 - `POST /api/v1/scrape`
+- `POST /api/v1/scrape/details`
 - `GET /api/v1/reports/recent-runs`
 - `GET /api/v1/reports/cheapest-offers`
 - `GET /api/v1/reports/mode-summary`

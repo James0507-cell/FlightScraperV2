@@ -7,9 +7,10 @@ This document covers how to test the Google Flights scraper locally.
 Use this order:
 
 1. Run offline unit tests.
-2. Run one live single-query scrape.
-3. Run one live benchmark batch.
-4. Run SQLite report commands.
+2. Run one live summary scrape.
+3. Run one live detail scrape.
+4. Run one live benchmark batch.
+5. Run SQLite report commands.
 
 This sequence verifies the codebase from lowest risk to highest risk.
 
@@ -42,10 +43,10 @@ Current test modules:
 
 ## 2. Live Single-Query Scrape
 
-Run one real Google Flights query:
+Run one real summary query:
 
 ```powershell
-python main.py --origin DVO --destination MNL --depart-date 2026-07-02 --return-date 2026-07-08 --max-stops 0 --retries 2
+python main.py --mode browser --origin DVO --destination MNL --depart-date 2026-07-02 --detail-level summary --retries 1 --headed
 ```
 
 What to check:
@@ -54,6 +55,7 @@ What to check:
 - `offer_count` is greater than `0`
 - `archive_dir` points to a new folder under `artifacts/`
 - `requested_mode` and `executed_mode` are present
+- summary notes explain whether booking options or return choices were intentionally skipped
 
 Expected files in the artifact folder:
 
@@ -67,20 +69,40 @@ If SQLite persistence is working, this command should also create:
 
 - `artifacts/scraper.sqlite`
 
-## 3. Live Browser-Only Test
+## 3. Live Offer-Details Test
+
+Fetch booking options for one selected offer:
+
+```powershell
+python main.py --mode browser --origin DVO --destination MNL --depart-date 2026-07-02 --offer-index 0 --retries 1 --headed
+```
+
+Fetch return-flight choices for a selected round-trip outbound offer:
+
+```powershell
+python main.py --mode browser --origin DVO --destination MNL --depart-date 2026-07-02 --return-date 2026-07-08 --offer-index 0 --retries 1 --headed
+```
+
+What this verifies:
+
+- the second-stage scrape works independently from summary mode
+- booking-option expansion is isolated to one selected itinerary
+- round-trip return choices are fetched only when explicitly requested
+
+## 4. Live Browser-Only Full Expansion Test
 
 If you want to validate the slower baseline path directly:
 
 ```powershell
-python main.py --mode browser --origin DVO --destination MNL --depart-date 2026-07-02 --return-date 2026-07-08 --max-stops 0 --retries 2
+python main.py --mode browser --origin DVO --destination MNL --depart-date 2026-07-02 --detail-level complete --retries 1 --headed
 ```
 
 What this verifies:
 
 - Playwright submission still works
-- `GetShoppingResults` capture still works without replay
+- the old all-in-one booking-option expansion path still works when explicitly requested
 
-## 4. Live Replay Test
+## 5. Live Replay Test
 
 If you want to validate the replay path directly:
 
@@ -99,7 +121,7 @@ What to look for:
 
 - `executed_mode` may be `browser_bootstrap`, `replay`, or `browser_fallback`
 
-## 5. Batch Test
+## 6. Batch Test
 
 Run a multi-query batch:
 
@@ -114,7 +136,7 @@ What this verifies:
 - replay reuse works across multiple queries
 - per-query success and failure reporting works
 
-## 6. Benchmark Test
+## 7. Benchmark Test
 
 Compare browser mode and replay mode:
 
@@ -138,7 +160,7 @@ Important interpretation:
 - replay may be slower for one query because of bootstrap cost
 - replay should become faster across multi-query batches
 
-## 7. SQLite Report Tests
+## 8. SQLite Report Tests
 
 After at least one successful archived run, test the report commands.
 
@@ -173,6 +195,8 @@ Common failure categories:
 
 - Playwright cannot load or interact with Google Flights
 - Google returns no `GetShoppingResults` response
+- Google returns a `GetShoppingResults` error payload instead of offers
+- Google does not emit `GetBookingResults` for a selected offer before timeout
 - Google changes the request or response format
 - replay works for bootstrap but fails for follow-up requests
 - no `artifacts/scraper.sqlite` exists yet when report commands are run
@@ -184,12 +208,14 @@ If a report command fails with a missing database message, run a successful live
 Use this short checklist for a normal validation pass:
 
 1. `python -m unittest discover -s tests -v`
-2. `python main.py --origin DVO --destination MNL --depart-date 2026-07-02 --return-date 2026-07-08 --max-stops 0 --retries 2`
-3. `python main.py --benchmark --query-file benchmark-queries.json --concurrency 1 --retries 2`
-4. `python main.py --report recent-runs --limit 5`
+2. `python main.py --mode browser --origin DVO --destination MNL --depart-date 2026-07-02 --detail-level summary --retries 1 --headed`
+3. `python main.py --mode browser --origin DVO --destination MNL --depart-date 2026-07-02 --offer-index 0 --retries 1 --headed`
+4. `python main.py --benchmark --query-file benchmark-queries.json --concurrency 1 --retries 2`
+5. `python main.py --report recent-runs --limit 5`
 
 ## Notes
 
 - Live Google Flights behavior can be unstable across runs.
+- Current live testing is more reliable in headed browser mode than headless mode on this machine.
 - Retry counts matter for live validation.
 - For meaningful replay-speed validation, prefer batch tests over one-off single queries.
