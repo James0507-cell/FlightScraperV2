@@ -1,14 +1,18 @@
 from __future__ import annotations
 
 import asyncio
+import re
 from pathlib import Path
 from time import perf_counter
 from typing import Iterable
+from urllib.parse import quote_plus
 
 from playwright.async_api import Browser, BrowserContext, Page, Playwright, Request, Response, TimeoutError, async_playwright
 
+from .booking_links import resolve_google_deeplink
+from .booking_replay import build_booking_request_body
 from .models import FlightQuery, NetworkCapture, ScrapeRun
-from .parser import extract_offers
+from .parser import extract_booking_options, extract_offers, extract_round_trip_offers
 from .storage import archive_run, make_run_dir
 
 SEARCH_URL = "https://www.google.com/travel/flights/search"
@@ -47,9 +51,17 @@ class GoogleFlightsScraper:
                 started_at = perf_counter()
                 await page.goto(SEARCH_URL, wait_until="domcontentloaded")
                 submission_started_at = perf_counter()
-                capture = await self._submit_query(page, query)
+                if query.trip_type == "round_trip" and query.return_date:
+                    capture, supplemental_captures, offers = await self._submit_round_trip_query(page, query)
+                else:
+                    capture = await self._submit_query(page, query)
+                    offers = extract_offers(capture.response_body)
+                    supplemental_captures = await self._submit_one_way_booking_query(
+                        page,
+                        query,
+                        offers,
+                    )
                 capture_finished_at = perf_counter()
-                offers = extract_offers(capture.response_body)
                 parse_finished_at = perf_counter()
                 run_dir = make_run_dir(self._archive_root)
                 run = ScrapeRun(
@@ -58,6 +70,7 @@ class GoogleFlightsScraper:
                     capture=capture,
                     offers=offers,
                     archive_dir=run_dir,
+                    supplemental_captures=supplemental_captures,
                     requested_mode="browser",
                     executed_mode="browser",
                     timings={
@@ -101,23 +114,124 @@ class GoogleFlightsScraper:
         return await asyncio.gather(*(runner(query) for query in queries))
 
     async def _submit_query(self, page: Page, query: FlightQuery) -> NetworkCapture:
-        await self._stabilize_shell(page)
-        await self._set_trip_type(page, query.trip_type)
-        await self._set_passengers(page, query.passengers)
-        await self._set_cabin(page, query.cabin)
-        await self._fill_airport(page, label="Where from?", value=query.origin)
-        await self._fill_airport(page, label="Where to?", value=query.destination)
-        await self._fill_date(page, label="Departure", value=query.depart_date)
-        if query.trip_type == "round_trip" and query.return_date:
-            await self._fill_date(page, label="Return", value=query.return_date)
-        async with page.expect_response(_is_results_response, timeout=query.timeout_seconds * 1000) as first_response_info:
-            await page.get_by_label("Explore destinations").click()
-        response = await first_response_info.value
+        try:
+            await self._prepare_query(page, query)
+            async with page.expect_response(_is_results_response, timeout=query.timeout_seconds * 1000) as first_response_info:
+                await page.get_by_label("Explore destinations").click()
+            response = await first_response_info.value
+        except TimeoutError:
+            response = await self._submit_query_via_direct_url(page, query)
         if query.max_stops is not None:
             async with page.expect_response(_is_results_response, timeout=query.timeout_seconds * 1000) as filtered_response_info:
                 await self._apply_stops_filter(page, query.max_stops)
             response = await filtered_response_info.value
         return await _capture_from_response(response)
+
+    async def _submit_query_via_direct_url(self, page: Page, query: FlightQuery) -> Response:
+        search_url = _build_direct_search_url(query)
+        async with page.expect_response(_is_results_response, timeout=query.timeout_seconds * 1000) as response_info:
+            await page.goto(search_url, wait_until="domcontentloaded")
+        return await response_info.value
+
+    async def _submit_round_trip_query(
+        self,
+        page: Page,
+        query: FlightQuery,
+    ) -> tuple[NetworkCapture, list[NetworkCapture], list]:
+        outbound_capture = await self._submit_query(page, query)
+        async with page.expect_response(_is_results_response, timeout=query.timeout_seconds * 1000) as return_response_info:
+            await self._select_first_flight(page)
+        return_response = await return_response_info.value
+        return_capture = await _capture_from_response(return_response)
+        offers = extract_round_trip_offers(
+            outbound_capture.response_body,
+            return_capture.response_body,
+        )
+        supplemental_captures = [return_capture]
+        try:
+            async with page.expect_response(_is_booking_results_response, timeout=query.timeout_seconds * 1000) as booking_response_info:
+                await self._select_first_flight(page)
+            booking_response = await booking_response_info.value
+            booking_capture = await _capture_from_response(booking_response)
+            supplemental_captures.append(booking_capture)
+            if offers:
+                offers[0].booking_options = extract_booking_options(booking_capture.response_body)
+                self._resolve_booking_urls(offers[0].booking_options)
+            supplemental_captures.extend(
+                await self._replay_booking_captures(
+                    booking_capture.url,
+                    page.url,
+                    offers[1:],
+                )
+            )
+        except TimeoutError:
+            pass
+
+        return outbound_capture, supplemental_captures, offers
+
+    async def _submit_one_way_booking_query(
+        self,
+        page: Page,
+        query: FlightQuery,
+        offers: list,
+    ) -> list[NetworkCapture]:
+        if not offers:
+            return []
+        try:
+            async with page.expect_response(_is_booking_results_response, timeout=query.timeout_seconds * 1000) as booking_response_info:
+                await self._select_first_flight(page)
+            booking_response = await booking_response_info.value
+            booking_capture = await _capture_from_response(booking_response)
+            offers[0].booking_options = extract_booking_options(booking_capture.response_body)
+            self._resolve_booking_urls(offers[0].booking_options)
+            captures = [booking_capture]
+            captures.extend(
+                await self._replay_booking_captures(
+                    booking_capture.url,
+                    page.url,
+                    offers[1:],
+                )
+            )
+            return captures
+        except TimeoutError:
+            return []
+
+    async def _replay_booking_captures(
+        self,
+        request_url: str,
+        referer_url: str,
+        offers: list,
+    ) -> list[NetworkCapture]:
+        if self._context is None:
+            return []
+
+        captures: list[NetworkCapture] = []
+        for offer in offers:
+            try:
+                request_body = build_booking_request_body(offer)
+                response = await self._context.request.post(
+                    request_url,
+                    data=request_body,
+                    headers={
+                        "content-type": "application/x-www-form-urlencoded;charset=UTF-8",
+                        "origin": "https://www.google.com",
+                        "referer": referer_url,
+                    },
+                    fail_on_status_code=False,
+                )
+                capture = await _capture_api_response(response, request_body=request_body)
+                capture_options = extract_booking_options(capture.response_body)
+                if capture_options:
+                    self._resolve_booking_urls(capture_options)
+                    offer.booking_options = capture_options
+                captures.append(capture)
+            except Exception:
+                continue
+        return captures
+
+    def _resolve_booking_urls(self, options: list) -> None:
+        for option in options:
+            option.resolved_booking_url = resolve_google_deeplink(option.deeplink_url)
 
     async def _set_trip_type(self, page: Page, trip_type: str) -> None:
         desired = {
@@ -188,7 +302,39 @@ class GoogleFlightsScraper:
 
     async def _stabilize_shell(self, page: Page) -> None:
         await page.wait_for_load_state("domcontentloaded")
-        await page.get_by_label("Where from?", exact=False).first.wait_for()
+        origin_field = page.get_by_label("Where from?", exact=False).first
+        try:
+            await origin_field.wait_for(timeout=5000)
+            return
+        except TimeoutError:
+            pass
+        explore_button = page.get_by_role("button", name="Explore destinations")
+        await explore_button.wait_for(timeout=10000)
+        await explore_button.click()
+        await origin_field.wait_for(timeout=30000)
+
+    async def _prepare_query(self, page: Page, query: FlightQuery) -> None:
+        await self._stabilize_shell(page)
+        await self._set_trip_type(page, query.trip_type)
+        await self._set_passengers(page, query.passengers)
+        await self._set_cabin(page, query.cabin)
+        await self._fill_airport(page, label="Where from?", value=query.origin)
+        await self._fill_airport(page, label="Where to?", value=query.destination)
+        await self._fill_date(page, label="Departure", value=query.depart_date)
+        if query.trip_type == "round_trip" and query.return_date:
+            await self._fill_date(page, label="Return", value=query.return_date)
+
+    async def _select_first_flight(self, page: Page) -> None:
+        result_link = page.get_by_role("link", name=re.compile(r"Select flight$")).first
+        try:
+            await result_link.wait_for(timeout=15000)
+            try:
+                await result_link.click()
+            except TimeoutError:
+                await result_link.evaluate("(element) => element.click()")
+            return
+        except TimeoutError:
+            raise TimeoutError("Failed to locate a selectable outbound flight result.")
 
 
 async def _request_body(request: Request) -> str | None:
@@ -205,8 +351,28 @@ async def _capture_from_response(response: Response) -> NetworkCapture:
     )
 
 
+async def _capture_api_response(response, request_body: str) -> NetworkCapture:
+    response_body = await response.text()
+    return NetworkCapture(
+        url=response.url,
+        request_body=request_body,
+        response_body=response_body,
+    )
+
+
 def _is_results_response(response: Response) -> bool:
     return "GetShoppingResults" in response.url and response.status == 200
+
+
+def _is_booking_results_response(response: Response) -> bool:
+    return "GetBookingResults" in response.url and response.status == 200
+
+
+def _build_direct_search_url(query: FlightQuery) -> str:
+    parts = [f"flights from {query.origin} to {query.destination} on {query.depart_date}"]
+    if query.return_date:
+        parts.append(f"returning {query.return_date}")
+    return f"{SEARCH_URL}?q={quote_plus(' '.join(parts))}"
 
 
 async def run_single_query(

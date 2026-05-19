@@ -1,0 +1,1219 @@
+{
+  "offers": [
+    {
+      "origin_airport": "DVO",
+      "destination_airport": "MNL",
+      "departure_date": "2026-07-02",
+      "arrival_date": "2026-07-02",
+      "departure_time": "2026-07-02T00:05:00",
+      "arrival_time": "2026-07-02T02:05:00",
+      "duration_minutes": 120,
+      "stops": 0,
+      "price": 6177,
+      "currency": "PHP",
+      "trip_type": "round_trip",
+      "airlines": [
+        "Cebu Pacific"
+      ],
+      "flight_numbers": [
+        "3952"
+      ],
+      "layovers": [],
+      "emissions_kg": 93,
+      "emissions_delta_percent": -8,
+      "booking_token": "CjRIRjEwbTBGaW0zcElBRXZQdmdCRy0tLS0tLS0tLS1zbXJ1M0FBQUFBR29NZmxJTDFFc3FBEgU1Sjk3MRoKCKEwEAAaA1BIUDgccJhO",
+      "is_best": true,
+      "segments": [
+        {
+          "airline_code": "5J",
+          "airline_name": "Cebu Pacific",
+          "flight_number": "3952",
+          "operating_airline": null,
+          "origin_airport": "DVO",
+          "origin_name": "Davao International Airport",
+          "destination_airport": "MNL",
+          "destination_name": "Ninoy Aquino International Airport",
+          "departure_time": "2026-07-02T00:05:00",
+          "arrival_time": "2026-07-02T02:05:00",
+          "duration_minutes": 120,
+          "aircraft": "Airbus A321"
+        }
+      ],
+      "return_origin_airport": "MNL",
+      "return_destination_airport": "DVO",
+      "return_departure_date": "2026-07-08",
+      "return_arrival_date": "2026-07-08",
+      "return_departure_time": "2026-07-08T15:35:00",
+      "return_arrival_time": "2026-07-08T17:45:00",
+      "return_duration_minutes": 130,
+      "return_stops": 0,
+      "return_airlines": [
+        "Cebu Pacific"
+      ],
+      "return_flight_numbers": [
+        "971"
+      ],
+      "return_layovers": [],
+      "return_segments": [
+        {
+          "airline_code": "5J",
+          "airline_name": "Cebu Pacific",
+          "flight_number": "971",
+          "operating_airline": null,
+          "origin_airport": "MNL",
+          "origin_name": "Ninoy Aquino International Airport",
+          "destination_airport": "DVO",
+          "destination_name": "Davao International Airport",
+          "departure_time": "2026-07-08T15:35:00",
+          "arrival_time": "2026-07-08T17:45:00",
+          "duration_minutes": 130,
+          "aircraft": "Airbus A330-900neo"
+        }
+      ],
+      "booking_options": [
+        {
+          "provider_code": "5J",
+          "provider_name": "Cebu Pacific",
+          "provider_display_domain": "www.cebupacificair.com",
+          "provider_image_url": "https://www.google.com/s2/favicons?sz=64&domain_url=https://www.cebupacificair.com/",
+          "price": 6177,
+          "currency": "PHP",
+          "deeplink_url": "ADowPOKhqSr382nixNbgoQ4o0ptNr7WqhrmUm5beaEbY5pttZbs-2FHk3nm46YTJDQFg5M89jkz_-ih7azTKmr3Qp9m62YXFlQORjbqFvl425at2YLf9lRbtQsdbEc5LKGCAVDqPHLscJyxp8euiXgNAK2EK0DxA1NbQQMFVkJ_lYvyBiMM6JrKWHfapCsu003SyaGhLjq_WnD2sE0z1-UZ-zftJgIYl4hdMDqVCAsEwUceqyf2U0dOQJKypu74-5z15pmwXRjSlWE7-O9DV32rzvHjz7GFgEAQOuQHyRI5LpXyydqxxov2b4khEj6cLMVVnSAcrn6zKXAVKuwHQTbB_sGZxcWcR8zFmTo8Ago_k_uBHJaOtKlU4p0Kn8_aCDiZETLasQeRL0bJuqI5HT3KiDKgQaoP3QJn6hOO-tkIadzVmnasctwHLknD4T8SGkZLuR2OVS81yzusEb_B-duF9TLwY44B_axK-OQAZUb08z7G3iKqpWgD43MDvoimHP659vnIWSNguiWd746pF_VpoAto0eePtPCrC4d5zkDVx5o670snrcuSzSEUUoQqfvjmpXemOMNo4xz_Naol7IvESgrksNCeBXZzaP-xV37q6xrc-2UioNBqPDjwPJ3LzwTy1b4eys-pH6dH_79-b1mHw08I-uCNjc5Vz7LKVZyrM-4IH6HgzKd18PnqjPAvNFzGHfL4fDT2DVSKWMeEvLMaUdkJ-sLtejkkNGnfZ7Q6qqDEOvTqla8HWY9FKfLDYI4pMfCXlwlPXZe3rhLSCoozm1uL7Xxv1MBspglGlyHioqEIS0YTu06zqvdb7Z2O8fxseGrn6F88PyosS6DH6fEjwJg3vATu7rq37PZacruSoqXycFQ8DlDZVvWb63vNFgoSi_KI8SDNbsFBNi3xjtogjrGYmYX4gPltQHdcz0ThuhYggoHllrVwPXDbM_fdqup3qhxKuw5dGj4Fex7gtoDelz0OlRPMZe6H4gg_eIu3y5aPLE2NknK_p5q79koZaR_EK1Q69VMExS9gjS2fNjULNYKyjhphVquyMdYJyH8j8WAgwuCYM6AcZ85VSTigwCCU8cShwItOn4bYM_WXnbdU7-P8qJVZzBfF0iWcONoBcnZQWnM7iktZhRHa_QHngp5eAZlHI20L8EC2sdbEkGjnDCxix5rnodPZyD8L7zDv0vcw1HC3TnQpe04zPSBQyOKJBH55uPyZs98jzIjgBs_eebEUS782MpDyLpDFziBcpsnsWCehwg9AffwZJ2bspwmjZX6dkLJzjXvePkoHsKc11wZ0aTuBmKlDLtiYy4CrpH1ehByu1v0JLJeI-rlpYjOkCQaiwBhD0Y5_ohK9bOiuXSwfJ56QMNT90M7De3iO5nffs1ghDhP4GdALdy0kTA0-l1jgtaXbVvxpjWAKq64jYUjYZbNRwwJH0a_x59ce2x0e3RdFgcVhzFBYxGY8e60Zs0sZeHgTDg_yTijsI9aINfGe_jHPOIHTlZvYOAhBnK5aemLFPXki12qHlaL7HZqZf4Pn8jb-TLzYrEEN5BdJaCYxFHer49OZNfFB0HSDyyJkSkcoTQQ8jJlKnAc5gBXixBBtP5clHSUduBrRXDzatkSiuvhcjPnmO0aY0OTt6wGth4gEaFvIB-b3b4hkggnnFV-JuPP9CY2Ilpy5Zwr2QrePP9EsmiBr7B8uQHKStfyGgGOZyyLylFhNYZaEc2eC0iYoenGFxceZ1l8rM43Eno63YZNN0HpiQTYw2j7YYb8liAZ_NiElBmh2GIttsOdTt0exn0yP1H_PLmEf13SaRoacPJBrQ8KGFKwjRbHG8mKxS515wIHd55nMgfVDfjqn2EBv3mdZacV8MDsbAA3pYE2GchijVXTNa8Tc91AIYC-ZyLklnQgPE4RPwWn-HyFAuJ_eEy9K9ZD6mb1wFcm99DMUUaRrv_DXRq7af1i4GAdLFM9PfpypsfDDJf1lqtDDk0mneB_OKfaHaMNUOLhiqMWnHjGkOn6m2eXMV_8SpNXrxQG3tpjgY5nDwNc8drQN5viZ5wMW3LOp-JD86JY00Ib5j6s_u4e0eSFuBqbOYuumKsBvxaRjimjzxuGTN9vog-IUVRbReS0A6adqTVlUzi0IDfsgIdaCekKVDAhUdvG3SCS5tijpMRztOPSzxOtwoCxWjx-UMbxUwjzIaEGnc_mwTBkGzyHF46qDIZNFXnYlmoIUAX38n1W9pFTS8NsnS6rO2GKI_vkCy69AzH4YhNwOx6pqt6oZZqmP0B13Ifr_CqEvF6MeemIjH5-PWgxVrezN-PtZ2yGNq1iyCyW4-7b2GI1UR-KtP2UXVQwDkjaJn8Wimbx0nXRp5mXn3Lf1kPrWi3l8Wq9heefC3fmqJvW-tVaXu9-V0AHa9deImTrten6w3JwvBn8SO9HVLOrvMgeBbl-o11Z6V_PnC-a5iZ9wb7IoeSOdSfdo6yXTlwb7Eu43GxIFzXZY4WUM4ivUpcwKx20i4NU4zREFbT0EBuAybWCvDT0kZOBvMflGFoUbtJqwarc0f9cM_HPhMV9znnvSEtJyWGBv4q1xVtXOsoV5GTqcwhdqzZZyiaZdA1GOGtSxrOCZSFqarF8NKJoy_Fbt9LzlsMbr0NOOfD-6gjYvzqJTXOQM4tgShwdlV6EKvyAH89QPrY5MZe5Ql2RGnPN0Ok5d1HwKy4sUav7MY-5TGl5u7yU5DYinXrMU9WJWQU6YRT9C02jKfu9MxmAWaQlTnu-92NFQcM_hQ9OHtDoDdD6LN5rsbAGZgnCpzSpC6YyqSrGvQ-kPFT9U_Tbf-l4kmS-kMof3bedDQmcN2vWMMduxTSFi67wTsE9t0lgSj4M_kPwg5cmpWP5GR0c1qSmSVsCWrK-4olvOD_PzMLrb6ti5iLBBAPiK5gVVQXP6wQdduhWo6wB4GYXAoTs07UcQyntFubeT1Y3wjDk61jN5AIeOICC7UMweLA40X",
+          "fare_name": null,
+          "flight_codes": [
+            "5J 3952",
+            "5J 971"
+          ],
+          "is_primary": true,
+          "raw_rank": 0
+        }
+      ]
+    },
+    {
+      "origin_airport": "DVO",
+      "destination_airport": "MNL",
+      "departure_date": "2026-07-02",
+      "arrival_date": "2026-07-02",
+      "departure_time": "2026-07-02T00:05:00",
+      "arrival_time": "2026-07-02T02:05:00",
+      "duration_minutes": 120,
+      "stops": 0,
+      "price": 6177,
+      "currency": "PHP",
+      "trip_type": "round_trip",
+      "airlines": [
+        "Cebu Pacific"
+      ],
+      "flight_numbers": [
+        "3952"
+      ],
+      "layovers": [],
+      "emissions_kg": 93,
+      "emissions_delta_percent": -8,
+      "booking_token": "CjRIRjEwbTBGaW0zcElBRXZQdmdCRy0tLS0tLS0tLS1zbXJ1M0FBQUFBR29NZmxJTDFFc3FBEgU1Sjk3NxoKCKEwEAAaA1BIUDgccJhO",
+      "is_best": true,
+      "segments": [
+        {
+          "airline_code": "5J",
+          "airline_name": "Cebu Pacific",
+          "flight_number": "3952",
+          "operating_airline": null,
+          "origin_airport": "DVO",
+          "origin_name": "Davao International Airport",
+          "destination_airport": "MNL",
+          "destination_name": "Ninoy Aquino International Airport",
+          "departure_time": "2026-07-02T00:05:00",
+          "arrival_time": "2026-07-02T02:05:00",
+          "duration_minutes": 120,
+          "aircraft": "Airbus A321"
+        }
+      ],
+      "return_origin_airport": "MNL",
+      "return_destination_airport": "DVO",
+      "return_departure_date": "2026-07-08",
+      "return_arrival_date": "2026-07-08",
+      "return_departure_time": "2026-07-08T16:05:00",
+      "return_arrival_time": "2026-07-08T18:10:00",
+      "return_duration_minutes": 125,
+      "return_stops": 0,
+      "return_airlines": [
+        "Cebu Pacific"
+      ],
+      "return_flight_numbers": [
+        "977"
+      ],
+      "return_layovers": [],
+      "return_segments": [
+        {
+          "airline_code": "5J",
+          "airline_name": "Cebu Pacific",
+          "flight_number": "977",
+          "operating_airline": null,
+          "origin_airport": "MNL",
+          "origin_name": "Ninoy Aquino International Airport",
+          "destination_airport": "DVO",
+          "destination_name": "Davao International Airport",
+          "departure_time": "2026-07-08T16:05:00",
+          "arrival_time": "2026-07-08T18:10:00",
+          "duration_minutes": 125,
+          "aircraft": "Airbus A321"
+        }
+      ],
+      "booking_options": []
+    },
+    {
+      "origin_airport": "DVO",
+      "destination_airport": "MNL",
+      "departure_date": "2026-07-02",
+      "arrival_date": "2026-07-02",
+      "departure_time": "2026-07-02T00:05:00",
+      "arrival_time": "2026-07-02T02:05:00",
+      "duration_minutes": 120,
+      "stops": 0,
+      "price": 6177,
+      "currency": "PHP",
+      "trip_type": "round_trip",
+      "airlines": [
+        "Cebu Pacific"
+      ],
+      "flight_numbers": [
+        "3952"
+      ],
+      "layovers": [],
+      "emissions_kg": 93,
+      "emissions_delta_percent": -8,
+      "booking_token": "CjRIRjEwbTBGaW0zcElBRXZQdmdCRy0tLS0tLS0tLS1zbXJ1M0FBQUFBR29NZmxJTDFFc3FBEgU1Sjk1NRoKCKEwEAAaA1BIUDgccJhO",
+      "is_best": true,
+      "segments": [
+        {
+          "airline_code": "5J",
+          "airline_name": "Cebu Pacific",
+          "flight_number": "3952",
+          "operating_airline": null,
+          "origin_airport": "DVO",
+          "origin_name": "Davao International Airport",
+          "destination_airport": "MNL",
+          "destination_name": "Ninoy Aquino International Airport",
+          "departure_time": "2026-07-02T00:05:00",
+          "arrival_time": "2026-07-02T02:05:00",
+          "duration_minutes": 120,
+          "aircraft": "Airbus A321"
+        }
+      ],
+      "return_origin_airport": "MNL",
+      "return_destination_airport": "DVO",
+      "return_departure_date": "2026-07-08",
+      "return_arrival_date": "2026-07-08",
+      "return_departure_time": "2026-07-08T17:20:00",
+      "return_arrival_time": "2026-07-08T19:20:00",
+      "return_duration_minutes": 120,
+      "return_stops": 0,
+      "return_airlines": [
+        "Cebu Pacific"
+      ],
+      "return_flight_numbers": [
+        "955"
+      ],
+      "return_layovers": [],
+      "return_segments": [
+        {
+          "airline_code": "5J",
+          "airline_name": "Cebu Pacific",
+          "flight_number": "955",
+          "operating_airline": null,
+          "origin_airport": "MNL",
+          "origin_name": "Ninoy Aquino International Airport",
+          "destination_airport": "DVO",
+          "destination_name": "Davao International Airport",
+          "departure_time": "2026-07-08T17:20:00",
+          "arrival_time": "2026-07-08T19:20:00",
+          "duration_minutes": 120,
+          "aircraft": "Airbus A320neo"
+        }
+      ],
+      "booking_options": []
+    },
+    {
+      "origin_airport": "DVO",
+      "destination_airport": "MNL",
+      "departure_date": "2026-07-02",
+      "arrival_date": "2026-07-02",
+      "departure_time": "2026-07-02T00:05:00",
+      "arrival_time": "2026-07-02T02:05:00",
+      "duration_minutes": 120,
+      "stops": 0,
+      "price": 6177,
+      "currency": "PHP",
+      "trip_type": "round_trip",
+      "airlines": [
+        "Cebu Pacific"
+      ],
+      "flight_numbers": [
+        "3952"
+      ],
+      "layovers": [],
+      "emissions_kg": 93,
+      "emissions_delta_percent": -8,
+      "booking_token": "CjRIRjEwbTBGaW0zcElBRXZQdmdCRy0tLS0tLS0tLS1zbXJ1M0FBQUFBR29NZmxJTDFFc3FBEgU1Sjk1ORoKCKEwEAAaA1BIUDgccJhO",
+      "is_best": true,
+      "segments": [
+        {
+          "airline_code": "5J",
+          "airline_name": "Cebu Pacific",
+          "flight_number": "3952",
+          "operating_airline": null,
+          "origin_airport": "DVO",
+          "origin_name": "Davao International Airport",
+          "destination_airport": "MNL",
+          "destination_name": "Ninoy Aquino International Airport",
+          "departure_time": "2026-07-02T00:05:00",
+          "arrival_time": "2026-07-02T02:05:00",
+          "duration_minutes": 120,
+          "aircraft": "Airbus A321"
+        }
+      ],
+      "return_origin_airport": "MNL",
+      "return_destination_airport": "DVO",
+      "return_departure_date": "2026-07-08",
+      "return_arrival_date": "2026-07-08",
+      "return_departure_time": "2026-07-08T18:10:00",
+      "return_arrival_time": "2026-07-08T20:10:00",
+      "return_duration_minutes": 120,
+      "return_stops": 0,
+      "return_airlines": [
+        "Cebu Pacific"
+      ],
+      "return_flight_numbers": [
+        "959"
+      ],
+      "return_layovers": [],
+      "return_segments": [
+        {
+          "airline_code": "5J",
+          "airline_name": "Cebu Pacific",
+          "flight_number": "959",
+          "operating_airline": null,
+          "origin_airport": "MNL",
+          "origin_name": "Ninoy Aquino International Airport",
+          "destination_airport": "DVO",
+          "destination_name": "Davao International Airport",
+          "departure_time": "2026-07-08T18:10:00",
+          "arrival_time": "2026-07-08T20:10:00",
+          "duration_minutes": 120,
+          "aircraft": "Airbus A320"
+        }
+      ],
+      "booking_options": []
+    },
+    {
+      "origin_airport": "DVO",
+      "destination_airport": "MNL",
+      "departure_date": "2026-07-02",
+      "arrival_date": "2026-07-02",
+      "departure_time": "2026-07-02T00:05:00",
+      "arrival_time": "2026-07-02T02:05:00",
+      "duration_minutes": 120,
+      "stops": 0,
+      "price": 6177,
+      "currency": "PHP",
+      "trip_type": "round_trip",
+      "airlines": [
+        "Cebu Pacific"
+      ],
+      "flight_numbers": [
+        "3952"
+      ],
+      "layovers": [],
+      "emissions_kg": 93,
+      "emissions_delta_percent": -8,
+      "booking_token": "CjRIRjEwbTBGaW0zcElBRXZQdmdCRy0tLS0tLS0tLS1zbXJ1M0FBQUFBR29NZmxJTDFFc3FBEgU1Sjk4MRoKCKEwEAAaA1BIUDgccJhO",
+      "is_best": true,
+      "segments": [
+        {
+          "airline_code": "5J",
+          "airline_name": "Cebu Pacific",
+          "flight_number": "3952",
+          "operating_airline": null,
+          "origin_airport": "DVO",
+          "origin_name": "Davao International Airport",
+          "destination_airport": "MNL",
+          "destination_name": "Ninoy Aquino International Airport",
+          "departure_time": "2026-07-02T00:05:00",
+          "arrival_time": "2026-07-02T02:05:00",
+          "duration_minutes": 120,
+          "aircraft": "Airbus A321"
+        }
+      ],
+      "return_origin_airport": "MNL",
+      "return_destination_airport": "DVO",
+      "return_departure_date": "2026-07-08",
+      "return_arrival_date": "2026-07-08",
+      "return_departure_time": "2026-07-08T18:40:00",
+      "return_arrival_time": "2026-07-08T20:50:00",
+      "return_duration_minutes": 130,
+      "return_stops": 0,
+      "return_airlines": [
+        "Cebu Pacific"
+      ],
+      "return_flight_numbers": [
+        "981"
+      ],
+      "return_layovers": [],
+      "return_segments": [
+        {
+          "airline_code": "5J",
+          "airline_name": "Cebu Pacific",
+          "flight_number": "981",
+          "operating_airline": null,
+          "origin_airport": "MNL",
+          "origin_name": "Ninoy Aquino International Airport",
+          "destination_airport": "DVO",
+          "destination_name": "Davao International Airport",
+          "departure_time": "2026-07-08T18:40:00",
+          "arrival_time": "2026-07-08T20:50:00",
+          "duration_minutes": 130,
+          "aircraft": "Airbus A320neo"
+        }
+      ],
+      "booking_options": []
+    },
+    {
+      "origin_airport": "DVO",
+      "destination_airport": "MNL",
+      "departure_date": "2026-07-02",
+      "arrival_date": "2026-07-02",
+      "departure_time": "2026-07-02T00:05:00",
+      "arrival_time": "2026-07-02T02:05:00",
+      "duration_minutes": 120,
+      "stops": 0,
+      "price": 6177,
+      "currency": "PHP",
+      "trip_type": "round_trip",
+      "airlines": [
+        "Cebu Pacific"
+      ],
+      "flight_numbers": [
+        "3952"
+      ],
+      "layovers": [],
+      "emissions_kg": 93,
+      "emissions_delta_percent": -8,
+      "booking_token": "CjRIRjEwbTBGaW0zcElBRXZQdmdCRy0tLS0tLS0tLS1zbXJ1M0FBQUFBR29NZmxJTDFFc3FBEgU1Sjk2NRoKCKEwEAAaA1BIUDgccJhO",
+      "is_best": true,
+      "segments": [
+        {
+          "airline_code": "5J",
+          "airline_name": "Cebu Pacific",
+          "flight_number": "3952",
+          "operating_airline": null,
+          "origin_airport": "DVO",
+          "origin_name": "Davao International Airport",
+          "destination_airport": "MNL",
+          "destination_name": "Ninoy Aquino International Airport",
+          "departure_time": "2026-07-02T00:05:00",
+          "arrival_time": "2026-07-02T02:05:00",
+          "duration_minutes": 120,
+          "aircraft": "Airbus A321"
+        }
+      ],
+      "return_origin_airport": "MNL",
+      "return_destination_airport": "DVO",
+      "return_departure_date": "2026-07-08",
+      "return_arrival_date": "2026-07-08",
+      "return_departure_time": "2026-07-08T04:20:00",
+      "return_arrival_time": "2026-07-08T06:20:00",
+      "return_duration_minutes": 120,
+      "return_stops": 0,
+      "return_airlines": [
+        "Cebu Pacific"
+      ],
+      "return_flight_numbers": [
+        "965"
+      ],
+      "return_layovers": [],
+      "return_segments": [
+        {
+          "airline_code": "5J",
+          "airline_name": "Cebu Pacific",
+          "flight_number": "965",
+          "operating_airline": null,
+          "origin_airport": "MNL",
+          "origin_name": "Ninoy Aquino International Airport",
+          "destination_airport": "DVO",
+          "destination_name": "Davao International Airport",
+          "departure_time": "2026-07-08T04:20:00",
+          "arrival_time": "2026-07-08T06:20:00",
+          "duration_minutes": 120,
+          "aircraft": "Airbus A321"
+        }
+      ],
+      "booking_options": []
+    },
+    {
+      "origin_airport": "DVO",
+      "destination_airport": "MNL",
+      "departure_date": "2026-07-02",
+      "arrival_date": "2026-07-02",
+      "departure_time": "2026-07-02T00:05:00",
+      "arrival_time": "2026-07-02T02:05:00",
+      "duration_minutes": 120,
+      "stops": 0,
+      "price": 6177,
+      "currency": "PHP",
+      "trip_type": "round_trip",
+      "airlines": [
+        "Cebu Pacific"
+      ],
+      "flight_numbers": [
+        "3952"
+      ],
+      "layovers": [],
+      "emissions_kg": 93,
+      "emissions_delta_percent": -8,
+      "booking_token": "CjRIRjEwbTBGaW0zcElBRXZQdmdCRy0tLS0tLS0tLS1zbXJ1M0FBQUFBR29NZmxJTDFFc3FBEgU1Sjk2MRoKCKEwEAAaA1BIUDgccJhO",
+      "is_best": true,
+      "segments": [
+        {
+          "airline_code": "5J",
+          "airline_name": "Cebu Pacific",
+          "flight_number": "3952",
+          "operating_airline": null,
+          "origin_airport": "DVO",
+          "origin_name": "Davao International Airport",
+          "destination_airport": "MNL",
+          "destination_name": "Ninoy Aquino International Airport",
+          "departure_time": "2026-07-02T00:05:00",
+          "arrival_time": "2026-07-02T02:05:00",
+          "duration_minutes": 120,
+          "aircraft": "Airbus A321"
+        }
+      ],
+      "return_origin_airport": "MNL",
+      "return_destination_airport": "DVO",
+      "return_departure_date": "2026-07-08",
+      "return_arrival_date": "2026-07-08",
+      "return_departure_time": "2026-07-08T05:30:00",
+      "return_arrival_time": "2026-07-08T07:35:00",
+      "return_duration_minutes": 125,
+      "return_stops": 0,
+      "return_airlines": [
+        "Cebu Pacific"
+      ],
+      "return_flight_numbers": [
+        "961"
+      ],
+      "return_layovers": [],
+      "return_segments": [
+        {
+          "airline_code": "5J",
+          "airline_name": "Cebu Pacific",
+          "flight_number": "961",
+          "operating_airline": null,
+          "origin_airport": "MNL",
+          "origin_name": "Ninoy Aquino International Airport",
+          "destination_airport": "DVO",
+          "destination_name": "Davao International Airport",
+          "departure_time": "2026-07-08T05:30:00",
+          "arrival_time": "2026-07-08T07:35:00",
+          "duration_minutes": 125,
+          "aircraft": "Airbus A330-900neo"
+        }
+      ],
+      "booking_options": []
+    },
+    {
+      "origin_airport": "DVO",
+      "destination_airport": "MNL",
+      "departure_date": "2026-07-02",
+      "arrival_date": "2026-07-02",
+      "departure_time": "2026-07-02T00:05:00",
+      "arrival_time": "2026-07-02T02:05:00",
+      "duration_minutes": 120,
+      "stops": 0,
+      "price": 6177,
+      "currency": "PHP",
+      "trip_type": "round_trip",
+      "airlines": [
+        "Cebu Pacific"
+      ],
+      "flight_numbers": [
+        "3952"
+      ],
+      "layovers": [],
+      "emissions_kg": 93,
+      "emissions_delta_percent": -8,
+      "booking_token": "CjRIRjEwbTBGaW0zcElBRXZQdmdCRy0tLS0tLS0tLS1zbXJ1M0FBQUFBR29NZmxJTDFFc3FBEgU1Sjk2MxoKCKEwEAAaA1BIUDgccJhO",
+      "is_best": true,
+      "segments": [
+        {
+          "airline_code": "5J",
+          "airline_name": "Cebu Pacific",
+          "flight_number": "3952",
+          "operating_airline": null,
+          "origin_airport": "DVO",
+          "origin_name": "Davao International Airport",
+          "destination_airport": "MNL",
+          "destination_name": "Ninoy Aquino International Airport",
+          "departure_time": "2026-07-02T00:05:00",
+          "arrival_time": "2026-07-02T02:05:00",
+          "duration_minutes": 120,
+          "aircraft": "Airbus A321"
+        }
+      ],
+      "return_origin_airport": "MNL",
+      "return_destination_airport": "DVO",
+      "return_departure_date": "2026-07-08",
+      "return_arrival_date": "2026-07-08",
+      "return_departure_time": "2026-07-08T08:25:00",
+      "return_arrival_time": "2026-07-08T10:30:00",
+      "return_duration_minutes": 125,
+      "return_stops": 0,
+      "return_airlines": [
+        "Cebu Pacific"
+      ],
+      "return_flight_numbers": [
+        "963"
+      ],
+      "return_layovers": [],
+      "return_segments": [
+        {
+          "airline_code": "5J",
+          "airline_name": "Cebu Pacific",
+          "flight_number": "963",
+          "operating_airline": null,
+          "origin_airport": "MNL",
+          "origin_name": "Ninoy Aquino International Airport",
+          "destination_airport": "DVO",
+          "destination_name": "Davao International Airport",
+          "departure_time": "2026-07-08T08:25:00",
+          "arrival_time": "2026-07-08T10:30:00",
+          "duration_minutes": 125,
+          "aircraft": "Airbus A321neo"
+        }
+      ],
+      "booking_options": []
+    },
+    {
+      "origin_airport": "DVO",
+      "destination_airport": "MNL",
+      "departure_date": "2026-07-02",
+      "arrival_date": "2026-07-02",
+      "departure_time": "2026-07-02T00:05:00",
+      "arrival_time": "2026-07-02T02:05:00",
+      "duration_minutes": 120,
+      "stops": 0,
+      "price": 6177,
+      "currency": "PHP",
+      "trip_type": "round_trip",
+      "airlines": [
+        "Cebu Pacific"
+      ],
+      "flight_numbers": [
+        "3952"
+      ],
+      "layovers": [],
+      "emissions_kg": 93,
+      "emissions_delta_percent": -8,
+      "booking_token": "CjRIRjEwbTBGaW0zcElBRXZQdmdCRy0tLS0tLS0tLS1zbXJ1M0FBQUFBR29NZmxJTDFFc3FBEgU1Sjk3MxoKCKEwEAAaA1BIUDgccJhO",
+      "is_best": true,
+      "segments": [
+        {
+          "airline_code": "5J",
+          "airline_name": "Cebu Pacific",
+          "flight_number": "3952",
+          "operating_airline": null,
+          "origin_airport": "DVO",
+          "origin_name": "Davao International Airport",
+          "destination_airport": "MNL",
+          "destination_name": "Ninoy Aquino International Airport",
+          "departure_time": "2026-07-02T00:05:00",
+          "arrival_time": "2026-07-02T02:05:00",
+          "duration_minutes": 120,
+          "aircraft": "Airbus A321"
+        }
+      ],
+      "return_origin_airport": "MNL",
+      "return_destination_airport": "DVO",
+      "return_departure_date": "2026-07-08",
+      "return_arrival_date": "2026-07-08",
+      "return_departure_time": "2026-07-08T10:25:00",
+      "return_arrival_time": "2026-07-08T12:25:00",
+      "return_duration_minutes": 120,
+      "return_stops": 0,
+      "return_airlines": [
+        "Cebu Pacific"
+      ],
+      "return_flight_numbers": [
+        "973"
+      ],
+      "return_layovers": [],
+      "return_segments": [
+        {
+          "airline_code": "5J",
+          "airline_name": "Cebu Pacific",
+          "flight_number": "973",
+          "operating_airline": null,
+          "origin_airport": "MNL",
+          "origin_name": "Ninoy Aquino International Airport",
+          "destination_airport": "DVO",
+          "destination_name": "Davao International Airport",
+          "departure_time": "2026-07-08T10:25:00",
+          "arrival_time": "2026-07-08T12:25:00",
+          "duration_minutes": 120,
+          "aircraft": "Airbus A321neo"
+        }
+      ],
+      "booking_options": []
+    },
+    {
+      "origin_airport": "DVO",
+      "destination_airport": "MNL",
+      "departure_date": "2026-07-02",
+      "arrival_date": "2026-07-02",
+      "departure_time": "2026-07-02T00:05:00",
+      "arrival_time": "2026-07-02T02:05:00",
+      "duration_minutes": 120,
+      "stops": 0,
+      "price": 6177,
+      "currency": "PHP",
+      "trip_type": "round_trip",
+      "airlines": [
+        "Cebu Pacific"
+      ],
+      "flight_numbers": [
+        "3952"
+      ],
+      "layovers": [],
+      "emissions_kg": 93,
+      "emissions_delta_percent": -8,
+      "booking_token": "CjRIRjEwbTBGaW0zcElBRXZQdmdCRy0tLS0tLS0tLS1zbXJ1M0FBQUFBR29NZmxJTDFFc3FBEgU1Sjk1NxoKCKEwEAAaA1BIUDgccJhO",
+      "is_best": true,
+      "segments": [
+        {
+          "airline_code": "5J",
+          "airline_name": "Cebu Pacific",
+          "flight_number": "3952",
+          "operating_airline": null,
+          "origin_airport": "DVO",
+          "origin_name": "Davao International Airport",
+          "destination_airport": "MNL",
+          "destination_name": "Ninoy Aquino International Airport",
+          "departure_time": "2026-07-02T00:05:00",
+          "arrival_time": "2026-07-02T02:05:00",
+          "duration_minutes": 120,
+          "aircraft": "Airbus A321"
+        }
+      ],
+      "return_origin_airport": "MNL",
+      "return_destination_airport": "DVO",
+      "return_departure_date": "2026-07-08",
+      "return_arrival_date": "2026-07-08",
+      "return_departure_time": "2026-07-08T12:15:00",
+      "return_arrival_time": "2026-07-08T14:25:00",
+      "return_duration_minutes": 130,
+      "return_stops": 0,
+      "return_airlines": [
+        "Cebu Pacific"
+      ],
+      "return_flight_numbers": [
+        "957"
+      ],
+      "return_layovers": [],
+      "return_segments": [
+        {
+          "airline_code": "5J",
+          "airline_name": "Cebu Pacific",
+          "flight_number": "957",
+          "operating_airline": null,
+          "origin_airport": "MNL",
+          "origin_name": "Ninoy Aquino International Airport",
+          "destination_airport": "DVO",
+          "destination_name": "Davao International Airport",
+          "departure_time": "2026-07-08T12:15:00",
+          "arrival_time": "2026-07-08T14:25:00",
+          "duration_minutes": 130,
+          "aircraft": "Airbus A330-900neo"
+        }
+      ],
+      "booking_options": []
+    },
+    {
+      "origin_airport": "DVO",
+      "destination_airport": "MNL",
+      "departure_date": "2026-07-02",
+      "arrival_date": "2026-07-02",
+      "departure_time": "2026-07-02T00:05:00",
+      "arrival_time": "2026-07-02T02:05:00",
+      "duration_minutes": 120,
+      "stops": 0,
+      "price": 6177,
+      "currency": "PHP",
+      "trip_type": "round_trip",
+      "airlines": [
+        "Cebu Pacific"
+      ],
+      "flight_numbers": [
+        "3952"
+      ],
+      "layovers": [],
+      "emissions_kg": 93,
+      "emissions_delta_percent": -8,
+      "booking_token": "CjRIRjEwbTBGaW0zcElBRXZQdmdCRy0tLS0tLS0tLS1zbXJ1M0FBQUFBR29NZmxJTDFFc3FBEgY1SjM5NTEaCgihMBAAGgNQSFA4HHCYTg==",
+      "is_best": true,
+      "segments": [
+        {
+          "airline_code": "5J",
+          "airline_name": "Cebu Pacific",
+          "flight_number": "3952",
+          "operating_airline": null,
+          "origin_airport": "DVO",
+          "origin_name": "Davao International Airport",
+          "destination_airport": "MNL",
+          "destination_name": "Ninoy Aquino International Airport",
+          "departure_time": "2026-07-02T00:05:00",
+          "arrival_time": "2026-07-02T02:05:00",
+          "duration_minutes": 120,
+          "aircraft": "Airbus A321"
+        }
+      ],
+      "return_origin_airport": "MNL",
+      "return_destination_airport": "DVO",
+      "return_departure_date": "2026-07-08",
+      "return_arrival_date": "2026-07-08",
+      "return_departure_time": "2026-07-08T21:30:00",
+      "return_arrival_time": "2026-07-08T23:30:00",
+      "return_duration_minutes": 120,
+      "return_stops": 0,
+      "return_airlines": [
+        "Cebu Pacific"
+      ],
+      "return_flight_numbers": [
+        "3951"
+      ],
+      "return_layovers": [],
+      "return_segments": [
+        {
+          "airline_code": "5J",
+          "airline_name": "Cebu Pacific",
+          "flight_number": "3951",
+          "operating_airline": null,
+          "origin_airport": "MNL",
+          "origin_name": "Ninoy Aquino International Airport",
+          "destination_airport": "DVO",
+          "destination_name": "Davao International Airport",
+          "departure_time": "2026-07-08T21:30:00",
+          "arrival_time": "2026-07-08T23:30:00",
+          "duration_minutes": 120,
+          "aircraft": "Airbus A321"
+        }
+      ],
+      "booking_options": []
+    },
+    {
+      "origin_airport": "DVO",
+      "destination_airport": "MNL",
+      "departure_date": "2026-07-02",
+      "arrival_date": "2026-07-02",
+      "departure_time": "2026-07-02T00:05:00",
+      "arrival_time": "2026-07-02T02:05:00",
+      "duration_minutes": 120,
+      "stops": 0,
+      "price": 6177,
+      "currency": "PHP",
+      "trip_type": "round_trip",
+      "airlines": [
+        "Cebu Pacific"
+      ],
+      "flight_numbers": [
+        "3952"
+      ],
+      "layovers": [],
+      "emissions_kg": 93,
+      "emissions_delta_percent": -8,
+      "booking_token": "CjRIRjEwbTBGaW0zcElBRXZQdmdCRy0tLS0tLS0tLS1zbXJ1M0FBQUFBR29NZmxJTDFFc3FBEgU1Sjk1MRoKCKEwEAAaA1BIUDgccJhO",
+      "is_best": true,
+      "segments": [
+        {
+          "airline_code": "5J",
+          "airline_name": "Cebu Pacific",
+          "flight_number": "3952",
+          "operating_airline": null,
+          "origin_airport": "DVO",
+          "origin_name": "Davao International Airport",
+          "destination_airport": "MNL",
+          "destination_name": "Ninoy Aquino International Airport",
+          "departure_time": "2026-07-02T00:05:00",
+          "arrival_time": "2026-07-02T02:05:00",
+          "duration_minutes": 120,
+          "aircraft": "Airbus A321"
+        }
+      ],
+      "return_origin_airport": "MNL",
+      "return_destination_airport": "DVO",
+      "return_departure_date": "2026-07-08",
+      "return_arrival_date": "2026-07-08",
+      "return_departure_time": "2026-07-08T21:50:00",
+      "return_arrival_time": "2026-07-08T23:50:00",
+      "return_duration_minutes": 120,
+      "return_stops": 0,
+      "return_airlines": [
+        "Cebu Pacific"
+      ],
+      "return_flight_numbers": [
+        "951"
+      ],
+      "return_layovers": [],
+      "return_segments": [
+        {
+          "airline_code": "5J",
+          "airline_name": "Cebu Pacific",
+          "flight_number": "951",
+          "operating_airline": null,
+          "origin_airport": "MNL",
+          "origin_name": "Ninoy Aquino International Airport",
+          "destination_airport": "DVO",
+          "destination_name": "Davao International Airport",
+          "departure_time": "2026-07-08T21:50:00",
+          "arrival_time": "2026-07-08T23:50:00",
+          "duration_minutes": 120,
+          "aircraft": "Airbus A320"
+        }
+      ],
+      "booking_options": []
+    },
+    {
+      "origin_airport": "DVO",
+      "destination_airport": "MNL",
+      "departure_date": "2026-07-02",
+      "arrival_date": "2026-07-02",
+      "departure_time": "2026-07-02T00:05:00",
+      "arrival_time": "2026-07-02T02:05:00",
+      "duration_minutes": 120,
+      "stops": 0,
+      "price": 6177,
+      "currency": "PHP",
+      "trip_type": "round_trip",
+      "airlines": [
+        "Cebu Pacific"
+      ],
+      "flight_numbers": [
+        "3952"
+      ],
+      "layovers": [],
+      "emissions_kg": 93,
+      "emissions_delta_percent": -8,
+      "booking_token": "CjRIRjEwbTBGaW0zcElBRXZQdmdCRy0tLS0tLS0tLS1zbXJ1M0FBQUFBR29NZmxJTDFFc3FBEgU1Sjk1MxoKCKEwEAAaA1BIUDgccJhO",
+      "is_best": true,
+      "segments": [
+        {
+          "airline_code": "5J",
+          "airline_name": "Cebu Pacific",
+          "flight_number": "3952",
+          "operating_airline": null,
+          "origin_airport": "DVO",
+          "origin_name": "Davao International Airport",
+          "destination_airport": "MNL",
+          "destination_name": "Ninoy Aquino International Airport",
+          "departure_time": "2026-07-02T00:05:00",
+          "arrival_time": "2026-07-02T02:05:00",
+          "duration_minutes": 120,
+          "aircraft": "Airbus A321"
+        }
+      ],
+      "return_origin_airport": "MNL",
+      "return_destination_airport": "DVO",
+      "return_departure_date": "2026-07-08",
+      "return_arrival_date": "2026-07-09",
+      "return_departure_time": "2026-07-08T22:40:00",
+      "return_arrival_time": "2026-07-09T00:40:00",
+      "return_duration_minutes": 120,
+      "return_stops": 0,
+      "return_airlines": [
+        "Cebu Pacific"
+      ],
+      "return_flight_numbers": [
+        "953"
+      ],
+      "return_layovers": [],
+      "return_segments": [
+        {
+          "airline_code": "5J",
+          "airline_name": "Cebu Pacific",
+          "flight_number": "953",
+          "operating_airline": null,
+          "origin_airport": "MNL",
+          "origin_name": "Ninoy Aquino International Airport",
+          "destination_airport": "DVO",
+          "destination_name": "Davao International Airport",
+          "departure_time": "2026-07-08T22:40:00",
+          "arrival_time": "2026-07-09T00:40:00",
+          "duration_minutes": 120,
+          "aircraft": "Airbus A320neo"
+        }
+      ],
+      "booking_options": []
+    },
+    {
+      "origin_airport": "DVO",
+      "destination_airport": "MNL",
+      "departure_date": "2026-07-02",
+      "arrival_date": "2026-07-02",
+      "departure_time": "2026-07-02T00:05:00",
+      "arrival_time": "2026-07-02T02:05:00",
+      "duration_minutes": 120,
+      "stops": 0,
+      "price": 6177,
+      "currency": "PHP",
+      "trip_type": "round_trip",
+      "airlines": [
+        "Cebu Pacific"
+      ],
+      "flight_numbers": [
+        "3952"
+      ],
+      "layovers": [],
+      "emissions_kg": 93,
+      "emissions_delta_percent": -8,
+      "booking_token": "CjRIRjEwbTBGaW0zcElBRXZQdmdCRy0tLS0tLS0tLS1zbXJ1M0FBQUFBR29NZmxJTDFFc3FBEgU1Sjk2NxoKCKEwEAAaA1BIUDgccJhO",
+      "is_best": true,
+      "segments": [
+        {
+          "airline_code": "5J",
+          "airline_name": "Cebu Pacific",
+          "flight_number": "3952",
+          "operating_airline": null,
+          "origin_airport": "DVO",
+          "origin_name": "Davao International Airport",
+          "destination_airport": "MNL",
+          "destination_name": "Ninoy Aquino International Airport",
+          "departure_time": "2026-07-02T00:05:00",
+          "arrival_time": "2026-07-02T02:05:00",
+          "duration_minutes": 120,
+          "aircraft": "Airbus A321"
+        }
+      ],
+      "return_origin_airport": "MNL",
+      "return_destination_airport": "DVO",
+      "return_departure_date": "2026-07-08",
+      "return_arrival_date": "2026-07-09",
+      "return_departure_time": "2026-07-08T23:10:00",
+      "return_arrival_time": "2026-07-09T01:10:00",
+      "return_duration_minutes": 120,
+      "return_stops": 0,
+      "return_airlines": [
+        "Cebu Pacific"
+      ],
+      "return_flight_numbers": [
+        "967"
+      ],
+      "return_layovers": [],
+      "return_segments": [
+        {
+          "airline_code": "5J",
+          "airline_name": "Cebu Pacific",
+          "flight_number": "967",
+          "operating_airline": null,
+          "origin_airport": "MNL",
+          "origin_name": "Ninoy Aquino International Airport",
+          "destination_airport": "DVO",
+          "destination_name": "Davao International Airport",
+          "departure_time": "2026-07-08T23:10:00",
+          "arrival_time": "2026-07-09T01:10:00",
+          "duration_minutes": 120,
+          "aircraft": "Airbus A320"
+        }
+      ],
+      "booking_options": []
+    },
+    {
+      "origin_airport": "DVO",
+      "destination_airport": "MNL",
+      "departure_date": "2026-07-02",
+      "arrival_date": "2026-07-02",
+      "departure_time": "2026-07-02T00:05:00",
+      "arrival_time": "2026-07-02T02:05:00",
+      "duration_minutes": 120,
+      "stops": 0,
+      "price": 8311,
+      "currency": "PHP",
+      "trip_type": "round_trip",
+      "airlines": [
+        "Cebu Pacific"
+      ],
+      "flight_numbers": [
+        "3952"
+      ],
+      "layovers": [],
+      "emissions_kg": 93,
+      "emissions_delta_percent": -8,
+      "booking_token": "CjRIRjEwbTBGaW0zcElBRXZQdmdCRy0tLS0tLS0tLS1zbXJ1M0FBQUFBR29NZmxJTDFFc3FBEg01SjI3MTV8REc2OTU5GgoI90AQABoDUEhQOBxwmmk=",
+      "is_best": false,
+      "segments": [
+        {
+          "airline_code": "5J",
+          "airline_name": "Cebu Pacific",
+          "flight_number": "3952",
+          "operating_airline": null,
+          "origin_airport": "DVO",
+          "origin_name": "Davao International Airport",
+          "destination_airport": "MNL",
+          "destination_name": "Ninoy Aquino International Airport",
+          "departure_time": "2026-07-02T00:05:00",
+          "arrival_time": "2026-07-02T02:05:00",
+          "duration_minutes": 120,
+          "aircraft": "Airbus A321"
+        }
+      ],
+      "return_origin_airport": "MNL",
+      "return_destination_airport": "DVO",
+      "return_departure_date": "2026-07-08",
+      "return_arrival_date": "2026-07-08",
+      "return_departure_time": "2026-07-08T06:45:00",
+      "return_arrival_time": "2026-07-08T14:30:00",
+      "return_duration_minutes": 465,
+      "return_stops": 1,
+      "return_airlines": [
+        "Cebu Pacific",
+        "Cebgo"
+      ],
+      "return_flight_numbers": [
+        "2715",
+        "6959"
+      ],
+      "return_layovers": [
+        {
+          "duration_minutes": 285,
+          "airport_code": "TAG",
+          "airport_name": "Panglao International Airport",
+          "city": "Panglao"
+        }
+      ],
+      "return_segments": [
+        {
+          "airline_code": "5J",
+          "airline_name": "Cebu Pacific",
+          "flight_number": "2715",
+          "operating_airline": null,
+          "origin_airport": "MNL",
+          "origin_name": "Ninoy Aquino International Airport",
+          "destination_airport": "TAG",
+          "destination_name": "Panglao International Airport",
+          "departure_time": "2026-07-08T06:45:00",
+          "arrival_time": "2026-07-08T08:25:00",
+          "duration_minutes": 100,
+          "aircraft": "Airbus A321neo"
+        },
+        {
+          "airline_code": "DG",
+          "airline_name": "Cebgo",
+          "flight_number": "6959",
+          "operating_airline": null,
+          "origin_airport": "TAG",
+          "origin_name": "Panglao International Airport",
+          "destination_airport": "DVO",
+          "destination_name": "Davao International Airport",
+          "departure_time": "2026-07-08T13:10:00",
+          "arrival_time": "2026-07-08T14:30:00",
+          "duration_minutes": 80,
+          "aircraft": "ATR 72"
+        }
+      ],
+      "booking_options": []
+    },
+    {
+      "origin_airport": "DVO",
+      "destination_airport": "MNL",
+      "departure_date": "2026-07-02",
+      "arrival_date": "2026-07-02",
+      "departure_time": "2026-07-02T00:05:00",
+      "arrival_time": "2026-07-02T02:05:00",
+      "duration_minutes": 120,
+      "stops": 0,
+      "price": 9207,
+      "currency": "PHP",
+      "trip_type": "round_trip",
+      "airlines": [
+        "Cebu Pacific"
+      ],
+      "flight_numbers": [
+        "3952"
+      ],
+      "layovers": [],
+      "emissions_kg": 93,
+      "emissions_delta_percent": -8,
+      "booking_token": "CjRIRjEwbTBGaW0zcElBRXZQdmdCRy0tLS0tLS0tLS1zbXJ1M0FBQUFBR29NZmxJTDFFc3FBEgw1SjYxN3xERzY5NTkaCgj3RxAAGgNQSFA4HHDGdA==",
+      "is_best": false,
+      "segments": [
+        {
+          "airline_code": "5J",
+          "airline_name": "Cebu Pacific",
+          "flight_number": "3952",
+          "operating_airline": null,
+          "origin_airport": "DVO",
+          "origin_name": "Davao International Airport",
+          "destination_airport": "MNL",
+          "destination_name": "Ninoy Aquino International Airport",
+          "departure_time": "2026-07-02T00:05:00",
+          "arrival_time": "2026-07-02T02:05:00",
+          "duration_minutes": 120,
+          "aircraft": "Airbus A321"
+        }
+      ],
+      "return_origin_airport": "MNL",
+      "return_destination_airport": "DVO",
+      "return_departure_date": "2026-07-08",
+      "return_arrival_date": "2026-07-08",
+      "return_departure_time": "2026-07-08T09:35:00",
+      "return_arrival_time": "2026-07-08T14:30:00",
+      "return_duration_minutes": 295,
+      "return_stops": 1,
+      "return_airlines": [
+        "Cebu Pacific",
+        "Cebgo"
+      ],
+      "return_flight_numbers": [
+        "617",
+        "6959"
+      ],
+      "return_layovers": [
+        {
+          "duration_minutes": 110,
+          "airport_code": "TAG",
+          "airport_name": "Panglao International Airport",
+          "city": "Panglao"
+        }
+      ],
+      "return_segments": [
+        {
+          "airline_code": "5J",
+          "airline_name": "Cebu Pacific",
+          "flight_number": "617",
+          "operating_airline": null,
+          "origin_airport": "MNL",
+          "origin_name": "Ninoy Aquino International Airport",
+          "destination_airport": "TAG",
+          "destination_name": "Panglao International Airport",
+          "departure_time": "2026-07-08T09:35:00",
+          "arrival_time": "2026-07-08T11:20:00",
+          "duration_minutes": 105,
+          "aircraft": "Airbus A330-900neo"
+        },
+        {
+          "airline_code": "DG",
+          "airline_name": "Cebgo",
+          "flight_number": "6959",
+          "operating_airline": null,
+          "origin_airport": "TAG",
+          "origin_name": "Panglao International Airport",
+          "destination_airport": "DVO",
+          "destination_name": "Davao International Airport",
+          "departure_time": "2026-07-08T13:10:00",
+          "arrival_time": "2026-07-08T14:30:00",
+          "duration_minutes": 80,
+          "aircraft": "ATR 72"
+        }
+      ],
+      "booking_options": []
+    }
+  ]
+}

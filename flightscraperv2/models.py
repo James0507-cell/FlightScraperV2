@@ -40,6 +40,25 @@ class FlightSegment:
 
 
 @dataclass(slots=True)
+class BookingOption:
+    provider_code: str | None
+    provider_name: str | None
+    provider_display_domain: str | None
+    provider_image_url: str | None
+    price: int | None
+    currency: str | None
+    deeplink_url: str | None
+    fare_name: str | None
+    resolved_booking_url: str | None = None
+    flight_codes: list[str] = field(default_factory=list)
+    is_primary: bool | None = None
+    raw_rank: int | None = None
+
+    def to_dict(self) -> dict[str, Any]:
+        return asdict(self)
+
+
+@dataclass(slots=True)
 class FlightOffer:
     origin_airport: str | None
     destination_airport: str | None
@@ -51,6 +70,7 @@ class FlightOffer:
     stops: int | None
     price: int | None
     currency: str | None
+    trip_type: str = "one_way"
     airlines: list[str] = field(default_factory=list)
     flight_numbers: list[str] = field(default_factory=list)
     layovers: list[dict[str, Any]] = field(default_factory=list)
@@ -59,10 +79,25 @@ class FlightOffer:
     booking_token: str | None = None
     is_best: bool | None = None
     segments: list[FlightSegment] = field(default_factory=list)
+    return_origin_airport: str | None = None
+    return_destination_airport: str | None = None
+    return_departure_date: str | None = None
+    return_arrival_date: str | None = None
+    return_departure_time: str | None = None
+    return_arrival_time: str | None = None
+    return_duration_minutes: int | None = None
+    return_stops: int | None = None
+    return_airlines: list[str] = field(default_factory=list)
+    return_flight_numbers: list[str] = field(default_factory=list)
+    return_layovers: list[dict[str, Any]] = field(default_factory=list)
+    return_segments: list[FlightSegment] = field(default_factory=list)
+    booking_options: list[BookingOption] = field(default_factory=list)
 
     def to_dict(self) -> dict[str, Any]:
         data = asdict(self)
         data["segments"] = [segment.to_dict() for segment in self.segments]
+        data["return_segments"] = [segment.to_dict() for segment in self.return_segments]
+        data["booking_options"] = [option.to_dict() for option in self.booking_options]
         return data
 
 
@@ -86,6 +121,7 @@ class ScrapeRun:
     capture: NetworkCapture
     offers: list[FlightOffer]
     archive_dir: Path
+    supplemental_captures: list[NetworkCapture] = field(default_factory=list)
     requested_mode: str = "browser"
     executed_mode: str = "browser"
     timings: dict[str, float] = field(default_factory=dict)
@@ -96,6 +132,7 @@ class ScrapeRun:
             "query": asdict(self.query),
             "final_url": self.final_url,
             "capture": self.capture.to_dict(),
+            "supplemental_captures": [capture.to_dict() for capture in self.supplemental_captures],
             "offers": [offer.to_dict() for offer in self.offers],
             "archive_dir": str(self.archive_dir),
             "requested_mode": self.requested_mode,

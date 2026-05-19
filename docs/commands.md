@@ -1,6 +1,6 @@
 # Command Reference
 
-This document contains copy-paste commands for the Google Flights scraper.
+This document contains the main commands for running the scraper, the API server, and the tests.
 
 Run commands from the project root:
 
@@ -8,138 +8,164 @@ Run commands from the project root:
 C:\Users\Admin\PycharmProjects\FlightScraperV2
 ```
 
+## Environment Setup
+
+Install project dependencies into the local virtual environment:
+
+```powershell
+.\.venv\Scripts\python -m pip install -e .
+```
+
+Install the Chromium browser used by Playwright:
+
+```powershell
+.\.venv\Scripts\python -m playwright install chromium
+```
+
 ## Offline Tests
 
-Run the unit test suite:
+Run the full unit test suite:
 
 ```powershell
-python -m unittest discover -s tests -v
+.\.venv\Scripts\python -m unittest discover -s tests -v
 ```
 
-## Browser Mode
+## CLI Scraper
 
-Run one live query through the Playwright UI path:
+Run a one-way scrape in browser mode:
 
 ```powershell
-python main.py --mode browser --origin DVO --destination MNL --depart-date 2026-07-02 --return-date 2026-07-08 --max-stops 0 --retries 2
+.\.venv\Scripts\python main.py --mode browser --origin DVO --destination MNL --depart-date 2026-07-02
 ```
 
-Run browser mode with a visible browser window:
+Run a round-trip scrape in browser mode:
 
 ```powershell
-python main.py --mode browser --headed --origin DVO --destination MNL --depart-date 2026-07-02 --return-date 2026-07-08 --max-stops 0 --retries 2
+.\.venv\Scripts\python main.py --mode browser --origin DVO --destination MNL --depart-date 2026-07-02 --return-date 2026-07-08
 ```
 
-## Replay Mode
-
-Run one live query through replay mode:
+Run replay mode:
 
 ```powershell
-python main.py --mode replay --origin DVO --destination MNL --depart-date 2026-07-02 --return-date 2026-07-08 --max-stops 0 --retries 2
+.\.venv\Scripts\python main.py --mode replay --origin DVO --destination MNL --depart-date 2026-07-02 --return-date 2026-07-08
 ```
 
-Run replay mode with a visible browser window:
+Run replay-first auto mode:
 
 ```powershell
-python main.py --mode replay --headed --origin DVO --destination MNL --depart-date 2026-07-02 --return-date 2026-07-08 --max-stops 0 --retries 2
+.\.venv\Scripts\python main.py --origin DVO --destination MNL --depart-date 2026-07-02 --return-date 2026-07-08
 ```
 
-## Auto Mode
-
-Run the default replay-first mode:
+Run with a visible browser window:
 
 ```powershell
-python main.py --origin DVO --destination MNL --depart-date 2026-07-02 --return-date 2026-07-08 --max-stops 0 --retries 2
+.\.venv\Scripts\python main.py --mode browser --headed --origin DVO --destination MNL --depart-date 2026-07-02 --return-date 2026-07-08
 ```
 
-## One-Way Query
-
-Run a one-way flight query:
+Run a batch file:
 
 ```powershell
-python main.py --mode browser --origin CEB --destination MNL --depart-date 2026-07-03 --max-stops 0 --retries 2
+.\.venv\Scripts\python main.py --mode browser --query-file benchmark-queries.json --concurrency 1 --retries 2
 ```
 
-## Batch Query
-
-Run a batch from a JSON query file:
+Run the benchmark:
 
 ```powershell
-python main.py --query-file benchmark-queries.json --concurrency 1 --retries 2
+.\.venv\Scripts\python main.py --benchmark --query-file benchmark-queries.json --concurrency 1 --retries 2
 ```
 
-Run a browser-only batch:
-
-```powershell
-python main.py --mode browser --query-file benchmark-queries.json --concurrency 1 --retries 2
-```
-
-Run a replay-oriented batch:
-
-```powershell
-python main.py --mode replay --query-file benchmark-queries.json --concurrency 1 --retries 2
-```
-
-## Benchmark
-
-Compare browser mode and replay mode:
-
-```powershell
-python main.py --benchmark --query-file benchmark-queries.json --concurrency 1 --retries 2
-```
-
-The latest benchmark summary is written to:
-
-```powershell
-docs/benchmark-latest.json
-```
-
-## SQLite Reports
+## CLI Reports
 
 Show recent persisted runs:
 
 ```powershell
-python main.py --report recent-runs --limit 5
+.\.venv\Scripts\python main.py --report recent-runs --limit 5
 ```
 
-Show cheapest stored offers for one route/date:
+Show cheapest persisted offers for one route and date:
 
 ```powershell
-python main.py --report cheapest-offers --origin DVO --destination MNL --depart-date 2026-07-02 --limit 10
+.\.venv\Scripts\python main.py --report cheapest-offers --origin DVO --destination MNL --depart-date 2026-07-02 --limit 10
 ```
 
-Show execution-mode summary:
+Show execution mode summary:
 
 ```powershell
-python main.py --report mode-summary
+.\.venv\Scripts\python main.py --report mode-summary
 ```
 
-If the report commands fail with a missing database error, run a successful live scrape first so `artifacts/scraper.sqlite` is created.
+## API Server
 
-## Replay Request Body Generation
-
-Generate a request body from an archived request template:
+Start the API server on `0.0.0.0:8000`:
 
 ```powershell
-python main.py --print-request-body --request-template artifacts\20260517T115223Z\request.txt --origin CEB --destination MNL --depart-date 2026-08-01 --return-date 2026-08-10 --max-stops 0
+.\.venv\Scripts\python main_api.py
 ```
 
-## Useful Output Files
+Equivalent `uvicorn` command:
 
-Successful live runs create an artifact directory under `artifacts/`.
+```powershell
+.\.venv\Scripts\python -m uvicorn flightscraperv2.api:app --host 0.0.0.0 --port 8000
+```
 
-Important files inside a run directory:
+If port `8000` is already occupied by another local process, stop that process or temporarily use a different port for local testing:
 
-- `capture.json`
-- `request.txt`
-- `response.txt`
-- `offers.json`
-- `run.json`
+```powershell
+.\.venv\Scripts\python -m uvicorn flightscraperv2.api:app --host 0.0.0.0 --port 8001
+```
 
-Benchmark reports are written under:
+## API Smoke Tests
 
-- `artifacts/benchmarks/`
+Health check:
 
-SQLite persistence is stored at:
+```powershell
+Invoke-RestMethod http://127.0.0.1:8000/health
+```
 
-- `artifacts/scraper.sqlite`
+One-way scrape request:
+
+```powershell
+Invoke-RestMethod -Method Post http://127.0.0.1:8000/api/v1/scrape -ContentType 'application/json' -Body '{"mode":"browser","origin":"DVO","destination":"MNL","depart_date":"2026-07-02","headless":true}'
+```
+
+Round-trip scrape request:
+
+```powershell
+Invoke-RestMethod -Method Post http://127.0.0.1:8000/api/v1/scrape -ContentType 'application/json' -Body '{"mode":"browser","origin":"DVO","destination":"MNL","depart_date":"2026-07-02","return_date":"2026-07-08","headless":true}'
+```
+
+Recent runs:
+
+```powershell
+Invoke-RestMethod "http://127.0.0.1:8000/api/v1/reports/recent-runs?limit=3"
+```
+
+Cheapest offers:
+
+```powershell
+Invoke-RestMethod "http://127.0.0.1:8000/api/v1/reports/cheapest-offers?origin=DVO&destination=MNL&depart_date=2026-07-02&limit=3"
+```
+
+Mode summary:
+
+```powershell
+Invoke-RestMethod "http://127.0.0.1:8000/api/v1/reports/mode-summary"
+```
+
+## Useful Files
+
+Main outputs from a successful scrape:
+
+- `artifacts\<run-id>\capture.json`
+- `artifacts\<run-id>\request.txt`
+- `artifacts\<run-id>\response.txt`
+- `artifacts\<run-id>\offers.json`
+- `artifacts\<run-id>\run.json`
+
+SQLite database:
+
+- `artifacts\scraper.sqlite`
+
+API reference:
+
+- `docs\api-reference.md`

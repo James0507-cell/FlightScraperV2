@@ -1,0 +1,1408 @@
+{
+  "offers": [
+    {
+      "origin_airport": "SFO",
+      "destination_airport": "LAX",
+      "departure_date": "2026-06-01",
+      "arrival_date": "2026-06-01",
+      "departure_time": "2026-06-01T15:21:00",
+      "arrival_time": "2026-06-01T16:59:00",
+      "duration_minutes": 98,
+      "stops": 0,
+      "price": 7281,
+      "currency": "PHP",
+      "airlines": [
+        "Frontier"
+      ],
+      "flight_numbers": [
+        "3308"
+      ],
+      "layovers": [],
+      "emissions_kg": 51,
+      "emissions_delta_percent": -46,
+      "booking_token": "CjRIcXM2cmg5REZ1WDBBRWJyYmdCRy0tLS0tLS0tLXRiY2ZwNkFBQUFBR29NZGVnQk52aG1BEgZGOTMzMDgaCgjxOBAAGgNQSFA4HHCVXA==",
+      "is_best": true,
+      "segments": [
+        {
+          "airline_code": "F9",
+          "airline_name": "Frontier",
+          "flight_number": "3308",
+          "operating_airline": null,
+          "origin_airport": "SFO",
+          "origin_name": "San Francisco International Airport",
+          "destination_airport": "LAX",
+          "destination_name": "Los Angeles International Airport",
+          "departure_time": "2026-06-01T15:21:00",
+          "arrival_time": "2026-06-01T16:59:00",
+          "duration_minutes": 98,
+          "aircraft": "Airbus A321neo"
+        }
+      ]
+    },
+    {
+      "origin_airport": "SFO",
+      "destination_airport": "LAX",
+      "departure_date": "2026-06-01",
+      "arrival_date": "2026-06-01",
+      "departure_time": "2026-06-01T09:30:00",
+      "arrival_time": "2026-06-01T11:05:00",
+      "duration_minutes": 95,
+      "stops": 0,
+      "price": 17763,
+      "currency": "PHP",
+      "airlines": [
+        "Delta"
+      ],
+      "flight_numbers": [
+        "1421"
+      ],
+      "layovers": [],
+      "emissions_kg": 67,
+      "emissions_delta_percent": -29,
+      "booking_token": "CjRIcXM2cmg5REZ1WDBBRWJyYmdCRy0tLS0tLS0tLXRiY2ZwNkFBQUFBR29NZGVnQk52aG1BEgZETDE0MjEaCwjjigEQABoDUEhQOBxw7eAB",
+      "is_best": false,
+      "segments": [
+        {
+          "airline_code": "DL",
+          "airline_name": "Delta",
+          "flight_number": "1421",
+          "operating_airline": null,
+          "origin_airport": "SFO",
+          "origin_name": "San Francisco International Airport",
+          "destination_airport": "LAX",
+          "destination_name": "Los Angeles International Airport",
+          "departure_time": "2026-06-01T09:30:00",
+          "arrival_time": "2026-06-01T11:05:00",
+          "duration_minutes": 95,
+          "aircraft": "Boeing 737"
+        }
+      ]
+    },
+    {
+      "origin_airport": "SFO",
+      "destination_airport": "LAX",
+      "departure_date": "2026-06-01",
+      "arrival_date": "2026-06-01",
+      "departure_time": "2026-06-01T09:57:00",
+      "arrival_time": "2026-06-01T11:31:00",
+      "duration_minutes": 94,
+      "stops": 0,
+      "price": 17763,
+      "currency": "PHP",
+      "airlines": [
+        "Alaska"
+      ],
+      "flight_numbers": [
+        "1329"
+      ],
+      "layovers": [],
+      "emissions_kg": 70,
+      "emissions_delta_percent": -26,
+      "booking_token": "CjRIcXM2cmg5REZ1WDBBRWJyYmdCRy0tLS0tLS0tLXRiY2ZwNkFBQUFBR29NZGVnQk52aG1BEgZBUzEzMjkaCwjjigEQABoDUEhQOBxw7eAB",
+      "is_best": false,
+      "segments": [
+        {
+          "airline_code": "AS",
+          "airline_name": "Alaska",
+          "flight_number": "1329",
+          "operating_airline": null,
+          "origin_airport": "SFO",
+          "origin_name": "San Francisco International Airport",
+          "destination_airport": "LAX",
+          "destination_name": "Los Angeles International Airport",
+          "departure_time": "2026-06-01T09:57:00",
+          "arrival_time": "2026-06-01T11:31:00",
+          "duration_minutes": 94,
+          "aircraft": "Boeing 737"
+        }
+      ]
+    },
+    {
+      "origin_airport": "SFO",
+      "destination_airport": "LAX",
+      "departure_date": "2026-06-01",
+      "arrival_date": "2026-06-01",
+      "departure_time": "2026-06-01T06:00:00",
+      "arrival_time": "2026-06-01T07:43:00",
+      "duration_minutes": 103,
+      "stops": 0,
+      "price": 17762,
+      "currency": "PHP",
+      "airlines": [
+        "American"
+      ],
+      "flight_numbers": [
+        "6294"
+      ],
+      "layovers": [],
+      "emissions_kg": 103,
+      "emissions_delta_percent": 10,
+      "booking_token": "CjRIcXM2cmg5REZ1WDBBRWJyYmdCRy0tLS0tLS0tLXRiY2ZwNkFBQUFBR29NZGVnQk52aG1BEgZBQTYyOTQaCwjiigEQABoDUEhQOBxw6+AB",
+      "is_best": false,
+      "segments": [
+        {
+          "airline_code": "AA",
+          "airline_name": "American",
+          "flight_number": "6294",
+          "operating_airline": "SkyWest Airlines as American Eagle",
+          "origin_airport": "SFO",
+          "origin_name": "San Francisco International Airport",
+          "destination_airport": "LAX",
+          "destination_name": "Los Angeles International Airport",
+          "departure_time": "2026-06-01T06:00:00",
+          "arrival_time": "2026-06-01T07:43:00",
+          "duration_minutes": 103,
+          "aircraft": "Embraer 175"
+        }
+      ]
+    },
+    {
+      "origin_airport": "SFO",
+      "destination_airport": "LAX",
+      "departure_date": "2026-06-01",
+      "arrival_date": "2026-06-01",
+      "departure_time": "2026-06-01T09:04:00",
+      "arrival_time": "2026-06-01T10:45:00",
+      "duration_minutes": 101,
+      "stops": 0,
+      "price": 17762,
+      "currency": "PHP",
+      "airlines": [
+        "American"
+      ],
+      "flight_numbers": [
+        "6336"
+      ],
+      "layovers": [],
+      "emissions_kg": 103,
+      "emissions_delta_percent": 10,
+      "booking_token": "CjRIcXM2cmg5REZ1WDBBRWJyYmdCRy0tLS0tLS0tLXRiY2ZwNkFBQUFBR29NZGVnQk52aG1BEgZBQTYzMzYaCwjiigEQABoDUEhQOBxw6+AB",
+      "is_best": false,
+      "segments": [
+        {
+          "airline_code": "AA",
+          "airline_name": "American",
+          "flight_number": "6336",
+          "operating_airline": "SkyWest Airlines as American Eagle",
+          "origin_airport": "SFO",
+          "origin_name": "San Francisco International Airport",
+          "destination_airport": "LAX",
+          "destination_name": "Los Angeles International Airport",
+          "departure_time": "2026-06-01T09:04:00",
+          "arrival_time": "2026-06-01T10:45:00",
+          "duration_minutes": 101,
+          "aircraft": "Embraer 175"
+        }
+      ]
+    },
+    {
+      "origin_airport": "SFO",
+      "destination_airport": "LAX",
+      "departure_date": "2026-06-01",
+      "arrival_date": "2026-06-01",
+      "departure_time": "2026-06-01T10:07:00",
+      "arrival_time": "2026-06-01T11:48:00",
+      "duration_minutes": 101,
+      "stops": 0,
+      "price": 17762,
+      "currency": "PHP",
+      "airlines": [
+        "American"
+      ],
+      "flight_numbers": [
+        "6428"
+      ],
+      "layovers": [],
+      "emissions_kg": 103,
+      "emissions_delta_percent": 10,
+      "booking_token": "CjRIcXM2cmg5REZ1WDBBRWJyYmdCRy0tLS0tLS0tLXRiY2ZwNkFBQUFBR29NZGVnQk52aG1BEgZBQTY0MjgaCwjiigEQABoDUEhQOBxw6+AB",
+      "is_best": false,
+      "segments": [
+        {
+          "airline_code": "AA",
+          "airline_name": "American",
+          "flight_number": "6428",
+          "operating_airline": "SkyWest Airlines as American Eagle",
+          "origin_airport": "SFO",
+          "origin_name": "San Francisco International Airport",
+          "destination_airport": "LAX",
+          "destination_name": "Los Angeles International Airport",
+          "departure_time": "2026-06-01T10:07:00",
+          "arrival_time": "2026-06-01T11:48:00",
+          "duration_minutes": 101,
+          "aircraft": "Embraer 175"
+        }
+      ]
+    },
+    {
+      "origin_airport": "SFO",
+      "destination_airport": "LAX",
+      "departure_date": "2026-06-01",
+      "arrival_date": "2026-06-01",
+      "departure_time": "2026-06-01T11:37:00",
+      "arrival_time": "2026-06-01T13:18:00",
+      "duration_minutes": 101,
+      "stops": 0,
+      "price": 17762,
+      "currency": "PHP",
+      "airlines": [
+        "American"
+      ],
+      "flight_numbers": [
+        "6330"
+      ],
+      "layovers": [],
+      "emissions_kg": 103,
+      "emissions_delta_percent": 10,
+      "booking_token": "CjRIcXM2cmg5REZ1WDBBRWJyYmdCRy0tLS0tLS0tLXRiY2ZwNkFBQUFBR29NZGVnQk52aG1BEgZBQTYzMzAaCwjiigEQABoDUEhQOBxw6+AB",
+      "is_best": false,
+      "segments": [
+        {
+          "airline_code": "AA",
+          "airline_name": "American",
+          "flight_number": "6330",
+          "operating_airline": "SkyWest Airlines as American Eagle",
+          "origin_airport": "SFO",
+          "origin_name": "San Francisco International Airport",
+          "destination_airport": "LAX",
+          "destination_name": "Los Angeles International Airport",
+          "departure_time": "2026-06-01T11:37:00",
+          "arrival_time": "2026-06-01T13:18:00",
+          "duration_minutes": 101,
+          "aircraft": "Embraer 175"
+        }
+      ]
+    },
+    {
+      "origin_airport": "SFO",
+      "destination_airport": "LAX",
+      "departure_date": "2026-06-01",
+      "arrival_date": "2026-06-01",
+      "departure_time": "2026-06-01T13:35:00",
+      "arrival_time": "2026-06-01T15:15:00",
+      "duration_minutes": 100,
+      "stops": 0,
+      "price": 17762,
+      "currency": "PHP",
+      "airlines": [
+        "American"
+      ],
+      "flight_numbers": [
+        "6188"
+      ],
+      "layovers": [],
+      "emissions_kg": 103,
+      "emissions_delta_percent": 10,
+      "booking_token": "CjRIcXM2cmg5REZ1WDBBRWJyYmdCRy0tLS0tLS0tLXRiY2ZwNkFBQUFBR29NZGVnQk52aG1BEgZBQTYxODgaCwjiigEQABoDUEhQOBxw6+AB",
+      "is_best": false,
+      "segments": [
+        {
+          "airline_code": "AA",
+          "airline_name": "American",
+          "flight_number": "6188",
+          "operating_airline": "SkyWest Airlines as American Eagle",
+          "origin_airport": "SFO",
+          "origin_name": "San Francisco International Airport",
+          "destination_airport": "LAX",
+          "destination_name": "Los Angeles International Airport",
+          "departure_time": "2026-06-01T13:35:00",
+          "arrival_time": "2026-06-01T15:15:00",
+          "duration_minutes": 100,
+          "aircraft": "Embraer 175"
+        }
+      ]
+    },
+    {
+      "origin_airport": "SFO",
+      "destination_airport": "LAX",
+      "departure_date": "2026-06-01",
+      "arrival_date": "2026-06-01",
+      "departure_time": "2026-06-01T18:08:00",
+      "arrival_time": "2026-06-01T19:49:00",
+      "duration_minutes": 101,
+      "stops": 0,
+      "price": 17762,
+      "currency": "PHP",
+      "airlines": [
+        "American"
+      ],
+      "flight_numbers": [
+        "6221"
+      ],
+      "layovers": [],
+      "emissions_kg": 103,
+      "emissions_delta_percent": 10,
+      "booking_token": "CjRIcXM2cmg5REZ1WDBBRWJyYmdCRy0tLS0tLS0tLXRiY2ZwNkFBQUFBR29NZGVnQk52aG1BEgZBQTYyMjEaCwjiigEQABoDUEhQOBxw6+AB",
+      "is_best": false,
+      "segments": [
+        {
+          "airline_code": "AA",
+          "airline_name": "American",
+          "flight_number": "6221",
+          "operating_airline": "SkyWest Airlines as American Eagle",
+          "origin_airport": "SFO",
+          "origin_name": "San Francisco International Airport",
+          "destination_airport": "LAX",
+          "destination_name": "Los Angeles International Airport",
+          "departure_time": "2026-06-01T18:08:00",
+          "arrival_time": "2026-06-01T19:49:00",
+          "duration_minutes": 101,
+          "aircraft": "Embraer 175"
+        }
+      ]
+    },
+    {
+      "origin_airport": "SFO",
+      "destination_airport": "LAX",
+      "departure_date": "2026-06-01",
+      "arrival_date": "2026-06-01",
+      "departure_time": "2026-06-01T20:13:00",
+      "arrival_time": "2026-06-01T21:50:00",
+      "duration_minutes": 97,
+      "stops": 0,
+      "price": 17762,
+      "currency": "PHP",
+      "airlines": [
+        "American"
+      ],
+      "flight_numbers": [
+        "2567"
+      ],
+      "layovers": [],
+      "emissions_kg": 79,
+      "emissions_delta_percent": -16,
+      "booking_token": "CjRIcXM2cmg5REZ1WDBBRWJyYmdCRy0tLS0tLS0tLXRiY2ZwNkFBQUFBR29NZGVnQk52aG1BEgZBQTI1NjcaCwjiigEQABoDUEhQOBxw6+AB",
+      "is_best": false,
+      "segments": [
+        {
+          "airline_code": "AA",
+          "airline_name": "American",
+          "flight_number": "2567",
+          "operating_airline": null,
+          "origin_airport": "SFO",
+          "origin_name": "San Francisco International Airport",
+          "destination_airport": "LAX",
+          "destination_name": "Los Angeles International Airport",
+          "departure_time": "2026-06-01T20:13:00",
+          "arrival_time": "2026-06-01T21:50:00",
+          "duration_minutes": 97,
+          "aircraft": "Boeing 737"
+        }
+      ]
+    },
+    {
+      "origin_airport": "SFO",
+      "destination_airport": "LAX",
+      "departure_date": "2026-06-01",
+      "arrival_date": "2026-06-01",
+      "departure_time": "2026-06-01T06:00:00",
+      "arrival_time": "2026-06-01T07:39:00",
+      "duration_minutes": 99,
+      "stops": 0,
+      "price": 17763,
+      "currency": "PHP",
+      "airlines": [
+        "United"
+      ],
+      "flight_numbers": [
+        "2127"
+      ],
+      "layovers": [],
+      "emissions_kg": 70,
+      "emissions_delta_percent": -26,
+      "booking_token": "CjRIcXM2cmg5REZ1WDBBRWJyYmdCRy0tLS0tLS0tLXRiY2ZwNkFBQUFBR29NZGVnQk52aG1BEgZVQTIxMjcaCwjjigEQABoDUEhQOBxw7eAB",
+      "is_best": false,
+      "segments": [
+        {
+          "airline_code": "UA",
+          "airline_name": "United",
+          "flight_number": "2127",
+          "operating_airline": null,
+          "origin_airport": "SFO",
+          "origin_name": "San Francisco International Airport",
+          "destination_airport": "LAX",
+          "destination_name": "Los Angeles International Airport",
+          "departure_time": "2026-06-01T06:00:00",
+          "arrival_time": "2026-06-01T07:39:00",
+          "duration_minutes": 99,
+          "aircraft": "Boeing 737"
+        }
+      ]
+    },
+    {
+      "origin_airport": "SFO",
+      "destination_airport": "LAX",
+      "departure_date": "2026-06-01",
+      "arrival_date": "2026-06-01",
+      "departure_time": "2026-06-01T06:20:00",
+      "arrival_time": "2026-06-01T07:55:00",
+      "duration_minutes": 95,
+      "stops": 0,
+      "price": 17763,
+      "currency": "PHP",
+      "airlines": [
+        "Southwest"
+      ],
+      "flight_numbers": [
+        "2870"
+      ],
+      "layovers": [],
+      "emissions_kg": 61,
+      "emissions_delta_percent": -35,
+      "booking_token": "CjRIcXM2cmg5REZ1WDBBRWJyYmdCRy0tLS0tLS0tLXRiY2ZwNkFBQUFBR29NZGVnQk52aG1BEgZXTjI4NzAaCwjjigEQABoDUEhQOBxw7eAB",
+      "is_best": false,
+      "segments": [
+        {
+          "airline_code": "WN",
+          "airline_name": "Southwest",
+          "flight_number": "2870",
+          "operating_airline": null,
+          "origin_airport": "SFO",
+          "origin_name": "San Francisco International Airport",
+          "destination_airport": "LAX",
+          "destination_name": "Los Angeles International Airport",
+          "departure_time": "2026-06-01T06:20:00",
+          "arrival_time": "2026-06-01T07:55:00",
+          "duration_minutes": 95,
+          "aircraft": "Boeing 737MAX 8 Passenger"
+        }
+      ]
+    },
+    {
+      "origin_airport": "SFO",
+      "destination_airport": "LAX",
+      "departure_date": "2026-06-01",
+      "arrival_date": "2026-06-01",
+      "departure_time": "2026-06-01T07:10:00",
+      "arrival_time": "2026-06-01T08:44:00",
+      "duration_minutes": 94,
+      "stops": 0,
+      "price": 17763,
+      "currency": "PHP",
+      "airlines": [
+        "Alaska"
+      ],
+      "flight_numbers": [
+        "1450"
+      ],
+      "layovers": [],
+      "emissions_kg": 70,
+      "emissions_delta_percent": -26,
+      "booking_token": "CjRIcXM2cmg5REZ1WDBBRWJyYmdCRy0tLS0tLS0tLXRiY2ZwNkFBQUFBR29NZGVnQk52aG1BEgZBUzE0NTAaCwjjigEQABoDUEhQOBxw7eAB",
+      "is_best": false,
+      "segments": [
+        {
+          "airline_code": "AS",
+          "airline_name": "Alaska",
+          "flight_number": "1450",
+          "operating_airline": null,
+          "origin_airport": "SFO",
+          "origin_name": "San Francisco International Airport",
+          "destination_airport": "LAX",
+          "destination_name": "Los Angeles International Airport",
+          "departure_time": "2026-06-01T07:10:00",
+          "arrival_time": "2026-06-01T08:44:00",
+          "duration_minutes": 94,
+          "aircraft": "Boeing 737"
+        }
+      ]
+    },
+    {
+      "origin_airport": "SFO",
+      "destination_airport": "LAX",
+      "departure_date": "2026-06-01",
+      "arrival_date": "2026-06-01",
+      "departure_time": "2026-06-01T07:15:00",
+      "arrival_time": "2026-06-01T08:48:00",
+      "duration_minutes": 93,
+      "stops": 0,
+      "price": 17763,
+      "currency": "PHP",
+      "airlines": [
+        "Delta"
+      ],
+      "flight_numbers": [
+        "1598"
+      ],
+      "layovers": [],
+      "emissions_kg": 67,
+      "emissions_delta_percent": -29,
+      "booking_token": "CjRIcXM2cmg5REZ1WDBBRWJyYmdCRy0tLS0tLS0tLXRiY2ZwNkFBQUFBR29NZGVnQk52aG1BEgZETDE1OTgaCwjjigEQABoDUEhQOBxw7eAB",
+      "is_best": false,
+      "segments": [
+        {
+          "airline_code": "DL",
+          "airline_name": "Delta",
+          "flight_number": "1598",
+          "operating_airline": null,
+          "origin_airport": "SFO",
+          "origin_name": "San Francisco International Airport",
+          "destination_airport": "LAX",
+          "destination_name": "Los Angeles International Airport",
+          "departure_time": "2026-06-01T07:15:00",
+          "arrival_time": "2026-06-01T08:48:00",
+          "duration_minutes": 93,
+          "aircraft": "Boeing 737"
+        }
+      ]
+    },
+    {
+      "origin_airport": "SFO",
+      "destination_airport": "LAX",
+      "departure_date": "2026-06-01",
+      "arrival_date": "2026-06-01",
+      "departure_time": "2026-06-01T10:19:00",
+      "arrival_time": "2026-06-01T11:57:00",
+      "duration_minutes": 98,
+      "stops": 0,
+      "price": 17763,
+      "currency": "PHP",
+      "airlines": [
+        "United"
+      ],
+      "flight_numbers": [
+        "457"
+      ],
+      "layovers": [],
+      "emissions_kg": 67,
+      "emissions_delta_percent": -29,
+      "booking_token": "CjRIcXM2cmg5REZ1WDBBRWJyYmdCRy0tLS0tLS0tLXRiY2ZwNkFBQUFBR29NZGVnQk52aG1BEgVVQTQ1NxoLCOOKARAAGgNQSFA4HHDt4AE=",
+      "is_best": false,
+      "segments": [
+        {
+          "airline_code": "UA",
+          "airline_name": "United",
+          "flight_number": "457",
+          "operating_airline": null,
+          "origin_airport": "SFO",
+          "origin_name": "San Francisco International Airport",
+          "destination_airport": "LAX",
+          "destination_name": "Los Angeles International Airport",
+          "departure_time": "2026-06-01T10:19:00",
+          "arrival_time": "2026-06-01T11:57:00",
+          "duration_minutes": 98,
+          "aircraft": "Boeing 737"
+        }
+      ]
+    },
+    {
+      "origin_airport": "SFO",
+      "destination_airport": "LAX",
+      "departure_date": "2026-06-01",
+      "arrival_date": "2026-06-01",
+      "departure_time": "2026-06-01T10:30:00",
+      "arrival_time": "2026-06-01T12:00:00",
+      "duration_minutes": 90,
+      "stops": 0,
+      "price": 17763,
+      "currency": "PHP",
+      "airlines": [
+        "Southwest"
+      ],
+      "flight_numbers": [
+        "1155"
+      ],
+      "layovers": [],
+      "emissions_kg": 81,
+      "emissions_delta_percent": -14,
+      "booking_token": "CjRIcXM2cmg5REZ1WDBBRWJyYmdCRy0tLS0tLS0tLXRiY2ZwNkFBQUFBR29NZGVnQk52aG1BEgZXTjExNTUaCwjjigEQABoDUEhQOBxw7eAB",
+      "is_best": false,
+      "segments": [
+        {
+          "airline_code": "WN",
+          "airline_name": "Southwest",
+          "flight_number": "1155",
+          "operating_airline": null,
+          "origin_airport": "SFO",
+          "origin_name": "San Francisco International Airport",
+          "destination_airport": "LAX",
+          "destination_name": "Los Angeles International Airport",
+          "departure_time": "2026-06-01T10:30:00",
+          "arrival_time": "2026-06-01T12:00:00",
+          "duration_minutes": 90,
+          "aircraft": "Boeing 737-700 (Scimitar Winglets) Pax"
+        }
+      ]
+    },
+    {
+      "origin_airport": "SFO",
+      "destination_airport": "LAX",
+      "departure_date": "2026-06-01",
+      "arrival_date": "2026-06-01",
+      "departure_time": "2026-06-01T10:57:00",
+      "arrival_time": "2026-06-01T12:31:00",
+      "duration_minutes": 94,
+      "stops": 0,
+      "price": 17763,
+      "currency": "PHP",
+      "airlines": [
+        "Alaska"
+      ],
+      "flight_numbers": [
+        "233"
+      ],
+      "layovers": [],
+      "emissions_kg": 70,
+      "emissions_delta_percent": -26,
+      "booking_token": "CjRIcXM2cmg5REZ1WDBBRWJyYmdCRy0tLS0tLS0tLXRiY2ZwNkFBQUFBR29NZGVnQk52aG1BEgVBUzIzMxoLCOOKARAAGgNQSFA4HHDt4AE=",
+      "is_best": false,
+      "segments": [
+        {
+          "airline_code": "AS",
+          "airline_name": "Alaska",
+          "flight_number": "233",
+          "operating_airline": null,
+          "origin_airport": "SFO",
+          "origin_name": "San Francisco International Airport",
+          "destination_airport": "LAX",
+          "destination_name": "Los Angeles International Airport",
+          "departure_time": "2026-06-01T10:57:00",
+          "arrival_time": "2026-06-01T12:31:00",
+          "duration_minutes": 94,
+          "aircraft": "Boeing 737"
+        }
+      ]
+    },
+    {
+      "origin_airport": "SFO",
+      "destination_airport": "LAX",
+      "departure_date": "2026-06-01",
+      "arrival_date": "2026-06-01",
+      "departure_time": "2026-06-01T11:55:00",
+      "arrival_time": "2026-06-01T13:29:00",
+      "duration_minutes": 94,
+      "stops": 0,
+      "price": 17763,
+      "currency": "PHP",
+      "airlines": [
+        "Delta"
+      ],
+      "flight_numbers": [
+        "2272"
+      ],
+      "layovers": [],
+      "emissions_kg": 73,
+      "emissions_delta_percent": -22,
+      "booking_token": "CjRIcXM2cmg5REZ1WDBBRWJyYmdCRy0tLS0tLS0tLXRiY2ZwNkFBQUFBR29NZGVnQk52aG1BEgZETDIyNzIaCwjjigEQABoDUEhQOBxw7eAB",
+      "is_best": false,
+      "segments": [
+        {
+          "airline_code": "DL",
+          "airline_name": "Delta",
+          "flight_number": "2272",
+          "operating_airline": null,
+          "origin_airport": "SFO",
+          "origin_name": "San Francisco International Airport",
+          "destination_airport": "LAX",
+          "destination_name": "Los Angeles International Airport",
+          "departure_time": "2026-06-01T11:55:00",
+          "arrival_time": "2026-06-01T13:29:00",
+          "duration_minutes": 94,
+          "aircraft": "Boeing 737"
+        }
+      ]
+    },
+    {
+      "origin_airport": "SFO",
+      "destination_airport": "LAX",
+      "departure_date": "2026-06-01",
+      "arrival_date": "2026-06-01",
+      "departure_time": "2026-06-01T12:15:00",
+      "arrival_time": "2026-06-01T13:55:00",
+      "duration_minutes": 100,
+      "stops": 0,
+      "price": 17763,
+      "currency": "PHP",
+      "airlines": [
+        "United"
+      ],
+      "flight_numbers": [
+        "1506"
+      ],
+      "layovers": [],
+      "emissions_kg": 56,
+      "emissions_delta_percent": -40,
+      "booking_token": "CjRIcXM2cmg5REZ1WDBBRWJyYmdCRy0tLS0tLS0tLXRiY2ZwNkFBQUFBR29NZGVnQk52aG1BEgZVQTE1MDYaCwjjigEQABoDUEhQOBxw7eAB",
+      "is_best": false,
+      "segments": [
+        {
+          "airline_code": "UA",
+          "airline_name": "United",
+          "flight_number": "1506",
+          "operating_airline": null,
+          "origin_airport": "SFO",
+          "origin_name": "San Francisco International Airport",
+          "destination_airport": "LAX",
+          "destination_name": "Los Angeles International Airport",
+          "departure_time": "2026-06-01T12:15:00",
+          "arrival_time": "2026-06-01T13:55:00",
+          "duration_minutes": 100,
+          "aircraft": "Boeing 737MAX 9 Passenger"
+        }
+      ]
+    },
+    {
+      "origin_airport": "SFO",
+      "destination_airport": "LAX",
+      "departure_date": "2026-06-01",
+      "arrival_date": "2026-06-01",
+      "departure_time": "2026-06-01T13:55:00",
+      "arrival_time": "2026-06-01T15:35:00",
+      "duration_minutes": 100,
+      "stops": 0,
+      "price": 17763,
+      "currency": "PHP",
+      "airlines": [
+        "United"
+      ],
+      "flight_numbers": [
+        "2610"
+      ],
+      "layovers": [],
+      "emissions_kg": 56,
+      "emissions_delta_percent": -40,
+      "booking_token": "CjRIcXM2cmg5REZ1WDBBRWJyYmdCRy0tLS0tLS0tLXRiY2ZwNkFBQUFBR29NZGVnQk52aG1BEgZVQTI2MTAaCwjjigEQABoDUEhQOBxw7eAB",
+      "is_best": false,
+      "segments": [
+        {
+          "airline_code": "UA",
+          "airline_name": "United",
+          "flight_number": "2610",
+          "operating_airline": null,
+          "origin_airport": "SFO",
+          "origin_name": "San Francisco International Airport",
+          "destination_airport": "LAX",
+          "destination_name": "Los Angeles International Airport",
+          "departure_time": "2026-06-01T13:55:00",
+          "arrival_time": "2026-06-01T15:35:00",
+          "duration_minutes": 100,
+          "aircraft": "Boeing 737MAX 9 Passenger"
+        }
+      ]
+    },
+    {
+      "origin_airport": "SFO",
+      "destination_airport": "LAX",
+      "departure_date": "2026-06-01",
+      "arrival_date": "2026-06-01",
+      "departure_time": "2026-06-01T13:56:00",
+      "arrival_time": "2026-06-01T15:30:00",
+      "duration_minutes": 94,
+      "stops": 0,
+      "price": 17763,
+      "currency": "PHP",
+      "airlines": [
+        "Alaska"
+      ],
+      "flight_numbers": [
+        "212"
+      ],
+      "layovers": [],
+      "emissions_kg": 61,
+      "emissions_delta_percent": -35,
+      "booking_token": "CjRIcXM2cmg5REZ1WDBBRWJyYmdCRy0tLS0tLS0tLXRiY2ZwNkFBQUFBR29NZGVnQk52aG1BEgVBUzIxMhoLCOOKARAAGgNQSFA4HHDt4AE=",
+      "is_best": false,
+      "segments": [
+        {
+          "airline_code": "AS",
+          "airline_name": "Alaska",
+          "flight_number": "212",
+          "operating_airline": null,
+          "origin_airport": "SFO",
+          "origin_name": "San Francisco International Airport",
+          "destination_airport": "LAX",
+          "destination_name": "Los Angeles International Airport",
+          "departure_time": "2026-06-01T13:56:00",
+          "arrival_time": "2026-06-01T15:30:00",
+          "duration_minutes": 94,
+          "aircraft": "Boeing 737MAX 9 Passenger"
+        }
+      ]
+    },
+    {
+      "origin_airport": "SFO",
+      "destination_airport": "LAX",
+      "departure_date": "2026-06-01",
+      "arrival_date": "2026-06-01",
+      "departure_time": "2026-06-01T14:43:00",
+      "arrival_time": "2026-06-01T16:15:00",
+      "duration_minutes": 92,
+      "stops": 0,
+      "price": 17763,
+      "currency": "PHP",
+      "airlines": [
+        "Delta"
+      ],
+      "flight_numbers": [
+        "1715"
+      ],
+      "layovers": [],
+      "emissions_kg": 67,
+      "emissions_delta_percent": -29,
+      "booking_token": "CjRIcXM2cmg5REZ1WDBBRWJyYmdCRy0tLS0tLS0tLXRiY2ZwNkFBQUFBR29NZGVnQk52aG1BEgZETDE3MTUaCwjjigEQABoDUEhQOBxw7eAB",
+      "is_best": false,
+      "segments": [
+        {
+          "airline_code": "DL",
+          "airline_name": "Delta",
+          "flight_number": "1715",
+          "operating_airline": null,
+          "origin_airport": "SFO",
+          "origin_name": "San Francisco International Airport",
+          "destination_airport": "LAX",
+          "destination_name": "Los Angeles International Airport",
+          "departure_time": "2026-06-01T14:43:00",
+          "arrival_time": "2026-06-01T16:15:00",
+          "duration_minutes": 92,
+          "aircraft": "Boeing 737"
+        }
+      ]
+    },
+    {
+      "origin_airport": "SFO",
+      "destination_airport": "LAX",
+      "departure_date": "2026-06-01",
+      "arrival_date": "2026-06-01",
+      "departure_time": "2026-06-01T15:00:00",
+      "arrival_time": "2026-06-01T16:30:00",
+      "duration_minutes": 90,
+      "stops": 0,
+      "price": 17763,
+      "currency": "PHP",
+      "airlines": [
+        "Southwest"
+      ],
+      "flight_numbers": [
+        "1982"
+      ],
+      "layovers": [],
+      "emissions_kg": 81,
+      "emissions_delta_percent": -14,
+      "booking_token": "CjRIcXM2cmg5REZ1WDBBRWJyYmdCRy0tLS0tLS0tLXRiY2ZwNkFBQUFBR29NZGVnQk52aG1BEgZXTjE5ODIaCwjjigEQABoDUEhQOBxw7eAB",
+      "is_best": false,
+      "segments": [
+        {
+          "airline_code": "WN",
+          "airline_name": "Southwest",
+          "flight_number": "1982",
+          "operating_airline": null,
+          "origin_airport": "SFO",
+          "origin_name": "San Francisco International Airport",
+          "destination_airport": "LAX",
+          "destination_name": "Los Angeles International Airport",
+          "departure_time": "2026-06-01T15:00:00",
+          "arrival_time": "2026-06-01T16:30:00",
+          "duration_minutes": 90,
+          "aircraft": "Boeing 737-700 (Scimitar Winglets) Pax"
+        }
+      ]
+    },
+    {
+      "origin_airport": "SFO",
+      "destination_airport": "LAX",
+      "departure_date": "2026-06-01",
+      "arrival_date": "2026-06-01",
+      "departure_time": "2026-06-01T16:11:00",
+      "arrival_time": "2026-06-01T17:51:00",
+      "duration_minutes": 100,
+      "stops": 0,
+      "price": 17763,
+      "currency": "PHP",
+      "airlines": [
+        "United"
+      ],
+      "flight_numbers": [
+        "1754"
+      ],
+      "layovers": [],
+      "emissions_kg": 70,
+      "emissions_delta_percent": -26,
+      "booking_token": "CjRIcXM2cmg5REZ1WDBBRWJyYmdCRy0tLS0tLS0tLXRiY2ZwNkFBQUFBR29NZGVnQk52aG1BEgZVQTE3NTQaCwjjigEQABoDUEhQOBxw7eAB",
+      "is_best": false,
+      "segments": [
+        {
+          "airline_code": "UA",
+          "airline_name": "United",
+          "flight_number": "1754",
+          "operating_airline": null,
+          "origin_airport": "SFO",
+          "origin_name": "San Francisco International Airport",
+          "destination_airport": "LAX",
+          "destination_name": "Los Angeles International Airport",
+          "departure_time": "2026-06-01T16:11:00",
+          "arrival_time": "2026-06-01T17:51:00",
+          "duration_minutes": 100,
+          "aircraft": "Boeing 737"
+        }
+      ]
+    },
+    {
+      "origin_airport": "SFO",
+      "destination_airport": "LAX",
+      "departure_date": "2026-06-01",
+      "arrival_date": "2026-06-01",
+      "departure_time": "2026-06-01T16:45:00",
+      "arrival_time": "2026-06-01T18:21:00",
+      "duration_minutes": 96,
+      "stops": 0,
+      "price": 17763,
+      "currency": "PHP",
+      "airlines": [
+        "Alaska"
+      ],
+      "flight_numbers": [
+        "1361"
+      ],
+      "layovers": [],
+      "emissions_kg": 70,
+      "emissions_delta_percent": -26,
+      "booking_token": "CjRIcXM2cmg5REZ1WDBBRWJyYmdCRy0tLS0tLS0tLXRiY2ZwNkFBQUFBR29NZGVnQk52aG1BEgZBUzEzNjEaCwjjigEQABoDUEhQOBxw7eAB",
+      "is_best": false,
+      "segments": [
+        {
+          "airline_code": "AS",
+          "airline_name": "Alaska",
+          "flight_number": "1361",
+          "operating_airline": null,
+          "origin_airport": "SFO",
+          "origin_name": "San Francisco International Airport",
+          "destination_airport": "LAX",
+          "destination_name": "Los Angeles International Airport",
+          "departure_time": "2026-06-01T16:45:00",
+          "arrival_time": "2026-06-01T18:21:00",
+          "duration_minutes": 96,
+          "aircraft": "Boeing 737"
+        }
+      ]
+    },
+    {
+      "origin_airport": "SFO",
+      "destination_airport": "LAX",
+      "departure_date": "2026-06-01",
+      "arrival_date": "2026-06-01",
+      "departure_time": "2026-06-01T16:55:00",
+      "arrival_time": "2026-06-01T18:31:00",
+      "duration_minutes": 96,
+      "stops": 0,
+      "price": 17763,
+      "currency": "PHP",
+      "airlines": [
+        "Delta"
+      ],
+      "flight_numbers": [
+        "1778"
+      ],
+      "layovers": [],
+      "emissions_kg": 73,
+      "emissions_delta_percent": -22,
+      "booking_token": "CjRIcXM2cmg5REZ1WDBBRWJyYmdCRy0tLS0tLS0tLXRiY2ZwNkFBQUFBR29NZGVnQk52aG1BEgZETDE3NzgaCwjjigEQABoDUEhQOBxw7eAB",
+      "is_best": false,
+      "segments": [
+        {
+          "airline_code": "DL",
+          "airline_name": "Delta",
+          "flight_number": "1778",
+          "operating_airline": null,
+          "origin_airport": "SFO",
+          "origin_name": "San Francisco International Airport",
+          "destination_airport": "LAX",
+          "destination_name": "Los Angeles International Airport",
+          "departure_time": "2026-06-01T16:55:00",
+          "arrival_time": "2026-06-01T18:31:00",
+          "duration_minutes": 96,
+          "aircraft": "Boeing 737"
+        }
+      ]
+    },
+    {
+      "origin_airport": "SFO",
+      "destination_airport": "LAX",
+      "departure_date": "2026-06-01",
+      "arrival_date": "2026-06-01",
+      "departure_time": "2026-06-01T18:01:00",
+      "arrival_time": "2026-06-01T19:33:00",
+      "duration_minutes": 92,
+      "stops": 0,
+      "price": 17763,
+      "currency": "PHP",
+      "airlines": [
+        "Alaska"
+      ],
+      "flight_numbers": [
+        "527"
+      ],
+      "layovers": [],
+      "emissions_kg": 70,
+      "emissions_delta_percent": -26,
+      "booking_token": "CjRIcXM2cmg5REZ1WDBBRWJyYmdCRy0tLS0tLS0tLXRiY2ZwNkFBQUFBR29NZGVnQk52aG1BEgVBUzUyNxoLCOOKARAAGgNQSFA4HHDt4AE=",
+      "is_best": false,
+      "segments": [
+        {
+          "airline_code": "AS",
+          "airline_name": "Alaska",
+          "flight_number": "527",
+          "operating_airline": null,
+          "origin_airport": "SFO",
+          "origin_name": "San Francisco International Airport",
+          "destination_airport": "LAX",
+          "destination_name": "Los Angeles International Airport",
+          "departure_time": "2026-06-01T18:01:00",
+          "arrival_time": "2026-06-01T19:33:00",
+          "duration_minutes": 92,
+          "aircraft": "Boeing 737"
+        }
+      ]
+    },
+    {
+      "origin_airport": "SFO",
+      "destination_airport": "LAX",
+      "departure_date": "2026-06-01",
+      "arrival_date": "2026-06-01",
+      "departure_time": "2026-06-01T18:20:00",
+      "arrival_time": "2026-06-01T19:50:00",
+      "duration_minutes": 90,
+      "stops": 0,
+      "price": 17763,
+      "currency": "PHP",
+      "airlines": [
+        "Delta"
+      ],
+      "flight_numbers": [
+        "1539"
+      ],
+      "layovers": [],
+      "emissions_kg": 67,
+      "emissions_delta_percent": -29,
+      "booking_token": "CjRIcXM2cmg5REZ1WDBBRWJyYmdCRy0tLS0tLS0tLXRiY2ZwNkFBQUFBR29NZGVnQk52aG1BEgZETDE1MzkaCwjjigEQABoDUEhQOBxw7eAB",
+      "is_best": false,
+      "segments": [
+        {
+          "airline_code": "DL",
+          "airline_name": "Delta",
+          "flight_number": "1539",
+          "operating_airline": null,
+          "origin_airport": "SFO",
+          "origin_name": "San Francisco International Airport",
+          "destination_airport": "LAX",
+          "destination_name": "Los Angeles International Airport",
+          "departure_time": "2026-06-01T18:20:00",
+          "arrival_time": "2026-06-01T19:50:00",
+          "duration_minutes": 90,
+          "aircraft": "Boeing 737"
+        }
+      ]
+    },
+    {
+      "origin_airport": "SFO",
+      "destination_airport": "LAX",
+      "departure_date": "2026-06-01",
+      "arrival_date": "2026-06-01",
+      "departure_time": "2026-06-01T18:45:00",
+      "arrival_time": "2026-06-01T20:29:00",
+      "duration_minutes": 104,
+      "stops": 0,
+      "price": 17763,
+      "currency": "PHP",
+      "airlines": [
+        "United"
+      ],
+      "flight_numbers": [
+        "1427"
+      ],
+      "layovers": [],
+      "emissions_kg": 70,
+      "emissions_delta_percent": -26,
+      "booking_token": "CjRIcXM2cmg5REZ1WDBBRWJyYmdCRy0tLS0tLS0tLXRiY2ZwNkFBQUFBR29NZGVnQk52aG1BEgZVQTE0MjcaCwjjigEQABoDUEhQOBxw7eAB",
+      "is_best": false,
+      "segments": [
+        {
+          "airline_code": "UA",
+          "airline_name": "United",
+          "flight_number": "1427",
+          "operating_airline": null,
+          "origin_airport": "SFO",
+          "origin_name": "San Francisco International Airport",
+          "destination_airport": "LAX",
+          "destination_name": "Los Angeles International Airport",
+          "departure_time": "2026-06-01T18:45:00",
+          "arrival_time": "2026-06-01T20:29:00",
+          "duration_minutes": 104,
+          "aircraft": "Boeing 737"
+        }
+      ]
+    },
+    {
+      "origin_airport": "SFO",
+      "destination_airport": "LAX",
+      "departure_date": "2026-06-01",
+      "arrival_date": "2026-06-01",
+      "departure_time": "2026-06-01T19:00:00",
+      "arrival_time": "2026-06-01T20:55:00",
+      "duration_minutes": 115,
+      "stops": 0,
+      "price": 17763,
+      "currency": "PHP",
+      "airlines": [
+        "Southwest"
+      ],
+      "flight_numbers": [
+        "2886"
+      ],
+      "layovers": [],
+      "emissions_kg": 81,
+      "emissions_delta_percent": -14,
+      "booking_token": "CjRIcXM2cmg5REZ1WDBBRWJyYmdCRy0tLS0tLS0tLXRiY2ZwNkFBQUFBR29NZGVnQk52aG1BEgZXTjI4ODYaCwjjigEQABoDUEhQOBxw7eAB",
+      "is_best": false,
+      "segments": [
+        {
+          "airline_code": "WN",
+          "airline_name": "Southwest",
+          "flight_number": "2886",
+          "operating_airline": null,
+          "origin_airport": "SFO",
+          "origin_name": "San Francisco International Airport",
+          "destination_airport": "LAX",
+          "destination_name": "Los Angeles International Airport",
+          "departure_time": "2026-06-01T19:00:00",
+          "arrival_time": "2026-06-01T20:55:00",
+          "duration_minutes": 115,
+          "aircraft": "Boeing 737-700 (Scimitar Winglets) Pax"
+        }
+      ]
+    },
+    {
+      "origin_airport": "SFO",
+      "destination_airport": "LAX",
+      "departure_date": "2026-06-01",
+      "arrival_date": "2026-06-01",
+      "departure_time": "2026-06-01T19:24:00",
+      "arrival_time": "2026-06-01T20:59:00",
+      "duration_minutes": 95,
+      "stops": 0,
+      "price": 17763,
+      "currency": "PHP",
+      "airlines": [
+        "Alaska"
+      ],
+      "flight_numbers": [
+        "1440"
+      ],
+      "layovers": [],
+      "emissions_kg": 75,
+      "emissions_delta_percent": -20,
+      "booking_token": "CjRIcXM2cmg5REZ1WDBBRWJyYmdCRy0tLS0tLS0tLXRiY2ZwNkFBQUFBR29NZGVnQk52aG1BEgZBUzE0NDAaCwjjigEQABoDUEhQOBxw7eAB",
+      "is_best": false,
+      "segments": [
+        {
+          "airline_code": "AS",
+          "airline_name": "Alaska",
+          "flight_number": "1440",
+          "operating_airline": null,
+          "origin_airport": "SFO",
+          "origin_name": "San Francisco International Airport",
+          "destination_airport": "LAX",
+          "destination_name": "Los Angeles International Airport",
+          "departure_time": "2026-06-01T19:24:00",
+          "arrival_time": "2026-06-01T20:59:00",
+          "duration_minutes": 95,
+          "aircraft": "Boeing 737"
+        }
+      ]
+    },
+    {
+      "origin_airport": "SFO",
+      "destination_airport": "LAX",
+      "departure_date": "2026-06-01",
+      "arrival_date": "2026-06-01",
+      "departure_time": "2026-06-01T19:45:00",
+      "arrival_time": "2026-06-01T21:29:00",
+      "duration_minutes": 104,
+      "stops": 0,
+      "price": 17763,
+      "currency": "PHP",
+      "airlines": [
+        "United"
+      ],
+      "flight_numbers": [
+        "2409"
+      ],
+      "layovers": [],
+      "emissions_kg": 56,
+      "emissions_delta_percent": -40,
+      "booking_token": "CjRIcXM2cmg5REZ1WDBBRWJyYmdCRy0tLS0tLS0tLXRiY2ZwNkFBQUFBR29NZGVnQk52aG1BEgZVQTI0MDkaCwjjigEQABoDUEhQOBxw7eAB",
+      "is_best": false,
+      "segments": [
+        {
+          "airline_code": "UA",
+          "airline_name": "United",
+          "flight_number": "2409",
+          "operating_airline": null,
+          "origin_airport": "SFO",
+          "origin_name": "San Francisco International Airport",
+          "destination_airport": "LAX",
+          "destination_name": "Los Angeles International Airport",
+          "departure_time": "2026-06-01T19:45:00",
+          "arrival_time": "2026-06-01T21:29:00",
+          "duration_minutes": 104,
+          "aircraft": "Boeing 737MAX 9 Passenger"
+        }
+      ]
+    },
+    {
+      "origin_airport": "SFO",
+      "destination_airport": "LAX",
+      "departure_date": "2026-06-01",
+      "arrival_date": "2026-06-01",
+      "departure_time": "2026-06-01T20:29:00",
+      "arrival_time": "2026-06-01T22:08:00",
+      "duration_minutes": 99,
+      "stops": 0,
+      "price": 17763,
+      "currency": "PHP",
+      "airlines": [
+        "Delta"
+      ],
+      "flight_numbers": [
+        "1559"
+      ],
+      "layovers": [],
+      "emissions_kg": 67,
+      "emissions_delta_percent": -29,
+      "booking_token": "CjRIcXM2cmg5REZ1WDBBRWJyYmdCRy0tLS0tLS0tLXRiY2ZwNkFBQUFBR29NZGVnQk52aG1BEgZETDE1NTkaCwjjigEQABoDUEhQOBxw7eAB",
+      "is_best": false,
+      "segments": [
+        {
+          "airline_code": "DL",
+          "airline_name": "Delta",
+          "flight_number": "1559",
+          "operating_airline": null,
+          "origin_airport": "SFO",
+          "origin_name": "San Francisco International Airport",
+          "destination_airport": "LAX",
+          "destination_name": "Los Angeles International Airport",
+          "departure_time": "2026-06-01T20:29:00",
+          "arrival_time": "2026-06-01T22:08:00",
+          "duration_minutes": 99,
+          "aircraft": "Boeing 737"
+        }
+      ]
+    },
+    {
+      "origin_airport": "SFO",
+      "destination_airport": "LAX",
+      "departure_date": "2026-06-01",
+      "arrival_date": "2026-06-01",
+      "departure_time": "2026-06-01T20:55:00",
+      "arrival_time": "2026-06-01T22:37:00",
+      "duration_minutes": 102,
+      "stops": 0,
+      "price": 17763,
+      "currency": "PHP",
+      "airlines": [
+        "United"
+      ],
+      "flight_numbers": [
+        "2850"
+      ],
+      "layovers": [],
+      "emissions_kg": 67,
+      "emissions_delta_percent": -29,
+      "booking_token": "CjRIcXM2cmg5REZ1WDBBRWJyYmdCRy0tLS0tLS0tLXRiY2ZwNkFBQUFBR29NZGVnQk52aG1BEgZVQTI4NTAaCwjjigEQABoDUEhQOBxw7eAB",
+      "is_best": false,
+      "segments": [
+        {
+          "airline_code": "UA",
+          "airline_name": "United",
+          "flight_number": "2850",
+          "operating_airline": null,
+          "origin_airport": "SFO",
+          "origin_name": "San Francisco International Airport",
+          "destination_airport": "LAX",
+          "destination_name": "Los Angeles International Airport",
+          "departure_time": "2026-06-01T20:55:00",
+          "arrival_time": "2026-06-01T22:37:00",
+          "duration_minutes": 102,
+          "aircraft": "Boeing 737"
+        }
+      ]
+    },
+    {
+      "origin_airport": "SFO",
+      "destination_airport": "LAX",
+      "departure_date": "2026-06-01",
+      "arrival_date": "2026-06-01",
+      "departure_time": "2026-06-01T08:50:00",
+      "arrival_time": "2026-06-01T10:34:00",
+      "duration_minutes": 104,
+      "stops": 0,
+      "price": 18824,
+      "currency": "PHP",
+      "airlines": [
+        "United"
+      ],
+      "flight_numbers": [
+        "1896"
+      ],
+      "layovers": [],
+      "emissions_kg": 70,
+      "emissions_delta_percent": -26,
+      "booking_token": "CjRIcXM2cmg5REZ1WDBBRWJyYmdCRy0tLS0tLS0tLXRiY2ZwNkFBQUFBR29NZGVnQk52aG1BEgZVQTE4OTYaCwiIkwEQABoDUEhQOBxwpO4B",
+      "is_best": false,
+      "segments": [
+        {
+          "airline_code": "UA",
+          "airline_name": "United",
+          "flight_number": "1896",
+          "operating_airline": null,
+          "origin_airport": "SFO",
+          "origin_name": "San Francisco International Airport",
+          "destination_airport": "LAX",
+          "destination_name": "Los Angeles International Airport",
+          "departure_time": "2026-06-01T08:50:00",
+          "arrival_time": "2026-06-01T10:34:00",
+          "duration_minutes": 104,
+          "aircraft": "Boeing 737"
+        }
+      ]
+    },
+    {
+      "origin_airport": "SFO",
+      "destination_airport": "LAX",
+      "departure_date": "2026-06-01",
+      "arrival_date": "2026-06-02",
+      "departure_time": "2026-06-01T22:37:00",
+      "arrival_time": "2026-06-02T00:19:00",
+      "duration_minutes": 102,
+      "stops": 0,
+      "price": 19491,
+      "currency": "PHP",
+      "airlines": [
+        "United"
+      ],
+      "flight_numbers": [
+        "2179"
+      ],
+      "layovers": [],
+      "emissions_kg": 56,
+      "emissions_delta_percent": -40,
+      "booking_token": "CjRIcXM2cmg5REZ1WDBBRWJyYmdCRy0tLS0tLS0tLXRiY2ZwNkFBQUFBR29NZGVnQk52aG1BEgZVQTIxNzkaCwijmAEQABoDUEhQOBxw3fYB",
+      "is_best": false,
+      "segments": [
+        {
+          "airline_code": "UA",
+          "airline_name": "United",
+          "flight_number": "2179",
+          "operating_airline": null,
+          "origin_airport": "SFO",
+          "origin_name": "San Francisco International Airport",
+          "destination_airport": "LAX",
+          "destination_name": "Los Angeles International Airport",
+          "departure_time": "2026-06-01T22:37:00",
+          "arrival_time": "2026-06-02T00:19:00",
+          "duration_minutes": 102,
+          "aircraft": "Boeing 737MAX 9 Passenger"
+        }
+      ]
+    }
+  ]
+}

@@ -34,6 +34,12 @@ def archive_capture(run_dir: Path, capture: NetworkCapture) -> None:
 
 def archive_run(run_dir: Path, run: ScrapeRun) -> None:
     archive_capture(run_dir, run.capture)
+    for index, capture in enumerate(run.supplemental_captures, start=1):
+        suffix = f"_{index:02d}"
+        write_json(run_dir / f"capture{suffix}.json", capture.to_dict())
+        if capture.request_body is not None:
+            write_text(run_dir / f"request{suffix}.txt", capture.request_body)
+        write_text(run_dir / f"response{suffix}.txt", capture.response_body)
     write_json(run_dir / "offers.json", {"offers": [offer.to_dict() for offer in run.offers]})
     write_json(run_dir / "run.json", run.to_dict())
     persist_run(run_dir.parent / "scraper.sqlite", run)

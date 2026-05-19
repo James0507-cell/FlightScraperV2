@@ -1,9 +1,11 @@
 from __future__ import annotations
 
 import json
+from urllib.parse import urlencode
+from urllib.parse import urlparse
 from typing import Any
 
-from .models import FlightOffer, FlightSegment
+from .models import BookingOption, FlightOffer, FlightSegment
 
 XSSI_PREFIX = ")]}'"
 
@@ -48,6 +50,55 @@ def extract_offers(payload: str, currency: str = "PHP") -> list[FlightOffer]:
                 seen_tokens.add(offer.booking_token)
             offers.append(offer)
     return offers
+
+
+def extract_round_trip_offers(
+    outbound_payload: str,
+    return_payload: str,
+    currency: str = "PHP",
+) -> list[FlightOffer]:
+    outbound_offers = extract_offers(outbound_payload, currency=currency)
+    return_offers = extract_offers(return_payload, currency=currency)
+    if not outbound_offers:
+        return []
+    selected_outbound = outbound_offers[0]
+    return [
+        _combine_round_trip_offer(selected_outbound, return_offer)
+        for return_offer in return_offers
+    ]
+
+
+def extract_booking_options(payload: str, currency: str = "PHP") -> list[BookingOption]:
+    parsed_lines = parse_google_payload(payload)
+    if len(parsed_lines) < 2:
+        return []
+    root = parsed_lines[1]
+    if (
+        not isinstance(root, list)
+        or not root
+        or not isinstance(root[0], list)
+        or len(root[0]) < 3
+        or not isinstance(root[0][2], str)
+    ):
+        return []
+    try:
+        inner = json.loads(root[0][2])
+    except json.JSONDecodeError:
+        return []
+    if (
+        not isinstance(inner, list)
+        or len(inner) < 2
+        or not isinstance(inner[1], list)
+        or not inner[1]
+        or not isinstance(inner[1][0], list)
+    ):
+        return []
+    options: list[BookingOption] = []
+    for node in inner[1][0]:
+        option = _parse_booking_option(node, currency=currency)
+        if option is not None:
+            options.append(option)
+    return options
 
 
 def _walk(node: Any):
@@ -172,6 +223,121 @@ def _airlines_from_segments(segments: list[FlightSegment]) -> list[str]:
         if segment.airline_name and segment.airline_name not in seen:
             seen.append(segment.airline_name)
     return seen
+
+
+def _combine_round_trip_offer(outbound: FlightOffer, return_offer: FlightOffer) -> FlightOffer:
+    return FlightOffer(
+        origin_airport=outbound.origin_airport,
+        destination_airport=outbound.destination_airport,
+        departure_date=outbound.departure_date,
+        arrival_date=outbound.arrival_date,
+        departure_time=outbound.departure_time,
+        arrival_time=outbound.arrival_time,
+        duration_minutes=outbound.duration_minutes,
+        stops=outbound.stops,
+        price=return_offer.price if return_offer.price is not None else outbound.price,
+        currency=return_offer.currency or outbound.currency,
+        trip_type="round_trip",
+        airlines=outbound.airlines,
+        flight_numbers=outbound.flight_numbers,
+        layovers=outbound.layovers,
+        emissions_kg=outbound.emissions_kg,
+        emissions_delta_percent=outbound.emissions_delta_percent,
+        booking_token=return_offer.booking_token or outbound.booking_token,
+        is_best=return_offer.is_best if return_offer.is_best is not None else outbound.is_best,
+        segments=outbound.segments,
+        return_origin_airport=return_offer.origin_airport,
+        return_destination_airport=return_offer.destination_airport,
+        return_departure_date=return_offer.departure_date,
+        return_arrival_date=return_offer.arrival_date,
+        return_departure_time=return_offer.departure_time,
+        return_arrival_time=return_offer.arrival_time,
+        return_duration_minutes=return_offer.duration_minutes,
+        return_stops=return_offer.stops,
+        return_airlines=return_offer.airlines,
+        return_flight_numbers=return_offer.flight_numbers,
+        return_layovers=return_offer.layovers,
+        return_segments=return_offer.segments,
+    )
+
+
+def _parse_booking_option(node: Any, currency: str) -> BookingOption | None:
+    if not isinstance(node, list) or len(node) < 8:
+        return None
+
+    provider = node[1][0] if isinstance(node[1], list) and node[1] else None
+    provider_code = provider[0] if isinstance(provider, list) and len(provider) > 0 and isinstance(provider[0], str) else None
+    provider_name = provider[1] if isinstance(provider, list) and len(provider) > 1 and isinstance(provider[1], str) else None
+    provider_domain = _extract_provider_domain(node[5] if len(node) > 5 else None)
+    deeplink_url = _extract_deeplink(node[5] if len(node) > 5 else None)
+
+    price_block = node[7] if len(node) > 7 and isinstance(node[7], list) else None
+    price = None
+    if price_block and isinstance(price_block[0], list) and len(price_block[0]) > 1:
+        price = _coerce_int(price_block[0][1])
+
+    fare_name = None
+    if len(node) > 21 and isinstance(node[21], list) and len(node[21]) > 0:
+        details = node[21]
+        if isinstance(details[0], list) and len(details[0]) > 1 and isinstance(details[0][1], str):
+            fare_name = details[0][1]
+
+    flight_codes: list[str] = []
+    if len(node) > 3 and isinstance(node[3], list):
+        for pair in node[3]:
+            if isinstance(pair, list) and len(pair) >= 2 and all(isinstance(item, str) for item in pair[:2]):
+                flight_codes.append(f"{pair[0]} {pair[1]}")
+
+    return BookingOption(
+        provider_code=provider_code,
+        provider_name=provider_name,
+        provider_display_domain=provider_domain,
+        provider_image_url=_build_provider_image_url(provider_domain),
+        price=price,
+        currency=currency,
+        deeplink_url=deeplink_url,
+        fare_name=fare_name,
+        flight_codes=flight_codes,
+        is_primary=_bool_or_none(node[24]) if len(node) > 24 else None,
+        raw_rank=_coerce_int(node[0]) if len(node) > 0 else None,
+    )
+
+
+def _extract_provider_domain(node: Any) -> str | None:
+    if not isinstance(node, list) or not node:
+        return None
+    value = node[0]
+    if not isinstance(value, str):
+        return None
+    cleaned = value.replace("/...", "").strip()
+    return cleaned or None
+
+
+def _extract_deeplink(node: Any) -> str | None:
+    if not isinstance(node, list) or len(node) < 3 or not isinstance(node[2], list):
+        return None
+    target = node[2]
+    if len(target) < 2 or not isinstance(target[1], list):
+        return None
+    base_url = target[0] if isinstance(target[0], str) else None
+    for pair in target[1]:
+        if isinstance(pair, list) and len(pair) >= 2 and pair[0] == "u" and isinstance(pair[1], str):
+            if not base_url:
+                return pair[1]
+            return f"{base_url}?{urlencode({'u': pair[1]})}"
+    return None
+
+
+def _build_provider_image_url(domain: str | None) -> str | None:
+    if not domain:
+        return None
+    host = domain
+    parsed = urlparse(domain if "://" in domain else f"https://{domain}")
+    if parsed.netloc:
+        host = parsed.netloc
+    if not host:
+        return None
+    return f"https://www.google.com/s2/favicons?sz=64&domain_url=https://{host}/"
 
 
 def _format_date(value: Any) -> str | None:
