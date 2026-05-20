@@ -1,69 +1,9 @@
 {
-  "generated_at": "2026-05-17T12:39:44+00:00",
+  "generated_at": "2026-05-20T05:26:23+00:00",
   "query_file": "benchmark-queries.json",
   "concurrency": 1,
   "browser": {
-    "wall_time_seconds": 138.7383,
-    "count": 3,
-    "success_count": 2,
-    "failure_count": 1,
-    "results": [
-      {
-        "status": "ok",
-        "query": {
-          "origin": "DVO",
-          "destination": "MNL",
-          "depart_date": "2026-07-02",
-          "return_date": "2026-07-08"
-        },
-        "final_url": "https://www.google.com/travel/flights/search?tfs=CBwQAhogEgoyMDI2LTA3LTAyKABqBwgBEgNEVk9yBwgBEgNNTkwaIBIKMjAyNi0wNy0wOCgAagcIARIDTU5McgcIARIDRFZPQAFIAXABggELCP___________wGYAQE&tfu=EgYIABAAGAA",
-        "offer_count": 25,
-        "archive_dir": "artifacts\\20260517T123724413016Z",
-        "requested_mode": "browser",
-        "executed_mode": "browser",
-        "timings": {
-          "total_seconds": 5.1724,
-          "submission_seconds": 4.3254,
-          "parse_seconds": 0.0023,
-          "archive_seconds": 0.009
-        },
-        "notes": []
-      },
-      {
-        "status": "ok",
-        "query": {
-          "origin": "CEB",
-          "destination": "MNL",
-          "depart_date": "2026-07-02",
-          "return_date": "2026-07-08"
-        },
-        "final_url": "https://www.google.com/travel/flights/search?tfs=CBwQAhogEgoyMDI2LTA3LTAyKABqBwgBEgNDRUJyBwgBEgNNTkwaIBIKMjAyNi0wNy0wOCgAagcIARIDTU5McgcIARIDQ0VCQAFIAXABggELCP___________wGYAQE&tfu=EgYIABAAGAA",
-        "offer_count": 30,
-        "archive_dir": "artifacts\\20260517T123817013916Z",
-        "requested_mode": "browser",
-        "executed_mode": "browser",
-        "timings": {
-          "total_seconds": 5.1252,
-          "submission_seconds": 4.6836,
-          "parse_seconds": 0.0024,
-          "archive_seconds": 0.0073
-        },
-        "notes": []
-      },
-      {
-        "status": "error",
-        "query": {
-          "origin": "MNL",
-          "destination": "DVO",
-          "depart_date": "2026-07-02",
-          "return_date": "2026-07-08"
-        },
-        "error": "Failed to fetch Google Flights results after 2 attempts."
-      }
-    ]
-  },
-  "replay": {
-    "wall_time_seconds": 7.0535,
+    "wall_time_seconds": 53.8196,
     "count": 3,
     "success_count": 3,
     "failure_count": 0,
@@ -78,16 +18,94 @@
         },
         "final_url": "https://www.google.com/travel/flights/search?tfs=CBwQAhogEgoyMDI2LTA3LTAyKABqBwgBEgNEVk9yBwgBEgNNTkwaIBIKMjAyNi0wNy0wOCgAagcIARIDTU5McgcIARIDRFZPQAFIAXABggELCP___________wGYAQE&tfu=EgYIABAAGAA",
         "offer_count": 25,
-        "archive_dir": "artifacts\\20260517T123943564397Z",
+        "archive_dir": "artifacts\\20260520T052448342123Z",
+        "requested_mode": "browser",
+        "executed_mode": "browser",
+        "timings": {
+          "total_seconds": 10.0196,
+          "submission_seconds": 5.4453,
+          "parse_seconds": 0.0,
+          "archive_seconds": 0.0162
+        },
+        "notes": [
+          "summary mode returns outbound options only for round-trip searches; fetch offer details to load return choices and booking options"
+        ]
+      },
+      {
+        "status": "ok",
+        "query": {
+          "origin": "CEB",
+          "destination": "MNL",
+          "depart_date": "2026-07-02",
+          "return_date": "2026-07-08"
+        },
+        "final_url": "https://www.google.com/travel/flights/search?tfs=CBwQAhogEgoyMDI2LTA3LTAyKABqBwgBEgNDRUJyBwgBEgNNTkwaIBIKMjAyNi0wNy0wOCgAagcIARIDTU5McgcIARIDQ0VCQAFIAXABggELCP___________wGYAQE&tfu=EgYIABAAGAA",
+        "offer_count": 30,
+        "archive_dir": "artifacts\\20260520T052453982363Z",
+        "requested_mode": "browser",
+        "executed_mode": "browser",
+        "timings": {
+          "total_seconds": 5.5326,
+          "submission_seconds": 4.955,
+          "parse_seconds": 0.0,
+          "archive_seconds": 0.0209
+        },
+        "notes": [
+          "summary mode returns outbound options only for round-trip searches; fetch offer details to load return choices and booking options"
+        ]
+      },
+      {
+        "status": "ok",
+        "query": {
+          "origin": "MNL",
+          "destination": "DVO",
+          "depart_date": "2026-07-02",
+          "return_date": "2026-07-08"
+        },
+        "final_url": "https://www.google.com/travel/flights/search?tfs=CBwQAhogEgoyMDI2LTA3LTAyKABqBwgBEgNNTkxyBwgBEgNEVk8aIBIKMjAyNi0wNy0wOCgAagcIARIDRFZPcgcIARIDTU5MQAFIAXABggELCP___________wGYAQE&tfu=EgYIABAAGAA",
+        "offer_count": 24,
+        "archive_dir": "artifacts\\20260520T052530082748Z",
+        "requested_mode": "browser",
+        "executed_mode": "browser",
+        "timings": {
+          "total_seconds": 35.9758,
+          "submission_seconds": 35.4476,
+          "parse_seconds": 0.0,
+          "archive_seconds": 0.0179
+        },
+        "notes": [
+          "summary mode returns outbound options only for round-trip searches; fetch offer details to load return choices and booking options"
+        ]
+      }
+    ]
+  },
+  "replay": {
+    "wall_time_seconds": 53.3191,
+    "count": 3,
+    "success_count": 3,
+    "failure_count": 0,
+    "results": [
+      {
+        "status": "ok",
+        "query": {
+          "origin": "DVO",
+          "destination": "MNL",
+          "depart_date": "2026-07-02",
+          "return_date": "2026-07-08"
+        },
+        "final_url": "https://www.google.com/travel/flights/search?tfs=CBwQAhogEgoyMDI2LTA3LTAyKABqBwgBEgNEVk9yBwgBEgNNTkwaIBIKMjAyNi0wNy0wOCgAagcIARIDTU5McgcIARIDRFZPQAFIAXABggELCP___________wGYAQE&tfu=EgYIABAAGAA",
+        "offer_count": 25,
+        "archive_dir": "artifacts\\20260520T052622224971Z",
         "requested_mode": "replay",
         "executed_mode": "browser_bootstrap",
         "timings": {
-          "total_seconds": 5.5523,
-          "submission_seconds": 4.6956,
-          "parse_seconds": 0.0026,
-          "archive_seconds": 0.015
+          "total_seconds": 51.4493,
+          "submission_seconds": 50.682,
+          "parse_seconds": 0.0,
+          "archive_seconds": 0.0497
         },
         "notes": [
+          "summary mode returns outbound options only for round-trip searches; fetch offer details to load return choices and booking options",
           "browser bootstrap captured replay template"
         ]
       },
@@ -101,14 +119,14 @@
         },
         "final_url": "https://www.google.com/travel/flights/search",
         "offer_count": 30,
-        "archive_dir": "artifacts\\20260517T123944211272Z",
+        "archive_dir": "artifacts\\20260520T052623113403Z",
         "requested_mode": "replay",
         "executed_mode": "replay",
         "timings": {
-          "total_seconds": 0.6166,
-          "request_seconds": 0.6006,
-          "parse_seconds": 0.0084,
-          "archive_seconds": 0.0074
+          "total_seconds": 0.7021,
+          "request_seconds": 0.6768,
+          "parse_seconds": 0.0066,
+          "archive_seconds": 0.0185
         },
         "notes": []
       },
@@ -122,27 +140,27 @@
         },
         "final_url": "https://www.google.com/travel/flights/search",
         "offer_count": 24,
-        "archive_dir": "artifacts\\20260517T123944427386Z",
+        "archive_dir": "artifacts\\20260520T052623458580Z",
         "requested_mode": "replay",
         "executed_mode": "replay",
         "timings": {
-          "total_seconds": 0.2093,
-          "request_seconds": 0.1994,
-          "parse_seconds": 0.0041,
-          "archive_seconds": 0.0057
+          "total_seconds": 0.3247,
+          "request_seconds": 0.2998,
+          "parse_seconds": 0.0065,
+          "archive_seconds": 0.0181
         },
         "notes": []
       }
     ]
   },
   "summary": {
-    "browser_success_count": 2,
+    "browser_success_count": 3,
     "replay_success_count": 3,
-    "browser_failure_count": 1,
+    "browser_failure_count": 0,
     "replay_failure_count": 0,
-    "browser_wall_time_seconds": 138.7383,
-    "replay_wall_time_seconds": 7.0535,
-    "speedup_ratio": 19.6694
+    "browser_wall_time_seconds": 53.8196,
+    "replay_wall_time_seconds": 53.3191,
+    "speedup_ratio": 1.0094
   },
-  "report_path": "artifacts\\benchmarks\\20260517T123944526716Z.json"
+  "report_path": "artifacts\\benchmarks\\20260520T052623571201Z.json"
 }

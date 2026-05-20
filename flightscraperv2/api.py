@@ -1,13 +1,22 @@
 from __future__ import annotations
 
+import logging
+import time
 from pathlib import Path
 from typing import Literal
 
-from fastapi import FastAPI, HTTPException, Query
+from fastapi import FastAPI, HTTPException, Query, Request
 from fastapi.middleware.cors import CORSMiddleware
 from pydantic import BaseModel, Field
 
 from .cli import run_report, run_single
+
+# Configure logging
+logging.basicConfig(
+    level=logging.INFO,
+    format="%(asctime)s - %(name)s - %(levelname)s - %(message)s",
+)
+logger = logging.getLogger("api")
 
 
 class ScrapeRequest(BaseModel):
@@ -48,6 +57,18 @@ def create_app() -> FastAPI:
         allow_methods=["*"],
         allow_headers=["*"],
     )
+
+    @app.middleware("http")
+    async def log_requests(request: Request, call_next):
+        logger.info(f"Incoming Request - Method: {request.method} Path: {request.url.path}")
+        start_time = time.time()
+        response = await call_next(request)
+        duration = time.time() - start_time
+        logger.info(
+            f"Request Completed - Method: {request.method} Path: {request.url.path} "
+            f"Status: {response.status_code} Duration: {duration:.2f}s"
+        )
+        return response
 
     @app.get("/", tags=["meta"])
     async def root() -> dict:

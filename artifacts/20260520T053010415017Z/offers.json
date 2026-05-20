@@ -1,0 +1,1474 @@
+{
+  "offers": [
+    {
+      "origin_airport": "DVO",
+      "destination_airport": "MNL",
+      "departure_date": "2026-07-02",
+      "arrival_date": "2026-07-02",
+      "departure_time": "2026-07-02T00:05:00",
+      "arrival_time": "2026-07-02T02:05:00",
+      "duration_minutes": 120,
+      "stops": 0,
+      "price": 6177,
+      "currency": "PHP",
+      "trip_type": "round_trip",
+      "airlines": [
+        "Cebu Pacific"
+      ],
+      "flight_numbers": [
+        "3952"
+      ],
+      "layovers": [],
+      "emissions_kg": 93,
+      "emissions_delta_percent": -8,
+      "booking_token": "CjRIMTVoVXl0Z2JWRzRBQi12QVFCRy0tLS0tLS0tc2VieG8xNkFBQUFBR29OUnJRQkstTjhBEgU1Sjk3MRoKCKEwEAAaA1BIUDgccJ5O",
+      "is_best": true,
+      "segments": [
+        {
+          "airline_code": "5J",
+          "airline_name": "Cebu Pacific",
+          "flight_number": "3952",
+          "operating_airline": null,
+          "origin_airport": "DVO",
+          "origin_name": "Davao International Airport",
+          "destination_airport": "MNL",
+          "destination_name": "Ninoy Aquino International Airport",
+          "departure_time": "2026-07-02T00:05:00",
+          "arrival_time": "2026-07-02T02:05:00",
+          "duration_minutes": 120,
+          "aircraft": "Airbus A321"
+        }
+      ],
+      "return_origin_airport": "MNL",
+      "return_destination_airport": "DVO",
+      "return_departure_date": "2026-07-08",
+      "return_arrival_date": "2026-07-08",
+      "return_departure_time": "2026-07-08T15:35:00",
+      "return_arrival_time": "2026-07-08T17:45:00",
+      "return_duration_minutes": 130,
+      "return_stops": 0,
+      "return_airlines": [
+        "Cebu Pacific"
+      ],
+      "return_flight_numbers": [
+        "971"
+      ],
+      "return_layovers": [],
+      "return_segments": [
+        {
+          "airline_code": "5J",
+          "airline_name": "Cebu Pacific",
+          "flight_number": "971",
+          "operating_airline": null,
+          "origin_airport": "MNL",
+          "origin_name": "Ninoy Aquino International Airport",
+          "destination_airport": "DVO",
+          "destination_name": "Davao International Airport",
+          "departure_time": "2026-07-08T15:35:00",
+          "arrival_time": "2026-07-08T17:45:00",
+          "duration_minutes": 130,
+          "aircraft": "Airbus A330-900neo"
+        }
+      ],
+      "booking_options": [
+        {
+          "provider_code": "5J",
+          "provider_name": "Cebu Pacific",
+          "provider_display_domain": "www.cebupacificair.com",
+          "provider_image_url": "https://www.google.com/s2/favicons?sz=64&domain_url=https://www.cebupacificair.com/",
+          "price": 6177,
+          "currency": "PHP",
+          "deeplink_url": "https://www.google.com/travel/clk/f?u=ADowPOJq7DVrMocYAkUMT78spUsbfvfdCbz0aH7pnQQVmXl_xhHnyV-84lm6rux81E0qebMqHH2bZCmbWNpEedXLfBWizmudCbcGNmrE7eBB-LM_ymf8gIEnl8Y-fDFG0xEMTAGx0c49WYq29erD63aVM70aANtbnzukABiGC2ss4gs9jZd7Q_rqU8YP3oT92dRR7KQZ-oFAAIV9074deLBc2KfY6cyveKCjQjHiYPWbaQPqjrNWc5XaViuaVuoA-cRBjpnlfKW011Ssv0JOeUW_fYP-qeutZCV4s6ZVN7JhPw9XeWPgHBrp12Kf3RkzpWk0Kpi5j1u7m9ZK2ZrfzmHSL6MVfwCdQ5B0sVEEOUD4i13if4rapXos659Pllx2vVqdB6RL0nfM2VC1taGJErvoBc-8DCVIc11o9kQ_H4cZ1dwO611qQRalkmy3M7ECC1t7EDCH8X5vxE-N88zMoLhF31dM-IaJjl8hRp92dnEP6F2G_G9NQqVNZs5DEPFGFFGdQDqX969mE9g-wdxN16fdODwtyVHgRIO021Gz9hMneDotDY9BXvIyjtkw-zlq_yjoXotMmJ7xZ_BsbhlW8VxN5uGg0OMpwZkkKfEvSk0xAOcQiZd0svnngeFwLF1xvJ6lcMHtaM9yamXg5nasbB8LAMn9QjDZ-ho4KOYZWuAAvIBIFLiIHYAiknO3QKroGOOED2-Sv8iGNuKFqxjZ5qd-f4xfCrcBAj3LLSTHnelQTKlPqb3zyIEEcLRIIfO3QSZ1klduT5n8Eaea4mzhukBpXvPJ-aouWYju2XcgrPZrL9DvcHt3Zq0L4HqHKIEwBMvDEmLxCKXVMxNqTc-3LAsrOfWGf6rb-X-99pXjT54KzAP3i8iBPBQSYQ7-loauhaiwbO2qPFBb68Zp3wgYf0IAaQZpVsV_QiWMFslkx_kk_BZfzZ4HfFqhHu8fhaqrk5vMk8ajQkUz7NulED3C6_uEklZtlxCn4tqqFhL8IUGZBP2mTu-IOmdSsWnsfpcGsnKD95CfukAys-muOpFNafviRNcCCqkltuj9kEOzuLgBdYPH2SPb_7gRs82Ob9xZ4Mw3O1wm8T81huB1z46XRVYmRm_vQtqEVQpLMk6E5sXzkSnL6p4vUDDVTbiGIYLn6Efo1cKi97KWQZl8dKqg9ZrvMMnfHZXx4j-Kuwo4H23D2TC_ggxK_I-wp3lUamud9qucNvFgWQVKW2_o92ZNU1YuEZMkkA_r1K4iSwcSFNRqXjff3Yl3OxgRy0P94ILqJLY3nkkRrqhhJWJi-2siAhWH9RtkmP8y58xLY8izaeLk3rmGnX-rBFgBMPqRlnE6gMY6Ikft0ZQHnP1EytA-hOyff6BsukcQPUde1LSZInYUQbrwHft19WdZpr6eS14zs7JdHPeIHLr-vU7mvTGSx255RSb9_CB1semzp2gzJWjfVt0SgW8ExwwOwDEYapK9W7OqryyCX4eZJhzyPpMy8KHsbIUiRdNnYunkOC2w_oFURQIpcOlGVW1xbErfmFJQOpbl7WdWfbbWqYgAnE1grrwI2f7kg5L7eKBn4kagqVxghpMMUm3645Ki29TbN7vENEE6ZmCUzqCTzZZcW5JO_RjUuYWlUJYxICQsdyd1NY996eyYNraYN41Vj9xrjknFv5VFn6CuTQS4iiO6gtdhrKf86p236_Eeqy5E3mv1p94e-ARiKptA6Rjy6BLlwvwwxOdnmKQRai_QJISK02deWKLWbakNUfZ6imRdtpJGhAIHx1vPxBxiqX8KVEV_fsalvhEmNsBzaN8N5GlRz3JBPaUWlhH6C5GyMTKH10_gi6BuwZtaXJ4jCmK4fLx6XMcpl5uuutOZr_UB-oAHtqmryXhTJjLltP5pgMFBCye_D3FCc75iFAWq8mdRC88HBFDif2e7a6_PgVg1J9WreM1Iw9urcsVqQRFVnAsjifkgYKXxZog9C52pI6DPYUBY5rQp6lcDqWcJ_rgUdR5LVZKJXZ25Hrme87xQmzEAEmFGcwJz1nYZDg90I27VFn7OrLVXbhP3cKAdtzrGGaMrUvqZPbQkZ5W8WThomeqT4HrUV9YUMY-5QuKvRAMbYopu8IhKhcuh9WpOgPQ-O_nJ4bSjMMlaK6L0O_eTB9j0FRynLTMsCApPmP2F1UU649bF222iP5GhsigqM7P7s_7uMii3o7ow0xpNOMBApy34yPG8ZaMHi3powfKjf_-JkKITpiGs0tElt2zNooThF9yrp8GeZjhjxv9yBOoM_uNWlUyph7vwoSoNoS7eW4JZ96RjBvh1BE0VhosiAL3fJtG4qfRdgcE-0R3t9dkUyiZa312l_nSkg9YfFMq3x5fliy9bq8wCu6F4woelUjyL-QEMHNta_bSQMuIfL_bFAgjeSAqGtDiJ4rF5yjIiTud6yWVS6KWhl-4jFUNOTOCWrRzPHtFM03DOaTFXlhjT3H8-4B7v02FYICzrGxutEQ8lKErtxoyrpLQlN8Cc8rQiVUfyNMf0J2NJ1ojAOeh84iytwogTCHJx_H0ICKBYM2zoXl5yLM6qNtMyW22dYwJcS5KbBRJ2hnP7cc4NqgpY4yFeUXq6Q4cyVBw1tYQIoavkKxJWOTE7xKBQtw_t0SC649BC_6NP3GPbkMpUjcXVeb19LQ-F00PuPSw7Kgode1Oha_xLpxPTn7r2c0kwrYdRJ2QQS7ZBRTHQMlR-5kJOMv1ly0LnMMzhFYLYK-eB49NvYny_SOhsjw4NePRVlcQLycAW3XvTTm6m60rnUAKYEpe17bpBfbUkBIEmIsCxLWFDmaMKbZAII3TdgwWnBDyhESbuHKNsxLmxUAUMbrlzQJSpECqiC3Zskoy-xbBB8c9Y1yMBe-CAJbM0HhaGbSM--fPbLx52ipWm8XY7JLns2jOHYjVf91pnRb5zvfd-hrp3ImiVdPspvodVmdGOgZUjiIfgqtsUTp98F8nmzjx8yJ8UOzvLqP_uktzv0qCtEuY",
+          "fare_name": null,
+          "resolved_booking_url": "https://www.cebupacificair.com/en-PH/flight/select?dd1=2026-07-02&o1=DVO&d1=MNL&dd2=2026-07-08&o2=MNL&d2=DVO&adt=1&chd=0&inf=0&inl=0&gclid=ADowPOKp9MfA5zSZkdf4TDvlRV0QKvAFqZU7h9BFIqQQK9GYXU5ijJBvPcyTvWajLofrD2XNiCj5yrVSHvGROJ2zIEgEOOqbeHRhmLLnfX1SBh_aOm4I&gclsrc=gf",
+          "flight_codes": [
+            "5J 3952",
+            "5J 971"
+          ],
+          "is_primary": true,
+          "raw_rank": 0
+        }
+      ]
+    },
+    {
+      "origin_airport": "DVO",
+      "destination_airport": "MNL",
+      "departure_date": "2026-07-02",
+      "arrival_date": "2026-07-02",
+      "departure_time": "2026-07-02T00:05:00",
+      "arrival_time": "2026-07-02T02:05:00",
+      "duration_minutes": 120,
+      "stops": 0,
+      "price": 6177,
+      "currency": "PHP",
+      "trip_type": "round_trip",
+      "airlines": [
+        "Cebu Pacific"
+      ],
+      "flight_numbers": [
+        "3952"
+      ],
+      "layovers": [],
+      "emissions_kg": 93,
+      "emissions_delta_percent": -8,
+      "booking_token": "CjRIMTVoVXl0Z2JWRzRBQi12QVFCRy0tLS0tLS0tc2VieG8xNkFBQUFBR29OUnJRQkstTjhBEgU1Sjk3NxoKCKEwEAAaA1BIUDgccJ5O",
+      "is_best": true,
+      "segments": [
+        {
+          "airline_code": "5J",
+          "airline_name": "Cebu Pacific",
+          "flight_number": "3952",
+          "operating_airline": null,
+          "origin_airport": "DVO",
+          "origin_name": "Davao International Airport",
+          "destination_airport": "MNL",
+          "destination_name": "Ninoy Aquino International Airport",
+          "departure_time": "2026-07-02T00:05:00",
+          "arrival_time": "2026-07-02T02:05:00",
+          "duration_minutes": 120,
+          "aircraft": "Airbus A321"
+        }
+      ],
+      "return_origin_airport": "MNL",
+      "return_destination_airport": "DVO",
+      "return_departure_date": "2026-07-08",
+      "return_arrival_date": "2026-07-08",
+      "return_departure_time": "2026-07-08T16:05:00",
+      "return_arrival_time": "2026-07-08T18:10:00",
+      "return_duration_minutes": 125,
+      "return_stops": 0,
+      "return_airlines": [
+        "Cebu Pacific"
+      ],
+      "return_flight_numbers": [
+        "977"
+      ],
+      "return_layovers": [],
+      "return_segments": [
+        {
+          "airline_code": "5J",
+          "airline_name": "Cebu Pacific",
+          "flight_number": "977",
+          "operating_airline": null,
+          "origin_airport": "MNL",
+          "origin_name": "Ninoy Aquino International Airport",
+          "destination_airport": "DVO",
+          "destination_name": "Davao International Airport",
+          "departure_time": "2026-07-08T16:05:00",
+          "arrival_time": "2026-07-08T18:10:00",
+          "duration_minutes": 125,
+          "aircraft": "Airbus A321"
+        }
+      ],
+      "booking_options": []
+    },
+    {
+      "origin_airport": "DVO",
+      "destination_airport": "MNL",
+      "departure_date": "2026-07-02",
+      "arrival_date": "2026-07-02",
+      "departure_time": "2026-07-02T00:05:00",
+      "arrival_time": "2026-07-02T02:05:00",
+      "duration_minutes": 120,
+      "stops": 0,
+      "price": 6177,
+      "currency": "PHP",
+      "trip_type": "round_trip",
+      "airlines": [
+        "Cebu Pacific"
+      ],
+      "flight_numbers": [
+        "3952"
+      ],
+      "layovers": [],
+      "emissions_kg": 93,
+      "emissions_delta_percent": -8,
+      "booking_token": "CjRIMTVoVXl0Z2JWRzRBQi12QVFCRy0tLS0tLS0tc2VieG8xNkFBQUFBR29OUnJRQkstTjhBEgU1Sjk1NRoKCKEwEAAaA1BIUDgccJ5O",
+      "is_best": true,
+      "segments": [
+        {
+          "airline_code": "5J",
+          "airline_name": "Cebu Pacific",
+          "flight_number": "3952",
+          "operating_airline": null,
+          "origin_airport": "DVO",
+          "origin_name": "Davao International Airport",
+          "destination_airport": "MNL",
+          "destination_name": "Ninoy Aquino International Airport",
+          "departure_time": "2026-07-02T00:05:00",
+          "arrival_time": "2026-07-02T02:05:00",
+          "duration_minutes": 120,
+          "aircraft": "Airbus A321"
+        }
+      ],
+      "return_origin_airport": "MNL",
+      "return_destination_airport": "DVO",
+      "return_departure_date": "2026-07-08",
+      "return_arrival_date": "2026-07-08",
+      "return_departure_time": "2026-07-08T17:20:00",
+      "return_arrival_time": "2026-07-08T19:20:00",
+      "return_duration_minutes": 120,
+      "return_stops": 0,
+      "return_airlines": [
+        "Cebu Pacific"
+      ],
+      "return_flight_numbers": [
+        "955"
+      ],
+      "return_layovers": [],
+      "return_segments": [
+        {
+          "airline_code": "5J",
+          "airline_name": "Cebu Pacific",
+          "flight_number": "955",
+          "operating_airline": null,
+          "origin_airport": "MNL",
+          "origin_name": "Ninoy Aquino International Airport",
+          "destination_airport": "DVO",
+          "destination_name": "Davao International Airport",
+          "departure_time": "2026-07-08T17:20:00",
+          "arrival_time": "2026-07-08T19:20:00",
+          "duration_minutes": 120,
+          "aircraft": "Airbus A320neo"
+        }
+      ],
+      "booking_options": [
+        {
+          "provider_code": "5J",
+          "provider_name": "Cebu Pacific",
+          "provider_display_domain": "www.cebupacificair.com",
+          "provider_image_url": "https://www.google.com/s2/favicons?sz=64&domain_url=https://www.cebupacificair.com/",
+          "price": 6177,
+          "currency": "PHP",
+          "deeplink_url": "https://www.google.com/travel/clk/f?u=ADowPOKKG9rcxg3pKo9civbp0ixYuWWOisxwlncZiyK5dQxVLY6wqLUwSxilOyUg7MCRPI03r0Zl8oDvuSUfnTqteln9CtMe3W1UiCa1lL5a3kEUiqSpXOPgUK3WCTkxCiulSnHGB8w7dVpO1S2BFodJdkgBGhtb9sOS4o53UgfiJtVVONi5X1dFmBM8zmyJkCsmF1KlWp33o9tH7Jgw_8gAkP2GCAb6tXao2Uan4HZHCS7umtS7LitNuTJNP_-h3MXlCYmk3HbUZDrCTxsqaoN2A0sATsrwb0Z-XSaYIISvl6LzayMhAWYJef_tsLgmenF_lqBpX1CO4R4O6tW2krYfodrPe_mgT_csTQFN_gxEe3K9cWPt1EfcGvg0L2zC52GW-b_DEISlwjqu_NexAM0JgJAHEpcvIXXvmFFOhQoRPD8kkYs2mtGXxqPg9VGrK7enTqUmyx6mZ9aGIyRdz6O6b-slEACX2kqseTq5UWhJz804aRY2Zb-965gs4yW2ZN2ponUE_vcbp3CxKYuLYdY2FIZRNCO6yg5aLGKpaavCxArNGOIhEqqRkYQ8Cqid-kYTgulGWKrGL8kUF-NfnOpyVIvBIqlSzSfKTS_GOJ8_TB_Wz7_1OqTTJxxnnU5OpfeF5IKxUyJLPKfifHE2jkoC3y3ER1PkHpBn3pg0M-x_8lRsPfiI2o7rQIsgc_xzfKv3dn4B6ROyWXMwOfaJ4Ntj3JYTSvPoncYdT6sVedhSXPPqGyV8qPqYQ5ehOxnbsGkJmT7mhgD3JmKQMi-BPTm5U4GZx1GGhnCyn3w4XH6akM3Ep-KVl2kvSI3QlqLRooHDc7xUpqgxyHXu47sx_rDkCjmVyBfPsFgnUGvyqFc6ZGYxvrIm64b0voLm6y0ut3AOB4kqYM2nTr-_P1w-diq8V5OBkNLQooZXdysz9FpGfI1MAOush3NQBSDxutseDNXvtWTG1X_XNHuqVt39bkEn6Hk2ibThyPcu-7PMzHbd9SWoMVeu89AvrkI5Xj46a_LYBfFY8-nj7EI0DDmacIvfPnswy26JGniScf_8nxzDa1o8C1o4YdtlCfiVXizZO5CoLphF58hF0Vpc9r3900TiP1QaVqBXnkm-eD2Ex1m1u7TPZkarwsYz4IaJoGBUU4KilKaHpbu0Zcf3fFCjSGJV9qvrdyhMAiSad_kF5zRSe2AH02yxemWP0NvOwYojNgfCKteZc56UxEaDsP5rHs75iIKAXzcWVff9Y7izb7if2xZfqvWyrmixE71qecRHQxS90jBzSH5KjIsxYQaDo9QDiOi5j_BW03c--ViKQOw6WbIUvL1bE158HL9JZZW60t7t_HrLNi2D3hdMZnXDib6aAuEk3cWVONqF_0fMLtOLMg0dTZnJ6d0jIleJR081rgevyfyw21y_4u-ZVlzAnRDOtl7U_LLSC5yb5BfmlvwIAUIR4iBg9836mdeJswyONYQlP9qW4TZ10Fv1uCLMGf18jXbzMg-uPnJejM2UsJJ048Mj_MFkaH1MPJeHNvLG1xzCcWeLizRcEiyc-EBDhXb4oDf6koSMcaORJTdv1dws3MREgozjnGPcgZguqHbvGjhLiNfhUQTDDANzzTkyzGUF1ByJb1MnW-5Nq8GfRLBmt3ABeZ15AyPI600RO9V1Vq3g3ba3VfcwwdXbAxxJ1Tqc1vo180FKrV7VWfqeoC4hRfSGXAe_SS9-blCpuD7L2_qeKGU6x2LHRVuw_P18gFli0xvZY57AWkVP11r6TiCs9mviUkDLvqYIoAx1ve1VhpwvdxoiYy7wp2IjjVEWCEeZh-BqpOWdnqO2sA0MtsmxiX3oa99s8pDLNJ_wHIgoqi9OepX3farcM0r6dSOpv9F9GvCtfzvXhu5tq-ZVMTpxgFirCtRlBs4dhE_ZQ7zPgAlKezLUZJOAccEaoVcGtNazgrS8DCiTNmn94TKrM0ROTYM5ar3eYbVzU_OYjMp5n9W0Ebt30BFwZ4n6WFnt7IUJKFZ_zEAdv8z90akWTZdHF0zdDBmjOMPrSXUstwOalvaMRTcFGLCWZM4CnrKIuDi1RK6Rer2sEpHZahK55xLTKvvykegGqiVn8BDwnXAFGJLB9EO6sYMVtx6XEJMzqXxeGEMm7zUZcUqL_xgQnK99ajbPYVtdXCTGDJZ6ajhladtJ7Ck6iudmhZ60Nw9I0RBuYmxSM80QFG8gkmKJxwefXvrRDiiD9210jJROdh4UiXQ0iA47GO9ARwB-gAzqcL2PIBV054g1qNsthys-9JZSaCZ9966jSVyqUoqJPYaSQ1RT1Oxit_W38e96do99RPpcE_Lrb28jarKZprqXrEe8StXdLknmjb0rLIn9EUyXlZLZgIeoKKB-UMwwn9kP3vK-npsImUskk4lHWphDX3_2ZoVzyk8iSgY0SnUhxSrtSFM7LIm8yAtXUsYNebNZNow_dAuHNdTs25QR39NxD55jgcWun6VVhefJX0x8XxED8LsEdiPjnY6zVYfVPVWuOwMS1J1R80kbILaaL32ubv1tAlAz3MS2K-9sqOwCb8cbE6fRLSSckniYBKuTRw5F_9zud4Bu5AZeoHIrACF_893Sg0FZpbv1sklN7WG_YZ8B0DSNMrrOHDO1u71P061DjcCpCk7KCeZENsPyCwM_FsaQrZcN-3eN_wAjpsHWZ9Pbvf7tpgWU-Ef79yyatRXeIC64gHlgcYQkFUIJSmWufomka-UQXgDH8kyPhdF63dJMT6ycrPKk58sNmgsf_PA5vZH5oN3Pok_Qj83U2f3b-P7ImNcWknAfUxTYZM30nZqC2iD9lix_8UqobX4RZ2wnzuwPqungZwYGYKAZrVgczlKxRttHJBPBTcEAjB9NfEcTkEcAD8OktkZUy4omH5JDUkMtP5nzZ1Olj34w2tRljVsS0J3XR_R469PoksM7vCdA0MMb9mJrAmj0Ks8hxLBbDqLp1t1gWomacy02nVxTbJqlzwm9PBq4cI8",
+          "fare_name": null,
+          "resolved_booking_url": "https://www.cebupacificair.com/en-PH/flight/select?dd1=2026-07-02&o1=DVO&d1=MNL&dd2=2026-07-08&o2=MNL&d2=DVO&adt=1&chd=0&inf=0&inl=0&gclid=ADowPOLcFm71UvNivWD7a__1M3yn2iPLZUFERM2HnRXzencaFl8GAl_PnZv84JXDwPsvHOrL2o-bGMc3zj0K2ipG0qzH10gsOw2nyBapV2NzMjJ6-vvd&gclsrc=gf",
+          "flight_codes": [
+            "5J 3952",
+            "5J 955"
+          ],
+          "is_primary": true,
+          "raw_rank": 0
+        }
+      ]
+    },
+    {
+      "origin_airport": "DVO",
+      "destination_airport": "MNL",
+      "departure_date": "2026-07-02",
+      "arrival_date": "2026-07-02",
+      "departure_time": "2026-07-02T00:05:00",
+      "arrival_time": "2026-07-02T02:05:00",
+      "duration_minutes": 120,
+      "stops": 0,
+      "price": 6177,
+      "currency": "PHP",
+      "trip_type": "round_trip",
+      "airlines": [
+        "Cebu Pacific"
+      ],
+      "flight_numbers": [
+        "3952"
+      ],
+      "layovers": [],
+      "emissions_kg": 93,
+      "emissions_delta_percent": -8,
+      "booking_token": "CjRIMTVoVXl0Z2JWRzRBQi12QVFCRy0tLS0tLS0tc2VieG8xNkFBQUFBR29OUnJRQkstTjhBEgU1Sjk1ORoKCKEwEAAaA1BIUDgccJ5O",
+      "is_best": true,
+      "segments": [
+        {
+          "airline_code": "5J",
+          "airline_name": "Cebu Pacific",
+          "flight_number": "3952",
+          "operating_airline": null,
+          "origin_airport": "DVO",
+          "origin_name": "Davao International Airport",
+          "destination_airport": "MNL",
+          "destination_name": "Ninoy Aquino International Airport",
+          "departure_time": "2026-07-02T00:05:00",
+          "arrival_time": "2026-07-02T02:05:00",
+          "duration_minutes": 120,
+          "aircraft": "Airbus A321"
+        }
+      ],
+      "return_origin_airport": "MNL",
+      "return_destination_airport": "DVO",
+      "return_departure_date": "2026-07-08",
+      "return_arrival_date": "2026-07-08",
+      "return_departure_time": "2026-07-08T18:10:00",
+      "return_arrival_time": "2026-07-08T20:10:00",
+      "return_duration_minutes": 120,
+      "return_stops": 0,
+      "return_airlines": [
+        "Cebu Pacific"
+      ],
+      "return_flight_numbers": [
+        "959"
+      ],
+      "return_layovers": [],
+      "return_segments": [
+        {
+          "airline_code": "5J",
+          "airline_name": "Cebu Pacific",
+          "flight_number": "959",
+          "operating_airline": null,
+          "origin_airport": "MNL",
+          "origin_name": "Ninoy Aquino International Airport",
+          "destination_airport": "DVO",
+          "destination_name": "Davao International Airport",
+          "departure_time": "2026-07-08T18:10:00",
+          "arrival_time": "2026-07-08T20:10:00",
+          "duration_minutes": 120,
+          "aircraft": "Airbus A320"
+        }
+      ],
+      "booking_options": [
+        {
+          "provider_code": "5J",
+          "provider_name": "Cebu Pacific",
+          "provider_display_domain": "www.cebupacificair.com",
+          "provider_image_url": "https://www.google.com/s2/favicons?sz=64&domain_url=https://www.cebupacificair.com/",
+          "price": 6177,
+          "currency": "PHP",
+          "deeplink_url": "https://www.google.com/travel/clk/f?u=ADowPOKzvUFduAh1HwMwp-p3Mt7EUR-GmS-PoV9zye0VxEgW2lv07P1L2YvRGS9yPc42_escTDD1siEFSHemG7Cctwf5lUzTlcyj5VLaNiOoqkTLSFBS7sVW1PCpH8n3i5q6bUXR4uCgErkeufFLPYTydlZuiJLnh9A2Cbl0LbyVruN19LMeZ6HEWO9hgA7EcPv-fuMSVzkpdaUqmBoUXsYoF7BH3lFH1d6w4NXoxyLGnx_Z4Jf6LalYs1cmJMtaxcMfb7wLwd_iwkrqHeWB_qJfcKaDwmF3NWEMeCEfdrD10cpt3lLUaYipQzUSAqfCettXkbEhsjha8eZ7kAbb6lxvYQHGT4LhVK0AvNXK2hlEdsNDtaMHiCbXBMqqoW0oktFpINjti0v8J0yju279i_rR9crqD7WtjDOpBtiIligRts_34tPxi3bVzC0wbd46m1qE-klr-eW94FA5IFFvntWz8mGd_BkFeDtWEjOa4cNrfHvwB131UYRsaZutJgkmYk2wRafiUMhJoqV05GYXN38hM2qcWkMNyFOvJdKlFoXpezRSuD7LhS06_bSmA0J3FfYPnFui53cvuCKlsnY_ZL7DOGUerfkK6eqcrF6U_MfIImeDSbJPtIChyWGf6wOgLcP1tZB-oAHdeFZ7H4of1WCnrbFSecfRQZ32TEAzByk6B3P4mqKhMPRMQiYvpgyFq-WC19haqcaxEEjY-Xn0p60yAuEhhS2zEINcp-ph6Sn86p8k1U-1UiYuEe38vEPL0mohAfJ4S9a5ugnxwQ76klj7S0ovDyHuSGVQ7vV8uEJnNEW3n5D_O_fVi5mxjrg8TKztTp1lp4TVVuR4IxY9mehXRytFv2SKC7OVlkUG1-ZJeUcArFTs9GpCPWQCmqah5KnxJ2ubYQp30jTW71uMRcLzSOEIBkxQVgaqzKXjDrvv0vmGyLeN9S3u3iMLGpNlXgY2obd3FDsZdJZWiCmXp8TR8OEKhW5pvyjgRiFi-hEEk8tJmUTTLLRwnAil_GVdJrreF8aMVwqXgTnV5pDI6wYyZvjHqYs8e2kCTmEU_0suvfuDdlJ5cq8MhhO7pl_8cjC2Xb-U3Bro8BRyVEtzpKO0ul7VuTPcSATqAuSSjutwm2vOrwXu4xsd9hWdD6bl_X3xGbp8hqHhqMTBwBh05Q47lRkyi2_ZVkYAm8XGpiI4qj4YHY_IVuPJO_pvI-nlRrM5WQRvcMnufh4omz9sx03XMbuBA3TYvCaxUONbHuorshQ6MYnwH296MM2L6JdnyC8CNff_2ipH0wxnNXo6AHpGrlhhYTIQcSyHQtFf5zpEnHhSVjPn0j6JTa0S4rvZY9MNY-fLJ12yxjvgBJMDawsZsdwlX0pngp2rapghL41zsdk5A8FvIrZ1D9WdyLGHqeUVJ07vwrt3Wro7lVgiTsfyVcyFr0WJUI2HpLkIF-ZgCbtndXfeeEM6L5fAVx2oYABmYUTLzvsfKjNG4BCsanqSdH9UA5pZLZL9P-ESq3Pbv_mFx5u8GLQcTa8fF0WOJoVuGWnjg0jpHVxnT4U5CbH2kY8FfdTtbUcylcvwWSbg4kJCRXg96kirRAbJfN9eYTeh0HkqLujHSa4sAlRrI7eNzJnhNz1AKCsGAgQtSE6P0cTP8zBqENGtO_jyi0tkz3SCoc-HvBTI8A73ThZLGwq8hIlwoNRWUufkjy_WhdvYf_lGooA6DZIVStZa5RMAd078_i8122pb4Q7H2MvleCCjmSlm3MwIKvUCgj-ZdfzNi0DYPaNDVspd99egQQz96gK16Z1EumxEg6BLL1q3bmEAjWdc-MKC1lWsZF9yZh_VMczjRgq871SLFqnBkyBlFTP6Qa5Q8ov6vFIDz0ONSRhu-Gw_QDZekrs3TuRfAV1iSNqM6EY99dyUygyVYzo3fB973d0l398AXjUgZ6xixFEuT3HEJxFNVRH1kEE49oytMmBk1lhFQ67UVpCLp125zdi39yn6J9PX6IzqH2yEwk4UmmzJ_Ivimzh34wLdEnhngGq0CVuv0osAnm2JRN0Ug087OxOoggHsV3qlMS7DlyqusLEqyl3rDcrlL2pK9BX3W2gJfotpRD7M5Dr2QPdazUynPWQV_WyYkstHKgyZnoF5p6uIRZILu2lMIbHK7h5MNw3uq0LLwOxO9yjxtAVakq7fnrrdgYqSCUXfI60SjHtjCasiimh9ton98aBaEcaqgOMjM3_r611p92cShsj9JNB4ze88Yt6jW86YqgISichcYUpLe_TTGhaaJjwOBXqLzYzg70Elijdtw-GwvT398kUHgqvGT8mT50F-ffZ3fOb0chQYq2fOTvNBpLxXvyTScuf92DHVdzOC1aYPMRGv1MFlJuh3Jfz5o5AUUMkCChUwc9pJFcDcVBQKV00u4pElRFtCNCxkgJVX8mQOMrKa6Mbn_FB8ETmjwPLmhsvdi10pKRpW1tQ85K05h_GxxChjDDAacNwYU51u-3KfiKFl6Q8na2TTUR_-BeXHVZNBivNXFVHdH648yp6FzekREfc4xKeqFlJ0l_JmlEvkfD9MjofMSP5sQLqQunqCwNFWE16K_cIKXwjtyx6jHeScbgZLqMto7EDzMbktlS9Q6JXO2n4W4ftcVCoYK2P2Wjgwdw-PBQs64ctv13cFjZxJNOKiIu6rr74mB9opm0XnQSadl-9AdsgFgT0plPEcZV5sqm5796nFOAmkfcMcaYxqikhwHoWhGvUeLGxhVvW4BiDAdel1pV2MPwlcILAVXRrSiZJjzDUMo7aaCA9D5MjBTP3czPNPmetvA8XZ6yriSitBNFvF7S7CEtBmWB3sc5TGpEvMv_SJ1M6z-7nAoc98--mukoZb9rvTapWjca-4Im_FGZcS0hZpStUPNd9m-Rkb-_idkRYJcQWpt0q89hMslqAvgUodObcOL3V9rK2SvVmgKE5oXqLAOwNhZ12TP_PqABDvrC8Fuau8O6JjpPtgtqUDxpJAxfryC10",
+          "fare_name": null,
+          "resolved_booking_url": "https://www.cebupacificair.com/en-PH/flight/select?dd1=2026-07-02&o1=DVO&d1=MNL&dd2=2026-07-08&o2=MNL&d2=DVO&adt=1&chd=0&inf=0&inl=0&gclid=ADowPOKh97D8fJ7EXPNKdlGxP-PYWW2stPkQj0eRBv4DHmO_jdS2_zYIcEoXVmWBc72DrRJtdM3cTc0EfHG-EJ3Rj7HzTIVQR20bD9vrfKo7g0RZvceH&gclsrc=gf",
+          "flight_codes": [
+            "5J 3952",
+            "5J 959"
+          ],
+          "is_primary": true,
+          "raw_rank": 0
+        }
+      ]
+    },
+    {
+      "origin_airport": "DVO",
+      "destination_airport": "MNL",
+      "departure_date": "2026-07-02",
+      "arrival_date": "2026-07-02",
+      "departure_time": "2026-07-02T00:05:00",
+      "arrival_time": "2026-07-02T02:05:00",
+      "duration_minutes": 120,
+      "stops": 0,
+      "price": 6177,
+      "currency": "PHP",
+      "trip_type": "round_trip",
+      "airlines": [
+        "Cebu Pacific"
+      ],
+      "flight_numbers": [
+        "3952"
+      ],
+      "layovers": [],
+      "emissions_kg": 93,
+      "emissions_delta_percent": -8,
+      "booking_token": "CjRIMTVoVXl0Z2JWRzRBQi12QVFCRy0tLS0tLS0tc2VieG8xNkFBQUFBR29OUnJRQkstTjhBEgU1Sjk4MRoKCKEwEAAaA1BIUDgccJ5O",
+      "is_best": true,
+      "segments": [
+        {
+          "airline_code": "5J",
+          "airline_name": "Cebu Pacific",
+          "flight_number": "3952",
+          "operating_airline": null,
+          "origin_airport": "DVO",
+          "origin_name": "Davao International Airport",
+          "destination_airport": "MNL",
+          "destination_name": "Ninoy Aquino International Airport",
+          "departure_time": "2026-07-02T00:05:00",
+          "arrival_time": "2026-07-02T02:05:00",
+          "duration_minutes": 120,
+          "aircraft": "Airbus A321"
+        }
+      ],
+      "return_origin_airport": "MNL",
+      "return_destination_airport": "DVO",
+      "return_departure_date": "2026-07-08",
+      "return_arrival_date": "2026-07-08",
+      "return_departure_time": "2026-07-08T18:40:00",
+      "return_arrival_time": "2026-07-08T20:50:00",
+      "return_duration_minutes": 130,
+      "return_stops": 0,
+      "return_airlines": [
+        "Cebu Pacific"
+      ],
+      "return_flight_numbers": [
+        "981"
+      ],
+      "return_layovers": [],
+      "return_segments": [
+        {
+          "airline_code": "5J",
+          "airline_name": "Cebu Pacific",
+          "flight_number": "981",
+          "operating_airline": null,
+          "origin_airport": "MNL",
+          "origin_name": "Ninoy Aquino International Airport",
+          "destination_airport": "DVO",
+          "destination_name": "Davao International Airport",
+          "departure_time": "2026-07-08T18:40:00",
+          "arrival_time": "2026-07-08T20:50:00",
+          "duration_minutes": 130,
+          "aircraft": "Airbus A320neo"
+        }
+      ],
+      "booking_options": [
+        {
+          "provider_code": "5J",
+          "provider_name": "Cebu Pacific",
+          "provider_display_domain": "www.cebupacificair.com",
+          "provider_image_url": "https://www.google.com/s2/favicons?sz=64&domain_url=https://www.cebupacificair.com/",
+          "price": 6177,
+          "currency": "PHP",
+          "deeplink_url": "https://www.google.com/travel/clk/f?u=ADowPOLvQNU041xIK2WVWR9u797bFuyqw4xsgPUO5AgDEBCaCTS7p7ZizpqDHn4Gk2RYvH2blJrPjA6TD5qIcPjaZ3KkYWRVk6pU7N5tDJSjUMLHd47byw67aUe3aEFaPqR5s6cgx-3S2VLAIy7imFtiKJtKAkUOXlW-cYXpiiayOapkzLx8XSAwm5AJdGpS_aJfUnVT5x40m6NJrEMb325rLN256sIahDManBsmp3Xy0QdLhzswISRf081nCAePpzLevMQbBMboP2y3e8SOcRaS3ORjPGiKyfrHEpBbvrA2MvGJkyP3yGq4Muzy-tYtn9BaOUjzWNbrjDwW1AD0lQ2DFBA3EIAeRRnwKGu-Hh9YnkzxcrCTYw0iumo76voE-tiTv1Ga5uT6BtZL8FzN2aO9HSX925zXypok2O99WqNLiA1a5hrizJAZkEIzv5mNqpwWhfVzPcI-zTY0r1ojQO_-6k9UURhjCrxdNH6vP6VoeC1D0rRJmacmu_sCrc8lcTRGxOU2kT7sMsn9eeHisk_j2oMy9u9R4TIa1sx-uQlSaTTfseFpbqUp_X9usdmDTO2Zrl0SShXRhShCZ9GuvOgNaHjcgxC6j7D7RvaKB_EKrX4X7wDajrcYQ6iR5tWJ8Wvt3xltDFuZtIjwbRRy0nYUzo9n8KfOxNlVO59UweCGMJPzXIi1ormxNwSo-BWsSX4_SrfEoVCdwcHNiFfCtRrb6DQnfE0T3PTsCWtjcM6vitVkgXNaC5xpixbfppT3QvbxGh013BhbrQ3asmRLQyTDeZIQb6O_kikxd14MuricF_99W_21tsVyX9_aiZ3le3yEotyu_Me36PDB7DUKBW2yQdaEkbpAbyP06dbqMbM_f7eHhJ2bJbzBmgdMEY71ROtEXFQCPutu54BAvn-V5uze-1BLsNBV8zz0alV39UK7g6Fo56q8skpJF5O2p2XgmRR-WdvPDnhiaJTD4L5SZv5tWifjQIccHmFYaJMTW1ubmDJn5LkJ_y3Zx39cJWZ3hpNEz2y3u474xdOcHYeDh4yyS2fb0WDWI-N_Q48ttj14GAEvicTWXq9lguMshJ4SoKelHHhtNnIr4-xrVPd0mA2yR6k1-gu0QYEabSam8WOjxMPhpPYtInYDG_4gxFuGpS1mHwFTXXTX9voT3vw26QdUI4YDXrCSy7DTrkeFATkPgq5wzRPtDEYHAf0Q2FeyLcUfR-t-tm_uN6Sq9USba5tF_dPeFTAxyYrosyp1e5hfZclMX5rg7IufByO2wnBKBSY7aV8n4-l4n4zqpobCB6hwfRQhoU0rfwNk7DddQZIVHrM2kXLpCoStEmhdyHOxCVgn0uQgchtSeOohS9H9WtRHMF-zW_nKlX2qiG4ecGv5YPLAT8MXdk5xe-qS9MJ-lw_SCJSRAEzh-GR5lSh9CkRdoXCAUNC8ELhKB3_tfR3Hh9N6o7xl8R6c7V9tLdifWNa0Q-bRzoU4NPhylyCVUxqkHqFydT0aikK8PcpvKlqUpPWwLu8zV6LWTxup47Jox20pBzgZNJW2ygLVLQtbCbEcyR25XyOb1i2za6ZlriEzEuVtp7Q-7np3gs5bD7Y9tIInHvZcT49RPjHfCs_cDiMK3sbhIr0MLEyfz6Io8JI8M_L6e2bczXtEIhXi7Ax-jbKWUnf00Gv-r3UYmioZvbbyzQYdLzifhWQJMHjSjU814hxJyGEl85EpiOzKM26uBqFfhW3pgksHFWPu_c-50VBQMVQ714jDKOLUMxaWfKcJs-T86vgF6WCd0OHMTeb2cFjNEbLVYcLUAE7SCL93KQaw62KEWREkmQqJ0DShEIbeZWc_d8JnUfuRXub0UuxP509I-afPd7ysMBe79uSB0g3kQXRPI7RCsuiyYBY8xCzD-CN3UuF5zvb-ljw1Cq48R0uN06y1hfYVU0uGxLg8oZgWzuFG66CFmdKNKMyU0sD2Lg7JU8bXFkAI7IsGdTOqirYOlSZVDKKO9NkoXU5-3kw4QH-T_6vHtCHyGhBOe55XpFRuOpRHIfkb8RfU5MqbkpPne__WH2Crhquuo90QFJ1hF4lnYd2L3piHmiA-PVnCgbOk8XQ3MlxTP6mxIV2cQejwspWhaoitOpWwG-9ciAlykvxXPT1FU6_wYYVgRIF0H6aot9UnPFvzXK4UOdX9TYVxtqH1GTXLnX3-w601OioJV33TJtS_U7FFAx0xvTbAgBLKsP3HyeFGFclxEhsriDBQ1U15ZymH2T073cAWt284JpO5FTuZV1IxGU4QVb8meYvlJLMVS0bZGujgYPFjOwa4cH9QxKrNx5GSL-4TB8TVjZzzIJV97yH2lOQcHqOvS11gl6s3wUTe_kl2uN1KKyvyZJ9_7tWGPbyq4JC2dVCzjysN_9jR1qWnxKYEg5XxLl8dvkbfExSPwls3JzvqZcoKn2CPPToSSIeJeLj1EbXZIqnIZKMCfKRiapB2bUJTLpbYzGo2EKoJbIzaMlhuog-gY8tYSS57uvZo5e3HlEYIZxxAe-1kxiwXItUR4shgSksqIYNO5Jn7T29JTu51Nm2J3PVOeoEsHEL2EBMsHmO4XkLGgkkcUZxZZ6ug1VQHK7agbYHhRbvp7B8PYWQCL5jvfT4xDdqIIoreYrFx3cMtVQJgd-1wS8o8fpjwiJMpAZ43S9TGmMo4bEijKsoYifTHbXl7mQ5QfMO-M2nWTY94_vn9FKhlw09QrsEK5wLwgdHL17wE8NoGLQDSb-Re8tTzWIvf0tc7x3Jbjm18V4G1_UynxtaU6uTE3hV9wlLiNpRLUpEMPahKa3h9ObVSP_lrBJdTPlnVQsNqgrY51hAAlq9HEH3giVjMHpD5PeVHOp7ykgNFt1HGsTaz0aY-4Tli_1DlkB6TbYBPg18OanWhzNLBA4LK8VVWebSohXSMsrNCHENC_blhxkGkxTA5Bxc_88WaiwRo51Gjb4zmOm7eecHBnUqtG_Y9ZbE4QTZ3c8IQMhOgNpQ",
+          "fare_name": null,
+          "resolved_booking_url": "https://www.cebupacificair.com/en-PH/flight/select?dd1=2026-07-02&o1=DVO&d1=MNL&dd2=2026-07-08&o2=MNL&d2=DVO&adt=1&chd=0&inf=0&inl=0&gclid=ADowPOKsGDpzU7VMgoAP8sUI_WthGpLQ6frBUQvbU8-sYVYLtFJ0nABFyEIZdHvuBsc7yzLbljBq1ho8Kr4MT3w6Pk7B68ZtGPuqXQB_wBV2KcMsEqFT&gclsrc=gf",
+          "flight_codes": [
+            "5J 3952",
+            "5J 981"
+          ],
+          "is_primary": true,
+          "raw_rank": 0
+        }
+      ]
+    },
+    {
+      "origin_airport": "DVO",
+      "destination_airport": "MNL",
+      "departure_date": "2026-07-02",
+      "arrival_date": "2026-07-02",
+      "departure_time": "2026-07-02T00:05:00",
+      "arrival_time": "2026-07-02T02:05:00",
+      "duration_minutes": 120,
+      "stops": 0,
+      "price": 6177,
+      "currency": "PHP",
+      "trip_type": "round_trip",
+      "airlines": [
+        "Cebu Pacific"
+      ],
+      "flight_numbers": [
+        "3952"
+      ],
+      "layovers": [],
+      "emissions_kg": 93,
+      "emissions_delta_percent": -8,
+      "booking_token": "CjRIMTVoVXl0Z2JWRzRBQi12QVFCRy0tLS0tLS0tc2VieG8xNkFBQUFBR29OUnJRQkstTjhBEgU1Sjk2NRoKCKEwEAAaA1BIUDgccJ5O",
+      "is_best": true,
+      "segments": [
+        {
+          "airline_code": "5J",
+          "airline_name": "Cebu Pacific",
+          "flight_number": "3952",
+          "operating_airline": null,
+          "origin_airport": "DVO",
+          "origin_name": "Davao International Airport",
+          "destination_airport": "MNL",
+          "destination_name": "Ninoy Aquino International Airport",
+          "departure_time": "2026-07-02T00:05:00",
+          "arrival_time": "2026-07-02T02:05:00",
+          "duration_minutes": 120,
+          "aircraft": "Airbus A321"
+        }
+      ],
+      "return_origin_airport": "MNL",
+      "return_destination_airport": "DVO",
+      "return_departure_date": "2026-07-08",
+      "return_arrival_date": "2026-07-08",
+      "return_departure_time": "2026-07-08T04:20:00",
+      "return_arrival_time": "2026-07-08T06:20:00",
+      "return_duration_minutes": 120,
+      "return_stops": 0,
+      "return_airlines": [
+        "Cebu Pacific"
+      ],
+      "return_flight_numbers": [
+        "965"
+      ],
+      "return_layovers": [],
+      "return_segments": [
+        {
+          "airline_code": "5J",
+          "airline_name": "Cebu Pacific",
+          "flight_number": "965",
+          "operating_airline": null,
+          "origin_airport": "MNL",
+          "origin_name": "Ninoy Aquino International Airport",
+          "destination_airport": "DVO",
+          "destination_name": "Davao International Airport",
+          "departure_time": "2026-07-08T04:20:00",
+          "arrival_time": "2026-07-08T06:20:00",
+          "duration_minutes": 120,
+          "aircraft": "Airbus A321"
+        }
+      ],
+      "booking_options": [
+        {
+          "provider_code": "5J",
+          "provider_name": "Cebu Pacific",
+          "provider_display_domain": "www.cebupacificair.com",
+          "provider_image_url": "https://www.google.com/s2/favicons?sz=64&domain_url=https://www.cebupacificair.com/",
+          "price": 6177,
+          "currency": "PHP",
+          "deeplink_url": "https://www.google.com/travel/clk/f?u=ADowPOK7vjj1xotC40FKITerDsdaDEL5Mi9eyuneRaXLjvwqNpPj6UkM5VmVsQ6mcJpZwOn_XDzNwsSp-uy1tFrMlGhaxgeaG_cNikrLoc93pW_75T5lgRhqZnQ72QFkTkOvLE-QXxODLxSLvSuLzXK_kRJ_7CnE1d0cMmPp-sNd3Nx_R1rB9-7hfSppZEJZoKu_sK4dQX30LujjbgwYLfMVBDsjPjSUGKY3wtJICnsxFsKKdgjdMpsjhSp95zHJnyZTKInxk_SgBDxh46CbotmKnYiGm0K5V7AXxuDQ9D6u6AjTjK1-xZXalJwk6O9QhEhWe1RPlaGy3D8JBWsbrQpWv7-KNoT9jJitWPQHzPv0u0mHN6T86xbEF3Odf5Ou1r-E2HJKk3I0dQ8Nc6wHBX9fz_v-PGZ-x35tHQKxVB6w9Ly0JaI0CxUFiyEUghUl1_1xDCLTzGov3DJBMfeF1JzwSSrY2m6gtrweq05FluCorKeOWiQ7Yw-HlI4yUJHMePHcshMJsIbDW_QUegGR23sgygWkF8lLRRwEUj1aeDKalTGoichwpF0MjoaBgN0C0kZEYFmPkvfbGCBFIUVWRiPQRl8EQX3ts5eiHV83G11AXuysXru8x2fxMic3MY8c6zO4XIFNNiuC8redVv0Wf64jA9r_V5L3Zcp9tLKG1wUJlW3tPy9ngUOhPps5dUqKgblAT6St6trC9O-DMNy_SfLnhX_f2XrMG01heTGBox1yXAGHDNGBAjtMhuUgBLGw7Pw_hyf-JOwnZcv7_To6fU8Dv2AmOKB2IkZ4M48_cY7RVAkijw0WcyOi6LQj3u7IIYD3MKvzdOkEqhxQwnYBlTFT8a3Ayhc9Zgk474PMWJ24VTnZDXcCLWN_t5Je5LH0c2e714LM6IeIMdDy6pMLsFxryPmZQ7Dj7_1XX2l8X_qnGRmoDyNVg1BfqQiI49IlIEyg7jFrbQqv_g1qsfp0cqD6extpKtbJbtLgHaxohxCsIyEwPUQ_hfLLQj5fKf85yKYDsd-H1fV6vlQG80zJ-jBOM3olFX3EAOUJ345JprOlR2j-LIVkdPpLEFFMbDm5aRV9uXA0fL5XlfDzWqtSlc17dv6_4dZ7QxjNSLEGahoqmrAb6P09gZskN0ZafUNISzwZJWgUdkqxqeUJktNjHgh8PhpMcadAm65zYKMfOR396qxB4Nw1x4G1YVNRw7VDMolBLTovQSwrh9bfWFP5a3UsemLE2UVykl3_zmolThElRKLTQOP-H_KV4onYfSOOdSOYRM3zJvLKry2-7SvTlXAJq5QGe6My25d9jaxdRMDZBG_WHMSKKocPv3w9RAvA_6DnqYbZ7Pm6kZB46mUl9b9tchaeqgs3TQI-uZNNjWYAb7pvWtEhZbHkupNp2niPkHdSjd50-SNfP-9dEFbIlVsuJiNExT1LrZXOyeifFSPPsGf4JX0nRvVomIdL79uFhcowD_ThWQFSq9CsM8U4hFBEzfUKyEDoKuZiWLXdvE29jFlZj9UXG9BSgBNOtdOGxDhfWwD-86jRxiwCsrJf0bTOFLZVCSO47oPmdJ8dQNOLCPFBsQlT-iZvH1ziu2wS74hK7bR_Mc3d_va0lAtjM0sqVvRttTsMrl9Q0QMBctiQuXbvtyqfjPLQsPV57CEpYaLaooO3TldWiTOnPw_Hep9YnELtGc564V8AM5KmTCga3TOrGVMZJEzwokj2r3XY5aVxMn7O0l-4GBqve_zZUi1XCFv3SqQQrhoSfcRg-LhiOsEG6xVhIvdL9lxEImdBPzYiJo4JYDuMPfs5JJfnrrV4wxgQemdsbRsH45w9oLSKazmpC3IS8k6ml3vQWWPDLPOlD5xvyJ1dpOmPA3K0kznIEZwUgpVfaIXwem53kH8VNquSMvrT-gJShyZkLE6dk5t7RQCyRW8533fRiXlQz6lpVTIjSO2relxIKd6aXvzfvJbc9qChBq15n-HG70GacOJVzw87XM-vLv8VkZUxJEtLllbSeC0OQjWVFpyJ9D4kltw7ED-2BbQlZGeDw6t5bk3F3qMm3yZjNxnDihgwCpjaq9QpGxZKIrswXpL51ebQ25fJ2GXQmUy3zhVRc0B_QJJj4cBDWxlRoL46iPw5F3M3l6gO-W2i8ic6EtwrZUuWeGegKUhvMUzcXrtian8DvPjOdTYPh60UEeNE1xIG6ku7z6hjAfMgJ45LDIfFRT1-WJTpIka3WdsiZbb0f6E7xLDHmMnj6SeqD2ifsmwuobkoeL82Ety8cJ8FUqR0y1ovIn-AKq7KD1q08QzE-WL0KOKx5hYxXzNxXkuMKSydfX_UTPJTfvkDfAxfqpwrcSenuBBZP3GqXizmmbtHDg-6jWMdFG67x-cetRO8nRwZ3P22SwMO9O1Io-M-jITcY1TT5smQNy0vte4PneF1n59idiqeHtXoeFk9N-a7ZRG-3wAY06dgQemq60PbnUnpN5sdY0ShCj7V_inZQprbisYY1ahhXyWP-r0T-_qUz0cCSZ0P4vWTpNOcUiwZ9QE3lRZyHb1bHyxmDxk3YfjRPT3JrwN6t-cq7olwFLD1ehvOIwYEwm79iVJusKXGbBgJjqhi5mjzdk6dKof1gEE-YroKQalZXbJCjuaS-ocYg1pLU2IjnfnHFGxzy4fkOcEcdfiVKYftShZXEGpLseaiUai1A5dBNPJyMM6iyUdKfXUO9A0zKnKFjvn6ra_3x75j3L1O_scSXz57SdjQ09vj0jVupc7KlqDzTNQ2apIH7bddd8UUeQ4edw35qc3jX8y-fyCTST3LfiJ8LPU70MVPRbHGjjFwz8oN6DZS4oXhC4I-MzklxMZ9ThtFTyy1zQ5zKcxvTS4qN8U9QSE-kyNsf_UR3IUA1oHBSkMZ0O-n5ReDS9tREQk7UszonOOKGtsc4qwdMnRpRG85GWsGIgc2kXGiejRnX-q66TKORAzOSRuje0_2F_jZNE0IvuBBGQY7VWvQZP0W7_sq_Io",
+          "fare_name": null,
+          "resolved_booking_url": "https://www.cebupacificair.com/en-PH/flight/select?dd1=2026-07-02&o1=DVO&d1=MNL&dd2=2026-07-08&o2=MNL&d2=DVO&adt=1&chd=0&inf=0&inl=0&gclid=ADowPOKGJZ-GLnjoFGwyxZsC0-S4bCYaL4l6zQHsellfoPJrX5GvbPthGnKgNwhglm4OV5MH6uguwJvKJ4Crt5eVAjQw1usIW3ZmsxsPLBVZ8HF6dJqq&gclsrc=gf",
+          "flight_codes": [
+            "5J 3952",
+            "5J 965"
+          ],
+          "is_primary": true,
+          "raw_rank": 0
+        }
+      ]
+    },
+    {
+      "origin_airport": "DVO",
+      "destination_airport": "MNL",
+      "departure_date": "2026-07-02",
+      "arrival_date": "2026-07-02",
+      "departure_time": "2026-07-02T00:05:00",
+      "arrival_time": "2026-07-02T02:05:00",
+      "duration_minutes": 120,
+      "stops": 0,
+      "price": 6177,
+      "currency": "PHP",
+      "trip_type": "round_trip",
+      "airlines": [
+        "Cebu Pacific"
+      ],
+      "flight_numbers": [
+        "3952"
+      ],
+      "layovers": [],
+      "emissions_kg": 93,
+      "emissions_delta_percent": -8,
+      "booking_token": "CjRIMTVoVXl0Z2JWRzRBQi12QVFCRy0tLS0tLS0tc2VieG8xNkFBQUFBR29OUnJRQkstTjhBEgU1Sjk2MRoKCKEwEAAaA1BIUDgccJ5O",
+      "is_best": true,
+      "segments": [
+        {
+          "airline_code": "5J",
+          "airline_name": "Cebu Pacific",
+          "flight_number": "3952",
+          "operating_airline": null,
+          "origin_airport": "DVO",
+          "origin_name": "Davao International Airport",
+          "destination_airport": "MNL",
+          "destination_name": "Ninoy Aquino International Airport",
+          "departure_time": "2026-07-02T00:05:00",
+          "arrival_time": "2026-07-02T02:05:00",
+          "duration_minutes": 120,
+          "aircraft": "Airbus A321"
+        }
+      ],
+      "return_origin_airport": "MNL",
+      "return_destination_airport": "DVO",
+      "return_departure_date": "2026-07-08",
+      "return_arrival_date": "2026-07-08",
+      "return_departure_time": "2026-07-08T05:30:00",
+      "return_arrival_time": "2026-07-08T07:35:00",
+      "return_duration_minutes": 125,
+      "return_stops": 0,
+      "return_airlines": [
+        "Cebu Pacific"
+      ],
+      "return_flight_numbers": [
+        "961"
+      ],
+      "return_layovers": [],
+      "return_segments": [
+        {
+          "airline_code": "5J",
+          "airline_name": "Cebu Pacific",
+          "flight_number": "961",
+          "operating_airline": null,
+          "origin_airport": "MNL",
+          "origin_name": "Ninoy Aquino International Airport",
+          "destination_airport": "DVO",
+          "destination_name": "Davao International Airport",
+          "departure_time": "2026-07-08T05:30:00",
+          "arrival_time": "2026-07-08T07:35:00",
+          "duration_minutes": 125,
+          "aircraft": "Airbus A330-900neo"
+        }
+      ],
+      "booking_options": [
+        {
+          "provider_code": "5J",
+          "provider_name": "Cebu Pacific",
+          "provider_display_domain": "www.cebupacificair.com",
+          "provider_image_url": "https://www.google.com/s2/favicons?sz=64&domain_url=https://www.cebupacificair.com/",
+          "price": 6177,
+          "currency": "PHP",
+          "deeplink_url": "https://www.google.com/travel/clk/f?u=ADowPOJNmBVObfuUrVmzq1ffbftFFSVXiCn6wfv0GeKT7nfwZNiBGgZGU63H7ZzBSLa11slPjVxgkTwl_6_EOYxTXxQ7bUSSSLmVeBo_KNXeQQH9uoo0p4nl21ioV5Ia0nAX4IlFyqNncss72wCYtmnJP2MD0RqPrzBlvFaGvz0LcfNVx-BSJNursUhrqcVj5hjTKm4S96zN4f9oE9PvzX1V7FE4ZnOQbsrgEa1YuKRympJwRQLlmkbBgL88R-qIZHsqyvUJKB0R2jr0IIY5AH3N_XP4-jxezXB9BnnDL3lUarwtDFzXW98KS0LMkqxNDCrXpecgEFgAsDfjpkQar4RzMvXOA5Z-LF_KPEwUkn5lqx6F6P8K8CKQ8wEo5euQv5in1kYclSXl5IGOLGttPRPVVH-ioNy-ETofidC_nJHKns87Et8v9FJMsm3bJKMzmh5JVH3kneeUyL7yHyjAPb8af9th8Xfq3J9bvYPmCzXDoonk8DZjihpnw7MeARrOdoyKps7IVQ7x6VMhmRsbyIHp633Ljbq3n5Pwsppl2e-FH1Q_Os_jYGfGQ2GhqBm7a1SRUQF7OoMoxJes9jQfFT7s170pY5J6vap8zia7FvcwkEU786Luewv6yCPJR5_rcTp7nsBUvFIZyOdus3193U18ZuHBjzfaNKMpJX9wcTTk540-8Gt9jRqMByTq5n1zkyS5CPg2e0u8-CS5RX7j5qhvjowIo2kN77t1qu1abbYG-j-hkWGXVzRGyQt7FdDgf_1lAYjhX739Jlyp4xCXrHhQwZxBO8XTKXtVEHRp06qLROGhFanFK_hj2WRU62jNvWiqmzdpzjYVA9skHjIaVwfm5k1TEtioyGqJeF_KclOq8Sc6N_iqXkFyNfygH8SEFvj_dVuTuPS3IJYoUsDgJgob1ZBXdPcEE4LpL4ceSVmQCEq6sHv15nIbmPUmoi8ZiGEgz4XZAVb4Rutai8JPlrsvcezEkx8aI7mlI4UG3-yoIzRDrZLt2IHxwHF6BGJyz2HGRtFFlsgXM_s49jvX_k8VtGGL-TzWo04XhPnzKoSJVgD5eGzPd4miCov221r5DC5ArAy1qBnO_bMPGl1iYC5InNPBJSYjdNOrXaA0zJdqfyCZ5-0VT0tr1omd0i3roNy4B3HMJlrLL9Ah33oXrPIwIIzC-6IestTE_xAFPkVWuYJSIAI3-Bmnl10N7nvFCvMr0JJ9vhxdWFRzVcoqpZHgIBizjW64YoTFID_TIJrEJFUdC2GMp-ho9xapcKgYusEjN3i-xTSf-iNyde3SA2g-sm24HCa6Rbc7hN-B8YKBbNvKH_P8fIarjLPFPfCBNE7CbBo7n76M0DAMvo0tHHV-5hT2lwEkWkYRSr7cW-5AO6Ef0oe2LsMMK5S3y3cMnkheKxDAvGe0HrBAPw-Ywou8a4JJd4VOCtss5Y9Vh91lurExEKLyvEL7VNJ2O7OQMOoNZpTowmgwhPmRT8dfTrWQ90HvcJysf7eRnxrkWQJfjAkAp1aGmaJ5FFSVJ9iJO7aiP0jY8_oN29Ti4pR27x4DgUoiE2rmDIUW95P7kLNgGrl15LivXei0JuweuVT3pbIhqema1nAn66xfBQN9AqqqVitQwbnWwZOYyJ9tHnkUrRAkUth7XMmqzxGEYOmq0Ak_f6S7gukOtJFFlwFoFp-ICy3xH0OcdPW0dkI30MtcpQrQ1NtrOdklvMjq3F9bOxynNHFK11Bx0o_nqlRKuTh26BlY284R1s7eB7a_kK9eHjH7yHA0gaNy6TXnjv1lAIKON3AhuPhZ5qw9Dg0cym57cRiDVemqqN2osNkr2CNrcbj9cM_n8rl-oz-KBddvPxKqNZjs2R-6KdTs5Rc7rDjHthpBgMOp3eynYQrS44v9ArVPBV_-8gDYlvJOWfckdc6cp3y1ZhcVj2oJiDR78IxwxAfjb29-bMQXF6-_InGg2L0jDpa73yJqUE3DCYWhyPv2r5Fr03opbrllAGsUrRF6l9hhzuVpDthmDXvR40hRGXf0XDqGUup6E-E9RoF7WKljdrREqdhI8ykr7q8vw_QT6crQL97quCkrwl3jjxKjLdyKyoHD5A4UiMHQjt3iB7w75t5lHbwfRAZQkhCmgAG26qR1TF820Rjudx-ZbT_UOx2ANgsTg4ImT7WFRLcxAwgSqPSzQHAJ3eC8K64jcA_xhheX4YAy-G8t7Cq_KkC02dZ6ikDltrwm2ZqEi6VMzTKMSfLSz9-1JmHtEXqYj8AJmWdK-6qawAQQhqktB1eqUOb0nEQOKAyPM684s7m2aqKe7RXLCtf0A1H-3DjZPW4o7Z25oZ717yyByXhb5xX3jCn363om2DEDNMFUJxxJgztAdnyd0Ix1XO05Gm8U57QiWe7yNvSYRCDJCpsvX0teWI13_QrVlgQTA3kClOOJ-PDKbKtINOT0OsiJ7bXb1481DWH7vhSnMzykWPoy-yCRVyfhluKNCZkzTYOZ2yijvmnQO6DkjcZvPvp9bxbkFifApaltTI8R3Eq7PH1sZS03waMA1CB_M4SyR5PJxlx0m9q2fc2sNnaOsqumt5gk3Ad01gH8ukzj819i1obOByaou8tptOBbqQapZaGdpX0TyOSzir-5xm-MJ0RXe7AU0Ek2-aVdo4rNfLCfyaHuN4bm_9QwemgqdrahhxEEplBwpPwY5yukK_n7OSTzarZgjuBxNhBPXiMhXBCzMQCNpscQWva1H_Q8HR-GIMMnQZtH0smUCVTz51pifnqGTg4pWKcdf6frEqYGBlnIpBxVwnw158oUJC3bwgMTefJADZmVNm-NTAk9KXzxNeV_UgOymjw9AElY_RDZQ9E9sPnIE1-ekumwREkoJ_XvW9TeNNOLs7foBnVgOhgzgKe5WPezfTysm7k5bjOtaVIbJk4QN9-Mmir2TnrCEcU5uhNGtcAVtfnEFq2o1X5hxYgtM7BX2sGv6pt1sN9i-JqpcN9mMLGwThw0r1AWOf8",
+          "fare_name": null,
+          "resolved_booking_url": "https://www.cebupacificair.com/en-PH/flight/select?dd1=2026-07-02&o1=DVO&d1=MNL&dd2=2026-07-08&o2=MNL&d2=DVO&adt=1&chd=0&inf=0&inl=0&gclid=ADowPOIFjU9G1joHw357yAKmlNy7xRKM5QJfh35nFwX7tWyA55EmwbBSqTovP8IUuHtxz7Xk_2KJ8L1Svu69gp_tpsZP9l1aJXMi0PdSGqNK8l8jHOxS&gclsrc=gf",
+          "flight_codes": [
+            "5J 3952",
+            "5J 961"
+          ],
+          "is_primary": true,
+          "raw_rank": 0
+        }
+      ]
+    },
+    {
+      "origin_airport": "DVO",
+      "destination_airport": "MNL",
+      "departure_date": "2026-07-02",
+      "arrival_date": "2026-07-02",
+      "departure_time": "2026-07-02T00:05:00",
+      "arrival_time": "2026-07-02T02:05:00",
+      "duration_minutes": 120,
+      "stops": 0,
+      "price": 6177,
+      "currency": "PHP",
+      "trip_type": "round_trip",
+      "airlines": [
+        "Cebu Pacific"
+      ],
+      "flight_numbers": [
+        "3952"
+      ],
+      "layovers": [],
+      "emissions_kg": 93,
+      "emissions_delta_percent": -8,
+      "booking_token": "CjRIMTVoVXl0Z2JWRzRBQi12QVFCRy0tLS0tLS0tc2VieG8xNkFBQUFBR29OUnJRQkstTjhBEgU1Sjk2MxoKCKEwEAAaA1BIUDgccJ5O",
+      "is_best": true,
+      "segments": [
+        {
+          "airline_code": "5J",
+          "airline_name": "Cebu Pacific",
+          "flight_number": "3952",
+          "operating_airline": null,
+          "origin_airport": "DVO",
+          "origin_name": "Davao International Airport",
+          "destination_airport": "MNL",
+          "destination_name": "Ninoy Aquino International Airport",
+          "departure_time": "2026-07-02T00:05:00",
+          "arrival_time": "2026-07-02T02:05:00",
+          "duration_minutes": 120,
+          "aircraft": "Airbus A321"
+        }
+      ],
+      "return_origin_airport": "MNL",
+      "return_destination_airport": "DVO",
+      "return_departure_date": "2026-07-08",
+      "return_arrival_date": "2026-07-08",
+      "return_departure_time": "2026-07-08T08:25:00",
+      "return_arrival_time": "2026-07-08T10:30:00",
+      "return_duration_minutes": 125,
+      "return_stops": 0,
+      "return_airlines": [
+        "Cebu Pacific"
+      ],
+      "return_flight_numbers": [
+        "963"
+      ],
+      "return_layovers": [],
+      "return_segments": [
+        {
+          "airline_code": "5J",
+          "airline_name": "Cebu Pacific",
+          "flight_number": "963",
+          "operating_airline": null,
+          "origin_airport": "MNL",
+          "origin_name": "Ninoy Aquino International Airport",
+          "destination_airport": "DVO",
+          "destination_name": "Davao International Airport",
+          "departure_time": "2026-07-08T08:25:00",
+          "arrival_time": "2026-07-08T10:30:00",
+          "duration_minutes": 125,
+          "aircraft": "Airbus A321neo"
+        }
+      ],
+      "booking_options": [
+        {
+          "provider_code": "5J",
+          "provider_name": "Cebu Pacific",
+          "provider_display_domain": "www.cebupacificair.com",
+          "provider_image_url": "https://www.google.com/s2/favicons?sz=64&domain_url=https://www.cebupacificair.com/",
+          "price": 6177,
+          "currency": "PHP",
+          "deeplink_url": "https://www.google.com/travel/clk/f?u=ADowPOKGedu3RUkAV3GDQ8SwVPpndxBnTReXjxt1mvaI3vu1D6bzQ3xDQAKoc36Cghu-YnB0iYa6fZ3dWkD2ysdeSrz8KxHJ3lq1mEidusrVvtYmkllZGJHeCCfmqK6FyypWNZ-bJiqSkI-_oHn-yZ018vy_C_5sB7q5vf_abkUXZZlNRq10AVGk9coNS8gnSb_N2nBknbZiIzPLX9joNyPD45wz9cY33apk6oCAl1mPIkdQFVw0iJewzHIrtTGZ8HwXZA5oOYg7u3GR2kjyvpZilD02i-Xmze_2Y9Th5_cxrknINcb9wwRHsJ-l167IbBN2_UllTvMQeueiCtcBBfyRei6KK2tmhZAiyIs1fIN7uxsh2ooOCobT7RC2waMtXM8R_OuAN92uPoohkx-nX1pF8rQPEhCCxM_RdB_A2yvl3sOW7ffxzmhNTUu-c5Ug06jeiqWUuRdUuHxooqr-kkerrsr2cOcNdi4MuTYhbOnO5UCiFDlh06qA3zDNh1MO2e4q3YsyjufZEWSHrHx69spdUNWs2V-46icIejkCdyXuOVhqRcBVEvvioi7T909heYvOM152To7DSnLPvtfgsJzxCVapaKWVhSBeyxxfPn6QRqgYbAnfhEKCrkidA4gMxqKlNjVs7_qjDl8IEm3M-tz_mBSW5ZtWwHX45NfoF59fopIv3dWXh2q280E7GQrc7xaXloVxSeCt3nQaKQ9-ZrQFuLgsEo50ZBuaw8Lm-Y9XdFLV11rGOT_B5YXUJsfqzY1YdM_oIKPpHCX1cLbFJ0Xtu6L3fLbllTSEowa0kNcp8SshnDd8vml4BtIpeaHfi5mk8DKGh8nFcuutXyNWrWnT8r0aNlvnf5B8yROvIagWUdtpeDjHIkYhcDoGTDjDV5L4fiztGRmSa6p9HqgVEiLta8vsTIPQY3ULzL2BohG4eDc84gnTVn9j_xDgVcgrDmkFEOcb_5d_Kaldta42JjurvIfcoI2fkNe6oPmxe0bHxp8UUVk8nJ-EwP4e-P3_-miFPWZm95DuHka_o0t5KCJgXtTjnxhNXwg2IpchTLPt7BUlABFS8XBU1L3rTwQxUSqEjwewyNsYEZwD1hXJI4yt9GpdcI4-3D_SL8UUjrPc4-h6BGU1TT7ggX0N4DusalB392cohn6E3b2xyOdUbJomDZ61dT9NHUMbYlzZE3N8Cgo1TfVHiBQLBKv-3O3bj2u0C7mQ1GufqK4x9vUvZHMTZ-8Ybg8gCasPiQZsBZN9806bjxl4_uqvdfMiihRbN2A9EJaI5ZlJdKQpxAaB3gEUPfhsA0UFQxZBMHADSqLL73e-Dvskj3hpeMjLdL8QmHw_dkljbqiIFHQ39LO8uCkkF5JngEj8jr325U_jxN9dfTgPFFdY-0LuXpLXrYMyGaloAExNkWisUR2F3pJ4lynxGto8unGW_V-h2P7qwGDxoo8Mk-LlI6bgM_2h5MGbdARBpFYKuNzu9E-ov4xKQ2fq6WnGsKYxVy299fWlhuPVAnRl54DTO6tQnqR3znUMYiisWDl-vQC8Y-vmi4wQEWg-e-704ggg2cJTxL8QhRIcb6nL3e89jkfbL9A8B1hQUlcIzw_RNs3ZDvXJzH33TvSotnnZAurBms0OC74lqRThqCuJMudcNDh7YTAd8Y-TlwaxfGIgus72GkUPCLMvWFo3u9ESi6wgqkCKse7cv95AxhLQrMPg8PXJ-lHmTGvMlTbtjsGeYLpGek1kdPvFXDyUhtLjZzcf8m_Fq_bOjM_G1N2yVw91LjSmPfZ3VudWgzKBSxUHO9hwFFPWzpTzdtDwKFmClqf8DyMYjZ8FMd8emAiXsWQQG7MZPRn7XNU4Wo7-D8ZnxImdbsCJhml-7ObJ28_Xj3JYzl4cqtzEeVcJ_poPfiTgtef-Objy-sl1_8BHqFVH_CWKoQNbHlz_BfUyLV7LbYapx82IoYmgP2v0H_M-YB6AXSL_8BCY8E9E5NWgxC7eOoi8E1ja1gXoIuktIX1dZkJ1sCuV9qbccNTQMZlA4tKoSRyjMD7Ekae4s22tmlODYS6f1CsTpsMWT8ukwqlh_ibQ9-U2-IulrbzCWBrvf_G1f_5TnhaX6VAeyQbwLYiJmaFnigZCvZFiQ5Casundfaf6ICq6qXoYhUzh0iIF1Tqt_kan7MR6NdvjYQVsxpZoTEfVwP6yDueRIB4An1wCdGSHjyloGcmTf10-dM050PswkiaFB6z7Y4EQ6TEXJ4ZAdf7WV_inSXgsHq1lR7CgvDx72WhQk05YLWZcEG5hZIriLawtxgDc5aXLWcCtirOWjYvvXQzgJxzQrKVRKSrUqVoWLTb1_1mMvv5thtwy3FIyCfeL1h5J2CmYKbD1Wn4Ox8MsgjoyPmlPjaHJ3EML4H6OG3PVx5k2IrZ7kLkV4TZbfUAZ14dxqkLSJe59K8o-3d_-BpXIXFtkN6ZYtsOHW3XCx7nHRNyWPtqKCCRpZOsEp-sSwcfvT8ryDv2vf8NDmxyEc-eT2DNgSFLTFWnLJOvWwFREP3MFVj7wHBQtBt9rMwfNE-cdd1mOPrefJ_LEulruyKYYeX30flVF464E652tASICi5hE0fJW5wNiQ7z2Rbc3GRI5tsuvqWM0lnM434a0QYC2wWAKAHAa7EkoVdYKH41qHSOv6TpJqoWGIQeIn7NfAgzaUXICn-uiOR9gu53KGYZOT7VxOjtkSckFWb9cKmP7mjSAhBS_9OdfsSkkyyHn11TP5eqAujHRUF572u1aR8mMHMnOCRxSReFWtmTLGo293QZhjuYSKdRjB4Dp7BPbEJTjY4ze9qTyxAMkq1GqMVNHx3Jiklmc8NMLiNpo_jeWjvSS4ClMhE4_QhyA7YUrBa1liURCCimdMt27VIqANBascGOq2xbBvDa1dTks3duKNRq-JF8sYk_wWCmxkR7ehpTpotYLsl3Z6anR-JE2LOrRTsEpiGczg9JFUELm3rr7EvBMqEEK0RRy5dzAVgk",
+          "fare_name": null,
+          "resolved_booking_url": "https://www.cebupacificair.com/en-PH/flight/select?dd1=2026-07-02&o1=DVO&d1=MNL&dd2=2026-07-08&o2=MNL&d2=DVO&adt=1&chd=0&inf=0&inl=0&gclid=ADowPOJWZ9QmzD8_X7S6drrpJVDH2GpphKk-RP1EnVkAs_228whQXYW__YYK8CqQFpIVjtFNqm767u8-EQ-jWUguZpJ3PTJR_nb7D0Ae32D_G7RQmXFG&gclsrc=gf",
+          "flight_codes": [
+            "5J 3952",
+            "5J 963"
+          ],
+          "is_primary": true,
+          "raw_rank": 0
+        }
+      ]
+    },
+    {
+      "origin_airport": "DVO",
+      "destination_airport": "MNL",
+      "departure_date": "2026-07-02",
+      "arrival_date": "2026-07-02",
+      "departure_time": "2026-07-02T00:05:00",
+      "arrival_time": "2026-07-02T02:05:00",
+      "duration_minutes": 120,
+      "stops": 0,
+      "price": 6177,
+      "currency": "PHP",
+      "trip_type": "round_trip",
+      "airlines": [
+        "Cebu Pacific"
+      ],
+      "flight_numbers": [
+        "3952"
+      ],
+      "layovers": [],
+      "emissions_kg": 93,
+      "emissions_delta_percent": -8,
+      "booking_token": "CjRIMTVoVXl0Z2JWRzRBQi12QVFCRy0tLS0tLS0tc2VieG8xNkFBQUFBR29OUnJRQkstTjhBEgU1Sjk3MxoKCKEwEAAaA1BIUDgccJ5O",
+      "is_best": true,
+      "segments": [
+        {
+          "airline_code": "5J",
+          "airline_name": "Cebu Pacific",
+          "flight_number": "3952",
+          "operating_airline": null,
+          "origin_airport": "DVO",
+          "origin_name": "Davao International Airport",
+          "destination_airport": "MNL",
+          "destination_name": "Ninoy Aquino International Airport",
+          "departure_time": "2026-07-02T00:05:00",
+          "arrival_time": "2026-07-02T02:05:00",
+          "duration_minutes": 120,
+          "aircraft": "Airbus A321"
+        }
+      ],
+      "return_origin_airport": "MNL",
+      "return_destination_airport": "DVO",
+      "return_departure_date": "2026-07-08",
+      "return_arrival_date": "2026-07-08",
+      "return_departure_time": "2026-07-08T10:25:00",
+      "return_arrival_time": "2026-07-08T12:25:00",
+      "return_duration_minutes": 120,
+      "return_stops": 0,
+      "return_airlines": [
+        "Cebu Pacific"
+      ],
+      "return_flight_numbers": [
+        "973"
+      ],
+      "return_layovers": [],
+      "return_segments": [
+        {
+          "airline_code": "5J",
+          "airline_name": "Cebu Pacific",
+          "flight_number": "973",
+          "operating_airline": null,
+          "origin_airport": "MNL",
+          "origin_name": "Ninoy Aquino International Airport",
+          "destination_airport": "DVO",
+          "destination_name": "Davao International Airport",
+          "departure_time": "2026-07-08T10:25:00",
+          "arrival_time": "2026-07-08T12:25:00",
+          "duration_minutes": 120,
+          "aircraft": "Airbus A321neo"
+        }
+      ],
+      "booking_options": [
+        {
+          "provider_code": "5J",
+          "provider_name": "Cebu Pacific",
+          "provider_display_domain": "www.cebupacificair.com",
+          "provider_image_url": "https://www.google.com/s2/favicons?sz=64&domain_url=https://www.cebupacificair.com/",
+          "price": 6177,
+          "currency": "PHP",
+          "deeplink_url": "https://www.google.com/travel/clk/f?u=ADowPOIT1MCavQHmiT8SCEWjePPG5ezESQLr8dl0rtaVcUutLFygbPWLa0Aech-g339nW0IkjZvoKiyyZPbji7QCeCSRXXuh_eHz1cjfHobj6j6OwNE1n4V8ot01rSLm7d4n2QC9r8YFwiNxv3RnuErVemtLQSe84IG6kaKkxpwnp9ti4lV-z3D1dY-b0yfw9tzCXdnj0KNB0fVIx2x_SUGRslhmTZmpSqlbCEHFqZemUTGoG-ayTuL4iTz6JWi70wE2fIOzSyeXv6TymGH5FKZWHShAs_czB0da6h7tzvBJcsyIJTssSo_AMe3LXonpjGVQNnpmmtQSAfMdnpHfymB4KQ823HruqhPCJAD640gj7vikOMW-BMRUijjyRL4rCyX9n8DzzTQuBdB73Qx91vhdfKx73L6HYATHpExJpDlGBfDc3jE3efg7Iz6XIiLd3JpiT0Ca1FXun6UAX0LbPwOOP_rbUytbc_jI9BiU-vS-S2e23Ms5d_eAYgmBPpshFWRHHHk9PjDkDicHuo2O1Qe2SBuWH9adW2_DdaMq1T5Zx89wYt1eB4QMDWELkbTL0FQ0OcomgI8nPWD7njAg8dhs6aO4I6AQmRlYWhhNCtbFbXjr7VKxViuGbbHln8Yw2VO2uj50f_X3alDRKzkhKOLzEZghlosi9RkaSgeNXw7F48FrVG13EvR2tRuYRp_FFDgtRo4A7m-EtfDUXDv8lk4JRpptPzMPlxfUikU-GUeKuDnCQ8Gf9_DfqNh13eUvwjCAXSevJDoxlgg53gcdp2W7_lRSMg6m_zTyswz2k5IeF9IabpGOgDTaE2d0RpIDrNPoT2dJtDSXvTEOuYAIYi0owY5nD8Z_uPFdmtfu5Sl1-mvK0cpQMk5HeuMzrr5lwfje2cEyV8SNjPA4LK1_v_kSDRamTi7RUagiQMoBsXn8fIIjv58pCynkHzCUkvFfpg7GOqXWwDaESfvNro5Yf5gSD9kx8WvfKddI7zPbdVPRsVKw8arnLsjP2cSOs8iwOFZ04GakWsYO_gLKmLYQgfH72aPNcE7QzlrTkbtyXMZ-mDZosHU7824ikepkrHXZv-bhnGMw7NiNVwPtiZDQb7hh52YBrMuw5oVjXt3EgtSyKqBfnDoKAKTZ1pHGcjX-0GjbEwB507zzEfGlpgoXU2sAAzqcaeWyHpF0SOYrBnnQ_bQ9S9k8lUdvHBoERTpWAvtka-yxOgPySYYQOiIRiI26olvuAycEOMzG7JkxAqUoIbCKgls4pln7gbK-1JcYq8rq_J95PhDfif1iaDKuqWH_fJZGlLNfLflPfQ76ncgZU6ZgCJMgFCj0liuXtTnAxO-FuUIA2vF0nNkR1feqE4_jdSLhCWftrOR2jaCi6zBWuOrY-irFaOyXamf7d5PwETqwZHiaKLYT99OpPqsL7rfIJpO0G-2kjb56nnsxkLHOdLrxEg58IV-4LjpbzE16MHkDkLr-oOBmzwxYSnsLS_vxD_VqeQPIUH0AaicOIXfsi9FJ_4aqX9LDgxNWdLjen632nd9gS6XchJTN2qxTqzwhHuQFyYNv0MExGJZyEmPv7nMyhbmsU3n_oe4cZrZ0L5YUoPclNra1AH3JMUKL6eRORV_QQcpcKTQ0iVVDhPmrnKSIKL_X1GDQXPAhJiUuf-m7Mk1LnFIR9ZZWdfKTq93H4BVWEerLbWAqONGAOm-WI-Xieaaieqza4N_8_J-8OmHrtnxImUWFiNi4LAO86SmQnVlRxUHRm9RrRV3QLZbJavM_tvkOjgV5TxyNYuFHoQ7i4WmAfAYCcblESQtG4twrTiXbPMR_f0sqwP0J-2ZgaUwdlhFisN0vlQofR3c-KNcXJBTmu6EiLhLMHN_o5I_kvirlF_4464xq5co8JKBOpwjoCoZoSdmOS55dkBJQXIfWZIxd3aSbIpxGaQNo_P-BhIf3Xl74FT90NHSZhmKNNL4zlC7-04TIOyOGCC6DoFhJ-QMjIAFtqjHnExkg-yoWkhEcrKizjv9LShsK0VooTgfbJRsGw11XoHu7H-VAsrm-Ans2ASGckAU7hVHg9vEUw7D5KnxEkjYrK0xjO65eygktZfLeszD6VP2j4UzYtCoLg-jVyZkTKcNSLCswUbYi8q-ONpCwPkWkk6B-edQnYbDwOClOGlklVXEqZGucrYaF0B6ej-Qyd2PGHIihgj0Dfhdl2Egf14_WooSf2IPzkm8wI-hOkt2mBkxdA5uvw-CsRuZFLcavoOjwPUEm4-K6FUbzV6idTZ4XyiiNRrumC3-EaDiXO75ikaxVAsmdRxwUSvru4TrKuZzHCeZpBuStDlWG6-w6URRDKg_Ub5PZQEnXs69U1QmE-ZZxOvFUG7fkuxVDGa2cGsQpIoSjxqzUxAK4Cu5EwxYth_9EiIGr4hJcMg_W4Zf54IqQxTIGuo2xwRDhEfAp1WN6kv7uOf0RfxVPThjjIDFwh21pG0ZYQ_y4MIwlQABoYjPaXFBX7Tsrx80os8MDz6-ald8-oPLNNQqcWU_r_JKRJt9Ytd0VV9e7kNB3tz6Cu90sleqZxkUEUL3HMemfKaDJv6x_BtM1eYFgViU6ozbxL3R3didnmFhAcFBdo3elc3MVzspL_mqFlHX6T2xytMdmWZktl2OFELKnjsKU8CRtjpualZxfspTq25OWMraJWPCQC10tgRo0LRRcK73m2wDa4ZU369UkY-TjFqC3tDdr3yrag9sQdv3r_qKSsLQhUOBR1SPH5CnSXOwsZefkwf9rdxy4Cx_eILp6o-yXbDCYLbI_Or8uoeThtoZGgS04csbuL_Lpfp5Wj_zyM7wcbat0c5Ur4oSdx5W9JvxLlgWCasdaszvimwDbYBLlsiAn6RAYx71WVBhHwVWwZZnFNvZ4MbBbtBTzR0zsBiwwjrSGb5XG6cNujpFN3QPgOKFmPAYF_sP6uLQoxNS2cEcxz70IjfMBzRtRSD5zl1sucAuHpPrXTaHBm80YMHcaanI",
+          "fare_name": null,
+          "resolved_booking_url": "https://www.cebupacificair.com/en-PH/flight/select?dd1=2026-07-02&o1=DVO&d1=MNL&dd2=2026-07-08&o2=MNL&d2=DVO&adt=1&chd=0&inf=0&inl=0&gclid=ADowPOI64a8jO0Hu9Lf6yYiyW9ahrj_eePMvhgu6lbO3_ZeviseRWQbvuf6ohwJ4a3BuYMOGpPT0pEK2W80jKB_3hEQxZRbZT5ioDBzJJ362lBfI9uPK&gclsrc=gf",
+          "flight_codes": [
+            "5J 3952",
+            "5J 973"
+          ],
+          "is_primary": true,
+          "raw_rank": 0
+        }
+      ]
+    },
+    {
+      "origin_airport": "DVO",
+      "destination_airport": "MNL",
+      "departure_date": "2026-07-02",
+      "arrival_date": "2026-07-02",
+      "departure_time": "2026-07-02T00:05:00",
+      "arrival_time": "2026-07-02T02:05:00",
+      "duration_minutes": 120,
+      "stops": 0,
+      "price": 6177,
+      "currency": "PHP",
+      "trip_type": "round_trip",
+      "airlines": [
+        "Cebu Pacific"
+      ],
+      "flight_numbers": [
+        "3952"
+      ],
+      "layovers": [],
+      "emissions_kg": 93,
+      "emissions_delta_percent": -8,
+      "booking_token": "CjRIMTVoVXl0Z2JWRzRBQi12QVFCRy0tLS0tLS0tc2VieG8xNkFBQUFBR29OUnJRQkstTjhBEgU1Sjk1NxoKCKEwEAAaA1BIUDgccJ5O",
+      "is_best": true,
+      "segments": [
+        {
+          "airline_code": "5J",
+          "airline_name": "Cebu Pacific",
+          "flight_number": "3952",
+          "operating_airline": null,
+          "origin_airport": "DVO",
+          "origin_name": "Davao International Airport",
+          "destination_airport": "MNL",
+          "destination_name": "Ninoy Aquino International Airport",
+          "departure_time": "2026-07-02T00:05:00",
+          "arrival_time": "2026-07-02T02:05:00",
+          "duration_minutes": 120,
+          "aircraft": "Airbus A321"
+        }
+      ],
+      "return_origin_airport": "MNL",
+      "return_destination_airport": "DVO",
+      "return_departure_date": "2026-07-08",
+      "return_arrival_date": "2026-07-08",
+      "return_departure_time": "2026-07-08T12:15:00",
+      "return_arrival_time": "2026-07-08T14:25:00",
+      "return_duration_minutes": 130,
+      "return_stops": 0,
+      "return_airlines": [
+        "Cebu Pacific"
+      ],
+      "return_flight_numbers": [
+        "957"
+      ],
+      "return_layovers": [],
+      "return_segments": [
+        {
+          "airline_code": "5J",
+          "airline_name": "Cebu Pacific",
+          "flight_number": "957",
+          "operating_airline": null,
+          "origin_airport": "MNL",
+          "origin_name": "Ninoy Aquino International Airport",
+          "destination_airport": "DVO",
+          "destination_name": "Davao International Airport",
+          "departure_time": "2026-07-08T12:15:00",
+          "arrival_time": "2026-07-08T14:25:00",
+          "duration_minutes": 130,
+          "aircraft": "Airbus A330-900neo"
+        }
+      ],
+      "booking_options": [
+        {
+          "provider_code": "5J",
+          "provider_name": "Cebu Pacific",
+          "provider_display_domain": "www.cebupacificair.com",
+          "provider_image_url": "https://www.google.com/s2/favicons?sz=64&domain_url=https://www.cebupacificair.com/",
+          "price": 6177,
+          "currency": "PHP",
+          "deeplink_url": "https://www.google.com/travel/clk/f?u=ADowPOJMJx4NRMWnboUalpN0jcZHZDS3e_G_IlRVwSxZslclzGKQdBo_QZ0eQ-n0apYOqWG6r0jATsNNALfbNOnNQ_uwZC6DWqWVm0WGR5k0VXHPMFif2PTmjgPiqrnDvyv4nx3I6aFo-zJVLVYfR4pu-0OVmqcR4eIHUpDxtNs3P0T-NLz-pkaD10M3xYEGwcUwveDZy05FRmKmnNRsWmgC2iMBTMXA_qH4SzRY1Sm4DO6Dqh8bBV4cF8iNvmBTBrk_E2MNgGYyfjHRK7hF5wb5c2GUbYiULXzp9Q3Hkw7qmYqgAwdQjSnPjRnGHMrSFxA7uQ923_sUf5cMguZ3PVfyowAN8hCQL624JfWvw14sDprLjWbKX4-Jde-p0LfiBkGGVGfCTEBo2oYPy0WnLx4grbekEQlowVMI0GJAeqCm_PBpxKA8ktAq9GBot3cMMZbkeOznOOTuCML9gKrHet7AdF_7VqRUSQMjeU0NnFoDb8yfJvIKwVv0FnQO9Yh_jkDkh4azZAS1cov_3RKi5St2JSi7sOVgJwdD4_42dw2HzUc2l7PXPrsSX9iEdq9QC3GyRGOIHIIp3RvdIEj3hDV67TZpchaOQvtydowOe8ysDlMlZ0wYyKMKhQb-aYgcOX9qEqRTnuqRa-U6uaCXUukKG_ij7siUJSbrDygC7ZqeZy01aNcq3NaW9GJk_VWHMFH68zyAU3NT0ZT7gHUuh0NBfLYFyfp7Yf4L-jl0Z96uBiQeemCyznDrInGzmdeoTS8iPA610jMYdqJyqgVcVvuWZAW0XV7FHEQ-MwlTgsjkT6f6Pn2CJLwOkOw9-r_3xtIhm2V4vIPCVRC4gnryzWyku9CJLzvVZHqIzPc-WaBY_KURJWYHUQ-F5nMYVqFxpiC0rup9FURV-ERdR8ol8sy1zXy9W2o3BlI_oqAGPUWX5hmHQiMhp88-h0ef7Vooy_di5dcHUtqBatArnIuv3F0BhRw5AsmxKSGM4fAIp88j2W0W1n3HICxZ4dfrAvGzopDJdYU2RBVqk0UhINtJs9su2WDqccXNg1WBao0Fmwf58P0COGuOjNExDTaYYTZqw42mjDjJXcv8FtXnzCUlActgZ7spRFILQrL_Y_sBTchvKAseQNKudD4XOXPCANrRAOq8e7ji3mMIvO8K-1qb03WYc8pt7MKF5iQyIWNlxTiXOzBXJEfwTIdICxbbkyNVrjFtuTewXAcLMmqJ2Ajd0iYcObSbQSLNzTqUpkBtPoeyrbtvPyQHSW336wJN1j0qYzreia1aDzy0js661T3Fu8NWIVAVzJ4sLXkK6Mxx8gdQnhKcJThE0UrtTzK_4cQBFwPrOc-s5wkJ2Sl4HZ_B4KGpT_N8ltatV96QpcySE2sChw2kSLTdjuXOEg4q91_ODT9ePmRHbHJl0YwN-_m9jTDW6rUvm2Q70SbwsKybwW9oblxdoGH0uEf4AlDwbR0vp548NiiJJ4lYpr6eZTTJW4K77gwIR_btxsq0FsA6xt5vBHEv2hKJnW3ssTQMdnIrcbv__eROC91cbbCqQBbXv3FJCyQ-atdGblu62SqZl00cD54rvmk0-gy-Zu9UpOJOAkypkhTKycQ4LsDg4z6MXZguK0bk3mG_wPnovCOcpLa2lApPrdWJ0UMLNRGMOORZa--T51CF-CL3OdJPBqVi5el5t4Xp-y5UAZB7biY2C2sX08uLGZU6gJ7uyPuf6sdk8HUB4I92F9xhR6-7tSW6WZtyRwKmv_t27X_kwBIAykENlQkU4DZq0UTBNeQ9uRIhJif8QOAEyE5NkKNdAWRjthquUhAaQETzz88t4Tlgtz_9bwd6scz1xuyEGhIRyL_vdY5VMsbMyaTDdXJRaye6w9XCba28_Z7CB11qb46WLUzNkGjWCTU8C_cnVFox4gHDWJYWddSndHe2RRvqBQ-TbDv4F6tsgyFtbETwl9WbCP7zmaU0LbqCEGBCEZrDAiEmM-pYA4Skpoi7Y2JZQ7giSXyaMZshHc4uYHp0vrUJ7rizNtl_oTeHtGkcTorxopZYiQOiwV4anwev-ikAV-_jYpqMGmaTsU58bAGWrxxeIiX1_qxWqRIa-TC38nXOAbUGie4qn-J7vA_iZo70SlWddMuKv5f4yx-Z0Mf7kKpixWxlH5BZyUrvFbtD620oQvO0nylBc2rbQx9bWizHmySdcB6NqxMPLIfUZ1EVuJsKeVnTsSd9kWxQVWecHTMNXlATNLFSBzMo4qP9P3rHqh08N8ivyQo-j_NTwnUM1Hv9IUcGCACL9wzKqAFJFOGfOxyRzS5x4xR4iBh4JOQpQ6YcCEXcOHV7VYlhtVkkf1wh40uNALAWqLmgME2D3HKfZIthbuQv4tw3wrbbVKlr9c2YNEFiZjTAoSQkFLUA18JTxi7tSFa78q6z7IRNp-cUhYQmTldi5mk3WhhdGutzizksK0wW0oUGGAdUapxHAIuJhfkoBinlZD1qlr-iovAh1p0IypsVLZGj8O4HuXjtmVPeNXpqpp0h4BF6oClTfLHZfGmYZvDc58pPSG6KPh18J54Nv9X15wPScpsAWceLhMOlG6WiOMpiQAoMJVvnZv5a1dVPPNjZxSStkjicxE7542uMBAQtdWW_aVS9U3AqmVd8nv9eSS4cYQR39vnbwwZ0xqdUG0DRSl8lAPegJUdkMebChyt_ERsqaFgJ2n9yt_22isogDB74--zYIxDDwTKl87aYkkezdvbEsbYxhxlDHw6ayUG2nu7rFv7BGFAQo3oJ50aJJvXDZ0ngL6CsS786aEJ9ovEyINpZfv_FyRXx0bNxjhOWPochNRgKZrNv0VGklaRfjpqYSAY9880xv1eKSdVHpq3MhbjQkmkPTqM7_RBJuTut-lnrbIviiRIc0vKYuvStaHMDaWFnrBiHOrJ6eNQqv-sOwPMlG4lV9-yV4lkRjwLXClUvfHUBVHQGBWK82Oo7418efKnEYvZ4uD-sZPayQb_T7aIrx_c",
+          "fare_name": null,
+          "resolved_booking_url": "https://www.cebupacificair.com/en-PH/flight/select?dd1=2026-07-02&o1=DVO&d1=MNL&dd2=2026-07-08&o2=MNL&d2=DVO&adt=1&chd=0&inf=0&inl=0&gclid=ADowPOLWLU6SKpTJUrTE939C_XeHrjdxzQG3nfB2Lolgls6JNUl6nT3VneAjoVRzx5fyj1uzhQW3wXzMRXWjUBz1oi5YzUVtH7qh9a6869D83zLRkFzx&gclsrc=gf",
+          "flight_codes": [
+            "5J 3952",
+            "5J 957"
+          ],
+          "is_primary": true,
+          "raw_rank": 0
+        }
+      ]
+    },
+    {
+      "origin_airport": "DVO",
+      "destination_airport": "MNL",
+      "departure_date": "2026-07-02",
+      "arrival_date": "2026-07-02",
+      "departure_time": "2026-07-02T00:05:00",
+      "arrival_time": "2026-07-02T02:05:00",
+      "duration_minutes": 120,
+      "stops": 0,
+      "price": 6177,
+      "currency": "PHP",
+      "trip_type": "round_trip",
+      "airlines": [
+        "Cebu Pacific"
+      ],
+      "flight_numbers": [
+        "3952"
+      ],
+      "layovers": [],
+      "emissions_kg": 93,
+      "emissions_delta_percent": -8,
+      "booking_token": "CjRIMTVoVXl0Z2JWRzRBQi12QVFCRy0tLS0tLS0tc2VieG8xNkFBQUFBR29OUnJRQkstTjhBEgY1SjM5NTEaCgihMBAAGgNQSFA4HHCeTg==",
+      "is_best": true,
+      "segments": [
+        {
+          "airline_code": "5J",
+          "airline_name": "Cebu Pacific",
+          "flight_number": "3952",
+          "operating_airline": null,
+          "origin_airport": "DVO",
+          "origin_name": "Davao International Airport",
+          "destination_airport": "MNL",
+          "destination_name": "Ninoy Aquino International Airport",
+          "departure_time": "2026-07-02T00:05:00",
+          "arrival_time": "2026-07-02T02:05:00",
+          "duration_minutes": 120,
+          "aircraft": "Airbus A321"
+        }
+      ],
+      "return_origin_airport": "MNL",
+      "return_destination_airport": "DVO",
+      "return_departure_date": "2026-07-08",
+      "return_arrival_date": "2026-07-08",
+      "return_departure_time": "2026-07-08T21:30:00",
+      "return_arrival_time": "2026-07-08T23:30:00",
+      "return_duration_minutes": 120,
+      "return_stops": 0,
+      "return_airlines": [
+        "Cebu Pacific"
+      ],
+      "return_flight_numbers": [
+        "3951"
+      ],
+      "return_layovers": [],
+      "return_segments": [
+        {
+          "airline_code": "5J",
+          "airline_name": "Cebu Pacific",
+          "flight_number": "3951",
+          "operating_airline": null,
+          "origin_airport": "MNL",
+          "origin_name": "Ninoy Aquino International Airport",
+          "destination_airport": "DVO",
+          "destination_name": "Davao International Airport",
+          "departure_time": "2026-07-08T21:30:00",
+          "arrival_time": "2026-07-08T23:30:00",
+          "duration_minutes": 120,
+          "aircraft": "Airbus A321"
+        }
+      ],
+      "booking_options": [
+        {
+          "provider_code": "5J",
+          "provider_name": "Cebu Pacific",
+          "provider_display_domain": "www.cebupacificair.com",
+          "provider_image_url": "https://www.google.com/s2/favicons?sz=64&domain_url=https://www.cebupacificair.com/",
+          "price": 6177,
+          "currency": "PHP",
+          "deeplink_url": "https://www.google.com/travel/clk/f?u=ADowPOKWXlvewU9U0PWJTPkk7eiKmB94Tkcvz9ZNPX5oZjul0xxzXqhuk9LQ2mjrSbdBjQUVzVv_hU320mGWZtWYNiX52zuPc-NO3-b3D8O7WAgXFs3NjipJ6cdxvehihFv_AETNVI9ECaJc8lTSTMpmGzu3yv81jJdBgZ1W7z4zReSJljlrX3esy1gcglQrwHNAy5dcWyHr6H3_FMvwQkaflqjrXPcp4d89LAGzcyfceUY3H0GNVZfY-H9LktljEcMBA-mu_55qf6Vs-AZVPnm3SkfxQ9O24YWsmN10CXXzTbJe92WLgcBYzGtwVDjqHkdIz5hvfKrCvHCDZtPQ_otSmg6aJ-HX45LuD0t1wa-4mPtHqixmSpgz7m5YRpJ2MhzatfQyljNu7-7YkvgbHJIhBQwQ1qv7Rd4erMD_dMTDStv3M1zkW8eVyM1kEcbhzXBU0tyfw617AZa73LxdKX1n8J04GdIuL9bm0d6gafJXYCi1AQFCep0jUTiDPGV5nnM9YUo0mwFsOkol70VXPiRKo37mc8kN8cgJ8ZhxuK02DjtFgsLtOFl4OPm384gOjiesRXMF7po281qvDIKOl_SeLjOLziZ7U7jG749wJPTeUPzZWKqYr37VMR08URJ4xv6f8BXDaS9jd7v5-bsMLFnMgJ4oEmPqu5q2BYjGj1FPQ06XmiAcL43HYCoc6TzWVLIXf6rUdkmSVJhG7j0KXlwV6LNh6vigOXkKtbmauNYhsDLXm7DQ_RAKSzbVv-1sX4yqE-xBFo9rA9gWPELTNlFIzsZT_J_txeP1Ik4lZNOU_DnefDJhn-JZTTOg1--Juw2Qw6LyhvO_3g4hRWiwnA05TDaUor7IktCIcX34je5ywnF4-wgYdiUCw6EzEdh1IZDVv2rHr7X7pkBfL34frm_tD_zsP9OfkQu0l06eLMJgmHIqNCEvgJ59-VUmg4OWBKNf7ogDH6em2IGi67bLXFVlc4qkUdMawShUAUPjbUt4Eo8Esr6YCS9kPPNwaMT_0bsQIc5xNcJ8sWOWTImLEFePowVP3YOIgqBD8NNexVx0OX_107nRTVCF-bl-REwvy-_q_aWYrYmQZ7qjXTbOaLCKyZnOMdVWBkkq_6bbSz7_XoDgOXrtaEL2PX5gRbiXS3JrkWKEBfodleP7Pa72k-k1ERIldjszTToPAuAvL-FrF08I56stkyma8JCpw2iGt4MBxlmH9HdOW-xkdsOVoo1Jz4acEwZdUK5gh7hLllOvadaYY0OgOpZj6lYkdDPG-3HkosV69wFWHPPozMdgTRXiRjELP8SdyBNClMAdNOWA0h_muBJ_7_-usFSbDBd7jyldiRbS8M7y3oiK7K8fkqnnEeCUk5sEHdjI_ioLLmJOWRwWAJ5Mlz3-sCszo4WpUnMDinn0Z-t6kadQZoMt_taY3PpZ7SdvS2Aij_4YY7QHGzE0PA8yWy0SREjtKzjyP117BGakDVYzdwHqYoCIGtxPWWgt0yRDY4fD3H96eLZRQYhBjPBTEBYRsYwV7IxdmVflzbzf_6jL_g_y4kJ_4EthZVM3PjE3sYF5BnArw5b_puhh4SHdP-9cEiwDs2LY0Vg7ysAG1FYWRLtVElk1q4DqPmPuG26-bg14mG0iZgEDiRgcoTQbaIy-l_-YgvZS8GXOXnTKjHDtgKSY7M1-ww0lvLAdtvNEnsb8T1Re3vBCSRzC7-vuC-aAymPGJWU4efOqVtWqoVRzMz3-xTHEuHGlIyn2uEUuH2EV2B56AmQWB43T0uNn1xaqV8eHfjZJBlFndhabSosj5J6YDbPTz7NZjGIVtNGU_nzwtJk0-cbePqHBaLOtg-mgcfTS1jZ1MImEd2pf9Xwz43EHT-YmUpiopaXhcVdcfV9kR8eQne-O-MLOSiWGEaBcZpnG5C6VBvmskv7CIR81HzE9tqepME7s6mCVyAm6N_q5fH-rPa-DgLw3XL2DwmXrQYZCsDmMH6Bt6cQH24ETZCiQZEfGhGL66qYoe4stoXSdTXrt6Rwhi3s9ASqgWWsSV2GqlmXAay7O4CqR6x882o8f0EBcz1DUoN16SEl61hdI-AgGLUEB3UZzMGmQrqN-MAuVto3ZMyPrKeRYp2eln_WR7Rgg36dgRfCzsrNpde7sc1MzF7kD7RVlFrpuILAkh4qygd4ILwoaWZEgWQbFkTMObGYITv3H0DtALRGz7-0WoqlOxCuJ8uLnCsnKEjt58kQbPTOSoiXhrSNAU8rzJwoaVskRTqP_pzmzLJXZFaiSsiI8Qh-LfxpS8b2WFUr9cvviCSRYD3Nax_hWPMWR_vd8VE8-DGT29wAcc30U7bjDQuP5r9lQ6zJbGSyFQXRaJyY2mknpJns7XO5RZ9ivCqN14ufsgyKACE7oE_nMTTe-wjlFx-Zc2PKksiIh8EcQqhTAO5uLjBlhbAXWRZ2jN4qCsdVO7o-DZKp6x4B9q4jHPfyzrx4idZz9bBAMB-99QnjSQ28n0QRz7fQFY_c_tMLM6G60JnT8CZXLMUAEmc2YUwEGleVFzFtKIQ4t2gbTxUyhkyiwrd5n2P_7LV6eeUhH20A5cg3za9iwgRtXf-ZgyiAP1zbgECYXON8aoHEUezRzF5Gr3J05nZLJVawp9MgVscTqP2ZMirzPDBpHUXCE8aHx5fXupKm4TIqh3TuooNaE86Geq8K7YT11pTeZqsA6DXB1wqDvkxTv6DU7yxHzYzkYmwlgwcyeKkEN7U7Pp6biIu7RKO9Vmr2mG52HCgFbUESiy29ZYU-kvGydFovOp8aP1caqyjuLWBk10q_4Q3fHUWvkjC-jQsD1B0Bcuay6L7-749IO63QBKZQpIzeRM08w8s9mDd0NZaW9uHC63WJdnu2WxYVy0DhoXpeBs70FKwoNj5SL8QjVCJzFXLENA8-bPQS1Gx1lPrLvPyOHM3ojc40HuSwtcfnVeGYEZhK-vhtPQSC2YmDOHXafRUki07VEu5FnB22oxy0_BJ11ESM78Q",
+          "fare_name": null,
+          "resolved_booking_url": "https://www.cebupacificair.com/en-PH/flight/select?dd1=2026-07-02&o1=DVO&d1=MNL&dd2=2026-07-08&o2=MNL&d2=DVO&adt=1&chd=0&inf=0&inl=0&gclid=ADowPOJWprbFJF8LcKTqUeValNqUGzO19cT2i2msxY3Rrzdlxjm25-ntCv0LEvLUJfFuNKI1TYsVpkLcRiYcEQNORsIMuEQjYS89N7xT-jy9jgy7RvPH&gclsrc=gf",
+          "flight_codes": [
+            "5J 3952",
+            "5J 3951"
+          ],
+          "is_primary": true,
+          "raw_rank": 0
+        }
+      ]
+    },
+    {
+      "origin_airport": "DVO",
+      "destination_airport": "MNL",
+      "departure_date": "2026-07-02",
+      "arrival_date": "2026-07-02",
+      "departure_time": "2026-07-02T00:05:00",
+      "arrival_time": "2026-07-02T02:05:00",
+      "duration_minutes": 120,
+      "stops": 0,
+      "price": 6177,
+      "currency": "PHP",
+      "trip_type": "round_trip",
+      "airlines": [
+        "Cebu Pacific"
+      ],
+      "flight_numbers": [
+        "3952"
+      ],
+      "layovers": [],
+      "emissions_kg": 93,
+      "emissions_delta_percent": -8,
+      "booking_token": "CjRIMTVoVXl0Z2JWRzRBQi12QVFCRy0tLS0tLS0tc2VieG8xNkFBQUFBR29OUnJRQkstTjhBEgU1Sjk1MRoKCKEwEAAaA1BIUDgccJ5O",
+      "is_best": true,
+      "segments": [
+        {
+          "airline_code": "5J",
+          "airline_name": "Cebu Pacific",
+          "flight_number": "3952",
+          "operating_airline": null,
+          "origin_airport": "DVO",
+          "origin_name": "Davao International Airport",
+          "destination_airport": "MNL",
+          "destination_name": "Ninoy Aquino International Airport",
+          "departure_time": "2026-07-02T00:05:00",
+          "arrival_time": "2026-07-02T02:05:00",
+          "duration_minutes": 120,
+          "aircraft": "Airbus A321"
+        }
+      ],
+      "return_origin_airport": "MNL",
+      "return_destination_airport": "DVO",
+      "return_departure_date": "2026-07-08",
+      "return_arrival_date": "2026-07-08",
+      "return_departure_time": "2026-07-08T21:50:00",
+      "return_arrival_time": "2026-07-08T23:50:00",
+      "return_duration_minutes": 120,
+      "return_stops": 0,
+      "return_airlines": [
+        "Cebu Pacific"
+      ],
+      "return_flight_numbers": [
+        "951"
+      ],
+      "return_layovers": [],
+      "return_segments": [
+        {
+          "airline_code": "5J",
+          "airline_name": "Cebu Pacific",
+          "flight_number": "951",
+          "operating_airline": null,
+          "origin_airport": "MNL",
+          "origin_name": "Ninoy Aquino International Airport",
+          "destination_airport": "DVO",
+          "destination_name": "Davao International Airport",
+          "departure_time": "2026-07-08T21:50:00",
+          "arrival_time": "2026-07-08T23:50:00",
+          "duration_minutes": 120,
+          "aircraft": "Airbus A320"
+        }
+      ],
+      "booking_options": [
+        {
+          "provider_code": "5J",
+          "provider_name": "Cebu Pacific",
+          "provider_display_domain": "www.cebupacificair.com",
+          "provider_image_url": "https://www.google.com/s2/favicons?sz=64&domain_url=https://www.cebupacificair.com/",
+          "price": 6177,
+          "currency": "PHP",
+          "deeplink_url": "https://www.google.com/travel/clk/f?u=ADowPOL9COu2JAmShsiBX3Tnodn2i8YkJ69uGCwbFdze4bNTVkFTU_aIyzBwqya74gC7CQkoZNwDV5OvNwKi3IY7is70OmRSbwPRw-r9-nCH16MMkVsQQJ5xo_1dbAiCWK43ey7id3skkfHvbnsp5Y9RLIPi9u9zGnuR1yyN18JZoudRM2Ldh65ZIw30IN6EfD7_ocNDCqdTfdO153YgTD_-tfmHPrY7AWIyvApzL9tIChHtf1SPqncU1W351Vv1PYuRExg8pA7ajY7C9zUdWmFMol5h5epKP3d7tT3z-jbpUH3F-oS11-JimuPbI1zeaFSJT_go-1Gb8LkdLDh1FkjeF80KM9wqO1tlQiMy1TD6XDRB8QO3n04IskXtwqkw-ElMB4GbtrT9jokaTiDFMPdBKrSAA0dSY7bWsN7ilRFgM52Y1Tn5v9haKC26ndkeTteQ_IKc7o3SuR_VFZwOTHclBClTSr78YdNjYiujAWoHQZAhhiLD-N2qHWdCF3jzTG8lwYEU6xoWUCOFTaLtZC7xHhRVTIRtGPwGhBX7cs6ogsaUeRlYy8q_5ldA4gAaMA5oE9YVUuVMzPacQclqCShTtq8_COpCOWRNqt_4E_9xHqd8a_UFjx8MaX6R4aVpk79Nv8TAYix0TZAtHPVjF_DdIdW3myNQgygDIyqlRHj4Pae_TG1rUYWxcpQ4dF47hu33Ke9mOkXFK2nlot4vGYwjiEMNWbnNPmog77a5TvE0FMO5pzPfz9d7I7YvktyZq4ExqwjmXek2pogqvM2UmikTGgIyW-Yx4cPK9TDfu_vBjHM68Y4PTnFEFLLOoF8VMYFf_4-NbnffEsLuNTdRrCofc3PPG3Qjzw95iv5Me6uwj5y3L2W51MlavD18mjs9C_s_SxNZbfNaLpnsXBwZ4ZLuB5iD9X0xmmo3A7ka6m4Ye6zAHDRIps6Qqc0EbisHHC7vKP0uKVsMKtLTWZgXnQg00NiSIpepyrCL4BjGFX8-wINbX_My3-8WrFbQz0kV_9SWDRngtstnIRXTIrUIson6WwVOGAa_WhPoZc23QZK9gSeJsJHZ0zK-IS-CKpzHwkJ7XW54qpbUEuij6L9hCitZS_4w_Qgc_-Pl42MODwLCtIA_Arwc8Ejcwhh3DUg3BDro_5t1bk-Be04PdmEJlKef0M0HR8wltQGJSFGl_mGRzjax40GUBPp1yb7WeVgGaAwSceCL-ERNgW2upuyeWhrTWtMG6g-F1iOMyIwkLCdNQM2_02xeeGBqixC7nim8zYVeIwib4Q9IMTNuS2DmzLntdvaR54qSyr19tOq0UrSFG8BrjRDTerBhj5PYF01L_v8LD4_FYmcyCIkWHke4e02POMGf_YHti5C_jyn6a2WYov6iA_c404QzNnlAkrtxO6WJTFo1cmgEuIjWIfUIAK4lYxTZ5Fq-nVdPFAvVgHFULVpcNvj28JAkvbByMQrzd8wqFTqapUtSDolaP55ioC-i7tq_S5YmzLWhqcatmy4xwLkDBOxEgn84YTsyI34Vn2vgKsKo3911liFDz56y5dCIZh86o5kKCAINF4Qii73zNNmwe33nP48kMfhokj6YBFTafm5kp-nPkcp4ATgQGNPAs5gPiR4xTfloBhWZrGkd5QbLQzZr2PxXBwSIUhzvqPoj4mjjllBY3p4S0qd4YPP1tvq_PmQwRjFAH4UJr-9pfg1VY06rZIY2w1TknPwyo7PHpGOnw_F-t7_fjeY83pXDBgt0QuRBhv7IEfuHQHCkKRphnpnCho4fCCQaQg_zg4wHATo8_CQ4r1gvjw9_WuPaykUZaOLlp9pTHHoooE98fDK_e2O2fT7rC-50omr9pS5ktjdpCK7Ued6oP_AMwyVMb8-UGbtINeF6ys5bps9QTea_neX2Db5Oq-klfhBEWb5r19wWJIsRvGHOpKjORmkJAW0TLk6U-AcdZlMvCc_QYwAcPMkBq3UJXQ3pmCEfi1IGrptx-KmlyPYDD33E-PhcHhwzl9wdFdUBCS3ZB4_QLAzowWX6766D7Bnrh9E5PQkKbdH9__vHn0vWaAtZqe0uhZDeXgpNirHp3JlQ9HLp5uIhPDvcSwNIygAmAzcVOwsgNWf79ajH6P4E7SpmfPd1nIHlSV2A-PXDjcpFf681exUBI5CSLRfRmS1_CSREa9LRIWTB9WrqqyUn_Oo7KjZz6bfsZg0ofzJZaC6YK-3kOVpTkBPJyfNBiGsxIdF4p6tRzIb520ohEGeqKJWAg8wbnQaSZZU2FViB8OkE0PiB9N-ROba3VjeC8tjEjxpdYzMvX6WYM4c65DSHR3cR3ctROIug9Fl1JwErFeLjxrQcOBlbCNcymIzc9o33DAsLp-3u3xID4dtTLvvDxhWLnKzt_oMFkVcEj28Kf94z7GbzR6dNMPXynCVUwaFbRF1sj3fZJptBGDrVQV7__emIaL-d6JVIP0adBDw9wZ-BK_T8Y06K5t1TCbaDbTog4UTavwaBjxmBxxbK2VZ_3wPEIFS-9BAXMaN4x15_YjU1VF-lsVO_IK5O--CRNX4GAfgH0BIbR4A2A6ZhzZgBNux155AUhohaRtRSC9zi84g-HN25d4MsRTNIHy_2kQg72HOuGPs8NwU-nmVDTFwQnL3QthO63uBe09tEwWBd7VQe_8UkMvMdHaK7w3WbXOIqD-5qr8--fj3kv5x7aA1zzOChdkSwregsw1-UpJKC7vIZun0n2O5DurN5ot91iK3T84VyfkQ25Py8FozfLwRsw1519hes3eJ5OccirVImX5JzRqn-kApqP5EG6o4GQyidEpK_9wmo_qFthf6Fs3hJum0Um8BDihuG_apDYwAUFZY3fF19tuvACoiSWYvOhUw9TKWVA8SPsJPH9a_4MH63IBYKMqI0BpuJmBsS-hi240bWTw-_6h5CZ4_NEKL78hi1lGTNCyf_7GysIGH2GEflA9NdyO_fX6oKmQfPNdw08CWF3osD5Uw9W4Y8eUA",
+          "fare_name": null,
+          "resolved_booking_url": "https://www.cebupacificair.com/en-PH/flight/select?dd1=2026-07-02&o1=DVO&d1=MNL&dd2=2026-07-08&o2=MNL&d2=DVO&adt=1&chd=0&inf=0&inl=0&gclid=ADowPOJIHBnNTlnJxXuswxJmQDCYx6omPYW0FULVEdedOpsW8VSefdHGWaXoaZYD2YLdXwWeE5_CxBOM0WO0PntnCXb_gXY_GHuN0ovWkxp3AvidE_Fg&gclsrc=gf",
+          "flight_codes": [
+            "5J 3952",
+            "5J 951"
+          ],
+          "is_primary": true,
+          "raw_rank": 0
+        }
+      ]
+    },
+    {
+      "origin_airport": "DVO",
+      "destination_airport": "MNL",
+      "departure_date": "2026-07-02",
+      "arrival_date": "2026-07-02",
+      "departure_time": "2026-07-02T00:05:00",
+      "arrival_time": "2026-07-02T02:05:00",
+      "duration_minutes": 120,
+      "stops": 0,
+      "price": 6177,
+      "currency": "PHP",
+      "trip_type": "round_trip",
+      "airlines": [
+        "Cebu Pacific"
+      ],
+      "flight_numbers": [
+        "3952"
+      ],
+      "layovers": [],
+      "emissions_kg": 93,
+      "emissions_delta_percent": -8,
+      "booking_token": "CjRIMTVoVXl0Z2JWRzRBQi12QVFCRy0tLS0tLS0tc2VieG8xNkFBQUFBR29OUnJRQkstTjhBEgU1Sjk1MxoKCKEwEAAaA1BIUDgccJ5O",
+      "is_best": true,
+      "segments": [
+        {
+          "airline_code": "5J",
+          "airline_name": "Cebu Pacific",
+          "flight_number": "3952",
+          "operating_airline": null,
+          "origin_airport": "DVO",
+          "origin_name": "Davao International Airport",
+          "destination_airport": "MNL",
+          "destination_name": "Ninoy Aquino International Airport",
+          "departure_time": "2026-07-02T00:05:00",
+          "arrival_time": "2026-07-02T02:05:00",
+          "duration_minutes": 120,
+          "aircraft": "Airbus A321"
+        }
+      ],
+      "return_origin_airport": "MNL",
+      "return_destination_airport": "DVO",
+      "return_departure_date": "2026-07-08",
+      "return_arrival_date": "2026-07-09",
+      "return_departure_time": "2026-07-08T22:40:00",
+      "return_arrival_time": "2026-07-09T00:40:00",
+      "return_duration_minutes": 120,
+      "return_stops": 0,
+      "return_airlines": [
+        "Cebu Pacific"
+      ],
+      "return_flight_numbers": [
+        "953"
+      ],
+      "return_layovers": [],
+      "return_segments": [
+        {
+          "airline_code": "5J",
+          "airline_name": "Cebu Pacific",
+          "flight_number": "953",
+          "operating_airline": null,
+          "origin_airport": "MNL",
+          "origin_name": "Ninoy Aquino International Airport",
+          "destination_airport": "DVO",
+          "destination_name": "Davao International Airport",
+          "departure_time": "2026-07-08T22:40:00",
+          "arrival_time": "2026-07-09T00:40:00",
+          "duration_minutes": 120,
+          "aircraft": "Airbus A320neo"
+        }
+      ],
+      "booking_options": [
+        {
+          "provider_code": "5J",
+          "provider_name": "Cebu Pacific",
+          "provider_display_domain": "www.cebupacificair.com",
+          "provider_image_url": "https://www.google.com/s2/favicons?sz=64&domain_url=https://www.cebupacificair.com/",
+          "price": 6177,
+          "currency": "PHP",
+          "deeplink_url": "https://www.google.com/travel/clk/f?u=ADowPOIeG-ygpVOvjB3Wkmv0pjZYEYgrIJM1Y_tiw3Gmoq-nsApjrHQ9EWjrkCvVXCha81hlv3g-pU0mX_9z0VshQxP3rdTiKjNYMlSmkvrUlcsO6LQtlIED6Z-yqEE0vvljYrOxiW5xz-YmAOCFpw7dIT7mF31yM50QW8C_AGji3c2Xf-vr32jk6-809_Yc5X1HRiesF-i1P0CD94sR8WAZLNAVmJnbma77OLtNJmyGGCeNH-1vtm9VAcrtqHfW_1ZGZtCvoZWPiRuHyfe1sxKED3wX8FnNjdL3DN22wyYoGS2YZw6EtSMAllrBdiwX54dJPTAx-cuYQyDeUMnKoYw9nvcYjpERBvUJOjbDAgyVwmOyrSSN5q1aKvkDNi149HEVPv2qfkpXhqzB7aM77kLrxm_vr19i-VeBRRsuBzMi4Qoc0Vs8F3dR6hgXpyDyBHPeWAuzvXkaA7SJhXrMO3FOt-Gy2JC5Dx2xMiNgJyxeBh21AN2tn3eDbENJXGCB0p5Glwhv6lwcdv6XdSqQCdlCiBgDF24Dnox68cqaLjCwDKD1Zbljt9S0wbc3t26rtXoHd63xodv6tmnYEPSRbPNqK0EZMxOLJgDtSxdBIdYj48hiLUWhWkKB5veLASGGvfDUhofY32A2uHh-3wxNHuqaI-VRNUzMeOgrUiT8K3hClN5W6-cdzX-6KnXBm7Zw7UtG0InKcDHjf_-fwbL7c9_7pXvlUYmu1TGyXQCH8XvqnInCeS0y8g-8hy2C5NfvQwJdMzOG5tDGGtLHuDwbJS_cjrSSCmqPUVGDkouUSnZ5UoQXmj5CNrVPRXM61FRB7LZmBY83-6e199-fJZ5BJjm04SlrzSLs_FZNhhd9snczPc_YH06uH-QaBdBWBo0X1Ze3QCSmVmBvAB0Gl4tiwdo74Hp0gU4Xz2xly83CIzRQjBMU9E-7dN510GwyrmeKQhUWv1SAOraOMpTERjDi_oQQrNaNi03V4P73hdNdo4__rj1hVjQK53vy4EAlX_iIkQVjmRrmRCoTFmpZRyXjx6JGCBmS3Y2Xn9F37AL4XSBOIJsfcb4TdoCJ1AoWNYMMwCZymDaYMRMuEevm2XtyltGWtwECmJat0Ek2WuEpstBsCTZnxHMXw2q7iMnyjJrag3sc6KV-Lz6bPhhcguWVySd7icGX-ou1yLLqSusoZnJLkWfQ0K8YwRxFVtUw-keh4zPO2bTotIa0bZVQjlRAQej2Tv5w3dSHF8055CzEVCrFYT8ohMHWbmHlfnNvhaWOg7SWtsrnD_d4liu3NRIaJK6TJ7AFmBoqXZ46v4tbpVTuuaXbW7X6O6aMUW7SsUH3KeOc-6TzQTkH3cGVb58F_cIy3o1gRjBwwp0N7Xs9_ie4cpxtWNEDdRL9_i1BXZYSzN-uPIc4Rz4ifXGHPBaA2lR3Ryd3XsN5vRJV8l_OWe6RNQRn62YdZwJqqPqvLB7gxWFL0ywWcBmX1tPEw2RnvVWd4BZwmvTWEvx87_ibfIau7EZOkz6HafMgix55XeUR25ab_hW2dTbVl6Tlh_SxOAcedwEc_yq-9U-kmonC25GgUBE0V2XMKtwyyhSMrRqJcq5Fync5cg51_Z2FPdwsEcpt292LMkgOFHI1kw1yPeX0NBvKWzPgdADBHVKJp_jcqjqYlTAjrl_6DfaU8dNiAzkIp7SQSVf7KhERQo0_eL4MFdJvOndbEW8ksqC_wqQtCSlECAqgCuFWYySwAPbNowawROxUkHZ1XggkbukMOHNGLoAd0fcc7ZYKkACv0I2SERJIU8eRYVT9IwbywEYKuu9a7uKPbXqwrwNuaDk57Ul1GMf41m5IpGL4b53eV9RvkEKuLzsFnkzjyVKx282HlEHBuU7Dv9CiBH2NaW8hukuVVxI2iKxTFAcTgA6xKpqkBdb22yQEC6fMQOw8vlm4lmQnK6Jwq4HOXKViG4LxxWpth9T0A8iFpUrrEq7TWB9uO_Yv7p6uESo8s6obvFPLIZKYqtJUbrAJ5gh7FGlgidWR0aSBIKdzS3Y8fvBiWMOGbVKnevRdWgOhhlf-2aiQX_Kw33ku0a0A_A-vPk8p_9UUjr0XnSnJbnVPXaYoVA0tqe3vrkEBGJbmGrxjjml-B6dq7IV2bappoXRR-mwXNEiwf0u2UEeK4pOTJTfobN07eEAbxKnpbreP5bx5gKmuKabee2IxJNCG_H_QzONhO8WWyq7wJau4ED3slcjLwfLc5Qf5DCSZM2KZakxnTRFLo_FYEozj4oGaDyZq6pPCVgHag5MwRolYaSrO6bPNHvJMSm5MHYJwP_DbYQEifpvjdoPBdYUibzxq1OzGxTNigJuoQ1U9rgbZCFc9-XuyBVy_RZ4OYA17LDgJ4Nde3JhiLEOU4Ojgj-Tu_Uf84cB1DqxytGa2Vr-m1c7koxXNmm5TyDyYyF5mrJtVSNdq_E5qcYBIDKrmOkk3nGidx3xoHjYxBjynN3_kPlnauWqsxEaBoDd9TSTxMDjDtUWKaryXboAQF_yI8L8F89rZBvK9cLcfuyVwloPPqhUX6IuWBfPq-Ks97yFbZxHKRf03yvyT6oFSDSAbYRhryURwU5UpP6hF-7l9LbLiMHAUPm5NIxTsEkZmWK2oSsaYYG-HgCC0BkoS9INlnnd5Se2rcea6aIG2GR4RxHk9Emdheec3mZianbhPAjm3WO6R3NyTB3M__IsuOaMXwSoHfBq1u9cMorcqYKniW_eU1A5OL7wBfR1QOlK3f8xtwzqWL8NFZ82ene1VPupwZNxVRitnabUZPg9GZzZehgMkKapaxgjd5b9ylYeQi1IO8JsFCtMvKT3lCqnu_XNVxv5x7OEqwxzU4I8NtTKs2jTIdPhenEfgEMt6XmLCWBZRgTG39sNs0b7BO8s3lylT-m78RSzrNVrYzvFu9r-kJXootJ_OCu3OCKI1ukFSzDwJq0XiQEZATUXpVVu8OuHqDC4BI5tDiu6YilX1X1r3ilcROP4",
+          "fare_name": null,
+          "resolved_booking_url": "https://www.cebupacificair.com/en-PH/flight/select?dd1=2026-07-02&o1=DVO&d1=MNL&dd2=2026-07-08&o2=MNL&d2=DVO&adt=1&chd=0&inf=0&inl=0&gclid=ADowPOLo6hvz8ws3_l-0loJnuET4xHP1-Mn4oLc95ot46tdjFnmPEJmvTMJyGd-s0s3Twhlww7xnV-MymRRPXTPe8SGh3oMS18wc2GXQb5U_uVoIAzjP&gclsrc=gf",
+          "flight_codes": [
+            "5J 3952",
+            "5J 953"
+          ],
+          "is_primary": true,
+          "raw_rank": 0
+        }
+      ]
+    },
+    {
+      "origin_airport": "DVO",
+      "destination_airport": "MNL",
+      "departure_date": "2026-07-02",
+      "arrival_date": "2026-07-02",
+      "departure_time": "2026-07-02T00:05:00",
+      "arrival_time": "2026-07-02T02:05:00",
+      "duration_minutes": 120,
+      "stops": 0,
+      "price": 6177,
+      "currency": "PHP",
+      "trip_type": "round_trip",
+      "airlines": [
+        "Cebu Pacific"
+      ],
+      "flight_numbers": [
+        "3952"
+      ],
+      "layovers": [],
+      "emissions_kg": 93,
+      "emissions_delta_percent": -8,
+      "booking_token": "CjRIMTVoVXl0Z2JWRzRBQi12QVFCRy0tLS0tLS0tc2VieG8xNkFBQUFBR29OUnJRQkstTjhBEgU1Sjk2NxoKCKEwEAAaA1BIUDgccJ5O",
+      "is_best": true,
+      "segments": [
+        {
+          "airline_code": "5J",
+          "airline_name": "Cebu Pacific",
+          "flight_number": "3952",
+          "operating_airline": null,
+          "origin_airport": "DVO",
+          "origin_name": "Davao International Airport",
+          "destination_airport": "MNL",
+          "destination_name": "Ninoy Aquino International Airport",
+          "departure_time": "2026-07-02T00:05:00",
+          "arrival_time": "2026-07-02T02:05:00",
+          "duration_minutes": 120,
+          "aircraft": "Airbus A321"
+        }
+      ],
+      "return_origin_airport": "MNL",
+      "return_destination_airport": "DVO",
+      "return_departure_date": "2026-07-08",
+      "return_arrival_date": "2026-07-09",
+      "return_departure_time": "2026-07-08T23:10:00",
+      "return_arrival_time": "2026-07-09T01:10:00",
+      "return_duration_minutes": 120,
+      "return_stops": 0,
+      "return_airlines": [
+        "Cebu Pacific"
+      ],
+      "return_flight_numbers": [
+        "967"
+      ],
+      "return_layovers": [],
+      "return_segments": [
+        {
+          "airline_code": "5J",
+          "airline_name": "Cebu Pacific",
+          "flight_number": "967",
+          "operating_airline": null,
+          "origin_airport": "MNL",
+          "origin_name": "Ninoy Aquino International Airport",
+          "destination_airport": "DVO",
+          "destination_name": "Davao International Airport",
+          "departure_time": "2026-07-08T23:10:00",
+          "arrival_time": "2026-07-09T01:10:00",
+          "duration_minutes": 120,
+          "aircraft": "Airbus A320neo"
+        }
+      ],
+      "booking_options": [
+        {
+          "provider_code": "5J",
+          "provider_name": "Cebu Pacific",
+          "provider_display_domain": "www.cebupacificair.com",
+          "provider_image_url": "https://www.google.com/s2/favicons?sz=64&domain_url=https://www.cebupacificair.com/",
+          "price": 6177,
+          "currency": "PHP",
+          "deeplink_url": "https://www.google.com/travel/clk/f?u=ADowPOIf0mAfa_4MbR41jnr74_syrlaACNCG1sHI1KdHRW41b38yGo64wyLw0rQ04Po8PnTFfhx8URe1FV9uDWXko-Gd2vqOHYtm5NVmCgCZzoHT9D3EFRbS0TViFLSFNb--SVYew6RbADY0X_pGoY7xZQw-UyrZV58pl5njSbC9rsHSVl7QbupOwBKbXQHjlT5U2qruQ7lOP1z41WPIiSTtyX0SEfo-ONYoaGQQZdz_B9QYxG_fatNC9-6RHzTddI3sAejgev1Os0EkGQRR0L_n9v6iNL9sZXTjVnEk7PPUCFbKXaW6tJwg2bjXf6OU1fjKWPD3QxFGeGgh9RAnAfKpMOguv93X4oHAMAvUy3-DvQaSmqdGmTFd-VJZbmsQQa4_Tv7yyn9-ehhnCz-w-H5DP8WktDhYm4qDEzaIqT8eht3eL3AEFSsYf6H3ARnp3upSrvl28Sj5gXNmMXtyFUm1YmnLeu0G3m1tq-EySe8rn5koXytnQ4W_oO1Mtpb4GFN-y7jjghO9pogtRwXCJWzM8k3W5IP8pa1ZfZs3MV0gIJaFF8jFRaWxSLDPXhLEwMEGgRyzism6HhjNUNlB3kfAil3p4EE3DRJryvwupEWpI5QzMLsGStUA5zshYnbBiFCm62NGbK2CqS7Q1TqKPzcS6Ytu-NLtpx-G7ldW3aYvnfgEE2LEzd6sOOi4ImKkJTWAbW_eStGGDzD3acwkdPHf3JhDTAYJhLUI3J2chfSqEC5dk36Jlm89KbfOQMZioQoIYiAbiSB3jLKAvCKf6jBmK8ATlgbVl2mCY6bvHSU9Ym7FAvproQrR4fizM9D-ps0JDpzlLTPDe-4rAvpyVHqt87jxWdf1i7Am1_yfjtf2-9Dt-oamJke1ziU8UciHMz_4FPAvvVy9tFmlxeZJAgbR6xJ64KRCU7XRD6dgJ-5CUbyiQyvWaTaDdfQfP_gYGbfCy7twWL8_PzSE2HajLIEHau023riVr7a48xBkv4l2Q8UfVB8InU6ZHdhg7jsBD-mVxpgeE2d1cuxiOknN9SjJbvNB4rei0H43d_gZVi14V6hBFTeghxxkayy6toTScqwt18eHUtnsKs-0YdydxkFPqUJMFfMu8lXuLhCLHGWJWl9ZhXBWZM3_TK4uPVZnkNTnBiOLr4osP-C3_nrwsLvawNZNRuJG9-sK44tEaLvhQ3_vQIwjl7PMByj1wNtCsCg2RGzyeWvnrme8sxR-XPEBXWLYXuVCzqWGn6JDzAxzxs-kYK1pv2nfxhWt_yvO4ZXjFWEBpC7SJA3JZaPTUnh9unztVzuOcuAEBFTYDdngfYroQcm86yxcsNh72oT2G-09UD2Gh47nrxWfsrDE7jvSrMgfNO6nWYxw8sEHwRfp__4IgGijMG6uWplAcSKGHhkPqJX0BUkFYQaryaKgF03ngR3GNXVpUWtU8QCi1Gui4f7EaBZb3DREqzAjflV29Q0CLroMTy1NidrhEy71uiopIID4PHusA7fzegpB6GzbPMeBkewH8X-exQU4VqxHitYMXBj2sM2gPVc7p7vUKmSxSLD-eWcut-Z2goT9f2Bh3fVqLKkwkD_IwoiWvSRCr1y7XD6-gKfsR3rU24B8h_mNblVitqs-uwVCv03QbYM-x_Pl8Z-wES1do8dBEtcyle7lyWXz_An_a4YO55pKN9W2VHIBkG9IsOf_iuH7VwVdDyey0fpnSqw_TlSmihNrS2Hn9VzHFR7KFjVdckLFAcKPjqTG8mntKh1kR-M2WJpoqUn0Y44tp8JQ7mqn0RPKPYgVQenZgZX7JdwAAZS_RhnqYTmSEsPl4gCSlGYy04gy1vGICspeavlo65f77K2JeayEdnvsI03qH68yyTAsqXnwU9P1qUO2v1btRlWlVSMFOdV8-PTaegDEFdHD2QidTRZ0v5cFB76zmjbivSkfWCyGBgk98ihGQ-Fmuvb7_Al7L5hjMWv_VEY_swsX5AqDNzhJb0oa23TxGAtNUHrYnhTeiGjrii19qTnrmEQehmChTEbGmYq3Qi18Yf-gxOAMPCUhtJThKPnCoHawlLgmjvouNnODs0xxLboqn46H4zmacxvYOR7EV9q5HqV7BWuTCo9YO7D9yT_9TJ57cuykYhX6NMOrzG9qdlmillk_jnlGYDv_1XJE9oGQAFuin8P5GaV_F735vYI4_UhT2MsO7uN8DAjuWedeIfTUATyvQJ66T0ahDJYr7bsX2WkMsSvkK_Nksf_nOlbsLWqbOLDOYJVy00x5AIDfSB6p-fsn2abJI1fHsQn3_BxHsJF6dqZmKyLhYukygbfv9_-Rb7C3gGzBvHZFQvQe8_Yg57yLAicSwOhPSSAXU5Tz0toGZ3NZegCb4kvSP7mYsHz1dg9v0Opx9pXzlPtSf8t1le3buicDoOGckR4FDx2uRSvwDC57g1KMditSLg5B-gU0OULXwF5wGMHN0KEN6zULke-YRlPzeVvZGTtalRPuRHSWjPSM0_nG48PSONEYKuaSuW4CWgRGEAGvgdwuff5XJjGVp77jArBobz0Fzic4tPiltMNbntXSnKWrlJp55nA8AT7RNj8j51zy9DNoIpgTaM9yYP_Har7ySegT3GoRzmC-fE_PTS4HyJyS13cA4rzh1D164SD7qMSz1JJPq3idVdPOCT0YqnXyJ4S1mozToZNaiY_msI3K0OMC1vp8J4z85AIjI7pMBnzv2ehB_RSFDeTms9W9oHN0YeYTjCJdXnbWp5xJ8QXxy9xQXieVCvivJJTKDzbYUB_R8pea4ExnJBb1UaV4BGR6yWM6pwtgWbmHHaLKEyzwkHgxpwGE8UNyrkOqQIvwffIjGMX3PIYjci02zGz2-GNZ9io-uCfzEdqDGscz-EDU49AXv71f1NHT9TA3zatBjkLfv31Mtb34ezIkJXTL_a6ft-sDity-DfU6Mw1x7T1rBTjXYxG0wiZ6JYc0xvSS5GItge_UaNRSki6KNb1voqQM9ogoqmU",
+          "fare_name": null,
+          "resolved_booking_url": "https://www.cebupacificair.com/en-PH/flight/select?dd1=2026-07-02&o1=DVO&d1=MNL&dd2=2026-07-08&o2=MNL&d2=DVO&adt=1&chd=0&inf=0&inl=0&gclid=ADowPOL_4CGSpEpmsE9d0p-CioxNzr2tQ2hdqah8o4SyBWek6u8yNp_V_lzYVwxMlMu6Puvq_MOj0UQz_q8s2uUks6ABsuwj9ZbTYpuiXKAPdOdfdZ3l&gclsrc=gf",
+          "flight_codes": [
+            "5J 3952",
+            "5J 967"
+          ],
+          "is_primary": true,
+          "raw_rank": 0
+        }
+      ]
+    },
+    {
+      "origin_airport": "DVO",
+      "destination_airport": "MNL",
+      "departure_date": "2026-07-02",
+      "arrival_date": "2026-07-02",
+      "departure_time": "2026-07-02T00:05:00",
+      "arrival_time": "2026-07-02T02:05:00",
+      "duration_minutes": 120,
+      "stops": 0,
+      "price": 8311,
+      "currency": "PHP",
+      "trip_type": "round_trip",
+      "airlines": [
+        "Cebu Pacific"
+      ],
+      "flight_numbers": [
+        "3952"
+      ],
+      "layovers": [],
+      "emissions_kg": 93,
+      "emissions_delta_percent": -8,
+      "booking_token": "CjRIMTVoVXl0Z2JWRzRBQi12QVFCRy0tLS0tLS0tc2VieG8xNkFBQUFBR29OUnJRQkstTjhBEg01SjI3MTV8REc2OTU5GgoI90AQABoDUEhQOBxwoWk=",
+      "is_best": false,
+      "segments": [
+        {
+          "airline_code": "5J",
+          "airline_name": "Cebu Pacific",
+          "flight_number": "3952",
+          "operating_airline": null,
+          "origin_airport": "DVO",
+          "origin_name": "Davao International Airport",
+          "destination_airport": "MNL",
+          "destination_name": "Ninoy Aquino International Airport",
+          "departure_time": "2026-07-02T00:05:00",
+          "arrival_time": "2026-07-02T02:05:00",
+          "duration_minutes": 120,
+          "aircraft": "Airbus A321"
+        }
+      ],
+      "return_origin_airport": "MNL",
+      "return_destination_airport": "DVO",
+      "return_departure_date": "2026-07-08",
+      "return_arrival_date": "2026-07-08",
+      "return_departure_time": "2026-07-08T06:45:00",
+      "return_arrival_time": "2026-07-08T14:30:00",
+      "return_duration_minutes": 465,
+      "return_stops": 1,
+      "return_airlines": [
+        "Cebu Pacific",
+        "Cebgo"
+      ],
+      "return_flight_numbers": [
+        "2715",
+        "6959"
+      ],
+      "return_layovers": [
+        {
+          "duration_minutes": 285,
+          "airport_code": "TAG",
+          "airport_name": "Panglao International Airport",
+          "city": "Panglao"
+        }
+      ],
+      "return_segments": [
+        {
+          "airline_code": "5J",
+          "airline_name": "Cebu Pacific",
+          "flight_number": "2715",
+          "operating_airline": null,
+          "origin_airport": "MNL",
+          "origin_name": "Ninoy Aquino International Airport",
+          "destination_airport": "TAG",
+          "destination_name": "Panglao International Airport",
+          "departure_time": "2026-07-08T06:45:00",
+          "arrival_time": "2026-07-08T08:25:00",
+          "duration_minutes": 100,
+          "aircraft": "Airbus A321neo"
+        },
+        {
+          "airline_code": "DG",
+          "airline_name": "Cebgo",
+          "flight_number": "6959",
+          "operating_airline": null,
+          "origin_airport": "TAG",
+          "origin_name": "Panglao International Airport",
+          "destination_airport": "DVO",
+          "destination_name": "Davao International Airport",
+          "departure_time": "2026-07-08T13:10:00",
+          "arrival_time": "2026-07-08T14:30:00",
+          "duration_minutes": 80,
+          "aircraft": "ATR 72"
+        }
+      ],
+      "booking_options": [
+        {
+          "provider_code": "5J",
+          "provider_name": "Cebu Pacific",
+          "provider_display_domain": "www.cebupacificair.com",
+          "provider_image_url": "https://www.google.com/s2/favicons?sz=64&domain_url=https://www.cebupacificair.com/",
+          "price": 8311,
+          "currency": "PHP",
+          "deeplink_url": "https://www.google.com/travel/clk/f?u=ADowPOKrvk0cvYXW6nCV2Ol2M9b-7Rihg0KHXPOgrq5pmu6StZ6z7XchxSbnNCEmeHqFr7I2tnLphcLHQWgGy6oNx__NWmimg3hRDocwRSch0SI9bLKHOPpgGlkH2HJ13mBE5WIJGxirUGMHBxwk3fR64Dq6_a1qpiVTNbhMRXXxTsHEo7C7ZLi8iZfYsFjZZ7MmsMW9sqVIzCosm3yl1Zmd3d0HE_EQTVbmJVhh44w5hZ6ONQnG8PPvfbKclqkpyFXrP1CYn-jsU1e1H2Ba0BLS3YE3hEB_dzW5HNb9jGX_IkUsPwwXqrxmXa7fCqD9bBE2LD2tbcDYaaptr2et11kFkFxT_qdDJnEMa1TI_jjzPhivdC2p2etSXv1gMbd_s0JgPcIRSSIhZfz0RHBGni_icVRQChaEpdYRZGCOB1n6ktzgY515zC_qx7XBlO5SaR0tug4QQIuxJ8zy0O-p6fm_x9GfVvmWTNMl2jn37Ty04z6NIqXL2W4HbxwbdPTu6Fjxk8WahhK7KSORjDcJrQc1fN3u_RbkN0pFd72Bkymg38CtbU-n1dDo6100ZAEKISVPNyDKDwdIhiV6r1FEHe0vGv7vJnJ3UEvXAB43YcVgF08hfyWjy4Du0efzEXdLTFYJEugHFYDoGda0Ee-yZAYHRbIRJgjtr1LYxPk8rPAvhoJhdlKcN2rwhnpM8-tHDuBDdZWtQmRyKkdNVQvsCTeUo8MJ7-CqGtwsZ9ycDi1kMZEIUXbviSr0kFdCJYQlpUkxBjB_-JJugTVbvLNUIoAvuF-Jzmz6LSh_ZdBU9RHK-zTGzyHRX4NR40Dm2D4iwjbEXof-tfW38ntxh33jqxLqS8Y5WKy4tGIr7k7vVd-JKDLDh_2wt48vv-6K0oPfnfuNpbNbg9hm4KkSNNERIKM_OKfhzA2CX_g2XG0Vf-SKZT3N5ZFY1mPQv6uldCTIbO1PXmk3kDBy7JVXxVd7MvZGb5uSdTGZRU9Z_1JADZOD5vDsa8mm_jZM_geq5PI9vecZEeGjzRdVR1aWIRtxTdrhWdmH-YXLhNYaL5ZVfK5nDK9iviCIgtaegvsd1auKwY7PaEHIUoeiF4Nsz81Yszad50AuDlqJds7MT7wmfgRNGwEnCvTpFFyLk5hVEfZV9A-QrLOZIRZbF7E2Dc1_rP0otMOwKx7iAATd1bl6UHaVnBTWhzqssnRnO-9KKmswxvTdGpekU81a9PyuY0FdK-Ox0sdcjKiKDDXzMAM8YnpavYOSbz8HhFn4ha-e_OCMIDT4sQ5vM3RhHXUkPxPInX_6MEod9RR-5-OQ4hqxuQX_qItzA5LYHFNTx35j8wNnEOMi-QEDn5UxzFqWkqHiSFmj6SRFMcdMYx6DcyZ047ECgwyEXwDMTRp0z1X6Drpub169Jz7ZiCEGsxqN7Hj7nPsk7PsPcpaYaiyLNlLDCJcFCRiGjfedxy4Wjh0Wlluh_q7JJ2GoZhefUc2Q_oL_pkBcISPWanA4M_peHCn9aQSyNA34TveMf8KB4ErXVLXlzGUD6vaXUoNau7PVs8DCjuA00IpMu-Qi2lnmozMh6solQ-RylvzEpJu3emppStS5DY0Yf8xrf0KXMPkyrE4XU475GHWy3Rc_HxSevn9Aa9MErch-58YH5PfGOlQufdT1cutkCggCDnG39G-c6L4fI6vmmAEZxR1APwdc3-rKEVtzJm1SKMSmXWNB9FbmevW3O8aDDOB9631AYRpvjpwHNpf2o3oGAs_puS_jGHvipIz4kHWe6fnh8iVee0qSUBUj6_8O8bmX0pvxVy1XSahLPb_f-H9j_8lPcnr0z3qWF_XKkDbBO72TEIK7z8YgmD90dv_2c48J2AYnsT2nlQgomIfuqAjICHYrXZwTdNLYlGifScfCjIAQ7lnxP6Ujg18ap44fYgLomRPn5QxcdSxGVZH05ee6h-8IXL6Rw3ZxhA0-uK6a6TynDXbOSUlhTZ_pCf-aAYDDX-W4RCqnnACEO9Zvoq2P72iwlxslT34pT1oeksqD6Aqodl-D0WfXZOcNx33v2pBscEq6LLZ6BynxuMMf4UpApMFvHiHZtSyJGocMOTJOI68oMjS3qwDrcOS4V5IWD4aKmVOC8OvCCdRpYGUg14ILi53dFNxT0_Ycwia7xMEW9na8CU7Xt-vQqLjubV_R5AMv1_tuQrPUuk9mszLHcKqDwCAMlYi1f5J1dtIBcGv2CSetZBRUjnjOn2cc8CIcYmgSyujyzfmjXMKDvlKV7D2umgrunT1kv_7jPzhiP7NwE80isv7qo72ZRJMHGWv9lrh0Paucy1QEWjy80jm04vEYyY7MguTKNmx1dR3WTjTP5BvtuFdWqB7PyXqGfoUG-3XbzSG8rvcebJHEn9XAtLZ03Z_WZ5mKytcHahvmqW_o13T0lzqQLCao-nVoYYwdCH4S20ljujCrnWELlOiWAizL7aHaUzKGKo5U6I6nUzATcUjt_gxp54g8xQ0Y26VCXymJbIipKWamvlpdLDv5BK2DveAR8z6Hb5D-mlXcIcq_9Rq2qaHoHP8dqiPqC4zPS4I8HwNMmROv8EnBAE-F40p769lcLoZ696hl1vgmmTYCjBiCS1kDGv-OfhlwRSGipnEAmqCsZUOwYbZ2teE-1WBUlwRO8Q_JbAcT5bQmsO3gcVL78Jj-v8n0RBwz-BrQk9i4ihWS3Ckh7-Jq2nciHEndimn5MeckwHnCQ6XMVuZehaBDJXjLp2Nv7Q4rjrOj0KoyccKVYTeJcfhO7PgBFCrSoQmjVjSxwdYDHeSz6OhcseRWMcndSJPQr5zxch-FQKh4icguOeYmp2xWLF3zjMko__5stc0g39B-sLX91GW4jYlzLJegOkZX3WfVH9WxqD-KwbOL7DP78gZHnidmvRDDnahPHbTTjXE5vCJuPeq77C8IgwW3-XKX7bnn0bGf-yE9sLij6f_j6jpt_TuynhxcsSgphtzQ3TNllPBwF6Nbs9SBvZ8UNctFJ_R8pOhLX3iH41N8QgPbcUzrWL0Jfc5Ed4_8oDPSslOW1Rjy47ZJ7KeCftP8Y4qWf2fMt6zwac7VugAR3UJxEBiS9JJ7iR4hQiXm6FeQMUaOoSCxOalgnnwRrULVjfaZCFwVK_kLvDSCleyY7FZXrjubvljXVgG0rw27by7E_MEEl3Eb9Yr94WDb7Q0grlBFW315GV_f96MBlMov7hWwRomiGTs-UYPT0qj4Vlx5uayyMBbWIMsyNUDpUXfKJAAt3S3HK37ehJyvrVzMZhP3kiHnxDzEVy-bT4WAlUEMQaAbG7qLnjKsnUUjOXQjVr7VT08gxyHAN4L-xDCBRwOnwV1rnWsDbComckmlHniSQ9-08s5qLm7ouGDpx617DD3iv9M6D_Px_2W8IgMZAVyGc1G2TMdjHpTr1DWSmAQzZuqBFZPK8NP-yiGQMHsiV5BOywlWAwzpnu3yJVaflDuEnmNCcf_HKWyQzQDYDQ0Qcd4cwYPk_CNnzkAJCrWgML-Y4OuFtEnLSoE",
+          "fare_name": null,
+          "resolved_booking_url": "https://www.cebupacificair.com/en-PH/flight/select?dd1=2026-07-02&o1=DVO&d1=MNL&dd2=2026-07-08&o2=MNL&d2=DVO&adt=1&chd=0&inf=0&inl=0&gclid=ADowPOLhmd7NLu9RHIvGl5y5wLRfeHINUCwK_Y7qYeGE-CfnSw3ZDgRgaEASTwihWrrtpMF8NHRCBQ0yUApSiwzgkI3IK1tGPy5TLFm153nsa5NvUEgp&gclsrc=gf",
+          "flight_codes": [
+            "5J 3952",
+            "5J 2715",
+            "DG 6959"
+          ],
+          "is_primary": true,
+          "raw_rank": 0
+        }
+      ]
+    },
+    {
+      "origin_airport": "DVO",
+      "destination_airport": "MNL",
+      "departure_date": "2026-07-02",
+      "arrival_date": "2026-07-02",
+      "departure_time": "2026-07-02T00:05:00",
+      "arrival_time": "2026-07-02T02:05:00",
+      "duration_minutes": 120,
+      "stops": 0,
+      "price": 9207,
+      "currency": "PHP",
+      "trip_type": "round_trip",
+      "airlines": [
+        "Cebu Pacific"
+      ],
+      "flight_numbers": [
+        "3952"
+      ],
+      "layovers": [],
+      "emissions_kg": 93,
+      "emissions_delta_percent": -8,
+      "booking_token": "CjRIMTVoVXl0Z2JWRzRBQi12QVFCRy0tLS0tLS0tc2VieG8xNkFBQUFBR29OUnJRQkstTjhBEgw1SjYxN3xERzY5NTkaCgj3RxAAGgNQSFA4HHDOdA==",
+      "is_best": false,
+      "segments": [
+        {
+          "airline_code": "5J",
+          "airline_name": "Cebu Pacific",
+          "flight_number": "3952",
+          "operating_airline": null,
+          "origin_airport": "DVO",
+          "origin_name": "Davao International Airport",
+          "destination_airport": "MNL",
+          "destination_name": "Ninoy Aquino International Airport",
+          "departure_time": "2026-07-02T00:05:00",
+          "arrival_time": "2026-07-02T02:05:00",
+          "duration_minutes": 120,
+          "aircraft": "Airbus A321"
+        }
+      ],
+      "return_origin_airport": "MNL",
+      "return_destination_airport": "DVO",
+      "return_departure_date": "2026-07-08",
+      "return_arrival_date": "2026-07-08",
+      "return_departure_time": "2026-07-08T09:35:00",
+      "return_arrival_time": "2026-07-08T14:30:00",
+      "return_duration_minutes": 295,
+      "return_stops": 1,
+      "return_airlines": [
+        "Cebu Pacific",
+        "Cebgo"
+      ],
+      "return_flight_numbers": [
+        "617",
+        "6959"
+      ],
+      "return_layovers": [
+        {
+          "duration_minutes": 110,
+          "airport_code": "TAG",
+          "airport_name": "Panglao International Airport",
+          "city": "Panglao"
+        }
+      ],
+      "return_segments": [
+        {
+          "airline_code": "5J",
+          "airline_name": "Cebu Pacific",
+          "flight_number": "617",
+          "operating_airline": null,
+          "origin_airport": "MNL",
+          "origin_name": "Ninoy Aquino International Airport",
+          "destination_airport": "TAG",
+          "destination_name": "Panglao International Airport",
+          "departure_time": "2026-07-08T09:35:00",
+          "arrival_time": "2026-07-08T11:20:00",
+          "duration_minutes": 105,
+          "aircraft": "Airbus A330-900neo"
+        },
+        {
+          "airline_code": "DG",
+          "airline_name": "Cebgo",
+          "flight_number": "6959",
+          "operating_airline": null,
+          "origin_airport": "TAG",
+          "origin_name": "Panglao International Airport",
+          "destination_airport": "DVO",
+          "destination_name": "Davao International Airport",
+          "departure_time": "2026-07-08T13:10:00",
+          "arrival_time": "2026-07-08T14:30:00",
+          "duration_minutes": 80,
+          "aircraft": "ATR 72"
+        }
+      ],
+      "booking_options": [
+        {
+          "provider_code": "5J",
+          "provider_name": "Cebu Pacific",
+          "provider_display_domain": "www.cebupacificair.com",
+          "provider_image_url": "https://www.google.com/s2/favicons?sz=64&domain_url=https://www.cebupacificair.com/",
+          "price": 9207,
+          "currency": "PHP",
+          "deeplink_url": "https://www.google.com/travel/clk/f?u=ADowPOKLqfc7-bQJ0MvH023eiveDwYmQFX_LxU6mcKHUpH6iu-0opz2xfG74FI_Hr3vMvhneCt-2n2ay56DG6Y-LphDWbs9dFQkMLE9q71-d7ALG8zg2DtWP00aQtZrEyDUsvgMO8nECn-7gJYFKKH8ck32r6myVqpbGcaa8_bYHMTw1_j-50rx2a1tLDG57i9C0TY8t5AK6RUI7tRQxCdDVzL338xxSEEHVVs6ooA89K87WxLkUHjlQEoY7J6zrEFiIfXqOP1vkEd6mDUKXK6WoTLypsdC-rTpzis1mAEy7i_9Gq7dTRkf2cxNFLJuhsEufawwQPz67GTBNQGOrYBR2cN4CmDK4FEiaqJEyUHBAvNb3_nXTSaOEiGdrA4tw8WWHgNM4k9ytMiww4v9ca1Hk8b2z_xJ3R88PsgkQoyzUbc8O8nlntu3kcyKjuJk_GGbU8fujicvhVdp6WkoPfJJySg8SV4hwXfxZCg6iuVgwjfPLt8DXpgdYBaK2k5WwZ7a3P24TH7BgqSMK63VB59BtgHHQJ8BCnWoceLYfYi4w0MOFDZY5uSCqxcU8g7CH8QHHFhStpqEKuoWrBYhiiWiViDBnhYve5ASuzz2_7pFG-fZEC9d4b_SgbtIE5lJXFhon2CVdXC8giIZ5Toaa4-Xau7j3-DoaWpcNpYMoJkYnMFC0BBUNu7rmsRHLqfUhRxIS-dtUXOYMPpP_5n6ZBkkWdAy4RzwlK6oT2Kjp8GozzaphVbBkBMQmjrTwQB3bCg60yAnHQ28pMJvuTITP3zLqBWPR4FykBP50_5TurGn7XurSDNlinhjO4w5pL7hRIaBk_g94dhc2reWhEXBvrT-hIJWyhhCsrwpv2M7y_LFT5gvtwKo4VkdxIPdkKHor3NnL-Dpr9-e0ZsYaEcWsvPCEhMN97yXO5_KeCWEST4t0VQ-zJwjYFKOkVKwM5I75JtwPsajEHVIwd8-N3MN5unm36pv-HNkVx1nhwkq9qQbaMQHH4GxJt4d-Ov3LPEOYynW0JAF2d5IbhG8VKF8W9jyEEmVbC3UtTuxkUFFBXo-iecnOgzNQ5rhld8RwD_PADEQQEJXPrz-g3b1szWHEjU5LOVmMrR5R6pulwXEC8TtuCYuwntbOTaRahoIlyNW3NqveEK2R4CF3X4eAIjKvyqg5IHCpPdTsDUxx37qwMH5OHffup-f38Caeyc2_EWtRIlh6qOlceyOEoZQA1fqKw5bcBu87x7gZbNaHaF85XwqEPE5gSif6XtXJBngo7PL8gvmK_qo0NVfpckIaeJakn4D_ZNfNohmhDXx83rLoR3w7al5JS6MUgEA8iZmHHvhPteA91XmQrfmEAF09491vtAItWfG4AzRBLXgT8f7jE-yLd8D_XDaTnmxBgzYLuuawaOOdijVONkHOotVzG4iCUgcKPhLYO9sC6ve48oZUcgqiKBTZ7PokrIbSsxiFcbEuW9fCh8tbMeQnxVtTSAmm-3-76kmDZGVl99kLNfBCSKStuEPlVBHHYvseYygD6vku4ARnI2yc8HEXYErazTJ2O4UszFLINB06oe4FCX0Q3KfNgvg3ZWssAjGFLwUDSqnS0TIFJ32KeMv_VM0K9ItLeuOKm6UiRso8qVpeO_1YYeGO3lBJ0-NTPdN-3-NpnI-uA3Lk5-oX0uq91Nat2zPvzTGRux7qo_-NNG3X9owQzHxTa7iVluETJmlAwaQYKBT8GVpbtKnDN6VOyVQBpV5W0dr0Zy6AaqnISKQxInNcC9irTPrlK7IBhnecJQvx6MmVuuaGyG6UdFenMLGKBwCEXJBdWOHg7oImWL0n0hV_5WqcQBXefuMET8PCXMbE9fJI_vGIxeVA-yxjUeeZfprKX0iI1_88wmpKFjlydbiXd3tR7hvxkd4xMuRPlye4P4yx40g4tCk-ZKuZb6h_9KeobQYi3aE-6PDlP5HMDulLXJhCBP8o7VVUt_vlObldiQnRVg_mMw86nGUCMc7nEUvj8lw1E1Nz5afJ1oJel2qlXsqfsMa-AwTIA150m9HkqiA7xqx9aAheikWY96yojO4DW-JnJyEzvC0DHPKxRIm067iTOQbK3YkNbnIc1Xq36KHl5_bvaW0f2Ho3FepFZVlizoOGX8AHoMSp8obkG2R0Cui7LUqxJx1tj5HsfLRFf5ktobCBP5NRbesd9LpvjTLY0zpdeBrq079K9wXBZywdQHlAWP9kf7-H_tTOFKpVyDUI2C4pn3eF1wvJqfqxrPNa5-i0hV3FGytrcbdxFcYE6IQQ5v6a9Lo67j0GcCZaFguumDC34Z0dCksZVaTxwFRRHlfQKKJOeXRqzY53CVwtRMWfWWEQrynOeg_kgL7f05zEl1J455EPA2fsri0HjIzd7YtQrZ_J9zBT2ZHxg640QUCEEGgfd4EG43sK9C4E5ADrwuNCmyHFiko5oBD2YtYWn01hHGPnVAqPqMS9k6ClEN7rC9kKYQnh2r9_fdD6QTGakCvDFoaZVjWZiOOnm1OnMK-zTbPakO8Tflib-JfwepRoArS1cFfqKVBjLxZvAGLxA_4ujpc-U7d37nHWxmWEsf_laZzfBiVfXY8GE1h6GonoagSQ-a9BuiOU1_Em5oWoIeg1ZnWsh0IvbG3Oyw1JdxBFeeTtBeaSUz11k89nrP9F77snZflLd1jIdpPeOzPX3LArQ_MSwnIcyiJh5Y6roVSODqsYx3A2RLioJrvDldpGaALwJZqAFTC7YnyswxhX7T_ZJ1FI14q6Z_YP4r_Qbiacgh198E9_PWDu7IVQZRbnv_Do4bEpjmXSZmAeifWA74E9l6_3OMBx3h_JexRTI4b3wDe1u_uxZAoAB7sFm-Gb2NOcv0GwNCSbEFNFpSYRs7_cMNwvOMJ3ThYwDy04sOs7rXCn3V9d8cgpPuzs2nC9e176VePGeeoE-rDK1Qq0ShTr_NAFLL7nU4NtCb5rnJ-huLqutb51o9psjKgxDhRtGFdWnZLpAHaX0eQP2UavJ4N7fB4iwwLVuShU3NUrAB_K1IxUmWtk3jPd4HfYN_3d3uGJNKMhflsdZ_OmJtLYAxKBNzuKqiGTYTPX5b9NPLBAmt-d4zepuk7-Tfw4C55neV-gHSsSmKbDJdJXgJIqoM4IbqqbedO5DBREEJc9K-a2O7cK8YZ6L0eQSwFMDEsTtsyXFogHlP4WEWDvJlv4yYFs34AbRXvxRkAlGR8MXlvfbLKg2AcbDUPyKXON-MOwOcWP-5OmPxWExq0wgRcmVAvsGHiGD-ryquIKAap-JUOE05xDEEIioTpVLG6OcAauCCn3uPDo3A-EGgn7W_rU3CZ5qFta_rrXtPvmQVIMxKExMt23GjixvJn5EkIRvmMCzkbErFgccmXLZ01pfZBGRCEvAAYCsh3cSJKgM4OsK0KoSMFT45WNLSORvGBSwMOGJV48EeDTBkHzWPLA7od5MB78FV_iJaxH5JC33qR39lQpo-C-b2f30qDsBANOW4S_vVTKJWaicKkaY5On4ZUBmqnZ5g",
+          "fare_name": null,
+          "resolved_booking_url": "https://www.cebupacificair.com/en-PH/flight/select?dd1=2026-07-02&o1=DVO&d1=MNL&dd2=2026-07-08&o2=MNL&d2=DVO&adt=1&chd=0&inf=0&inl=0&gclid=ADowPOJW9qgwSs1H4z1NJzLIqiB-twXxATbo32YoBcHfypZwB0cmPWp3FucNCbiKDf5fqaOZZRdrJsBtEYfwsZmMOcA9c9Ehh0oJbRBCITosuKJ6PcwV&gclsrc=gf",
+          "flight_codes": [
+            "5J 3952",
+            "5J 617",
+            "DG 6959"
+          ],
+          "is_primary": true,
+          "raw_rank": 0
+        }
+      ]
+    }
+  ]
+}
