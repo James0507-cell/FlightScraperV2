@@ -1,0 +1,165 @@
+{
+  "generated_at": "2026-05-20T07:09:20+00:00",
+  "query_file": "benchmark-queries.json",
+  "concurrency": 1,
+  "browser": {
+    "wall_time_seconds": 63.5711,
+    "count": 3,
+    "success_count": 3,
+    "failure_count": 0,
+    "results": [
+      {
+        "status": "ok",
+        "query": {
+          "origin": "DVO",
+          "destination": "MNL",
+          "depart_date": "2026-07-02",
+          "return_date": "2026-07-08"
+        },
+        "final_url": "https://www.google.com/travel/flights/search?tfs=CBwQAhogEgoyMDI2LTA3LTAyKABqBwgBEgNEVk9yBwgBEgNNTkwaIBIKMjAyNi0wNy0wOCgAagcIARIDTU5McgcIARIDRFZPQAFIAXABggELCP___________wGYAQE&tfu=EgYIABAAGAA",
+        "offer_count": 25,
+        "archive_dir": "artifacts\\20260520T070903128057Z",
+        "requested_mode": "browser",
+        "executed_mode": "browser",
+        "timings": {
+          "total_seconds": 51.9094,
+          "submission_seconds": 50.8638,
+          "parse_seconds": 0.0,
+          "archive_seconds": 0.0162
+        },
+        "notes": [
+          "summary mode returns outbound options only for round-trip searches; fetch offer details to load return choices and booking options"
+        ]
+      },
+      {
+        "status": "ok",
+        "query": {
+          "origin": "CEB",
+          "destination": "MNL",
+          "depart_date": "2026-07-02",
+          "return_date": "2026-07-08"
+        },
+        "final_url": "https://www.google.com/travel/flights/search?tfs=CBwQAhogEgoyMDI2LTA3LTAyKABqBwgBEgNDRUJyBwgBEgNNTkwaIBIKMjAyNi0wNy0wOCgAagcIARIDTU5McgcIARIDQ0VCQAFIAXABggELCP___________wGYAQE&tfu=EgYIABAAGAA",
+        "offer_count": 30,
+        "archive_dir": "artifacts\\20260520T070908455346Z",
+        "requested_mode": "browser",
+        "executed_mode": "browser",
+        "timings": {
+          "total_seconds": 5.2574,
+          "submission_seconds": 4.774,
+          "parse_seconds": 0.0,
+          "archive_seconds": 0.0249
+        },
+        "notes": [
+          "summary mode returns outbound options only for round-trip searches; fetch offer details to load return choices and booking options"
+        ]
+      },
+      {
+        "status": "ok",
+        "query": {
+          "origin": "MNL",
+          "destination": "DVO",
+          "depart_date": "2026-07-02",
+          "return_date": "2026-07-08"
+        },
+        "final_url": "https://www.google.com/travel/flights/search?tfs=CBwQAhogEgoyMDI2LTA3LTAyKABqBwgBEgNNTkxyBwgBEgNEVk8aIBIKMjAyNi0wNy0wOCgAagcIARIDRFZPcgcIARIDTU5MQAFIAXABggELCP___________wGYAQE&tfu=EgYIABAAGAA",
+        "offer_count": 24,
+        "archive_dir": "artifacts\\20260520T070913698303Z",
+        "requested_mode": "browser",
+        "executed_mode": "browser",
+        "timings": {
+          "total_seconds": 5.0433,
+          "submission_seconds": 4.5664,
+          "parse_seconds": 0.0,
+          "archive_seconds": 0.0167
+        },
+        "notes": [
+          "summary mode returns outbound options only for round-trip searches; fetch offer details to load return choices and booking options"
+        ]
+      }
+    ]
+  },
+  "replay": {
+    "wall_time_seconds": 6.8505,
+    "count": 3,
+    "success_count": 3,
+    "failure_count": 0,
+    "results": [
+      {
+        "status": "ok",
+        "query": {
+          "origin": "DVO",
+          "destination": "MNL",
+          "depart_date": "2026-07-02",
+          "return_date": "2026-07-08"
+        },
+        "final_url": "https://www.google.com/travel/flights/search?tfs=CBwQAhogEgoyMDI2LTA3LTAyKABqBwgBEgNEVk9yBwgBEgNNTkwaIBIKMjAyNi0wNy0wOCgAagcIARIDTU5McgcIARIDRFZPQAFIAXABggELCP___________wGYAQE&tfu=EgYIABAAGAA",
+        "offer_count": 25,
+        "archive_dir": "artifacts\\20260520T070919751998Z",
+        "requested_mode": "replay",
+        "executed_mode": "browser_bootstrap",
+        "timings": {
+          "total_seconds": 5.4239,
+          "submission_seconds": 4.4821,
+          "parse_seconds": 0.0,
+          "archive_seconds": 0.0187
+        },
+        "notes": [
+          "summary mode returns outbound options only for round-trip searches; fetch offer details to load return choices and booking options",
+          "browser bootstrap captured replay template"
+        ]
+      },
+      {
+        "status": "ok",
+        "query": {
+          "origin": "CEB",
+          "destination": "MNL",
+          "depart_date": "2026-07-02",
+          "return_date": "2026-07-08"
+        },
+        "final_url": "https://www.google.com/travel/flights/search",
+        "offer_count": 30,
+        "archive_dir": "artifacts\\20260520T070920273182Z",
+        "requested_mode": "replay",
+        "executed_mode": "replay",
+        "timings": {
+          "total_seconds": 0.4737,
+          "request_seconds": 0.449,
+          "parse_seconds": 0.0072,
+          "archive_seconds": 0.0173
+        },
+        "notes": []
+      },
+      {
+        "status": "ok",
+        "query": {
+          "origin": "MNL",
+          "destination": "DVO",
+          "depart_date": "2026-07-02",
+          "return_date": "2026-07-08"
+        },
+        "final_url": "https://www.google.com/travel/flights/search",
+        "offer_count": 24,
+        "archive_dir": "artifacts\\20260520T070920573410Z",
+        "requested_mode": "replay",
+        "executed_mode": "replay",
+        "timings": {
+          "total_seconds": 0.2785,
+          "request_seconds": 0.259,
+          "parse_seconds": 0.0042,
+          "archive_seconds": 0.0151
+        },
+        "notes": []
+      }
+    ]
+  },
+  "summary": {
+    "browser_success_count": 3,
+    "replay_success_count": 3,
+    "browser_failure_count": 0,
+    "replay_failure_count": 0,
+    "browser_wall_time_seconds": 63.5711,
+    "replay_wall_time_seconds": 6.8505,
+    "speedup_ratio": 9.2798
+  }
+}

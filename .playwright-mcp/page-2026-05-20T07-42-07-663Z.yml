@@ -1,0 +1,1096 @@
+- generic [ref=e1]:
+  - banner [ref=e3]:
+    - generic [ref=e4]:
+      - generic [ref=e5]:
+        - button "Main menu" [ref=e6] [cursor=pointer]:
+          - img [ref=e7]
+        - link "Google" [ref=e11] [cursor=pointer]:
+          - /url: /
+      - generic [ref=e13]:
+        - generic [ref=e15]:
+          - generic:
+            - button "Skip to main content" [ref=e16]:
+              - generic: Skip to main content
+            - button "Accessibility feedback" [ref=e19]:
+              - generic: Accessibility feedback
+          - navigation [ref=e23]:
+            - link "Travel" [ref=e26]:
+              - img [ref=e29]
+              - generic: Travel
+            - link "Explore" [ref=e35]:
+              - img [ref=e38]
+              - generic: Explore
+            - link "Flights" [ref=e43]:
+              - img [ref=e46]
+              - generic: Flights
+            - link "Hotels" [ref=e51]:
+              - img [ref=e54]
+              - generic: Hotels
+            - link "Vacation rentals" [ref=e62]:
+              - img [ref=e65]
+              - generic: Vacation rentals
+        - generic [ref=e79]:
+          - button "Change appearance" [ref=e81]:
+            - img
+          - tooltip [ref=e84]: Change appearance
+      - generic [ref=e86]:
+        - button "Google apps" [ref=e90] [cursor=pointer]:
+          - img [ref=e91]
+        - link "Sign in" [ref=e94] [cursor=pointer]:
+          - /url: https://accounts.google.com/ServiceLogin?service=searchandassistant&passive=1209600&continue=https://www.google.com/travel/flights/search?q%3Dflights%2Bfrom%2BDVO%2Bto%2BMNL%2Bon%2B2026-07-02&followup=https://www.google.com/travel/flights/search?q%3Dflights%2Bfrom%2BDVO%2Bto%2BMNL%2Bon%2B2026-07-02&ec=GAZAlQM
+  - generic [ref=e102]:
+    - generic [ref=e104]:
+      - generic [ref=e105]: Loading results
+      - progressbar [ref=e106]
+    - generic [ref=e113]:
+      - search [ref=e114]:
+        - heading "Flight search" [level=1] [ref=e115]
+        - generic [ref=e116]:
+          - generic [ref=e117]:
+            - combobox "Change ticket type. Round trip" [ref=e122] [cursor=pointer]:
+              - generic:
+                - img
+              - generic:
+                - generic: Round trip
+              - generic:
+                - img
+            - button "1 passenger, change number of passengers." [ref=e128]:
+              - generic [ref=e131]:
+                - img [ref=e132]
+                - generic [ref=e134]: "1"
+              - img [ref=e135]
+            - combobox "Change seating class. Economy" [ref=e141] [cursor=pointer]:
+              - generic:
+                - generic: Economy
+              - generic:
+                - img
+          - generic [ref=e143]:
+            - generic [ref=e144]:
+              - generic [ref=e150]:
+                - combobox "Where from? Davao City DVO" [ref=e151]: Davao City
+                - generic [ref=e153]: Davao City DVO
+                - img [ref=e154]
+              - button "Swap origin and destination." [ref=e158] [cursor=pointer]:
+                - img [ref=e159]
+              - generic [ref=e166]:
+                - combobox "Where to? Manila MNL" [ref=e167]: Manila
+                - generic [ref=e169]: Manila MNL
+                - img [ref=e170]
+            - generic [ref=e181]:
+              - generic [ref=e183]:
+                - img [ref=e185]
+                - textbox "Departure" [ref=e188]: Thu, Jul 2
+                - button [ref=e191]:
+                  - img [ref=e194]
+                - button [ref=e198]:
+                  - img [ref=e201]
+              - generic [ref=e205]:
+                - textbox "Return" [ref=e206]: Mon, Jul 6
+                - button [ref=e209]:
+                  - img [ref=e212]
+                - button [ref=e216]:
+                  - img [ref=e219]
+          - heading "Filters" [level=2] [ref=e222]
+          - generic [ref=e225]:
+            - button "All filters" [ref=e228]:
+              - img [ref=e231]
+              - generic [ref=e233]: All filters
+            - generic [ref=e236]:
+              - button "Stops, Not selected" [ref=e239]:
+                - generic [ref=e243]:
+                  - generic [ref=e244]: Stops
+                  - img [ref=e245]
+              - button "Airlines, Not selected" [ref=e249]:
+                - generic [ref=e253]:
+                  - generic [ref=e254]: Airlines
+                  - img [ref=e255]
+              - button "Bags, Not selected" [ref=e259]:
+                - generic [ref=e263]:
+                  - generic [ref=e264]: Bags
+                  - img [ref=e265]
+              - button "Price, Not selected" [ref=e269]:
+                - generic [ref=e273]:
+                  - generic [ref=e274]: Price
+                  - img [ref=e275]
+              - button "Times, Not selected" [ref=e279]:
+                - generic [ref=e283]:
+                  - generic [ref=e284]: Times
+                  - img [ref=e285]
+              - button "Emissions, Not selected" [ref=e289]:
+                - generic [ref=e293]:
+                  - generic [ref=e294]: Emissions
+                  - img [ref=e295]
+              - button "Connecting airports, Not selected" [ref=e299]:
+                - generic [ref=e303]:
+                  - generic [ref=e304]: Connecting airports
+                  - img [ref=e305]
+              - button "Duration, Not selected" [ref=e309]:
+                - generic [ref=e313]:
+                  - generic [ref=e314]: Duration
+                  - img [ref=e315]
+      - main [ref=e317]:
+        - heading "Search results" [level=2] [ref=e318]
+        - alert [ref=e1883]: 27 results returned.
+        - generic [ref=e320]:
+          - tablist [ref=e321]:
+            - tab "BestLearn more about ranking" [selected] [ref=e322] [cursor=pointer]:
+              - generic [ref=e323]:
+                - text: Best
+                - button "Learn more about ranking" [ref=e329]:
+                  - img [ref=e331]
+            - tab "Cheapest from 5917 Philippine pesos Learn more about ranking" [ref=e1884] [cursor=pointer]:
+              - generic [ref=e334]:
+                - text: Cheapest
+                - generic [ref=e336]:
+                  - generic [ref=e337]:
+                    - text: from
+                    - generic [ref=e1885]: ₱5,917
+                  - button "Learn more about ranking" [ref=e360]:
+                    - img [ref=e362]
+          - tabpanel "BestLearn more about ranking" [ref=e364]:
+            - generic [ref=e365]:
+              - heading "Top departing flights" [active] [level=3] [ref=e366]
+              - generic [ref=e367]:
+                - generic [ref=e368]:
+                  - text: Ranked based on price and convenience
+                  - button "Learn more about ranking" [ref=e372] [cursor=pointer]:
+                    - img [ref=e374]
+                  - text: Prices include required taxes + fees for 1 adult.
+                  - generic [ref=e376]:
+                    - text: Optional charges and
+                    - button "bag fees" [ref=e377] [cursor=pointer]
+                    - text: may apply.
+                    - generic [ref=e378]:
+                      - button "Passenger assistance" [ref=e379] [cursor=pointer]
+                      - text: info.
+                - button "Sorted by top flights, Change sort order." [ref=e384]:
+                  - generic [ref=e387]: Sorted by top flights
+                  - img [ref=e388]
+              - list [ref=e390]:
+                - listitem [ref=e391]:
+                  - generic [ref=e392]:
+                    - link "From 6177 Philippine pesos round trip total. Nonstop flight with Cebu Pacific. Leaves Davao International Airport at 12:05 AM on Thursday, July 2 and arrives at Ninoy Aquino International Airport at 2:05 AM on Thursday, July 2. Total duration 2 hr. Select flight"
+                    - generic [ref=e394] [cursor=pointer]:
+                      - generic [ref=e396]:
+                        - generic [ref=e398]:
+                          - generic "Leaves Davao International Airport at 12:05 AM on Thursday, July 2 and arrives at Ninoy Aquino International Airport at 2:05 AM on Thursday, July 2." [ref=e400]:
+                            - 'generic "Departure time: 12:05 AM." [ref=e1888]': 12:05 AM
+                            - text: –
+                            - 'generic "Arrival time: 2:05 AM." [ref=e1891]': 2:05 AM
+                          - generic [ref=e407]: Cebu Pacific
+                        - generic [ref=e408]:
+                          - generic "Total duration 2 hr." [ref=e409]: 2 hr
+                          - generic [ref=e410]:
+                            - generic [ref=e1893]: DVO
+                            - text: –
+                            - generic [ref=e1895]: MNL
+                        - generic "Nonstop flight." [ref=e419]: Nonstop
+                        - generic [ref=e421]:
+                          - generic [ref=e423]: 93 kg CO2e
+                          - generic [ref=e424]:
+                            - generic [ref=e425]: "-8% emissions"
+                            - 'button "Carbon emissions estimate: 93 kilograms. -8% emissions. Learn more about this emissions estimate" [ref=e426]':
+                              - img [ref=e427]
+                        - generic [ref=e429]:
+                          - generic [ref=e431]: ₱6,177
+                          - generic [ref=e432]: round trip
+                      - text: · ··
+                    - button "Flight details. Leaves Davao International Airport at 12:05 AM on Thursday, July 2 and arrives at Ninoy Aquino International Airport at 2:05 AM on Thursday, July 2." [ref=e435]:
+                      - img [ref=e438]
+                - listitem [ref=e440]:
+                  - generic [ref=e441]:
+                    - link "From 6177 Philippine pesos round trip total. Nonstop flight with Cebu Pacific. Leaves Davao International Airport at 1:50 AM on Thursday, July 2 and arrives at Ninoy Aquino International Airport at 3:50 AM on Thursday, July 2. Total duration 2 hr. Select flight"
+                    - generic [ref=e443] [cursor=pointer]:
+                      - generic [ref=e445]:
+                        - generic [ref=e447]:
+                          - generic "Leaves Davao International Airport at 1:50 AM on Thursday, July 2 and arrives at Ninoy Aquino International Airport at 3:50 AM on Thursday, July 2." [ref=e449]:
+                            - 'generic "Departure time: 1:50 AM." [ref=e1898]': 1:50 AM
+                            - text: –
+                            - 'generic "Arrival time: 3:50 AM." [ref=e1901]': 3:50 AM
+                          - generic [ref=e456]: Cebu Pacific
+                        - generic [ref=e457]:
+                          - generic "Total duration 2 hr." [ref=e458]: 2 hr
+                          - generic [ref=e459]:
+                            - generic [ref=e1903]: DVO
+                            - text: –
+                            - generic [ref=e1905]: MNL
+                        - generic "Nonstop flight." [ref=e468]: Nonstop
+                        - generic [ref=e470]:
+                          - generic [ref=e472]: 77 kg CO2e
+                          - generic [ref=e473]:
+                            - generic [ref=e474]: "-24% emissions"
+                            - 'button "Carbon emissions estimate: 77 kilograms. -24% emissions. Learn more about this emissions estimate" [ref=e475]':
+                              - img [ref=e476]
+                        - generic [ref=e478]:
+                          - generic [ref=e480]: ₱6,177
+                          - generic [ref=e481]: round trip
+                      - text: · ··
+                    - button "Flight details. Leaves Davao International Airport at 1:50 AM on Thursday, July 2 and arrives at Ninoy Aquino International Airport at 3:50 AM on Thursday, July 2." [ref=e484]:
+                      - img [ref=e487]
+                - listitem [ref=e489]:
+                  - generic [ref=e490]:
+                    - link "From 6177 Philippine pesos round trip total. Nonstop flight with Cebu Pacific. Leaves Davao International Airport at 4:30 AM on Thursday, July 2 and arrives at Ninoy Aquino International Airport at 6:30 AM on Thursday, July 2. Total duration 2 hr. Select flight"
+                    - generic [ref=e492] [cursor=pointer]:
+                      - generic [ref=e494]:
+                        - generic [ref=e496]:
+                          - generic "Leaves Davao International Airport at 4:30 AM on Thursday, July 2 and arrives at Ninoy Aquino International Airport at 6:30 AM on Thursday, July 2." [ref=e498]:
+                            - 'generic "Departure time: 4:30 AM." [ref=e1908]': 4:30 AM
+                            - text: –
+                            - 'generic "Arrival time: 6:30 AM." [ref=e1911]': 6:30 AM
+                          - generic [ref=e505]: Cebu Pacific
+                        - generic [ref=e506]:
+                          - generic "Total duration 2 hr." [ref=e507]: 2 hr
+                          - generic [ref=e508]:
+                            - generic [ref=e1913]: DVO
+                            - text: –
+                            - generic [ref=e1915]: MNL
+                        - generic "Nonstop flight." [ref=e517]: Nonstop
+                        - generic [ref=e519]:
+                          - generic [ref=e521]: 94 kg CO2e
+                          - generic [ref=e522]:
+                            - generic [ref=e523]: "-7% emissions"
+                            - 'button "Carbon emissions estimate: 94 kilograms. -7% emissions. Learn more about this emissions estimate" [ref=e524]':
+                              - img [ref=e525]
+                        - generic [ref=e527]:
+                          - generic [ref=e529]: ₱6,177
+                          - generic [ref=e530]: round trip
+                      - text: · ··
+                    - button "Flight details. Leaves Davao International Airport at 4:30 AM on Thursday, July 2 and arrives at Ninoy Aquino International Airport at 6:30 AM on Thursday, July 2." [ref=e533]:
+                      - img [ref=e536]
+                - listitem [ref=e538]:
+                  - generic [ref=e539]:
+                    - link "From 6177 Philippine pesos round trip total. Nonstop flight with Cebu Pacific. Leaves Davao International Airport at 11:30 AM on Thursday, July 2 and arrives at Ninoy Aquino International Airport at 1:35 PM on Thursday, July 2. Total duration 2 hr 5 min. Select flight"
+                    - generic [ref=e541] [cursor=pointer]:
+                      - generic [ref=e543]:
+                        - generic [ref=e545]:
+                          - generic "Leaves Davao International Airport at 11:30 AM on Thursday, July 2 and arrives at Ninoy Aquino International Airport at 1:35 PM on Thursday, July 2." [ref=e547]:
+                            - 'generic "Departure time: 11:30 AM." [ref=e1918]': 11:30 AM
+                            - text: –
+                            - 'generic "Arrival time: 1:35 PM." [ref=e1921]': 1:35 PM
+                          - generic [ref=e554]: Cebu Pacific
+                        - generic [ref=e555]:
+                          - generic "Total duration 2 hr 5 min." [ref=e556]: 2 hr 5 min
+                          - generic [ref=e557]:
+                            - generic [ref=e1923]: DVO
+                            - text: –
+                            - generic [ref=e1925]: MNL
+                        - generic "Nonstop flight." [ref=e566]: Nonstop
+                        - generic [ref=e568]:
+                          - generic [ref=e570]: 72 kg CO2e
+                          - generic [ref=e571]:
+                            - generic [ref=e572]: "-29% emissions"
+                            - 'button "Carbon emissions estimate: 72 kilograms. -29% emissions. Learn more about this emissions estimate" [ref=e573]':
+                              - img [ref=e574]
+                        - generic [ref=e576]:
+                          - generic [ref=e578]: ₱6,177
+                          - generic [ref=e579]: round trip
+                      - text: · ··
+                    - button "Flight details. Leaves Davao International Airport at 11:30 AM on Thursday, July 2 and arrives at Ninoy Aquino International Airport at 1:35 PM on Thursday, July 2." [ref=e582]:
+                      - img [ref=e585]
+            - generic [ref=e1930]:
+              - heading "Price insights" [level=3] [ref=e1931]
+              - generic [ref=e1932] [cursor=pointer]:
+                - heading "Prices are currently typical" [level=4] [ref=e1937]
+                - generic [ref=e1939]: View price history
+                - button "View price history" [ref=e1941]:
+                  - img [ref=e1944]
+            - region "Find the best price" [ref=e657]:
+              - generic [ref=e1947]:
+                - img [ref=e1948]
+                - heading "Track prices" [level=2] [ref=e1950]
+                - button "Learn more about tracked prices" [ref=e1954] [cursor=pointer]:
+                  - link "Learn more about tracked prices" [ref=e1955]:
+                    - img [ref=e1956]
+                - generic [ref=e1958]: Track prices from Davao City to Manila departing 2026-07-02 and returning 2026-07-06
+                - generic [ref=e1959]:
+                  - generic [ref=e1961] [cursor=pointer]: Jul 2 – 6
+                  - switch "Track prices from Davao City to Manila departing 2026-07-02 and returning 2026-07-06" [ref=e1964] [cursor=pointer]:
+                    - generic [ref=e1969]:
+                      - img [ref=e1970]
+                      - img [ref=e1972]
+                - generic [ref=e1975]: Track prices from Davao City to Manila - Any dates
+                - generic [ref=e1977]:
+                  - generic [ref=e1978] [cursor=pointer]: Any dates
+                  - switch "Track prices from Davao City to Manila - Any dates" [ref=e1981] [cursor=pointer]:
+                    - generic [ref=e1986]:
+                      - img [ref=e1987]
+                      - img [ref=e1989]
+              - generic [ref=e707]:
+                - button "Date grid" [ref=e709]:
+                  - img [ref=e711]
+                  - generic [ref=e718]: Date grid
+                - button "Price graph" [ref=e720]:
+                  - img [ref=e722]
+                  - generic [ref=e732]: Price graph
+            - generic [ref=e733]:
+              - heading "Other departing flights" [level=3] [ref=e734]
+              - list [ref=e735]:
+                - listitem [ref=e736]:
+                  - generic [ref=e737]:
+                    - link "From 6177 Philippine pesos round trip total. Nonstop flight with Cebu Pacific. Leaves Davao International Airport at 2:05 AM on Thursday, July 2 and arrives at Ninoy Aquino International Airport at 4:10 AM on Thursday, July 2. Total duration 2 hr 5 min. Select flight"
+                    - generic [ref=e739] [cursor=pointer]:
+                      - generic [ref=e741]:
+                        - generic [ref=e743]:
+                          - generic "Leaves Davao International Airport at 2:05 AM on Thursday, July 2 and arrives at Ninoy Aquino International Airport at 4:10 AM on Thursday, July 2." [ref=e745]:
+                            - 'generic "Departure time: 2:05 AM." [ref=e1994]': 2:05 AM
+                            - text: –
+                            - 'generic "Arrival time: 4:10 AM." [ref=e1997]': 4:10 AM
+                          - generic [ref=e752]: Cebu Pacific
+                        - generic [ref=e753]:
+                          - generic "Total duration 2 hr 5 min." [ref=e754]: 2 hr 5 min
+                          - generic [ref=e755]:
+                            - generic [ref=e1999]: DVO
+                            - text: –
+                            - generic [ref=e2001]: MNL
+                        - generic "Nonstop flight." [ref=e764]: Nonstop
+                        - generic [ref=e766]:
+                          - generic [ref=e768]: 94 kg CO2e
+                          - generic [ref=e769]:
+                            - generic [ref=e770]: "-7% emissions"
+                            - 'button "Carbon emissions estimate: 94 kilograms. -7% emissions. Learn more about this emissions estimate" [ref=e771]':
+                              - img [ref=e772]
+                        - generic [ref=e774]:
+                          - generic [ref=e776]: ₱6,177
+                          - generic [ref=e777]: round trip
+                      - text: · ··
+                    - button "Flight details. Leaves Davao International Airport at 2:05 AM on Thursday, July 2 and arrives at Ninoy Aquino International Airport at 4:10 AM on Thursday, July 2." [ref=e780]:
+                      - img [ref=e783]
+                - listitem [ref=e785]:
+                  - generic [ref=e786]:
+                    - link "From 6177 Philippine pesos round trip total. Nonstop flight with Cebu Pacific. Leaves Davao International Airport at 2:50 AM on Thursday, July 2 and arrives at Ninoy Aquino International Airport at 4:55 AM on Thursday, July 2. Total duration 2 hr 5 min. Select flight"
+                    - generic [ref=e788] [cursor=pointer]:
+                      - generic [ref=e790]:
+                        - generic [ref=e792]:
+                          - generic "Leaves Davao International Airport at 2:50 AM on Thursday, July 2 and arrives at Ninoy Aquino International Airport at 4:55 AM on Thursday, July 2." [ref=e794]:
+                            - 'generic "Departure time: 2:50 AM." [ref=e2004]': 2:50 AM
+                            - text: –
+                            - 'generic "Arrival time: 4:55 AM." [ref=e2007]': 4:55 AM
+                          - generic [ref=e801]: Cebu Pacific
+                        - generic [ref=e802]:
+                          - generic "Total duration 2 hr 5 min." [ref=e803]: 2 hr 5 min
+                          - generic [ref=e804]:
+                            - generic [ref=e2009]: DVO
+                            - text: –
+                            - generic [ref=e2011]: MNL
+                        - generic "Nonstop flight." [ref=e813]: Nonstop
+                        - generic [ref=e815]:
+                          - generic [ref=e817]: 94 kg CO2e
+                          - generic [ref=e818]:
+                            - generic [ref=e819]: "-7% emissions"
+                            - 'button "Carbon emissions estimate: 94 kilograms. -7% emissions. Learn more about this emissions estimate" [ref=e820]':
+                              - img [ref=e821]
+                        - generic [ref=e823]:
+                          - generic [ref=e825]: ₱6,177
+                          - generic [ref=e826]: round trip
+                      - text: · ··
+                    - button "Flight details. Leaves Davao International Airport at 2:50 AM on Thursday, July 2 and arrives at Ninoy Aquino International Airport at 4:55 AM on Thursday, July 2." [ref=e829]:
+                      - img [ref=e832]
+                - listitem [ref=e834]:
+                  - generic [ref=e835]:
+                    - link "From 6177 Philippine pesos round trip total. Nonstop flight with Cebu Pacific. Leaves Davao International Airport at 6:35 PM on Thursday, July 2 and arrives at Ninoy Aquino International Airport at 8:35 PM on Thursday, July 2. Total duration 2 hr. Select flight"
+                    - generic [ref=e837] [cursor=pointer]:
+                      - generic [ref=e839]:
+                        - generic [ref=e841]:
+                          - generic "Leaves Davao International Airport at 6:35 PM on Thursday, July 2 and arrives at Ninoy Aquino International Airport at 8:35 PM on Thursday, July 2." [ref=e843]:
+                            - 'generic "Departure time: 6:35 PM." [ref=e2014]': 6:35 PM
+                            - text: –
+                            - 'generic "Arrival time: 8:35 PM." [ref=e2017]': 8:35 PM
+                          - generic [ref=e850]: Cebu Pacific
+                        - generic [ref=e851]:
+                          - generic "Total duration 2 hr." [ref=e852]: 2 hr
+                          - generic [ref=e853]:
+                            - generic [ref=e2019]: DVO
+                            - text: –
+                            - generic [ref=e2021]: MNL
+                        - generic "Nonstop flight." [ref=e862]: Nonstop
+                        - generic [ref=e864]:
+                          - generic [ref=e866]: 93 kg CO2e
+                          - generic [ref=e867]:
+                            - generic [ref=e868]: "-8% emissions"
+                            - 'button "Carbon emissions estimate: 93 kilograms. -8% emissions. Learn more about this emissions estimate" [ref=e869]':
+                              - img [ref=e870]
+                        - generic [ref=e872]:
+                          - generic [ref=e874]: ₱6,177
+                          - generic [ref=e875]: round trip
+                      - text: · ··
+                    - button "Flight details. Leaves Davao International Airport at 6:35 PM on Thursday, July 2 and arrives at Ninoy Aquino International Airport at 8:35 PM on Thursday, July 2." [ref=e878]:
+                      - img [ref=e881]
+                - listitem [ref=e883]:
+                  - generic [ref=e884]:
+                    - link "From 6177 Philippine pesos round trip total. Nonstop flight with Cebu Pacific. Leaves Davao International Airport at 7:00 PM on Thursday, July 2 and arrives at Ninoy Aquino International Airport at 9:00 PM on Thursday, July 2. Total duration 2 hr. Select flight"
+                    - generic [ref=e886] [cursor=pointer]:
+                      - generic [ref=e888]:
+                        - generic [ref=e890]:
+                          - generic "Leaves Davao International Airport at 7:00 PM on Thursday, July 2 and arrives at Ninoy Aquino International Airport at 9:00 PM on Thursday, July 2." [ref=e892]:
+                            - 'generic "Departure time: 7:00 PM." [ref=e2024]': 7:00 PM
+                            - text: –
+                            - 'generic "Arrival time: 9:00 PM." [ref=e2027]': 9:00 PM
+                          - generic [ref=e899]: Cebu Pacific
+                        - generic [ref=e900]:
+                          - generic "Total duration 2 hr." [ref=e901]: 2 hr
+                          - generic [ref=e902]:
+                            - generic [ref=e2029]: DVO
+                            - text: –
+                            - generic [ref=e2031]: MNL
+                        - generic "Nonstop flight." [ref=e911]: Nonstop
+                        - generic [ref=e913]:
+                          - generic [ref=e915]: 75 kg CO2e
+                          - generic [ref=e916]:
+                            - generic [ref=e917]: "-26% emissions"
+                            - 'button "Carbon emissions estimate: 75 kilograms. -26% emissions. Learn more about this emissions estimate" [ref=e918]':
+                              - img [ref=e919]
+                        - generic [ref=e921]:
+                          - generic [ref=e923]: ₱6,177
+                          - generic [ref=e924]: round trip
+                      - text: · ··
+                    - button "Flight details. Leaves Davao International Airport at 7:00 PM on Thursday, July 2 and arrives at Ninoy Aquino International Airport at 9:00 PM on Thursday, July 2." [ref=e927]:
+                      - img [ref=e930]
+                - listitem [ref=e932]:
+                  - generic [ref=e933]:
+                    - link "From 6177 Philippine pesos round trip total. Nonstop flight with Cebu Pacific. Leaves Davao International Airport at 7:50 PM on Thursday, July 2 and arrives at Ninoy Aquino International Airport at 9:55 PM on Thursday, July 2. Total duration 2 hr 5 min. Select flight"
+                    - generic [ref=e935] [cursor=pointer]:
+                      - generic [ref=e937]:
+                        - generic [ref=e939]:
+                          - generic "Leaves Davao International Airport at 7:50 PM on Thursday, July 2 and arrives at Ninoy Aquino International Airport at 9:55 PM on Thursday, July 2." [ref=e941]:
+                            - 'generic "Departure time: 7:50 PM." [ref=e2034]': 7:50 PM
+                            - text: –
+                            - 'generic "Arrival time: 9:55 PM." [ref=e2037]': 9:55 PM
+                          - generic [ref=e948]: Cebu Pacific
+                        - generic [ref=e949]:
+                          - generic "Total duration 2 hr 5 min." [ref=e950]: 2 hr 5 min
+                          - generic [ref=e951]:
+                            - generic [ref=e2039]: DVO
+                            - text: –
+                            - generic [ref=e2041]: MNL
+                        - generic "Nonstop flight." [ref=e960]: Nonstop
+                        - generic [ref=e962]:
+                          - generic [ref=e964]: 93 kg CO2e
+                          - generic [ref=e965]:
+                            - generic [ref=e966]: "-8% emissions"
+                            - 'button "Carbon emissions estimate: 93 kilograms. -8% emissions. Learn more about this emissions estimate" [ref=e967]':
+                              - img [ref=e968]
+                        - generic [ref=e970]:
+                          - generic [ref=e972]: ₱6,177
+                          - generic [ref=e973]: round trip
+                      - text: · ··
+                    - button "Flight details. Leaves Davao International Airport at 7:50 PM on Thursday, July 2 and arrives at Ninoy Aquino International Airport at 9:55 PM on Thursday, July 2." [ref=e976]:
+                      - img [ref=e979]
+                - listitem [ref=e981]:
+                  - generic [ref=e982]:
+                    - link "From 6177 Philippine pesos round trip total. Nonstop flight with Cebu Pacific. Leaves Davao International Airport at 8:45 PM on Thursday, July 2 and arrives at Ninoy Aquino International Airport at 10:50 PM on Thursday, July 2. Total duration 2 hr 5 min. Select flight"
+                    - generic [ref=e984] [cursor=pointer]:
+                      - generic [ref=e986]:
+                        - generic [ref=e988]:
+                          - generic "Leaves Davao International Airport at 8:45 PM on Thursday, July 2 and arrives at Ninoy Aquino International Airport at 10:50 PM on Thursday, July 2." [ref=e990]:
+                            - 'generic "Departure time: 8:45 PM." [ref=e2044]': 8:45 PM
+                            - text: –
+                            - 'generic "Arrival time: 10:50 PM." [ref=e2047]': 10:50 PM
+                          - generic [ref=e997]: Cebu Pacific
+                        - generic [ref=e998]:
+                          - generic "Total duration 2 hr 5 min." [ref=e999]: 2 hr 5 min
+                          - generic [ref=e1000]:
+                            - generic [ref=e2049]: DVO
+                            - text: –
+                            - generic [ref=e2051]: MNL
+                        - generic "Nonstop flight." [ref=e1009]: Nonstop
+                        - generic [ref=e1011]:
+                          - generic [ref=e1013]: 77 kg CO2e
+                          - generic [ref=e1014]:
+                            - generic [ref=e1015]: "-24% emissions"
+                            - 'button "Carbon emissions estimate: 77 kilograms. -24% emissions. Learn more about this emissions estimate" [ref=e1016]':
+                              - img [ref=e1017]
+                        - generic [ref=e1019]:
+                          - generic [ref=e1021]: ₱6,177
+                          - generic [ref=e1022]: round trip
+                      - text: · ··
+                    - button "Flight details. Leaves Davao International Airport at 8:45 PM on Thursday, July 2 and arrives at Ninoy Aquino International Airport at 10:50 PM on Thursday, July 2." [ref=e1025]:
+                      - img [ref=e1028]
+                - listitem [ref=e1030]:
+                  - generic [ref=e1031]:
+                    - link "From 6177 Philippine pesos round trip total. Nonstop flight with Cebu Pacific. Leaves Davao International Airport at 10:10 PM on Thursday, July 2 and arrives at Ninoy Aquino International Airport at 12:15 AM on Friday, July 3. Total duration 2 hr 5 min. Select flight"
+                    - generic [ref=e1033] [cursor=pointer]:
+                      - generic [ref=e1035]:
+                        - generic [ref=e1037]:
+                          - generic "Leaves Davao International Airport at 10:10 PM on Thursday, July 2 and arrives at Ninoy Aquino International Airport at 12:15 AM on Friday, July 3." [ref=e1039]:
+                            - 'generic "Departure time: 10:10 PM." [ref=e2054]': 10:10 PM
+                            - text: –
+                            - 'generic "Arrival time: 12:15 AM on Friday, July 3." [ref=e2057]':
+                              - 'generic "Arrival time: 12:15 AM on Friday, July 3." [ref=e2058]':
+                                - text: 12:15 AM
+                                - generic [ref=e2059]: "+1"
+                          - generic [ref=e1048]: Cebu Pacific
+                        - generic [ref=e1049]:
+                          - generic "Total duration 2 hr 5 min." [ref=e1050]: 2 hr 5 min
+                          - generic [ref=e1051]:
+                            - generic [ref=e2061]: DVO
+                            - text: –
+                            - generic [ref=e2063]: MNL
+                        - generic "Nonstop flight." [ref=e1060]: Nonstop
+                        - generic [ref=e1062]:
+                          - generic [ref=e1064]: 72 kg CO2e
+                          - generic [ref=e1065]:
+                            - generic [ref=e1066]: "-29% emissions"
+                            - 'button "Carbon emissions estimate: 72 kilograms. -29% emissions. Learn more about this emissions estimate" [ref=e1067]':
+                              - img [ref=e1068]
+                        - generic [ref=e1070]:
+                          - generic [ref=e1072]: ₱6,177
+                          - generic [ref=e1073]: round trip
+                      - text: · ··
+                    - button "Flight details. Leaves Davao International Airport at 10:10 PM on Thursday, July 2 and arrives at Ninoy Aquino International Airport at 12:15 AM on Friday, July 3." [ref=e1076]:
+                      - img [ref=e1079]
+                - listitem [ref=e1081]:
+                  - generic [ref=e1082]:
+                    - link "From 6289 Philippine pesos round trip total. Nonstop flight with Cebu Pacific. Leaves Davao International Airport at 7:05 AM on Thursday, July 2 and arrives at Ninoy Aquino International Airport at 9:05 AM on Thursday, July 2. Total duration 2 hr. Select flight"
+                    - generic [ref=e1084] [cursor=pointer]:
+                      - generic [ref=e1086]:
+                        - generic [ref=e1088]:
+                          - generic "Leaves Davao International Airport at 7:05 AM on Thursday, July 2 and arrives at Ninoy Aquino International Airport at 9:05 AM on Thursday, July 2." [ref=e1090]:
+                            - 'generic "Departure time: 7:05 AM." [ref=e2066]': 7:05 AM
+                            - text: –
+                            - 'generic "Arrival time: 9:05 AM." [ref=e2069]': 9:05 AM
+                          - generic [ref=e1097]: Cebu Pacific
+                        - generic [ref=e1098]:
+                          - generic "Total duration 2 hr." [ref=e1099]: 2 hr
+                          - generic [ref=e1100]:
+                            - generic [ref=e2071]: DVO
+                            - text: –
+                            - generic [ref=e2073]: MNL
+                        - generic "Nonstop flight." [ref=e1109]: Nonstop
+                        - generic [ref=e1111]:
+                          - generic [ref=e1113]: 93 kg CO2e
+                          - generic [ref=e1114]:
+                            - generic [ref=e1115]: "-8% emissions"
+                            - 'button "Carbon emissions estimate: 93 kilograms. -8% emissions. Learn more about this emissions estimate" [ref=e1116]':
+                              - img [ref=e1117]
+                        - generic [ref=e1119]:
+                          - generic [ref=e1121]: ₱6,289
+                          - generic [ref=e1122]: round trip
+                      - text: · ··
+                    - button "Flight details. Leaves Davao International Airport at 7:05 AM on Thursday, July 2 and arrives at Ninoy Aquino International Airport at 9:05 AM on Thursday, July 2." [ref=e1125]:
+                      - img [ref=e1128]
+                - listitem [ref=e1130]:
+                  - generic [ref=e1131]:
+                    - link "From 6289 Philippine pesos round trip total. Nonstop flight with Cebu Pacific. Leaves Davao International Airport at 8:50 AM on Thursday, July 2 and arrives at Ninoy Aquino International Airport at 10:50 AM on Thursday, July 2. Total duration 2 hr. Select flight"
+                    - generic [ref=e1133] [cursor=pointer]:
+                      - generic [ref=e1135]:
+                        - generic [ref=e1137]:
+                          - generic "Leaves Davao International Airport at 8:50 AM on Thursday, July 2 and arrives at Ninoy Aquino International Airport at 10:50 AM on Thursday, July 2." [ref=e1139]:
+                            - 'generic "Departure time: 8:50 AM." [ref=e2076]': 8:50 AM
+                            - text: –
+                            - 'generic "Arrival time: 10:50 AM." [ref=e2079]': 10:50 AM
+                          - generic [ref=e1146]: Cebu Pacific
+                        - generic [ref=e1147]:
+                          - generic "Total duration 2 hr." [ref=e1148]: 2 hr
+                          - generic [ref=e1149]:
+                            - generic [ref=e2081]: DVO
+                            - text: –
+                            - generic [ref=e2083]: MNL
+                        - generic "Nonstop flight." [ref=e1158]: Nonstop
+                        - generic [ref=e1160]:
+                          - generic [ref=e1162]: 75 kg CO2e
+                          - generic [ref=e1163]:
+                            - generic [ref=e1164]: "-26% emissions"
+                            - 'button "Carbon emissions estimate: 75 kilograms. -26% emissions. Learn more about this emissions estimate" [ref=e1165]':
+                              - img [ref=e1166]
+                        - generic [ref=e1168]:
+                          - generic [ref=e1170]: ₱6,289
+                          - generic [ref=e1171]: round trip
+                      - text: · ··
+                    - button "Flight details. Leaves Davao International Airport at 8:50 AM on Thursday, July 2 and arrives at Ninoy Aquino International Airport at 10:50 AM on Thursday, July 2." [ref=e1174]:
+                      - img [ref=e1177]
+                - listitem [ref=e1179]:
+                  - generic [ref=e1180]:
+                    - link "From 6513 Philippine pesos round trip total. Nonstop flight with Cebu Pacific. Leaves Davao International Airport at 3:45 PM on Thursday, July 2 and arrives at Ninoy Aquino International Airport at 5:50 PM on Thursday, July 2. Total duration 2 hr 5 min. Select flight"
+                    - generic [ref=e1182] [cursor=pointer]:
+                      - generic [ref=e1184]:
+                        - generic [ref=e1186]:
+                          - generic "Leaves Davao International Airport at 3:45 PM on Thursday, July 2 and arrives at Ninoy Aquino International Airport at 5:50 PM on Thursday, July 2." [ref=e1188]:
+                            - 'generic "Departure time: 3:45 PM." [ref=e2086]': 3:45 PM
+                            - text: –
+                            - 'generic "Arrival time: 5:50 PM." [ref=e2089]': 5:50 PM
+                          - generic [ref=e1195]: Cebu Pacific
+                        - generic [ref=e1196]:
+                          - generic "Total duration 2 hr 5 min." [ref=e1197]: 2 hr 5 min
+                          - generic [ref=e1198]:
+                            - generic [ref=e2091]: DVO
+                            - text: –
+                            - generic [ref=e2093]: MNL
+                        - generic "Nonstop flight." [ref=e1207]: Nonstop
+                        - generic [ref=e1209]:
+                          - generic [ref=e1211]: 72 kg CO2e
+                          - generic [ref=e1212]:
+                            - generic [ref=e1213]: "-29% emissions"
+                            - 'button "Carbon emissions estimate: 72 kilograms. -29% emissions. Learn more about this emissions estimate" [ref=e1214]':
+                              - img [ref=e1215]
+                        - generic [ref=e1217]:
+                          - generic [ref=e1219]: ₱6,513
+                          - generic [ref=e1220]: round trip
+                      - text: · ··
+                    - button "Flight details. Leaves Davao International Airport at 3:45 PM on Thursday, July 2 and arrives at Ninoy Aquino International Airport at 5:50 PM on Thursday, July 2." [ref=e1223]:
+                      - img [ref=e1226]
+                - listitem [ref=e1228]:
+                  - generic [ref=e1229]:
+                    - link "From 7496 Philippine pesos round trip total. Nonstop flight with Philippine Airlines. Operated by PAL Express. Leaves Davao International Airport at 2:00 AM on Thursday, July 2 and arrives at Ninoy Aquino International Airport at 3:45 AM on Thursday, July 2. Total duration 1 hr 45 min. Select flight"
+                    - generic [ref=e1231] [cursor=pointer]:
+                      - generic [ref=e1233]:
+                        - generic [ref=e1235]:
+                          - generic "Leaves Davao International Airport at 2:00 AM on Thursday, July 2 and arrives at Ninoy Aquino International Airport at 3:45 AM on Thursday, July 2." [ref=e1237]:
+                            - 'generic "Departure time: 2:00 AM." [ref=e2096]': 2:00 AM
+                            - text: –
+                            - 'generic "Arrival time: 3:45 AM." [ref=e2099]': 3:45 AM
+                          - generic [ref=e1244]:
+                            - text: Philippine Airlines
+                            - generic [ref=e1245]: ·
+                            - text: Operated by PAL Express
+                        - generic [ref=e1246]:
+                          - generic "Total duration 1 hr 45 min." [ref=e1247]: 1 hr 45 min
+                          - generic [ref=e1248]:
+                            - generic [ref=e2101]: DVO
+                            - text: –
+                            - generic [ref=e2103]: MNL
+                        - generic "Nonstop flight." [ref=e1257]: Nonstop
+                        - generic [ref=e1259]:
+                          - generic [ref=e1261]: 94 kg CO2e
+                          - generic [ref=e1262]:
+                            - generic [ref=e1263]: "-7% emissions"
+                            - 'button "Carbon emissions estimate: 94 kilograms. -7% emissions. Learn more about this emissions estimate" [ref=e1264]':
+                              - img [ref=e1265]
+                        - generic [ref=e1267]:
+                          - generic [ref=e1269]: ₱7,496
+                          - generic [ref=e1270]: round trip
+                      - text: · ·· ·
+                    - button "Flight details. Leaves Davao International Airport at 2:00 AM on Thursday, July 2 and arrives at Ninoy Aquino International Airport at 3:45 AM on Thursday, July 2." [ref=e1273]:
+                      - img [ref=e1276]
+                - listitem [ref=e1278]:
+                  - generic [ref=e1279]:
+                    - link "From 7496 Philippine pesos round trip total. Nonstop flight with Philippine Airlines. Operated by PAL Express. Leaves Davao International Airport at 3:05 AM on Thursday, July 2 and arrives at Ninoy Aquino International Airport at 4:50 AM on Thursday, July 2. Total duration 1 hr 45 min. Select flight"
+                    - generic [ref=e1281] [cursor=pointer]:
+                      - generic [ref=e1283]:
+                        - generic [ref=e1285]:
+                          - generic "Leaves Davao International Airport at 3:05 AM on Thursday, July 2 and arrives at Ninoy Aquino International Airport at 4:50 AM on Thursday, July 2." [ref=e1287]:
+                            - 'generic "Departure time: 3:05 AM." [ref=e2106]': 3:05 AM
+                            - text: –
+                            - 'generic "Arrival time: 4:50 AM." [ref=e2109]': 4:50 AM
+                          - generic [ref=e1294]:
+                            - text: Philippine Airlines
+                            - generic [ref=e1295]: ·
+                            - text: Operated by PAL Express
+                        - generic [ref=e1296]:
+                          - generic "Total duration 1 hr 45 min." [ref=e1297]: 1 hr 45 min
+                          - generic [ref=e1298]:
+                            - generic [ref=e2111]: DVO
+                            - text: –
+                            - generic [ref=e2113]: MNL
+                        - generic "Nonstop flight." [ref=e1307]: Nonstop
+                        - generic [ref=e1309]:
+                          - generic [ref=e1311]: 94 kg CO2e
+                          - generic [ref=e1312]:
+                            - generic [ref=e1313]: "-7% emissions"
+                            - 'button "Carbon emissions estimate: 94 kilograms. -7% emissions. Learn more about this emissions estimate" [ref=e1314]':
+                              - img [ref=e1315]
+                        - generic [ref=e1317]:
+                          - generic [ref=e1319]: ₱7,496
+                          - generic [ref=e1320]: round trip
+                      - text: · ·· ·
+                    - button "Flight details. Leaves Davao International Airport at 3:05 AM on Thursday, July 2 and arrives at Ninoy Aquino International Airport at 4:50 AM on Thursday, July 2." [ref=e1323]:
+                      - img [ref=e1326]
+                - listitem [ref=e2114]:
+                  - generic [ref=e2115]:
+                    - link "From 7496 Philippine pesos round trip total. Nonstop flight with Philippine Airlines. Operated by PAL Express. Leaves Davao International Airport at 5:15 AM on Thursday, July 2 and arrives at Ninoy Aquino International Airport at 7:00 AM on Thursday, July 2. Total duration 1 hr 45 min. Select flight"
+                    - generic [ref=e2117] [cursor=pointer]:
+                      - generic [ref=e2119]:
+                        - generic [ref=e2121]:
+                          - generic "Leaves Davao International Airport at 5:15 AM on Thursday, July 2 and arrives at Ninoy Aquino International Airport at 7:00 AM on Thursday, July 2." [ref=e2123]:
+                            - 'generic "Departure time: 5:15 AM." [ref=e2126]': 5:15 AM
+                            - text: –
+                            - 'generic "Arrival time: 7:00 AM." [ref=e2129]': 7:00 AM
+                          - generic [ref=e2130]:
+                            - text: Philippine Airlines
+                            - generic [ref=e2131]: ·
+                            - text: Operated by PAL Express
+                        - generic [ref=e2132]:
+                          - generic "Total duration 1 hr 45 min." [ref=e2133]: 1 hr 45 min
+                          - generic [ref=e2134]:
+                            - generic [ref=e2137]: DVO
+                            - text: –
+                            - generic [ref=e2140]: MNL
+                        - generic "Nonstop flight." [ref=e2143]: Nonstop
+                        - generic [ref=e2145]:
+                          - generic [ref=e2147]: 94 kg CO2e
+                          - generic [ref=e2148]:
+                            - generic [ref=e2149]: "-7% emissions"
+                            - 'button "Carbon emissions estimate: 94 kilograms. -7% emissions. Learn more about this emissions estimate" [ref=e2150]':
+                              - img [ref=e2151]
+                        - generic [ref=e2153]:
+                          - generic [ref=e2155]: ₱7,496
+                          - generic [ref=e2156]: round trip
+                      - text: · ·· ·
+                    - button "Flight details. Leaves Davao International Airport at 5:15 AM on Thursday, July 2 and arrives at Ninoy Aquino International Airport at 7:00 AM on Thursday, July 2." [ref=e2159]:
+                      - img [ref=e2162]
+                - listitem [ref=e1328]:
+                  - generic [ref=e1329]:
+                    - link "From 7496 Philippine pesos round trip total. Nonstop flight with Philippine Airlines. Operated by PAL Express. Leaves Davao International Airport at 8:10 PM on Thursday, July 2 and arrives at Ninoy Aquino International Airport at 9:55 PM on Thursday, July 2. Total duration 1 hr 45 min. Select flight"
+                    - generic [ref=e1331] [cursor=pointer]:
+                      - generic [ref=e1333]:
+                        - generic [ref=e1335]:
+                          - generic "Leaves Davao International Airport at 8:10 PM on Thursday, July 2 and arrives at Ninoy Aquino International Airport at 9:55 PM on Thursday, July 2." [ref=e1337]:
+                            - 'generic "Departure time: 8:10 PM." [ref=e2166]': 8:10 PM
+                            - text: –
+                            - 'generic "Arrival time: 9:55 PM." [ref=e2169]': 9:55 PM
+                          - generic [ref=e1344]:
+                            - text: Philippine Airlines
+                            - generic [ref=e1345]: ·
+                            - text: Operated by PAL Express
+                        - generic [ref=e1346]:
+                          - generic "Total duration 1 hr 45 min." [ref=e1347]: 1 hr 45 min
+                          - generic [ref=e1348]:
+                            - generic [ref=e2171]: DVO
+                            - text: –
+                            - generic [ref=e2173]: MNL
+                        - generic "Nonstop flight." [ref=e1357]: Nonstop
+                        - generic [ref=e1359]:
+                          - generic [ref=e1361]: 104 kg CO2e
+                          - generic [ref=e1362]:
+                            - generic [ref=e1363]: Avg emissions
+                            - 'button "Carbon emissions estimate: 104 kilograms. Average emissions. Learn more about this emissions estimate" [ref=e1364]':
+                              - img [ref=e1365]
+                        - generic [ref=e1367]:
+                          - generic [ref=e1369]: ₱7,496
+                          - generic [ref=e1370]: round trip
+                      - text: · ·· ·
+                    - button "Flight details. Leaves Davao International Airport at 8:10 PM on Thursday, July 2 and arrives at Ninoy Aquino International Airport at 9:55 PM on Thursday, July 2." [ref=e1373]:
+                      - img [ref=e1376]
+                - listitem [ref=e1378]:
+                  - generic [ref=e1379]:
+                    - link "From 7496 Philippine pesos round trip total. Nonstop flight with Philippine Airlines. Operated by PAL Express. Leaves Davao International Airport at 11:20 PM on Thursday, July 2 and arrives at Ninoy Aquino International Airport at 1:10 AM on Friday, July 3. Total duration 1 hr 50 min. Select flight"
+                    - generic [ref=e1381] [cursor=pointer]:
+                      - generic [ref=e1383]:
+                        - generic [ref=e1385]:
+                          - generic "Leaves Davao International Airport at 11:20 PM on Thursday, July 2 and arrives at Ninoy Aquino International Airport at 1:10 AM on Friday, July 3." [ref=e1387]:
+                            - 'generic "Departure time: 11:20 PM." [ref=e2176]': 11:20 PM
+                            - text: –
+                            - 'generic "Arrival time: 1:10 AM on Friday, July 3." [ref=e2179]':
+                              - 'generic "Arrival time: 1:10 AM on Friday, July 3." [ref=e2180]':
+                                - text: 1:10 AM
+                                - generic [ref=e2181]: "+1"
+                          - generic [ref=e1396]:
+                            - text: Philippine Airlines
+                            - generic [ref=e1397]: ·
+                            - text: Operated by PAL Express
+                        - generic [ref=e1398]:
+                          - generic "Total duration 1 hr 50 min." [ref=e1399]: 1 hr 50 min
+                          - generic [ref=e1400]:
+                            - generic [ref=e2183]: DVO
+                            - text: –
+                            - generic [ref=e2185]: MNL
+                        - generic "Nonstop flight." [ref=e1409]: Nonstop
+                        - generic [ref=e1411]:
+                          - generic [ref=e1413]: 104 kg CO2e
+                          - generic [ref=e1414]:
+                            - generic [ref=e1415]: Avg emissions
+                            - 'button "Carbon emissions estimate: 104 kilograms. Average emissions. Learn more about this emissions estimate" [ref=e1416]':
+                              - img [ref=e1417]
+                        - generic [ref=e1419]:
+                          - generic [ref=e1421]: ₱7,496
+                          - generic [ref=e1422]: round trip
+                      - text: · ·· ·
+                    - button "Flight details. Leaves Davao International Airport at 11:20 PM on Thursday, July 2 and arrives at Ninoy Aquino International Airport at 1:10 AM on Friday, July 3." [ref=e1425]:
+                      - img [ref=e1428]
+                - listitem [ref=e1430]:
+                  - generic [ref=e1431]:
+                    - link "From 7731 Philippine pesos round trip total. Nonstop flight with Philippine Airlines. Leaves Davao International Airport at 6:05 AM on Thursday, July 2 and arrives at Ninoy Aquino International Airport at 7:50 AM on Thursday, July 2. Total duration 1 hr 45 min. Select flight"
+                    - generic [ref=e1433] [cursor=pointer]:
+                      - generic [ref=e1435]:
+                        - generic [ref=e1437]:
+                          - generic "Leaves Davao International Airport at 6:05 AM on Thursday, July 2 and arrives at Ninoy Aquino International Airport at 7:50 AM on Thursday, July 2." [ref=e1439]:
+                            - 'generic "Departure time: 6:05 AM." [ref=e2188]': 6:05 AM
+                            - text: –
+                            - 'generic "Arrival time: 7:50 AM." [ref=e2191]': 7:50 AM
+                          - generic [ref=e1446]: Philippine Airlines
+                        - generic [ref=e1447]:
+                          - generic "Total duration 1 hr 45 min." [ref=e1448]: 1 hr 45 min
+                          - generic [ref=e1449]:
+                            - generic [ref=e2193]: DVO
+                            - text: –
+                            - generic [ref=e2195]: MNL
+                        - generic "Nonstop flight." [ref=e1458]: Nonstop
+                        - generic [ref=e1460]:
+                          - generic [ref=e1462]: 104 kg CO2e
+                          - generic [ref=e1463]:
+                            - generic [ref=e1464]: Avg emissions
+                            - 'button "Carbon emissions estimate: 104 kilograms. Average emissions. Learn more about this emissions estimate" [ref=e1465]':
+                              - img [ref=e1466]
+                        - generic [ref=e1468]:
+                          - generic [ref=e1470]: ₱7,731
+                          - generic [ref=e1471]: round trip
+                      - text: · ··
+                    - button "Flight details. Leaves Davao International Airport at 6:05 AM on Thursday, July 2 and arrives at Ninoy Aquino International Airport at 7:50 AM on Thursday, July 2." [ref=e1474]:
+                      - img [ref=e1477]
+                - listitem [ref=e1479]:
+                  - generic [ref=e1480]:
+                    - link "From 7731 Philippine pesos round trip total. Nonstop flight with Philippine Airlines. Operated by PAL Express. Leaves Davao International Airport at 7:55 AM on Thursday, July 2 and arrives at Ninoy Aquino International Airport at 9:40 AM on Thursday, July 2. Total duration 1 hr 45 min. Select flight"
+                    - generic [ref=e1482] [cursor=pointer]:
+                      - generic [ref=e1484]:
+                        - generic [ref=e1486]:
+                          - generic "Leaves Davao International Airport at 7:55 AM on Thursday, July 2 and arrives at Ninoy Aquino International Airport at 9:40 AM on Thursday, July 2." [ref=e1488]:
+                            - 'generic "Departure time: 7:55 AM." [ref=e2198]': 7:55 AM
+                            - text: –
+                            - 'generic "Arrival time: 9:40 AM." [ref=e2201]': 9:40 AM
+                          - generic [ref=e1495]:
+                            - text: Philippine Airlines
+                            - generic [ref=e1496]: ·
+                            - text: Operated by PAL Express
+                        - generic [ref=e1497]:
+                          - generic "Total duration 1 hr 45 min." [ref=e1498]: 1 hr 45 min
+                          - generic [ref=e1499]:
+                            - generic [ref=e2203]: DVO
+                            - text: –
+                            - generic [ref=e2205]: MNL
+                        - generic "Nonstop flight." [ref=e1508]: Nonstop
+                        - generic [ref=e1510]:
+                          - generic [ref=e1512]: 104 kg CO2e
+                          - generic [ref=e1513]:
+                            - generic [ref=e1514]: Avg emissions
+                            - 'button "Carbon emissions estimate: 104 kilograms. Average emissions. Learn more about this emissions estimate" [ref=e1515]':
+                              - img [ref=e1516]
+                        - generic [ref=e1518]:
+                          - generic [ref=e1520]: ₱7,731
+                          - generic [ref=e1521]: round trip
+                      - text: · ·· ·
+                    - button "Flight details. Leaves Davao International Airport at 7:55 AM on Thursday, July 2 and arrives at Ninoy Aquino International Airport at 9:40 AM on Thursday, July 2." [ref=e1524]:
+                      - img [ref=e1527]
+                - listitem [ref=e1529]:
+                  - generic [ref=e1530]:
+                    - link "From 7731 Philippine pesos round trip total. Nonstop flight with Philippine Airlines. Operated by PAL Express. Leaves Davao International Airport at 10:50 AM on Thursday, July 2 and arrives at Ninoy Aquino International Airport at 12:40 PM on Thursday, July 2. Total duration 1 hr 50 min. Select flight"
+                    - generic [ref=e1532] [cursor=pointer]:
+                      - generic [ref=e1534]:
+                        - generic [ref=e1536]:
+                          - generic "Leaves Davao International Airport at 10:50 AM on Thursday, July 2 and arrives at Ninoy Aquino International Airport at 12:40 PM on Thursday, July 2." [ref=e1538]:
+                            - 'generic "Departure time: 10:50 AM." [ref=e2208]': 10:50 AM
+                            - text: –
+                            - 'generic "Arrival time: 12:40 PM." [ref=e2211]': 12:40 PM
+                          - generic [ref=e1545]:
+                            - text: Philippine Airlines
+                            - generic [ref=e1546]: ·
+                            - text: Operated by PAL Express
+                        - generic [ref=e1547]:
+                          - generic "Total duration 1 hr 50 min." [ref=e1548]: 1 hr 50 min
+                          - generic [ref=e1549]:
+                            - generic [ref=e2213]: DVO
+                            - text: –
+                            - generic [ref=e2215]: MNL
+                        - generic "Nonstop flight." [ref=e1558]: Nonstop
+                        - generic [ref=e1560]:
+                          - generic [ref=e1562]: 104 kg CO2e
+                          - generic [ref=e1563]:
+                            - generic [ref=e1564]: Avg emissions
+                            - 'button "Carbon emissions estimate: 104 kilograms. Average emissions. Learn more about this emissions estimate" [ref=e1565]':
+                              - img [ref=e1566]
+                        - generic [ref=e1568]:
+                          - generic [ref=e1570]: ₱7,731
+                          - generic [ref=e1571]: round trip
+                      - text: · ·· ·
+                    - button "Flight details. Leaves Davao International Airport at 10:50 AM on Thursday, July 2 and arrives at Ninoy Aquino International Airport at 12:40 PM on Thursday, July 2." [ref=e1574]:
+                      - img [ref=e1577]
+                - listitem [ref=e1579]:
+                  - generic [ref=e1580]:
+                    - link "From 7731 Philippine pesos round trip total. Nonstop flight with Philippine Airlines. Operated by PAL Express. Leaves Davao International Airport at 1:55 PM on Thursday, July 2 and arrives at Ninoy Aquino International Airport at 3:40 PM on Thursday, July 2. Total duration 1 hr 45 min. Select flight"
+                    - generic [ref=e1582] [cursor=pointer]:
+                      - generic [ref=e1584]:
+                        - generic [ref=e1586]:
+                          - generic "Leaves Davao International Airport at 1:55 PM on Thursday, July 2 and arrives at Ninoy Aquino International Airport at 3:40 PM on Thursday, July 2." [ref=e1588]:
+                            - 'generic "Departure time: 1:55 PM." [ref=e2218]': 1:55 PM
+                            - text: –
+                            - 'generic "Arrival time: 3:40 PM." [ref=e2221]': 3:40 PM
+                          - generic [ref=e1595]:
+                            - text: Philippine Airlines
+                            - generic [ref=e1596]: ·
+                            - text: Operated by PAL Express
+                        - generic [ref=e1597]:
+                          - generic "Total duration 1 hr 45 min." [ref=e1598]: 1 hr 45 min
+                          - generic [ref=e1599]:
+                            - generic [ref=e2223]: DVO
+                            - text: –
+                            - generic [ref=e2225]: MNL
+                        - generic "Nonstop flight." [ref=e1608]: Nonstop
+                        - generic [ref=e1610]:
+                          - generic [ref=e1612]: 104 kg CO2e
+                          - generic [ref=e1613]:
+                            - generic [ref=e1614]: Avg emissions
+                            - 'button "Carbon emissions estimate: 104 kilograms. Average emissions. Learn more about this emissions estimate" [ref=e1615]':
+                              - img [ref=e1616]
+                        - generic [ref=e1618]:
+                          - generic [ref=e1620]: ₱7,731
+                          - generic [ref=e1621]: round trip
+                      - text: · ·· ·
+                    - button "Flight details. Leaves Davao International Airport at 1:55 PM on Thursday, July 2 and arrives at Ninoy Aquino International Airport at 3:40 PM on Thursday, July 2." [ref=e1624]:
+                      - img [ref=e1627]
+                - listitem [ref=e1629]:
+                  - generic [ref=e1630]:
+                    - link "From 7731 Philippine pesos round trip total. Nonstop flight with Philippine Airlines. Leaves Davao International Airport at 3:35 PM on Thursday, July 2 and arrives at Ninoy Aquino International Airport at 5:40 PM on Thursday, July 2. Total duration 2 hr 5 min. Select flight"
+                    - generic [ref=e1632] [cursor=pointer]:
+                      - generic [ref=e1634]:
+                        - generic [ref=e1636]:
+                          - generic "Leaves Davao International Airport at 3:35 PM on Thursday, July 2 and arrives at Ninoy Aquino International Airport at 5:40 PM on Thursday, July 2." [ref=e1638]:
+                            - 'generic "Departure time: 3:35 PM." [ref=e2228]': 3:35 PM
+                            - text: –
+                            - 'generic "Arrival time: 5:40 PM." [ref=e2231]': 5:40 PM
+                          - generic [ref=e1645]: Philippine Airlines
+                        - generic [ref=e1646]:
+                          - generic "Total duration 2 hr 5 min." [ref=e1647]: 2 hr 5 min
+                          - generic [ref=e1648]:
+                            - generic [ref=e2233]: DVO
+                            - text: –
+                            - generic [ref=e2235]: MNL
+                        - generic "Nonstop flight." [ref=e1657]: Nonstop
+                        - generic [ref=e1659]:
+                          - generic [ref=e1661]: 84 kg CO2e
+                          - generic [ref=e1662]:
+                            - generic [ref=e1663]: "-17% emissions"
+                            - 'button "Carbon emissions estimate: 84 kilograms. -17% emissions. Learn more about this emissions estimate" [ref=e1664]':
+                              - img [ref=e1665]
+                        - generic [ref=e1667]:
+                          - generic [ref=e1669]: ₱7,731
+                          - generic [ref=e1670]: round trip
+                      - text: · ··
+                    - button "Flight details. Leaves Davao International Airport at 3:35 PM on Thursday, July 2 and arrives at Ninoy Aquino International Airport at 5:40 PM on Thursday, July 2." [ref=e1673]:
+                      - img [ref=e1676]
+                - listitem [ref=e1678]:
+                  - generic [ref=e1679]:
+                    - link "From 7863 Philippine pesos round trip total. 1 stop flight with Cebgo and Cebu Pacific. Leaves Davao International Airport at 3:50 PM on Thursday, July 2 and arrives at Ninoy Aquino International Airport at 10:05 PM on Thursday, July 2. Total duration 6 hr 15 min. Layover (1 of 1) is a 3 hr 15 min layover at Panglao International Airport in Panglao. Select flight"
+                    - generic [ref=e1681] [cursor=pointer]:
+                      - generic [ref=e1683]:
+                        - generic [ref=e1685]:
+                          - generic "Leaves Davao International Airport at 3:50 PM on Thursday, July 2 and arrives at Ninoy Aquino International Airport at 10:05 PM on Thursday, July 2." [ref=e1687]:
+                            - 'generic "Departure time: 3:50 PM." [ref=e2238]': 3:50 PM
+                            - text: –
+                            - 'generic "Arrival time: 10:05 PM." [ref=e2241]': 10:05 PM
+                          - generic [ref=e1694]: Cebgo, Cebu Pacific
+                        - generic [ref=e1695]:
+                          - generic "Total duration 6 hr 15 min." [ref=e1696]: 6 hr 15 min
+                          - generic [ref=e1697]:
+                            - generic [ref=e2243]: DVO
+                            - text: –
+                            - generic [ref=e2245]: MNL
+                        - generic [ref=e1704]:
+                          - generic "1 stop flight." [ref=e1706]: 1 stop
+                          - generic "Layover (1 of 1) is a 3 hr 15 min layover at Panglao International Airport in Panglao." [ref=e1707]:
+                            - text: 3 hr 15 min
+                            - generic [ref=e2247]: TAG
+                        - generic [ref=e1711]:
+                          - generic [ref=e1713]: 93 kg CO2e
+                          - generic [ref=e1714]:
+                            - generic [ref=e1715]: "-8% emissions"
+                            - 'button "Carbon emissions estimate: 93 kilograms. -8% emissions. Learn more about this emissions estimate" [ref=e1716]':
+                              - img [ref=e1717]
+                        - generic [ref=e1719]:
+                          - generic [ref=e1721]: ₱7,863
+                          - generic [ref=e1722]: round trip
+                      - text: · ··
+                    - button "Flight details. Leaves Davao International Airport at 3:50 PM on Thursday, July 2 and arrives at Ninoy Aquino International Airport at 10:05 PM on Thursday, July 2." [ref=e1725]:
+                      - img [ref=e1728]
+                - listitem [ref=e1730]:
+                  - generic [ref=e1731]:
+                    - link "From 9635 Philippine pesos round trip total. Nonstop flight with Philippine Airlines. Operated by PAL Express. Leaves Davao International Airport at 5:25 PM on Thursday, July 2 and arrives at Ninoy Aquino International Airport at 7:15 PM on Thursday, July 2. Total duration 1 hr 50 min. Select flight"
+                    - generic [ref=e1733] [cursor=pointer]:
+                      - generic [ref=e1735]:
+                        - generic [ref=e1737]:
+                          - generic "Leaves Davao International Airport at 5:25 PM on Thursday, July 2 and arrives at Ninoy Aquino International Airport at 7:15 PM on Thursday, July 2." [ref=e1739]:
+                            - 'generic "Departure time: 5:25 PM." [ref=e2250]': 5:25 PM
+                            - text: –
+                            - 'generic "Arrival time: 7:15 PM." [ref=e2253]': 7:15 PM
+                          - generic [ref=e1746]:
+                            - text: Philippine Airlines
+                            - generic [ref=e1747]: ·
+                            - text: Operated by PAL Express
+                        - generic [ref=e1748]:
+                          - generic "Total duration 1 hr 50 min." [ref=e1749]: 1 hr 50 min
+                          - generic [ref=e1750]:
+                            - generic [ref=e2255]: DVO
+                            - text: –
+                            - generic [ref=e2257]: MNL
+                        - generic "Nonstop flight." [ref=e1759]: Nonstop
+                        - generic [ref=e1761]:
+                          - generic [ref=e1763]: 104 kg CO2e
+                          - generic [ref=e1764]:
+                            - generic [ref=e1765]: Avg emissions
+                            - 'button "Carbon emissions estimate: 104 kilograms. Average emissions. Learn more about this emissions estimate" [ref=e1766]':
+                              - img [ref=e1767]
+                        - generic [ref=e1769]:
+                          - generic [ref=e1771]: ₱9,635
+                          - generic [ref=e1772]: round trip
+                      - text: · ·· ·
+                    - button "Flight details. Leaves Davao International Airport at 5:25 PM on Thursday, July 2 and arrives at Ninoy Aquino International Airport at 7:15 PM on Thursday, July 2." [ref=e1775]:
+                      - img [ref=e1778]
+                - listitem [ref=e1780]:
+                  - generic [ref=e1781]:
+                    - link "From 11335 Philippine pesos round trip total. 1 stop flight with Cebgo and Cebu Pacific. Leaves Davao International Airport at 9:10 AM on Thursday, July 2 and arrives at Ninoy Aquino International Airport at 2:20 PM on Thursday, July 2. Total duration 5 hr 10 min. Layover (1 of 1) is a 2 hr 10 min layover at Panglao International Airport in Panglao. Select flight"
+                    - generic [ref=e1783] [cursor=pointer]:
+                      - generic [ref=e1785]:
+                        - generic [ref=e1787]:
+                          - generic "Leaves Davao International Airport at 9:10 AM on Thursday, July 2 and arrives at Ninoy Aquino International Airport at 2:20 PM on Thursday, July 2." [ref=e1789]:
+                            - 'generic "Departure time: 9:10 AM." [ref=e2260]': 9:10 AM
+                            - text: –
+                            - 'generic "Arrival time: 2:20 PM." [ref=e2263]': 2:20 PM
+                          - generic [ref=e1796]: Cebgo, Cebu Pacific
+                        - generic [ref=e1797]:
+                          - generic "Total duration 5 hr 10 min." [ref=e1798]: 5 hr 10 min
+                          - generic [ref=e1799]:
+                            - generic [ref=e2265]: DVO
+                            - text: –
+                            - generic [ref=e2267]: MNL
+                        - generic [ref=e1806]:
+                          - generic "1 stop flight." [ref=e1808]: 1 stop
+                          - generic "Layover (1 of 1) is a 2 hr 10 min layover at Panglao International Airport in Panglao." [ref=e1809]:
+                            - text: 2 hr 10 min
+                            - generic [ref=e2269]: TAG
+                        - generic [ref=e1813]:
+                          - generic [ref=e1815]: 97 kg CO2e
+                          - generic [ref=e1816]:
+                            - generic [ref=e1817]: Avg emissions
+                            - 'button "Carbon emissions estimate: 97 kilograms. Average emissions. Learn more about this emissions estimate" [ref=e1818]':
+                              - img [ref=e1819]
+                        - generic [ref=e1821]:
+                          - generic [ref=e1823]: ₱11,335
+                          - generic [ref=e1824]: round trip
+                      - text: · ··
+                    - button "Flight details. Leaves Davao International Airport at 9:10 AM on Thursday, July 2 and arrives at Ninoy Aquino International Airport at 2:20 PM on Thursday, July 2." [ref=e1827]:
+                      - img [ref=e1830]
+                - listitem [ref=e1832]:
+                  - generic [ref=e1833] [cursor=pointer]:
+                    - button "View more flights" [ref=e1836]:
+                      - img
+                    - generic [ref=e1839]: View more flights
+          - text: · ·· · ·· · ·· · ·· · ·· · ·· · ·· · ·· · ·· · ·· · ·· · ·· · ·· · ·· · · ·· · · · ·· · · · ·· · · · ·· · · · ·· · · ·· · · ·· · · · ·· · · · ·· · · ·· · ·· · · ·· · · ··
+      - contentinfo [ref=e1842]:
+        - generic [ref=e1844]:
+          - button "Language·English (United States)" [ref=e1845]:
+            - img [ref=e1848]
+            - generic [ref=e1850]: Language·English (United States)
+          - button "Location·Philippines" [ref=e1851]:
+            - img [ref=e1854]
+            - generic [ref=e1857]: Location·Philippines
+          - button "Currency PHP" [ref=e1858]:
+            - img [ref=e1861]
+            - generic [ref=e1871]: Currency·PHP
+        - generic [ref=e1872]:
+          - link "About Google Travel" [ref=e1873] [cursor=pointer]:
+            - /url: https://about.google/?hl=en-US
+            - text: About
+          - link "Privacy" [ref=e1874] [cursor=pointer]:
+            - /url: https://policies.google.com/privacy?hl=en-US
+          - link "Terms" [ref=e1875] [cursor=pointer]:
+            - /url: https://policies.google.com/terms?hl=en-US
+          - link "Join user studies" [ref=e1876] [cursor=pointer]:
+            - /url: https://google.qualtrics.com/jfe/form/SV_3NMIMtX0F2zkakR?reserved%3D1%26utm_source%3DFooter%2520link%26utm_medium%3Down_web%26%20utm_campaign%3DQ2%26productTag%3D0%26campaignDate%3DApril2020%26referral_code%3DUXbJ377133&Q_Language=en-US
+          - link "Feedback" [ref=e1877] [cursor=pointer]:
+            - /url: ./#0
+          - link "Help Center" [ref=e1878] [cursor=pointer]:
+            - /url: https://support.google.com/travel/?hl=en-US#topic=2475360
+        - generic [ref=e1879]:
+          - paragraph [ref=e1880]:
+            - text: Displayed currencies may differ from the currencies used to purchase flights.
+            - link "Learn more about currencies" [ref=e1881] [cursor=pointer]:
+              - /url: https://www.google.com/googlefinance/disclaimer?hl=en-US&gl=PH
+              - text: Learn more
+          - paragraph [ref=e1882]: Prices are final prices and include all taxes and fees, including payment fees for the cheapest common payment method (which may differ depending on the provider). Additional charges may apply for other types of payment, luggage, meals, WLAN or other additional services. Prices, availability and travel details are provided based on the latest information received from our partners. This information is reflected in the results within a period of less than 24 hours. Additional conditions may also be applied by our partners. You should then check prices and conditions with the services providers before booking.

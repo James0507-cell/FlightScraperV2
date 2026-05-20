@@ -1,0 +1,2028 @@
+{
+  "offers": [
+    {
+      "origin_airport": "MNL",
+      "destination_airport": "DVO",
+      "departure_date": "2026-07-01",
+      "arrival_date": "2026-07-01",
+      "departure_time": "2026-07-01T05:30:00",
+      "arrival_time": "2026-07-01T07:35:00",
+      "duration_minutes": 125,
+      "stops": 0,
+      "price": 3176,
+      "currency": "PHP",
+      "trip_type": "one_way",
+      "airlines": [
+        "Cebu Pacific"
+      ],
+      "flight_numbers": [
+        "961"
+      ],
+      "layovers": [],
+      "emissions_kg": 75,
+      "emissions_delta_percent": -26,
+      "booking_token": "CjRIWHpMaC1rQUd3cjhBQ1c0ZFFCRy0tLS0tLS0tdGJicmQxOUFBQUFBR29OZG5JSFFWOU9BEgU1Sjk2MRoKCOgYEAAaA1BIUDgccJco",
+      "is_best": true,
+      "segments": [
+        {
+          "airline_code": "5J",
+          "airline_name": "Cebu Pacific",
+          "flight_number": "961",
+          "operating_airline": null,
+          "origin_airport": "MNL",
+          "origin_name": "Ninoy Aquino International Airport",
+          "destination_airport": "DVO",
+          "destination_name": "Davao International Airport",
+          "departure_time": "2026-07-01T05:30:00",
+          "arrival_time": "2026-07-01T07:35:00",
+          "duration_minutes": 125,
+          "aircraft": "Airbus A330-900neo"
+        }
+      ],
+      "return_origin_airport": null,
+      "return_destination_airport": null,
+      "return_departure_date": null,
+      "return_arrival_date": null,
+      "return_departure_time": null,
+      "return_arrival_time": null,
+      "return_duration_minutes": null,
+      "return_stops": null,
+      "return_airlines": [],
+      "return_flight_numbers": [],
+      "return_layovers": [],
+      "return_segments": [],
+      "booking_options": [
+        {
+          "provider_code": "5J",
+          "provider_name": "Cebu Pacific",
+          "provider_display_domain": "www.cebupacificair.com",
+          "provider_image_url": "https://www.google.com/s2/favicons?sz=64&domain_url=https://www.cebupacificair.com/",
+          "price": 3176,
+          "currency": "PHP",
+          "deeplink_url": "https://www.google.com/travel/clk/f?u=ADowPOIxpaJ6iYvzdOVAv84aKc4lseticINv-X_zGI3NMBvFyEPqnIn1rdJmGALP2j-jQYuDV-M6ULjc59KVvrJFJBnPjx_dq_JpMHhaYcyXGvOSOvptfk6uJ_5hcLvECMm-N0kkXTTvZ5s4cKNAU74YfzEQDPBfBIk6SRcANGiyrjPw4knTQoYjWhiljkoUA45l8119mhzz4tXoroTU28LCKQa8LCEPdjEpIozWroCekdMGAnbSo7NdHWiAw3n1EZmkT96abRH91uvYEBk2nGmEkCqhomJ-Jlgl3SA07BkPXjSEuiukJMEnhIL7w6uzDm_AMKF8nEY6K6zreoBl2yJ2PmMZeg1DVCZqhptlx2gfX1J5MmV_OCSNOa6X-05zS7N0kq6k2QukqflMIhM_rKE60-UW9gklgnsWV54AP-YfWaFyOuMjzVfXwq2CkfHSCm3JS8eUV0nTwHtKk18-bT5XZlm8qK2fPJ8WI5xrg1FHsWFslL3TK7diq07TqX01S4iFkPn2aCN4p8Yd1xYaUowcrtCoFRPZbtyY7N3uRijH4rTM7MZs0mULIKLmLIl6UQ1EMbOu5uXzwunZFsAw74MW7QfRtMjGa7MnknqrGMs4kvI137jLSmRU_kqwn_h10uDEJgMS5sCFWe9bK-x3FHJ_dcS_6Ew3PHa4pGHmSd_yicHFdMe724YxdAu-9a6nwA47n1X4Y4XCekkGd70-ie4Myg7IeUZ-GWvgXirWFLVyr54xRof40V1SDQO9ynk3DdOqx246rG80FHW0qTiAzo3julJyAbzDR0FHBPxt6qfLCg7r2jqhcJuhwn5xSAG03iRRwwB8BMdAaKMwSkzgqb9NFUnwI0iYVrgkSOBl6czXTmhlNa04n3tqmWWnOed2YL-BWe-va90CW2apyZRzyVdf98Cb3WGCfhbCOFg2lAEIp4lMP7RyPkr52KGRaCLmocuWdypD-4Kfec3wQH8fe9DOdb6J54XUccempVNyM-j9GztZjdkaliHI9NwWWVvwTh-k3n9JVzDtNO9XPR8mGWqrtk1BLRg1zTRDx6fqVqQ62fdCgGmaFbdZL1KFbk8rren9JMEC59aJtmfhOeJjVs-Zolr6N7SQNk3qLTi2nuv5GDSvKX0OObgAi7_5BhSlhxe75cZnNc5GK9IgC3cI9s57nm2x1yJGXWacmOtt2UuJ6m_bwORFzVtLe1fvywNyVHFi95b-MSfgTaBObd63Wqexg8QGFx75e56YN0iE4dBKL8hz52Dic6ibQhZcsZKwpt1QlcBYN-9242b_xpO3dOu4pt-IWogFib2C5_-96JGcvGIkhREC6V-WZEGaGDeHA2BcJLJW6kaTzxfiNblYktwkWmlRbcqbyd2p5FwS_4KjL5K-fqnTM1iyPn-vaz42ctcIZ0O5Iiu1_VGvEixqjvzfShNWfKLGFbG5uKkAc_1UMpLU4mBsvpyds7fwdY_dLVcMePiZKXhghK4GDlspBijoSaCE-H3NC7LnXzK6oCrHTF8g2RhGUegs9E2g-8Wyyg0kXpV5aRIHKBMxWdc01BIn-kpgilsJdjeSfFxc0csPtEWDmfm5W33lSTLVEAfE5dq4qsYhgr_gnQis_Z0XTDm1xFaKYhsME7hMReaBD8ZtjUqmfyH2pJYp1ohbh0oAfLjiIVy_wEIhPYedqDu8GpKGKufjjEbF9erpMExvTLv9tAWSI-15jqT57-AgbbXd1Nq2l4E2NYdp4VR4JUzBIsPd_kgWKJB6dH6_mHkST-n0w8plfr0RGP9tp3nzmPWypLc3qGGV1be8EbPW4lCBI7a0_VBFIeJE0CIoNqnffG1XAAZfvboCUh4UwrozUG1x1jnRlJC5q_zd3PUuEKA4jqNpHgMiA0kxxvL0a6aA2l1Wm9Uv1e_cR5OD6DHspSXtwBV6oWPK92CaVTS3Etfpt99pcM_m7a6uTyeXAH9xl-q57gF3UZGnUfN24MRkNW_yhF5AuRf-uqGe0H-SNwbK7tpA4Ez2GW4PZWxVudEtpqtB4TWNJuFP3445Nak49koG66mtfTPSAeClmpPR3McK5PEoIDfxl_AuvT55HLhemGJm33ilLEp-2x3y7qg4Ki-fORRrv0ak_SZ5EqpeZmSAvEYZCJBpjlswSzI6YW-2dwwK2hiavkb78_CrE5m-nwgbTxiQUBZ1VSfkb2OjiLHdbKy9SDQAkXurdptYCM7yTZfo83YM7A",
+          "fare_name": null,
+          "resolved_booking_url": "https://www.cebupacificair.com/en-PH/flight/select?dd1=2026-07-01&o1=MNL&d1=DVO&adt=1&chd=0&inf=0&inl=0&gclid=ADowPOKxdtel8l4vM3lue0O7ydhWgnxFD6iK2pyWgH51rJa1-tFaLBjR_gHU6okiAU59MmwofjPOJWYgbNa3lsls63EMy84x44D-NioFdGEMjwCmM5G4&gclsrc=gf",
+          "flight_codes": [
+            "5J 961"
+          ],
+          "is_primary": true,
+          "raw_rank": 0
+        }
+      ]
+    },
+    {
+      "origin_airport": "MNL",
+      "destination_airport": "DVO",
+      "departure_date": "2026-07-01",
+      "arrival_date": "2026-07-01",
+      "departure_time": "2026-07-01T08:25:00",
+      "arrival_time": "2026-07-01T10:30:00",
+      "duration_minutes": 125,
+      "stops": 0,
+      "price": 3176,
+      "currency": "PHP",
+      "trip_type": "one_way",
+      "airlines": [
+        "Cebu Pacific"
+      ],
+      "flight_numbers": [
+        "963"
+      ],
+      "layovers": [],
+      "emissions_kg": 72,
+      "emissions_delta_percent": -29,
+      "booking_token": "CjRIWHpMaC1rQUd3cjhBQ1c0ZFFCRy0tLS0tLS0tdGJicmQxOUFBQUFBR29OZG5JSFFWOU9BEgU1Sjk2MxoKCOgYEAAaA1BIUDgccJco",
+      "is_best": true,
+      "segments": [
+        {
+          "airline_code": "5J",
+          "airline_name": "Cebu Pacific",
+          "flight_number": "963",
+          "operating_airline": null,
+          "origin_airport": "MNL",
+          "origin_name": "Ninoy Aquino International Airport",
+          "destination_airport": "DVO",
+          "destination_name": "Davao International Airport",
+          "departure_time": "2026-07-01T08:25:00",
+          "arrival_time": "2026-07-01T10:30:00",
+          "duration_minutes": 125,
+          "aircraft": "Airbus A321neo"
+        }
+      ],
+      "return_origin_airport": null,
+      "return_destination_airport": null,
+      "return_departure_date": null,
+      "return_arrival_date": null,
+      "return_departure_time": null,
+      "return_arrival_time": null,
+      "return_duration_minutes": null,
+      "return_stops": null,
+      "return_airlines": [],
+      "return_flight_numbers": [],
+      "return_layovers": [],
+      "return_segments": [],
+      "booking_options": [
+        {
+          "provider_code": "5J",
+          "provider_name": "Cebu Pacific",
+          "provider_display_domain": "www.cebupacificair.com",
+          "provider_image_url": "https://www.google.com/s2/favicons?sz=64&domain_url=https://www.cebupacificair.com/",
+          "price": 3176,
+          "currency": "PHP",
+          "deeplink_url": "https://www.google.com/travel/clk/f?u=ADowPOKxHoHlKs-Yn_LqWwWVWh3CRbshrjlqAGCNtZEc8xQ-Ow560BguwrIWDtKaO_IyLm9nzKrvFs3c3yryYnB8stwFYjQZ5BiYFMQ-uAzO2Qb3Tm_VXxAqkyPDyH9lePRua_YAB238rvOO9iqPgYqv0UcYIv7Kzux7c5vXEp3HR4vhAp7SNUH6Kie1g-5F6Rg4803gITYs3jMZcEHCd___GEM4Do_mZkOZoRHi1GgY1svctB1AIR18a6u1U8cFXJK9P6tAOW3icBqyqmrvedDnB4C5cBYxsi3d-OtkXi3z1oJx8KdNNoePUe-Bw8y5vxdHqWxMfVLtAQ_Mm8_UsmA1fmhi89kVJao8EFDh-wI5qbeZp8nGO5EHZ0yqtdlcCSO0tWdMoGmjDseod5hqMd8Dx5S0wWPhVTfBU5qyjlOoqx5bPXDOYHUIzgyhm0BJq2zPI0sCvgkMUDdkgI_YBF5-f0i4WSHLOXoOQVO6rmfBiiLQwA7b1l90OeDe0h_aOJOri9q2XbFnebFt3TxGppP6-VmM3FBGQoWeZRycCMBhP31f8PIVuCbtWLGQZMrbzBYZicfg66XxBLXKb-AZDeXfkslR9AkiNaaQRm0uAEA-xByPCW3T34byfMIUrn4G8Q44hveAH2dMVa_b0EeldzLQu4QBmTHtzIP8KM9ooz16DUiJw3yTZYjYCqCt6pIblno3ALwtzE5ST0eQK6YEHK3gbxhVIL1RL_qx0lZ5Cdg0Xm_2PLXTNfONmxgieJkwGSE6xSCcyQcaRLgUItvByVnIK27vjAEgp4a2LM1j-OTNYNAIAK0l2TZfV1Bs0NX7YjtJtHD9GI6mTew7SFpOEtWQRVvHj2rnUR5beDgawKdDxOcvAYYCt-vFrMgSPiQ9ZlPgGe9EzWy2W-Zt5IsmBhouOWJxLGliOrgXLiUJaUihuTkLyEeW9bZy9QGjkJgHdp2ebde5jGVBcNvwJ40HKDUkTJ-VZzXKw3q_khEdMzgl_p0VxjWFOdVdpq_Uz5bPqZbiw8g3g85bvPYbU20FQ-FIQO-f0GkBMBGY7muAmVfaBJxifYs4twiriSpg5xGqCloNNvJHPZmVjuo05tQdTCdIWwAEPq8lAv3VuEL9icPTMoM2OG_5QH6H9GtShHRjfOIacnfu20dnkQaKhEcHlf3ZouTPAPVBVFLpAHkynOdDEVlRRtcr5gGZ_oE9IzSm8DVyRlyF844WabtISZafU_6-mWPfydQ5lQt-6iTeAuVahEfkSieQXNU4NLs0sCgLMm8FYLAUVcWBHQp8ZIhCG3fmfqLqhBmaGZOMzGFb5IFmepJ7kaaGQSN35Jo-KJRWtOuBVK-rGgrP-Eq4Nhbx7mBqg4ns45ws4yO3auAatdC8UJwTHRr2NgRCqU2GoZH3eCQ_tDOY3WFzEwjExF-bcJaeFYx4YcZPVgvM8CkqyFIPHX3NiMhKGQ9B5U8HIiwaWRSLtvIXqFZLMHUctBWCtEQx8bdbT0oLYJxqD9Ve7VKxdAJjirRe6vlnv5PZvXVT1kD0Fq7izpvO68--tUrn8rPSgLZf45lPLUB7_8JL6-QAmu32l4dp8zpQ-YWNpnIOWGTYj3_D9cRRnmoXZ91uUBYzzz5jSzgy5-aAWjZTXdPivYpRjeNc8x3UH5kpvJSDpiZD6U8RVxPf907ZzquorlQDxLba4T2AJgiQUe4J9y3X8HdAqy_WpWCCYJx9krjCKreDXwn6PO4DxBwFgkpeyBpQI9DHDPd9Q4CaG0xvKAAk-YKquGf0I3n-yy56ElkA4KXr1kivlrPpfPXc2OTDDOkJlBBTyje1MQvUcNtCLtYbZYDp-XMu_OigaOxtkxW9zjWLiegw5A-bQnFX3sgJeGsCBjAlxIRhA7jJtBno6HNtM5dZAgZvoMdy96adsKXrEWhThwxc-wvLJhC1KfmfLTxMiJBqLbhBQ_xqmgL1hhh3GEgFvjUEbmf9Rhm-BRxpfB_B70VHJ2WJAIXmDGXpVEvQfNy5wkObxXZqCO4nEtGhS1_0uB7YzEgB1_CglFbapqYjxuy3zg4_vCsbDYVFEFVaczfjDxKxpIKFYf5IcSHlcwW5xc-hDddsp0MM5fA255cvrWtiS8h1b3aOhutd3mREBO-9pvETjBW1qLVHWxkPJdWWKFtgq3Q_WSsS-7ZQZhONU69jHbA0Hc5PnMXE5KVNU15nYLM8BHpKvnIa3Kua_-uwJA",
+          "fare_name": null,
+          "resolved_booking_url": "https://www.cebupacificair.com/en-PH/flight/select?dd1=2026-07-01&o1=MNL&d1=DVO&adt=1&chd=0&inf=0&inl=0&gclid=ADowPOLhlDn_7jtMzEwVID6p7dCeDCitT6rF1JDjGtNydmoSgKSEnc7gKhF6vzClM0iAACxY63h_1v6YLwzIWXDGfh-GRLLafS_ABaB_azNcLUDrOYmj&gclsrc=gf",
+          "flight_codes": [
+            "5J 963"
+          ],
+          "is_primary": true,
+          "raw_rank": 0
+        }
+      ]
+    },
+    {
+      "origin_airport": "MNL",
+      "destination_airport": "DVO",
+      "departure_date": "2026-07-01",
+      "arrival_date": "2026-07-01",
+      "departure_time": "2026-07-01T02:30:00",
+      "arrival_time": "2026-07-01T04:15:00",
+      "duration_minutes": 105,
+      "stops": 0,
+      "price": 3836,
+      "currency": "PHP",
+      "trip_type": "one_way",
+      "airlines": [
+        "Philippine Airlines"
+      ],
+      "flight_numbers": [
+        "2803"
+      ],
+      "layovers": [],
+      "emissions_kg": 94,
+      "emissions_delta_percent": -7,
+      "booking_token": "CjRIWHpMaC1rQUd3cjhBQ1c0ZFFCRy0tLS0tLS0tdGJicmQxOUFBQUFBR29OZG5JSFFWOU9BEgZQUjI4MDMaCgj8HRAAGgNQSFA4HHDEMA==",
+      "is_best": false,
+      "segments": [
+        {
+          "airline_code": "PR",
+          "airline_name": "Philippine Airlines",
+          "flight_number": "2803",
+          "operating_airline": "PAL Express",
+          "origin_airport": "MNL",
+          "origin_name": "Ninoy Aquino International Airport",
+          "destination_airport": "DVO",
+          "destination_name": "Davao International Airport",
+          "departure_time": "2026-07-01T02:30:00",
+          "arrival_time": "2026-07-01T04:15:00",
+          "duration_minutes": 105,
+          "aircraft": "Airbus A320"
+        }
+      ],
+      "return_origin_airport": null,
+      "return_destination_airport": null,
+      "return_departure_date": null,
+      "return_arrival_date": null,
+      "return_departure_time": null,
+      "return_arrival_time": null,
+      "return_duration_minutes": null,
+      "return_stops": null,
+      "return_airlines": [],
+      "return_flight_numbers": [],
+      "return_layovers": [],
+      "return_segments": [],
+      "booking_options": [
+        {
+          "provider_code": "PR",
+          "provider_name": "Philippine Airlines",
+          "provider_display_domain": "www.philippineairlines.com",
+          "provider_image_url": "https://www.google.com/s2/favicons?sz=64&domain_url=https://www.philippineairlines.com/",
+          "price": 3836,
+          "currency": "PHP",
+          "deeplink_url": "https://www.google.com/travel/clk/f?u=ADowPOKvYuejyCWJfOQ1L4RJD_9OdSqhwiDUVXJWQvh7VIltDI4wA7TBFkQ_ipNscedhOV27f52Vthzdc4LTxREHwaqxOuLALqNisZXHHe9biZJ4bK2N61zElwlfScvSdfF10Tx44LP_F6LvynjHazsJ5-O64_CLjAR_5KOnyzl36qwU4qPo-J9IUzwUIst8s46DWAyPG4DeC4xjy2-ks-frMz8hIMvMvnHz5binWfjR2bdxoPLlociOj3EJuf-Yxai84xESEiMqZQ_MaF9dKOd5eGzzsslGkeHB1Qihdy04nf7Z9z8wOr8v0MbqLUN39IRJ_wBs4Z04NXBIutrfi2Ozf4vQTTRdSs1cuzJfbiIeFl2YW3R2EYlODb-mXo4QLjpuYskFZtdSSwa3EgyARBqVbfTIgo7gKipq8-aNgbp7QrqAle-Ypw4tWIMiwolUSFN5G4Kpw1YNu9X9racaPRckugi5DWpk1qEe3AMAOuLTANzy48G8ep1ohE1Arl4T6x1s5uc9Kl6SANF329pdjQNGjnPrb8kqWPHOEoO4FHNk3tYMLiTLj-atpBCt8KAWPentVQqYrtLamUW5-2hjXvk_nuHOJEhf5O6kFIYcAmYSvL8J3zVvHYmn7CFaluEfDVrCR6n3KpW7TArykpAe7iMFsKW8gPaNcmX9247ZiQ8Dv-fGDCBIl7OvwsREzJHeL4srhJIOxhZH2kgOxQcmmP_1JFdJOjTsGdEujuW5nCg4vXiU0aXRAbACU1iOhYKwI5LyWryhUEMKJkU9IV04gaDc4hdTPKhz7JYHoaAo7Qo3aFxuUXuEGIZLse5ZMc3d5hjH4wxXi-xkMCnRrYl_BtmQlVNvkPLgPtNLz4coojfdUnpFjs2rWvT-uB5gxbHMXsDZDqKyQ6aGhAQnpOHjNaoR1FoTMjzbcxoGFNvAQLblUPXPzBA-TwENi-cS5GEjm0h7rR3C8C05_6fShPR2OMNnhUzdPy3W11Lw6idJ8HEgm_9Wu3m3KAdNrxEorVCSARYQNY1VyWqYOthlXHsL388FIgC4YUZOn2eo1_yU29e0OlsSuzsA-pFam-GWJ5oe3ta4KynkKlvG4ofMPGXhDMwXA5QO9_rpCA-9oTweV-Qb6Ce8A1NQzyL_Rb-6io4MxeBWnySqhLPq8Wt8a37q-6m5iqFd-q_d1mlztQ84Id7f-wwFIQ3VR5S5S6olPzk4w_gkgU8iEYHigXnCKtHB1JCnnwPWUhppAn2d64TeqZMfxA22lyROgghxqh38i6MfC-NfYGxDKhh7DbtOB5_xrDF0ybgsguKHsC-XgZf6lwHE0Piid1Gq7Et0Rwj2KMpRyNw3Is3Cv9s0CeIjZMjpYU4Vx4-s-yGyzcfwuzfhzBEB_rmBrcZ2CX4rvJMbw7lCYuTqWR0BpGUlSOnK5QmcNZ_n3sVeh3y8CEXCMNOPPiPlClmK72egOb4PShxg9xc9VN5Xl-KiLyoq_U4RXz-0Di5TM3sBK4aPNjobTgJMcmMYXq94hiHsYpl96qJJIemPIzZ3XPSaYnrG8I7N1sNSJ07QWASVAIrqPL2yNSen2weZQ1DOGsV1QJYkAeU79J1Xax2T6stCEWLK-9HygVMuBsk1uymCUo41OcLQjBk0Q-DX0lygVDCoAy8OaFLlYwv9sIk0di3G91JjLkdYXsBfjp0l4IcpIkb0jMvWdXNCe2-AVP-j_GoBw0US1U9LrX8sJ5Kg7XxcqrG9HDRvqR7031GoizK2BtB8WQnxD1Mt6N883ZU6POa4dTOiXvQSIlR11OGA8ubCOewFXuzaK87CJ7U5mmYdZ8pryIENAYNvVtGQS5Ni1rg1PWuN_IhVmDnfKKMlbAY6emb-QvfGkdV5e2AjhO9Jds_FqDzy_x7c6LXAMYrF34xda1Nqutcqh9doWllpmCyjQ1YunE5f6LFucl0FfEshnyxiotEhF0jT0gX2pJKPr3FTJOKT4x2tmUZuAlAA6cTjFZy79wrOqNOjWzhmBePIvHH-uzS6LrZwDKguCTnifpHlZ2LjTEDfwhDj-TQ6BcdkV85kJalPsxbkSvEd5g2HkaVTSNgIymPVEAA0aEh-9e2sReDE3YffvHTATtQfm4lmcI2LFtV1ySgWVIk08EUmGK9Yllf9tDPZ9t9zdzXkpTDrrJmWxrgJKBUKIT-RP5OnDARyyY5f6jWvpt1KUw6wuoNaSeO7b3_NAlTMI6pzt_EXh3mljmFuvRAv8q3WZYYsGFgXFchCfEI44DoWNK_oVUkm039SelTgOMbpffWP7RE4lSn4YNZHOXdDMRqonVFljkgauF2jfRNoV1CuEOZHRHpJy3vmXI1gR6KuW1fwaRxiXxofdJpzwh-OVG6JfkedF9cPyZb1DMllH0aMZ4SzFeo4ODafjDz7aHcWKrZ08NnGJPBKkMIM8Z8RBlaoYcNXgtHksYKXoLOg85opxaEtXpEMsQAC3x77akxlzqMqYXn7UIAO2sOyRU8ex04ZUeR2HVgpkc78v9gN3LOkVCoCjLxwpx4WY2zdFIcwZoRDtyyo4TKTSOhUlRDcCSSXpyKXMemUr9JDQmB6s0jN_IvOK3Q37nnllusCBcS-XNWSqeRFSm_IR_y_UQSMnKsWcpgl4HMtwYDNScm21QPhfWGnFa2Msj6HGXD06k9Dj6QrLW0LBgm2P0ryncZKpQ1ehFl7L65aAcvNb0Mp8NgHOY85dJ3oRAnxjgQ7bPav_CuZezH0cu34CtQoDmtudBMwaO_48EmpAKEVdxzm-lFI50tvcKDqQnYZsEHUF32py6idFOfAEFeUtumV35BesMjK_XtpxT3mlYpyJTUtV3FXpYzVCCoE51Facc3qR7hD1ZdrO62L3kib1nxEUyxihca1zOw_OIYPfFuK9VHDSRlzHw4x6adbiKRIBII6qOpvG9HFpEFRtcUYc6nl1Xd4Hsu9ZiF7sc5bzSqtJGpLD7jEMVmxa_MX9_Ni6umEI6NIHrBUnw5G88FhwMsqXNPD9lAFxtNSm6Q3MxlbkRHcRlIf8iRZUG4gaaC5IxpU8IGiOyc7zgZM5FMCFCQkCFsrIYZ4u4LUjTzCtNRbKTe28m8kZzCadY0kbNl7uFxs37_sG9hFLJ0IFq9qNzm7btop6JNGsV_PN7C5xRnx0HPU_aerKmkgRdv7FwEpWZIgIeIJPFWYYralQzHR2ZCMVh6fdZxMOBh4mQorYqV5NapYwY40Beu3rICV841Lji1EDTj-4_AUqAUS6lJ-eNfxokWloyR-5VSmARIVHRrtVuongf9oR1b87AtP7NJCIEB4rwcJgy2zIIvXV4Tu-puuF7-3xlumoX3O6a0IWJasYgL0oWpx1mRPkH53-x2Af3ia-urUj_-TLW5tNS0ypo6Kqa1KGcaZ8PPPvyVXXfZQTNmeys41HumP04L9OlkkxDld24_cHoZ1hRhj9ELKScjiRa_Fv-LU3zpzVwvMti9F6EzrN8xx1bFlDlbUJtPqwR1LaEbrnwc1-9TL05IWFD9lrxiQQrA0TQWvpgIgVBqHQTICiOpp_NTnmVvw_XnfonnSE2AodDenTpU_TWpXAaOkRmyWwksHkqg9e4J4zQZoumC6jxQb-98ciz1s5pZxLfiCoN_1E_-lak0PjmWuHO5DY3mZuTiflfU_MQ8PyUMytQIe1pMcfx4TEVadkF7Vlt9RRjb8abVcjwstxxIJJoAzbpG9slfOkVzcz9nacRdT1z6SPZJ_tHGOsXiOKF5iShd_UR8PMuBno80TaIBo9hoAbZGXsDpcUb8uUJZVMBo-tYLu1eEBIV2XGgQXGCmPaZWYIucELeT1bt45OYfiOAbr4am5qJr-4ZKl764YOjXw3tQ8egLtqwhAV-8Uog0hFpu8kJXqnuhNpSE-gcJ4V6YMt_4_ZIVoaumEW_P41lAL-FQQ-F3vClXBLCI-djYnaJ83v4mDr4VZ3CWtF8SKX2e4UMCcdZlYb8y1bONGgf5o04Xek9qsmC2Os5TNvoV0VOc1b8pazBPaQIhu8ofq4U7iPJ1BUUsXYmB0",
+          "fare_name": null,
+          "resolved_booking_url": "https://booking.philippineairlines.com/booking?lang=en&search=%7B%22commercialFareFamilies%22:%5B%22PRECO%22,%22PRPEY%22,%22PRBUS%22%5D,%22itineraries%22:%5B%7B%22departureDateTime%22:%222026-07-01%22,%22originLocationCode%22:%22MNL%22,%22destinationLocationCode%22:%22DVO%22,%22directFlights%22:false%7D%5D,%22travelers%22:%5B%7B%22passengerTypeCode%22:%22ADT%22%7D%5D%7D&portalFacts=%5B%7B%22key%22:%22countryCode%22,%22value%22:%22PH%22%7D,%7B%22key%22:%22useMiles%22,%22value%22:%22false%22%7D%5D",
+          "flight_codes": [
+            "PR 2803"
+          ],
+          "is_primary": null,
+          "raw_rank": 0
+        },
+        {
+          "provider_code": "WEGO",
+          "provider_name": "wego",
+          "provider_display_domain": "www.wego.com",
+          "provider_image_url": "https://www.google.com/s2/favicons?sz=64&domain_url=https://www.wego.com/",
+          "price": 3759,
+          "currency": "PHP",
+          "deeplink_url": "https://www.google.com/travel/clk/f?u=ADowPOKYOx2zKs8aFutJjrfwmeSFRelVEivCdvxxJHcbTo5X11r-xhKG22cj8kEJiYrFVtrYA8yLlx51vL5mOw0lfCK384fjc4EDkn88SumhLKAwRcSO-Z1h1MhYo6YzUMSYSdR67JbY6HIW_uP4Ab_lzVxZMz6bUh9DYfJtYSllGd9oVrYTrFYvpRe2jfuZFdcU2lsrmk9pWt4ZgVRWRf_B_ILwBTtWrdMijypOp1JD64P_8AmwZoZiLvmVkb3rfDVgqNoGMl3sQC5lXpephteU4LRMvzuJ5gLFnNpUA94ot2ni5nes7QAnSnpHu_liLdke7R0I8X0fTNVbeJ2ma-LbTyiwJ_AvCrYAE3-jYBk1QCzZL6280JcqRKWGHDkh7z3iUbPHXYMXix1qtA_2c4iULaIuCFr0t_pfYCtDXFlDNVf9f0CKG9tDDdYQm54vFijvr9Kc-3I1yyzglStwDduN6qbWwFHPUTnX89PvvSeSXoa5Wo8T5kHThoG0HfhlPxOsSYi0qX7Ro13lBQTy3d4uG1UJr6rbVh_C_EEqFvDjNHriM14iHviNf3yXYgxtVejR9BTE9eHfkrKRfxjrONCAIrt6V2GYT2yohv3feiZtik84NuTo2gT_SoIVYl2847iTtvuJOtgeHQyfOY--Cqaa-iUJnzkMALZ3yuyDH-PMEG4GoCdFkciT473_unlHyAQOWGSPZPA9VRdRb7_y5K0lk5d9ThGKOAQiisJPzXdBGXXp2fj2-Tls61ffcIse6irV2awjyG9fmS7Ky4yHd1Whzg0urvQ76lW2MacZObIE5ijoxSydUUEiqG6Yd_05ZZhQ9Ya6VY8AMlfH9qfRRCXabtQohHyDLMGVhxQiGWDSo20IOJWKTW7rIx0NZWeuxYjhO4IJKGLOhmchmB756d_EHPLYwyLB4a5JXDSrzNpibou05S6OvYkshSO3WVRPYxS4xdRERgT7DUL079UzpG96lKou8M_oBiB9UqeWnpWSMpCr7xaQqZKm-0R7OgQWq4L8jQtqBUH2oVQXkcmUFXyGmJ_FzdzpFRwvYGbKb0D45CyY1BfOviWEM47SW03RdFHIbuJAKzbKCY53Eic4Wn3sreKP9mWZ6HSgqkYdprikt7fy8EmKKX-8Eh4YW2R4-9Z5egQrjvpBN-Q1HcAJ-h5yfvMWDAu17gcjzXzt4GRxykA2o1XqXzCxJ9B4r2BGc-6aqv8wpcaJIcWykolnjQsSkCJBVFwpRQSGgK7I_Tk7vXsVTyBR1iz1MGIxFECPtPGgUE1QsXBIti7LCl6w5b4lU7h5nEYHNxnt1OCCDGhoEJhautH9bBxtxrB0ZNuAL5nPaSQ2fnP8804IpVSf5rrnOgaolhp5l7cnE5bYKr8ILm4sspkUHJq1cIua_5_etEGjwszTylWzNDemJhmpCPDINmy-VjrqTRh2GRGnz28W7Hu02-BSFkOpcEwi1Cxe3w1v3uAB5AaCMxA_SQ36CL6VBi1MqeYV-j4l2_Ii3P3IF1SEHjvP4bUg7-ir22G3Xitje0I6-WrazmlpV80q4OpNoZ6VoCG8CAw2DmLqZu0u5p9jGgy-YDNRKBTyS8IJQH7kZVzpyVo79zlgD7gwKtAtTgsD-gseI-EwMzFrO3VAiB7QhbZftgxCOJZT1A9-ATvxcr-Vgrkga2_m35Lda1aCpUlZKxOcQ90EI9k_lwVwtQ8H3VW6aD54o9YVIM_TgCMDHGszQ1a1blnEwTWmyxMNda_z7uS1GtQsV8De2LCwlF36QOWNZCJFUSBN3hcQw4ntDzLTA8T1d2mDfoeQnpQu_yEPVqglxF2ecQ_yufPWZluL2P17iRXzW4ps811Xw-0SnFXg061diDVEXNW_7tkePr88LZdFb_qdhItSqxSqGMkzm0UcR7t4UeH9n_eXfFRhgsjMoEWBd-bQOVQZfrzB950fQjD9NlUCb64cH_sbhEmA_I7GBu0Re3WlaTJiTZgLrSdEPzaCIOPE5XmI7j4TnK8KlmJQQ_Z7Juqz5IMxHJg7njNkjD4PzU4tmwJSvnyIlXm-r-B8QSOFybpzSw_GmVqxLt-5HKttqxuTLdROhMkDZRKi8lvh-WoAIxj7kG4hxD_Qg9POcm86pU2yIaWTCVTT9alUR4fFk0YCXKJYIf3RKTWmDU81E6ezm_UzAa3cHS0m3RoW3tRAYjnaujf75ESjAHiAdo9qGZ8a-YdYUZF0J92Fy9-XEhOEfg63-b1Q9dv1P_z-ATTjrDItX1_40SiqTuDaUn3RrArBIk4CYAhqwjDXMvHaSVf5nKsXnzLnbQQiBPjwrDKh-pTjkIfwq8Jm0rJ0w26_uTBKoadP6WDIJsi9vzqIYWaZbm7d_U0_dw3xL1PrAoAN1zUKKDSWrJNKQuOuf2NIfsAVkSP1j9ExVad2-tfTc4RX8VmNJwgozagyCsnIuf-O13pJPRPfhzNPYGyPv9C1G5q4ysJI1ejb5yu3RUejlIHoECBNLtbvn3rcVeqi5t-OCtdVcp2CtAOQKwfC7OFoYZAl76FDITe90WVyKc7goU2Z6PVrdYBlSYIOgxJkV0iLx1-DLWWe2GOvEess_Fa3c2rkltot1RyneJtx-Jm7jmJ1bG2n1EMd8-HBepQ3VVxrhAjLBhgeDXcyJXZKHip7Ji-7Xti9TLM6Cre2bn5N7WGi81bOfENyjz_foZbRdaboP_P8_Px4rLkfH30TB8RXMUC0PHrws9nCjniPdDG_h7vIEoosV828UQvlNBXJtOGkZe4JqEurbuulLlzrl6UVHYzvoJ4T7zh58SxpV68Vftg4ak3skaEKYjpbeP7MVX-d9biouUEjXA0rD6orK_O9AMrfHwz1ZqABEFANzLmksVbow22RH0sMQXkzyMGr8v4q4eZQRPuwCg0MaRbY9kFboJhvTuF0CTs7QbVAZj59Xd47AguO8pwHVd7s4j8-xHyEcQn3K3vZZPaJg23u0xuwPDF09rXNPjaBpaGcSRr7kI8lPiSMbfCsczU6rq_tBPJKAv9UbU_y5R2qKl29Fk7hgcmBuzUFwkdqa-cAkoy42gazlU6liR1bDCMUFK0BMOC1gSgIOx5lg4Z2bChAKraaW9masyjba-iSvCqlbwq0U5jz87IH8cBhyNSfFf08EAkPteaY6ccgaT2cupS6prn0kfKDj5C2raqRMy9GUZYo_kV48Ff-4VgaSop1BYJS0_NL3F0KUaqgSl6snNPjeYukgJhI4UkVk37eJBpACP7kZIRrBCWFPiiPgs_K6u7qNi6xNYrkld3o_rYjipPcJUOl74k6Kg5oLsdC2637FYK76aDLyGNIkRYGFGmjix_gn8dPR2vVFkCtV171Klv_flMlQi9rFYNbMG7PxyBvEFrswy1JsyBOqBWOtRloYjUXw1Aha9Qp94PXLlAiGd_SEvWt2oU30LeZSerdyR_W331o8iqrKUW2GyNRogyOm4FTwJe_UfB4mbY7tnShuEo3cxXvxorR91l-CffejQhquGrtfmMeAomWCnEmsghjt3nJ8TYxG_lfgDRLAr3uk8cqSq9xi8-fnso5PYL9WM89cVbHItDx3ygC1XzVQQajmXVZ6BDE4FE0pT35MFmOFJucagQlozx1y6fTcQwnnEtLE3xY7Cuo_0akc-FrqwSC1wNS1C3g5T14SfGoNCcdvPYD_C31CtobcBWQvZXuqyj3zI4V3iWDM-HKkv6Iu5wZyxV8eBsZj80w8zH5nc_8d7ms77b5GADNJmdK76CRdSuCwH7xhtnR8Weusv9S6r-ppWBqEdeCFQrdBjszmzExGD78M-EJdTRchRKEp0xSYt_TgFjW8SCzqr3M7af5ai62VyBWPIMtE7U00x9GZHaMTzF6Q_1PqDQwEf9LUgg3TPoOdsO46caWieLUbsJiHGTh4cergB29aAo2ntQe5gN9WvrGnE7JWDU27D7uqcq8yJ1LcS3pSjiN15kTCdgpsMe6vL6zb2ETKDlPjov6c_Bt7dostA8CzeodOmgKaTl0qMZ9CHT9TTUVTxqe2P4SEENbYia0RBW48iCJeLDe9wCUCyqzdnIZV86_XbU4nGpo7qWvMBdfeGk2u7bhUXcMUd4uBkuqdCiwiMAQh1jNie15ukecPLesoI2e33VFRnuDJCsrvDuZFDOiZHeestuZ1YD_kDvrSuti6vjltsJ0EsP-5xqXrY6TLke3GJrw435Dh0lRfGsnlsm5lbQDcwbJP121Ms8RWpP5Xhkh",
+          "fare_name": null,
+          "resolved_booking_url": "https://www.wego.com/flights/handoff?Adult=1&TripType=OneWay&PointOfSaleCountry=PH&DisplayedPrice=3759&DisplayedPriceCurrency=PHP&UserLanguage=en&UserCurrency=AED&Slice1=1&Cabin1=Economy&Carrier1=PR&DepartureDate1=2026-07-01T02:30:00&ArrivalDate1=2026-07-01T04:15:00&Origin1=MNL&Destination1=DVO&BookingCode1=O&FlightNumber1=2803&TsCode=5aa90&app_client=roxana&ReferralId=GOOG_GFS_712&wg_source=meta_distribution&wg_medium=gfs&wg_campaign=fbl&t=1779267222&sig=AXW5OLpJU63BhtM2v6QxRd5j0SezIsNKjbBxBEFdmSyd1NsKx0eDTPBeunGWl5cQm63Dd__U2GuvXM4r5Z6eWrJUZr-ZNOogyvdTkbzdYhnYhlivSuABm55d7PtqYaWLp-8fYgtlthkGixPs2WHcGwHks9i5-xqpHiX0ShcLAZzmhMzg7OUuPOxIS_A4BgVG6wljdvEKSzCnti9X2LQpHq55iwenNqhuzik5wipbPu79aYtA4sboXa48uRnLIB6KxRJZibBscntZwI9JD01UZ2DPF8PeC66Es7R5ax9KwM0L0LCQ4WWOu0pBGt6c1xE8lzg-nn4ZzI8orsEnxJmQLgvezF73ZLGUjVZ5zGqxHap4LuqXX7dPcPZ27hbhOfm2J_uqP8c9zQ1m2rWaLBiS8VDNRtEQtM3BHnSOt0ZuJRLczr1yTXRCBbutLypbleWQOnGj-31Jk6shsTDkv5C1fJAULHjUgxHEHmVTcE639a9vWkOZ-A_RTLcGeRliE5KOuC-Qf-o%3D&gclid=ADowPOKdeH0D-WXF6VejdaByHFHDFY0e9wLCq6nIgsryv6Kzl8WXFi0KqD09gLo05IIvXlqxnyqXHsG84micEwt65X3fLyX6AbsjxP61FWoa7ZOX9frP&gclsrc=gf",
+          "flight_codes": [
+            "PR 2803"
+          ],
+          "is_primary": true,
+          "raw_rank": 0
+        },
+        {
+          "provider_code": "TRAVOMINT",
+          "provider_name": "Travomint",
+          "provider_display_domain": "gfs.travomint.com",
+          "provider_image_url": "https://www.google.com/s2/favicons?sz=64&domain_url=https://gfs.travomint.com/",
+          "price": 8690,
+          "currency": "PHP",
+          "deeplink_url": "https://www.google.com/travel/clk/f?u=ADowPOKIwmQ6sAPTQxryHXPZjbjk4REJdePn7AucnhCmZVs6w2gn1uywbSe96WY0COvQsglhbz79NpZwhWRpzAUMGU-0P0RwwQu_AYqZlNBWthOtCMCfBpGcfDVk9HhuEIE06WkvU2XJzw_Ej29ATiBTccK6f1R4nyeCPCpLreKxXL9IgDmksk_wrNd8GnOEigYVycEKGNcVp4nEWeNPvgRJoACbbJ6x1bD7ihaodvMdSy8W8nVnEGs8Qm5tC8oCBvRMzGPD59BqV6uTvvScf5la7fjFtIMDpT4O7CXxBnZs77KrPGLND8dWXT6JP60t5qUO1aUhBWx1RUeT-2uI9ajHOAcyqfkH2MeV8ZYV0jczRRFBCEVN2aeYUmPLs-LTt2vTEc77QoRtRBBVACunZMdnfOTk9DXChRxb06SgtSGKNRk5KvlOha2wbIt89db9Do01fUcow2QKoCTQPgwlWFGnf9-8Ix4kiElx8-ri-SGU6tksOce5IBizObJfMrR3JWqtYc2w8ACZSmsYBCaJzPG4bKZkLutdIOy78XMXQMonUcNnnMXus0D6o1YUMceLkGur73WhVjoi0ul_RuunOvA6c00f8bEWXge-yrVjN-eH4vY-loCJg4Pm6QXvcj0ISXnKKiy-v5f0A6xqYJmf6AvI4XK88lW4w2A2YXI0Zr6CeTbshg3aGJq-ktGTg4_I0ePyht7jxJlHOgAA2U2YLaiX00h00jrmJcts-GM1wa582PhgN4F2uEG3O5tHsm3Mg_1DOBqBUnYy9Z1yRtBPfkSd91QnsES4eEflhXAgSzKvlEfJq2e2Y0BWw4z-mi1RGUO3Rcgm0tkn44gqbMB5jO1Ut6fdTN4bDEdrqp9gZ25Z_-RwcClBIK9H_IPh0gG34cjS0Ho00W4yLXz2H0qKteYnflcQ2vHti9qKg-Jegd69Z3tgvftFKMfjHesFzn8u_yNfCkUEdJTvabWgiBfJFIlnBX_hrZ3IcxALs4mk3OyxMVMFoBOnk86H3VbKgB29WYIeYJPUI55yTIg5vYgQ4JCDwZeRAOoSDX1oPBhjdOWzJzkmPGpi4bCOVOMjDF4qwzZV9ABgQICuQJtV7GqVGsYcm23Pg1EFaffY7ZyCRpn_toDplcwMlaFyDhRCfQpF_CEj7-bwFy44Wu1-Qdn0W4rsRQeAZB4ttFnxxmEljvo7jxc6CSBTdiMkEF702JYHSUdnk-QHthPx9U678q8opKuPg53A7OcSE6cavDqVU0DNA8uP_SWHHiBSAAwE-dpYUBqlWb8KPjb1G9OnDe79hfx1uYpf7lozeQAVsPlYYPxTTLD3-PYzq21ZwPB900Cub5687PACdznaR4tSUgoZAuE-X_JH-ktIhHL1ZD6oz6ls1ccDLemX3bVDKnMH0JE_sZ0uNUPQqqoJXLlyS5xdigimU8gdTNsEExgGGGm3TlKWJzg4Zl527By_8LZ6GzlkIZb9y811bvw8ZntTzSd-mQziG47iXVma8_anvjDYee9LHq77Cwdoj-iZVkIzeQI5MsBZIg47kuxf7EaeOrqks68oPWlH84ex9-OhgIVE-LxodBVluLeLVI9r9GkFUqIGx8BXu3yedKj389gUt7noJu6ykDrkNNV-VuJub-EX9Nk6EMT10q0g5l4Vg5CdneWEXecUBDDMzb_lFWO78QxMlL7emEPoB5hUyYpEa2SvPojy973DNNruI-SXGEXWPU5zMqFxYCWdRspVDJRo0ii9HFUT2kPeeCJ-YZ1BDYwYhI6HIYzo0Q2rjy21fXhWxxhApu0Xo-hQ0jjxbsZGQIijOOo33YTt5Kf8Lz2o0_XqaECMA2vciNWRZ-ZPjW-6W2vCUgyoD1cN2HGS8SpbHrXP_Yl4YQ4R2BpahZ_q8wVnnWigbT2zlPE8y1_KQ9AVk4pVT3qIhVlQAOOyOnzC8mc165GLH6S2VtzbnJQCeqC4EWsyL_J6ezvaGQMiiruQPtvP66OsU9b-vO8EIisNOCbi88fCMB7l5e_mZZ5aDtshFioIeIU7IzShypgbiehy6xIEBau-XODeWUrsbUMIXdpG7utBCHleqzrAhJVUsqJMN65YALM6Acqa-gCCIki3E0iz2hoQw_Eko6Mz0QrnhNPZY9ArPGSJZfHT_hqumxNKhFN4tqggN9HTxiOCf5mtevnbEsBs_yf1zKW4ECuwZGRJS95FEObI8ZmD94z7wgILZZ46bdFB9HB37P3H_yhEmjEFisHScMT4UyMaxuEKhb_24LbmsqCf3coOjiC9jR42sW6f-oXSf9ss5oepyt30PL_N1Y3rY_kRsayQu1YKRACyH0qQGE7lR4cldvP0lTztlMB4sHPXYbK9XOtWU4pVu2k7RnH2ve0GoPOppMWixTtJRlSNJBUMUD6kFxaUbGHzOo0Lzq_Z_nGfqdN6_lBOrTf1BhvKvjCC54ClDyzL-2Et1cuIIHV5Ov8XGV1BuuPmxC30kg5roqQSQLGCEx0qLk-dG763gdl5JKS39E_1qgWpnoKyO08444LrfcFw0-UmgM-9JH2fcyDFb8wm-x92LeLTBmOcjF3_MFdFmdM96UT0MBAlQiVr1pUjMh5zRiuCOwazxkcBmdwFNzqOVaSqBtc8HkXZXvrERSUX_CmLphVcZV4OpEBWqt9NgvwQVDf7b2S5W4yVLFIpoZTEmwlvP10xzEnr9uroaqXHcwbcoZgTOXm-PonJPY07c9uQiRcOqi5nv6eayc74ZCBbJjm4SzbQlDx1Dr9MyqgxhAJmBk5173Is_F6YyzcYbfO44wrx_Li0EPPLCvxgiyEBmbDr0Obt9jFTArmfRM1mDtJrnRbMFKptDfNWw5GLydVMq_fCbt1oCJJ7EINrTsoAT6c_rsY-VWGf_aUEqKWf9vzzrdFsP4KC4jvSIplbqLk071e8VfQrqpZiypvOmreRdTephNLgymH-wsctSZE8syGAAh4IXLkIJa28_MURotAp-YtPMl0HoTbnuPc9x8YsKjzKWs1tjjqRw5BEhuwcsqedAPg0w5-2fwNR-tqqVdF487Cy-Pn-8OcIeV1N7zqYY1SXQLT04opJn96qGWi5cSF2hnoqKn-GgP88Cz-HsqXv-5w39fGMPL2MuDhhyMFMvPggG2cV7awh0RF-CYcDEiBjCMkkkWB3g4KfPOKyUy7iIXa4BaqL48q61YZQYC6_igermpBSqkfzF5IwK0Kbafv88McH0Zo04Wrd_t6ED47JpqXbw4Fm8NgoBAkrjVCjNDqHNMvHCRG04mc-EmCc3kfMRv6vay1K2rq-WYCzSKJawrDbfJHk5vYWWb48RuTB2mEoXulZWmFRNfXOgv73uXy6ag5uOt7DZdPuGDLz85L0NTQk0d238cmC05BK6lTR-nKgfVRZQYAmDFE00KpMN0u-7v2EiiMCQK643Fbx1_FcCxff52v48TV2zTEdAhSF8gsHp0KZPz7EimHZ_RwKPfXFrgVned2IGi0geAFKlEZnU8TDyfmVydvgXbiK8Y4Tue5sMdxSiMepQmp7lC44F_BScdubhk6wmi8taew3pq4xw5GZ3v-X7nqpYQKYNW-ogCrRjB9Uf2KNyU9RjPtDQr8kKySwsCidnsbt1P7IgJG7f5M5ka3LgW-t8ylzW3nSyscyeDXEVLrHugrhIVP0PszjeYuBdfL8EjaJ6-QR1IdwUCxljJB4uxYB_qOmuHqt2tNiR6-nINnewRgM1YMvysWqHJv7JAPOacnbmrA6a-QgWE0zuOnL--Ftm3-SpiNj4qbyN_2OYvLk7tm3MDdyp4omXylbOalay-hZlF9A61OFrT2dX42z8jv_HHfy5HevCasdYEb4obnL4MCwcj0d5eEpBxsv_IrtQ6dwxXgN-KWj1NpdCGlIM2RJ5qTJX_8NKHdEkqxs",
+          "fare_name": null,
+          "resolved_booking_url": "https://gfs.travomint.com/google/flights?Adult=1&PointOfSaleCountry=PH&DisplayedPrice=8690&DisplayedPriceCurrency=PHP&UserLanguage=en&UserCurrency=PHP&TripType=OneWay&Slice1=1&Cabin1=Economy&Carrier1=PR&DepartureDate1=2026-07-01&Origin1=MNL&Destination1=DVO&BookingCode1=T&FlightNumber1=2803&ReferralId=GOOG_GFS_712&gclid=ADowPOJ8lVJyeid0ZrQzjuinR-6iwenc3CxgGPPzu8m9wNZwYsQHKKhB9LooFbsesW_dZu1o_xlLyOfkR-pHG5xZtFErK5iAFFuqnJKh5K0Z00rK6WmW&gclsrc=gf",
+          "flight_codes": [
+            "PR 2803"
+          ],
+          "is_primary": null,
+          "raw_rank": 0
+        },
+        {
+          "provider_code": "SABRE_MARTIGO",
+          "provider_name": "martiGO",
+          "provider_display_domain": "ph.martigo.com",
+          "provider_image_url": "https://www.google.com/s2/favicons?sz=64&domain_url=https://ph.martigo.com/",
+          "price": 9306,
+          "currency": "PHP",
+          "deeplink_url": "https://www.google.com/travel/clk/f?u=ADowPOIpBIEZWDTAP0R0f9LPXD7Zqu7jMz61jzvUqOQNPeyp6sTPQScl5mNcS4vJq0e4ibKZ6Tv2Senx37T0Sy_17NkrAmJ1_zUvx3WETKtIY1POubtuDvxDYhXqaJvX29ytK9Ov_mhbarAic_5N0oQQ-6RHVshnfOOkpjuIAhUbWSeahahG5AIo_q9afjEeUuYPDKGK2YWWh7ICFmo4SEXzfpbsCRwT_xVwF9zVljFaQaxUzAYz2ZXUkjFMOnQbro5majkYdx2yk9qaA8onXTYaI6ZmeNPPMtNQgJcQCjsNLQeeChuBcImu7SSsYlFn35lMcW-dLSb3GrbWWEsTeaC6lv9YMxmNNOBIUl4Rf1vN8Bpmlvh2Aql2CLWan_pMc8LoOetPv2mk1PsRMjjrf-KAhQsnbe2rVW7DA_CtWhXGDYK791KrljoXum509wcoxiVgIKxDLLppoEZu0HbuKuLcFIh_5-YF7ffZdUIOlvNkHuJZHpjAbwhsu4MhbMxclety4ia0hAjF4a5sOT98MQ6Px5J1pKP23i8qtMSfHon2Qc1ETEoRfn1N8WEscYxRnRmuUlGlpNPMYQlNzr3yRn4NJeW63Vq_MdgLleNzTkzcmEOdVjKYuHoWrS2TFu5GCbvm1zak3tvT68Y4kuZCrx8XOtJjLK9EcA2Wj3q5LOeDkkjtBPwC5o-5PTlsj2dD9aGAAJWtm7rYnyvxQFRn4Jc_yDHfVPlLlhguNNLsHw_tYwqo7UJYQYBWK81dWfe0NQk208TCB50tm87VMJsGI30TeGBuvjOfEHSeI-LXVHyfi6-7AOqfzBgE8yajA-c-KWSQfsC0W5cHeQzkyJBxBltoSQbupNg-D_FUetqsFAEwqs7pp63kkz1Z4N91wzJZm30AL18bUkK4_wQzA3Z_48EZQ2Z9JcOHUMslzYyf3eIODlMRuXHjjFyhMSZXDMk9I3rcMt3UDpcJ3JUr2x0HtJTCIjDju4iYdQFF-mM23DuUTxgYUTL_t7S1tfD78kquUAYxakvitoIMr91bKOWhbDRToMRCS2_C4cp_ST-UhD2ydBYeTut2U54PFh_xqfS0sOYwScFf_HAwFvmI5b6aLFPSKukzJZ16tclU_4eCyEZ02pX-xAlI_OnWWTkX4ju0qoFPe4mgRQBBNqX5HBTn1dyF1jT2n4cff-NDup4xeHMorFZ-TBpOy7gYByJVmcIcUeSlDCIp-BOyH8xl1sTP-ItGMlCXgaKFbBanPVVq2tlALXdajYKj-o58fVpK8EDoE47xEiHa3rnqebLwK741Z93wF5IiSE_L346BHiERwJL0bYo5IB2PfgB1z6hqH2a9FDNUYbWJpy_fqrVWGE5tWCTc6OcCjAC322uHjoBWX8IZsjfe7gBPTaNa5ODiAnskaz0cyzV7EzCirZBQwDjeeFA4rfNRjrahOyQuafjD3KIbPq4ZvS7vxU4KUce6KOfss8hO9ZzMCcIMn_U-ugl5A59JlCfwKt6TVSuPsT0BZNU_zJrBxTFBuwM_-7TLCO2HnkpPTjGJ98XZ4zTtQp80awRyt8zmRis0kIQ8UB_C_KhVkoSLDuJ8x6PbDkHRkiBnb2zwf5EfKpHuLcKdPYzD-9yE5YqDl3qLZYWcgrLCHcWS1h_jlpzJY0JrMh7-28fUNxQoBBo9H9d-nGhv57f_pMyct7G9laGa-P6lkGJD54Gxpiv9_GdB0nvpG8p3ZJepfH0_nWkKOOQgKxBj3ztYJyuDnCwMNDWinBrUsHPdNK8u7z7gIBOhtFPRd-iwZViiC43V1D-omVHVDnZWvAIBF3115F4ytg-5vhEWyxZX0FrbQFzLusfGSx9GKqQSBQ_Ycx-BMOer_IukJXeYYO0pwwX0fYxVa3JYehAhggG17VNNSOGRSGGPVzeNBlCnQGuDiRCM06-7iSuJ2fAfI-KRz2WgqAi1Wqe7ZTBV3MvXihYwSRVKZUjGIamRE9QjUMYPC-G9fwxNZ00r-8pUllFEqE887GsSGDUWNEH-qPBXzdljPdwOuA2F6hjgx-7PdurIAhrBdepzHyCEFPXM2U8vciXVJ8Z-TjHV_PD6Said9Ixqb2tXW1jO_jKeAFwJd66_qNEOoL2HCo4KSCiGOFv4SzGSPtQ0WdMyCHES3CZK5wXP3_LGBNs7VCvnrqXDbw_VjimrWz0SnUj9X7x4OjNhAu0KWthtLbB4wYPBzVdskx8k9sRreajuT2j2v0u1wJQT-p0kFn-lmMgYodDgi0-3oVAE2FFG_9tXy0PDGnAhNL0wsUhGWsoU2drn_eyhMqTfUpXUr1nORYtl4kaEiyBZu4UoT0lvoTzss0PsdsbhNBLmVGQcgjeNR1BxNm46OecqwuFNvXg4mLfVavUu2nqn-OBNqvB7xYm1fx0_8kJuxhBNglqjEpghMoFbYv_6w8siyeL2mGFowv8jJYww-VTXW3WL_lcXivAoEY6P2ZsoHhd4GHmUG3q01s0avyIM2jl-qzm39cm6_QZ8UNeoJOqsV1rouAqLh3FkB7dc8KjCrhS2guYrRjA6cmHC0Mni35DXIfZRZ2JisrmvwzBRtgxnacRU-oWX3RNSV814f4E2DhQwmcYkbhVptNHgri6o8wfSuT66v8G59rJ_XAJxkZJ01nLSCw-iBPVvhM_kC-8gZI2XnBMsR7C6yFVJsp1_RaeszfGTOSqov4WYbnTHIZHuOp6dWgjTAGuLtrdFPr0SMBovWOV2I_h2O4QTZZarxlGVuIdks3NL-iUYIRTRqGeS9ulJDdlMyomD-NPUKDTwetR2xflZHuSWb_bRn3-KyDssLvlNb78L3VAcwoIEcXfisMoRqaQQ-ogXf6OaZQxfAQUP5XfupE1Cq8jSQWSItJYY2kN4xMVuW4rAQHKWEODB6z-uM0F_pSXxF6x4liH7lcSLefh22EpwBhFVu4cVMr1L1lGH-tTuMTNAmpIZ59nWy9jLzcO1Q2xVtIy1WvMFMlDIC95Dbic41C_6K7f4X9mGQ06H_usn3VuOzAJtjFxNNYhKPMLhC1o3WHvlWyP1Lb8nIy31kuIUely-qJTB8h3TT3wzc2w4RlufSwNhuGN77i9ffO55kLMtykwraVYZRJCoGRCogAdygMKLGqe6GIFBHGSmN2HAUwDF7Ephgg3qjx8S3JAAdbPI-39_w8o4HiraqQdZaGGUjX5H2PwhLycjfElTAss3D0HWI9PyrjDCY0YnZI83cRlsSUeir1wdH6NKPwdpVERbYy8l6zIrBy-kkER2rkL44D-rdWUsBJmBH37cOPwdMuHXKW2lRI3FofuhQn_z7KwDfV-HCcVcJvyCdogSTApC0iWWLKILFRAB3AAy5RE6lXt5xwtbH_4gmJ05RD35fi0pQyYlcT0VVgStGEJCunxkGtSdXc4bhMon7zzXbUZyiRmaHZcfteH3J9VSY5bb_m3wLFpZG2Nx7Q9cUcQZm0YqFYm0PjE5alG6j2oPB1fWaK27BAlrwDgq5vmhTw_EetUYNnCFTePFJoJSDxbF6kRBq5JvJ1HEg9hDGFUrz3Al026m_JhQXiR4fgyuBiwGocnMYvU-AGsykN7PX8toU2_vFaRr22SizR4PuGo3uTgOnhm7V7yNg1xtRmXAE3GXl31zDEQm2WwkgQKy85DL4Svhje0H7RNZ9VV7Pq5_wu6LqRet46QBGaHJRxg11lX4Qxt_W0otek3jt5W0kRS-qymlf3Gnvv0_QZRPSGFjcq2V0nVi0VxCfnyFmTyTTjsEn_PnKyKvT0LKLSSPxd4bFWRuMOCBis0PIW4PSRX5KnLyMakf12qy5KA0OGSrGzPOc1OKYIOj0zPb9KhuhQ5J0VejwS00khY7iZ9UXfVNF-Vm2ToH3TG9vS3K0xn2KkvGU5VDUHDutOWvH1u1nAiwEGxR7451GF7ezSDZ_OtZNjOzsSujjWbjzLzI5BOkbyKXOXL7OHazBqNS-hb_e8tpbW3XOUvmnLvIrQvVrq9kTECz1KKIs9t6QRIBTz7JBpyfCmm8aqiI55nxWrqI2cbuGY54452gGXnO455oAFUK4teAr0HakD3JZXFJzP-V-E6Krb18L6jLue0DHk4M45Bz5bk6rsG6g2ikF2dtwIKWkl09jmRabFBaU2F9UYI1Y2EQRAUpVv4AXWrKhJtqVeuQA8rO8irZ2Bh9nZmpb-Mb5MYITDMsaph0IPsjhFkkJoxt3Q-eDyiRJUiCtNSckMR-Tn80U-4p6byEBDUtHZ1z6XI_tGyL09Yuarkko2PSU2VohZMIAwn_ljh4fg",
+          "fare_name": null,
+          "resolved_booking_url": "https://ph.martigo.com/service/flight?Adult=1&Child=0&Infant=0&PointOfSaleCountry=PH&DisplayedPrice=9306&DisplayedPriceCurrency=PHP&UserLanguage=en&UserCurrency=PHP&TripType=OneWay&ValidatingCarrier=PR&Slice1=1&Cabin1=Economy&Carrier1=PR&DepartureDate1=2026-07-01&Origin1=MNL&Destination1=DVO&BookingCode1=T&FlightNumber1=2803&ReferralId=GOOG_GFS_712&gclid=ADowPOIySFnRU-gsBLsno0g4tsiQLJRsxEpDr9K5JDO7yZYePOYkq5fRGxgLy3HKnpEcNZFOBnLPsD6T8nqxZ6S5HlRuVZMfNhZ_pr8bpKTCtNY2DBd8&gclsrc=gf",
+          "flight_codes": [
+            "PR 2803"
+          ],
+          "is_primary": null,
+          "raw_rank": 0
+        }
+      ]
+    },
+    {
+      "origin_airport": "MNL",
+      "destination_airport": "DVO",
+      "departure_date": "2026-07-01",
+      "arrival_date": "2026-07-01",
+      "departure_time": "2026-07-01T15:35:00",
+      "arrival_time": "2026-07-01T17:45:00",
+      "duration_minutes": 130,
+      "stops": 0,
+      "price": 3176,
+      "currency": "PHP",
+      "trip_type": "one_way",
+      "airlines": [
+        "Cebu Pacific"
+      ],
+      "flight_numbers": [
+        "971"
+      ],
+      "layovers": [],
+      "emissions_kg": 75,
+      "emissions_delta_percent": -26,
+      "booking_token": "CjRIWHpMaC1rQUd3cjhBQ1c0ZFFCRy0tLS0tLS0tdGJicmQxOUFBQUFBR29OZG5JSFFWOU9BEgU1Sjk3MRoKCOgYEAAaA1BIUDgccJco",
+      "is_best": true,
+      "segments": [
+        {
+          "airline_code": "5J",
+          "airline_name": "Cebu Pacific",
+          "flight_number": "971",
+          "operating_airline": null,
+          "origin_airport": "MNL",
+          "origin_name": "Ninoy Aquino International Airport",
+          "destination_airport": "DVO",
+          "destination_name": "Davao International Airport",
+          "departure_time": "2026-07-01T15:35:00",
+          "arrival_time": "2026-07-01T17:45:00",
+          "duration_minutes": 130,
+          "aircraft": "Airbus A330-900neo"
+        }
+      ],
+      "return_origin_airport": null,
+      "return_destination_airport": null,
+      "return_departure_date": null,
+      "return_arrival_date": null,
+      "return_departure_time": null,
+      "return_arrival_time": null,
+      "return_duration_minutes": null,
+      "return_stops": null,
+      "return_airlines": [],
+      "return_flight_numbers": [],
+      "return_layovers": [],
+      "return_segments": [],
+      "booking_options": [
+        {
+          "provider_code": "5J",
+          "provider_name": "Cebu Pacific",
+          "provider_display_domain": "www.cebupacificair.com",
+          "provider_image_url": "https://www.google.com/s2/favicons?sz=64&domain_url=https://www.cebupacificair.com/",
+          "price": 3176,
+          "currency": "PHP",
+          "deeplink_url": "https://www.google.com/travel/clk/f?u=ADowPOKvze8NwmzysXqVQI4trI8xapT5NEg7hIKABVH1W2autiArPExgyv6FWoCVFxJuqGQMFed4J0jdF2IpU5ny2QpKUUYc7GSWfau7jpzeLr14u_Y0cZYrxTsBMQKfqrAaUd5ponaoAcSQQzXlbL1vDWhK_NHhHJ0vuUw9dVrfNa-ozwGFstHsWvwZifYu7cNkWzsWk17Sw5_CSBGG3ixlAClFgh9pupyr8U3f27LfGZuSmi7fgfvyJ13k8xOZnBnN2t3vcHCSqaUfbwgnskSOqoJHfkH7Cc4bTcyMgC3eqhRyAdmCqBI6MdkuxoMNk24YOYzdlgJTj0WdwR7fkR9drrYK2JTSVzJpwbdQADFBbpTUrWH08Z15E2VVhrYGXL4wI8dkXxWeNJCdM5dGjDrKDEXu22zIjS48ZQjZrQO8BgtkAvdoIIFJEJloU-vI6e7dJUWn3G0NEtidlugCE_MjxOH0uTo8X8nEOdNiYz-_vcNO4q5vqTMlDB1_7xgJMDn0Cd0Z5XJ4HswG4d2U9xSCLWAwiWfqPptzbWEykcMmquSmMq0XXJMAtjGyUqqxtl7B12q3LhI21wXk-fid3K4wSh3-ATlcEfBX6R3mOvuKCTeT0h8oXRJdNZPijjwmINeQyenE7m0oxldY73fHO21bYle3lToJj4Tci9fJiGJKUZncbjUudZulw0ozeVU8VgLuT3LK4r7adic_SMAhX1N4fazitp4F-6OYG025fuqs6YyHV1LWBULJ5VR7hrvBHCZHUXmuGEUk55s7oTrhWNp8YkIaEXR1oz-x3Iur06wqwM4oHBJfNDp87qvepu9oq-ZhL2-4P_lQWPIa5X_DtCIz-UDu1-N5WiQCw8fM0jewy46CTr9gyZEIHZaZthlCk2RVfojGx8pUvNblJVOb_-ffpdvACxdX8GsH5jkyYfyiOe884vv2ZlUaTY01hfNyCP2c8CLgHYkChPkokHIxzSXV5FtEbJ4xaXTXa5oAzVLLk5b2YzG0M-DHBAohuuV0IWeaW4Mj2-aN0urv9_wjziI3qrF57XkCVWya4q8NrZ3Lr7RHjIX_Z8nj0q2xfGl41LYLp-ZaOyrBSujIbyJCoBdTmrSH7IElHnc3xQkBCFBuOPVcQsaMLMk7osy5kd2P2CTLUjPRHi_ODzlaT5egCKhyvnXdMwX6CHpDp9agvHCQECCLYXYS9MfJ6GY4sYacY1vdejIK29XwEVz9-RBtOuteQ-quSf-Am3WM_XOqIND5K-L5ffBJXbnbU_XZjOtBQtwOK41hIF_sfTEj4lZ7V4ZPaToreUCtQ-I8CKWOgLtgb6rADhcll4LAniq3KxMG3miGMw4MwquO0NqaX25ymImPVWXzdYxhMot6DI8KUvXwgN8q1OeM63TkG_uV0VU6_x_T2dMylsMetkioL9VYQTA8sdc5aaQW9-HP2l6julGiFZnOTHgXzNTtueDksEOMsiLQa5fY_sczoAjeSh0LgT9ap_cZ8WHwBUMQKvRLf9Zf2h2uP-sm_1cYIP13FqIX9m9_I6ELn9Cl444Lq3sSkshUyKU1Nsnqo9TIuUbRDfKuU2EOoIRxYuxtgWZwpRrXZFpKX4IymY75cmuOTznGQ91F9h9Wswla_EJk2wZH31UptSQNzPDOtrGYgkS6s7uXFgAjH6S-W2vHoiCgytI0pHbyQPzvQuPbllAR4wGxiOUqhX8zXqn0B5mZ9qeDHceoLn9kQb7rvhuj9SKy2reYvsQwsb17sp0d8jSbGR_LILGVI08Q3ZguMs5H4c1gTmew0GvBQScxt4vYHJPpjkNQ731U36ZoihwN3-2egskCpQvAoQ9ICfPmBsNtmQY-iQ4Y1v8UvXfzPvTCzMEMm0ew-hB1LWuM4NMHSB2-EFFNIp_2wVn8M4XXbzuEUNPJq1RR54FX6m9M7FWvGRYAKPkPA9YiuMoCGKdGvEmWknBMUvn83cpz8gLM_cjX-nSBdCenvpfm1P8C3-IRirRslJykILp_EOxhsnMHpRQgLYl0EESKv0uzKWbV2Eq-FIjUY67XVYenZCVkzI_GcUPb_j68SNzuosVZdo3624XKaMRyLlw_q9c7QZcv-1h19uUR-8qGBm8vAQe3IyibgOLW0cGeoIpFvk1Knb0IGHdLWlxIX0xnn0HB9EZRoRcrXYNhlfhniYk7g4N-F6nHzzwvZk6mbJcGqDSWEfGwvyjcZtaNkAGrRR2gdA",
+          "fare_name": null,
+          "resolved_booking_url": "https://www.cebupacificair.com/en-PH/flight/select?dd1=2026-07-01&o1=MNL&d1=DVO&adt=1&chd=0&inf=0&inl=0&gclid=ADowPOIkkOo93ba1BHIlrocB3IovKXn8cM4n4MJh5bup8gmDtAUf1C5cs1r8g-_iUxFv772agIbU1Jy66cUfiPD2Dyf3qcbuMugmeKka6bZIJlpCoGzt&gclsrc=gf",
+          "flight_codes": [
+            "5J 971"
+          ],
+          "is_primary": true,
+          "raw_rank": 0
+        }
+      ]
+    },
+    {
+      "origin_airport": "MNL",
+      "destination_airport": "DVO",
+      "departure_date": "2026-07-01",
+      "arrival_date": "2026-07-01",
+      "departure_time": "2026-07-01T16:05:00",
+      "arrival_time": "2026-07-01T18:10:00",
+      "duration_minutes": 125,
+      "stops": 0,
+      "price": 3176,
+      "currency": "PHP",
+      "trip_type": "one_way",
+      "airlines": [
+        "Cebu Pacific"
+      ],
+      "flight_numbers": [
+        "977"
+      ],
+      "layovers": [],
+      "emissions_kg": 93,
+      "emissions_delta_percent": -8,
+      "booking_token": "CjRIWHpMaC1rQUd3cjhBQ1c0ZFFCRy0tLS0tLS0tdGJicmQxOUFBQUFBR29OZG5JSFFWOU9BEgU1Sjk3NxoKCOgYEAAaA1BIUDgccJco",
+      "is_best": true,
+      "segments": [
+        {
+          "airline_code": "5J",
+          "airline_name": "Cebu Pacific",
+          "flight_number": "977",
+          "operating_airline": null,
+          "origin_airport": "MNL",
+          "origin_name": "Ninoy Aquino International Airport",
+          "destination_airport": "DVO",
+          "destination_name": "Davao International Airport",
+          "departure_time": "2026-07-01T16:05:00",
+          "arrival_time": "2026-07-01T18:10:00",
+          "duration_minutes": 125,
+          "aircraft": "Airbus A321"
+        }
+      ],
+      "return_origin_airport": null,
+      "return_destination_airport": null,
+      "return_departure_date": null,
+      "return_arrival_date": null,
+      "return_departure_time": null,
+      "return_arrival_time": null,
+      "return_duration_minutes": null,
+      "return_stops": null,
+      "return_airlines": [],
+      "return_flight_numbers": [],
+      "return_layovers": [],
+      "return_segments": [],
+      "booking_options": [
+        {
+          "provider_code": "5J",
+          "provider_name": "Cebu Pacific",
+          "provider_display_domain": "www.cebupacificair.com",
+          "provider_image_url": "https://www.google.com/s2/favicons?sz=64&domain_url=https://www.cebupacificair.com/",
+          "price": 3176,
+          "currency": "PHP",
+          "deeplink_url": "https://www.google.com/travel/clk/f?u=ADowPOIrnTj5D-L9J_MHNQyLeX8THUF8cbZMvIg0ttJLGUu-mSwHf11qdD68BMZkIHOgw7LcT0xDaNrvGQR84aikbCnJXiu831arQ9wUr6AJnd8wu5OfUZ6CL6mav3vz_DPX4oZ3VTWYPHDH4zjOA4WETw0MItzpjF0NIWkWMHdUJ0J1xCpwmItZcu10_qRt9AcuxPcllAebg7d5B6PJWihCeGY1mgQEdZNRkM4Y_e6Il2Ee5bu7tPMoA47pKvXbUdUAvDPVeXLXLAsGBqEusvfumGuAXT0hcuWri3BhmJRUkkpLU0lB3uSjGUUpBw4kU-viHPE2ezFq3fjQwmCBdf4uakgKHLXiu3iD-Kn_C9hzpcnQtmMtKJvwaGggHstsxm3j5yriIAQyI8-7-LoV4kPPVHZT1QijUVTiwjeHx-ehsbtqb66tLZAC-bkd60RBBFHRDuaqofsrvQxhpqLuCPQOp-uvEHuBNAlyi5fNUsmL54bRvW1rqsyz44G6U8JqlfXNqF8FTGbeZZUMwf0ix_CB1avECSizeJHJDya0kqR_ots3qZtCPMWhHwqFLhKnvBhWI5IAAkviVvLJZUTl7p0LIt8RqnFVlp2pWYoa1n2SR3rIXz-_cE7egzq-4oCzqTRoF4ZjcCKBhoVXNcqgMIQehcYCfNh8jj7iuegC-gx3z3PpU6tzviXvzflhiogTmdpFUxaOe0aE5hIVaEiA5k2VmFTXXDoGb73Ns9uJunjZFFaRbg3Ghs1b0mRxcjbnBLwJkQocst8_YZdr8rlr1VQnKClu9yj6TqiRJ32cA8xwE8M08pBf1MJjtsST8kFUQcdgH-c_CDiEawHoYgqhpDeOgObCDHM5Qk4BMxsLj_l9HZ0J23kzIar9NLA_PyMH1-S-yqzxzRpoUmHFbTBg449Q2LAehkvQs2Uq6JuwCB6kU1WyvP3LS9JNULH7p_tuJrempYKjYZrGkmKsQOZ8bvLvgULuGllaS9_laitSeXE0QN2asZpaHSolVhEE8eg9yAJwMwIKPJjkze4Kc5_fhbs2hVHEJx9FRt231jNfJ_Cy2RfgroKUhjL-xdVp9ItQcAhJ17vAG49h7xn45bsyR6ayWPE7TZHXVvU9rThSFKaGU2gRWLARTJhjaznARbFAW2Y-2ro-qazdJSxoxt_pWmO28QcyKubYd1vYSnUXnoMN7oqXieJ6TPMvXK2j99rYxLf3tV4G3UKpDr8MX9x4ijq3B5ljIu0v-FhT75S0pTEzN7JvDir26keCO3A1hatCTgOqKewydXZYq80drMmWg8eHJZB_oJN3sIPZhkUov1nuhrcIVqs9pJsz3pnNwRPko24n-J69d8oGNYNF7GeR1bEx1Djrb5QRBRGPqETm3MIedFD9tXzw8MWO2bIlD5XKlmgPZlDlJTFJCEAq6LcQBIXwGOTAVskjeAZ0AuPTltuf9zz-TTV5YFFA5R0B1SDJA73cN9uZy1c5SyHUBHP19CIhh9TmCwoLEXbMYn-z1zrN_mtlR5x3rpBivpfUDdlBPzeH9WmoALSGRKaYVMOKZzSZvwZUOZfzA5tU09CX2QrL7QrWcdn9JR9KfNke2GuGFZ3mhbPfdF2etMqbatG52YMz_Hbfwbo5mYAj62nceCOVlbFejIQkZVj5H6zY8ukTbkpoIlqAwA8YM5J37V8hSF2dNjbCl4cwdFemUcJbTewYyZQlapHo_ieNUfkN7d-7sD7Mov5D492bhku2urFTexsLH6S3f6VrTXChpvKU4hcaI0FTZqQV8nANDOSDGoh5s9srDzyV5a11XSVPJfCt_jtZSuYma8H5-91T0cO2yp9B6gV_LRAv2Sw1MVOEeaLi9pn5O0RZ1DuCsb-FVo9xCqS-ljwT06LFe2iBNSFd5p7M3Lq2c4OlK-EQElN_R_7akuHnkfk4xrjCjm7irPsWwclHr6BqupTIB72bgqsN1OVi9Jecyx6qDZQnsnj-i8M1Iochw3hWJ-bIMGvujg3iiTmYIxIsuA8CaYIZfg2aXl2IfrVEWcUd_98ocO0CU-xWGpwwsqiX4PPdsGhCn0rxVoSFdTu1tSdIAw1UMCV_uERlVwD9lhfGuPXSPEeaZ8ubSOqRTBZCsm57Yal5ICGMMiest5yifnmm62qnUm8phlR85E4Xq_4b_tc4g88NTGs5wCTjuGL2lkSFgqEK0BcIs6nP6lhCMZCY5zjRGPOhtc9poBCeiw",
+          "fare_name": null,
+          "resolved_booking_url": "https://www.cebupacificair.com/en-PH/flight/select?dd1=2026-07-01&o1=MNL&d1=DVO&adt=1&chd=0&inf=0&inl=0&gclid=ADowPOL115fcnEArWa2E_mupgC7rwJ3ImZnqllsjaBEcQnYESOUe-gh6OUE1m30rlJyTrhkUI_-CfvT50NmZhGPXG9T_8t0m4Uik4rKsmNztH8WwZt-b&gclsrc=gf",
+          "flight_codes": [
+            "5J 977"
+          ],
+          "is_primary": true,
+          "raw_rank": 0
+        }
+      ]
+    },
+    {
+      "origin_airport": "MNL",
+      "destination_airport": "DVO",
+      "departure_date": "2026-07-01",
+      "arrival_date": "2026-07-01",
+      "departure_time": "2026-07-01T17:20:00",
+      "arrival_time": "2026-07-01T19:20:00",
+      "duration_minutes": 120,
+      "stops": 0,
+      "price": 3176,
+      "currency": "PHP",
+      "trip_type": "one_way",
+      "airlines": [
+        "Cebu Pacific"
+      ],
+      "flight_numbers": [
+        "955"
+      ],
+      "layovers": [],
+      "emissions_kg": 77,
+      "emissions_delta_percent": -24,
+      "booking_token": "CjRIWHpMaC1rQUd3cjhBQ1c0ZFFCRy0tLS0tLS0tdGJicmQxOUFBQUFBR29OZG5JSFFWOU9BEgU1Sjk1NRoKCOgYEAAaA1BIUDgccJco",
+      "is_best": true,
+      "segments": [
+        {
+          "airline_code": "5J",
+          "airline_name": "Cebu Pacific",
+          "flight_number": "955",
+          "operating_airline": null,
+          "origin_airport": "MNL",
+          "origin_name": "Ninoy Aquino International Airport",
+          "destination_airport": "DVO",
+          "destination_name": "Davao International Airport",
+          "departure_time": "2026-07-01T17:20:00",
+          "arrival_time": "2026-07-01T19:20:00",
+          "duration_minutes": 120,
+          "aircraft": "Airbus A320neo"
+        }
+      ],
+      "return_origin_airport": null,
+      "return_destination_airport": null,
+      "return_departure_date": null,
+      "return_arrival_date": null,
+      "return_departure_time": null,
+      "return_arrival_time": null,
+      "return_duration_minutes": null,
+      "return_stops": null,
+      "return_airlines": [],
+      "return_flight_numbers": [],
+      "return_layovers": [],
+      "return_segments": [],
+      "booking_options": [
+        {
+          "provider_code": "5J",
+          "provider_name": "Cebu Pacific",
+          "provider_display_domain": "www.cebupacificair.com",
+          "provider_image_url": "https://www.google.com/s2/favicons?sz=64&domain_url=https://www.cebupacificair.com/",
+          "price": 3176,
+          "currency": "PHP",
+          "deeplink_url": "https://www.google.com/travel/clk/f?u=ADowPOLBGYsaxivsPf1zYFDKvg62cXH8lYNhFwxQcmw10whz2_pOiVfKK-_w0SG7kh9lKnFNCb9o4Zvb7E3_u6RysXQJYns6KgKWDiNYcYdK47NG8azphUtccfUsnFhXYDUt4gnwRT9cMKMvUosLq7jbSgKwRb-q5hjwG7S1JxSCEUY4Ofty_zP40j_mS_xsQmICJRd6eyb8JenVf2mPR_uRA-nNfr0D9uPe2layuvrAc0ORhYWejCV_lv-xhwYu-COmkhuEZMiPgwL9W_fhojk_rkUOPP4NOos5XH4OK_48-HtwvEMTsodBIgPSJYXFpcJjExKak03vogADo55m08obrbNRqqD0IstHyx0pYm0xDP399GcccyA_ndp9vEdhwN5tgNFFNKWzQCuLTeYzn7NTdv0ONr0h4w3bTUUUjAacy5KC6Vnq3ND9TATMhguoMZr5ctzhZk8wpmxceGMaBx8duQvKnrZU4Hy4b-KVYT0Y7DMK5RTnWre9ahU0FV7rT1CkkctXrw0BzWsq1g5npBLy-M05gFT_mFL97wOySwNgWgjC2bs_usa10-DGyRwQHcbQEtAjBTv2oyBDM22xVxB8kxj3aG1ZR-jiOxvafp5pT7XONJtk2gqoZx-LqhAUh7qGkN3T0QzJ7Kvy1RCvfOiEc_atIPqYaPulxOB0ZH0tvEYD7RfHsZ-lW7tcjAWBB1VdwEsvz43ysraBzeslEHF6MLJY4klidQ90x72OSLzEX0uJYdfOXhaZlcJiMgbnHNGdeUoVmyVi_0m_1F5CfkCXpghsEDxehsIl8QUoezdfweagwLPxh1AirUJvWdjxyNXWARAPBGCvWOX6vMqI5w65F0fPyLI6sAVaEzOtcyHkIJmrxQrt5nzcvv0k0gKeKEvi-06RYLwJE4xxLqAXFV_MXlt0G3vJuRNBCfRdyuNaZ-4nfdG4Fp_XT1RybIdBIKjBWA8L_VwrOb8FpPyCxiPMZpImaTNaS89tpyj75M-n5uzVN71VG_Rj3rIoWa19UELP_NonWcXgAMxW9W-1FZrK5Hpdwdq6SbRJ6XwplGCJxObQMwZQ_MxyR5IcxQ9NdHZ1kuJt8ydlBXkYZnLz9E_2eLSbfVKzz_eZhH3C_oLPgXlLkvgmB4m-YuzRP9Z4Sff4ekGvjIri1230-93XHSVuaQGJ3ZOc7I3yuTgBumavmCOmiOStNNgpo9QglCn2u4ErWPlr69G8YT0UOqT17nauwRS0Jv1a-YVQAtTcF78ZvU5To6Tj05RNhgqxIeJlx1BMMirUsn7LK0nDFWz_boW4X1gkDEFvf6inQgt6AzABWlQ757cpediFO_2DVdMf15BBbkug73e358Kg0F6V9g22tLm6FBA5CJPx6OcoVLRuEQw7mTplh3J8UVRC9nx13uPyDw8lQRlfiXgHE0Tsa02SFGN-xnos4Quk83_NLaLZjPQ49l9CNcnC-xZNaAFRU_Onu7rbuLJcqNhtEVkjd7DCbRKr6cjMiUjvBjZUge4uwJPJHQP7Zajb_J7DjkxYyyp_Xu1gMzU7b03bUyYdnBisW9kbbOKnNMUJZCEjbzd0zf2xpX9SBYDu5pZ1rEUKnkY2w1JthK_j6vvieYBHRi1MT459ZssJAkFxxcy6jCFSNbIpae_ZH5dPysagRbQ-mTTm3T30bqKbgldEqRFLxGEhVRSYVWrj0j2GXPgTtgIpWfGtC2lLBjdMv3Qj9e5O7PLGK9RUi9RGVKAR8oIVXD27upcC7mJ6U6tNUmoEBOYM8hrXGZ1lvPf3GFdcx-pnSqCAE46fHllrGmLCyx4ogGkWC4-AI25_CTFR29vhzajqZxMv4sSkJBmvlm07BoAzIqCyHPYTbFlnApaLZ1dIN9m3MMHAIQaQk7fdi5G-o7xHoXUTs0N6taKTRLcM4G_dclvBHEEb6qDJM_UnaUzwnwjjFU9ZPOC10jPHkIBwMj9aVnmGJKKTyWBUTi95T72msgwiWtTidTLb7naGDAWHyR_OStNHtVCuQnoJy3YGD1i_DZfQ0BX15zYGs_seZe_54JkYoup3TfnvcZdAFPScVCOy2FZsO9U1t4OzqPyE7oKsEip-MDT1DyxeRbsDa_ojtaLpxXA6OrGOQrHRZzkuPDcmnpUiOrIudI632mEMuebPsw7jwAUi7iNg5cHWQ3kOPMb1qxcAZn43UZabfJ_epfHdD6jh9MjxY_xtzivXEcLLQoKXvw",
+          "fare_name": null,
+          "resolved_booking_url": "https://www.cebupacificair.com/en-PH/flight/select?dd1=2026-07-01&o1=MNL&d1=DVO&adt=1&chd=0&inf=0&inl=0&gclid=ADowPOJ6-kSrjA8ZM76TU-gN4c6_mnbL5rLo4rdvhpCuKFTdpE9QVq_9dmOnhQtAKHSFZAnNd8fwYij6GSExH_xNo8A3o0hJ20DvxKpP_m7o-AN_9Ozw&gclsrc=gf",
+          "flight_codes": [
+            "5J 955"
+          ],
+          "is_primary": true,
+          "raw_rank": 0
+        }
+      ]
+    },
+    {
+      "origin_airport": "MNL",
+      "destination_airport": "DVO",
+      "departure_date": "2026-07-01",
+      "arrival_date": "2026-07-01",
+      "departure_time": "2026-07-01T18:10:00",
+      "arrival_time": "2026-07-01T20:10:00",
+      "duration_minutes": 120,
+      "stops": 0,
+      "price": 3176,
+      "currency": "PHP",
+      "trip_type": "one_way",
+      "airlines": [
+        "Cebu Pacific"
+      ],
+      "flight_numbers": [
+        "959"
+      ],
+      "layovers": [],
+      "emissions_kg": 94,
+      "emissions_delta_percent": -7,
+      "booking_token": "CjRIWHpMaC1rQUd3cjhBQ1c0ZFFCRy0tLS0tLS0tdGJicmQxOUFBQUFBR29OZG5JSFFWOU9BEgU1Sjk1ORoKCOgYEAAaA1BIUDgccJco",
+      "is_best": true,
+      "segments": [
+        {
+          "airline_code": "5J",
+          "airline_name": "Cebu Pacific",
+          "flight_number": "959",
+          "operating_airline": null,
+          "origin_airport": "MNL",
+          "origin_name": "Ninoy Aquino International Airport",
+          "destination_airport": "DVO",
+          "destination_name": "Davao International Airport",
+          "departure_time": "2026-07-01T18:10:00",
+          "arrival_time": "2026-07-01T20:10:00",
+          "duration_minutes": 120,
+          "aircraft": "Airbus A320"
+        }
+      ],
+      "return_origin_airport": null,
+      "return_destination_airport": null,
+      "return_departure_date": null,
+      "return_arrival_date": null,
+      "return_departure_time": null,
+      "return_arrival_time": null,
+      "return_duration_minutes": null,
+      "return_stops": null,
+      "return_airlines": [],
+      "return_flight_numbers": [],
+      "return_layovers": [],
+      "return_segments": [],
+      "booking_options": [
+        {
+          "provider_code": "5J",
+          "provider_name": "Cebu Pacific",
+          "provider_display_domain": "www.cebupacificair.com",
+          "provider_image_url": "https://www.google.com/s2/favicons?sz=64&domain_url=https://www.cebupacificair.com/",
+          "price": 3176,
+          "currency": "PHP",
+          "deeplink_url": "https://www.google.com/travel/clk/f?u=ADowPOK8cyuShoH6r4t_ph72xC9vGzm-IKhBfaT5MvVz9RecX25Id4J281Fs2vWU30l14K6lgsL-tAEBWgRveoqAzG3DtRx0bnRczeAZ_hCzenH7AZtdYsMqwdVK_C_5sBuH4x5ZLvH-FNWkY8zXYNowHN_HbGU3yK-zcAFbs-iA_iPDmcHB4GiP7vGVvPIgd8rZH_QeSnGOEzSlL-A9ogQG6kK_Jo4KLOmB68Yf7QuSeX_r80c6HuwppdjeWb8lmvAnOckarp6bqIClc3dwT9uN6gmmUkpd8TQHz3Fv2pu2IrJb1Lto3kB_EeQDNaBVRipWnu-taHvfPHJKmAvdqRhJM8g4BHmAkDPo-6c2N46lw9rs-fMXKk8mPRQaPeWJhHuqil5KCvmi7XoADkP-7olZi2OYgVpEAwv82t3eI4jKdKCD5w2kiCHtbQRhhCystdJsRRWAJfLo3EvU3VMWp_FOUIK00ka8B0mwEZplcTQPMyF2OIAe0DNfawglJnod3n_fhW1tbmk478gf4TLrlp2sDkZ8K99nnnYNPNhaqaHh_X-xu23SQcxXrh0hT5M1Oy18ze1T0ln_WNUWDLWuPwvmep808KXyRBxNMDfoQWGs4epFAmQsQ22x5xJXMbdXfeRhyDQaN_6wyqVz71oc_y1yCqpQqzW2XmgHUud9eBwAxyVzj5Wkn8mjZBRPmYrGSmOSGWbrz5kde8D36XoOyP9uuTqVAIJ_stCgR3_1m_I7OLCo4EWDwIce3PS1voZBQOeFS9KyCey3mrhHYRFHqmIHW6KZyk9K6cHEHPOjVCTU9d6x21BZpAS3c9HaYEmlCtAKB17DwumGre_AwZNSRaGNCuRcB7HLrrgv3hFuatL2RqJ26cF65KMqnafyHVxsHpgBrW4MWe_847cNj9aGTW4HHDzXg4VPs2flY24eSU3enIg-sKXg_Gct7fD4-YHUKFLL8tDYlcwAi7uhVWjfeHZPy_7QBoBRmK_ZX0u6uL-K3jwaSTHTeLABjK5bf0-GkuI4Cdy9N-w7ft_G-SkAkyByvbuzf7vE1YkYsZlkV-Oi7knRZ26u-83XpvspibYW3I35f4cEp4I5pBpuZxgOf9R__aZihONoPzOuuVQggyHHylOOB710ukt70v7OaQF6yQc2gqQKX7NFTCpP5TdJnxd-2ZI1GYOZURBNEEYdPOeaAjqxEzGjfbFNJLa0UO-puZYEfsedUNhoOATkiVvxwMmvQZF1YcumxYuGtvhTeiHxorEfwmE6loPibys7oJTfn4nq-TIUPHsyBDfRiy6l2scSFxPOVOUX_QVP6ZXWgLc-WQBGMOtyOHEsr0bnFGjDioJlnYSoB6HpctN3yHaNJY0QCpXdqU9pMp4TUzbhxBwBJ3v2l6bgveeUOEx0k9fhcyL3rZeNJvSvUxAIyWnPO0x7aNEvLk4cUAvZT7ZPzc7yf7geTlU3UTwRfrRTpMMIFskssPTSy-Qm1oNw6JbaazT-9JgGuL_8BWuKSOO20hjxdN39ShBMkOXtyxuQFkwoVR7N_j6MYJdeV5xDHeA9We3r4akWoGQ-CFpRzOE2I9V6k97l8jiYv3x28oGVosep2j1LCPoJ6-QFzwRYDgNEuIdIlvUm-WgAMcZW0-5TnC_jGbIs8efsBYyiopOtrf7O2DwmJO0wMKaay-4AvxB6LMxGD7Syyl4NXH3sXBIKIkO8whR2irLBdOCBsXpegMxITgffBiRYpIL7Yqwgy2YPGHao_fCxh4o8cU0nL98lHqsEJE0iZkOMRNHSQydIeGS6Jmjd0xWbYVqGwPPs0TePsZRvLdpf_zgnZB3J2e-dOffnU3PufSNNpS_zo3VTbqAL8RKOrp6bD-ltLYjbzMXqyE7xkZMK2NOOQ_X0X952vNbKI8S4D9AVpOQyn0D6GDgw0CJf2bzWuvIdR7IQZsCTw4pOTMECwiKVOqcRBfn_j8X8lVmD8UofIHIbp6TfUzOCctSLmdeWyxAy9_6llAfUGpwfXn61s1kCALlpVpwaaiub1prrWuPYk0Za8TF_-kZdpf0UwUb783gRcwITdO8eQmewniZ3JAdOzqOdJmHfNW0dsF5wRZeTURTnV3QqqYMi7uIB4-D7ODXWFV1KT7Abn_FSdx1N17R3ycZqt8am6dd1r13TXKeg7_ZKjH1Q-HHu8OUPvH97SG8iYRLeu8FI5bhfH6WWHXVHlfToSxqcDphNweapIw",
+          "fare_name": null,
+          "resolved_booking_url": "https://www.cebupacificair.com/en-PH/flight/select?dd1=2026-07-01&o1=MNL&d1=DVO&adt=1&chd=0&inf=0&inl=0&gclid=ADowPOKzexjJJCfLpyA2IWIObKKyyNr6MJ26DGKy3p0_RQn5D7okbLf7tfgnx4vgDnewzhMA9dTx4TtGOSo3ogMLvcc8nNDpn14gT414e2YNGHCO4RLy&gclsrc=gf",
+          "flight_codes": [
+            "5J 959"
+          ],
+          "is_primary": true,
+          "raw_rank": 0
+        }
+      ]
+    },
+    {
+      "origin_airport": "MNL",
+      "destination_airport": "DVO",
+      "departure_date": "2026-07-01",
+      "arrival_date": "2026-07-01",
+      "departure_time": "2026-07-01T18:40:00",
+      "arrival_time": "2026-07-01T20:50:00",
+      "duration_minutes": 130,
+      "stops": 0,
+      "price": 3176,
+      "currency": "PHP",
+      "trip_type": "one_way",
+      "airlines": [
+        "Cebu Pacific"
+      ],
+      "flight_numbers": [
+        "981"
+      ],
+      "layovers": [],
+      "emissions_kg": 75,
+      "emissions_delta_percent": -26,
+      "booking_token": "CjRIWHpMaC1rQUd3cjhBQ1c0ZFFCRy0tLS0tLS0tdGJicmQxOUFBQUFBR29OZG5JSFFWOU9BEgU1Sjk4MRoKCOgYEAAaA1BIUDgccJco",
+      "is_best": true,
+      "segments": [
+        {
+          "airline_code": "5J",
+          "airline_name": "Cebu Pacific",
+          "flight_number": "981",
+          "operating_airline": null,
+          "origin_airport": "MNL",
+          "origin_name": "Ninoy Aquino International Airport",
+          "destination_airport": "DVO",
+          "destination_name": "Davao International Airport",
+          "departure_time": "2026-07-01T18:40:00",
+          "arrival_time": "2026-07-01T20:50:00",
+          "duration_minutes": 130,
+          "aircraft": "Airbus A320neo"
+        }
+      ],
+      "return_origin_airport": null,
+      "return_destination_airport": null,
+      "return_departure_date": null,
+      "return_arrival_date": null,
+      "return_departure_time": null,
+      "return_arrival_time": null,
+      "return_duration_minutes": null,
+      "return_stops": null,
+      "return_airlines": [],
+      "return_flight_numbers": [],
+      "return_layovers": [],
+      "return_segments": [],
+      "booking_options": [
+        {
+          "provider_code": "5J",
+          "provider_name": "Cebu Pacific",
+          "provider_display_domain": "www.cebupacificair.com",
+          "provider_image_url": "https://www.google.com/s2/favicons?sz=64&domain_url=https://www.cebupacificair.com/",
+          "price": 3176,
+          "currency": "PHP",
+          "deeplink_url": "https://www.google.com/travel/clk/f?u=ADowPOJZaJfegfU_8P3Om2qW45etanu4nwkK5ohPqm94TrMW8sCl04ErKWSOpoiceYnq_UT5uBbHAjRxXlq09cG2jdLnknCTD-QFiIHWQmbM3PSEcuMuDyjrOEL7ZZVFCbQ_HdpVriZFRrbX8rB1MBie8Nrc5QLYvdMn5ysAygqfxjAQAGw25_UUMzqK8Jps0dRj2wI6JGUX3F7AiF7IusMbM-NlPoZcqaWdVne7txcbcF93WzRSacxHpqGOci5Xsvv1dSOOtY92noHnmgVlli86oVQUFX5EW9ytSBz_bg8eem4fpn9NoQ2BIqyknCqzoz4jU7OZQ6s0bhrnJbv_Orf3Hon1VYq98J3grpk7-blAgwOjreAyTCqt9S24oztW9t3JVGWrYDieh9Cl7STfnqsQCFugtVWyLLCsMNFidw9-lSuPNlnEhObDeyJ_kUwEDVcDKRF4ZBm_P-tYqSWwBvgEaBcOARFdRbaeTpW2KTUEQs7512Xxzp-SSW--4i__QUk4zsc9QETJZmNyVzj3iOZuEBSk4ZQMvY0zr0rLDcW09yUBBPoLPdsX0TPOi-x48LUH_J-uzwOMoJ0XzW2vLO7s4r7T4cZVdWbnFhja_YPpAErSkHRjza99faMo1-tleM_oJupN8nv6eugDnLhKoASJPWd18V0Ib838Zbj0J3GDQudz71EZqHeyKL3LuNxVs0trV4dZMM-4f0-Uje6TLhfnGkKSbXi0reIaUUgB7DZ5SIjhPdhZbXfxcf9U2sMiHF10KZRED4FcnLERCiupJfSheOoO-EkPqFSVhOcKFvxYk3eR9hd7tgdnU1u3SFFgv_O0Y8_Ni_gB6kKKGCH2XtrqIgwSkv23uV_0dtPYnqgZlIG3DAbmnpgFWjZr7R6iSU43QGUcbtfMvyvHUGY3rT_FRGze-CYhbVeakHLlOemEx3Tyw2I3WQUlgdwtypeTcIatDs6B5godY__cogYyIJpb-9TIbPzWpAW80dxVVLHYwTxSYC7ckkhZfjnU_vYlqZ-bMCE-47arlVLVM8PoXGQ1rwn8VnhVozSR3PTDjWsay2EGU4ybh63E8p__GXjUMatpxa1STl5e0XgiddARsJ6-tuJRyuzynvsncT0jYVmjFnv6B4ytY7-WuLHfVZ3zpjhaIgMyuKNifxGK94gwZtA4sHQERXS6D0BiJxN0anG9kUaJRr6tFPMaWo6z_YIY5L8YFS8yUtjpAVGcY4kIXFESM4ygdF6mcBxdcWJY0x_p_mehG0Y3xKJVJ3QRt_e3KRG7bImt1js09WmJ0OfLBwg70hI0Cc7ZQl4dbIP4vkggmLtXl0Wzb-EuVcUKZDXTMRTPobKTkODlo9n3rmuXehnv35nnMFYJfhkLnhNwyWYqlAq4iHdH-4bLDFl3boWEA4ovo99ANOJDhY8TNsuX5P7Do1grl_NwfmZq5QHf9JcBG3n0d8lJu23mY2RKFR7RkjD7VCZ7dENigSdk-P9BW9nxHZwfH43HmCwF_cUA4XozRrJkROmCZTpQuzB8Q7DC3wit2QUVJWEgC_tQGHxDqI17VQptvJAxIBbql8-JO7oQjR__OgymwmRTtTbrAHC-3RgQpi_2BsdHnOLMmkK7bfT1RDPFJIejhCnOX9z-m2E-YUw6LTqC3Gs1D923W874nO6irH860046skbEUkjVA2kITtY8i_gFPFAxQswMSJDtrubqSSB13mzjPApvP5h8rdUD-VJytjNTtSozIGmdwr5hydjbuViZ3IG9649MpuYDgHEY1xNwlPeRJqfxbYnujYkCGd5M09nFkP8boYo20ydsAf_MAV1Z1cXajIhoGVRRuWTF_GWPckFuJI2oSGBy1P7xhOJUhXL1fdLrteJVF1yhcxpfpLz7mJOo480T4W2W3vJp2lN9yFw-rCpqv2tW1N5cw2WJ1uMTuIpFmKXC6LtMKeap37fLMX8aWe9X4m5tDq1IG346L42p7BEjADK3V9YlDC9QI_Hockmcf5ZA2uSdhZR8vjDQ8rw3jF8M1WM33hcE2Z-5afgE0qDuT5TClYR56MzZtyJvNf_WcyUYxfc94lEF-_X8-rzUxfkK9sHvoQKcZsrZRq6lwWH1vgJnq1cZ4rxXfrMHy9JY_ZwZUWZm_DJKxDU7Yk3AAoxguYomEOGB8AkQpJJBuCqdfmdsn0Q9nu-qnSUE4DXBmEiUNi5pzXF9dT3VXDJICTwN6ewPoSPMdw",
+          "fare_name": null,
+          "resolved_booking_url": "https://www.cebupacificair.com/en-PH/flight/select?dd1=2026-07-01&o1=MNL&d1=DVO&adt=1&chd=0&inf=0&inl=0&gclid=ADowPOLUkM-OBua4hJiJN1jE7BI5UUWJTbdwMi0leqUAetY00ReFVUV11Ai_NDUm_BjKiND6iMpJjNVHj4yJkvQGM-8QAEwoSvgSnE1DQB76zEHVw8iG&gclsrc=gf",
+          "flight_codes": [
+            "5J 981"
+          ],
+          "is_primary": true,
+          "raw_rank": 0
+        }
+      ]
+    },
+    {
+      "origin_airport": "MNL",
+      "destination_airport": "DVO",
+      "departure_date": "2026-07-01",
+      "arrival_date": "2026-07-01",
+      "departure_time": "2026-07-01T21:30:00",
+      "arrival_time": "2026-07-01T23:30:00",
+      "duration_minutes": 120,
+      "stops": 0,
+      "price": 3176,
+      "currency": "PHP",
+      "trip_type": "one_way",
+      "airlines": [
+        "Cebu Pacific"
+      ],
+      "flight_numbers": [
+        "3951"
+      ],
+      "layovers": [],
+      "emissions_kg": 93,
+      "emissions_delta_percent": -8,
+      "booking_token": "CjRIWHpMaC1rQUd3cjhBQ1c0ZFFCRy0tLS0tLS0tdGJicmQxOUFBQUFBR29OZG5JSFFWOU9BEgY1SjM5NTEaCgjoGBAAGgNQSFA4HHCXKA==",
+      "is_best": true,
+      "segments": [
+        {
+          "airline_code": "5J",
+          "airline_name": "Cebu Pacific",
+          "flight_number": "3951",
+          "operating_airline": null,
+          "origin_airport": "MNL",
+          "origin_name": "Ninoy Aquino International Airport",
+          "destination_airport": "DVO",
+          "destination_name": "Davao International Airport",
+          "departure_time": "2026-07-01T21:30:00",
+          "arrival_time": "2026-07-01T23:30:00",
+          "duration_minutes": 120,
+          "aircraft": "Airbus A321"
+        }
+      ],
+      "return_origin_airport": null,
+      "return_destination_airport": null,
+      "return_departure_date": null,
+      "return_arrival_date": null,
+      "return_departure_time": null,
+      "return_arrival_time": null,
+      "return_duration_minutes": null,
+      "return_stops": null,
+      "return_airlines": [],
+      "return_flight_numbers": [],
+      "return_layovers": [],
+      "return_segments": [],
+      "booking_options": [
+        {
+          "provider_code": "5J",
+          "provider_name": "Cebu Pacific",
+          "provider_display_domain": "www.cebupacificair.com",
+          "provider_image_url": "https://www.google.com/s2/favicons?sz=64&domain_url=https://www.cebupacificair.com/",
+          "price": 3176,
+          "currency": "PHP",
+          "deeplink_url": "https://www.google.com/travel/clk/f?u=ADowPOI1SB9Kauy35C_Z8tfahDep6M80rwVisqFmmYJ5DJcdjbTULHgoh7aluL0zo1S7HdpiJCkD6FHFaoJUVQhhyDfmlwx_VCWGz7qHhRrhbfyicJy0QLpShpZnDjbBKQQrx7Pgj7iE-ddWdYefRWs9DmgGoQqwdqEGSHwBPQLd8Mzxzk6WH_xOMHakqkiaxEucgXnRRWOJMsN5l75o5OMDW68W6A5uGEQyouYuFIN5PXh7oVxYPQ82JaN9pQx9uBvgGvVV7Y59kdUxdIgtD1i8R65IDnqe0KoHlJFnCRkxvrkhy7HMEI3r8R3DIX4yLHtx9qB-Qzw5ngtpHWyRr3LpOg7lpUaYVRxmz0vaQDERYlDx6zpvFW0ut_uZN0hT0ltqRKcN6fo9-_jD5qjsA0KAvxQSGtYXY2N5unEbEL6R8fpZ6En7dLL2E88PEoTApka2buEecvc2sBHLBKHWC04HlFnBzEVnTjPHew6XgKKO2qmXtTEsYC6EBTXQhbUdlyuitLuoySkzZw-x5AstdlwkHUdwQjnqrMuekxdaOTmGWehECRmf86JDxff5rfcHHnOAiTVPp6KGDr3KZnaXKAa3lkCMCVHeZ4julQ_6DcYhoesnKDBeQcc5Y82nsJspFXDp-c3PpQEyZOqPf3j1HWf9ovL5SUMcAdHBRoCYDehgEy8AAu5RkmKT0Gp2XyNaRNsXPyPGrpPjVUX1BZosX4TnFeHiVvQnF1I0IplNLRraaPLxCDiMtZ-ENTC0IUPHOn3g-YRPSRzaJEBoVYbCkXRHz8VbIi-v7Ym7gAgv7i8cdpBtqcUOILHD-mM3PQ_0CdaXTQEqfFT3ROUmWClKtO2USZPssg1ZXGS6c4HMR7i_wCMHsjV84AJffxeiJ83xbbdej7S30lVLTEz71B2g3ejX8g4H6lVsB_G1ClHefsiwfr9hw-1hqkMO8UoyhMyOm4Qvr4pD0zPi0WJwWCJr7Cahc4yGP_MkZ5VUW0YRgMJhHu6lREU3UHDOyVhiEnGl9iwSKg5cmvaojc3Ar1PTjzOfPoqk-yE7AYQb8RErodqq1HYkTokIfn6GqyTCeKOeA8Sq_6eI0O66kyUzjsU3hm4LgLGSWRQyAc2-2JJTsm6nKRQFwQLJMIvWqlsnvTNiyK3JiPoHVxQQGuIRtJDVCgT5gsellkgmcx2LaGENjT7aJDQES0Dvp1qZbIduiWTEAnLp_6MjqNaGEuq1ez7-MO3Lm3w6Ovpjfi5yUbRqYBuiSGOPtcXhwWpbEB4XLixNyoZb7wyAwgQoQAFwoBbfQxjt10bWQ6iihQZ4CxTL1G8po4wXRH8qfv2EYXsh4gJboBr4JnMb6zIbXsnBszTVc-RWddVJE2WY7b00UuRIAtRStoREm50fbbO0OftXWBxTeFeXqbF6yLcgnDXzjJJH-7dtU0EtW9f1RxKrvgENSJ6FXY4umjNdMzuT-wje9Wuw-iDf1KfSzrVDYK6E_F2r1fqYyUUu6KmlDGJ0LFlhCeY4lhNanrGkREtOnXcETgxumTNUDDr8-00Zz5fUBeDJC624i7Of-e4BFoTqHjidncGrTzxuhK8ppKhiJdcUEi9PShe_Glo6JuSSQ-e4Okq2nauoIiuv1YamRlHu8T8WiJ_r41a1VxHjT1qQZYKZ4VYvVkOPV44Dsh-DU3J9l4cw-OlpF_gyLcAisBf0eE2rCMWYCIPPYoqlA64NnTA5fN02_sjYPipGDupaRsEP-u6QWDvAWOykDmEvxW8UTodYsrICEk26MidXPpIpX9PAkHutEkiOLARUxUjxUWNzJiMzmx-SdpSE1ATLNARaf1iuocx_4MQNSoAH18n2K1pacXdbZt27O2lDUo0Z0qath-e6qoWxqP3sCOfZSWF53ibJNzk8u-A0UK_F3mLz_GDL8A3kBFMbt479Ref2f8vXwGInvgD5q2Xke27DI9D1aez9kYFeN375YIZwxVT5wdeAqCpfsgjmJhhEY_GrKKhGCk0lFmBqHNS_N5qh8YHKko-H_iwF9vDYBbiRXbwFZaZ9F5vyFx5M-kS1BAHXrPhA0BMctHOQYRoKB1-m4fi8ztmI3swbCtbWkpex8628x-gDf2aQHqyM7GeHPpdWVyDJQHdFVPZrD-JYl3aatHRHoWpxVy4SOswGK-XqfigI4V-RQQ9V3xDG6lg29FaCITsTE-a9UDG1vujDXMsHx2v551TJlZ527mAn75LMLq3O",
+          "fare_name": null,
+          "resolved_booking_url": "https://www.cebupacificair.com/en-PH/flight/select?dd1=2026-07-01&o1=MNL&d1=DVO&adt=1&chd=0&inf=0&inl=0&gclid=ADowPOLFuTYchMjHcwPUKodx13mMpD6Hx930lddb4s5j_JLmXo-85Ix8AzZAydxN7ebrp9deCvtsJldoO89yakqmVc0bDvMuhCxjQlJiNxXYTKdcUfkA&gclsrc=gf",
+          "flight_codes": [
+            "5J 3951"
+          ],
+          "is_primary": true,
+          "raw_rank": 0
+        }
+      ]
+    },
+    {
+      "origin_airport": "MNL",
+      "destination_airport": "DVO",
+      "departure_date": "2026-07-01",
+      "arrival_date": "2026-07-01",
+      "departure_time": "2026-07-01T21:50:00",
+      "arrival_time": "2026-07-01T23:50:00",
+      "duration_minutes": 120,
+      "stops": 0,
+      "price": 3176,
+      "currency": "PHP",
+      "trip_type": "one_way",
+      "airlines": [
+        "Cebu Pacific"
+      ],
+      "flight_numbers": [
+        "951"
+      ],
+      "layovers": [],
+      "emissions_kg": 94,
+      "emissions_delta_percent": -7,
+      "booking_token": "CjRIWHpMaC1rQUd3cjhBQ1c0ZFFCRy0tLS0tLS0tdGJicmQxOUFBQUFBR29OZG5JSFFWOU9BEgU1Sjk1MRoKCOgYEAAaA1BIUDgccJco",
+      "is_best": true,
+      "segments": [
+        {
+          "airline_code": "5J",
+          "airline_name": "Cebu Pacific",
+          "flight_number": "951",
+          "operating_airline": null,
+          "origin_airport": "MNL",
+          "origin_name": "Ninoy Aquino International Airport",
+          "destination_airport": "DVO",
+          "destination_name": "Davao International Airport",
+          "departure_time": "2026-07-01T21:50:00",
+          "arrival_time": "2026-07-01T23:50:00",
+          "duration_minutes": 120,
+          "aircraft": "Airbus A320"
+        }
+      ],
+      "return_origin_airport": null,
+      "return_destination_airport": null,
+      "return_departure_date": null,
+      "return_arrival_date": null,
+      "return_departure_time": null,
+      "return_arrival_time": null,
+      "return_duration_minutes": null,
+      "return_stops": null,
+      "return_airlines": [],
+      "return_flight_numbers": [],
+      "return_layovers": [],
+      "return_segments": [],
+      "booking_options": [
+        {
+          "provider_code": "5J",
+          "provider_name": "Cebu Pacific",
+          "provider_display_domain": "www.cebupacificair.com",
+          "provider_image_url": "https://www.google.com/s2/favicons?sz=64&domain_url=https://www.cebupacificair.com/",
+          "price": 3176,
+          "currency": "PHP",
+          "deeplink_url": "https://www.google.com/travel/clk/f?u=ADowPOJL6FyIT1LtuYIh8Bv8gnlRhmjCX3LPFvbHtMpdLH03sZkfcSAwNpYzeXwh9GPwi-BEDtkEEwzNzXLQmlYGB1KrAOJD6hXgA18iPNl-3OeXSFMGjv6AZZvdEqT3e-PUIrovi4Ta20sw76mpcQsYrAKmvCGLcFe9VSOHMxGU0LNSC0Hh21zmB3nRbcW4lF6NA-3unyRknAHscnS7OkOPZO7cBkoSv0QknZJB10S8NYVXG2TAyuLI1EnbpA8dZCHsC0eiwJzceLgiqQ70ZqYn1S9yHkmaruQba8mpwK3wBNU3kkwyKzqmK-uzTvfHDKIHikEH7eOKcmlZmTS3av8XuJi0lZVmZv1W572PGbP-ViCzFrowY3_BgIN7H4PD5jvBgTajAKLC-ODxA2gh_H7TN5JNnHspXmErj2NtQ4O9KJzKtw2v03LCouiYxkppPqAhtlvL9S-o8SR_2MG8ucstqKzvOhXnu4v73r9r4M2td52NYEjgBg2SnDiDvTdURNigMKjYMbCkcmwb-9zNH1XsJe1uYqb74g0j99D9GMSpw8e0pPTLNFa6BEB6fZYVihlEGjhEduM0YIKkCOEi8UXBREgZJW-sNRfPJkdhOYfq8lmhL_PM3xUfE3H_GXoLABZucvH8KrbQD-BcexyqPsbBBMg8d8j7tI5yzWnHwBn1Cm0xnEa7KE3ya87p3qi3GY2_2WE8ARVGNa5iDIkZdehCoLd4J1q56y0eWvDEt3YZ8fgHu_jSNiFWDZXhE9aR4YMv3Aixf9EY9lEB2VIBzIgWu-PmsiYG30GBqUH2GW6A29FqK9GkEW2hrfBNgpDcnnw5Hs56MqTwYFnrpVPE-Dr-trf-ictkhf-biDvwkq-YeMYqph1fBidTcYBbNPxD6GOy9rEBxzXZHGacnMrfoBvuY_clkb9EbC6q2vbmNTrN4tRXGc7YxHj2nl8QQo9OOvMmUH9VVgxYrGmrMKLU7DhdlfBnO9xD4v9asJJDB04bPtoW_h-8UJait-2Jmn9WfW2c9YnTDVP7-Ta5OzTwZvdYGtEZNUFEJkNareUmG3V62J5zZ0tB0OfyDZUA8YXLYfTjq3n_bIb26eLxnWbHhbtdUxXbr5O_i1M_14UQg6AGf99EohZzBTS3sglN6R7fRm5D347LlxJMhSW__E6qRhnpuzvwljb9TVNJXDTdzYwubjjYMAIMRt5nWSEDhYAYJr5mlPtG8YbluRRVxSlqYmTgWpIhzYUO2-l6TkFrFTVRfyZIxShC8de1krnfWV8kkkTdRJdCixIlTutmRF9LpSxDAuBDEabMNXkeMTlDb5aPnKXPctT5yzuZETRF-SsrTIZP6QnG3VuT6dKc_HQkqzsL9INCJxyzdP1LA_WIeJgIobzXATr4GbS_p2CxooWcUTt0PTPzYyv2HTnPCZ3IJg9CJNHXEsMfSzLei7D9inS67Joyi-lceTGxA-uqvDZC8N0oJQcqlr1Eia_cosphLKsE4Da19QzyesXxS69gyKwGwLQJy5-SF3MH-uCQRt5aHvIMjNj6Boq0vJglpkHlUJbryYa0ssGecRWt73rJnOqC3HwiTyq0LIbBLByTDCMwVMvcUxf9uEJc6x9prjuEC-E1jqahAnZRlo7ejrZkaqdLG5njchkPP1tiSL3qU46BG6US_r9AEh9T115xdLFFXaeJYlwvzCTMEW-b-M7LCiSmcbwilRXbC_nv6w2q5-z1NozxiH20PXKvrKEIH7tfbtbuTqyV1gXOaMX60lOqYlBASMB8DDcsdq9J4E5l6i7WP-NyV1RTJCwpAS0iR55E1DFKxlVr_fPygk_S49OYAXcjuxfV4rcj994oni935DhEeGseqn0n3FvkjoUfiUdwHQfPD5BjU1lQN8rkKj-MGkmnf1O1LRmQ1lbXigIpgiFaH7hGfjIdpuKNPO95LNjbgRXSGuzY7w2qXH2VWwHF3Fchq15Tm3GlNBwugeCSTDHfRk2RuzfUAoGBZh2kPYxvwC8hzRLg--QmWYXP5ZjFsZzdtddzUeQVgiMmBKqkXrV18Dck_ah3n9t2ygsWxCRUSUVxv-lI26-wYM27Fxgqgpz9NKqB0Ma78jc10P3cBWc2N9R4_jQKHChID5X054-AB014Hmj6qyYZ6n2jJCQrESJqn-9rm6NYsQYqZ2wDAxAP3BV_TLv8a32ndAnHQHX-tpjk3pvw7QRTVOgHgsIXLM_SMiVLXg",
+          "fare_name": null,
+          "resolved_booking_url": "https://www.cebupacificair.com/en-PH/flight/select?dd1=2026-07-01&o1=MNL&d1=DVO&adt=1&chd=0&inf=0&inl=0&gclid=ADowPOJtQVIMD1VQGNENUyurkaK6XswBdSxTswu5biVGJaHxSgYvqtKE602B5jF-6HXMQ08haTR7KCuscP70w_2uNkxxI28x_luIjX0vzGHvBC9pAedF&gclsrc=gf",
+          "flight_codes": [
+            "5J 951"
+          ],
+          "is_primary": true,
+          "raw_rank": 0
+        }
+      ]
+    },
+    {
+      "origin_airport": "MNL",
+      "destination_airport": "DVO",
+      "departure_date": "2026-07-01",
+      "arrival_date": "2026-07-02",
+      "departure_time": "2026-07-01T22:40:00",
+      "arrival_time": "2026-07-02T00:40:00",
+      "duration_minutes": 120,
+      "stops": 0,
+      "price": 3176,
+      "currency": "PHP",
+      "trip_type": "one_way",
+      "airlines": [
+        "Cebu Pacific"
+      ],
+      "flight_numbers": [
+        "953"
+      ],
+      "layovers": [],
+      "emissions_kg": 77,
+      "emissions_delta_percent": -24,
+      "booking_token": "CjRIWHpMaC1rQUd3cjhBQ1c0ZFFCRy0tLS0tLS0tdGJicmQxOUFBQUFBR29OZG5JSFFWOU9BEgU1Sjk1MxoKCOgYEAAaA1BIUDgccJco",
+      "is_best": true,
+      "segments": [
+        {
+          "airline_code": "5J",
+          "airline_name": "Cebu Pacific",
+          "flight_number": "953",
+          "operating_airline": null,
+          "origin_airport": "MNL",
+          "origin_name": "Ninoy Aquino International Airport",
+          "destination_airport": "DVO",
+          "destination_name": "Davao International Airport",
+          "departure_time": "2026-07-01T22:40:00",
+          "arrival_time": "2026-07-02T00:40:00",
+          "duration_minutes": 120,
+          "aircraft": "Airbus A320neo"
+        }
+      ],
+      "return_origin_airport": null,
+      "return_destination_airport": null,
+      "return_departure_date": null,
+      "return_arrival_date": null,
+      "return_departure_time": null,
+      "return_arrival_time": null,
+      "return_duration_minutes": null,
+      "return_stops": null,
+      "return_airlines": [],
+      "return_flight_numbers": [],
+      "return_layovers": [],
+      "return_segments": [],
+      "booking_options": [
+        {
+          "provider_code": "5J",
+          "provider_name": "Cebu Pacific",
+          "provider_display_domain": "www.cebupacificair.com",
+          "provider_image_url": "https://www.google.com/s2/favicons?sz=64&domain_url=https://www.cebupacificair.com/",
+          "price": 3176,
+          "currency": "PHP",
+          "deeplink_url": "https://www.google.com/travel/clk/f?u=ADowPOKfDTtyq_WrRwvhY5VaZCxXLjGDibDgBQ4taZ947xxHLs8kkO49qL4nz7QLTD7L39fvf66I6OXfoS8ZOXUdYGpHoHbl3LWHaTJd-5z5aT6NJ9E-4j0lbjVUDM-SIkXtEgZ1NgeEG8idHITJBdycTt-5MmccKy0nMm_nOxViXDtbyczDzijmBOzq8AStpNQS3K6GSkd_XcwMKzlC_truAPU5e5CdLcPQER_6esmulJi5-502SVLBsQTI32x57WsuOevPrwSmx0u6VgNCizurlotSIHiABu7y0Z4-n0rT7RsBy8GzbJ1ChfO2H66l9bJ64JcSNwE2iKPQD_Maf4zu_wvRCHzepR5_m4-ycv5IKAwDkDZPsNJJCpEip_aeiSIT3Brq0rA4GLS7VxSJFOdv39CYG19cTfNGHvPVQ6mub88uLsqJN1XhQS5MacnitbdQGFIn2GqZC8lIast8-XLcEbVjRxiE4PvjNFXhKxS76REYE_9D0P3no8FtjkJN6xLuQxdiiK9L0VxtiD4zbhTPZp7BcxKZBjBnm-nTMmS7e4RlP-ITLVc-jmLdTHQEQQCdmeNdnAjrzbwtkp2kPEJYDU0p64ISvsvNA4MexUsFEF4G1yzcbSTuPPEEH5Edx3bz_yMlO01uLzNC_7bjli0eKCBLojg4GMGmH25JdGUVsicxFDw87B-YP7VmClyJqcwfH5DDmUUCEhuM0JMMm8l1B-bvOIVD8q1nIJy3aMEFwaZIH3d0JIAqFRgXw1fdmRJuhdrzGoT7XybQfBtghhtp2MXtRRdcXZ_dFvq5blUHQf8tNAGJX-3PjiboDDQJaiUfSoiXzgOOSlPggAM6yPf9sdxKql93Y8S_1MyfH9ij1E11LVcPf6DMzAfD9uzdsF-e6FgsKbx-VCtMM1JdRXEjncXaFCEJyt22Bd60yR03XW4-JmpayUj_glVQA0COkVot5g5djsy4x8Xmns0xDtwFKvab2ua7hsQHhHegXkS39WgjXM9ZbOOGv7WmXgrC2EPWXuhjMlRabGQOQb5GrrtnZyyekhWd_XyfrG6RNw3qdcH0AiuC2NjC8DevXMdyqNtHQ_96gfNkQU9tOFLwRv36jXhlw8aSnnsr8hXEtfheYRqHlMsMz3LxiOT60QoSsrL3y9wJJCcgJN0tq9UfkFV2pdkCntu9ecKgLMGHzonWJ3-Zi_pDFrog73uN0hK8rZ5Yh7EcNuI6QGsG2oTOw82Hqn1uFzT5ElD5P8irquIpDMf9GImlBvIsmaBVDelMT36hqIh0rD9jFEtEv-BlV9nsK1Ij2Kg8AIZHRB5CdED1QxPP1HabQxcFHmebka9k_CkmPbvNwP1ssO_OHDf9gm68XvtK9LobMs0WcmBD7an_XeKSW1eOdetrEiSxU3mME1Fj2tfM2p2NCt7nla1-qWQWNNF5jjhDLqF5nvlavA5hRw0UwPYjlVoa5Rsy1xGJTheFpJzLOhpSY3TiVp5AIALCVt7x6MD4Nm58Iqvs6XOTCLZPAkMjpjELta2TWt6YMeR2kRxhMAPYvD9vnv8mndoBIwFaxEC4Wnc3eZXkHRB80y-QAbyI__5g3xUhuKAIgkgUHwSGfGP_diRLgHUKyUSLCYau0x3fNxp8Dqo0Xb4uvq8B1E7_NRWm_3tyeUr-6mP9GtMOtgNSkGkYlULmtJ_sTb_c9Jt9WoUKMa3DfV9nlB7vzJ4f9eWceClyi8eGw11Yfz2KhIYMTKQJdc4fJQQoWxuLB6kH62s2E3tDN0X7Ontz8IgstS4c83k7yUiZyEC5htZXTawyTp4JcRnkhWJO5L_FpSZnrxkI7UcsDQjv0gEZARMu7Xrp6Y_A1Mded-Epxg_TyyoKO6au5t_3tDw0Or32Zzrv5geBsRktbDJ61HbnHIsRWWqhILzkiDCoJ9R30PAJTg7tTnLZowOAHefWFbT8MQNLjfG0nPM2m-d8P1zxexc0A6Q8TkvJdKSLQw5XTFg8_I08pg44vIOvAWqHt2o8auFgneE1Y3CJ47MEPE7iYvvjAK-EephsqhAy4M8qlp6VCaiszDTEYTXdrOYPsjci-DVwhRr09XOH3_pa97KGhJBEkzwF2OmmJaFphbpESE977A86Flmy-t0um4-l_O9doDzBQIPyz9dfZStq5M96LiYGB7UaSJdaKL1pkxn2w9tYlW5IIlOBzypiD16hwvp-OwmrVTFKSXwaQ56ysDpRfA",
+          "fare_name": null,
+          "resolved_booking_url": "https://www.cebupacificair.com/en-PH/flight/select?dd1=2026-07-01&o1=MNL&d1=DVO&adt=1&chd=0&inf=0&inl=0&gclid=ADowPOKUCV1lFwh4pswiGRkml87m13KC3VzMEsi0WZp3xUh6OI9dMv2XR-E8A_IOLmP8er8nFZVot80gSzCZQj8R92j8CzUy3j5Yetg9pOjiIe6aFcvK&gclsrc=gf",
+          "flight_codes": [
+            "5J 953"
+          ],
+          "is_primary": true,
+          "raw_rank": 0
+        }
+      ]
+    },
+    {
+      "origin_airport": "MNL",
+      "destination_airport": "DVO",
+      "departure_date": "2026-07-01",
+      "arrival_date": "2026-07-02",
+      "departure_time": "2026-07-01T23:10:00",
+      "arrival_time": "2026-07-02T01:10:00",
+      "duration_minutes": 120,
+      "stops": 0,
+      "price": 3176,
+      "currency": "PHP",
+      "trip_type": "one_way",
+      "airlines": [
+        "Cebu Pacific"
+      ],
+      "flight_numbers": [
+        "967"
+      ],
+      "layovers": [],
+      "emissions_kg": 94,
+      "emissions_delta_percent": -7,
+      "booking_token": "CjRIWHpMaC1rQUd3cjhBQ1c0ZFFCRy0tLS0tLS0tdGJicmQxOUFBQUFBR29OZG5JSFFWOU9BEgU1Sjk2NxoKCOgYEAAaA1BIUDgccJco",
+      "is_best": true,
+      "segments": [
+        {
+          "airline_code": "5J",
+          "airline_name": "Cebu Pacific",
+          "flight_number": "967",
+          "operating_airline": null,
+          "origin_airport": "MNL",
+          "origin_name": "Ninoy Aquino International Airport",
+          "destination_airport": "DVO",
+          "destination_name": "Davao International Airport",
+          "departure_time": "2026-07-01T23:10:00",
+          "arrival_time": "2026-07-02T01:10:00",
+          "duration_minutes": 120,
+          "aircraft": "Airbus A320"
+        }
+      ],
+      "return_origin_airport": null,
+      "return_destination_airport": null,
+      "return_departure_date": null,
+      "return_arrival_date": null,
+      "return_departure_time": null,
+      "return_arrival_time": null,
+      "return_duration_minutes": null,
+      "return_stops": null,
+      "return_airlines": [],
+      "return_flight_numbers": [],
+      "return_layovers": [],
+      "return_segments": [],
+      "booking_options": [
+        {
+          "provider_code": "5J",
+          "provider_name": "Cebu Pacific",
+          "provider_display_domain": "www.cebupacificair.com",
+          "provider_image_url": "https://www.google.com/s2/favicons?sz=64&domain_url=https://www.cebupacificair.com/",
+          "price": 3176,
+          "currency": "PHP",
+          "deeplink_url": "https://www.google.com/travel/clk/f?u=ADowPOKpr0kAaHajvPBnTOd1LnqiyPwF9eyNFJjb9Qq0w48wqAMlrbwpz-3rr5nP7V2wdMNVTm-dRLXASHeyNWuBHAt73HQX7yuDefMwfP-awZiSZHSqbojAVno9uxX6oHxYFq7KAD4858dP2sTRL7qoGg6CjPt6bdL4_cyyvlmDvUuF27yGTNkuScjhuLkO_B9tAlOUzVN_RNW1vpqAGtx75PZLoM9AaZ4h-fKQjpCBPJccpUqy3svLsmijmONoC5CEeyn6wkd4R0s0KYfqaqsJiTbVGIVye0mtZyuuL4gZ8lgEGhyZAoEdXpm7_Ja3fqedkeucmkKNKlko3K2zDZLWanyDjeCw6usLjxiwKr4tvhX9smZ95EN5utpEqcySy4XEf4f6kgrVqzpX3jweFruylneWPZg3jLmSa3HZrXY-P26-OnkLD64Mh4aCZ7CuodzUxmvw8V0FpkqVxdqgvNaLIaULwAY-ajY0ZTRncJRVt9B_2rXw9JNhqerTmVHDA_dCQ-YoO0YnsXYkxuXsVN-PwccG8T6Ty-jn7Y62calDI3eFTO4oU-6sCsqkNCMKo5Wzpc90ACPHMih2SYXCZTK8VU36kZ0ueHtfWrY1oESjuYuekP1xR8pfZgLdkJIlRjWQ5Dv380z4nAcvN2Ai44-sdm3agiuXzsVPnw-zO5K9cqBREJ3aERfABNWzA96s-WCiqx74WFjsWyyNFMyQm-oudU3PE7Ek0thz80lVWlnE-l7eezh2feWydwiJ1YzTlcOUKZoiMuvt0Hs8AvrWKg3kOqY53cIFoo8ZYxIynN6yr6p34SaYf9yIpeOrf2Jyf0pdYQ0frxmd3o35zwIVMXIAN5YHspKamktoh5FiD421Pp0_65Cg5cSxEZdJb7VdpFbt21Et2qeeqXmz_Q-XVpw3osdmbbSGETnw8wJZn5SFtXENcqr1Y6i08pFcW1FtKD2DfD_3TKqjDmZdVVvXIa6L45IRRKW3LYmxkYQYsBWPB1PqOozu5JZVc3oyYYDtUg3rItIG9iVGMxsqZVsuUgEEXcI955b34D6XkM639LzQ9Lu16yZkk4kSuROR67LAm2_ika0xsIfQLljx4AGY3MEjMSz8MA5OoByqI3PHCpsoFSG4H_umdARxFzBC2Pt8-7PZtEkIEq-doBzxRIbUTSdhwCoCQJ1cImFdYvEfLAv_5DsvKhrtWxF148a9Nd7PtKFglQ3fEmBJM3UU1ZADCzBeAmwws5H2UMvZQFvKbmzt5E3exkPUJLg0cMg7W2CJE16jhMCjmUSGD10ZSOlsjuK7nfzcUBeMF4yByEspCgmMzgN080A84p0o0Nx74EebgOtazivulznw5Gh3xHyqRA9ueguKGGmjiQlLsQv948kyWqDVKhzR9rWMr8jmRA2i-GA-pqvTzhYj3Nz9mOJPUkbUB_FAzydOOorDqFhszlB9UHBvlGL9hoaJDBDMEEqVx1iOtqyYYx1vmJ2NI15i6ilqFlAbX4kQyx7BGPLCAQV9h9mEKIxN8bBT5xE-cbnpiwnPSPFjjnPPdpiCQOY_QTSEuDTn6pyRX_WDZDjeI-mMNe12oMVk9aw4-DrriVHE2d3xMmLd4y47MZYcg-Z8WNSVu48htGWGMIi3UYXnHgUWeXSasqHhJLz1wcZf7bvYzRoV-Ux90eXCLkC-FZEdxIgFpy9617xpk0W5yhypu8XPkN6z8lNwzSZu2oabfJkHVTvJgw9E5t8NEPnOZlsn169f5tXr-cqH5f6Vq4ELIaMffUV2m7sQhtdayHBcaiNUBwKvQVqre8D9CSAfLgSUhz1SAWlNusATFhdcloXnqs2cnGjk_8x5-YRkAtkxZLWUJLWSZ9T4UHr9N9W0QVCftNBHX17uaD5BQD0v5L8SP6rsUlCtnl-vaqoYAXmHZPnYG-7WbtOjb1Uda7iCsT5WCY0H_U996UBtdfzndyRfygP1tDVYieLDaNl0EwtfA_8gHOC_3Z9v6p_chn3SJEwSPco7xdTKh1E_GSecvdvRzfDiN-o4OOTxznPsgVTXbELENSFXdPraEat4-_bQNAneZa70nxvpaEcslbbWe9zCsxnsDknz3lYhF78zyAujX6THIzok1zDQzawEP84BEbDUcUDQP5PzMqKEvDYdwzAmotjAvwh89ADKNccicNMeLTLjV3maDxGBgjrpbcf_v2Z2cvwyMjS_z5cbnZD_ZGed3z1axpVSHw",
+          "fare_name": null,
+          "resolved_booking_url": "https://www.cebupacificair.com/en-PH/flight/select?dd1=2026-07-01&o1=MNL&d1=DVO&adt=1&chd=0&inf=0&inl=0&gclid=ADowPOL2oIov44HBu-cbjZ1iNeRE_bfufB2OcDCYpSSNa41odUWfk7EktkJHstopHjjIzA0rKkLUijNOPpETylPPSkSqtwQtVSSJfV9XDQax4oL_elO5&gclsrc=gf",
+          "flight_codes": [
+            "5J 967"
+          ],
+          "is_primary": true,
+          "raw_rank": 0
+        }
+      ]
+    },
+    {
+      "origin_airport": "MNL",
+      "destination_airport": "DVO",
+      "departure_date": "2026-07-01",
+      "arrival_date": "2026-07-01",
+      "departure_time": "2026-07-01T10:25:00",
+      "arrival_time": "2026-07-01T12:25:00",
+      "duration_minutes": 120,
+      "stops": 0,
+      "price": 3288,
+      "currency": "PHP",
+      "trip_type": "one_way",
+      "airlines": [
+        "Cebu Pacific"
+      ],
+      "flight_numbers": [
+        "973"
+      ],
+      "layovers": [],
+      "emissions_kg": 72,
+      "emissions_delta_percent": -29,
+      "booking_token": "CjRIWHpMaC1rQUd3cjhBQ1c0ZFFCRy0tLS0tLS0tdGJicmQxOUFBQUFBR29OZG5JSFFWOU9BEgU1Sjk3MxoKCNgZEAAaA1BIUDgccM0p",
+      "is_best": true,
+      "segments": [
+        {
+          "airline_code": "5J",
+          "airline_name": "Cebu Pacific",
+          "flight_number": "973",
+          "operating_airline": null,
+          "origin_airport": "MNL",
+          "origin_name": "Ninoy Aquino International Airport",
+          "destination_airport": "DVO",
+          "destination_name": "Davao International Airport",
+          "departure_time": "2026-07-01T10:25:00",
+          "arrival_time": "2026-07-01T12:25:00",
+          "duration_minutes": 120,
+          "aircraft": "Airbus A321neo"
+        }
+      ],
+      "return_origin_airport": null,
+      "return_destination_airport": null,
+      "return_departure_date": null,
+      "return_arrival_date": null,
+      "return_departure_time": null,
+      "return_arrival_time": null,
+      "return_duration_minutes": null,
+      "return_stops": null,
+      "return_airlines": [],
+      "return_flight_numbers": [],
+      "return_layovers": [],
+      "return_segments": [],
+      "booking_options": [
+        {
+          "provider_code": "5J",
+          "provider_name": "Cebu Pacific",
+          "provider_display_domain": "www.cebupacificair.com",
+          "provider_image_url": "https://www.google.com/s2/favicons?sz=64&domain_url=https://www.cebupacificair.com/",
+          "price": 3288,
+          "currency": "PHP",
+          "deeplink_url": "https://www.google.com/travel/clk/f?u=ADowPOLCYdkJL3cWygBvE22JtFbz-BlMuxPBd2-_WSI0aIPQwCEG5W_9Mt5yV4vwgx9NO2zB_FYaEVYdwXTCIsDuNKSUYduvz9cyevW5tvMp3gZ6jlKAuCz9WGWw5gZYCgA_Ft0f2xy0UrbTNuxucl0MCchy100gO-3FOzgCuk6kAFRWuZyT6eAKlGrO09nHDzS7E_rwQpI6kD_wtKsq4Tc44w23nhGxEW-g8pNExbVQn69IKWON5jZAiq5wm2GhKwPt603iMSMGpFDvXPIHwRcKiHoqBFRluQFzBN-nq7n76ZlGex4mGflgHtGRjowPPYZCc9RtqykW0o72JUJCji-cWn92i7Kw7rA-B5tHYyzpgE38XLpsEq7VjqPh0geYpHxc0BLVT-lkLC51OZmdhHMs0x5cx5q_1B0kl9X8cqzfFRC2PqsBTUsHhI12nFilAK9ZV2mk63zrh5sL_ey97-fN_qJMbLdnbQhLzB9tY_AIP4xJb3UM92fBfCxp2NOiHZ4LBLDJseQWKyP8WgeFq5UEgFgW_0iiwtigr1nb9q93xUkXnHI2P9LmqHDnsIVwviYDqq--6m_94GlmI0zq3k4neSGIMh11q7VR65V9mixypgj4P9k-GMPi4qeNGGiV9efM4JC8gNrCys8_oIQApXLQfMQtQawaH_H9MENzp-GCKWWCcXDhU4hWKpGAn2HhOMcS-2sWscjZuyXiGb5PWVM5oAIymqTK82gdeiWRgWMZ9puE9a-bjmi2KFXrqlP-1s6cH2LVms0Kse2DsHnYPA7Qk2m8eZBozz9FfcsS4vWG5NV5JrEPHYpr2UV-nmHWSacsbuZS53Ke2qNeipNzw9gGdHJxsBd8xNymRaIBlZKRqAlVQxyC6a2ipVVrJ4_G_i5ja-sZHcB1ae3PYu3QojWDV89eTl4RlxGF6ujCZMi3Hn3eNdBMj8qu4-Enjya-JSq3sSzW3qi0YYnvNYIpcLSZlmoEpIfSFkJfluEHlt2eOIlAqMWAdBJLoCjj9W1prxsuPXfFvp1iWzeryKb8axsS-2DYMDqpwtudvluIq_Rv2WgFL-KuXmGeju4cX51St2bvinR5foX1WuYOfERKNS-jjcFuScyn-kujmQ4P2A90_tgLsXB-ID-uG2JzkYpr5vJctZUPPbxaQG4oA67DU9z_LGJpUF94epfUUMUJifiLmsNkPTt5NB8d3F5HR9ekN7vB_F83TZ-WfgHO-QrqZkE3r8m0NG_y3t47RFRc8RiqnZoFXBu0r3whKnLDhSOZ6XUV9olQrMWTIogZJsofp2UHfPOeSJ8KO3LVHTmE3K2q7IpdfLq6T6xVKgzccNYUJBzJW5yMLzJyRRUqkFYL-VOvOCANW643765Bnrr02EgaW967RWMj-DdOaPkjYQG51uDdr3b4CzDF_D48miN2wpHntYSd6Bzk86y6DjoXn3rjJUOf4MtCBddVBuQ5pBwIJyPSmy19s8baOLMq_1Uy_7n1yN7OPHauuiLNMEoBurSkQ6Ji_BaC8XZhtTyClo_MLrVKtrscyb-GijdBl7Wv9IhZ1mRL2TiBGLxbOGh5EIvKiBwk_hKrjyc5gxPHwXaKgrek_oK-I6d7UqFKX7NP6MYldQcAxFFf1JuMcEUZiLgMZNLVTyojqZDVR6ukgE5HWbHMCHVb0gh23IyQH6AFcCf8l-nCoB8B4hzK_0fzOz1dg_QhYZmhH6-ZQFIze14YzpSDLjElTwmC2nn3BqZ27WYFLBzM6bkQHSgsSmR4NE-0KNmYIP0sFuBmZzWj_D9PaT4bwy_aadCcppyo0txi29LGCRt2HREMeIjN25g4C3WqnGo6o43h76ILO9wDuPOJXZJwxehPOm_8nB6j3xx38O43F-FKxkGP8flY_ToZogMSwbZUhvs9mG4LOnexVhHiLAxbgC2zAXrp9UC5vE2gfihNJstQldK-v58ZXvfvHigX_wWr5kFXzOpPSO2SifZl71Ye7IkxJP673ysSqyf2nxVCFH71WWkAyDb-Csj5wdKLr6KQ0OXy5Ue5esrFPspqsGRfyueMxVvgtrvyryzR6HtAVWSmGbVogzP1f42vpdmTrE4cFeMM_R6vUszCP095sgqY7mpUx0RUd3B4cQtSl_xIMdJxs5bZ2DaUwyfTaAo61HsVFDC9Jjfe4BXLBZv7bt-Z3tDkaOF9BszAI-Ubvn0tKgJT9qp64VUNdb42v6y2IOCfjA",
+          "fare_name": null,
+          "resolved_booking_url": "https://www.cebupacificair.com/en-PH/flight/select?dd1=2026-07-01&o1=MNL&d1=DVO&adt=1&chd=0&inf=0&inl=0&gclid=ADowPOJaqTRe3MDYNYOzG-3Zf71JlTCtzoqrBzuYLYdaj-Jf3OgK259CKzqE4dsmEfuGkA1Val7Sw7ijFBZ1kGc_1p9gmIeswh_02hZX-_4GAjqfBfgl&gclsrc=gf",
+          "flight_codes": [
+            "5J 973"
+          ],
+          "is_primary": true,
+          "raw_rank": 0
+        }
+      ]
+    },
+    {
+      "origin_airport": "MNL",
+      "destination_airport": "DVO",
+      "departure_date": "2026-07-01",
+      "arrival_date": "2026-07-01",
+      "departure_time": "2026-07-01T12:15:00",
+      "arrival_time": "2026-07-01T14:25:00",
+      "duration_minutes": 130,
+      "stops": 0,
+      "price": 3288,
+      "currency": "PHP",
+      "trip_type": "one_way",
+      "airlines": [
+        "Cebu Pacific"
+      ],
+      "flight_numbers": [
+        "957"
+      ],
+      "layovers": [],
+      "emissions_kg": 72,
+      "emissions_delta_percent": -29,
+      "booking_token": "CjRIWHpMaC1rQUd3cjhBQ1c0ZFFCRy0tLS0tLS0tdGJicmQxOUFBQUFBR29OZG5JSFFWOU9BEgU1Sjk1NxoKCNgZEAAaA1BIUDgccM0p",
+      "is_best": true,
+      "segments": [
+        {
+          "airline_code": "5J",
+          "airline_name": "Cebu Pacific",
+          "flight_number": "957",
+          "operating_airline": null,
+          "origin_airport": "MNL",
+          "origin_name": "Ninoy Aquino International Airport",
+          "destination_airport": "DVO",
+          "destination_name": "Davao International Airport",
+          "departure_time": "2026-07-01T12:15:00",
+          "arrival_time": "2026-07-01T14:25:00",
+          "duration_minutes": 130,
+          "aircraft": "Airbus A321neo"
+        }
+      ],
+      "return_origin_airport": null,
+      "return_destination_airport": null,
+      "return_departure_date": null,
+      "return_arrival_date": null,
+      "return_departure_time": null,
+      "return_arrival_time": null,
+      "return_duration_minutes": null,
+      "return_stops": null,
+      "return_airlines": [],
+      "return_flight_numbers": [],
+      "return_layovers": [],
+      "return_segments": [],
+      "booking_options": [
+        {
+          "provider_code": "5J",
+          "provider_name": "Cebu Pacific",
+          "provider_display_domain": "www.cebupacificair.com",
+          "provider_image_url": "https://www.google.com/s2/favicons?sz=64&domain_url=https://www.cebupacificair.com/",
+          "price": 3288,
+          "currency": "PHP",
+          "deeplink_url": "https://www.google.com/travel/clk/f?u=ADowPOIXx_HSHmIsLXIwnQ4CrSHZx-a8cjfnoFfAnWm9R9yt195rxvAhVznZWksAnqJt2fG3WqR1Pf0WQYC6x3IVKjALU6Q9Stm6Qd44LUCQAJWxeGbphajwWUnFt5TU8tlIbh6cVOG0gU8lpSG9BVhrB0SGkmHCoOm-fgFgbsKhuK7GWOP_8fbjBg0P3MHa8CbVwiY27wg6h3R3jihnk8_gJP1zzYG9iEHWIVPWMz4UzGCyFKJOu3fXkUh_aZRAvgMbmgLKEyMDwRvVL-sDyGXADIX8wkBitDu3vywAccyuknmc4K9cBtAGw43oaenIXSDfbEdivftHelwTlyqkBs3drNT4tZnnJ7C6nx1Nfy6WbAKxvmGN9_d6Ek55ne9_-5tFAX7E-rs8w4NF1b86o9hvwgY5H1ZtKYWumMYt63LWz4aWKrh7RiTZOGR6FX4lZgYrSDgZqbwLuc4_ETavUciHx4eEoeorrrSXpELA0k8E0yny89pEvb-oA5hFPhoKPAx8ykv6PuuQ0Yh5P9vjarUkTjqTMNVRZwqMyOUoSQlgPkzr2ddWMNzSxeJbjsq7erVb9t_-A_O_v9mEAXoCNgd_aAKSgyw93qLT7lgJS-Sei6bI9-ptZlpBuFqDnKzRIfjMmTdIWohyohNwvtvLXe1IAvwjzvFMPVclSoLIRKH8zTp13YtTkje5E9tnbtUuVNJROjvSfftu4E3Kzx-Ss_JdonGQgxgB5oP8ATLA8_GrFjTgjtbUHmSURHIZ70DhrWaZoPYDN2KcjdBGOeF77RYFRGbQ0_zYmyw_q9M49BE6XuJ3PPG1Pn3_5VLLW4e4A911ZgpdYaOvdKM_iaoYYlRBRC4L0H-Oa8e1joBwk6GgUF_gQ9ZTFwXhOL9NjkjScXFhyI4WDD0MktKbpeFsT1l15X87LIC45LRqfVf_jJDRAQQD5bP710HBG7sZ8EEJI6GKRtoqCY8EO2I1TgM2IcNfmW89Zt7dZEPArkA6uYiRw36X87w13qxY4P74e5YDtZkmyCimy6S9BLvStmYiwLrp1j-6DgjWOguovqZujLBOeYsVXqjRrW_ZxnQ-Gvr2TgWyy8jkncNQYw1lTY_Q3A6qLDbYjrpRQpWF4K9jPT35kgxjqgPeVubsymvdVAKYtrsOjZntimWdMJBbmgG60LSJLK5bMJ1OT2xqGUJlvr6t9QET12JFv9X6wl0YG6M6Zbbw-dBOTasYjwb1tHACJdM317TQz7TsjKJmyDebQQKqEo8bqyvBD0gAkujFWsHo5lREK1ATwd4Dap4FZDSJKYA-KPOr3QdZw2Aq4XRmyVoNPoLKqS2xyHoJTEeSejYYxIEvM2YDGEqhW4fRQUfZ5WmTYZrK29Q1leznm8aBxvzDpc6admshp8qUEdb9d0Zm1H_Rm2R-Wd4FMadbzVk3VDl3zQD3JFH3oZwzQnkD5mtIuwr9TRObJQR-e3nlDrZOtgS18YEsLWhwfx8t-D8bQXVUocjBGyhOWrZ70QnNcBSouyY4rrGocYaPCeoccH4wIDa7EDbrsimGKIyaebdMx1RIO9pvV1XVSLPMN78F-MMILDq0-eaYkzbcjFqNhKmoCrPWuojqq_U6R_WrYolr916tcfGVph1GaCmZKt2K5-l3Bj-vmenLuXgyCJ9StWqUMPjuprDLwfTx50Wk0xSd2Yu9ri8hOEYkvcbqE73mNPc6XFqndnEs2wVUcV5JspzCD5XDN3LmNlBTtjwgZzShSfTwCgKjRMgUIM592Y36jk4DhqR_Pp9VBtBgykOmDQ7MnayEG0Vqkhbst4PGPnzkRUliaaZbFEp0vKyyuCctbgZY4o_HoMRSlQ7MajFEzEB3jJxfW7Sd-xqALkUmOpMkbTctvOzQjnzZg8SXR2-A6VdEYWMqXEIcSAHcDem13yr3ZpVCwMEPFQSko3MoWvBTr8gviWJXk_sNFN8BzBpyGg9hLPpIghIveqpww9kRIz-oJOhEOCiCNIWW7m1UGxV8KYhZfNlVzdpGMBLM4xzhcB1VJXBz5l3VzNft7jdKkc4KuVbBrAgwdz1N-f6o9WO1YViGuphDqtHT1xWURyKE3k9AamE4tNJzXgIZ5gXFWPO51fhq6uyLitPkcXRVAAYbn9rk_mZpOpAZSFtXK5kQq63ombddAlYwdJqlTzp2oj7IokIvGAkQ8m9fiKmmgmccsI2giyosPbTbP_m6IA3sLGJwtXiP7w",
+          "fare_name": null,
+          "resolved_booking_url": "https://www.cebupacificair.com/en-PH/flight/select?dd1=2026-07-01&o1=MNL&d1=DVO&adt=1&chd=0&inf=0&inl=0&gclid=ADowPOIFMPJujJzWMAJsUqBCfrpjCHfiNNYKK8QGHKczwYTGRJXPuFWw9MIe39ithmhJaGTJTsdKPcPiRZ5FgpRVSYLb7hPx5w0ru9JfqDOo7hVcpZml&gclsrc=gf",
+          "flight_codes": [
+            "5J 957"
+          ],
+          "is_primary": true,
+          "raw_rank": 0
+        }
+      ]
+    },
+    {
+      "origin_airport": "MNL",
+      "destination_airport": "DVO",
+      "departure_date": "2026-07-01",
+      "arrival_date": "2026-07-01",
+      "departure_time": "2026-07-01T04:20:00",
+      "arrival_time": "2026-07-01T06:20:00",
+      "duration_minutes": 120,
+      "stops": 0,
+      "price": 3736,
+      "currency": "PHP",
+      "trip_type": "one_way",
+      "airlines": [
+        "Cebu Pacific"
+      ],
+      "flight_numbers": [
+        "965"
+      ],
+      "layovers": [],
+      "emissions_kg": 93,
+      "emissions_delta_percent": -8,
+      "booking_token": "CjRIWHpMaC1rQUd3cjhBQ1c0ZFFCRy0tLS0tLS0tdGJicmQxOUFBQUFBR29OZG5JSFFWOU9BEgU1Sjk2NRoKCJgdEAAaA1BIUDgccKIv",
+      "is_best": false,
+      "segments": [
+        {
+          "airline_code": "5J",
+          "airline_name": "Cebu Pacific",
+          "flight_number": "965",
+          "operating_airline": null,
+          "origin_airport": "MNL",
+          "origin_name": "Ninoy Aquino International Airport",
+          "destination_airport": "DVO",
+          "destination_name": "Davao International Airport",
+          "departure_time": "2026-07-01T04:20:00",
+          "arrival_time": "2026-07-01T06:20:00",
+          "duration_minutes": 120,
+          "aircraft": "Airbus A321"
+        }
+      ],
+      "return_origin_airport": null,
+      "return_destination_airport": null,
+      "return_departure_date": null,
+      "return_arrival_date": null,
+      "return_departure_time": null,
+      "return_arrival_time": null,
+      "return_duration_minutes": null,
+      "return_stops": null,
+      "return_airlines": [],
+      "return_flight_numbers": [],
+      "return_layovers": [],
+      "return_segments": [],
+      "booking_options": [
+        {
+          "provider_code": "5J",
+          "provider_name": "Cebu Pacific",
+          "provider_display_domain": "www.cebupacificair.com",
+          "provider_image_url": "https://www.google.com/s2/favicons?sz=64&domain_url=https://www.cebupacificair.com/",
+          "price": 3736,
+          "currency": "PHP",
+          "deeplink_url": "https://www.google.com/travel/clk/f?u=ADowPOKbTc0cqkfuP_1VQHZnwhLE_RsUIu1DRnTettxpCIJA8WmHrRIicQM3GWGVR07dmhpfuC4mSJFrpxoWDPM06tm_DLhaYuOCMihsSwx3Ha1aEA-q9Gv3yDWSO58as_oU8NPc71SIAWUzaymbNxLf-MgvQHr-Mx_fPARSzG-2GGJ7P3QhabBZ0vHd-HNVKDvE2gJ0Ua3az0yNqNLorAK3xiSNd_pw8aQj6SdfB8dRuNL4wPqLv1epDLdRSUQthwjMgJlB4HXeAvOlRdrCXm0KGpkHQ51IoFnPboGX6SFtWsab60NERNS6Xy5MrgXvOID3JLtNR_EBxN4z4cMkMeJ0hyWoSy71_fheWTIcf58krFwnkSGotjfXc_san1EnDYA1UQHdpitLi5OJ-09gfX39jdwPMmiozDaQBhPp3Dmqfg0XbwjLeheRuoFl9ZZ5awA4P6DtPruD4CQ4ObQQN4e60cJloXLDVZ21q5bCmHsjBv_CYPaNKmaXSLg1PM02qWZO_NWTdw8iDfhZ-fgDe0Fw_SGzpKiJVwTNWGOIoMpuE5ujmioC34g-qvbaoWP4OaJG4YeUI3MdJbgUfPAUJpdHZoumzPsAhowy411o6anfnL49hU1yGND4MFkBUMeHc_jr3HEhNQsZbUKZpag6Y0yBnSfhPgIMqQHpCFjYeucA0snG71KjcY_5qlKvTrGN7CJ1d0ZEVaQOQRnPsO07Xyqzptm9-82Jan_xh9a_xJv90UizFMcaS39uPDlHw738FWDxQYrxIe83ZvB5JhKEAHZW19m2CAvaScZUpRQA9KntJxYTIIGf3XDjT5R2-4GvxyNg2rzUlCzI1RgccsSXO2ybfOpSk8u2e3k00IvEdd12V3KFBfYL2IymyDjbPwSqnqZjzrsUjNJQb8YQkC1rDGsZkX6pXeNZkIakBIgC_O8QWA74u0MsYVhS4RJdpluHgp_zepgPN33mRUVh1HhH0pzOveq202sZMuJU15z_K4WRpboEIsKQV-UDKWFTb1iv795-9S1xjMDhfrQVSvF-qD-k4OfO5aD_KUChwx0RYr-TLNvVKCMikyNNh9k1cL8uKRceYFDQoOCboxms2YsyEm_2P72fMSECyHkBCHh37Dt7tyfASB49IKkHj5nHcyF3uwJ7YEkEl4wMYGuq2f8ual2xymURm6OjQfdfOOUWEy6Q90gjgcWiQ9f_Cv0OEaa-JiYrC68ufSZqNWup3rj5KbArbcVv6zEUw51QtTtD85FqlhcdwA3SpYmd0LlxE-A3gnYnzLctLCXocrK7_-Jb3FvQef7KFnV2ao7gQvjH2hovw9lf6XQSjrewNA0Y4b1fN8l_I2tu8owz1kutKHFPdTe0izPsH-4_pLzQVdiLHgUYqtUu-YmkUzL9rtqIu_pMuZ4Lbppxg-sDirT6dZSpFxMSTtn33zc06P5fxMmRghCukzcvqtxNKZ5tkfdoKq2RmauravJomPqT7CmUsB5sbjI1vwETa-EMyY4245AnJNxteP6B0CJ2YM9hRO1UqeyjnGj542zWexboh6WP7W29MafZLUoa5QH_zgQy8G1oAuXGYCnViA2uyOlq6DNJ6pFdQ_N4jd9vSeQooEim94QC5e217ESnGEp0QaA6zbgTAdkobmXlPqfYA0bjd1SOuLgBr9cHf2pYyrolU5PiJtKJlCZsDsWl4uzOUE1keIYPPearhYQFwgP-ABCkYr9M9ISbZfK5OwZPLfC86FWjXYoF0oZ4HoSBeezI9V6KK9_V7vOgg5C_AYCKJU6HmuWLNHQT6MSEoWmvSo5v0tO6yLSA7RBq8kweJnO49Ofb2P4OVQFt_9orDH9VDQbenkkWhRk3oK7AD2G2BatvgsRUhoH0WhUxzRhKrS12iFmfkhfLxCZWExZDiPGOoZxt87Dvk0pj8Ff6OSe5eV4JK3K3pa1UjV3H7k3V4yGLIVDhHmelhyl-L_GYvLTK6DuRda38ZMtKvpO0PRV9vSOyMDhsdN4CJdpVwdno9tidW1DDFBh0F2xmE5mvyCuyqdrXGXM7mLu6ojVBFE3QSyxAV4lhibFN2pFaxXlFgxxvaGE6pJOSOIUDoQJxNIdh4SY4Gb4e8nFEa9CMl3BGMxbB0zv2X8Xf8PcB-b85Na2vzgSU_DpEg3PFCgo0dB5vAvjWqRK3nCkWjPhUSJJc4SROOSC9z0wUWYK5geOrhkfBcx1YUp6QqrQYmutyAA",
+          "fare_name": null,
+          "resolved_booking_url": "https://www.cebupacificair.com/en-PH/flight/select?dd1=2026-07-01&o1=MNL&d1=DVO&adt=1&chd=0&inf=0&inl=0&gclid=ADowPOKY2CdiNDFO7BhxftKzteGpS6KulXJGY3HkWxDvwv1BcyccRmxwiFnnakH1hYT-7FxAXYoMyAacOrVuFXxged6t_4HD_7-5fZxxa8rK-0VH9STE&gclsrc=gf",
+          "flight_codes": [
+            "5J 965"
+          ],
+          "is_primary": true,
+          "raw_rank": 0
+        }
+      ]
+    },
+    {
+      "origin_airport": "MNL",
+      "destination_airport": "DVO",
+      "departure_date": "2026-07-01",
+      "arrival_date": "2026-07-01",
+      "departure_time": "2026-07-01T03:20:00",
+      "arrival_time": "2026-07-01T05:10:00",
+      "duration_minutes": 110,
+      "stops": 0,
+      "price": 3836,
+      "currency": "PHP",
+      "trip_type": "one_way",
+      "airlines": [
+        "Philippine Airlines"
+      ],
+      "flight_numbers": [
+        "1809"
+      ],
+      "layovers": [],
+      "emissions_kg": 104,
+      "emissions_delta_percent": 3,
+      "booking_token": "CjRIWHpMaC1rQUd3cjhBQ1c0ZFFCRy0tLS0tLS0tdGJicmQxOUFBQUFBR29OZG5JSFFWOU9BEgZQUjE4MDkaCgj8HRAAGgNQSFA4HHDEMA==",
+      "is_best": false,
+      "segments": [
+        {
+          "airline_code": "PR",
+          "airline_name": "Philippine Airlines",
+          "flight_number": "1809",
+          "operating_airline": null,
+          "origin_airport": "MNL",
+          "origin_name": "Ninoy Aquino International Airport",
+          "destination_airport": "DVO",
+          "destination_name": "Davao International Airport",
+          "departure_time": "2026-07-01T03:20:00",
+          "arrival_time": "2026-07-01T05:10:00",
+          "duration_minutes": 110,
+          "aircraft": "Airbus A321"
+        }
+      ],
+      "return_origin_airport": null,
+      "return_destination_airport": null,
+      "return_departure_date": null,
+      "return_arrival_date": null,
+      "return_departure_time": null,
+      "return_arrival_time": null,
+      "return_duration_minutes": null,
+      "return_stops": null,
+      "return_airlines": [],
+      "return_flight_numbers": [],
+      "return_layovers": [],
+      "return_segments": [],
+      "booking_options": [
+        {
+          "provider_code": "PR",
+          "provider_name": "Philippine Airlines",
+          "provider_display_domain": "www.philippineairlines.com",
+          "provider_image_url": "https://www.google.com/s2/favicons?sz=64&domain_url=https://www.philippineairlines.com/",
+          "price": 3836,
+          "currency": "PHP",
+          "deeplink_url": "https://www.google.com/travel/clk/f?u=ADowPOJiCSnAMnnd4rcDbGbjcPkVL0rdSSpGHY8jwSpy8AyNr2iim6G27-eJCORk6I0a-AGUq-PeMZTtbke2o37newgykLo7MW1JQAYpZ1WEFicEQu4tup-KD0gH4w-_OORc21E8NhnbJEAZ20yPdR3a3aEzoaPQcS0dOcfj7WZKkpmeOInXpb7l7MFWyq2WUHbx7U1CvKfP1PRGsxlLYoYkvimbCxZQsEDfjO6WchkkSv_JD8khCB5nil86ED175jLFSN4y1kFIBkjkdbJ6E6_DZ98E9b4n92YiUR_iawsjCgzvBFjK-oPR6urw4IjdJWmkPfmbeBtEs6cCfSnQrcRODwm1KHY7R9l1XIzsyqs7IK8Vk61LmU77fmvVqqw4NchrkZIgkRo6Bhp6U75OBodSJNDpwP8zWSypscvazQb1nl8mEPsb2ukVRin7N8bubVK1uzm53-kPGqW0CXYeDgYYhuk6onnK2gax7OxLV1lZgQ_Ze4xwF0d7kWhx8HJbZheSDDKCbs24GlGbCD3U5bnJy2zlD9AOn_rvFpEwAolLGGXFqPWZ6dJO4YnoaOtTYvSRzcPCIoH_VeIWs6-7AnWifix4FeSP-1OjR7-tSkfnjW3i4Y_An6ph5FIsuNNOqXzMR3QDtEURUofffSr45m4oMgUuWYIs-Ce1APppefNALRClEl6_C6wMu_lWbdmrijt-yR3QbsH95si-I-HDalIJstIYP67-7kts_7pSJtCqJaQHEPSUfhbFdE3K_-qJjWmwe4cqbskPR8a_AOPZ1qY0vc-QZP8WPg-hT7zkOLuu8IF20lR8MJxxkV9pwBjTe0SIFW4rBKPecqKbI6uBFhB-XXygI6DGI6PrWnwX82ApRECJFvvW0L6Er7Jaoqzb5IUvg2KpQipUn7azxgPMurEKwTZux9OWMPBfyZ3TzxZVJSduJoaRroMog-NKqz0UTbGc9N2jalmW78s2Fa_vlIJhe6Kj2oxQjpWuVxL67CbuWLpkXA3Rl4na4Mv3IoW5VARlPOn1yJkc3kWltTJsYCONdOUnLdNecDy2fX9dXRBsss7gcVrRzoAxF1TLsSKR5wuz8rf-ZlsvtC7519GXD4UNM79ojXu3w1UzRxK49cQg2pDZHv8f4ECxteeiibZ0R_1LcZsfCYT-pZCaGsEVb-CaVulSzaLq_v5PKX5f72ZgZRUanRPa3EuAAhANNoxfaOMOaBo0Pm6Url7QQY2ibB7VaaTbs_vYjf-chttCn38njbDujiUL0zhxvovS1frGdEFOsYxwLIDtcNqZwNnTTLoDVE8MN-IPQd5SiuBlBMaU2wN7caK9VX4_EfrRS5R1y6tWiWyFFCkcB3xpNHcFNiKaucxj0Cxt46Pu1NT4xn9hKfTnKiaH9pmU45y4B3KFL9_CFakX62iU_ZDoEuhI1e_rQUQjeIWghD606NLzNc70apP7DLPq7ssxzavtAFdc2LFX4FsvxUohfyIqzoTvcE-jO2zDZvlS3kQZsO0oDOPbM2WLLa-v_-MrzJjS4d34AnkVB8jmxulWP9qU-81B5j4RNCA-pXkgfU_5oPeUcOdYPcX2q_VjyavQh79ekIg3ChibpmFQO61rQl3FODhgCXfvYeLJzoRkLT0oOYrrnL4Esyy6TA1oGnC6QLsJF9q6fuBQGdfrsjkcavycDw8O885PH-wO-7Z2iHahID7dhjZhxMzol9kzc9v1MWrq41yY-wrJgW3soCs4jfeaCV_wQvYJ-9DpfaatEiHyc9xHCxVBbWH-pkb8-wNJ-AhE0HCxDvyZOonHFsVAP4htinSrPRy1AN2tmmXSTL7ZzAOyaIOhHdWnQ527DBdFol0MmO8frhFV2jVRUQkjdud2mlUrvan7MT5fWfoJroD1x8ICwyhUPn9gCSspRAnX_zNb9RBk3HdzlMe4S_bWagPytbzHsFnN0T8eIHiPv0YiHZBmmT8ckXfxwez2jGULUcvMK7Ca9YBP1QP9zqCfur9CIN5tm5gQ7qccVaTSkE-F06KE66EoFJRNYBbTe2UJUR-euY2iMJxzZA1e3RrQb8PNff-Ct2oHLXESX5__CUbVjef11FC875gbelsFn0Im4gQ_CgzE4gxU-NbLhghDaLdgatsdeGa8X7RW6pwMUY-iVCZ_y3zXscJii_2trZgkWxAmk0mq00DD7Ytko5xZOnr3kaNRyy4b2NOYZZlfmepf7c7nCGAyEPnKoEBVBVjzsT8tda3UWmsWzmKoNJV-z2zIP61deSkelvfWgrknobqEcbH_EKCXQTLLHCiXx7jYYdhHWvtGeDge3x4J8j_dn3oiWuM2ueduBMXGUqG7tBVMUM3Zwsj_RDJNDqTstI9o7q3tLnaaaQ_7Do2v2grgcHyLAJV-wAePNXlAIOuJ9U3JW8suXO6xvtl0u3ddzOYbX6g7qoYLYG0b9LDgptxhcbUKpmyHwJg28Q7vYSNvYaZ651IJfgLyQPwZW52s443H05adnou8iNQ7Bg-u_EhtHWcF6eVIVywpTdFuLwCqlzC0aancs16b2RLPIN_N1U8GtAYqCPx7vFm4yWfKHIq4TG8LrJT6KY-qaM31j3lKN6EhEEp7dJ0qD8bB-JJAl16HCaiiQbYQBjQWrUxL974lpmTdSbyzh5DdKa52Azob29oCoaW0_x8_bnF6gPTzcugBYSX2Z1w7L8VvzxUqoUwGYoxwK90AG6Hp3-Dr0ocMin0S5Y4Q5dfnLja2HutK_ahNaMfDCcYrYErWP9-Ss7mNwZ2Xr_iH4cRvoTcMifHBnoeQEJ92tAa9p1c1Booa4G6vq_4QZrg5RHJ0Ebeyy6V1Hoktqc1FG39eet_ms76fMV4D5l58iAjnHBRIR364UYWCExjq70ujTZJVVu2gxCU-iFLKMAOIZvS7-E5yrWmJB5YaT3wSXPTXVVA4_r6CyUtxEwhXhq4I3pLIzb0l_SNOkt4PHyR5JbpbawgNchn0njWw1moMRL_9Ms06Yt-R8_qdIBxTbjUNFTMJHZxvy0pyc0lii5lRAvdY6vOYANsB2B6jMFZdN8j9m6yQhfccypB4Vu0LosFm39WkjzEPaeWosuNy8cGZQ0JeukfFo6ece_-zT4sQxeCP5HSO4ZtFzoRKy_fw3mGuh5Qc5V_hZzoZMsuYLrZ3tx0VdVnFyetBaveX-lti2-jHr5DCfWS_SRx_tsMZcZLqJNisE0QdCOQhGSIPVvILfV1NinRnr0DhFWX7wjW4V5lGMWkeNO6cM0miJhDItxhWOyklNWBbT9Wo1uEFP0w5ih5WD7rRxq8IdsZFSjwa0Ma_1V0_CsxDzZ_Neh2mH0d29a59pSTmb_nbcog8uXpXFEv7ZzsILwg7NfsBdVr1PFNWoiOFHZ0aCAzRW1PQpM4vJR8igyWi5wVFef5mGqmVK_Gbz-P7kw8uojf5BIpZh1LO9_Y2BGxNMUQFP8aLaDjvRaqszGw-bfHhtik5TcnRaXvFmZC2_gLdQJaQaCoCitZy3epHEt8Aj1XpqQIvBbTqqTCojydzXfquBY2JlQHYCQB7Sm7AWZVwrQBMyt7QM6lo55dWBO85tcXIvwI7q5nC7yJ65EsUoGDKQZZH6MvsYzuWSntdCNCyr9TBE0oGj536HeIvp_k7pflzK0QfwhEHeNNLob9IsGvaBm8rOqkh6MZ6eIk6sEIW9UVeVC4SWFThU6RTOmB0RX2cIgYlArqTN6W5BXupqksFz7ZsbcdVJJVBnfEioA8EKLhgFToqJq3_JKjetOmOySPCZvQG3iBUkYCzGSqgNzIFx5TMXMDoIisCwWJJmKCDPqIIIMiaiZEiWS-UEeg3CZ6FtC8ukM_YM3o_9ENQchcNhd6nVKjZLpiAvlVO6WGOtDcVNXYylEiP1IEn-_A9GgM8xBIH7q27UfD0_wfui6brcQIe6VEg10RwpXdre9DlgIuJOyFDCaz5WYkPDZCxpOkN5goYbQGniEFKAI-6-MlFpk9RSEdwsRNssoW7Otp-29KApWWZq9cZTChweIpsGkNBvU8ybqB5j_yii4bbCR-K1kw7t9KBcPDISD3_hQgL2lH17G2e2gL7D0v-pxPK1N7mQbBbC8_xPg",
+          "fare_name": null,
+          "resolved_booking_url": "https://booking.philippineairlines.com/booking?lang=en&search=%7B%22commercialFareFamilies%22:%5B%22PRECO%22,%22PRPEY%22,%22PRBUS%22%5D,%22itineraries%22:%5B%7B%22departureDateTime%22:%222026-07-01%22,%22originLocationCode%22:%22MNL%22,%22destinationLocationCode%22:%22DVO%22,%22directFlights%22:false%7D%5D,%22travelers%22:%5B%7B%22passengerTypeCode%22:%22ADT%22%7D%5D%7D&portalFacts=%5B%7B%22key%22:%22countryCode%22,%22value%22:%22PH%22%7D,%7B%22key%22:%22useMiles%22,%22value%22:%22false%22%7D%5D",
+          "flight_codes": [
+            "PR 1809"
+          ],
+          "is_primary": null,
+          "raw_rank": 0
+        },
+        {
+          "provider_code": "WEGO",
+          "provider_name": "wego",
+          "provider_display_domain": "www.wego.com",
+          "provider_image_url": "https://www.google.com/s2/favicons?sz=64&domain_url=https://www.wego.com/",
+          "price": 3759,
+          "currency": "PHP",
+          "deeplink_url": "https://www.google.com/travel/clk/f?u=ADowPOJaNIecZh1wRE7eaAVeCqA2PpXnFo0GHHLnHa7sptKv2e2WnMHVQ7dzgmf1OnH510q9R7TvqFIIYzKRaYDWkP4QdYn-oAfxvzNxJTP6Jtx5k7E3EMd8-NWjZtXkVITlOa7o8B39yN5Kxg6ceMVvs631mEgO7D0TIBHdPxTMy4zbymhqYXIYHbWRchcaI5rkrlDXyycNAvFpdttalVKOJb2Ij0o9_pMCWCZT09B7Z1LW2kcQ74_Leh7zsY9HZcBdCFlZXOR1Shpf_Fm_ufmHCXR6lv8cj-SfwUsPWNJ_cp-r8GxsfcAFTX3CCqjFz7G-C5YYKQMNXmO3nv4K3xd7LoaihsRRIO5F883eF3Akgt1MKgu9EtBbYICWzhCmo6wbI8h7ZT6gY6PtScIIPi588Idd6HT62V8JP0nIjnwLml_pueb4Opz4a9CdTJ0_KWcaMszT23K7TEts0F6mrn2UrsSZrYC3O2BPM7znyIKLy8gjoV2NvvuWjuoU1wmhRC0vLkmqzW6GXrPw4HvIWO6xI2R0EtfI9zwM81uGFYvrDWraaImzav7fAEU1QMkhFenPV_EqvOF25sLXxyV0HneKjAfWoUotSXPDalZHt77yd-lmHeQTEHRfblxjXWtpXosI7MmA2kwAfBEN-89FY7NsXpxZ80xQEmvTSox6GQ-e9NOPQ7RDgNrXal8hV9sDYh6H84V62ZvpLMqnLaFM_Xx7d-bscyiGmrpyZklOI-zoTwS12EvBEQrcK09CDr0MNk06CjU0ncLOmfd1Q1fL5OUe-nZOEaAQfTs12YxHwB-iLSBCJ5kwK4csMRMQ_goZ22I3Kn7auGUgMv8c2qDiPyoFZapmlx4xyVY84IWgkYvcKjyP_CQoTvuWQMx_Dq5l36kk0trD3zc_co6H2eo9aSLeBROwTcU_HateJ2ubx6H1Lfs7gME0-yBnpfkDltVkOsfkC59zadID22rxuGf4bmW22t2dN90Lh0Lpg-6jMO_h7fDbYfvy51aTD6ClLsoAbsVDpb0fEPPdN88NEAvpqo-zIc0kpvvra_b_eerYTDaO34K1PRA1osKWxnziq8TOMsQDufE1ycdMW9yndaqAuldTy2GoeiU9z9HOaV8DxMVhHHhG0WXtFulzAks1uA37pVM0Np_ynBpaKcX4N180OvAQBX2EBCUgYp_Wk0H6Xate48s0ZoKdy2-txAgHQ160BIEeS4rZSodKJXld5LNjhwb7jD7wGrQ9Jkdye9zFxgXQeb5NHkvLjgksALL_zgf6S3CkofwckUCyfri3xMAzZXeSSPQxQ75ox2k9Jgsw0I4_x0Lfs-4K_bsTIgFEqjmx4rX5J1rI53YAA-FLqJzwMx4jajsicDK1afnmEFSWO7nYYak6aiJSekWP9qSWU3UekE1pNWRz4vZ6eQgNZjZPTk6Lrda1mec13o8ghJiRVgpstY-uhjlKHn2leY2_JcNhG6Jl3tB2_4DLJY7eLAwlfwdi4wwGj-3gUCg-z__p94oMP2vzr4IVWJGGnx9ZDz7lyC0GmqpEECoyGwGVeHQS4TQzXs27CyVw5qzFjm_gqcjhrDpJqayXg-5FHicT_8kMXu47mtZ-g2VPZG1ZfQSse5_FTvSnQAaqWQPHrWxcr_UnAfg8IH-r9QUg0Xpk0WwZgcwUWQiNHJuvT7dNd9OhB-cHseijRFBBPbtV2_6OVjq3uFqbWMilLJJAdK0iq3faxF1LJr4rkZfxFBCo2-VCGxU8XHrFxb8Da5uf2JIkAo2l83A0kXM4c_20GewmjpnikZ0Fk_FaA80opLLLNKWFuC_y06gyXJ65-nP9jInsl0mKlrcU8IeU_js08q0yBhU3hvx43vIoSvCtLmxR0iNo92LgtZnkKVBA1cPznIffosM1nK1y-cjpWS2dZg43o4WPATGH7ayh6zUO9Dp5j6RmqVJHPBNhZPzcy3LYemQV8VbqSJuLyUV6pCWNOcgPos9ewq2aKlZ1hN1Ic6alABSdzxXLqXUg48V0TAQKyEugkj4CF8unjmSfUDiDadzrhMTqFQYjeti450jvUNk5Mb8pnIDLZbcRpVW-nvnhBI4Zmk92QTdNSWsEZj-_Ecakg48m-p_8fKIRf7ZprqZ4pLt2HehfWYzVgwUGBzmmkOn5Nw4gwfNPzi8rLhFZIyDx0f4rvRNcfxnnxc3TylutQKyhGYoLptRLOzAfmW2Z4hOIfX2kG9PKWcGmJECvWlVOyFILdhV0_NgxyvB3_LqtM5eVJXTFQ9wYJtl4y0Xon6FoJFEiWWnWGFb4g95_MXv6Vqm_owUOSJxMAIWFmFzZW9xFvKaXmDGRuj8hvmOQYMYj4jl2p_19Oc57bv2k4PxDIG0jD5u20nvuXcR39FyFv3i9p4OrwleucqmQTUIIAQ2RfSSDTMwWf-moS2Bv77arosGMbXt5ZdUjzltE29aKwOqj8dr0fOT60oH241xwe6YjBhc1RD1bUQ_d5V0QnXZRWFnbVWD2yQqts7CrrWHF8m0zxwWLoFTwemTaFn6dzyfxy-CQuklhXlFGWoEVmYKWCs7emwDFYZ5o1UzD0zg-31C5SLhqnKmmKB6Ct1PRDu4zayRHEIBqxaT1ojzLsj9eGXybMCHWC2-TfRcE3qx8vmUKviw-Hr8zjuHT2DVBRJn-SdMQUDssHuBPt_IAjcd5-UufGkBjnDJToOC6ISePHvlnoF7wIAlBZqMTGz_NiCxUt7U7GwnqcOsY8nW7YvQtY5skjEovGhlyWgoFzLt-14ZBCA43BOPgtvHybIxaeLzJpekvobixpYvW47woIHbMVRRsl_O5rRFxlVN7FUXbym5ZqhpOd4efYedcSYe7fnGCG9L3ZD6oRvyfjCsNxHXbYc5rOO7H1tE0VJDxQ-EkkqgplKmAv36YKUB225p54vZ_ObLpOmCGe9X6ckaO3dXYXyX2Q2D5fa5penAUIEYATIqstZ4MvW8rJC-ILjH-XCrJRAgYDXuTwSjI_UpuJRv3tmnEu3nAWpTV6oiqyhYWGqzu8RyXNZMAGz9wygWGWK2nk_JgUymGFC3DY8gKGmap7YrzUhKFbSvkhb2c91VP5e1Vzi5-DFNxNncQXF4z59StoDFLsppTVKRU660qJP7PIEQhFHpaGXf37lRVumwPF04nD1PT-Ev4uy5u7TD--bIXTbYTV4ta8G-L7IIPtMmDcdC2P4mHyj-g2MM1GBsU5pp8JzXn6MlORgG5gPVthn3g_dgtISEte1oyR8N9o4EW96JWwgDVCNxb34zrktCFC9EWX9Vjhh5i8o239VaSQ_Q-wyfjBarjpF-tyTdho0umHrc__yN9AAD01Bq5G7brEAW01vVfrAweUnocx3MzEdCvpZMwxMesPOtYlYn-QimAaKjPXZCGlIaOWeVdgS54qN97RlrL0z5n9TSr3KWqv0G62-ynCIPT4TMky9e3KbHRx2g2wuGtZQM5t7skoFncqt6aIxM4aVj8LAQ9Jh2YGuCeteiwVPM9_Ex2pto60CwBMczWTUk5sBm4w8Z0ME48NHtnSUyYsgYoBA5UFnlF1NyqfYKzFCmmHE1gMBZhzTAxprJW0z9YhPxc_GvYFFNtAYa1v7_hPDiMs43xjsCpHYjuyGwKgTntF-l1ibSA2jhfF3JxwcetOPA05rfDrlcRWTyJvk_OdgkchjS-7I0BKLuTc668Hfmjih7TnyzYhjUmE9aslx3BMvZsZq_naWq3qRx5fS5LRb2R9KJZISQYLq-YTgzyHS7ZLyEYLeu9OD9gepAr7BrSm1gCZJn6JPDLShZ4_XfiE6TU1CsHzLuWeXNy6mXRBGloDvZih8UzQwgO29IOWaizc5zwXpDeZYvTr3CTne2ODjQn0iHWCouDGh8mIIQRjj9erbPAOc4yLz9ndDo46WtEZF16t8WPlLhWbMnOY2zwE8CrMvhmtk2i5pp10q-xccdaJITxf_-damM1tv7enUJPB_FEh_A9kIzmwjznhT1Q55zT9enMwNPCnVMyvnlRQKFRBxNrm8arfIHsIXsgC2CB-hTpRCmSoZPYSTSrapH1eJIEj8hFccJLn6aM3ot2FhrmmHjGKAoYtdSol8GA7Ql8DntfmSaQkTD64p8cRbiEK2kqJkUhZI2cFLB68k9NmbiHjmNqhSItqBgaXxG2-ucVtSdbkKlxjHv0eQGfMv03b2rH0ig2fsghdSnXNlK3PkuTLvaMG6UI8Hcjc2nO2oiLtSMwd00_pBfvyzV3AqjvtfVd-swSMM57qzlkmSNDINVlN62_Yd9UuXOpOn1AEVJwHFq7Ug",
+          "fare_name": null,
+          "resolved_booking_url": "https://www.wego.com/flights/handoff?Adult=1&TripType=OneWay&PointOfSaleCountry=PH&DisplayedPrice=3759&DisplayedPriceCurrency=PHP&UserLanguage=en&UserCurrency=AED&Slice1=1&Cabin1=Economy&Carrier1=PR&DepartureDate1=2026-07-01T03:20:00&ArrivalDate1=2026-07-01T05:10:00&Origin1=MNL&Destination1=DVO&BookingCode1=O&FlightNumber1=1809&TsCode=5aa90&app_client=roxana&ReferralId=GOOG_GFS_712&wg_source=meta_distribution&wg_medium=gfs&wg_campaign=fbl&t=1779267234&sig=AXW5OLo3z9W5XzvlZP7iT3GqXbZ2GVOhZC7oQksaPGr3dhSFvWHB4S8KUY-mtWB4His2_F6emFPupJiZXBHsLmy2O43NDJUEBZNmN1o3dbHu9dy43y4PZm57RZqBmGTOwWm1yKdrDDxqGZAW83MsbI3a4mXB-dqtwWK4QLPhTvVMRDEmPqV2n9tW-OWMvUNRvtQeFDsUWO3yiUfsvDFTlBQp4h1fhRs7Fb9b6BlOdXEBIlF-yem9uzkzHLgmKJfAwzkBKIDYy1YXKs6juUeUURrrjilSNFQHtOTAaPfdLVtewMFSg5XZxoD664QKd45zHNNWGttOf9m6FQzI-rk4S4hmWGcHTJQRZxzGEGi7kum7zzVlQ1lgxSf2vkTWh11WNvDhV3HYNZovR-CydTe9UpXbkZy0o_-5KUSUiTlADRmguRU4QMhsLzBWuLgl5XZWzwqLYl95GjZU0DPqzq0i1rVYJpp5NsO_h-WTwpkJr8KIt-fPNdipAuo_BekZoCSE2CEUYwc%3D&gclid=ADowPOKnX-tDCXUprpd10ktTPDs_IqSg_PVTehNW_e_oqh3457Pur3wjtpcenpiDRl0s2l2alO_8XWylQ989kb6l3ng4IhcKxU96uf6txRMBATPxR-Xw&gclsrc=gf",
+          "flight_codes": [
+            "PR 1809"
+          ],
+          "is_primary": true,
+          "raw_rank": 0
+        },
+        {
+          "provider_code": "TRAVOMINT",
+          "provider_name": "Travomint",
+          "provider_display_domain": "gfs.travomint.com",
+          "provider_image_url": "https://www.google.com/s2/favicons?sz=64&domain_url=https://gfs.travomint.com/",
+          "price": 8690,
+          "currency": "PHP",
+          "deeplink_url": "https://www.google.com/travel/clk/f?u=ADowPOJkRXQuGPaxQltkHYgQn5wba-LrA-pRHiZA2Xx3IT9RUzJ4lFFFuyXSx3IXUTkLCy9nqTtR1wfRbU0BhPfiWfLWiNj4kRzv2kSpRE0areUVX74mD79Dmsp0fbUnK2v1bL0h3hWcESdteMXWvcnyu1p_LjuqHcLz-KnaVOYPKSnWl9cIJdi2zxyEkjci2tHVG-z5qE3RxUgXjX3faqzccFG5ZXt3mgLJNzc3JMamM8ku_PdlD4g0cncbp1woZi_453Mmyt2cuLYM5_7j3Rvzl5rLHwRXMAS1jlWF7XbZ-X6ZZm34YyySyrGqb1qmOgYCX89tApigFdRqj-S0OIfsWi7eCr_yQ-WdNa5qpw_W65gp63uwoxCFifVmbQJ9gaV6nD01bq_PsgMBVgIXuPvQVWJWaG0nwbfgGI3HzhuiLufndTVIZ5GuQs87ogFTT4sBxT3fbXfomjt1iq2m3UekBLffyZ9BZZZAwSlF8rpivtW0yBFLcnP8kQjT2dhjqAJISbdl5xM7PC6J6XQFaE_WWnr1WzyK9y2-xaZzS_Exp9dAX4JYx3CSXyw5NzuE0oHBwOdp5SesUXbq4HEEAoM6h5DMcLXdWGH9PzEVZ94bcYYUYGkifS82V8gJQ9X2Plxx1ARuzEZi6-71b6RteG1UWoieGBqEGyx_rzRaRUO8dGYyhE1FwPsWRS-19J5kdgfsGqPZcxb69YX4VH_wWe26yK6_yXtlx2_WVQVbR-aJkgUgsWjz1VLnW8I5Y3QCDA_AJqtWKyPJg6gU-IZ_vMzFTi5gSTItZF9cDSsok_IZnk0TvXbrvQHT3zsZEpfINQ4iPxl-_ExRX8cYXMpiH0HsxOu4GytHR5e0LJl2EXlrrdvkqEkuTp0WqvKRGO-qCeAJuMRh_ZhE91iXaJdBf7-E6igzphJrF6Ig52lEPvgN9_4vrMU7Nt4SIqH6zfhrfSLGBcUCwsGzHd2eCx01u5kGBYXWo_fU_5pop8_4eH2r4Q3OvRYlnZVXAp4BKH2IRSS6t1DERcAJHmyZ_M-ZxZ22ocarjgi5fqKniHJj3UZZGxVTbZFBf7a1T4vp_psC4TkzniInunyn8W_yjvnJQTDBwm6WnqDLOVXzX3KqxoOjCubX_EKqFx778bn0otplnm910euHxujEIERhw4UNOQJ6uckdOmltKgJpP5NaJyqemK9TQD00lrqAHQk9uE9U8ndrA9vYGjb3INPDNP9PcWztU7w310b5wW7Cqf14eCNgyYG9MsjHEB2sZ7OF2S-Mr22XtlFt6qkjjZRszfrqpnRlPzkclIle6LgSf2S5SOIhM7C4Qq8PZsoQwdCVYRc0pHrhn0SugkFDyDQxXdGXD1Pks50kEgSa_wqDoGkIT5i5iyU2bRlgUOZEn8e57AKlAj0_KtcV7ytXE21FJjR1vk30Lq9zYAfQPUmcvyyZn7S6ozy3U1c2dLqwN72jVbM5p-xQdI8ITcGahCXXtssGjEoXdFVe80-qIdlwQV5rLXc1Udq0MP7_S4iA0_dpEAxGsEqNuOoGExtTVlGU0XFJCNlQKOKsVDM5m2KyKhTU2KjsMIEU5Ou-eHM3BMQ6PP-gxy4iYE0meUwr8gVJzOfuCit2MxCJhjwWSwG8bdmWY8UHJMhvraO7CK3TqKjBysHZlX_C_gXtkB6BEKL-mqXpx-4Ll_jBIDaCJruIfZSoVRqACmPTnz4vf1s9HT4ZuvgvlVNSCVseI5Nley0PDkoawFxLkbTy5hVHwCschfQ568c94FO2tWe-Kk-CtN2mf-Ehek3ll69QdTCy9tYX8YXg-ZabMYXqsklWFswHRqu8klJ0VQKNszQ75e4dOeb4zYn0G4YiLyCVz50z_UHemxKBcUT58BefNeEV05Y8RnZxKkoUccDqJB7Yk1D7yL1lHgDFO8Ieh6NQBGo5DkJgk4Y3tSEbnYcmNcVmOxScZRKoW9kjvr000CKOaTT-WCKoV78QK8jq94Kc-1vX4V9Goeh7tb6UN_GS0GymMywRU8vC3Wk-jA6HuiarGWMHtDxeo1tGr-mTg3XYCZbJWr9b6Gfx0NM6a0M7IsSJnGXJSxQ3Q8AvNconYKBr4A7FHVMPu0uLkwg9PMRxA20G6Tnku64TzHsfjWhzfpNmAoViBSxGlvoENNnswK_gQSiYr7aRhxOOevzxYxDBKGbNn43ImUJO8SNB09d90b6bVjXKb-J4f0s8BXZh3IuE--2FzJzOe6_ESetkUinbPSJlWoqFsScKoKHYSvLNKfBPoptBeSEEqhe-SoCZwM8_-9XoU1ho5qPG2YbxQDX25WoXcFt7-GhhOiDqN7_XDvRKoHxymNvJ0scSaHPqM-i7Uj1MQ5sRx2cQpNhQfUkKWnwZalbZJ_jNcO0onUjtJsbQXRxMeYjLKR5L3s91T9EX1Hh1emJ7tRDrcDh7bx4ikYg6PCZmCxwJBmSmQeFxrzvdKV9lK70Wl_A4sDTFsLs_LXPvGjDTSeCPDM8k6Ws6oiJVj1O8kCOxxheqk0spYmE-7bFdBQabEyRKPN_Ap-rdOqiM7hOwjkKxZoWqJGW3EmxGIbIHp0ltHQDazFsk_c6WefwT-rCHA2xuTQRGwFr2v0dBY14y8eTlhdtCZTspDhc__uaBuWKpPbw7ypIkUZDXJmUprqNlldgyXkBf4estYkvsjRnKyRunbxejW_vryexVLU-AMgIrAQ1sl6LK04jjo9Y4H0c75upbbcu6J73Unv7dIjAZWW475Plp80LlN92Ahi8j-sfqQ3lQ8UWDbdM8r4_gcpz-mlSAUpd3f-w72nLufpDwgkast1mS1osuE_AqFFXVMNUaY0qeSOljHCVgmoKVrSWS4Os8OCf-Wn6wi-9rG2S8bfAis5OB5LxPbG_KwX0u-9W0La8IPSeuOVPTp8Izo5CrOCmpbI4qjG5RenkuldQGfBxCHrStjpwxaPrw6lSjVcWoGI8NOnc1FQSczsMs5Ka63Ep-bTXy9PvqcNYMHo6xYEdfGMon2aXe0uCn0jUmLK0pMQSrZ6wovg-WQXtZJtpzsoUAJ_4daedDO7pnaDIxj5quGrTdlkHNHa0qzL_wta2X_y7bedpHh73QTv-3LfgWyw3vP8BaIyBQlRfEDuOmbLTGp0ID52WHR_ewuA6oTY8CecQRZ6O1zhHLPvkv4XhlXOE4zYRnDBXDDN76m307oFdBFWWdxAFrfwFljm84b2mJrr4tAEMyhMVXRwh5DPbJTaWTwRzlUmCA4uY4O-rvz0J0RqZ8l9d9dje9wBqp9tzJrtloZAsZKLiPEiDQXq8_yg48-y57NRRQl2yxfoRmUg9lKf19QfZOjzqr1eCQNVs23tfQyaulF3dsDvDP9fAscanKwt_Pq9E5Z_cjHLVhqd9MH7M3UYSNyQmlvX8ULR7cCiDvjoZ8e4XaYe52PvA2iIbwmadu9gEtflbJLciP0fWClOctbOnXrB0k2d9svuFGUpT-EI2g8jf1p6vxexITtNeSL604gLtnvzeQnQU2t9Gl8cW_iUg5WFs7f3yMEL23uklxsTJ7zoLEhlq-MKoHlI1olJR4oXcbyw99GM4SiPkQzRh1yH9HJFKLrSNLL_t0Khn-NWw6mT9JqUR1URkoUr5kpJQRsYnTT-HTqA_tMD5gjSCpAbUrk20xy-D_uelMoxLW-YVNNhK5Zg4PV2yEQAw9_xda1f4gITK3yjbikALhhLToi9pY8m-X3e_8s9x4VUGQPBG-PYz52KFHwWtQw7OS1gSROs-1vZgBeT5eEYdIFQOvnDHgPSIWv5bMxS5uDZWtS31NoIi1srY53nsf_2ivdyBZme0kpvakynoL6UeqNNSZJ5Xm9YSiKnjyKbA49UZuvN89S5OMtcBuxFUotjShp5slu0h2kPHuAXVGN0yrfKf7mI_QLp9iDpzwaRc4od-OmTy_uYCTnkiBmt208KvJPtIjfTKMNg",
+          "fare_name": null,
+          "resolved_booking_url": "https://gfs.travomint.com/google/flights?Adult=1&PointOfSaleCountry=PH&DisplayedPrice=8690&DisplayedPriceCurrency=PHP&UserLanguage=en&UserCurrency=PHP&TripType=OneWay&Slice1=1&Cabin1=Economy&Carrier1=PR&DepartureDate1=2026-07-01&Origin1=MNL&Destination1=DVO&BookingCode1=T&FlightNumber1=1809&ReferralId=GOOG_GFS_712&gclid=ADowPOIQLzTU9oyy_0NgV7rJOiKTWXiD-2vBUYWzPwRf247mAKfUJkZSpoIyCbsPtS74_zWaALnIYoDfbtgeyuNtST3GvDN2JuugjewnPGEhpRrLK4Jb&gclsrc=gf",
+          "flight_codes": [
+            "PR 1809"
+          ],
+          "is_primary": null,
+          "raw_rank": 0
+        },
+        {
+          "provider_code": "SABRE_MARTIGO",
+          "provider_name": "martiGO",
+          "provider_display_domain": "ph.martigo.com",
+          "provider_image_url": "https://www.google.com/s2/favicons?sz=64&domain_url=https://ph.martigo.com/",
+          "price": 9306,
+          "currency": "PHP",
+          "deeplink_url": "https://www.google.com/travel/clk/f?u=ADowPOK0CVWUH1nECKYfT5BgEguEyB0O6TrN4gski1H5JZEQw5DR5Ruv1h9Y2adMNewsrUTdpZrh_5r_jISgKYRd1jnDTB2bz9dhNKUskK7jcRslDtDJX6vZZKPT5uJcMYCoK2wcDB98_KLeqwUjzyjmh6Zkz8CX-yhXvGJTCrrvAfNl1oc1zFhbx_aWGJ095h-RXWgycX7mkofYgm6MC3PTw7Q6HZr3XupdA7R4OEbIrBri80gN_jBAs2zk4GoJDE0l6hDFE0riwpyK8uBTxmjclIzNKnEExwYjRol2SvS00P9zsPJLOnLbLal-7LS4CeSR3JwihIkRRHXG4wUaRk269aPbQtEPixGcuTyRT_MHjYB_8pddSZqFIrUG_je8rOxjI-okse_wFwXokBh93OnIVmJxOsSfTff1Z98JMqK7OA9VZsOqbrsj_6GSnToKAY6CSLq0-pzok0M-8iZTUMXV5bqZOtxOOaqz_-Xjv6xDU1544OQOfbe3tERtmeXhC6ox0LoiH_GseNMzwD2vsnzrn396zeBGPUNPsg65P-pjuUeYE_fLN6LDPIMzjmj2adMvpyZY2XInhAS2whJHLNeXTttfcIqgX0Jj1ey41eJc3mS4lYpMfGxilzHkKRbSREQgV9h4dSwkLo0RfF7-l4cr_OAuOTsKLgnmFXf62_LD1YuvC_3VEi8asOmIGQZjrD8mLj1aopQO-nZEhmY9Z7nVWPm3LRBgN-cV2i6ae9WgQLTuaKVI8ja0UMMh5MfjJLn5m4k5lQawgAbZYvnPOsm4vFlBeqPzG99Uv5nXCrHvk-zkKdV-rqfJaeTdja9-T0lh0ivgcxKLALZqwkldyEBjEi0Uv811Rp0fBMRoNmPqTi0Xbi9OW-E-ajib7SqVIJpoq3twKfPo2GWnbr43YYJJWwVgRqkU533HTLFtKUhUiTHnnUrgp8ycwlE0XA4OYuanNPT8fjnh2wJSkzG-Et8oE0-od10UBJhkOPaml0tvN0BZyL7PXyIFQ5ypgeRb_FMsLk-h95L_BzJrbtaZICjNJe4_xVolNqA9QBSyyPO23S5A1s2_G7DFpA8oI6BVWyNeCZfqhsTtuJZnHi0YkIrlBqRaMKTnv1bitZHH6f3NQdnudbVcaUr_PD8nyOzH-ioDNnMLQpwO_z7IY4qyM_waQm2HqKGAUff2pJRBXCO5PB_hQBVPQT3iwBWOzVGBzcT71pPSounyeKBsVUue1QAd1Lqbzv-XZ3cWdHWdVjQG8KxuNlJLEiWEnvVooHIv80Rz_Zaw3FHjj7H8NcdpmGqeFiPajWJ3flYaM9I_E0155A_SJk_0ChXxRBy0C8rHkKdsMVh6ZPZ-gCf_hAdP2fdqsPm6oSM2Nb7FulgortTUVn--l-hT8dnHnia6uMtko16AdcP2tWHyw667UC48P_iq8pNEPTSnlqp2ZdzDO0SoL5koUv5VzUmZ4zP3rhnytvpZt4rAVEKKhNNal46SweX1XJiMkTCO6Sr09GHHeU8UlsW5h8m3I2TQ6wf-vR_dEDeuO2Hb08fjRlCfPVaWDKYVpvA7gxKgEGTzab4q_HocgvlGhpWc60Xp31cW3YBdwhmuQ4W42FJKKAqw2bRkmYvtkDFObQ1fSfybQ8-QCRp0pJXJHv6PRzQgGQWTWuUMJ2y1tcOwxt7Vxam5kbWmrvfT3JPTt_vQ2TLC6exz7r0eFym-DDSNOwXdcP0D5ZGrEhtm9-9NtEasYUYvCS-KvPU8Xvu8e3HkoeLTLp941GBCc1SFsyOGDrSoAzx-oG2f6SKuEkGNl2sWqk1VM69GSx5P9dlI_mKdpQEdtsgSwlz92ZhTUH3pthMum870fi50RT01ocubQwd_6cmOxd5buLaInMYBRcYRndse8W9Ub5SNKOJb9UmtfMVn4v95SZG1Z9qfLyDOpAAEXyd-IcrbldIG7Pu8MhMpaFBb2vVXGHgDe81O5kg2WpiIGscoK3TTBjNtC0eg9ORaAKXbG2Kg7GeCMqvqKAXHUhe5Tp1_SoMdkvm9aqky3inde7Dl5dfMZg3m8DZ-SxzML1Y8uxcJiSKs55Yrnifv2V3L0hRShkaIESrKQ3bine4s5YG6WZOHB1Mwro2xhX7a_fjbIhb0ALGmZnST7An7-pTgBDIjuVPo6YN99zPcn6jACmm4neMGx0BiE8iUqrTdwmVcymLw8XYjpYwe62M5VH5Q4m4VrUDjKrtTQ4-HzN0xdDk5zT2JsEqFso-z11jvpVtuv01U4qKINbVTnsZA3HwVS3Xf2Y92LHZ3Np6fBQRLrYw7S9lNxmYeXxA24zF0Kigu4LFcWBq15zeBSTLaCLN_YyYwhEj6cu85Z8rM-_4N_3PgFKtxZxxMTbIGCidsJLFSEKp5tyARvUQFOiRYu_POvpMG0WG4ONc4Jg3ydgasJZ8ohVN2KYoAsCj1_X1qdzKXhbhm9J5T0tjoOyNzovopV4-OqMA5TsMCzlbKphKKI_mWdTfJglToYhwToWzn8C-uQUELbacgai6cNfRcYSfS9t1XBJ372NABBKDFvsp_wHB0ry9S2McxvQVZ8S741blgXlkAHYy7wLsLXc7-N7PJFZZBwYXWE5If81sn87Da-lT-Q_5P9bp0EIuEAIVkz_InOK0d9Z0JZCYVax5PDimJ26u6Iu1YrcdRXMAXU6xKj61TNO1rsHyUCKo2U4aYBNVFlUhyselfjYEQAMRdmDgiOKBQrtsfDVYaosvhRwFegBCRoP0j817qppH7-1PWcVWTxlg_JOigsuEZxbXgJCYhZtA3InjHDtkrWrfdx9MVE-QYwodnsXDdCxInttVzQgvuJ124Brm1ipDB4hEMSRF25olWtjq7oaYVO4I6BOhKWZXPNp4f87jQ9kfQl09Tr8XoAvhWJPyv4Z53iI_1-XhgXhgOqPOScEefIvYifqmMfjnVf1-uASv8Os-QIDC3T-lrFc5MDNWpes70a-bQgvweklbBpg8NwFTk5k8X7XZ_zo8lF52JCZ1DBDjpz2hVRvIvo3BFxuQKSxKb2MMZne0zttHBWszkXysOZUWctpUhGpVce5vDWD0A0mmUbzOCjgUkrPuDqDRi0Np4Tiv2wOIbpT96Dtje8k96IpAF6MVMyBSDHcq2BcpEjaQKHWjd5ikRZVNd9XpV1alzQ8SuUaAZipP0syHO3gxl8_tC7EgfouVWRO3FM5MtxIKLu1HmiNUj-ipjKAbkoihx0mUyEQMJJ5qFbHTbQrauN3KXyFFlz__igryvQiINqJ653ixW8bEixdrjHI4rxdpOer3KdbfzAuS_70Vzyu_cAymGbvZNezDNzvESFpKus2sshXp3ieD8K9TfujNGlruB5H8qlRnW-ngLCzA_tqbefN5TQTjUghV9r4Ar7B3CFlRQYOtNfdbJypAukl341MGD5QyIS_H6OtqmmbArrSehjTMTpQcP3wfvUGOVeY1t8H4P9LgvuI1lZI-_tAtH8gxI9SFsU84k3qCmr-6RGi0ZuURCNNO4olpeaGXboLHvUfjTNIAEER0O89M5LPTB29v63j5Jci2z-l48UqdRn-wgg6Gim-Sqdn7voiWeK8nGY_KzcFJz4h9P7pu2fmMy0oxEorXJESxHEVUDfenG1jMGsJKPrk0lVyOsQgv-a2ie4B32p-2gH2XIQai3GeqQpEnNxsmUB0KgLIrv3qRxc1G17alWA8yG7roiXw4I1tzFj0PJ8R_l6GN5bbcERT7UAw-dNc_PLktArMOB51qprsCM-8S46P55dhQ5vhJ3k76VTLou112eWLzPkarQA8j-MOWEYJiNt0pklK4EfMBSaBaoOdQLCfrzhkulbm5CTqwM6S3XdtRehMiSNAnnWp3y7p7aEaF04AaWaT7XEA1dql6-FDOaq0KOy37FQhuQ5a7gOjGy9J_JwBAaXTSax0xSRftvFE-z-I6iT1xmYQl5lzzokNGz4oDaNq-X-UO_v44ke9wWL8XtYpQF5XrjrvbDW7j1Wp1o7LHKQNWB7lVUnO22hteWoMyGtMQ_4hRpLqljG5ceKr44FxzTMZx6R7sX0gz1rkayDXAphOubOzFBk4JXgNcpGdz5c6uLMypB5y1sk9m-gEWGpUDZpQATJGlmoYgkA80QYwlVbiYsN4e1QXYamtAoqaKGSj_71792VpapLR3IfEJzJfmca1alGTvr1RS5FdHT1X2lXRef5FP8t6fihZm14a4-5llaAw2r0pu3cYjZt1JOY69zAdJBShjHPrKitOFX8oQizpZHF6kcnBKsMXU-71YIJYHpHUa-C5X8UzJqxnJYvKP9-1HU3_ARWI57A7t9bZbe-7lyO06IVbbY3Uw",
+          "fare_name": null,
+          "resolved_booking_url": "https://ph.martigo.com/service/flight?Adult=1&Child=0&Infant=0&PointOfSaleCountry=PH&DisplayedPrice=9306&DisplayedPriceCurrency=PHP&UserLanguage=en&UserCurrency=PHP&TripType=OneWay&ValidatingCarrier=PR&Slice1=1&Cabin1=Economy&Carrier1=PR&DepartureDate1=2026-07-01&Origin1=MNL&Destination1=DVO&BookingCode1=T&FlightNumber1=1809&ReferralId=GOOG_GFS_712&gclid=ADowPOLgFAGgR0ujqS6txpXQVfei7fd5VcFKlOntzTELJP43fxwI7N5jeGSJbvHR5basYuM_KcEnAabwXzVcTReOVKsE-oV8DJya_ffrYysibjX_0kSa&gclsrc=gf",
+          "flight_codes": [
+            "PR 1809"
+          ],
+          "is_primary": null,
+          "raw_rank": 0
+        }
+      ]
+    },
+    {
+      "origin_airport": "MNL",
+      "destination_airport": "DVO",
+      "departure_date": "2026-07-01",
+      "arrival_date": "2026-07-01",
+      "departure_time": "2026-07-01T04:45:00",
+      "arrival_time": "2026-07-01T06:40:00",
+      "duration_minutes": 115,
+      "stops": 0,
+      "price": 3836,
+      "currency": "PHP",
+      "trip_type": "one_way",
+      "airlines": [
+        "Philippine Airlines"
+      ],
+      "flight_numbers": [
+        "1811"
+      ],
+      "layovers": [],
+      "emissions_kg": 104,
+      "emissions_delta_percent": 3,
+      "booking_token": "CjRIWHpMaC1rQUd3cjhBQ1c0ZFFCRy0tLS0tLS0tdGJicmQxOUFBQUFBR29OZG5JSFFWOU9BEgZQUjE4MTEaCgj8HRAAGgNQSFA4HHDEMA==",
+      "is_best": false,
+      "segments": [
+        {
+          "airline_code": "PR",
+          "airline_name": "Philippine Airlines",
+          "flight_number": "1811",
+          "operating_airline": null,
+          "origin_airport": "MNL",
+          "origin_name": "Ninoy Aquino International Airport",
+          "destination_airport": "DVO",
+          "destination_name": "Davao International Airport",
+          "departure_time": "2026-07-01T04:45:00",
+          "arrival_time": "2026-07-01T06:40:00",
+          "duration_minutes": 115,
+          "aircraft": "Airbus A321"
+        }
+      ],
+      "return_origin_airport": null,
+      "return_destination_airport": null,
+      "return_departure_date": null,
+      "return_arrival_date": null,
+      "return_departure_time": null,
+      "return_arrival_time": null,
+      "return_duration_minutes": null,
+      "return_stops": null,
+      "return_airlines": [],
+      "return_flight_numbers": [],
+      "return_layovers": [],
+      "return_segments": [],
+      "booking_options": [
+        {
+          "provider_code": "PR",
+          "provider_name": "Philippine Airlines",
+          "provider_display_domain": "www.philippineairlines.com",
+          "provider_image_url": "https://www.google.com/s2/favicons?sz=64&domain_url=https://www.philippineairlines.com/",
+          "price": 3836,
+          "currency": "PHP",
+          "deeplink_url": "https://www.google.com/travel/clk/f?u=ADowPOIVt4Cw7sTAXWRfWuS22t2YF1VUO9cdJA4j-zquux0_PvfyTvxszgo3ZUcj41K-O6QzzAXqID2T4-4LmIFH_8lYgHGh5ZAkp1g5uTZXDAb-sm2oFiKlvPWv-_owuMwNo3lw3BAfwf901CWsb6W_QsGxNV4G90fYRvV7iXeUJ-4VDxkSIpBXGcq4Ymh2mm7cqWtZV4BFjYpToF2H6DzgUvIMwdP7DFRGdbvHkxQMtEH88nmRCe5VsTmMrAVCFc9PikITzn26l_BkLuB3Gw4u33_8ggQSXdSWJg4EfWrABA2oT8RCdcUre-ypOLViHtwFPwWyvemio9Usp19Xt5QTFqJxBbbGHxGCGNsQHzHt7ZrkWsTconkciKj3OWwgQhDY00vMk9yP_CxoL62ncQqIuJ4zB_bCP4iTuHSbY_IMr-mlY5Qncnazb1D0aQWmxI2HncfMX6MWnedwk6NDl6EusAA_FQLNnmEWrBzcHmdW2ribyHm8zTDRIpMOyriO-K4k42ip7L8Br6KGyvEYRskRiNXKGBo9zd1Njum6wpFDE0EbnqgsQyTzkD1FckscFLFTHNgfEtiqVlYM98IkHbbY2UFAaQkkSD1tBKEnWLLhb62W_TrHOs2B_c6UvWR7uQoYRssxwxLydRMs72wNohgUe9L9lTukZWbrX8wIMZzi-R9iWZOF3_37yZKIYHzVTAwvKaox1LsoWwjExhqjq10vrXJ7t935vH_bJn8fcAndIOnKyrAp4ohN8RQ9T4K-8qnv-aObKS6aLtiiq5qoaKsWK-tLkVD8UKHigcaZi4Gv572vemG9yqlsrY39roLVV7egrKNsASKrEXRyO_yDof-p0emuwVDxFXip1n1WesrCU_wlRrOBCWisitjoHhIj0j2P5u5reS0PeaOkkaNtDXt_oK4QAXO07YVRDQeVAKBoYfFcmMgeV7amrOBN9E13Biz68BHXhWrEemr5fWoJ7-98lNorSVhvsXSyc8HzTLYg6aY9RUNLQ--GOsfGqQXNl4iaJl_QPkHgFmRLY1uQCr5pyaGx1SAXcwYj4CoW0iwRK5laI47SQeyogaOMykRfuLNY4bXvCpFSGftVdEbVFxN83CC6aXvSt1RFhqurQYk3VrwxFBXxIGa7pVIak6bDznVeVghUKv9z5G1NKjCi5xs8ATeBvyiYMO-jrK6f5M0g1jBnAF4_56OJRaO3PkieOa-flEn6x1JMt-8tzOmFGpapa54VU2iW6KmnNgKnflHZrSMHl2ZU7YzUV9-p_J6lK6BNM7aS3Si6W22GV8LZO78ub_FeXB4MClgWlfHAqZOn5Nn4OoaUk7RArvO1DT0L5TTSl5QFDT_Ond-DY5ywyM12UFcXR-E6_guLhI-79JijIXD0aVhlvlrNGZwvqN5_lcGghwnF1HlYkUMb330dx5mJQ40Umq7FW6_SSjPJ9JS26mi3z4Rpz1NsSmZFdeLKCIAIwPlqsu2xUmM9IUW-NlOxncbB8nF5U7BD5DHgf2rbKX75mZgfVjCkGlAoOK7NFhujkKlzS8y40eBlfEvw1CE7oMd5R0Wmpv10efCs3dlX_Nl71K5cTfzfSJKd_JYyAefjBOM0khRcIlNPBzY6UwRWRQFCdIYLRyXj60JMSPuYXPuHqN0WND0Krhe66-PiCwKCa1FBWC3PVeJAwCHwOrIXa8V8PH0UxVVNDuiNSBrMvOSrkQHzZAIAutjY2ex4Wla0_gxkRnELbJJzPVAsSIYe6jYLmp0aJXBSTh9CfrmXdkcfKb8BgAbWI24kR_DNXuco70Fu0N5pIqpC681pgBYqEC-XNBBVzFMQQZqZcQr31AdIK6BtHLxJtrqttvY1NCzXs4NK9awAnapeukWFufkLztQJnv2XuB46rPfn86VEczVLPPKULprONiAwt27hA5lw03ojQGiXYm4cZ987sTZ9p5VuzGS8hUZ7ivFpjqbrIT5fvHA8I5-fIT9Fq4UuQtTrVtwVcxetBMXzHBDslJOmHymvNcGnkxwfgxNU2d4g_2dsNytopBREMyRvJc5XF_KVyowLT4Lu9qZNnbgMKD1Dj8K-V1xMnoYyu6ve_zlvpa1UNoo4BR4UMnW5Fy-kEJKnV4A6MASt4iETa-CGcRyifLtF2ynVNktP8aVmS1WFz8EaMHUYxegQW3II-j7Urswsxuty3ctevdhQAaybmSOvSSioIwkWMzV-pBPmgzcuQXwieEsmdd5SElB9n9mBpvP-cb3lDwnlWB1dnhSdqRo1RTY9rEzBjzS766xYr1vkJbGv8fW3i9ExbCO7GzH8wGSdmYCN5JoTZaEK16qzv9CpyBK5CJ5_Z0tYTwrnogE7FhbkJN8ukyIJTib1pbU3rE5P8eiyoQdr1ymOZuKfOMS5lQbFg3zot5j2fLKHCxJkwDkmkHbVoc_5asL01qmZgvfJkOZvtzN9MgsCwQSxkUphvF_veFW5_SI71m_GG5Rnhkj0BM7HXCnwPDfwB0dfusYiebSQ-Ozcx9oZV6lG8y7bPd3A4GVoAUpmTF_Ku-e3SQ-d2mSCC7xVTR_t7UbeYrPuEblSb8tqa8FYx2Rv1AVs_y3f1X0cbOsxzcnjprKR4U63koSS9C_0vJRM_bfQHiobzOpxgob1RVopRsnCn2KNQ84XLFF-TGSBsRWvvuLByPskwPaM-EUa7hehsnfic6zH7B7MoJz0VvpcqXoHurVhraLUKuTL0ktN-0DRYXwMogI1ZMGjweK7wEKP73FT9Ex9BE-myPSpoVOLFlZH6zdGRf6hvoJDbRCVwCUC-tXH_ujMdwRr-KELVYx9H9qeX7nWl0sikFFQtaLCgw8Cvl_Hfhze7nQUwqPKlqaJ13PVweRBQ3HFHHjPG7t0GScyvJQ5GJnB32NPE6l8AoERkwVBp68HK3lsD48RRjp6ahHoq7_VW727kuxHt-eMOF_DiI7FrA2YQTj8qJj1EVew6_NtQpSZCPI4K8GgPdw_pORnSu6IdJFrXN4KXmpEWFzt2oB7c0Xq-AK_NU9Zx4-LjGYxGEMxPKPKqC2qeCfr-ruT6Hz-oR9CdZVriSTte4z2P1AWe6YdUqpLvrEpABVT10_iLMVULS6Vieu_RfglUWg0wapA69MSIO1A6GunoSTGdh_kB2VKdiiPUyf4sneo-puYEQM79VsyDnQTlsl30WMFE5O0gytqq36D-vpE212GEz2KmADcE1KyGCXHOAtQ6hjUHNUGqhTPcGqMzjBVu2ZiU-Ass3qa-eaHsNpqNO-k8tGwei65EM4d5Sess2nrdcGxmGhVEQKDxwf1JnseyTbTeArJttCbJT-_qy5aMLX_l2wKnGHPpLMONDQftqH1nokK_1lLtDE3oQ6oM02yAtL81b3Fi_O95f3lP6oYAznxLvc9LpIV34xGsA0q0smp8axl3PwAm_PzCD-QX05ZOa_uzRKgXuMtHsXQNrzTGrjloVftY607uCALA03dM-Ig8pq5s8RgzwDXUPnp-oSQWnGRIB8zcOS6Ltp4E1jIjpBkT7WQLW5k_qAOWc-5PVkmLCoaDOzY2DyU-AzMCvrfvIqapGE4sMJOBidEaN1xCINBtF3t4JONO72uRj20wrxDzhO91KfoQ3Jwi6P2DQo9Bbvlqn3CuG0KOr-KL6CeShsx2MvHHQt_W_MI921rTkS-EoFh9QeuQabxT3Yh7eilVlLWy7Onejy6B0ulZyYtjzkEZtwhvl2qrA-WTDD9koEnYhlvwpFbh6nROyrxTL7gKH8lvthr7iISjfKuSbIDmaRSxkfgmpvzPENf-fr5kpCTBkJv0ncGd95A1MmR8i0rvoBAktqW-8T6YnwJcoI_JsN3QY45seDMqNmYoKno6cCY-soATC-ZM75xpnHau0QuJKczmWs-l97Y7rpfPcsSFNlLp3R9tXYtPmPRkUuQ-hf2BNXvhuvXOkMPlGQj-bQ4xazVJhu7YvVJGeg7fSnNVt_N4ZHu-DCG8OSUMAP6JOmfqjlkRNwI6Cca3krqtXmuFYD8MxeQV7wurnxZWtBwCXS5ss0C69Yu2U6ji--bsqS35kR_WbXzza_kt4Z1XDNmUw9-G_rYmBb5UJeFY4Qd_bmprg",
+          "fare_name": null,
+          "resolved_booking_url": "https://booking.philippineairlines.com/booking?lang=en&search=%7B%22commercialFareFamilies%22:%5B%22PRECO%22,%22PRPEY%22,%22PRBUS%22%5D,%22itineraries%22:%5B%7B%22departureDateTime%22:%222026-07-01%22,%22originLocationCode%22:%22MNL%22,%22destinationLocationCode%22:%22DVO%22,%22directFlights%22:false%7D%5D,%22travelers%22:%5B%7B%22passengerTypeCode%22:%22ADT%22%7D%5D%7D&portalFacts=%5B%7B%22key%22:%22countryCode%22,%22value%22:%22PH%22%7D,%7B%22key%22:%22useMiles%22,%22value%22:%22false%22%7D%5D",
+          "flight_codes": [
+            "PR 1811"
+          ],
+          "is_primary": null,
+          "raw_rank": 0
+        },
+        {
+          "provider_code": "WEGO",
+          "provider_name": "wego",
+          "provider_display_domain": "www.wego.com",
+          "provider_image_url": "https://www.google.com/s2/favicons?sz=64&domain_url=https://www.wego.com/",
+          "price": 3759,
+          "currency": "PHP",
+          "deeplink_url": "https://www.google.com/travel/clk/f?u=ADowPOJ2fNN_DGT5tio4c-wJDI29KUk1bEaHoXG_ISliRPHXVPeKYO5itNsLaqFXTKdhIm8TIOZOzsuj6sJkGn09URx-vtlbwJmyW_L4z0CnE7hQVczN0AoDzYDFP0vuC6LmFhmsabva56K86q-OmWktPf0lHacoYW-Myp9O6Q8c9HFyE5_M26e4lzkiuPsOvfTVyKy98KrD7nJicOQ3bp3bZaPpZlJ1QZ0Qt0G3o2rmTrZrKBS1rRuu1YH9nY_HEiyQ4CKRGJJtFlR163ZOlolJYcgY3o1hs-ahz1UvsORWnfEYL2yGg26f9L-x2A5ZJ_uluyYw56VQS9NLlmsPGVHMpCV2aKS_eVMjgmqzogJ4LoOUccCEgOL0UP1u_99n7EY4BLU3XEbvjj0ChGu68eF-j6mvj09TLziRdMBGHunz_srVkfgsgA6VZyhRAaRwFq-mCeqELTA_zzu058HQAlLxm2FKMKi5S-JCHuqdKPNiRfRsfBWS-SxsWSgNoXJDtMuLJr16uoQxmg11H9Swf78Q7y_Ywn9zeJVaP5gql-2-a69kGZ7cJlTHZmNoxSj00YWZb3D08UXasDuh_9xFRODa7Eiu7r63cQsKm9Tey8JIUZ5OCmoBBhRiAxBAdN9iiDtLKQ8yhHJ_K4GNekvWI54UvLCDUlr7fhTIuXn4lbJy2A6yUjMHq0Y9ya-SqxgI-sMuHHdiHwYZD0s6M9b38818Zxw0HrzuzhM_2hGrPEdyOhGZ5kc5cTgtKfAR6E-d5tB3qcqKIDA11ckBbWhzsk7tJTenAfArum1EvxesAcjgQ21txzRLMBYP_rIdAEJyDyi9NSpOtXqr8aS3EorLEpU7rML29dlt8rbyEl7T-lFcyf70kxQVbgkFXu4gHfm3VjAd8oC8-dFT1h2aXScBMC2DRAFV_8YQJLzp5LSyWcxXlbDKOqRZSjDCJLB2IcrOnBgurky_X7Abyh8ref7c-Mn0FZlsCk0RpGsHv41HTbzZ_LYGPIC1hcyRSdsgSSrYUHBnp8prE2TXBPBYoF2ta4YARLGgMsgffI08x7MtoVqMyPKYI_Arbzsye1zfVCdZxiVz6BfNiwpI982Mft9bwzuRSgMficRYU7Qr5SjCQAJGCbs_AzwhYN3n6BQGdc2qyX1-11nxIWi0NpvVkUSWcJ545qxn0GoqZFWjp3M4fpe_szYyD8zPcV0rEv6T8AUFeZ56lIJvqMSFERNJBD0UDkc4g8pvAVCgPicuJXt3dyU7wHiVVAKw3Teeh1QqiHv8qeGeKSXm-8wq6HQ43Wu-vzGOZrG2vcfQ1UjN7mTYfIRNhI2bwTfvGRzgxfeaUegUjNoUhDUsFTMwPfa0CuN6CTJYZioSh0BGhFvDN8OTSJLQVgVyBmfTnbKujXYwl0oTr6BcyucuxG3bOkYbiCpPChUnMtIeNVuPJH1igCtPwgYJI2Pf_OaIBtK0kLvp6MJWnzDR054JioTwfyAk6aT3RsCnjKJfZF--MfiXvEvVPypqZgqdb7IeukTivk6woGmDN1Ev-wdEn0DlqXGIGhd_kZ-qS7jsEPQ7bLiPfuKF9fJbICOu3FEPibTsjX1kP-mMznpK-PCQGwja5kpxv20ZDOS5ZA0lf2FJdUHOxH01J_Dsy81Rfeid-al14GyDwQIfn7G3ncvMLqCdE9B_m8wQEhzVFdzcE2iTJad_ahjRaD1a7_uWLY1d0lqd9cUrJwZNz_1ceBcwbYWrEefZXhvyc7UJqcEZG6wooNUGguW4oyqZ8D4BtlsmrphAxs354pUGNdxmpVs-xLr7mJdojTYJr56uHrostQKYFz0Coa7M7uLXNPMqaOoa-eyxKSzY1iMcb_-qNdrhhrYRbVdiWijeLQOA1Z3-ehE9thd7Be7RjUiHUFt6D7RkHFJ04uu8rWciFqgmqtt5TWXtJft9QeYOsouKammaFDrsHIUVJ-7q81l8rwjmtEaWyZKwQaKfsgSUV7PrvVjwHQYLGP3p_jUTHDkSc30G2HwFfCm38PTlpU0ocEGAY7DQswGjkISzogGJ2Jk81mrhbRVNwlhVG3P5B-3RlumFv7tuZ-lsso2NxGm_0OjoBT50BheukBab1DSydVJzLfP-EsmHP4RRfXdXqqn-hEgUCDGqERh-jEwXL1EcFwEmbF5Xe852Aynif1XsHWZK4aOseI3qJDiLtb4ejrP97bh1f6aJgTvc7wXpGoDJjQqI7OjPEOD70U9puMg9i99ry9xLQ7vzXzqSaX2kel6ssiuoifvc9oqqnZ6O3rW2-9oWeUzaodZGgkoJZRCYkUxBFEvD47AxoveSVx6R-DMh94jA8E3hO3NP9ThnSOtsFpQBu_0yF_QwqM7u7EI9qm7UORR0QHZ1-KuYemIPaSGznOTMZXARNep-t90Ek8gCY4HAy7JjIuvLRePbxSw1I1I13clNBRwnwS45HFjtRVutXKwELB2cUbDxpLC97fDNu2pE6RN8JHKQErzMQQX2jeMGrMPfRnmugjE48fk-bNHABqr3jSKg-HuMMDpG2Yf0pRvgdWEjLTb1Ejla2G6VPC3_jo_kNWSuIUsl0q2OhV9aXfyak6oa8MoRpmSWDR6r5MbY6RfByNXUEAWymQiie9fQm3ZziIIdXTyyT79QmBxR19kgvu8RjZnX-uX0uuS7DZ62OiPEcaGZomJijlqFKIOSVVjqKbJIadtNwB9QgRLxRZ5uOG5aO9joR5xTnnTtPLpnW7HUjd9rA5wxnJF-Z7Qi14_wStoqWGrE6Sp1j9itUn4keJoqVCoNWUVr_pPRRqXXscxiBdUpz-UP_tOORzp_ZcgxTzZZAgtRkG1k82UfN4patOYXI-1k2vaUZMI7hlGmOtCaCi13K7N71ae5vhdtarrymEPD-76d4nJk6FUERcYh9x1VgEEUVWgnTOU1ob28UARR85Bg6A7m6MlZSBfQi5zzIN1yxlryb5gFXNdQ9uOC4S9gOcDuH96R0es-nmceN_9QsEl_CHNLPrbEx290wbLjcv-hGiV6-PMKeWkqtiToxW9y7yfMwHLWLd-wbv6cxYCPNh07_VDT5FAKRi6GwpvW7MTuZ4KBoYHET2WyNgpaJlsAlTf7S4rVfJLjZ3KtG8NrQai3yjs1QEPWH4aPuDFUbMZhtxtX7y4KzIKGm7YHxxtcjIja23iZE3cIB0XO8hPHGyYkHtDF_YwkpP-3ExvkAgLBmzBlgFYV_08mM0v70uxptVvufm9nJfMND4OTKSrfuLcMSMAua-luuHkmk3Cr9_rlsKwsLVw1um1j76vPitqRlRj2Jm4jJhNJL7vm9myjupWMLAHywfOmLvQI5dVEv8S6EBSAz8fRDwzDqoJ-fTAEdqegy77saF6K5dtQhQVMM-_bhbeRPNIjCGoSrhAFb7QEppbbOEQxncQUm2NobM2llaGGV2kJPsd7oIxIDo9v4_wFWQB0dii-CNshjIEditqpHNVjG0daAoSw8Tn6NRyL7qaeuKYDHQ4Baaa6X2-od1LWfOUAeKmRiht0a7ZJwxaEo5qDV2RrjGQB00o7kPgzprIp5gntlx9BiV0GSxAQ7s_IiYJpH4uQGdJEQsSxUZyu19LtIZ8aAWo7sd1GLyIMAEnsw9m2M92LWUAfqQSeQLCasiXJzu_yKcqsvYmuJWytlguGhY-EvumPTwVZXw-41WSwfzt5IqLAgALm1yP_nrfvujllqNk8h2uyRI96rYqk-NXYwB-ocgdOF_cvqtEzt6zZLeUPaXNS0yYa2UjI7UUxI0VNom0x1VQfi2ODtpN9UKBUZGP77i_033OxSWA8OSbJ6ORhPimxl3-8IstY2INAzsjH_FpfLiN4OzWzxhzuXnH-LY4LysIq48QOrE34e3HMsXsp7F6CofKgu38jSpIQb1f0K9CQcqdRzxd0ukNPMk3ceIFiXlkmsoG99ZAqAnSf2C6cYciQBWGS8ymVXeNyAzE5GiDt_jOtCAAAYw5Zco9EGeZKjtv-kWIYGLKNYsTkSdizlTh-xEMEi-7Nf9BdMj7G04q2hhFbB4_e_GNFshIbl9CwpNoyehNM6lV79MXvAZKOR21vDFn9g1unvPtGIZGjlmOMTWaR5p4_oqb4ShAzkURv6PTrJGEVwCXHAqyCOr_-DH2HL80nYyYrxRiqQypuMPRAhBQ41TVLn1cXCjnx5LSC7gopaWHlqLO9INLaFR5smU4NCpYx3Km2gxNNknAbbBgri0rLMFMC0BWycRbvLZQL5uhpXGmJ0Qom03VUi6YxiDpdj6upQ_gYHVI3NcxdWUxWJBdlwrPFVw",
+          "fare_name": null,
+          "resolved_booking_url": "https://www.wego.com/flights/handoff?Adult=1&TripType=OneWay&PointOfSaleCountry=PH&DisplayedPrice=3759&DisplayedPriceCurrency=PHP&UserLanguage=en&UserCurrency=AED&Slice1=1&Cabin1=Economy&Carrier1=PR&DepartureDate1=2026-07-01T04:45:00&ArrivalDate1=2026-07-01T06:40:00&Origin1=MNL&Destination1=DVO&BookingCode1=O&FlightNumber1=1811&TsCode=5aa90&app_client=roxana&ReferralId=GOOG_GFS_712&wg_source=meta_distribution&wg_medium=gfs&wg_campaign=fbl&t=1779267237&sig=AXW5OLoM8Os8lDlNFY5QFveNQgMXjCZ_aHP31XrGJKqYG7rsrQ6SbprSMPvxG9vA0xCWyrzaiCc94v545Jz2O6eA8pevV1N9kja2yWCOsRFXbK_5hHomCh1y2msUw_QWn3Nem4I67iZcCqykyGuTY1kfiVLd4Pps6nRp9neNv61edcEkdrEpE1Q8YVFTLEcNkeqPKEwv-hHD1EKwe2XrHvvk-3tBwxRPue3Adl4TW0kpCw_8zsUeo2gDvjcQZY6up66zGVlVak_qsqV1UOvZaOpy6iaaeGKv1-uEp7h9F4MUUAuULeFNx4dGDT-cnuQVRvKgNiOFClP7UKgTA8fM-dh6BrvvykpA8NXf0rEi_0UWj_ihr_oPNgVs1jEKqUu0kjGSxdptMUqGMiLEUJXRszCSc4JcFTJDp1VyIRgOoJTscevafmoUJBKNn3dHOvGn_FmpOVl20y7NHuYfA7qYw4PC6R4OAtiWMGS5DIy5-n9hdbv4fuCq1DdWZy91Z7nhJmzVuaI%3D&gclid=ADowPOLv77q1EwJZIccyqtpmcuk9hhLqL3drhPR_HOXi7AaySkxk7_crBHnapKKrVOQGtdAHhIwA2Rat4oTTaK9tIvq1rRNTttRa5a9JBmGM33jNwkHP&gclsrc=gf",
+          "flight_codes": [
+            "PR 1811"
+          ],
+          "is_primary": true,
+          "raw_rank": 0
+        },
+        {
+          "provider_code": "TRAVOMINT",
+          "provider_name": "Travomint",
+          "provider_display_domain": "gfs.travomint.com",
+          "provider_image_url": "https://www.google.com/s2/favicons?sz=64&domain_url=https://gfs.travomint.com/",
+          "price": 8690,
+          "currency": "PHP",
+          "deeplink_url": "https://www.google.com/travel/clk/f?u=ADowPOLN6NwaDYFhmCwXulZuVSUnyqzpGL8BQOi0VJFKWkbVcdJra3GVQRYb63QYuohMW66jqBF8MDexgznSODmTJbpNAaXdEUA-vm384KU6fY9t-veTjDqyyUjANaI9kOS9RPHwvdjB2Hwhx4lL1hM-9_2U2Q-pqdaP5lfHz74fZ-3uYKGZTo1Va3RwLxS2MulY8sPC4ccyCt6s0NSqWWQQcmoflWO7mGxuDHthwlYY1oD6kR15mdoTJeEz2YvR7rH8dk0yIJ-JVdqEZslic-OFfTLNuTYjco-UgxWDdqJsSWs6_yutG5mABC4JuBHPj1EBNbYAAMlIXQlZqe6bKOyb3rtFUj7-Xmc-oNMYIzy_8fEMbaC0WYrU3oHSE-l4USP-jSQe1Jm-Dgk2w4MksKw3ueSR1YiW9KBdaK2Jhn9sEP5uHqshRpufuNXkHTDeDqraAZUhb7okAXWBcivnbGuuFZqAuYmZtcOtH_ERGOyqwFvSwc_SF_2gMagGgPWYOBsdeURXRzK37QtO6gRAlWC5NV8S0yjfDjQqJxuu147RxA_yW96bgBdpqeJ8RftvrhrCzLIsnfIzxuWcTlGvmbu3lYja2Y4jnjRtaFm9cNHe9lKQ4I37pCgTU54Fq9o7EpXba0wmQZGaIbDCETnBZa1P4a7eZ67ZBWE665SJ2XOs3jWa-VqXiVZ_qft4dEurRR4h9cuvcPUCfeF7lQ7E9-bsFn_E1sMMtXKm9BQSjTFosapIa23UOS3IUkgsQKUdt5mTqDPIzD0k0Pl_uXsDoqcY4BAII-MO4xr6glNs4VgYfkMiuYE2l5PsbfFdi_qoLNxumbpjHkgrBG8XYhCofGe9JQC1FboBuWTgGewpIuQJ5oHlu9S7cX0oWyuukJBPPQOSrkgWrrVAlRGVoMh0qFB9MoN52esSDVE4J175d1lSnyhaYCCuJy6NITNKZZl_Xi2gZUDiDi03ONDewKMcCu_QSezvWBgj_mNFsNZX8NCRR-ZBhiFONc8cwysv5gtzm-pucFGkBs0C1y2-93H-CgryX890bggsp_Of3lyuzQzuNvdYp6rEHaDUqCvg4Ya9z4_FtQP7VJRjIMezbdsl7imTkFSp4p2wfoqAWep4BBJBX8uWo6cl-9wq_wYRcHrxTwEk7eJTlVRgmey2LX_I9IFH9_qb6m4agkI8lXRvzYldjARQ9qXKmfuysz8hUj_V88Eo7z1kJ2hRnawlXOMkrGQrBL_b3nx00Tjs3XSRDqClp5LKEDlUX3WWhxvWs6WbCCMssdFGj6a8vQzOaIY3YOBsVE9N8v0KzmO8CF22N-qAjgiVKuRSGIc3H8JoLheQAmGn3mXOCoikNdAj5ozYHhD4r5Jq-aSKCGrpTaEQ15ROYXMI1ev7nNfLVIeSytHS46B8WJ5vLCf39F-HZ9sRIpwBXYg7VWdtXZXAPtJlIj8humx5DT04cp513D_cOo8v1xDZteg-EePWjanRcvUqtYeL0t8pNQu4kdE4SjnDMIENSn-9MNL4sxtmazP73tvgcS9yl1m9ywY6EzTk5R2PFvlEUIeEQyw7M-69fDHsir5xKgqa9Q77LOqgpb-SGtYKiwhc2I12w0wWQU7z29AicetRwTMka-AFr0MAQ2ygUpMDgcaG7izx48JOewBNpz3U2FaLwkVlWsyJ7q-QRWJl1xYoiulff9ZOrXVjJUSZLD1dwGQALFjWGq_-NX_gPpgAo-WHkJ2snm4TK-mIGp5ruvODkNsR02sQUoM8pzXZ64n8nvohD-9FcGRLvr7Kd_qU1H6uYHe7SVz9N8xzt4cMN34UfNgynbeY2VgSpAhirj0mGfcBX0gMQM0rLxjYJ4hnxnV6OSsBgXxM-YI0ig0E5wW4XcemH8HBCKGUw07GQZ0eTe134YB3enh-jRZ3Ft8AQtURMLiSGMFGQ_g1dRty02Lo0NzvzRyHBumhWPTuP3aDY2q8c7kL-kN0tTOeIloeYPe-lx3P1P2nJJIjYkYNyI-e3kXhzaUhAlZttXcW5kwiBGTzI_bfJKkAAdZWIqLtsiLdm3dG1insQtxLUzT7P8cfIE_Bu3FPxILtAjWiecvtHccgxJ_l73Z8nBOUNFgS2EFdEymGnPDvV_9a2HeL3mNQ9ZjGUJdxSmDOJC6xar1P-yhY-pM1cmLjmjHY8NfvsqBgNzkGFm41A5meFQxtIPKTizysmg2d9CLU82lh79DyVeARoB3YgJ5R1wxQZmJPbHGRkdfJkicYtPY3Y0fuLa5kdo5ZKrShA9UeB-NoG8cNHsnJrBLEsdCgLqQMbxk9OIsN7rcImF9EKaPZcZcZqjjn_Xw0MY8SZKA43fvu5Pn0WpCjkmopFhqmBVL_4e91p8m7_0--153K0cFB2e1s8jLfIh9fu0HeTUZ51efqNiN85B1XypKAxdSjwHf1ncqkmOU5r0hNunDFwRthEhHpq2FZAUFZctVW6h3XitjX7PGBnKmT_nhZHchQ8s-bFVFxYdgDuH4_CuU22i-IMQ4QBPzhqzWghqgREMwLfR4XBA--n6BaNCbCg-5q-cGW3Gkd00dDRFgig6TuYA3zBGNcGWWollHosAelrzVbkTmjn1RICpBeNRJQSoYtkrrvpFPjwttNJbjiSf-_LxiWPdS11cLoRRgvpcKWs5ZtSonv2gIZj_NVSLz-AXl0LxrDWf-XTHxmlEHRhO6DgS6O39IpCfLa_2kuB_fdeEbCK3q55iltGplns-NhD7F9adioPtIjzIgFy25YIRZGgcjZnB0KWlhO2nS0Zf4J5W20mDrgbtfy88taKoi5e-P6hPBYUaIlScP5pF-Zl0jgl5dxmRm2Aku7DdgiW7Vw1nxJ1WnZLZKbLTQmxrdAWFNWs0Ef9O67w3n__rijMvGSQCUgRO8N43tyX-Y3saO-Dx8sR2U4V471KjUeiQjBWhSzz9Xof3QHXRz-4ZZo64xpdHYjsavOqcNyC6i9qIGU-kKkpeF0CsegzDqh5sfiUFhw-DG7W7tAv9hIFcfRpXFCf7fCpY43CmjZF3nT2vEJZecjsxZnX-VRg9y4mS-BALEFXch54E7wPJliSnal0DwcPEJ01vcB-ohm1J1MSWlNiVQKqo80UAJOCUD9r6k3bEuAlMN2qWXiXALSeprrLpJNLHxoBLyBELVcHeRJ_K-GLbufLKC3Uv4mL_CvY2NIBTHfh9H-5Rhz8izNroAsoiTgxWgSxedyl9_W5y7ZzKifpL3dkkvWXUyaFjBQAgE90wtzzVAMqQ6eXZT-uGYALTt1P1tVqDwsOVV4grlLCdU6gS0VJXNxSPCzkFaWMK0bGWsWxxAeIjX8s4C-3vwqsh8qSubqZVytqYfBIOeCdYGT7TB7g1S9h7ASPUCckzOShEWbuzAK4BKtQEEMjYKc_3E6LBRpZeecUroNnzyWKHiFsQdyYRQvHaAszutfiUCHE872-ksY2iaNTMKzviLGw_MY8bmqjuVplKBZd13reX5y5dA95tyihgFC4Kq6n2Q_w52Zi-W5O1_JOYobbcjbdKUaHH9cbpqDAxoriGJSZUxlz4R7vQzleMTLfRpeRXiBgEa2cwnpExXNto3Gt_16InAKLwqPl1nhVIqn2cTV7JBpDqG9MvpIHpkzUyt74ZjPgwnKZLh2Teer6qjdn7Z-IQAovD_kfDh6P1cMZJzHWqs6Rnpgoom4XPXO2hjNBm8rfu1DgqN0qi6YmLfMZpHgB2stlpulJEKa1vb7NCxq_BnIeDpfrf5d99CUxqgNu-Dj6CtXZdvSp06JAwh9UMU9ZI91ztqGp6ojZD4MAhx5QFUKxvQxV7C39LleNVEWGeV_fYdvZuvT3fXGif_qpShz5IwuGWdp_qxqZe06kWH5RYlh6uHc-cWVfgx62MVl-GWK8aFyg_4tKVxZmZNALDS0AxCiq562SSK4Wsx9A7xLMdT1MEQZ4w_kt70X_TtK-Dy8-A",
+          "fare_name": null,
+          "resolved_booking_url": "https://gfs.travomint.com/google/flights?Adult=1&PointOfSaleCountry=PH&DisplayedPrice=8690&DisplayedPriceCurrency=PHP&UserLanguage=en&UserCurrency=PHP&TripType=OneWay&Slice1=1&Cabin1=Economy&Carrier1=PR&DepartureDate1=2026-07-01&Origin1=MNL&Destination1=DVO&BookingCode1=T&FlightNumber1=1811&ReferralId=GOOG_GFS_712&gclid=ADowPOIfBE8n3nbFyAly0mW20UiACA7cycjI2C43dpNkgxTheYl3ePjSctKxhVDIrQZw3c3ggMUUK5MCfQxgSsdjN2Z-vglRRGgVbjpIz2QYYxeJ4j17&gclsrc=gf",
+          "flight_codes": [
+            "PR 1811"
+          ],
+          "is_primary": null,
+          "raw_rank": 0
+        },
+        {
+          "provider_code": "SABRE_MARTIGO",
+          "provider_name": "martiGO",
+          "provider_display_domain": "ph.martigo.com",
+          "provider_image_url": "https://www.google.com/s2/favicons?sz=64&domain_url=https://ph.martigo.com/",
+          "price": 9306,
+          "currency": "PHP",
+          "deeplink_url": "https://www.google.com/travel/clk/f?u=ADowPOJIlzfqPJNfyreCc-RJ9u2GCVfmzWmCrEc1ODrjkjRgobcEz6bsFoUdhCKkH1fN2aweTnLUie-lemChQE5vc8hRvYVX1RpzE0ubvAeiDu7_jwxg6X6j1A7z4jKr10ZinU_NKA_iflrBdO9QUl2nYbhbR5eGHSIqIJrVf8jmar9pOfL_0PKTKweDiEogGqaJ2JV3Ia7vJW-j4rnUQ8fPdIfc478ODAIzOOTC9RWn33P7_Xsssaynu-lNBqmTOnSN1VCMSPQ8HTByQgwjI8Xvm3jrQzgeGQxjJQc3VZsgpmOh_OKpQ8K6bI-5Y0irZq99m7JZg9_h0CArsLoAhQ4sdhDqnTr3NnTd93yebrXsDPH9t1KMoY6j7WN6-4l0JjxFSCcjdpdQnquPqd5lPI562vENIx7GX6SCxXR4njyN35Yloe5Qh0VTLBxnfRT_ehHZkCX9B59eKkOXuNvfNAFK5KnvJzq4cRf5yBEDdErNGIb8PpDarxyACzUshyxrsAAQoD4yiKtpflPncxLG86y_urO7D5yrjkZ7d61knobxVT71OfHxy_jM8ed_c3RSi8vi-XgaOkWSZ7t4nFLDQ68KMeulfvqikckrEXCguOf1MrnB4WwmGWniDDImFCtUSyr8AutqS1yjMHGyIGL0XlfUTKr6NXkg27kLzEh8MndNHJNuEKjq-IQCMsTN6ieLjAWLiAprkSbN-JqOXjWqqqB3OFZDjTsbkZFsEgYrqQeZ90LbAOSsDETL4HX0fMvhdS6-sO057ZcPUjw3AlcSn9SOPuRecUmtrDO6LevgNnCbhXvT6uhHcxawYmGxM5LYG4oSZZJKUJuBgQpwrwM6v19jaXIfVCJdK0Uy_x6X0nmF7E5_XliB9dh92Yrp5-kfJsLGcc9nwRzk7tZvMhKunPR5ntYz7czliX-C0HbNzzXmcLKuL6Hr0J9ERjThFgchjR1Ye8Q5691oW7t_xmq_p2xDLiQYz_jHoIXgLg-oS8oxrlRDW-Uy2J2itipx7aTjpzDRFW22aJTw6UPyFzXWchzRIzlCs_xFAf4mruB7o-Ld_jVPkTetFYxzKU74ybWgsoQPpWXsbTgOGNZXA-I_pYdcF1SAwZmJR1x_JKR9u9ufBQ677ydlouRySlC3q4W_bJ6Lm86E-PoYrACJZZ3Vt-4vyv1ddlJ2uVCCJ6zqeCaX8E1PUkwMYGl2Qi4FkBTTY_qve29Z8KR6U-UNQFHOT3lXoPffjTIbmjs66cvoGMXoNlT8kibZ4HVfiMpiFYFOfl2fD-aTKHl922_fSG5slIVuLaiD2fNNdcckOeoSc-KMBwiUfdOEJrpr41QFtfTW0P8lkcoCQi00Ar9Sksotwmg18qwXmxaCfOIRduj0AqWXzUPTEq5MqxD3R8jUgyAfHluyTeH6hSGBqIwCR2ISUIjGUSau4W9tkK-KC_newbWZ5CJKMANBUQ9xHzP_9GkqTJ6q9yE7a7y3-22cCC2rz7wahpKw_qkCfoSqYvg8YeiDCy2jir0YC1zElEJBWpPMr4Bw4GKwj-ZxwGMyrsWivaUgcao9Gv8AcMT-rerLtZzshuGRBKKRY2sUEeyDXgITz2St6fRu4XHRiX4emtG4lskpRtGTEeCLQZuDA7vveol81OxuOWD7RBCRjbVXAMm_6YL85g3lzLEjw78DRHS44rZOTbX1_LyfSnCU0Dgh7Y9unlOXDKAYxA2Rzs3y1tds_sjTUiSJxDZrtWm05Vcbws-BWK1WzAmpIB46SUfTmPs_q8P6VXDBfsZYHDtOvc9kKoH-m4pzyX6dReiN1QX9SyBgJoXJcXi7SEz0FeDhsKtuuBnIC7CUeMi9LLFZxLPjTrwTmZm0QkO_RyK6B3vESTOWZp5KMybLPJx2cE59OJB8STANu1XKTpOMWjL5TYwVFV_LdHKX75K4tYQuUu7aLji2ywT69h3bPB_0WjKaAGJ30LJFCTipRmuxQRfJUcvO1cumy9vyCbmT5AyvfjF9HfZ822h--0kwipchEBYXI84LyYV_V7IyJwhb8wdvmmytWKLDKpk5uTp_c37AVsnqjA4yL2llTMiTnEFL2n8kTmJ6F4yy5B9sgTYYITek1itX8hf6eRcETuaxJYFG8cd10ShmakoJPeJh65hcPMAUHQC3WXBZCH84l6sl-j_2-k17-j1DNTmwUop3qgR1qW6HB_r7gj6bl2KJdm4QCNiL5w4VABsPlVDfVC1hji7RHv__dIaDvoBylTWGr4tPdAdZU2OgBsYck4h7xL1HDVJNKndu8t1Ieub4IPrpMUTNbJRRCtpyaBlUxidwHqiahcRoWAyvscixBuEDTvxlRadgI9DwMW9CrtkirWT42aBi5Wpik8KiW-j0bbkqPPUy_2t2Ptc00VHk4Ko_VvhLW5nyL4EhTGgSiXdE4jq5rEXvQtlmZ1JnKOaUdsoh-N1FHYdAMAgLEQ4qUozb2GGjGL5OnXYv5KiE_3EjlkZRylV_avcvKVB6CrrAPrYULC8MYM_icZ3LpP_rJ6cuBGksGC3zquG9-wGhg77x8SNP7g7fMxnnkGWhgUw949Rq3Hx5BT5-b6MHBFMwlbdlSNpmTtB_eMVacEj1efa4jlEjI30rBfD9jaetRzo77ITu-1AELw25wIPgBTLBmcYCQ7LFmTs6NEPCfxna_nrPq_cwULa8ICOIG6XBNQ8bdu3FHlcMRovU2RhVueVUxUYT96Zl55gzI7jThBZl3hdm0oaJQBynzbpOcZ4Vb3WttAafE-8Xfk60Vfi9dZeqGURQdiilg8-2nl_o_Wy5ewFy_zVNbt5asxm5npCt10XjiXSVy1AFM-mTzCResk-Oy1q3BcaEULbmusibwKqtd-iVYtX_HskZjAqIj2v6ZbTdxtyNHNSine3hSF4Vw615PSaKNVn6Tq01hHert290T_aGa92gUalPsKXuFdLrVd9gGt-NSq-_gVPuwaRGknPmOWo455wQGv-JlLI0lTsBCMCXQcgHOiCZIuPtO_xqoACZA7wNhVXmWjuGEZq1Z36NudP9DhVCnfhx1lGq0tCXk0RuU1ufsCDervsLfQMLd3oKGvS2qmH6iky3Vg3fZn70k2c6Mse6oQHistew2oka-6HCwwceZRviqCEY49EZAQ1eZYgjzme2pF5iRmiikGASy-rZcON3l7-piknjk9Bvdc6g2qg7sqRa6CdOhFQyy1LrMC9lNYnLDWoEWui4MXeripEMXvVgrmsfMG1SYP5alkcs8J0xEkKVXCpAuAuWJAP2i3u6n3vTmM4rJ5cb20X_ZjjMIT35eTrTlEE4DcatLTgJePQunwiqXruOn9Q3-pSqIQ4NUrtlft99x9Y5tzyxIEhSvMqWA73fX0nYiwihikOmbSEGJ0bv64dE_xMasIc_Uwrpve34vl4B_V3iRjkmJHv4ZqAwvBUqNg71WG5nyPIjWAP0Tj_FFBC2wSs65oe3vjXeZycXDo1IbZwvAvSZZg3uTzQfIFb56Wi_X37nG2D0HgP3x9iYJeOD_2LHBSqe75pizMpS0ShWZSacZqtrCpGewhSjWbRIuDkei4HFRs20iT9zjILOh6mOou-5hBQwD4FT6Fg79R1Kt60TRdcnSAwbEKt6I00faMcPqmSqbiRSrpWQ9qFFLdpSMulwlPrUgq4ueITEJVzAF6hSWahDK2xHm_DI1uWUTT2WBX-ApMclhJm5Ps1NcqKe2aISf9VMJGVMyZl7c4ofFFo5ER1v5uJSgK2lLCkGBZE5Q6EMTHTvdl5GHU5ZRAxLIo-WZ3nVIztHaRNFwgodOB0M3K1J23c2PelZvxOadDTBAvYpmdtpljprME7rhDYiDvvCSd8u564gSFZXpErB6OHUOkTRlwpwo_C777SOp-YTkTEo-M5lCZi140Fcd4nyKxeJ2ft8owJCml7qeAkL2r3wcr74dyZn_la0T37mvNEGv2WaYW9rLZUBNhVdXzsykopCuB_RCua_scQnZeJSgVHm1aDkeEZI9kmk9TUuSAAGd9-YiNlkRsYJFlpAFzZESY5wnctgmC0rIIK0qyPd8gJOX0gdQ1z7bGEVd4d6_vcZvbdeuQF-N8Ii-u6QRYgAhtByYJxJ88etkdLDVEzZnzLj0AYoAdF-T6x-xfIsazv_FylYazAYkv7MR8Kljw2o11tDcGf1BLGw-dDhSJgViAoa19UE4lJyQspUGFBe754Ia7WS2sCieTYEDRaBXi73CSzz5FdGfWEXMyCLO6g9hT5RCeYaEL5h1nltrE2-zt6q7z-vY4tF9ww6Bjvk3Gqh3-g7ZG5-B1vjwAwdq_dAxEI9DDGzmbqcRwprkqy8ELBGSyHnPDQ",
+          "fare_name": null,
+          "resolved_booking_url": "https://ph.martigo.com/service/flight?Adult=1&Child=0&Infant=0&PointOfSaleCountry=PH&DisplayedPrice=9306&DisplayedPriceCurrency=PHP&UserLanguage=en&UserCurrency=PHP&TripType=OneWay&ValidatingCarrier=PR&Slice1=1&Cabin1=Economy&Carrier1=PR&DepartureDate1=2026-07-01&Origin1=MNL&Destination1=DVO&BookingCode1=T&FlightNumber1=1811&ReferralId=GOOG_GFS_712&gclid=ADowPOIDvm9CbQ6pie_jNa8ci8NQ63jPqCKddAcKETKSh13P2bwlijGrsHC3ffTlqgR63DxQYaSzEbtiUWsqzKxsZ2HTQ8Nnw_cFP3f8LivQHAOBx3bO&gclsrc=gf",
+          "flight_codes": [
+            "PR 1811"
+          ],
+          "is_primary": null,
+          "raw_rank": 0
+        }
+      ]
+    },
+    {
+      "origin_airport": "MNL",
+      "destination_airport": "DVO",
+      "departure_date": "2026-07-01",
+      "arrival_date": "2026-07-01",
+      "departure_time": "2026-07-01T20:10:00",
+      "arrival_time": "2026-07-01T22:05:00",
+      "duration_minutes": 115,
+      "stops": 0,
+      "price": 3836,
+      "currency": "PHP",
+      "trip_type": "one_way",
+      "airlines": [
+        "Philippine Airlines"
+      ],
+      "flight_numbers": [
+        "2823"
+      ],
+      "layovers": [],
+      "emissions_kg": 104,
+      "emissions_delta_percent": 3,
+      "booking_token": "CjRIWHpMaC1rQUd3cjhBQ1c0ZFFCRy0tLS0tLS0tdGJicmQxOUFBQUFBR29OZG5JSFFWOU9BEgZQUjI4MjMaCgj8HRAAGgNQSFA4HHDEMA==",
+      "is_best": false,
+      "segments": [
+        {
+          "airline_code": "PR",
+          "airline_name": "Philippine Airlines",
+          "flight_number": "2823",
+          "operating_airline": "PAL Express",
+          "origin_airport": "MNL",
+          "origin_name": "Ninoy Aquino International Airport",
+          "destination_airport": "DVO",
+          "destination_name": "Davao International Airport",
+          "departure_time": "2026-07-01T20:10:00",
+          "arrival_time": "2026-07-01T22:05:00",
+          "duration_minutes": 115,
+          "aircraft": "Airbus A321"
+        }
+      ],
+      "return_origin_airport": null,
+      "return_destination_airport": null,
+      "return_departure_date": null,
+      "return_arrival_date": null,
+      "return_departure_time": null,
+      "return_arrival_time": null,
+      "return_duration_minutes": null,
+      "return_stops": null,
+      "return_airlines": [],
+      "return_flight_numbers": [],
+      "return_layovers": [],
+      "return_segments": [],
+      "booking_options": [
+        {
+          "provider_code": "PR",
+          "provider_name": "Philippine Airlines",
+          "provider_display_domain": "www.philippineairlines.com",
+          "provider_image_url": "https://www.google.com/s2/favicons?sz=64&domain_url=https://www.philippineairlines.com/",
+          "price": 3836,
+          "currency": "PHP",
+          "deeplink_url": "https://www.google.com/travel/clk/f?u=ADowPOLym2QEArDMSCRX4P_NCZXdVtnFRs4YXuFci2yeL-0wl7UYB9SeC6f_WZ4cSDNkfww27LIQm2T0F-BXS7f0MdA2GbyY029f-h6mjCNsbSBDarUybIgoT2d1k9h6199515FiDQgO3bUbn8djYRkZAVgJ5EZj_eTzYr8Eeb4XFuxPEkgfFkVyZIMOunLJGD7Ke3r0zOFieJTVpYJSdYy2golm6t9TxJB8rITTzRFy0i5r9ARE0i-WI52acyi_SSfIsFaHfHXVsGKL78ugTtssrfrhBXBno2qowZ9fn-3XLXIRNHYFKyrMJNVMudz325NgQcjroOBDHuDbVgaXBIol_CxJnGbNmAVCoH8htTtdQ3dkUGL5u95jzIQqYAff1OyrDKjIojuR5iKeoBmTEQsYR_0dG6LmRK-uAuEo0SwgOfXDrodBI65XKpaA19mzweq0kskOj3J5MWaAdTZVG2OqxR-_H3eku7w173QFPDaziIXkVpgkvjxaZpvNKcKKStonLrZ-ESwQ_BBpUE3DzKYrOyK0eyQc4P1liAxl5yMOqcs2ZBDIdqoOvDVvsX-4-0LPJegEep4zD3Ak5UQKx9qt66YNo-jQQyMyuThMoBI_bBNoiFUa_OFmdaIjEoNok8R5jnbqg1T68OMZDXwohm9nvTkUNnPvmjDDQ13IFAbaKkqVVrLZNKH07i3ranePLxrf9N6D1wwNTMHVznpxt2dHm2q6xTtWdKzm2ya0vLl0A1Lgh9uAV6ak9o-f1FIgOAuOOwtUvYCM1j8MoEt3GfZsGv2Mqw5DnC8Sc4cCixWK8Os0b8erzjrm0UqJKtuQ1LiPTejbflaUZvE32ZxRPkbn2rdo73PJBgjY-4uEoq-dzPHeqFjrknF7Y3TNq7_NQuhZqK56-1qzxJbIl0IxR90lsMMP3rsXVXRj2C-L5iDGotRM18-KLzU9wLUimnQtMqBn2myQWpVrmDDZRcACT_Gbur3LZDiuuu82O7pQnkPcICFL2d3W48Zl1ZsV3HkT6DcEfvbhTEwgJ2byXEtFIuXCfQFk6sgflCfjti0fy3FIFw4t3m5x1NqTwfkifSCr2Zw4eS7vBypNli1yN8s8nzLtRtYLEXYzzS8oFb7xZT7qoQjDrv_19OHXGh9mzATnc88JcoVLtfE6LLLgCFX3835tUiAIGpySemU3dC5BrzsmAjO_9NN5gOfcgxlL9ljk4Qfy4EgPnAyLgrIvHr6NssFPkr4lK7fNGCMUQNy-ZncU6jdDOflzbQwVD2k7CvlhJPaxCecODa2ORIhmVhOL_iB6Im9EfWYb8GwW_zzmxXLWS9Vo9eIx1Y9eS7yGRbwvaauy-SRXMQF7Z_FKupAlTrKHu3nFlUUUW82O8WkUi7FkZACL5YyeLpU1crTEGCRC5DIZuNdV7IRkfvBnbE4eZ-0-G_2HDxGg15u_d1yRRH-LsMNsIBHu9Hxv7ZRABSMeVw3Gun33t4-txpXiGWe1gSSkLuUpgszABRpdfY7PW4PhU8jvmFUAHl9ivXp0kTqGSRqswhcEaN30kdtPt2tGwjfPyRZTnct_ILJIPKjZ32y1P4TxnK9kooCWpFkIPZEvkLGjTIYWIZPEEOROiwqJWLcdE_vRN-R9dkccNtQ7XbuFMguVLeLRebA2mByK1dpk5aDJRFdNNGZDVymH0Uun2b18SllKVFte7MjWefh_2XtOO5-4opiLHRTGTW80EdZr6iAsfAoyh1hph6SisLkXA61v9Kx3aoUg2Y32jhAczHgJAI68jbkJDuTRjxQ4SWnEksNFYpLc3oKGsdTiGwLEra-qPplaO8aXuKzA1PiSqgdhQa2LGc4RFeFtqlbjVRTrrdrvSh9UB54xYZ1yEi6C1ms32xQiCAibo7xNi83m13SM3wUb-1QKXSOTMhGkdzh6CazoGtUm4spJiIMMZqve6DNd-qBTyttg1EF6IyV4y3EMy5h0XTAEoogn96HC5eUYe08wUrvTu6jsic52msDoaHIgSF7ZaBTc3NVjXq3ovPu3HVjqLg0h8nWSRIUXD2XXQI6ykIWt5ap9ocFrG2zA1MHYbP0qJ2Jroy6pLVdODQL5dr2y4qT_tyN9l_d1ZJ01BPkTSm9I9n3NhS-smOw5dGVX27vx7q2pJe3bXTpYBmojTeG67qJPUIcvjFaQR6Uy8YH-qkXSDa4rMWMbqWsqtmvgYI5UEp2i4K8_GlyEUAYXyMx4DYYzyUAmmtNqV-BhM-85RB9hEXmjcWH8KBIiMHhBRuiPM90xBizPdJgAXQnhT8tnvlHtBHLPrNHAsDZ12Jpp7yf9nnWWMBpT76nqc_7T1eTQzSAIN-cQ5CTWF2maTw9hfoXGhqhEaZhV3jJZm6UtHLXX04GxENeeWcZzize2dn_AcDo4fR1Lm1PuviXDZSt2qocSeRitMOTFObtX4rI7g1We-yyY1gw-Gc55xAhuFOjL4i8K7zzE6UIQ-waW8Z2PGPXz9vm8LCAbjXWT5VJ_AGjuLpKnAe72fBcTWjbpo7GyrML8_rblsrhMxt5uZrjfe8NZXMHfEjL4dpGfYS-kKKh3kn5Kq-gkbl8XcwuBf3BvimoXq7PVGn6CceDApHr6U6l2gfiX_aVveHqr1-HcapFLZ6fe0eAHb9YKo8c9EZiIS10adpGMrcwXF2LHGy153hl3d_FtCB9Ia--HvUQP4pS0RRfXwk-Dmk2aeAZQA-EzlzuaP2B0HuC-T6Qnmho-GFGpBtnozMEFw3Y7xe_eF_laldoqDamM6L428bCnMrM3_3SzR7M2ozibPOLQqK54wxMx4vAej4UN6jze1rlQ-uES7ry7tokh_9S8e-91IWMnOmVYytU4E56W82nNwQJHBX8vfmrjOfq3nDXMzkMzmBJFv7pxNa13hq1r8faXVrzzQlro30L4DjfrWRQr8pG6MhXaNecLp7w68fln40joGu0tKSZKpMJ6mQnD8mh_dsT2gaQH2rusO2cwiNcDuNwIHWBjY-icKUNLfpvwhEeKIzqZXyGnRM1O9ws2VFnX11ZIQ2KP3csJSqfWPDm4MouuDRK99CTKWbGoJOwRDBIZQnMU2Z8lU99GZJXk4yHAe_qRbKXlJNNGB6jC2yHXewnnJXcvmL4CxVTBl1Ve-fM0XMS_L0eiZoyp-1RxkS4cbjMnY3LmpzkL0k90ZdeYtySACSkw7BxsuPLtqLxVDfvCJsds2ntsOkIATiEHf_ngP7UffjGzfJ3vxZYVTToqkefy8Cl2BjRIjU2ACMJ0NnvNurXvwwXEx22iZWpEWACKFJY6OPkx0Ktw21J6twkMUxXPeK6lc8LsnIyosk5uFa4R5ageUQMeskfBQJT0nXsnxM-x2lpsSz7t2r-zaYvqtp-EVZVOyr3k5_P3prwdWTKXgRIpLU4u2Lg9Exn3rvhhjW9B0zW1Mxs6t0CGnAJMd_Bnnuoa1VBhh8PXsmURABytUIsskOzhZD4Etfjv5Ig1JF3zsHjx8s-64Ztlb_3bsZ6d7srdRA4yO05_jknLZQhrGjliUVgr89e67hPiw5xgIyfEd00yZaYmNSHpJzlbJIRWuhjnMRHrVw4M4sRTnYRxp7xNlTS8gSuSn4fUThxbYbh6NYeK4DUvRYn9GFP30TlDjHLLJqWp499U4jsD-B5Y-J9uP2wpZd-Faq9-GE9skHBESggWrOibQE1JISx736gLy9k7llA2y74tvt4InQy6cnB0azt8_WSTlAiZVGp1KuSTeVJYHPcldgl12UvjzjXiJ9nIKWrWQT9sML6FsMde42CVcc3T-JRtaat9HHAjXc7mf8apubIIJgAd0_DVPbs9ywLEvsnX77S2LsiJe4cgy7OMulXXjFQrLoALEqUZhVErvectArNbUxe7Tn9Doc9_wRI55Y9jmbrcjCdg9eJ-zLS2sTvSkB_8HUu9wK6nrZvCUCWdNxBOOP3SuoWOVi7MPnGZKkRcDLBs5zI66kUJ5VxSRxhHs-vZxUc9S04LGtfYnZZZIf8",
+          "fare_name": null,
+          "resolved_booking_url": "https://booking.philippineairlines.com/booking?lang=en&search=%7B%22commercialFareFamilies%22:%5B%22PRECO%22,%22PRPEY%22,%22PRBUS%22%5D,%22itineraries%22:%5B%7B%22departureDateTime%22:%222026-07-01%22,%22originLocationCode%22:%22MNL%22,%22destinationLocationCode%22:%22DVO%22,%22directFlights%22:false%7D%5D,%22travelers%22:%5B%7B%22passengerTypeCode%22:%22ADT%22%7D%5D%7D&portalFacts=%5B%7B%22key%22:%22countryCode%22,%22value%22:%22PH%22%7D,%7B%22key%22:%22useMiles%22,%22value%22:%22false%22%7D%5D",
+          "flight_codes": [
+            "PR 2823"
+          ],
+          "is_primary": null,
+          "raw_rank": 0
+        },
+        {
+          "provider_code": "WEGO",
+          "provider_name": "wego",
+          "provider_display_domain": "www.wego.com",
+          "provider_image_url": "https://www.google.com/s2/favicons?sz=64&domain_url=https://www.wego.com/",
+          "price": 3759,
+          "currency": "PHP",
+          "deeplink_url": "https://www.google.com/travel/clk/f?u=ADowPOLQBO6t8_pe9j4GjfY3BO7Jnn0WElze0IaA_N8oNhNddzlPIc_CKY1qOe0dCp3Z1zt93-oGEvS3k5ElyeD3qYQCTy2YfBK-NttOjTCaSm3EUulyOt1-hPQCQAZUXY0r6z3pV8TfSb5qVXap4AFNfHgWyi9YhsyAIdk4DwDh89lFVPjpFKLHXhEVSZE18keZxjH1GXVmcqmLqQANWsRYWg7pgP2Bn3XxT-M38PhBgKyOQDQXlhJRrNgYuH06Cp0VV_R8wIJKUWm9_MEfSC0sfpxtgCgOl1aaWFob5zSAcuXzaBnZfQ-D7UmpgR2P_OVqXLFPyi3JHmrIwOTs_Ptq-MmCxZ1DJpJzgEoj0zNSi6nTPxK-rZq0kP04mWAJWV8U0Pa31QAgdx5ucmFzSyFzTTaMBEa-lnm73JPGGRxYJkCo-lBi3VlHVISNPqH0XkUCECDu1qcqhL7EBFaELJRGD7vY19zH7Qwwj8tSATjulKjyEEkWfffdi4t2uBtgRER9axjIjuOs6GDdRnXGleWJAfeBUC1knzSc7hF4yfo_LMIu694l9ztkSuEMRinsADlGJIfzt1uDkpYnEKPzvhnUG7Oi8lzqtKZrpByELm6QBboD2PItG-qG8e1mYGC2q9qKs2OSB4hqA09s_pNI5tVCtEzsPfxNPQOZ5nPcHaMb_8zvSuq-npUFf6TeIhQR4941saI3Zf7L19ESKfl52nOvvqYjprn6QN3SvfI2AV76oSRZfikdkk6z1Mtk81KW-Z2FcQtAIfug-1pywrOnLMffG5X2C9dQaSt6QrfO_PG2MU2Iow1_RefP3sZFj-cqCt-9zh-c77g8dFvAIEcRCDnU9tzxy3TeUHnr828lVFyOJem6JkF36F9vf3Sbx1xlpMPXJkVIpm2JSWg_FDzQEc5ub6HM5lj4Znibp-nb2fp-VBkS7t52MzfHyNm-slODvRmcKQS4UeKCEdjr_1HFy97TcGyvaPmLHx5Bx1pn7PYotKkk5J06E1LYoXcfg5pLiRYh1fU5wvc5qf7cw_ZGKmwi9mSOahu8cJw7oOWHQZlMRVsBV4trWleTccmTw_uairE6eGOaK8rL89UVzuktmtn_WzKSgjElQwdz9aNtXwub1hTDRuEVLWpaN4YL3BkppT8Du2icTUrMjhK33wgj1Dk1aCmn1_HAvvlx7k9m6TC-ul9ckaFAYiyjneBnsi2Fw6iwU-mmopwkia9vgFtJeNIYg-0ASipyOoRxS4T9I3wzyMaAWBnkRytNLBW5cuHynH7fBgBapWM-Q1wDWBbWy_Io39lHGliOBP05G8FC0B4ow1vBx5cG_Cf8KfZ6CyStTEWFB4reqMFdEs0aVRpKvkP9jxGigA79w11HAfaaTARe4kXL1qb-dDpAyP4uFBCdodAEn39ZlObrtMzRjWRU6w2E-0eETA0egbDlWjk-pSxg-6VMikuBfxs7WwzCEWrCWA2MZrCvcxGK8lXxx1VHm2xcNkoR0JZijids2CJyeWLrt7aQ-gxH_nrkMUUP6IHAKwLvzC7cD1noQw4tGMg6IfdM1m9lzBmtFNwpGLnLfEFJwfmOjxeeLmEhYyC3LLv17HRCleSwYRzxPUOIXH8_VkuAXNdSRo_wsdRygplKHlDEx_8HJT283a5q-8w0nL5y0lGxZt-wgA78nWbFBC2cyg8D9n_3vUThDhjtR-cc_wmTTgDW9Yc37If2p2dEu0iucnbrRZg4ExP0CX-z8dbi3ko9EjsZ7hVuhvNo97Hwbkuv0cQ-8R_YPxm-pOIooKspW_1YEigytS5worvD5QEbhfpYvS8nFu_s1fowSiiLHUmAWwgLTXLVUUl6ngzsDDBaMDyk6hQ6vmc8o3hO5Uhbok3171gs3LnYlrfnkcEXX-vP07Y_vhqgz9b08TocIO8OK1LJ05-sNwFcSMuGBDWN0TWuxIOxm93em1NRUWxPyLs4ounPTQPFCvUorhUU2zk6uzOAOXQlT53WyOuxT7hjrJxFJgevZ2D8L2o5ndyytvXNpXuD_McYQf9zJGda08Qp_g419l_fI2BjLAQGK1XMsFY2Vm8GRFnE9fQFdbG2uXfjAszDHhn9bhoG9LeVFNO74TfclsqI3X2ZYjGgBmI8AKuJ-Hl_4ahjsoK7fyib2mqQthdNnTxBX-yMkmPVhKKYPujY82NVtwAK97zOBvj9qQ7Bte9MX1SRZWpwWPBX6ifbrikZcb4g8YgrLaR9DZ4VWmDJrXgbIPWAOaT6lpf0mFvENa-_SQibG-h3K7w8qQbfpPeIM9JwxHtE7nZvE7tJt-EgBprAZRTEi4nLziK6QuoxCV_sscPiRhz8clbLljtOxsc1qnMMzZv364BcitHyl0RE1Ca9PmlD6YH-XZwlsoHbuqcgZJvsNafYK79-pIiW_WF1g9QMnRzxRucEntYPXHgipey1aAm91-lZtUiLmR7ZsBrma6tsfzdSTIpP1Xby-lC5r2xudv92lC-gdv4TQyjfCe4WBIH75RilZzqf-3nX74J0WIe5eBogVnjDPB2nk1pe9bVr4okVoLPo2e2vWwk63LIZRJWbZO3dVJJcIyVcg6ZZeI1aJeg-3slbharw4Un19vKZUle_mK3pKFJO4w_EidAtatzZc27DDH6WwBEdAWfdfSsJJcmhWRvj1DTYyqv0j--dJxA2SsUyf3HZFVmgusZHom0NVHB0h-74wLb-Y8L5QSy0CdhVEGRFdY2lif5the562Y8RTXuuqEQLLu-yLeDYepKiWdYNp5pbg-pFGIc7m4-KX5JFwaAgXsIQQvaymO6P9Tl1kWOObb5_9qbz-r02OkFsB_2ROXd4tfjUjlcg-IJoPjYAwlTnNbvsi-6GAEnIgFRgXFGo03k3mTB3h-dGawy79yNB3c-TqEbTme38If-kG_dWP2fM3jQ27EDNWlFkPibqbgMVcR9jJAvq7P5h-uZviXLdeUb9bQziBXVYvetOfbPTLIj6OXj9SKUfYWyOieL7y6duTUH9Snfc-_yJ4tVVXN_J-RaJr8qTwfAHQQ414GM6pIlTb8sOKJn94LXMi-beNKqDeqcz5EsfMQNseFGLWaTbrD_dhoKBf9pkkUaZTgug5yHXAHnWKFBEovxe_0PKWuSFrVt8PZm2dFvxJYbByJWZMKRse5tBnALE7zdemSA9kz3cKTfIA9amU1Pbw9zBe6I9aiextJu3B6IFGGXTfhSCry84fXgrnitjBsbNE-s6Y54oPn3vfcO-b-en5_xY1rr-CJALlmay0ILVvwhN1QBLxsDFlak36Quo_aEOoQ1ZTN_dMVyxUTMEBQF2YDg6K5rEB4kS-ncdnzLeuPxCeHcDbcBkoyjVf-dFkqt-S79W0KcAnyhttOBioeca7Q8FmirypwJZ92AZ2-kV8QucLNZKVyXz30eN9IoN_c_hoXkrEFS7U7ZY5eXWPQXuxFf8cvxEuiJNuM18FKJqVjW57MZ_jzsE3bWSUL3UHKajxHBvvvX6BmSK4Ctk1_vQj1cfF72ly47riNHOptRW4Q8XFbi2Y6rLLnDymvLazJ-doSiHEQZ01l2DOShnSSrIb-lJML9rsUXShXquBiOOoNXSGiQBioEB8sxVVPzt6VlkG72WlZIuDFFr8NmD0H8pPZ56v0fGfSzg2pgjEfpRJfjMfSv_yNCtUMoK2yy0VThd6zo9WP0-1BuArhPdJn6PLFzzUDlxY6lb57oaJD9NIyLui39r-1GZaId5u3Czwv_Kqz8Tqw--AUmx4BBkUyryGVY1sXALif-OiV8-iumLWcgUHQh115kovlZ2lh2bjjH8P8XoObmHPwJ6JpE-oXSDS8X6q57LGfQXJGg4trGHv3kAT1Rkb9FsL8i2j_wJrsp0jid5lAoEIGAl0RduQIyt1c8eL0MBIXVRwLehAXCpxSvhZ2PPd8ZrkL66No1THSQZUEd6GmhyBXZtfEaVF-Ms8wD-borU3BVl4PTXBLxSF3rkXCPqMt-pe0RQLX57d5vnbA6cO9zR-uvt0DBfc6rkvCwoBFQ59CO8z57Qut2y8yJT1IV7OcHWmfRJD_-a_IZ8obEM_wP5rw3ld6aad3r0UfWUy9o62auDJQqpYZQj_npHTaFW79RqEOu6hpFRWibBDtS-eF2fY1gWULkVIvRnyyqAkpioWi64qERebV33BWid7VrPky1vUTG7r4UE0iEdWC66U1bR0LM",
+          "fare_name": null,
+          "resolved_booking_url": "https://www.wego.com/flights/handoff?Adult=1&TripType=OneWay&PointOfSaleCountry=PH&DisplayedPrice=3759&DisplayedPriceCurrency=PHP&UserLanguage=en&UserCurrency=AED&Slice1=1&Cabin1=Economy&Carrier1=PR&DepartureDate1=2026-07-01T20:10:00&ArrivalDate1=2026-07-01T22:05:00&Origin1=MNL&Destination1=DVO&BookingCode1=O&FlightNumber1=2823&TsCode=5aa90&app_client=roxana&ReferralId=GOOG_GFS_712&wg_source=meta_distribution&wg_medium=gfs&wg_campaign=fbl&t=1779267254&sig=AXW5OLoI_Wwws4AMqasQYy3G-HA95oJr1J-xlqv8yhU-ncu2pu30v2L2B7nR1ph1qpEvItosdvFyYaFK3wKRKDj4g5R7IVoHLfqGo_tEDKB_tJAzG4MaWBJtioH70OQaupMKkGqRD-W5ZBxPyjmrSz7b6ZOkklXLAZGS5NEG-qCdwZR_QkeupMF17mEaoxczpoiecOCyaexbYAPDwijxPIx8nZ8uGqjEJDGAOrOC3gIrLnA9d_jMAcGqSmYvqiL1qnUfGbbDy5zj1MlZ86sp26No-R62YYoqBSHl4k415g6UQile4Ydjxfcv0n8k_pN01Zp-PN2CP12E2gC1mk4LWovKBGfY4_GWi_etRSVo_wm4OWSA0Z1hakQZQR9R4qEtLfWSdl-CLWzyYclwSDaL1e-113QKaBkGjL7sSps00g2-eiibmjeo7UGXjMU0c3jrTt7gQklO6v8rfeahzCPIanXhecS6IH88xud002WM_ISm8o0-IDjDXi9mhFc8lwh01nF0IPI%3D&gclid=ADowPOIffrq768T-zUwQrQtTLUIObsZSbzzAy5BLgBgD4ycep9sBBreYYoI0q7vL-_Vq6ssmZanAFVp6STx1_wM7rArw8Rs0QcFtLxPWA-6JmwvqBRXg&gclsrc=gf",
+          "flight_codes": [
+            "PR 2823"
+          ],
+          "is_primary": true,
+          "raw_rank": 0
+        },
+        {
+          "provider_code": "TRAVOMINT",
+          "provider_name": "Travomint",
+          "provider_display_domain": "gfs.travomint.com",
+          "provider_image_url": "https://www.google.com/s2/favicons?sz=64&domain_url=https://gfs.travomint.com/",
+          "price": 8690,
+          "currency": "PHP",
+          "deeplink_url": "https://www.google.com/travel/clk/f?u=ADowPOLZne5xnV_9G1VbXVGV8lC4gP2_vJ7ApU734q1Q9ZTBgPJ55uB64qsd0cB-qSsanE_E4OnUZoz8Sh41JEvKLho7unXREeLzcN9JIvRdU6zszff4rgxslLR12diMBS6-R-X3Uj-hB6HA5u9lQA-zkCxkSFXoopsqg0p6v96ahI35xr2cRxxEz6oybYaxApEkyKzud6hyKKEkzKb4JbsZWNSQMGFOnijJfGsm40XLIrL39aj_0gJ_rdiPivPCrYmoyhlsJIyRI9Tu8kMOpr9WfaJj2SRKZDOYAZ-qwacVAVi6YzQnpw-UYpO3IuvmaGOGXgvRL2T2BrjsXJA-O2B3FHr--IEvy_SavrUZiAYteMcHEE4ZnlK4yf090Bb_gz6-v8YmiuGhYPaCzQEZkyNJuqujZfyTW6lWCRgTdtvo_Gn0Qhjme6S1Pm6fgDVpcGX1I6IeWHaqlj2mKRuAv7x4RXQwk0OYbZGlVfssrPVUoCCEKGF7yAI6Hus1AAB5HrFDb_SQfXem_I0m0mzXdBM4ebCzxiu8OiHaocI6v3mpC6u__1YZc8wAGnqst_ZqVgsFfGQ0tyXUoBr506gulLM6143aRQBtgtMh4RR9Gh-ByWYzkyeRPj8LsDNLDhwGwRUX8AfWHbif8Qlcwq_Y1aC-ifTYEiiRIu0AnlDIXqTXT1Desn0nBrSr8ockL08RgNqXsbvwbMOIamwRrrIXJXj1HoqnQx2-qbkS6scl52b5WgF33SBoNPgJGaOyHwZt8IO7NkJ7ZOdN88OZtl0qDTONtqCEUKS8R34cLbqc5lqii7xc5KUXMwtWrwkfzOVTppoarnba2cUWuKCnyZs4t_tI0UjWP8NSEF91pFkR3Mxaey_BnifPtS4yDSfPqx7pXe9oLj0uBLrcCh6Rk4_YPqxokI6E4lJd5v_W2irFc9CQCpAd0zKCEMcxcxzUPwudQHxpHjGLwvjljdcWUsCyVAqMUyN8f4QuojpQUhaHn6Lywh0PCeUeHwSdC1K1c7Z103i_ctoE28XqMeac-gxbhpxMF0QSzSMMjAGukgfd_KTTm5NAGk0EXCLFkdHJ3nTCNYoYnq-g3hnZXS3o03tZoSzsTFTeMh9fYbU7eAR_Fywl-tof7My27jDfSuXSJY9OZZce2pK0ZQjjI3YtbLc4cTTRWS4AvDMMx9uclQ5W7hNfY_40v6gBCawZr-FRdK91_hqV1ImYHukMeR3VnR47i_yuT83W4zIRR2KWYASvm4xlyWnEfy1RP9plKgEWVY03pX9Q2M784OcleAfiK-bLFnN2OMG7MM6vJJX8hNTr4_ZsWnqyslPmSFqY3JSsHHBjEN3FrFOQl_qKJa_xY6woeHwwIpdRvR164PR2R255am_uNLzMICa9O3rUl9zlhcqV08xE4lzjZ_sowGF6xFOya0PTURGoPGiJu0wppmGMASM4jqeNibDxNdqQNN-YeOb17MY77_PtfDybE-o0A_IjP2cED87SzsTDXk9Jx072eocYhicC7Z37b0ri5B2p9KRy802QK8ewLCRwdKjXhleK6vfudRwYkK0B0VTeaqaROUgO9OyyabUcFZPP7f-XrrG2tD66XyPyD3lfnE8JSLcc8SGf1YeAbWZh5O4YPrGqj70NoW5SHGPF7KMFvX8LD1uvGcZu8xpBAzQU2ekj3XXpm2WPAiNlnJY5j62khDgpSg4OnMd79vSxIzk_xM2oTFvkyUjugqn9Lx9bcbw-xz5OyLS--XLflQ0p2fKnQ2ntC_797PDa619pV-3COJp1a0BldZ9CD84-daErpu_L1QRUOC9ta1XtFWAMWD39DP_rN-W57jiGiFo9vEIchTqfEzoM9JZq7OHOW802XzhEq32NSD35lwJkVdXZRKO9oAR4BA3D-7IB-EuIHQhxj1ZWDjTH2W651djlQOD9hrFDnrfEweNox1qfZeHpDxe3ckA-wSM2MPZceE1RsrG5wc-Z0VFArhIZ7FtemuYnVrlgDazI_QvSd3SnJ_MOpP7E1qrSkDprJlKljtOlhLPOL-TN-3FgimM42CKVy7jCOP_3c_7veOFqcJktas5m99TO50Nhaji9jXiFux36Ij7pkLXIeu9UnHAbq21PhVfY0MaabBlh5dF4tf_ICqL3kzRXpJPP8F574YS71LR8FYlMxI66HdcOuR0T32EtRgwPKK78pXu6m4f2xyD8UI3o3FjyWGTjKUf189E80_t5LgW_6luhE8QkAQk1khBqL1rSSAsoUOHtLxLzkf9hs7u_GJnIe6Du5ZC2G8MP4QYHhEVqvRMID4xnnTbLwnaWRBJAqq9RYvI_PkvnQWanFsez64tZbL-v-Ri_YMVov0BOwOkW_3pSFzuFY9P8Em67ShK8RnqJDJnEI4tEqDmeJRexyVcLhbTXQOANE1CnMUK75s_Avvnjyjjdr5lILV93cbolp6dZwCHOnXAu5LC0BfKOj7jf9VU7xKTqb9GWYCnXAEMYtYVpt3XhZm4DLt3pflgnJVggfMw0PRlxElQTknoF_oZ1t4QmWX_gychKIEnbTUZEfWKZOQJifGhoan3YJOzxCSJoh9DRFOzjMra_9I9nuPXY7ug4u28pAvpxwZqjhDKgTahfWsggFz1KdU6l3mxcF33EUhspNhQAIk4pUQfvdqD5NlHvUmUYza_OWHH5sAgbWI5NPeCEvWhjokh2neI1r0tFtApi3cp4Oi9voLpDrsmGldQerXMPhyAKIqW5jXaTakqKZ2GPa92qFO9rXLmypBvFhKDMAhd52i18WN8-C56p8Gb16We4s1rBha79jyQG7Iwswy0t4MtRdz-xTRAX5U3u8RTngHB7So90EyUJnyb_nzTMlRWSN88ZifwWHeFa4YWJfArhLVpP0vCJP6Z71QUZ--hmJ6yJNDZ-yQ_p1Nm327PbA14l0mr8-8qDgynme7ICjhc4-hwUObKhfvYECCgwWmZ-tzuUPpX9x0jpiR3bxWJy01UIcys0jcDvl_cKqiklp_1wCmlcubdhojg_ctDb2v5emWH4teYtZvPY2bYMfPjGbB84LtK7KpATo_BZJYGlypimNdPPDVkiTFfAC07sZ03Ek-MtzS0skms429fIVwOav0Sx2ihWZxk3b7-7Kv2s_bL3x7u0r7j62HKJeybGJo-fVDxFTgar5ahAZPpSxBl8rd3s0b3E9jYFSDF-fo9Dn1PzFOnFQPqt-lIoongkGNfl7HSUkhXfaeL5JnO4Gpm0cM3VjJrjfb_a5V48xzPqX0Gd23yjQIWpNGuUQxxHifdDzNkdqvaDzC9Mc9WZvt3QX_asK7mG8K9Qc3C_QvovrF6NtJeO1EQ1AxpFwcd_NHcvG5_zzDzSJKdk7LvUeOyoQJH2_0Yrd61YL4LRdQyGpBQyGMShxzNsC5mmjnpJzmVtaG0ThQeADrgk9l5kGO6xr20xhd2J341x9bon2eDxQK4oRlnl04LpZtOjc3uCHqPZad44g_Mnzhwajzz4KqMckQf6eER6XvD-zexScJgLdv8Jf6vb1rCYMIXt-zCqemBmJKlcGlgUZdYp7g0BtDa2iygw5NWbZlux342-QmbPHbwNRECUseQM4t_pQISzQi5qfvvks0mTrYtJz8fCeAL9wIjyNeRpFw443JjRoNMNsyuVOg6sgkrRZqHzJ14BLppgc-Xz4MWkd_VkBQZiVSKSfhl_bKiVF2rLmEJXcYWFbZmJRSMs3bfjOnBib3FRCFyssaun0NcnQsVPSwyzKxLA3AA3OZR9C1qGYO2B20xjxXvLsdkZPlvI9CH6ld5y1v1IE0whp48tgHxlauZDYrEZGIMUNOT-M0gGdvw58dWPpYt5jyOhIhGVs6qieZWLH9__UDI",
+          "fare_name": null,
+          "resolved_booking_url": "https://gfs.travomint.com/google/flights?Adult=1&PointOfSaleCountry=PH&DisplayedPrice=8690&DisplayedPriceCurrency=PHP&UserLanguage=en&UserCurrency=PHP&TripType=OneWay&Slice1=1&Cabin1=Economy&Carrier1=PR&DepartureDate1=2026-07-01&Origin1=MNL&Destination1=DVO&BookingCode1=T&FlightNumber1=2823&ReferralId=GOOG_GFS_712&gclid=ADowPOKZCokKvjYZHwRhhV-TvSzzkuBgt2GmID-MYDlvGtnbp4UNS_zv6zJc8WW6feBkdTWBhw5RX6WSwUi0f0wyNMnFEJp7FY1ipJEzUUnNI3oMMRLE&gclsrc=gf",
+          "flight_codes": [
+            "PR 2823"
+          ],
+          "is_primary": null,
+          "raw_rank": 0
+        },
+        {
+          "provider_code": "SABRE_MARTIGO",
+          "provider_name": "martiGO",
+          "provider_display_domain": "ph.martigo.com",
+          "provider_image_url": "https://www.google.com/s2/favicons?sz=64&domain_url=https://ph.martigo.com/",
+          "price": 9306,
+          "currency": "PHP",
+          "deeplink_url": "https://www.google.com/travel/clk/f?u=ADowPOJQHq_tkH4gLfH1kcTeZc9sgRal7jEZPuvQDap0I6Gi1OZ-tkz-7OvpijmjgYNPoFYknzTnkuUi-GLGNgehD9D3IoCx1Y8ltMTFBkr59-kKhzt1WC07T61a7GQA_sTB6iyv2sYogRu7c9ExheoEq8YIC0efjraL_3ziwdNpIYbcs307XIKH3oGfqd6S6zJIke6KDuk9uRzlgipwD1341_l_Bv0nfQMGtAHX_g9TDBOCPIwXzzmt7_RZuMkNQ3wWyU7wvgQ7oiS2304Pe5LNfKdFW66AvhmQobwQgmPJh2umdr973Fmov50y0hS4h8OF-GjfkXxmf8juY0NMYpdy1hcZjwuFrJJkzLDHs_9bJ9kYVRRK1sjT3cGxRa-yS-HAnGnJPMoe_LbKsVkHOH1HZkr6BLFVCuKnckfuy-OtWhwGcCCNx252JA6X7p45hOsJu8agZktrOpKgG-zJAXUdEp1GMWg2CZ_38VgumvVMF9Rllzbj3mjMVPsgUpzIwI7T93bVrXjVeafl10-KPOIFnFiQbwRWbW-kGFdAuXwZ2Tl_4oRfoU0CUIc_R-MHv8GBPxvol6qT66A22AkP5LqdUzgykI3KUCNKJAEyLSzTs6uFtxZt4TLyUAE9pNh7mCFHzxDSE7AMBnmByUROjh9-5XTqKnRjBd43vW_yojizTXIUG2kQvuixN1UNxoW2w1rCOU19g2U-Y3Ki_XXmcVwL9ydgswkV9NGAyk4Wh0aKl0SynsGRRhAIqSs0YOg0U6lbpAnftaIbBZCsxinCNO-T9i6aOl5P5y0g6Q-BrF_rSqfmmMFs_MvLU4DTXZ6XDir8krfi-v7xCG117QzdidqwtyCVt8e5JKQk7xfLan9pl1b2vKd2Scjlem6ydBT9o4CqLwtdPtC2L5Q50p-M3RSWyXaXXtevjDpjCHXF8dxRyozHqicZuXWxYrEBSCy-npQmjU_l1p7EFHxlhymT__uufu95fegzAa17WiSSa4fdvfFF4rjpJbKzegBI8fG1Bf3hdtlseuPkbKrkqgpXmmrHT-uMFJDAjx0roKgsA0DsQ2teFa-vNDVTd-JK55LjU7huZdGeKVPCIs2vPZSH92P6SdhFJFGs97snDOHE91WPUDReAvFOdb3EhPQDPaG1M__YEPCw93KgfpuvK8ZZ41VXlnxtJ5Z0GFAmKKVEsss0MowR0kPcpWOUcasV7sEYftvTsN4K-tc-93oZfeImFaBEWQZgIu3xpefIcqIeFncRcWOFn2mMr-ZzEO4eCHwRTw71sCQ25w9oY1Z-HNFuO5-yrGuNuNTu7UBY5i4fNueiF-SUAlxlyThrsolHGqPH7XS-OuY-EpuIwCSN0L4oyJm5yhfd9IFXlEh7VBJyh7zCQp85T5_OHRPvkSr90Bd688kjdPU2kH9GKbdHsoS9Zq0n4qhWEXiUczLnEdM6RzVceV7c46nbB09dVmmOZoYSt7CvKNyjfVKZ4jqk9oHOuuo4bacYKNn1huVICxSC8r7av8wnozToCXKDbUX14yCb60WDrhNNYLWFyUX2yGo7XZYzCngO26d6MkyGOeKBdW-8uxggAazmwy1sLhqF-Ym1k_j6ohlHjkDZmYYHDFX-iqtj6TFOwMUaVNoK0rXG61fB3cnx7lM1IHhM_1gDtzbU5eXFNwW75dI_CTm5Bu8xN_pSKWyodHS-nGowk0d1iMmVOqKDOkkEyWQ_j-sYZTs95VUarAJLIuUlK-l8Qe3J06up-1mYJrrnMpq3tFzwOENjk9gIafLTOuJl77ZMfchlF-HJnJjj474Q8nG3jZe3cmI1ntIJ90E8V7oH879NHgHzyk__7U7aTtQ0zWxcO2GgwY8QCoTMtlbqOYVAeVbEF2tVko8TISBnVa4hLpB_gzqNfYSBa_Tiy0CEU7aLXf6ibC21HiftCXHCsETBvfDui3lSUpkYUNE8Nw4LQ41zKfzuXUGyICnugfOm4Y6SLZnXap-lv4-Tk5chnySwEMZ2vYCvxk8ipNK62KQapXt2Zwcxv8cVEcM8TSVyqkL-TQR2Z-L4kkpk9VSXpt0PMasjgciCoJBxXR3Vt08j1RLPW4Ynb_XmznN1skSxHvof8N3vlGBdyZWFtuPeB6Z5kGMAzVS0WTVLcuuAxFKeXozbYWulNpmac0G4RBXrnL0JUge0u97mYFTTFvKp_mhMIjwbjNIB_EJzwyJB8IjGLgnBFnT6OEcXfV3-nd_uHHPFAtal_hMjiHEIXFbybJuH80TSHsFOD9GGZu-aT1QAGhF25dfqxSrwvEGseCgcHRfywZllcNoBZ0MuUw6nMvyMG0OP_etqBxsbPd5Mx9kfCtZJ9Feofi8WzL8ef3wSH-o55ynlletNMH2_PrN604vZtLXbwwcVJ6H7iNwnV6o5YZiyUh-3JokFN1hPiX0H68oxKrAzD6JDTV8W5zG8JpHGBvCDXJeHm5MSh8Ua58W1vbDAs7-lcJuZeFxUVFWw5CzkuOaBG8h7Tqbjhqw0ML3F0azco03P5L3ijYTSoVovZVXX5KPEc8CdzdFxMQMsb6D7VCCdrcmoMkAAeSSt9q1XBNAED2w5Ogpok36j982oKg2XfJt7Sf6euRGDUUNTu1dMwsey3vv0A65EZ-fpKA6Ymwevw9BpX4R5C_A83fUQchsu3jsOA9b0g_u5CK11xlbcWGAdI7Wuy9TPHBc9-FGe2bKhUCzhjISxWPa5gWZeobXPK-Co7Qk-ZwdH9xqVSKAW8o3AhAVM4uQbDdKeVIIABW4SuYkQHzl33Ge6IPwPAf8SoV-40sdgi6FlexiqCKzSqX3KlRHGNawzjnQLoy3xfJeFnYCuQlFPekQY4liw25SRArR5hSI0vzJjGKDNTdyD5uDrnPPstFo5GAJXnW0zpXlpeEWTEeMjlq-Xnc8CMmEgxoGHMoL5dzIWTXcYHs3scFQLz7KO5dKxj8lBjwT-lv23hYzPY77SWfUNlAzA2_eFd4llGNQHpmtH0Nmn0GJb6Kxhej-hzEUFD6_XzuOv_tsRPUlPgSPTPV37xaRoJ7WeCzDh5WBWIDcryIDNva0W8Ayen4LXGWXCbOMUCJCT41-CdXuHDl3lvOjCnHedn7pn5JSD1UyPum2zxhZB2LNdLVxb-dG8Mnei5dtCfEBr3axOXaHgafhIiDv9n1tuE4Phz2q5i13vKhUq7nRXWA_fcj6EAbE1iPHwNBg9NICYRtHXOpF3HiTy7NOpnf3fk8OWVTsy6GTAsP_Kw8wwEHtggSLnWxH_fWvJSqdFSpNlnVG0lgNV_wiFqKVgzPJyOxBKRxi0Gggi1kaVEaphL_WL2x3E-HnQd8FNAyI2jp0YMb_7q02l337A-quftFSDi7EMX2_0xLPWKD702WXzFOG78pH1G853pA7f3IECl14MabJs0X_L82KgXF5_Yt3WZp7HNqZptV9Z9_-S2RBf1L60RIrkQECc57cEg_EiaX_Zit_5c1Ld2nmFDiSyQmlyEYB_RnsYk3_zCEF1ucYXRdWkjN7tZSWuoQB2bNlyMX0jycG8Uq9sgNzMY727t1h7---nFZJ4SHS0N9uHLBSvRbse2YWy745NEhdTqnx-uPyhDv8NX1ICQsgm7-TDzLEAuykJkDa05rQXrd4nCjwhTb1IGwOWXkbBDimfhPAo0zgjhPVZjz4dPD5NUiMiIl20l5_nE4g6qvKnfhnAX9WWIISTOa7bx9hnUoqsNmCpgQCKyCveYlFGuBpL1oJOmAWdQVkM9hJQMsHeHKkG318vQf9Mb__mJ_IiGPnhfrY8tRVHiM_juZm9eUF6dqZaGhZIcq41uehpuYVmob_igId_4fSam7IBGAoRVKz9Ymu7KJHnp-qmoxJ4DI8DR4KDVAMAEn-6lehmQA2RX8SVlTLGE6W5wFuxfTZoxk7eMkEyuf7i6jasEduHZYdSlm4KOTzgFvSbUYLKYCYtKn__2gr_LtL4VVEmv9ykdDPPD92dBiTEJdrEHNRwVdB65Ybc1zaLgI1BjOuh_tr6iCKyM55r3rwiz0EWGOBPsIn8CPOr92HY6kcyp_dsiK4yR5f5lsnT32wQPOYR8ZsbJdXpCCmHFmU8rzGVje8KGGpqT4zJggDZZCl1ma0awLzklg8PkmSRrbzdZyJMK987CKIsI1y0ekpRQOt6dbeyLyEaQUlOrGJvObKWgGXb1rzFZ5y4wXT-NuV4t_n0zYPPrIEwDtbUa93FnNf88Fk_bD8oAdgeK_hZYFj4",
+          "fare_name": null,
+          "resolved_booking_url": "https://ph.martigo.com/service/flight?Adult=1&Child=0&Infant=0&PointOfSaleCountry=PH&DisplayedPrice=9306&DisplayedPriceCurrency=PHP&UserLanguage=en&UserCurrency=PHP&TripType=OneWay&ValidatingCarrier=PR&Slice1=1&Cabin1=Economy&Carrier1=PR&DepartureDate1=2026-07-01&Origin1=MNL&Destination1=DVO&BookingCode1=T&FlightNumber1=2823&ReferralId=GOOG_GFS_712&gclid=ADowPOKSb79fqrb835cqYz8fOH2uGY_FyDy2cp-NvfWkxi35DqWsxv84hwYDLsUpgkLYoThWwQR-jrVmvEqDmOz99LnCAYHOCcHUpncyaFUj3xrOIGyT&gclsrc=gf",
+          "flight_codes": [
+            "PR 2823"
+          ],
+          "is_primary": null,
+          "raw_rank": 0
+        }
+      ]
+    },
+    {
+      "origin_airport": "MNL",
+      "destination_airport": "DVO",
+      "departure_date": "2026-07-01",
+      "arrival_date": "2026-07-02",
+      "departure_time": "2026-07-01T22:15:00",
+      "arrival_time": "2026-07-02T00:05:00",
+      "duration_minutes": 110,
+      "stops": 0,
+      "price": 3836,
+      "currency": "PHP",
+      "trip_type": "one_way",
+      "airlines": [
+        "Philippine Airlines"
+      ],
+      "flight_numbers": [
+        "2821"
+      ],
+      "layovers": [],
+      "emissions_kg": 94,
+      "emissions_delta_percent": -7,
+      "booking_token": "CjRIWHpMaC1rQUd3cjhBQ1c0ZFFCRy0tLS0tLS0tdGJicmQxOUFBQUFBR29OZG5JSFFWOU9BEgZQUjI4MjEaCgj8HRAAGgNQSFA4HHDEMA==",
+      "is_best": false,
+      "segments": [
+        {
+          "airline_code": "PR",
+          "airline_name": "Philippine Airlines",
+          "flight_number": "2821",
+          "operating_airline": "PAL Express",
+          "origin_airport": "MNL",
+          "origin_name": "Ninoy Aquino International Airport",
+          "destination_airport": "DVO",
+          "destination_name": "Davao International Airport",
+          "departure_time": "2026-07-01T22:15:00",
+          "arrival_time": "2026-07-02T00:05:00",
+          "duration_minutes": 110,
+          "aircraft": "Airbus A320"
+        }
+      ],
+      "return_origin_airport": null,
+      "return_destination_airport": null,
+      "return_departure_date": null,
+      "return_arrival_date": null,
+      "return_departure_time": null,
+      "return_arrival_time": null,
+      "return_duration_minutes": null,
+      "return_stops": null,
+      "return_airlines": [],
+      "return_flight_numbers": [],
+      "return_layovers": [],
+      "return_segments": [],
+      "booking_options": [
+        {
+          "provider_code": "PR",
+          "provider_name": "Philippine Airlines",
+          "provider_display_domain": "www.philippineairlines.com",
+          "provider_image_url": "https://www.google.com/s2/favicons?sz=64&domain_url=https://www.philippineairlines.com/",
+          "price": 3836,
+          "currency": "PHP",
+          "deeplink_url": "https://www.google.com/travel/clk/f?u=ADowPOJWYeeNCWVR__1bZX9jbTrDxgq1CwubcoZLR6bbm9FKnkuAP-rbZESPbFjcFFdoMGwVAg8RzXd3eP0w4dhZeoriQZDYJP4P0UlBA0ZksETYVajlvoha1UvgvIRXmIQwtXlGzMWbQt-IxImt-O2uX6IABNnyB8uaMAS_k7ut5hC4qazdynRY8LNRjMVYRJ14fd8q1r0O4XVde3VouMEZeOTI9q-DAKS2RCGI1AUZ382S7bY7a97ujZEOD0LqCqdR0jiuL5RXOUgpFw8wnTK7YujC0I3Hp7w031GCSU5Y54uXrgK2t-LguKf8n0479ckRHleJY5klR4gPMdDCUKq-ZriUqtjhFvv7jljkquBqj3Jb2kCwe7e4PbvH-9wRran2Vq2bqhQFW5X5Kpt1ikGm188PzvY8KdaMU_gB2gFe80JAmqIdcJNwZlJ74tSdy6doICOAA5d4XzayjUC6WYEsLbLDMmPxxt6sA6Kqq11vgbHhEBPhrUNl6geY3X7LlCwv0dUFbukd5U5o-u_vWFEFs9ShcgeyDjt0qbvnV20JFkC0TiTaOoyAIf3acvEhUbo5VyJmL6bYlesjxljhVd17AtWVF6URurnb0w2HdEMQjDMJKmlDffvTIUsTKC6173SV-UceJE3sg0t4ayZkolxhGMaqBFfAFOA0e8bcR3Ec_uTCegYlUJP05n9vb-yaYC6v202JJqAZEJkml-noCkW_lL-JyIz33fUEVfOqEdI3Lix2oZWT0e_tHW-EcUkD68yj8yvZ9ZqgjDJYtc0T_7h6ys_IMty7904XOagiD85HCblinSw9xLwvQ_8e7Xyl18qqNxrYKuxIBzikDoZvXSLid51HOM9vqKoAKqGf-DUl3uZKyvAKwjLBXXLqf2fy4JDSLuyJUKEU2mhDyQKOSELxrFP1-o69JRYKu3UOX0qqU9FcrrPe6GY0qn5QV2B1PpvyFy4_TcSiTsg1Qt2BEtAPX_DN9xr7NR-sVN0RmbUIxL2-mdUAsyb8fBVZWWD26rtQ02rLezuIab0SnRVu_E-C2ZuVWT_lLQ2f8r8AefZxRJGCFYtzjs3JpNIXAvkzY7JdZ7sIPHxSbo2T0xZG0vCKKMlq_Ma9b0MxKlhQKlqXHKmP0m_nSXA1r1KfwmOUW8X7DGi3C9Yu4Bfpj76weBANp5rZBvTQ4GFcvwr_K-myoC5AmBv6xHViLC9AiLQaDdluJGE2Fzef_qhPgPpa_ECgrWLs6-YY0nHGxsjrY6HbN20wpA2Sprzxe0R3Gu3t8gDba7Lau1UOWtDBt5vSqD3hLYfdw6r65YPXH4-M4P4iT9D16pT9e0wStCY0CCT1Frln3Gxq4_VMNqbBJ74e-ncblYY-i-xKXSu-JuZ515E5V5AsJYtsA4YNkrWHs_kZfLWBc-xTn_K8LhprytqA_KweqOKD8lWhC4cw9OGp4wUVzNAdOE4U19W3EhZbiiOeYypNjl8BGiQQO3MIpl53od-wmLUE3WGYTTaRXH_2VX2EBR43NuS8GxoGmHBBbE5TBDIw48ZE43-6j1dlkV8o9nFRQxLDBPAEnZjKxWIi1xcbIyfJ6MJZSgmA4c92x39wfUa9FcGv0Ek2oNkUdWQkJVFIVKnaYR91rr6E8mQ87m3BQfh5RkBkLxd5q_pc4u8_IfKLENG4ksSooQ1sZNW5VhY5051egPZTBI1IOuN22h0gEG3scJRd-tca9HLdYEZfvrOlHiPKDLcyO_0rkWvct_kyRCwlgUVoI4JwKTUeZFcQo1f3Ihcvuiy9wBXSkeZyPlkrhwLuwoXJfvKzH5oDlFo5-Q7LQbksrVnrIJ65sGjywz1oTWATb0Ecd5er_Y2j04XI8vz9tivqlTCwl3_7kJVv8YQcCRfSGvSTKlha7Xhl-TSRkN4CCVwS6nd9qd54V5CC2uVZlwz-8PQH5sUpx1A6ijfabmr7f5AqyHXqdkly9mt1q75JdVHgGdjHrv0tfFXOUN9_Cmw3HUd1ibf0YHW8rwQbyi1RCkqCcnbGCP9Gts0OOLABVGW69EYKHP0J-iT_-dGi6ykDGyHYhsv3xW2g-6sh30YoB1NYqXxLTdO_Zhh2_nOYEbsNP2ZqsP2Km17BelK39rhgpII06yZLszsMZZZn2dYdKJ2WXnqbMUDm7eo57vcLw0kI9jYWvNeSXfLZJRD-QYnhHcLHYRn8OyVj4-DcSiCym0G4qtC82F2BgYU-x1RYAi0DA0_LnbzC21fe9LT0xna8z_9A2EtwlLwJtr0nm5y_9JpcrCZFBJxJmDoYBd5nRyCPrd1cLsQnwUld3JT2pajMyKyc4f4nucMk4VygRWEavT1mz7zySSz-GRIAAwqjjsxBqEYg-48NRK0JAiXu1fW6FzSA00nRwnXCxqYSxAcQ6MmQrUfnNi4Xwd3yXmnSVo4aA5jYwbyseCjScwYhJvNvg-z9mCPt51X6GqNt1QrF0M7UrTGerdWg0T1hAbTRS7rtPWOtV0zKfjZJJuOJ0owJ7eIxsrY59qeSaIL0X-KXMrLiDYMdVXuf4WAsjvBY2UJ9J8hN1HSRkOQ5k1UmPQO4-ysN0syNsyPMdl1UbyaLuhb4yf_858P3peaBpqXYrnSFDSxkEYHxYc7ShSkKv5oqTTMrA7UMBlBadYT1qUVIpPh58D8zAKqd9zE9bQu0NL-Mo2OaZCAGhzVrs5RfKGGi5_3ygjS_KGStFQrUvhXyZAhyBSVr7ypbUkJrSb0-oYW8tmZCsqmSGpaTkxEjHU_dZxfqSe6qIZl5oKICJZA4IpPuCY_6mvKsCHloOR3feXfPcs5HIN9yEjvADR0ZLApimaqMpXtjhv345SRl568ZaKm8AWKVo6k5Iz_BPPT85Wf0aRp_iGZtzTOFXSDLimx6qCSvMt5LQGHt50xu5iczvoCYhkj10bN5YkoTYprrjMP0qPDASjduHHibJNUhQ3sOtELtTEQOAcZq3azNJq1l-fhYtxKnYdBa6itmjjX4MFa4-46UhOkGV2GmsvZsfQU9MZqFCLcH5gq9K9Qq7p9YEOHxpPdzljfV9U3MejU-rPi0oABtfW23duUTdjWA0ie0EUx7WsgYfx_dxET_HNonqdcC1v4rI93SeSxkUFtEeA16kuRQIhin4SxpG2N4wyk-mDUVSNeqb9mx5Y6JJtUOgrMkqqUcdQLjzTHaZ_BjQKMeljLikHz13O35Itb5tduZdg5eHQ9pljq_2ZVpidgD9QVnfg01_7-Hadx39-BbV3DhDdYfmyoClKr5frjp-NVRO19RCCli-UFicMHUb6rNPlYuOowXmzjc0T86yw70JLcUiRZDF3hsrvIdXZr0klKAsSViiEjITTfNuCGaBo79jINwpnJLqbjeIEDUKETQ6SjRhFEjfgrn8KNSVCnO3VG5i8TsIV0cFCZxTsCS1KAtY3STJa91ryo5HIas7mT-4u6vVMqkKcJx6ltFixOJrRm_KnmXq79yotuU7ro5dprc-mwcQO0_XnGyZUDnJnPmfuX6eMuwUBDLphXreaRHzRH_ASaB1B_yywyTwU5hB9qdzvOp-W0dXuqUm3ted7gM2ql-wcwh29c8bO9Sho_uFoLQuYeeiXyI6rC-KOMQut4NaypGZMB1kvjFW6zM9rkG-bT6zMF13hosQd2hPnWlzxO4Mtle-7-JwKcwBgltvv5EMbf25IEBUg7YO3cjKnxuSNwkk-FLlRuO3YloBZHmy1zHs6akwc5Edu9P0BCWTv6wNTmOE-IGq2vIOEn9h1cf96VAD9tO_vMMWKDc3hG-DniwFMCwvC7gRYtYgD_uTr0szOxrf2rPdbJfnOyFjfeqehQRq9WBncBFboqyzMYkzm95RVmNMVVLrtj6PFc67hyrzaiD2HGYhD9FEDdEYzSn-No6QhKYvtau8NUJsw3eA4wmbwyaxzqC_glQJA",
+          "fare_name": null,
+          "resolved_booking_url": "https://booking.philippineairlines.com/booking?lang=en&search=%7B%22commercialFareFamilies%22:%5B%22PRECO%22,%22PRPEY%22,%22PRBUS%22%5D,%22itineraries%22:%5B%7B%22departureDateTime%22:%222026-07-01%22,%22originLocationCode%22:%22MNL%22,%22destinationLocationCode%22:%22DVO%22,%22directFlights%22:false%7D%5D,%22travelers%22:%5B%7B%22passengerTypeCode%22:%22ADT%22%7D%5D%7D&portalFacts=%5B%7B%22key%22:%22countryCode%22,%22value%22:%22PH%22%7D,%7B%22key%22:%22useMiles%22,%22value%22:%22false%22%7D%5D",
+          "flight_codes": [
+            "PR 2821"
+          ],
+          "is_primary": true,
+          "raw_rank": 0
+        },
+        {
+          "provider_code": "TRAVOMINT",
+          "provider_name": "Travomint",
+          "provider_display_domain": "gfs.travomint.com",
+          "provider_image_url": "https://www.google.com/s2/favicons?sz=64&domain_url=https://gfs.travomint.com/",
+          "price": 8690,
+          "currency": "PHP",
+          "deeplink_url": "https://www.google.com/travel/clk/f?u=ADowPOK5PKT6-h2OJomAz7uQNCCEacs6zNlE6qsa-wBH37uFuYV6p7YEofRaLE3yTYhv71B4MD7fD948wOPitS-eSIvrVaZp1lXoW9JbPKDtRgRDjJuoh_uZnbeYjdk0UWJOLAWmgx39QVeBL4a854fnS1LmjxvBZE9Ofd4VPNg6JKKMwnHNDEcrW9ASMQveLX8Gwfab4S4hG_eSMMFK0SP9HlOUA14OnZlotzXnAt3QuWbzDKW22f2XFQUv-te8JL62F88pVP8KaBkkKCmD2hyoH0A6MpPZevJcTzDsNFG2VBzi5m8TvGoPn6asZUOLGXf0BE0-Yrac3zuO3PxLdq5taMDzGXADk3IuVAd6CIoGL4gBC_HV29yHeJPebB8mXXnTLxkGEs83yoxaXhpIj1dJIDS-h_5za0TzOa4EPIU19dWyRtgrRvEpe3nN0rwO8ugufIoSDxoiql5ZZ_naNtCgwYhVLLhJtMl6QljVu7OIvtkA6NZVhkoZzNXfMHVnwCNEA6wQAIcdhnY7gyf9a668awTm-vJnuO7FKKQ6rgJ-NTARglApGYyyPr9ANbjwz5kcDMAOzekSikGhr_UOsXzWCZ6BUY3-HtWGh552Oo_MU-elSCkcoCm4djRXD0XyMNP5q21pcC50jc1Krlq2_yk_XmOGHS7wXoVeL55yZzxtKtoP5BbNPI6oo2xe2gBO5JHkIJzBWKYYy4aYeEYA8yRxP75arMN1r4XNU2dFebdU_c_l2ApqiRTd6_r-7U43y72ueFN24QvUAYXTx2VG9ciLER1pht9mcEqPjEjIXo6I3dN6B5icf5j4YdHmdwT5nzVghIH9Jgke53P5yWdlKx1DeGQqepINCMotfaqEiJ4XKRbOInw4ypgzmtdEt66MfrK2aXuKUl9nGvNkntKOMrUIo_n5VnA79zonmsjNvVzMtMgtiOfHF-fGvBivr5i-JgQ9FbPiM9I_EB6wX5kyZ3ZgQl7wEqeyCK7D2a1ycX3w1etGWGVvEhKYP-2CeYZJ2DM7jJuHcU_dr7LyE-dFHy9R9ko6pcCcHysMjOlSt6UQYyZ4uUtxe6QTpsLMqfox5GMfiREcW8pFKYX_W6IF8vru-xl0l-nHLwlp2EY6CuMvU1Ia9qb278GTh2dSZyzzO_wyOHmxnO0sKXNA6XZPTtvbrGPKqY7T_y5H1554C-5kg45Gthd5QA8LC_csf-Gefgs8IYStQrAEI7Wva5YqySpEc4Sd9ETvW6PL2zO40mkYWjvfpPRFWZ9-8FTsaIbPVdnAsB7tqwdqd7WMGFkNBqe1Cu94uGzgu0N5o08-_QFjfUVwdQz1B5gpowvgFygUVND39am4f7sHRX2gGcgQFxf6r1QbvVio6UZWG6VY3kjvVpY_kyItijgzb-Q5YV7v9zul6qzPsUV1FhIRd4vhOi31RSkg-G4uNMx6aSn2AFl8pocv9xdv5AYED1464kHcMHIdrwjhCzP-VZVML1FQWrLnXIAvvXhAp9GZi_P8PqWVU6FPU02rUB5ICJaXp5JVEYnc9xmG3vh_uFy2kNqpaGH-8wkFJxa-gP6tNfUkq0I9aLvvDyuneg94Z1lQuDBAiktcyS0YY6uEB-IKx7A4flI6sQS1jPeglMTLfjHOG6cGFIRwf2k4Tr4oStgwUmvjBgFdtEnZAd_mX6XWOXmNYzwmF3TuyReBaE_McX_2UTIqjtnZV5bOPxOsEZnyA9TCCY56F_XKL3zQdM5yZJyy1LicwIW4AAXspliD8JhW1zlc8TBKanaj1yX612mJs9aZ97bqdZRtSKiQ4__V-mY9RztrCiZkviwWSutNpcB2Vxmf7T6oeoSwa6-dBDQkKE8YXMdJmNgghw2gU6FnOPrrRFL8OyHDBqyyfmHSArjjWQ8GD74UIiivUPrqLPBIFAKogbdVpCMdcNJHoEmO91I-qQoYNdcsV4G7f_YWXrl64HwoOm7-J_nn0ftwHjH-xAW2flWYSS0uO4WJRprghvTRG41cFw7oGKQ_fstHM6sxIuaN8pAR6EEMmE43ZnIJdahV8w5rZdBEsksXtz0ETZS7-Vg1fRNcaEbuvGD2mZ0pzdx_SkFO5mUKeSqKamcHIKbxPuZWOB69S1P_BdAP6NanBaFFBcuOWkIC9czdvxWstOBiJD848L0F4PIHaJ56hsw2F26i5KU4mBcRk7eQBEKn-pK8ok0jDnSKPbKUpzHw9UZRvQdPNvB4SDGYp22Znc0Gtj1KYyP9El5n5X_johu4EBROhV5BJN4DauHExID8F7G9I4ElP8wK1en9PxYFDHFkgUG4TSb6HJzKSuux3GT4VUylhG-BpAcvfeMcesxv-teGTN9oq25sIbfrePFoJfIg3Qqi1E21ojJknRcuqbW4_YkaAFnpMvHUUFBk0npKkXFy738mNYYcv2gHe7y4EcvlgrQ1HK2Ag0ugPkhTM5vRCmxqVNhSzfT6BfDUSw13WBFq3dtk-pjIc7WUBY3xhd42QR7dRjsBDR0xmTQr9ACRINKP1fEBzDRI4hYOWo6ZqxX-hPTRtT5a4M5-vQkuxz0jU7wKQfAJG6QlD8BlpVj44naO5xtWXFAKcqobcgw3QMvm3_NuZ0set_BmAAsIf-RVxMJL_NwOOIah3uDz6ktLCqpeYq_PQOhwO3UVt4ccyZaR-IMBenOSEBddQalEnJDgAJWTGprYU23Aq4QGHRW4H2Dm_4TsukO9OMfQMkm-UNFmF5ln0T5bfbdL6P8v1F_pQb3Fs_r4F7ukVBdhksdhGhCgFhMcCP7_f5YHyjrvbospvKK5x0TtUnm-60DZSh2nFv-OGGf31OOWJwL_us1HzHYZddDEUNBIS7dBdnKMGtlyE857ZXK718ZkJbHbcYO2F5xxBBuGPwwDYaQTIXY3pPRIEjXcRsrJFbGCfwZ3wB5PGLt1M8EPXLzte065pC6nVaAsziRfXq5wqZbiRwOJ0YB5SkcHOfp28cSg6wSnJWJjJj6cg_V4X8OLHACz-6LDYa1XsiL7NsKxCA-SJMH5apf3wi8Hah6pGhLF-lTzFSfd6J_Yu44kzcW7hU3Ai9WfOMXw3Wrg2FZyE9o0P4OLkekNWTPrE4WZM_eOcQNPf-6OI2IlFPbUsEwdHUAuhBpFZE_PHuAD-5fkVMt1FtunAVn7EV1LqqAIWOIsCUpLt_cHnq6Xs936eDCRAoNB8WwIEHbp-PleFwJTAYRuN9U_CfZEXfRjQIywxI8P7tLJExSmDNaBGfrVpsCElnp7Yva0jwvfN2GMZyEoSpuRPaSVoOjzDsGDal8wBm5JV7pb9y20doSVOKE0F3u1LMpw-sqgzA57dENokbIWot-WyB0qwfczhV6a8W0NV-c6Wk9WqgfNg1pwr91QkHlVJMIoFNoorcHxARnCKfrRlhwOuTzt-kk-UuclABn2VbQfYop3Ry7kJTjnrNPnxdAwjm39VG6-_kQM7bM6z9T7vuCmunoEFIRTXpteD4M9lDMf4EzWjPaBAMNAhxZLJ0QxJgey__cG7us2JCbt5lOM_fusov4GRh9s2zIjd2bZiA-gZG7Ayp-xb1Dxo55W9bPtvnb0tHNkkj0hkolttcENE4382AyjfvLFtqkD3HUuQ-xG-BJZUhVmqAItM2LeVLEWb9RwvShQNthiYhyEO3g3M88TdclNDjD6pBsO4XuW9npFGvdm_Ep7UVjFoKj70D7Wg8Iln41yCFmYDD7aa36F6_139vDRngVkZ8_Yc24pS8xCVwrm75J2K1h93IDykth3864f598kSaAeXYJJTWE9JpjFvQ",
+          "fare_name": null,
+          "resolved_booking_url": "https://gfs.travomint.com/google/flights?Adult=1&PointOfSaleCountry=PH&DisplayedPrice=8690&DisplayedPriceCurrency=PHP&UserLanguage=en&UserCurrency=PHP&TripType=OneWay&Slice1=1&Cabin1=Economy&Carrier1=PR&DepartureDate1=2026-07-01&Origin1=MNL&Destination1=DVO&BookingCode1=T&FlightNumber1=2821&ReferralId=GOOG_GFS_712&gclid=ADowPOLKFBM_xwM9d597Ik0G6WdZJimTpRORH8R2jDtyBzXE3NQ-IwWF5GBagwf_B4N7ux_3nzg4yqhe5CmagE75cjjwOsz7bjwCG7rnc36IlcWNeslH&gclsrc=gf",
+          "flight_codes": [
+            "PR 2821"
+          ],
+          "is_primary": null,
+          "raw_rank": 0
+        },
+        {
+          "provider_code": "SABRE_MARTIGO",
+          "provider_name": "martiGO",
+          "provider_display_domain": "ph.martigo.com",
+          "provider_image_url": "https://www.google.com/s2/favicons?sz=64&domain_url=https://ph.martigo.com/",
+          "price": 9306,
+          "currency": "PHP",
+          "deeplink_url": "https://www.google.com/travel/clk/f?u=ADowPOKQBOv_fzInhd2wnnqwW3VLQ8tSLU8L5U-u8rVxOPT0bIj80SuWJzam3l4zocXtybBnpsHkrpiTO_FqAoQXtLyFhwnvZh_ZpltaWaz_dWFGIvBBzvxnwbFrEe9aYauW4541Upuny13rc8IzC9jM9VpOBPNbB7dZDjRnmhxabPTzRcxGn7D7FzYMQ34mLdCZyeaWzdL0VtLEPwx4FkXEJbB019pfCH1NroiL17nQQbt0f8l-jfzoxJ8Hir1pNppq5QV7FsTV7bIwZIm1uF_djHZi8uBOOhKr0ZTl1z5qQeDlIvibww6J2b3shDjeC-ByNzy8bNR8gFzsaQw8dxWEZN2w-nKOfveJr3ZRTs9A6igq6DydHGUVBlcMh-_HCc2BAXiY54j0pWQEJpb-k6_uRwYzU1UOaNCKhuRUrRGKs2vr2ygflYC0DAQyATfNnFRmm1HuePN2kNe9iAwgkXy38K2IVx8OPTZjOKlaxFtV5oz3Hz58sVrR0tu72v77JnNkwTE8JqMYSbRkzgOBz7sKdZtoIlP8j6xS_5rdiT6fr2I6Zrn8xE3jjHnLbwCR6FA1cvcfb3bP5yT5aZiEQoE4yqxfPxFmvZ0-HrrFPfIkaOiJ3SEwJIz5LUiO2BKusnj6G5C5K3qHDNs4o2k_qm329somzduoflqTZTEhpzE_y3ZSnx1DOcBGdZ28ZtXpspWOPzTNLewLqFC9ZG40Lbn7hjub826wBKECzqIyfB9sP6bhqjgrH14Xqu9HQfP0X-8KIvCMMMHSWjey9BDYkn2RAaP0VczYQGOiRNbIdWtqbAMTFZV4K58U9ZmI3IadrpYUJSgsh5qXY0nOro61QpTusdomo1Rox2Gz_HRagokjFf6qf0xYO_gDKPL9TCFmLTIAXTtWTWFPl5EL9ueFRY0DSYS60GmTdcZBAhZE-Rx-YrLqdd7r4YpN0Z8Ql_QXZ3_qXhnVrqGbQ0qIsjXgR_x1IGWrjkt1AZ0JUnDTZXc-vaCxVDse9eKIDAhZ_jQ9JXDKtc1J8FY1Y7nolHGe7ffwRJogd-z0ZhCwBsT-uptBIKbzJWIL0cbsgtZsLwz1ba7Lb9GCpcv5Fq90TB71AzBDXv38CmNTrm_m0PB3xnaKofrnCdcBICHCeI8O4QWS_eFpMP6ql01aZuzG6XNxzZlTNjtH4gdmMgzUVNLV7f5eWKqqAE09NDQFCub1oGmbm5Ptezv2mBSxmzs0GQ1fFXTlY5r4u4xwfTbzI7K5_sg66-rmBsixN_nOPwTmr6GV6IBNb-4i_uIygo5f2uAfaH1eHpN_6FOJ5kuK6ipIFDZj7arbH8EHL5VRRtzVFWgByRbznPNLpKnOQN5XM9sz0MlhMZit7YpZR-onopZ1JkUL-XPzaQHjZQPmUITALIFs9Po_46fSvVvcVUBKyJzXvzYDW5Qadx2ctPVyY7bTA-PGyifE212xc82ca2xMH-ntOH2j16DORBSXS53FtO7fPAirEPWc7bW6ry2-CyPx6OEq8APuvZMR51LDB4EsyaTP14UejpEmdFzhvI_loKBxfgjYLDpL58jk0Jfrjjwp5Wn1zyRZfAki-TIY0jvS3llUXhtrehUzl5o1V2hQQBoUk341op9RTS4QgcFWlZJk6V7PJdfZEP_6Rp63h95ByHTPNKeb02pG1anKNps9cMCA1SfWxqn6jd4QhMcFbDj3yIgaYsKt3Tb7wFCNr_CXzmlqk4-TQHKqqjp8Th5iQbV0SUbAwgsOukBHaZRvLHCSHmv09RjbeLihzGOIuUMKiEHsdPKCI8sVBvlTunsKjTsLbBQUS8P5bCoyjxeIqGGaNcBwDh6alL5uVJ9ix3olgGhDngSzGzR2Dr_wmGLRBKeL-6klwnwjGeM03U41FlvGK5CkDrZ-RcB_eNcZy9425XwmM6elsDCu4BzHX9EwMMlfVw5kuvZaIv5wR75V7ng36r8cKKfmXgI8vFFmSAc35msHveGVYKUWpvQCuOwKjpDxnU6d5Y4tQjKeEP6RqotWy1D-FxBAEfBtMxaqOc29P0vFAZBx2JF2wAylOYbSZIUD4InC5ezK9SRx-bCc-9kBktFNgx0l-D2AM8PULisV8C3K_f-a6ti9uFxVg_ykXCcaI_ONzfkQy3k0DkPqCVjsnQBeNsxaTZXyUAzEAvfS-brXob6SSDrAzLARmuh_HVqwXNq_K7_ZTXvBF_seFsBITrfnQm6WrhP46JcP21yhl6PTRAIiitXZstGSu_i8UeISveLwqudlzmZsNX7_Hxpbuvl8OQREnanu1uJWpk4bA3zZ2GynGk1o8_eyq5noM-tbMIUy5PigREImYMCsXsMGnfJIMhOVhaioANSdJMmz7kCsisJhc1Yqfj2zrtvjsTMTaaxe3C4H3W3_JsZ_XlWHTDevZRt_Y4gS_iJOaiRhnlll0CSSuDpixMiw6Zj5-rpqu_6GS6G2eBkxq11HY-FgTiLnM0FOVPsWjoJNXwQD0yHCmShAUjiAcGXCe-oCsWf7KeT2fwCqoCIgsQp9zpYPPKcckgBWFBSCtshx1-FY8hFTbndgcDu0l-SS0AwQ3bObYKfbnvQbP28Z5QyLz2Dwuv9a-Lk19iGELRLVfusXmAE_zRmWpcfF_vDeHlwGjCWHlxU27drsnUjiHEcV8eBGsRHe8mO-cxzgFrHR-sjrrCMBIVLjEjWbiXym96_utOKRmMLrS5rhDp8cPAywR52wbrmulsFEGpKxqSXHB1EA_41bDccrPmXwqeScWS22ZBzSWrpB0xwrG3unAQ4KFaVy0aVfMzqoKzIERpVVX57tkJ-lMr42khpI6SM4J3Cmjt1X5kZ-NxcAGHSzZtP1uci3oFNXlhtB1R58pVrnFE3A1HgypLA5KLQMYi6_quBC8vdEnBCFQik6Q_tnGBM-yeV_M6-Wmh4e6lREY-grBy_wa5fLgdMeSvOaa3t_0gRYrw1gC30GDVruIHjflpZ7S-0En0Sm3YRmmxg-ZrKxroec0In-9jQl2rfaeZ-L3dcwZHUlc5Tysup05SO01LnIC8-UrHpP91TvzPbL2hkaHNN_2g8Z_Pud2CDJ1emut9hwAYD3d6pDadbyqrQkHaMTkTn4U8RE4kDzem6q8O5J8t52hhlPYNI8uy8WUg1M0ERz2Grd8IGOLsGAxlFDSFgieL3WhGC245mHd2zzj1CopedGs_AMKhtvCqaVPw1tNi1HE-saHbhjrhCBWZV4pu__sa_sz97LKp-6mYqSenVwJgnhJQfva1pCarlZfnBfubsxLrVuAr0WXzdc51qM1VUF5c-NbgR1hE5wYbjBE-6IJBtwGTzr_arcJkAYux3ulJ-1jynkChwyDEMvnI4yTxolRR3W4L5Le5rkBgqjbdmspBP_z6n0IAbnUbXKnXvyBIwGLI0SIoztHbBlL0I0LW_iI65XH-kSkkJdDMoH8kMikU-MERIyq5QXoAJqO-wVTCLuGPp6fTNYJC4nY4MfzJ7zAsNtOWjIm41ScMJagguxxQ8aqp3zOEwVeM0ptBn86IIfhCtPmJgoNyfPutwUgAHLcz5HGzfTylrexUZmR8sNF2g10sg4NYIbmf4wjYtX9jDPxhdHVoT2TeWQ0VEVDTnmNDisKxzN1LpKQCxX9qVsdfjU4zy3DuOCb7m2Atji7mO_HhLveX6ekRZvjrN44LEQbsh1tlDGYOGmXm8A-k4Xy-1iczRdyrLXWQ_OPyqcLacyyxe1EE_sdgSqIon4INau5fBPRkTEs8irr4ItUlPNh5NZ0hlRTPLZCm_CjOoy_eXQMvOuLgcEsU3_Btgxal7clmXrwe6wjX_l5loI45V_SMtLeKDLlZyRpMazpm-twpWm9DTdcPw4I7vkg9EJ4kZjZnmI2xci-YonXypu9fnDyEfWGLZy5HuYt4sYf5-zjMZ7-D5Nny6KVhAhW3w2Nlte2pgsgSuArXowxQ755smpmyG8362jYFzFimYfhZVm9wNDoAa6O7oyoJZ_iBkcZAUJv-BZvJoUs0Hb2-GNURnOeWmDol-XnB6maF03rappyIBmlpB0DL1VdkKTHCnxv1aenq3PzwoC947rDmQoLQ37eo_pvYKSVJpq5nFh7xIIamzwJe1EOEnOydbrXsiIi6z-U2tZj_RyHXWxNTwLthx0oVldJCtKbAeWmas-urondOw",
+          "fare_name": null,
+          "resolved_booking_url": "https://ph.martigo.com/service/flight?Adult=1&Child=0&Infant=0&PointOfSaleCountry=PH&DisplayedPrice=9306&DisplayedPriceCurrency=PHP&UserLanguage=en&UserCurrency=PHP&TripType=OneWay&ValidatingCarrier=PR&Slice1=1&Cabin1=Economy&Carrier1=PR&DepartureDate1=2026-07-01&Origin1=MNL&Destination1=DVO&BookingCode1=T&FlightNumber1=2821&ReferralId=GOOG_GFS_712&gclid=ADowPOKQGqflUT2hciJ5x19FExVmC8kqs3dMTVI_NDts2GYwB1gonGDqTinzNcFIgGWt-vCMdyE4vQ8nbHf9xOKsssCoaFIaxhLrnDxB9CIpg8c7SlP2&gclsrc=gf",
+          "flight_codes": [
+            "PR 2821"
+          ],
+          "is_primary": null,
+          "raw_rank": 0
+        }
+      ]
+    },
+    {
+      "origin_airport": "MNL",
+      "destination_airport": "DVO",
+      "departure_date": "2026-07-01",
+      "arrival_date": "2026-07-02",
+      "departure_time": "2026-07-01T23:00:00",
+      "arrival_time": "2026-07-02T00:50:00",
+      "duration_minutes": 110,
+      "stops": 0,
+      "price": 3836,
+      "currency": "PHP",
+      "trip_type": "one_way",
+      "airlines": [
+        "Philippine Airlines"
+      ],
+      "flight_numbers": [
+        "2825"
+      ],
+      "layovers": [],
+      "emissions_kg": 94,
+      "emissions_delta_percent": -7,
+      "booking_token": "CjRIWHpMaC1rQUd3cjhBQ1c0ZFFCRy0tLS0tLS0tdGJicmQxOUFBQUFBR29OZG5JSFFWOU9BEgZQUjI4MjUaCgj8HRAAGgNQSFA4HHDEMA==",
+      "is_best": false,
+      "segments": [
+        {
+          "airline_code": "PR",
+          "airline_name": "Philippine Airlines",
+          "flight_number": "2825",
+          "operating_airline": "PAL Express",
+          "origin_airport": "MNL",
+          "origin_name": "Ninoy Aquino International Airport",
+          "destination_airport": "DVO",
+          "destination_name": "Davao International Airport",
+          "departure_time": "2026-07-01T23:00:00",
+          "arrival_time": "2026-07-02T00:50:00",
+          "duration_minutes": 110,
+          "aircraft": "Airbus A320"
+        }
+      ],
+      "return_origin_airport": null,
+      "return_destination_airport": null,
+      "return_departure_date": null,
+      "return_arrival_date": null,
+      "return_departure_time": null,
+      "return_arrival_time": null,
+      "return_duration_minutes": null,
+      "return_stops": null,
+      "return_airlines": [],
+      "return_flight_numbers": [],
+      "return_layovers": [],
+      "return_segments": [],
+      "booking_options": []
+    },
+    {
+      "origin_airport": "MNL",
+      "destination_airport": "DVO",
+      "departure_date": "2026-07-01",
+      "arrival_date": "2026-07-01",
+      "departure_time": "2026-07-01T17:10:00",
+      "arrival_time": "2026-07-01T19:00:00",
+      "duration_minutes": 110,
+      "stops": 0,
+      "price": 3959,
+      "currency": "PHP",
+      "trip_type": "one_way",
+      "airlines": [
+        "Philippine Airlines"
+      ],
+      "flight_numbers": [
+        "2819"
+      ],
+      "layovers": [],
+      "emissions_kg": 104,
+      "emissions_delta_percent": 3,
+      "booking_token": "CjRIWHpMaC1rQUd3cjhBQ1c0ZFFCRy0tLS0tLS0tdGJicmQxOUFBQUFBR29OZG5JSFFWOU9BEgZQUjI4MTkaCgj3HhAAGgNQSFA4HHCLMg==",
+      "is_best": false,
+      "segments": [
+        {
+          "airline_code": "PR",
+          "airline_name": "Philippine Airlines",
+          "flight_number": "2819",
+          "operating_airline": "PAL Express",
+          "origin_airport": "MNL",
+          "origin_name": "Ninoy Aquino International Airport",
+          "destination_airport": "DVO",
+          "destination_name": "Davao International Airport",
+          "departure_time": "2026-07-01T17:10:00",
+          "arrival_time": "2026-07-01T19:00:00",
+          "duration_minutes": 110,
+          "aircraft": "Airbus A321"
+        }
+      ],
+      "return_origin_airport": null,
+      "return_destination_airport": null,
+      "return_departure_date": null,
+      "return_arrival_date": null,
+      "return_departure_time": null,
+      "return_arrival_time": null,
+      "return_duration_minutes": null,
+      "return_stops": null,
+      "return_airlines": [],
+      "return_flight_numbers": [],
+      "return_layovers": [],
+      "return_segments": [],
+      "booking_options": []
+    },
+    {
+      "origin_airport": "MNL",
+      "destination_airport": "DVO",
+      "departure_date": "2026-07-01",
+      "arrival_date": "2026-07-01",
+      "departure_time": "2026-07-01T08:20:00",
+      "arrival_time": "2026-07-01T10:10:00",
+      "duration_minutes": 110,
+      "stops": 0,
+      "price": 4071,
+      "currency": "PHP",
+      "trip_type": "one_way",
+      "airlines": [
+        "Philippine Airlines"
+      ],
+      "flight_numbers": [
+        "2813"
+      ],
+      "layovers": [],
+      "emissions_kg": 104,
+      "emissions_delta_percent": 3,
+      "booking_token": "CjRIWHpMaC1rQUd3cjhBQ1c0ZFFCRy0tLS0tLS0tdGJicmQxOUFBQUFBR29OZG5JSFFWOU9BEgZQUjI4MTMaCgjnHxAAGgNQSFA4HHDBMw==",
+      "is_best": false,
+      "segments": [
+        {
+          "airline_code": "PR",
+          "airline_name": "Philippine Airlines",
+          "flight_number": "2813",
+          "operating_airline": "PAL Express",
+          "origin_airport": "MNL",
+          "origin_name": "Ninoy Aquino International Airport",
+          "destination_airport": "DVO",
+          "destination_name": "Davao International Airport",
+          "departure_time": "2026-07-01T08:20:00",
+          "arrival_time": "2026-07-01T10:10:00",
+          "duration_minutes": 110,
+          "aircraft": "Airbus A321"
+        }
+      ],
+      "return_origin_airport": null,
+      "return_destination_airport": null,
+      "return_departure_date": null,
+      "return_arrival_date": null,
+      "return_departure_time": null,
+      "return_arrival_time": null,
+      "return_duration_minutes": null,
+      "return_stops": null,
+      "return_airlines": [],
+      "return_flight_numbers": [],
+      "return_layovers": [],
+      "return_segments": [],
+      "booking_options": []
+    },
+    {
+      "origin_airport": "MNL",
+      "destination_airport": "DVO",
+      "departure_date": "2026-07-01",
+      "arrival_date": "2026-07-01",
+      "departure_time": "2026-07-01T11:10:00",
+      "arrival_time": "2026-07-01T13:00:00",
+      "duration_minutes": 110,
+      "stops": 0,
+      "price": 4071,
+      "currency": "PHP",
+      "trip_type": "one_way",
+      "airlines": [
+        "Philippine Airlines"
+      ],
+      "flight_numbers": [
+        "2815"
+      ],
+      "layovers": [],
+      "emissions_kg": 104,
+      "emissions_delta_percent": 3,
+      "booking_token": "CjRIWHpMaC1rQUd3cjhBQ1c0ZFFCRy0tLS0tLS0tdGJicmQxOUFBQUFBR29OZG5JSFFWOU9BEgZQUjI4MTUaCgjnHxAAGgNQSFA4HHDBMw==",
+      "is_best": false,
+      "segments": [
+        {
+          "airline_code": "PR",
+          "airline_name": "Philippine Airlines",
+          "flight_number": "2815",
+          "operating_airline": "PAL Express",
+          "origin_airport": "MNL",
+          "origin_name": "Ninoy Aquino International Airport",
+          "destination_airport": "DVO",
+          "destination_name": "Davao International Airport",
+          "departure_time": "2026-07-01T11:10:00",
+          "arrival_time": "2026-07-01T13:00:00",
+          "duration_minutes": 110,
+          "aircraft": "Airbus A321"
+        }
+      ],
+      "return_origin_airport": null,
+      "return_destination_airport": null,
+      "return_departure_date": null,
+      "return_arrival_date": null,
+      "return_departure_time": null,
+      "return_arrival_time": null,
+      "return_duration_minutes": null,
+      "return_stops": null,
+      "return_airlines": [],
+      "return_flight_numbers": [],
+      "return_layovers": [],
+      "return_segments": [],
+      "booking_options": []
+    },
+    {
+      "origin_airport": "MNL",
+      "destination_airport": "DVO",
+      "departure_date": "2026-07-01",
+      "arrival_date": "2026-07-01",
+      "departure_time": "2026-07-01T12:30:00",
+      "arrival_time": "2026-07-01T14:20:00",
+      "duration_minutes": 110,
+      "stops": 0,
+      "price": 4071,
+      "currency": "PHP",
+      "trip_type": "one_way",
+      "airlines": [
+        "Philippine Airlines"
+      ],
+      "flight_numbers": [
+        "1805"
+      ],
+      "layovers": [],
+      "emissions_kg": 104,
+      "emissions_delta_percent": 3,
+      "booking_token": "CjRIWHpMaC1rQUd3cjhBQ1c0ZFFCRy0tLS0tLS0tdGJicmQxOUFBQUFBR29OZG5JSFFWOU9BEgZQUjE4MDUaCgjnHxAAGgNQSFA4HHDBMw==",
+      "is_best": false,
+      "segments": [
+        {
+          "airline_code": "PR",
+          "airline_name": "Philippine Airlines",
+          "flight_number": "1805",
+          "operating_airline": null,
+          "origin_airport": "MNL",
+          "origin_name": "Ninoy Aquino International Airport",
+          "destination_airport": "DVO",
+          "destination_name": "Davao International Airport",
+          "departure_time": "2026-07-01T12:30:00",
+          "arrival_time": "2026-07-01T14:20:00",
+          "duration_minutes": 110,
+          "aircraft": "Airbus A321"
+        }
+      ],
+      "return_origin_airport": null,
+      "return_destination_airport": null,
+      "return_departure_date": null,
+      "return_arrival_date": null,
+      "return_departure_time": null,
+      "return_arrival_time": null,
+      "return_duration_minutes": null,
+      "return_stops": null,
+      "return_airlines": [],
+      "return_flight_numbers": [],
+      "return_layovers": [],
+      "return_segments": [],
+      "booking_options": []
+    },
+    {
+      "origin_airport": "MNL",
+      "destination_airport": "DVO",
+      "departure_date": "2026-07-01",
+      "arrival_date": "2026-07-01",
+      "departure_time": "2026-07-01T14:30:00",
+      "arrival_time": "2026-07-01T16:25:00",
+      "duration_minutes": 115,
+      "stops": 0,
+      "price": 4071,
+      "currency": "PHP",
+      "trip_type": "one_way",
+      "airlines": [
+        "Philippine Airlines"
+      ],
+      "flight_numbers": [
+        "2817"
+      ],
+      "layovers": [],
+      "emissions_kg": 104,
+      "emissions_delta_percent": 3,
+      "booking_token": "CjRIWHpMaC1rQUd3cjhBQ1c0ZFFCRy0tLS0tLS0tdGJicmQxOUFBQUFBR29OZG5JSFFWOU9BEgZQUjI4MTcaCgjnHxAAGgNQSFA4HHDBMw==",
+      "is_best": false,
+      "segments": [
+        {
+          "airline_code": "PR",
+          "airline_name": "Philippine Airlines",
+          "flight_number": "2817",
+          "operating_airline": "PAL Express",
+          "origin_airport": "MNL",
+          "origin_name": "Ninoy Aquino International Airport",
+          "destination_airport": "DVO",
+          "destination_name": "Davao International Airport",
+          "departure_time": "2026-07-01T14:30:00",
+          "arrival_time": "2026-07-01T16:25:00",
+          "duration_minutes": 115,
+          "aircraft": "Airbus A321"
+        }
+      ],
+      "return_origin_airport": null,
+      "return_destination_airport": null,
+      "return_departure_date": null,
+      "return_arrival_date": null,
+      "return_departure_time": null,
+      "return_arrival_time": null,
+      "return_duration_minutes": null,
+      "return_stops": null,
+      "return_airlines": [],
+      "return_flight_numbers": [],
+      "return_layovers": [],
+      "return_segments": [],
+      "booking_options": []
+    },
+    {
+      "origin_airport": "MNL",
+      "destination_airport": "DVO",
+      "departure_date": "2026-07-01",
+      "arrival_date": "2026-07-01",
+      "departure_time": "2026-07-01T06:45:00",
+      "arrival_time": "2026-07-01T14:30:00",
+      "duration_minutes": 465,
+      "stops": 1,
+      "price": 4650,
+      "currency": "PHP",
+      "trip_type": "one_way",
+      "airlines": [
+        "Cebu Pacific",
+        "Cebgo"
+      ],
+      "flight_numbers": [
+        "2715",
+        "6959"
+      ],
+      "layovers": [
+        {
+          "duration_minutes": 285,
+          "airport_code": "TAG",
+          "airport_name": "Panglao International Airport",
+          "city": "Panglao"
+        }
+      ],
+      "emissions_kg": 93,
+      "emissions_delta_percent": -8,
+      "booking_token": "CjRIWHpMaC1rQUd3cjhBQ1c0ZFFCRy0tLS0tLS0tdGJicmQxOUFBQUFBR29OZG5JSFFWOU9BEg01SjI3MTV8REc2OTU5GgoIqiQQABoDUEhQOBxw6jo=",
+      "is_best": false,
+      "segments": [
+        {
+          "airline_code": "5J",
+          "airline_name": "Cebu Pacific",
+          "flight_number": "2715",
+          "operating_airline": null,
+          "origin_airport": "MNL",
+          "origin_name": "Ninoy Aquino International Airport",
+          "destination_airport": "TAG",
+          "destination_name": "Panglao International Airport",
+          "departure_time": "2026-07-01T06:45:00",
+          "arrival_time": "2026-07-01T08:25:00",
+          "duration_minutes": 100,
+          "aircraft": "Airbus A321neo"
+        },
+        {
+          "airline_code": "DG",
+          "airline_name": "Cebgo",
+          "flight_number": "6959",
+          "operating_airline": null,
+          "origin_airport": "TAG",
+          "origin_name": "Panglao International Airport",
+          "destination_airport": "DVO",
+          "destination_name": "Davao International Airport",
+          "departure_time": "2026-07-01T13:10:00",
+          "arrival_time": "2026-07-01T14:30:00",
+          "duration_minutes": 80,
+          "aircraft": "ATR 72"
+        }
+      ],
+      "return_origin_airport": null,
+      "return_destination_airport": null,
+      "return_departure_date": null,
+      "return_arrival_date": null,
+      "return_departure_time": null,
+      "return_arrival_time": null,
+      "return_duration_minutes": null,
+      "return_stops": null,
+      "return_airlines": [],
+      "return_flight_numbers": [],
+      "return_layovers": [],
+      "return_segments": [],
+      "booking_options": []
+    },
+    {
+      "origin_airport": "MNL",
+      "destination_airport": "DVO",
+      "departure_date": "2026-07-01",
+      "arrival_date": "2026-07-01",
+      "departure_time": "2026-07-01T09:35:00",
+      "arrival_time": "2026-07-01T14:30:00",
+      "duration_minutes": 295,
+      "stops": 1,
+      "price": 6106,
+      "currency": "PHP",
+      "trip_type": "one_way",
+      "airlines": [
+        "Cebu Pacific",
+        "Cebgo"
+      ],
+      "flight_numbers": [
+        "617",
+        "6959"
+      ],
+      "layovers": [
+        {
+          "duration_minutes": 110,
+          "airport_code": "TAG",
+          "airport_name": "Panglao International Airport",
+          "city": "Panglao"
+        }
+      ],
+      "emissions_kg": 97,
+      "emissions_delta_percent": -4,
+      "booking_token": "CjRIWHpMaC1rQUd3cjhBQ1c0ZFFCRy0tLS0tLS0tdGJicmQxOUFBQUFBR29OZG5JSFFWOU9BEgw1SjYxN3xERzY5NTkaCgjaLxAAGgNQSFA4HHCgTQ==",
+      "is_best": false,
+      "segments": [
+        {
+          "airline_code": "5J",
+          "airline_name": "Cebu Pacific",
+          "flight_number": "617",
+          "operating_airline": null,
+          "origin_airport": "MNL",
+          "origin_name": "Ninoy Aquino International Airport",
+          "destination_airport": "TAG",
+          "destination_name": "Panglao International Airport",
+          "departure_time": "2026-07-01T09:35:00",
+          "arrival_time": "2026-07-01T11:20:00",
+          "duration_minutes": 105,
+          "aircraft": "Airbus A330-900neo"
+        },
+        {
+          "airline_code": "DG",
+          "airline_name": "Cebgo",
+          "flight_number": "6959",
+          "operating_airline": null,
+          "origin_airport": "TAG",
+          "origin_name": "Panglao International Airport",
+          "destination_airport": "DVO",
+          "destination_name": "Davao International Airport",
+          "departure_time": "2026-07-01T13:10:00",
+          "arrival_time": "2026-07-01T14:30:00",
+          "duration_minutes": 80,
+          "aircraft": "ATR 72"
+        }
+      ],
+      "return_origin_airport": null,
+      "return_destination_airport": null,
+      "return_departure_date": null,
+      "return_arrival_date": null,
+      "return_departure_time": null,
+      "return_arrival_time": null,
+      "return_duration_minutes": null,
+      "return_stops": null,
+      "return_airlines": [],
+      "return_flight_numbers": [],
+      "return_layovers": [],
+      "return_segments": [],
+      "booking_options": []
+    }
+  ]
+}
