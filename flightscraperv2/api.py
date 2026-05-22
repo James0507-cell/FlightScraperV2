@@ -2,6 +2,7 @@ from __future__ import annotations
 
 import logging
 import time
+from contextlib import asynccontextmanager
 from pathlib import Path
 from typing import Literal
 
@@ -10,13 +11,36 @@ from fastapi.middleware.cors import CORSMiddleware
 from pydantic import BaseModel, Field
 
 from .cli import run_report, run_single
+from .models import FlightQuery
+from .session_manager import SessionManager
 
-# Configure logging
 logging.basicConfig(
     level=logging.INFO,
     format="%(asctime)s - %(name)s - %(levelname)s - %(message)s",
 )
 logger = logging.getLogger("api")
+
+_session_manager: SessionManager | None = None
+
+
+def get_session_manager() -> SessionManager:
+    global _session_manager
+    if _session_manager is None:
+        raise HTTPException(status_code=503, detail="Session manager not initialized")
+    return _session_manager
+
+
+@asynccontextmanager
+async def lifespan(app: FastAPI):
+    global _session_manager
+    _session_manager = SessionManager(headless=True, archive_root="artifacts")
+    await _session_manager.start()
+    logger.info("Session manager started")
+    yield
+    if _session_manager:
+        await _session_manager.stop()
+        logger.info("Session manager stopped")
+    _session_manager = None
 
 
 class ScrapeRequest(BaseModel):
@@ -34,7 +58,16 @@ class ScrapeRequest(BaseModel):
     detail_level: Literal["summary", "complete"] = "summary"
 
 
+class SessionScrapeRequest(ScrapeRequest):
+    session_ttl: int = Field(default=600, ge=60, le=3600, description="Session lifetime in seconds")
+
+
 class OfferDetailsRequest(ScrapeRequest):
+    offer_index: int = Field(..., ge=0)
+    return_offer_index: int | None = Field(default=None, ge=0)
+
+
+class SessionDetailsRequest(BaseModel):
     offer_index: int = Field(..., ge=0)
     return_offer_index: int | None = Field(default=None, ge=0)
 
@@ -47,8 +80,9 @@ class HealthResponse(BaseModel):
 def create_app() -> FastAPI:
     app = FastAPI(
         title="FlightScraperV2 API",
-        version="0.1.0",
-        description="HTTP API for Google Flights scraping and stored scrape reports.",
+        version="0.2.0",
+        description="HTTP API for Google Flights scraping with session-based detail fetching.",
+        lifespan=lifespan,
     )
     app.add_middleware(
         CORSMiddleware,
@@ -74,7 +108,7 @@ def create_app() -> FastAPI:
     async def root() -> dict:
         return {
             "service": "FlightScraperV2 API",
-            "version": "0.1.0",
+            "version": "0.2.0",
             "docs_url": "/docs",
             "openapi_url": "/openapi.json",
         }
@@ -82,6 +116,86 @@ def create_app() -> FastAPI:
     @app.get("/health", response_model=HealthResponse, tags=["meta"])
     async def health() -> HealthResponse:
         return HealthResponse(status="ok", service="FlightScraperV2 API")
+
+    # === Session endpoints ===
+
+    @app.post("/api/v1/sessions", tags=["sessions"])
+    async def create_session(request: SessionScrapeRequest) -> dict:
+        sm = get_session_manager()
+        trip_type = "round_trip" if request.return_date else "one_way"
+        query = FlightQuery(
+            origin=request.origin,
+            destination=request.destination,
+            depart_date=request.depart_date,
+            return_date=request.return_date,
+            trip_type=trip_type,
+            passengers=request.passengers,
+            cabin=request.cabin,
+            max_stops=request.max_stops,
+            max_retries=request.retries,
+            detail_level=request.detail_level,
+        )
+        session = await sm.create_session(query)
+        return {
+            "session_id": session.session_id,
+            "origin": session.query.origin,
+            "destination": session.query.destination,
+            "depart_date": session.query.depart_date,
+            "return_date": session.query.return_date,
+            "offer_count": len(session.offers),
+            "offers": [offer.to_dict() for offer in session.offers],
+            "expires_at": session.expires_at.isoformat(),
+            "notes": session.notes,
+        }
+
+    @app.get("/api/v1/sessions", tags=["sessions"])
+    async def list_sessions() -> dict:
+        sm = get_session_manager()
+        sessions = await sm.list_sessions()
+        return {"sessions": sessions, "count": len(sessions)}
+
+    @app.get("/api/v1/sessions/{session_id}", tags=["sessions"])
+    async def get_session(session_id: str) -> dict:
+        sm = get_session_manager()
+        session = await sm.get_session(session_id)
+        if session is None:
+            raise HTTPException(status_code=404, detail=f"Session {session_id} not found or expired")
+        return {
+            "session_id": session.session_id,
+            "origin": session.query.origin,
+            "destination": session.query.destination,
+            "depart_date": session.query.depart_date,
+            "return_date": session.query.return_date,
+            "offer_count": len(session.offers),
+            "offers": [offer.to_dict() for offer in session.offers],
+            "expires_at": session.expires_at.isoformat(),
+            "notes": session.notes,
+        }
+
+    @app.delete("/api/v1/sessions/{session_id}", tags=["sessions"])
+    async def delete_session(session_id: str) -> dict:
+        sm = get_session_manager()
+        deleted = await sm.delete_session(session_id)
+        if not deleted:
+            raise HTTPException(status_code=404, detail=f"Session {session_id} not found")
+        return {"session_id": session_id, "status": "deleted"}
+
+    @app.post("/api/v1/sessions/{session_id}/details", tags=["sessions"])
+    async def get_session_details(session_id: str, request: SessionDetailsRequest) -> dict:
+        sm = get_session_manager()
+        result = await sm.get_offer_details(
+            session_id=session_id,
+            offer_index=request.offer_index,
+            return_offer_index=request.return_offer_index,
+        )
+        if result is None:
+            raise HTTPException(status_code=404, detail=f"Session {session_id} not found or expired")
+        payload = result.to_dict()
+        payload["return_offer_count"] = len(result.return_offers)
+        payload["booking_option_count"] = len(result.booking_options)
+        return payload
+
+    # === Legacy scrape endpoints (still supported) ===
 
     @app.post("/api/v1/scrape", tags=["scrape"])
     async def scrape(request: ScrapeRequest) -> dict:

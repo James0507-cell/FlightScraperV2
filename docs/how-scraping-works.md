@@ -44,12 +44,14 @@ The main modules are:
 - [main.py](C:/Users/Admin/PycharmProjects/FlightScraperV2/main.py)
 - [cli.py](C:/Users/Admin/PycharmProjects/FlightScraperV2/flightscraperv2/cli.py)
 - [google_flights.py](C:/Users/Admin/PycharmProjects/FlightScraperV2/flightscraperv2/google_flights.py)
+- [session_manager.py](C:/Users/Admin/PycharmProjects/FlightScraperV2/flightscraperv2/session_manager.py)
 - [replay_client.py](C:/Users/Admin/PycharmProjects/FlightScraperV2/flightscraperv2/replay_client.py)
 - [replay.py](C:/Users/Admin/PycharmProjects/FlightScraperV2/flightscraperv2/replay.py)
 - [parser.py](C:/Users/Admin/PycharmProjects/FlightScraperV2/flightscraperv2/parser.py)
 - [models.py](C:/Users/Admin/PycharmProjects/FlightScraperV2/flightscraperv2/models.py)
 - [storage.py](C:/Users/Admin/PycharmProjects/FlightScraperV2/flightscraperv2/storage.py)
 - [database.py](C:/Users/Admin/PycharmProjects/FlightScraperV2/flightscraperv2/database.py)
+- [api.py](C:/Users/Admin/PycharmProjects/FlightScraperV2/flightscraperv2/api.py)
 
 ## Flow Overview
 
@@ -389,8 +391,54 @@ The current design already gives the project:
 - SQLite persistence
 - benchmark support
 - report queries over stored runs
+- session-based API for interactive trip planning applications
 
-## 15. Current Limitations
+## 15. Session-Based API for Trip Planning Apps
+
+Version 0.2.0 introduces a session-based API designed specifically for interactive trip planning applications.
+
+### How It Works
+
+Instead of re-running the full browser search every time a user clicks a flight card, the session-based approach:
+
+1. Creates a session with an initial search (returns offers)
+2. Keeps the browser context alive
+3. Fetches details for any offer using the same session
+4. Automatically cleans up expired sessions
+
+### Why This Matters
+
+For a trip planning app where users browse multiple flight cards:
+
+- **Legacy approach**: Each detail click triggers a full ~35 second re-search
+- **Session approach**: Initial search takes ~6 seconds, subsequent detail fetches share the browser context
+
+### Session Lifecycle
+
+```
+POST /api/v1/sessions → Create session (runs initial search)
+    ↓
+GET  /api/v1/sessions → List active sessions
+    ↓
+POST /api/v1/sessions/{id}/details → Fetch offer details
+    ↓
+DELETE /api/v1/sessions/{id} → Clean up session
+```
+
+Sessions auto-expire after 10 minutes (configurable via `session_ttl`).
+
+### Implementation
+
+The session manager (`session_manager.py`) handles:
+
+- Browser context sharing across detail requests
+- Session creation and cleanup
+- Automatic expiry with background cleanup task
+- Thread-safe session access with async locks
+
+See `docs/client-implementation-guide.md` for client-side implementation examples.
+
+## 16. Current Limitations
 
 The current implementation still has important limits:
 
@@ -401,14 +449,15 @@ The current implementation still has important limits:
 - anti-blocking behavior is still basic
 - broader route coverage still needs validation
 
-## 16. Summary
+## 17. Summary
 
-The scraper is a Playwright-based, network-first Google Flights scraper with a replay acceleration layer.
+The scraper is a Playwright-based, network-first Google Flights scraper with a replay acceleration layer and session-based API for interactive applications.
 
 In practice:
 
 - browser mode summary discovers and captures the initial live results
 - detail expansion is a second scrape for one selected itinerary
 - replay mode reuses the discovered request format for speed
-- parser logic converts Google’s internal payload into stable offer data
+- session-based API enables interactive trip planning with shared browser context
+- parser logic converts Google's internal payload into stable offer data
 - storage and SQLite keep both raw evidence and normalized results available for analysis

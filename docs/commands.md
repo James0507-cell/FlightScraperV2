@@ -144,6 +144,52 @@ If port `8000` is already occupied by another local process, stop that process o
 .\.venv\Scripts\python -m uvicorn flightscraperv2.api:app --host 0.0.0.0 --port 8001
 ```
 
+## Session-Based API (Recommended for Interactive Apps)
+
+The session-based API is designed for trip planning applications where users search once and then browse multiple flight details without re-searching.
+
+Create a search session:
+
+```powershell
+Invoke-RestMethod -Method Post http://127.0.0.1:8000/api/v1/sessions -ContentType 'application/json' -Body '{"origin":"DVO","destination":"MNL","depart_date":"2026-07-02","return_date":"2026-07-08"}'
+```
+
+List active sessions:
+
+```powershell
+Invoke-RestMethod http://127.0.0.1:8000/api/v1/sessions
+```
+
+Get session details:
+
+```powershell
+Invoke-RestMethod http://127.0.0.1:8000/api/v1/sessions/{session_id}
+```
+
+Get offer details via session:
+
+```powershell
+Invoke-RestMethod -Method Post http://127.0.0.1:8000/api/v1/sessions/{session_id}/details -ContentType 'application/json' -Body '{"offer_index":0}'
+```
+
+Get return flight options (round-trip):
+
+```powershell
+Invoke-RestMethod -Method Post http://127.0.0.1:8000/api/v1/sessions/{session_id}/details -ContentType 'application/json' -Body '{"offer_index":0}'
+```
+
+Get booking options (round-trip with return selected):
+
+```powershell
+Invoke-RestMethod -Method Post http://127.0.0.1:8000/api/v1/sessions/{session_id}/details -ContentType 'application/json' -Body '{"offer_index":0,"return_offer_index":0}'
+```
+
+Delete session (cleanup):
+
+```powershell
+Invoke-RestMethod -Method Delete http://127.0.0.1:8000/api/v1/sessions/{session_id}
+```
+
 ## API Smoke Tests
 
 Health check:
@@ -164,7 +210,7 @@ Round-trip scrape request:
 Invoke-RestMethod -Method Post http://127.0.0.1:8000/api/v1/scrape -ContentType 'application/json' -Body '{"mode":"browser","origin":"DVO","destination":"MNL","depart_date":"2026-07-02","return_date":"2026-07-08","detail_level":"summary","headless":true}'
 ```
 
-Offer-details request:
+Offer-details request (legacy):
 
 ```powershell
 Invoke-RestMethod -Method Post http://127.0.0.1:8000/api/v1/scrape/details -ContentType 'application/json' -Body '{"origin":"DVO","destination":"MNL","depart_date":"2026-07-02","offer_index":0,"headless":true}'

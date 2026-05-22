@@ -1,8 +1,8 @@
 # Progress Summary
 
-## Current State
+## Current State (v0.2.0)
 
-The project now has a working first version of a Google Flights scraper built around `Playwright` and network interception instead of DOM scraping.
+The project is a working Google Flights scraper built around `Playwright` and network interception instead of DOM scraping. It now includes a **session-based API** designed for interactive trip planning applications.
 
 Implemented components:
 
@@ -19,6 +19,12 @@ Implemented components:
   - Waits for the `GetShoppingResults` network response.
   - Retries failed runs.
   - Supports concurrent query execution through a shared scraper instance.
+- `flightscraperv2/session_manager.py`
+  - Manages browser sessions for interactive trip planning.
+  - Creates sessions with initial search results.
+  - Fetches offer details using shared browser context.
+  - Automatic session expiry and cleanup.
+  - Thread-safe session access with async locks.
 - `flightscraperv2/parser.py`
   - Strips the XSSI prefix from Google responses.
   - Walks nested payloads, including embedded JSON strings.
@@ -39,6 +45,12 @@ Implemented components:
   - Persists runs, offers, and segments into SQLite.
   - Uses the archive flow so successful runs are stored automatically.
   - Exposes read-side queries for reporting over persisted runs and offers.
+- `flightscraperv2/api.py`
+  - FastAPI HTTP API with session-based endpoints.
+  - Legacy scrape endpoints for non-interactive use.
+  - Report endpoints for querying persisted data.
+  - CORS enabled for direct browser client access.
+  - Automatic session lifecycle management.
 - `tests/`
   - Contains offline parser and replay-template tests using archived artifacts.
 
@@ -58,6 +70,9 @@ Verified outcomes:
 - Added a CLI replay mode that uses a bootstrap browser query and then replays requests through the session context.
 - Added persistent SQLite storage for archived runs.
 - Added a query/report layer on top of SQLite for inspecting stored runs without re-reading artifact files.
+- Added session-based API for interactive trip planning applications.
+- Verified session creation, detail fetching, and cleanup through live API tests.
+- All 19 unit tests passing.
 
 Example validated artifact directories:
 
@@ -72,6 +87,10 @@ Current automated tests:
 - `test_replay.py`
 - `test_database.py`
 - `test_reports.py`
+- `test_api.py`
+- `test_booking_links.py`
+- `test_booking_replay.py`
+- `test_cli_replay_mode.py`
 
 ## What Has Been Solved
 
@@ -79,25 +98,26 @@ The following technical uncertainties are no longer blockers:
 
 - Google Flights can be scraped more effectively from network responses than from result-card HTML.
 - `GetShoppingResults` contains usable structured data.
-- Google’s payload is not a public clean REST API, but it is parseable enough for an internal scraper pipeline.
+- Google's payload is not a public clean REST API, but it is parseable enough for an internal scraper pipeline.
 - The date fields can be handled without relying on fragile calendar clicks.
 - A retry layer is required because Google Flights interactions are not consistently stable across runs.
 - Archived request bodies can be decoded into a reusable internal template for replay experiments.
+- Session-based API enables interactive trip planning without re-searching for each detail fetch.
 
 ## Known Limitations
 
-The implementation is still an early production scaffold, not a finished high-speed scraper.
+The implementation is a production scaffold with interactive API support.
 
 Current limitations:
 
 - Query submission still depends on Playwright browser automation for each search.
-- Some selectors are still tied to Google’s current frontend structure and may need updates if the UI changes.
+- Some selectors are still tied to Google's current frontend structure and may need updates if the UI changes.
 - The parser is heuristic and based on the currently observed payload structure.
-- There is no full integration test suite yet.
 - The benchmark harness exists, but it is still oriented toward JSON artifact output and not long-run operational reporting.
 - There is no deduplication or queueing layer yet.
 - The live replay execution path exists and has been validated on current benchmark routes, but it still needs broader route coverage.
 - There is no anti-blocking strategy yet beyond retries.
+- Session detail fetches still require ~30-40 seconds per request (browser interaction time).
 
 ## What Still Needs To Be Done
 
@@ -139,6 +159,7 @@ Remaining tasks:
    - Keep unit tests for parser and replay templates.
    - Add integration tests for the CLI and storage flow.
    - Add regression coverage for multiple artifact samples.
+   - Add session-based API integration tests.
 
 ## What Should Be Done Next
 
@@ -178,6 +199,12 @@ Why this is next:
 - Add larger-batch orchestration.
 - Add deduplication and resumable runs.
 
+### Phase 4 (Completed)
+
+- Session-based API for interactive trip planning applications.
+- Client implementation guide with code examples.
+- Updated API documentation.
+
 ## Suggested Commands
 
 Single query:
@@ -214,7 +241,7 @@ python main.py --report mode-summary
 
 ## Summary
 
-The scraper has moved from idea stage to working prototype.
+The scraper has moved from idea stage to working prototype with interactive API support.
 
 Current position:
 
@@ -229,6 +256,8 @@ Current position:
 - Offline parser and replay tests now pass.
 - A replay CLI mode and replay client now exist, using one bootstrap browser query plus replayed follow-up requests.
 - Benchmarking and persisted reporting are both available from the CLI.
+- Session-based API enables interactive trip planning without re-searching.
+- Client implementation guide with code examples is available.
 
 Next priority:
 
